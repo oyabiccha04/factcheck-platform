@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>予測者一覧 | factcheck-platform</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .filter-wrap { margin-bottom: 16px; }
+    .filter-wrap label { display: block; font-size: 0.9em; color: #333; margin-bottom: 6px; }
+    .filter-wrap input[type="search"] { width: 100%; max-width: 320px; padding: 8px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1em; }
+    .filter-wrap input[type="search"]:focus { outline: none; border-color: #0b57d0; }
+    .filter-result-note { font-size: 0.9em; color: #666; margin-top: 8px; }
+    .predictor-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
+    .predictor-list a { display: inline-block; padding: 8px 14px; background: #fff; border: 1px solid #e6e8eb; border-radius: 8px; color: #0b57d0; text-decoration: none; font-size: 0.95em; }
+    .predictor-list a:hover { background: #f8f9fa; border-color: #0b57d0; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>予測者一覧</h1>
+  <p>予測者ごとに発言・予測・検証を興行をまたいで確認できます</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="../index.html">トップ</a></li>
+    <li class="nav__parent">
+      <a href="./">格闘技ログ</a>
+      <ul>
+        <li><a href="logs.html">格闘技ログ一覧</a></li>
+        <li><a href="predictors.html">予測者一覧</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section aria-label="予測者一覧">
+    <h2>予測者を選ぶ</h2>
+    <p class="muted" style="font-size: 0.9em;">名前をクリックすると、その予測者の発言・予測・検証結果を一覧表示します。</p>
+    <div class="filter-wrap" aria-label="名前で検索">
+      <label for="predictor-search">名前で検索</label>
+      <input type="search" id="predictor-search" placeholder="例: 朝倉未来、魔裟斗" autocomplete="off">
+      <p id="filter-result-note" class="filter-result-note" aria-live="polite"></p>
+    </div>
+    <div id="predictor-list" class="predictor-list">
+      <p class="muted">読み込み中…</p>
+    </div>
+  </section>
+
+  <nav aria-label="ページ内導線" style="margin-top: 24px;">
+    <ul style="list-style: none; padding-left: 0;">
+      <li style="margin-bottom: 8px;"><a href="logs.html">格闘技ログ一覧へ</a></li>
+      <li><a href="./">格闘技ログトップへ戻る</a></li>
+    </ul>
+  </nav>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var CACHE = "20260318";
+  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+
+  function fetchIndex() {
+    return fetch("../data/index.json?v=" + CACHE).then(function (res) {
+      if (!res.ok) throw new Error("読み込みに失敗しました（" + res.status + "）");
+      return res.json();
+    });
+  }
+  function fetchEventFile(file) {
+    return fetch("../data/events/" + encodeURIComponent(file) + "?v=" + CACHE).then(function (res) {
+      if (!res.ok) return null;
+      return res.json();
+    });
+  }
+  function normalizeIndex(raw) {
+    var list = Array.isArray(raw) ? raw : (raw && raw.events) ? raw.events : [];
+    return list.map(function (item) {
+      if (!item || typeof item !== "object") return null;
+      var file = (item.file != null) ? String(item.file).trim() : "";
+      if (!file || file.indexOf("..") !== -1 || !file.toLowerCase().endsWith(".json")) return null;
+      return { title: item.title != null ? String(item.title) : "", date: item.date != null ? String(item.date) : "", organization: item.organization != null ? String(item.organization) : "", file: file };
+    }).filter(Boolean);
+  }
+  function filterMartialArts(events) {
+    var set = {};
+    MARTIAL_ARTS_ORGANIZATIONS.forEach(function (o) { set[o] = true; });
+    return events.filter(function (e) { return set[e.organization]; });
+  }
+  function extractPredictorNames(evData) {
+    var names = [];
+    function add(s) { if (s && String(s).trim()) names.push(String(s).trim()); }
+    if (!evData) return names;
+    if (Array.isArray(evData.statements)) {
+      evData.statements.forEach(function (s) {
+        var pred = s && s.prediction;
+        if (pred && pred.predictor_name) add(pred.predictor_name);
+      });
+    }
+    if (Array.isArray(evData.cards)) {
+      evData.cards.forEach(function (card) {
+        (card && card.bouts || []).forEach(function (b) {
+          var pred = b && b.prediction;
+          if (pred && pred.predictor_name) add(pred.predictor_name);
+        });
+      });
+    }
+    return names;
+  }
+
+  var container = document.getElementById("predictor-list");
+  var searchEl = document.getElementById("predictor-search");
+  var noteEl = document.getElementById("filter-result-note");
+  var allNames = [];
+
+  function renderList(names) {
+    container.innerHTML = "";
+    if (names.length === 0) {
+      container.appendChild(document.createTextNode("該当する予測者がいません。"));
+      return;
+    }
+    names.forEach(function (name) {
+      var a = document.createElement("a");
+      a.href = "predictor.html?name=" + encodeURIComponent(name);
+      a.textContent = name;
+      container.appendChild(a);
+    });
+  }
+  function updateFilterNote(visibleCount, totalCount) {
+    if (!noteEl) return;
+    if (totalCount === 0) {
+      noteEl.textContent = "";
+      return;
+    }
+    if (visibleCount === totalCount) {
+      noteEl.textContent = totalCount + "件";
+    } else {
+      noteEl.textContent = visibleCount + "件 / 全" + totalCount + "件";
+    }
+  }
+  function applyFilter() {
+    var q = (searchEl && searchEl.value) ? String(searchEl.value).trim() : "";
+    var qLower = q.toLowerCase();
+    var filtered = q === "" ? allNames : allNames.filter(function (name) {
+      return name.toLowerCase().indexOf(qLower) !== -1;
+    });
+    renderList(filtered);
+    updateFilterNote(filtered.length, allNames.length);
+  }
+
+  if (searchEl) {
+    searchEl.addEventListener("input", applyFilter);
+    searchEl.addEventListener("change", applyFilter);
+  }
+
+  fetchIndex()
+    .then(function (raw) {
+      var all = normalizeIndex(raw);
+      var events = filterMartialArts(all);
+      return Promise.all(events.map(function (ev) {
+        return fetchEventFile(ev.file).then(function (evData) { return extractPredictorNames(evData || {}); }).catch(function () { return []; });
+      })).then(function (nameArrays) {
+        var set = {};
+        nameArrays.forEach(function (arr) { arr.forEach(function (n) { set[n] = true; }); });
+        allNames = Object.keys(set).filter(function (n) { return n; }).sort(function (a, b) { return String(a).localeCompare(String(b), "ja"); });
+        applyFilter();
+      });
+    })
+    .catch(function (err) {
+      container.innerHTML = "";
+      var p = document.createElement("p");
+      p.className = "error";
+      p.style.color = "#c00";
+      p.textContent = "読み込みに失敗しました: " + (err && err.message ? err.message : String(err));
+      container.appendChild(p);
+    });
+})();
+</script>
+
+</body>
+</html>

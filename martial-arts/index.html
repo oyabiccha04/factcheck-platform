@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>格闘技ログ | factcheck-platform</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .spotlight-list { display: flex; flex-direction: column; gap: 12px; }
+    .spotlight-card { cursor: pointer; transition: box-shadow 0.2s ease, background-color 0.2s ease; }
+    .spotlight-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); background-color: #f8f9fa; }
+    .spotlight-card .meta { color: #666; font-size: 0.9em; margin-top: 4px; }
+    .rank-table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e6e8eb; border-radius: 10px; overflow: hidden; }
+    .rank-table th, .rank-table td { padding: 10px 12px; border-bottom: 1px solid #eef0f2; text-align: left; font-size: 0.95em; }
+    .rank-table thead th { background: #f8f9fa; color: #333; font-weight: 600; }
+    .rank-table tbody tr:last-child td { border-bottom: none; }
+    .rank-note { color: #666; font-size: 0.9em; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>格闘技ログ</h1>
+  <p>直近の注目イベントと的中率ランキング</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="../index.html">トップ</a></li>
+    <li class="nav__parent">
+      <a href="./">格闘技ログ</a>
+      <ul>
+        <li><a href="logs.html">格闘技ログ一覧</a></li>
+        <li><a href="predictors.html">予測者一覧</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- 直近の注目イベント -->
+  <section aria-label="直近の注目イベント">
+    <h2>直近の注目イベント</h2>
+    <div class="spotlight-list">
+      <div id="spotlight-upcoming" class="spotlight-card card">
+        <p class="meta">読み込み中…</p>
+      </div>
+      <div id="spotlight-past" class="spotlight-card card">
+        <p class="meta">読み込み中…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 的中率ランキング -->
+  <section aria-label="的中率ランキング">
+    <h2>的中率ランキング（興行クローズ時点）</h2>
+    <div id="hit-rate-ranking" class="rank-note">読み込み中…</div>
+    <p class="rank-note">集計対象は主予測（勝者方向）が確定しているもののみ。途中集計は行いません。</p>
+  </section>
+
+  <!-- 格闘技ログ一覧・予測者一覧（メイン導線） -->
+  <section aria-label="格闘技ログ一覧・予測者一覧" style="margin-top: 24px;">
+    <div class="card spotlight-card" onclick="location.href='logs.html'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.href='logs.html';}" role="button" tabindex="0" style="cursor: pointer;">
+      <h3>格闘技ログ一覧へ</h3>
+      <p class="meta">興行一覧・検索</p>
+    </div>
+    <div class="card spotlight-card" onclick="location.href='predictors.html'" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();location.href='predictors.html';}" role="button" tabindex="0" style="cursor: pointer; margin-top: 12px;">
+      <h3>予測者一覧</h3>
+      <p class="meta">予測者ごとの発言・予測・検証</p>
+    </div>
+  </section>
+
+  <nav aria-label="ページ内導線" style="margin-top: 16px;">
+    <ul style="list-style: none; padding-left: 0;">
+      <li><a href="../index.html">トップへ戻る</a></li>
+    </ul>
+  </nav>
+
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var CACHE = "20260318";
+
+  function fetchIndex() {
+    return fetch("../data/index.json?v=" + CACHE).then(function (res) {
+      if (!res.ok) throw new Error("読み込みに失敗しました（" + res.status + "）");
+      return res.json();
+    });
+  }
+
+  function fetchEventFile(file) {
+    return fetch("../data/events/" + encodeURIComponent(file) + "?v=" + CACHE).then(function (res) {
+      if (!res.ok) throw new Error(file + " の読み込みに失敗");
+      return res.json();
+    });
+  }
+
+  function normalizeIndex(raw) {
+    var list = Array.isArray(raw) ? raw : (raw && raw.events) ? raw.events : [];
+    return list
+      .map(function (item) {
+        if (!item || typeof item !== "object") return null;
+        var file = (item.file != null) ? String(item.file).trim() : "";
+        if (!file || file.indexOf("..") !== -1 || !file.toLowerCase().endsWith(".json")) return null;
+        return {
+          title: item.title != null ? String(item.title) : "",
+          date: item.date != null ? String(item.date) : "",
+          organization: item.organization != null ? String(item.organization) : "",
+          file: file
+        };
+      })
+      .filter(Boolean);
+  }
+
+  function sortByDateNewestFirst(events) {
+    return events.slice().sort(function (a, b) {
+      var tA = a.date ? new Date(a.date).getTime() : 0;
+      var tB = b.date ? new Date(b.date).getTime() : 0;
+      return tB - tA;
+    });
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  function renderSpotlight(el, event, label) {
+    if (!el) return;
+    if (!event) {
+      el.innerHTML = "<p class=\"meta\">" + escapeHtml(label) + "：該当なし</p>";
+      el.onclick = null;
+      el.style.cursor = "default";
+      return;
+    }
+    el.innerHTML =
+      "<h3>" + escapeHtml(event.title) + "</h3>" +
+      "<p class=\"meta\">" + escapeHtml(event.organization || "") + " / " + escapeHtml(event.date || "") + "</p>" +
+      "<p class=\"meta\">" + escapeHtml(label) + " → 詳細を見る</p>";
+    el.onclick = function () { location.href = "../event.html?file=" + encodeURIComponent(event.file); };
+    el.style.cursor = "pointer";
+  }
+
+  // 興行前＝今日以降で最も近い日付の1件、興行後＝今日より前で最も新しい1件
+  function pickSpotlightEvents(sortedEvents) {
+    var today = new Date();
+    today.setHours(0, 0, 0, 0);
+    var upcoming = null;
+    var past = null;
+    for (var i = 0; i < sortedEvents.length; i++) {
+      var ev = sortedEvents[i];
+      var d = ev.date ? new Date(ev.date) : null;
+      if (!d) continue;
+      d.setHours(0, 0, 0, 0);
+      if (d >= today) {
+        if (!upcoming || d.getTime() < new Date(upcoming.date).getTime()) upcoming = ev;
+      } else {
+        if (!past) { past = ev; break; }
+      }
+    }
+    if (!past && sortedEvents.length) {
+      var latest = sortedEvents[0];
+      var latestD = latest.date ? new Date(latest.date) : null;
+      if (latestD) { latestD.setHours(0, 0, 0, 0); if (latestD < today) past = latest; }
+    }
+    return { upcoming: upcoming, past: past };
+  }
+
+  // ランキング集計（logs.html と同様）
+  function normalizeText(s) { return String(s || "").trim().toLowerCase(); }
+  function addCount(map, name, hit) {
+    var key = name || "不明";
+    if (!map[key]) map[key] = { name: key, hit: 0, total: 0 };
+    map[key].total += 1;
+    if (hit) map[key].hit += 1;
+  }
+  function collectFromEventJson(evData, counts) {
+    if (!evData) return;
+    if (Array.isArray(evData.cards)) {
+      evData.cards.forEach(function (card) {
+        var bouts = (card && Array.isArray(card.bouts)) ? card.bouts : [];
+        bouts.forEach(function (b) {
+          var pred = b && b.prediction ? b.prediction : null;
+          var out = b && b.outcome ? b.outcome : null;
+          if (!pred || !pred.exists || !pred.expected_winner || !out || !out.winner) return;
+          var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+          addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(out.winner));
+        });
+      });
+    }
+    if (Array.isArray(evData.statements)) {
+      evData.statements.forEach(function (stmt) {
+        var pred = stmt && stmt.prediction ? stmt.prediction : null;
+        var ver = stmt && stmt.verification ? stmt.verification : null;
+        if (!pred || !pred.exists || !pred.expected_winner || !ver || !ver.winner) return;
+        var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+        addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(ver.winner));
+      });
+    }
+  }
+  function renderRanking(countsMap, containerEl) {
+    if (!containerEl) return;
+    var rows = Object.keys(countsMap).map(function (k) { return countsMap[k]; });
+    if (!rows.length) {
+      containerEl.textContent = "集計対象がありません（予測・勝者確定のデータを追加してください）";
+      return;
+    }
+    rows.sort(function (a, b) {
+      var ra = a.total ? (a.hit / a.total) : 0;
+      var rb = b.total ? (b.hit / b.total) : 0;
+      if (rb !== ra) return rb - ra;
+      if (b.total !== a.total) return b.total - a.total;
+      return String(a.name).localeCompare(String(b.name), "ja");
+    });
+    var table = document.createElement("table");
+    table.className = "rank-table";
+    table.innerHTML = "<thead><tr><th>予測者</th><th>的中率</th><th>的中/母数</th></tr></thead><tbody></tbody>";
+    var tbody = table.querySelector("tbody");
+    rows.forEach(function (r) {
+      var rate = r.total ? Math.round((r.hit / r.total) * 1000) / 10 : 0;
+      var tr = document.createElement("tr");
+      tr.innerHTML = "<td>" + escapeHtml(r.name) + "</td><td>" + escapeHtml(rate.toFixed(1)) + "%</td><td>" + escapeHtml(String(r.hit)) + "/" + escapeHtml(String(r.total)) + "</td>";
+      tbody.appendChild(tr);
+    });
+    containerEl.innerHTML = "";
+    containerEl.appendChild(table);
+  }
+
+  fetchIndex()
+    .then(function (raw) {
+      var list = normalizeIndex(raw);
+      var sorted = sortByDateNewestFirst(list);
+
+      var spotlight = pickSpotlightEvents(sorted);
+      renderSpotlight(document.getElementById("spotlight-upcoming"), spotlight.upcoming, "興行前");
+      renderSpotlight(document.getElementById("spotlight-past"), spotlight.past, "興行後");
+
+      var counts = {};
+      return Promise.all(
+        list.map(function (ev) {
+          return fetchEventFile(ev.file)
+            .then(function (evData) { collectFromEventJson(evData, counts); })
+            .catch(function () {});
+        })
+      ).then(function () {
+        renderRanking(counts, document.getElementById("hit-rate-ranking"));
+      });
+    })
+    .catch(function (err) {
+      var msg = err && err.message ? err.message : String(err);
+      document.getElementById("spotlight-upcoming").innerHTML = "<p class=\"meta\">読み込みエラー</p>";
+      document.getElementById("spotlight-past").innerHTML = "<p class=\"meta\">読み込みエラー</p>";
+      var re = document.getElementById("hit-rate-ranking");
+      if (re) re.textContent = "ランキングの読み込みに失敗しました。";
+    });
+})();
+</script>
+
+</body>
+</html>

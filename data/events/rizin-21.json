@@ -1,0 +1,88 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-21",
+  "event_meta": {
+    "event_name": "RIZIN.21",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2020-02-22",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "浜松アリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin-21-main",
+          "division": "Catchweight",
+          "rules": "RIZIN MMA",
+          "red": "朝倉未来",
+          "blue": "ダニエル・サラス",
+          "outcome": {
+            "winner": "朝倉未来",
+            "method": "KO",
+            "round": 2,
+            "time": "2:34"
+          }
+        },
+        {
+          "bout_id": "rizin-21-highlight-1",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "ビクター・ヘンリー",
+          "blue": "金原正徳",
+          "outcome": {
+            "winner": "ビクター・ヘンリー",
+            "method": "TKO",
+            "round": 2,
+            "time": "0:45"
+          }
+        },
+        {
+          "bout_id": "rizin-21-highlight-2",
+          "division": "Heavyweight",
+          "rules": "RIZIN MMA",
+          "red": "ロッキー・マルティネス",
+          "blue": "関根“シュレック”秀樹",
+          "outcome": {
+            "winner": "ロッキー・マルティネス",
+            "method": "TKO",
+            "round": 1,
+            "time": "4:04"
+          }
+        },
+        {
+          "bout_id": "rizin-21-highlight-3",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "井上直樹",
+          "blue": "トレント・ガーダム",
+          "outcome": {
+            "winner": "井上直樹",
+            "method": "Decision",
+            "round": 3,
+            "time": null
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

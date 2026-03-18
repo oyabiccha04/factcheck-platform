@@ -1,0 +1,17 @@
+{
+  "version": "event-index-v1",
+  "events": [
+    {
+      "event_id": "the-match-2022",
+      "event_name": "THE MATCH 2022",
+      "event_date": "2022-06-19",
+      "event_file": "the-match-2022.json"
+    },
+    {
+      "event_id": "rizin-40",
+      "event_name": "RIZIN.40",
+      "event_date": "2022-12-31",
+      "event_file": "rizin-40.json"
+    }
+  ]
+}

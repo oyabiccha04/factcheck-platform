@@ -1,0 +1,9 @@
+{
+  "event_id": "rizin-40",
+  "event_name": "RIZIN.40",
+  "event_date": "2022-12-31",
+  "event_location": "さいたまスーパーアリーナ",
+  "event_type": "combat_sports",
+  "source_note": "イベント単位JSON分離構造の拡張性確認用。内容の充実や検証は将来工程で行う。",
+  "statements": []
+}

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>予測者ごとの発言・予測・検証 | factcheck-platform</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .predictor-detail__name { font-size: 1.2em; margin-bottom: 16px; }
+    .pred-table { width: 100%; border-collapse: collapse; background: #fff; border: 1px solid #e6e8eb; border-radius: 10px; overflow: hidden; font-size: 0.9em; }
+    .pred-table th, .pred-table td { padding: 10px 12px; border-bottom: 1px solid #eef0f2; text-align: left; vertical-align: top; }
+    .pred-table thead th { background: #f8f9fa; font-weight: 600; }
+    .pred-table tbody tr:last-child td { border-bottom: none; }
+    .pred-table .content-cell { max-width: 280px; }
+    .badge-ok { color: #0d7a3d; }
+    .badge-ng { color: #b00020; }
+    .badge-unknown { color: #666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>予測者ごとの発言・予測・検証</h1>
+  <p id="predictor-subtitle" class="muted">読み込み中…</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="../index.html">トップ</a></li>
+    <li class="nav__parent">
+      <a href="./">格闘技ログ</a>
+      <ul>
+        <li><a href="logs.html">格闘技ログ一覧</a></li>
+        <li><a href="predictors.html">予測者一覧</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section aria-label="発言・予測・検証一覧">
+    <div id="predictor-detail"></div>
+  </section>
+
+  <nav aria-label="ページ内導線" style="margin-top: 24px;">
+    <ul style="list-style: none; padding-left: 0;">
+      <li style="margin-bottom: 8px;"><a href="predictors.html">予測者一覧へ戻る</a></li>
+      <li><a href="logs.html">格闘技ログ一覧へ</a></li>
+    </ul>
+  </nav>
+</main>
+
+<script>
+(function () {
+  "use strict";
+  var CACHE = "20260318";
+  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+
+  function getQueryName() {
+    var p = new URLSearchParams(location.search);
+    var n = p.get("name");
+    return n != null ? String(n).trim() : "";
+  }
+
+  function fetchIndex() {
+    return fetch("../data/index.json?v=" + CACHE).then(function (res) {
+      if (!res.ok) throw new Error("読み込みに失敗しました（" + res.status + "）");
+      return res.json();
+    });
+  }
+  function fetchEventFile(file) {
+    return fetch("../data/events/" + encodeURIComponent(file) + "?v=" + CACHE).then(function (res) {
+      if (!res.ok) return null;
+      return res.json();
+    });
+  }
+  function normalizeIndex(raw) {
+    var list = Array.isArray(raw) ? raw : (raw && raw.events) ? raw.events : [];
+    return list.map(function (item) {
+      if (!item || typeof item !== "object") return null;
+      var file = (item.file != null) ? String(item.file).trim() : "";
+      if (!file || file.indexOf("..") !== -1 || !file.toLowerCase().endsWith(".json")) return null;
+      return { title: item.title != null ? String(item.title) : "", date: item.date != null ? String(item.date) : "", organization: item.organization != null ? String(item.organization) : "", file: file };
+    }).filter(Boolean);
+  }
+  function filterMartialArts(events) {
+    var set = {};
+    MARTIAL_ARTS_ORGANIZATIONS.forEach(function (o) { set[o] = true; });
+    return events.filter(function (e) { return set[e.organization]; });
+  }
+
+  function normText(s) { return String(s || "").trim().toLowerCase(); }
+  function isUnknownWinner(ew) { var t = String(ew || "").trim(); return !t || t === "不明"; }
+  function hitLabel(ew, actualWinner) {
+    if (isUnknownWinner(ew)) return { text: "集計対象外", cls: "badge-unknown" };
+    if (!actualWinner) return { text: "−", cls: "badge-unknown" };
+    var ok = normText(ew) === normText(actualWinner);
+    return { text: ok ? "的中" : "外れ", cls: ok ? "badge-ok" : "badge-ng" };
+  }
+
+  function nameMatches(pName, queryName) {
+    if (!pName) return false;
+    return pName === queryName || normText(pName) === normText(queryName);
+  }
+
+  function collectRows(evData, file, eventTitle, eventDate, queryName) {
+    var rows = [];
+    var ev = evData || {};
+    var title = eventTitle || ev.event_name || (ev.event_meta && ev.event_meta.event_name) || file;
+    var date = eventDate || ev.event_date || (ev.event_meta && ev.event_meta.date) || "";
+
+    if (Array.isArray(ev.statements)) {
+      ev.statements.forEach(function (stmt) {
+        var pred = stmt && stmt.prediction;
+        if (!pred || !pred.exists) return;
+        var pName = (pred.predictor_name != null) ? String(pred.predictor_name).trim() : "";
+        if (!nameMatches(pName, queryName)) return;
+        var ver = stmt && stmt.verification;
+        var actualWinner = ver && ver.winner ? String(ver.winner).trim() : "";
+        var hl = hitLabel(pred.expected_winner, actualWinner);
+        var content = (stmt.content && (stmt.content.raw_text || stmt.content.normalized_text)) ? (stmt.content.raw_text || stmt.content.normalized_text) : "";
+        rows.push({
+          type: "statement",
+          eventTitle: title,
+          eventDate: date,
+          eventFile: file,
+          content: content,
+          expected: (pred.expected_outcome || pred.expected_winner || "").trim(),
+          result: (ver && ver.actual_outcome) ? ver.actual_outcome : (ver && ver.winner) ? ver.winner + (ver.method ? " / " + ver.method : "") : "",
+          hitText: hl.text,
+          hitClass: hl.cls
+        });
+      });
+    }
+    if (Array.isArray(ev.cards)) {
+      ev.cards.forEach(function (card) {
+        (card && card.bouts || []).forEach(function (b) {
+          var pred = b && b.prediction;
+          if (!pred || !pred.exists) return;
+          var pName = (pred.predictor_name != null) ? String(pred.predictor_name).trim() : "";
+          if (!nameMatches(pName, queryName)) return;
+          var out = b && b.outcome;
+          var actualWinner = out && out.winner ? String(out.winner).trim() : "";
+          var hl = hitLabel(pred.expected_winner, actualWinner);
+          var red = (b.red != null) ? String(b.red) : "";
+          var blue = (b.blue != null) ? String(b.blue) : "";
+          rows.push({
+            type: "bout",
+            eventTitle: title,
+            eventDate: date,
+            eventFile: file,
+            content: red && blue ? red + " vs " + blue : red || blue || "−",
+            expected: (pred.expected_winner || "").trim() + (pred.expected_method ? " / " + pred.expected_method : ""),
+            result: (out && out.winner) ? out.winner + (out.method ? " / " + out.method : "") : "−",
+            hitText: hl.text,
+            hitClass: hl.cls
+          });
+        });
+      });
+    }
+    return rows;
+  }
+
+  function escapeHtml(s) {
+    return String(s).replaceAll("&", "&amp;").replaceAll("<", "&lt;").replaceAll(">", "&gt;").replaceAll('"', "&quot;").replaceAll("'", "&#039;");
+  }
+
+  var nameParam = getQueryName();
+  var subtitleEl = document.getElementById("predictor-subtitle");
+  var container = document.getElementById("predictor-detail");
+
+  if (!nameParam) {
+    subtitleEl.textContent = "予測者を選んでください。";
+    container.innerHTML = "<p><a href=\"predictors.html\">予測者一覧</a>から名前を選んでください。</p>";
+    return;
+  }
+
+  subtitleEl.textContent = "予測者: " + nameParam;
+
+  fetchIndex()
+    .then(function (raw) {
+      var all = normalizeIndex(raw);
+      var events = filterMartialArts(all);
+      return Promise.all(events.map(function (ev) {
+        return fetchEventFile(ev.file).then(function (evData) {
+          return collectRows(evData, ev.file, ev.title, ev.date, nameParam);
+        }).catch(function () { return []; });
+      })).then(function (arrays) {
+        var allRows = [];
+        arrays.forEach(function (arr) { arr.forEach(function (r) { allRows.push(r); }); });
+        return allRows;
+      });
+    })
+    .then(function (allRows) {
+      if (allRows.length === 0) {
+        container.innerHTML = "<p class=\"muted\">この予測者に該当する発言・予測がありません。</p>";
+        return;
+      }
+      allRows.sort(function (a, b) {
+        var dA = a.eventDate ? new Date(a.eventDate).getTime() : 0;
+        var dB = b.eventDate ? new Date(b.eventDate).getTime() : 0;
+        if (dB !== dA) return dB - dA;
+        return String(a.eventTitle).localeCompare(String(b.eventTitle), "ja");
+      });
+      var table = document.createElement("table");
+      table.className = "pred-table";
+      table.innerHTML = "<thead><tr><th>興行名</th><th>日付</th><th>内容</th><th>予測</th><th>結果</th><th>勝者予測</th><th>詳細</th></tr></thead><tbody></tbody>";
+      var tbody = table.querySelector("tbody");
+      allRows.forEach(function (r) {
+        var tr = document.createElement("tr");
+        var detailLink = "<a href=\"../event.html?file=" + escapeHtml(r.eventFile) + "\">興行を見る</a>";
+        tr.innerHTML =
+          "<td>" + escapeHtml(r.eventTitle) + "</td>" +
+          "<td>" + escapeHtml(r.eventDate) + "</td>" +
+          "<td class=\"content-cell\">" + escapeHtml(r.content || "−") + "</td>" +
+          "<td>" + escapeHtml(r.expected || "−") + "</td>" +
+          "<td>" + escapeHtml(r.result || "−") + "</td>" +
+          "<td><span class=\"" + escapeHtml(r.hitClass) + "\">" + escapeHtml(r.hitText) + "</span></td>" +
+          "<td>" + detailLink + "</td>";
+        tbody.appendChild(tr);
+      });
+      container.innerHTML = "";
+      container.appendChild(table);
+    })
+    .catch(function (err) {
+      container.innerHTML = "<p class=\"error\" style=\"color:#c00;\">読み込みに失敗しました: " + escapeHtml(err && err.message ? err.message : String(err)) + "</p>";
+    });
+
+})();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>イベント詳細</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans JP", sans-serif;
+      padding: 0;
+      background: #f4f6f8;
+    }
+
+    .event-container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    h1 {
+      margin-bottom: 5px;
+    }
+
+    .date {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .fight {
+      border-top: 1px solid #eee;
+      padding: 10px 0;
+    }
+
+    .fighter {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+
+    /* 「A vs B」を左右端に飛ばさず、読みやすく寄せる */
+    .fighter span:nth-child(1),
+    .fighter span:nth-child(3) {
+      min-width: 10ch;
+    }
+
+    .fighter span:nth-child(2) {
+      color: #666;
+      min-width: 2.5ch;
+      text-align: center;
+    }
+
+    .result {
+      font-weight: bold;
+      color: #333;
+      margin-top: 5px;
+    }
+
+    .error {
+      color: #c00;
+      padding: 16px;
+    }
+
+    .back-link {
+      margin-bottom: 16px;
+    }
+
+    .back-link a {
+      color: #0b57d0;
+      text-decoration: none;
+    }
+
+    .back-link a:hover {
+      text-decoration: underline;
+    }
+
+    .statements-section {
+      margin-top: 24px;
+      margin-bottom: 24px;
+    }
+
+    .statements-section h2 {
+      font-size: 1.1em;
+      margin-bottom: 12px;
+      color: #333;
+    }
+
+    .statement-block {
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 14px;
+      margin-bottom: 14px;
+      background: #fafafa;
+    }
+
+    .statement-block .speaker {
+      font-weight: bold;
+      margin-bottom: 6px;
+    }
+
+    .statement-block .content {
+      margin-bottom: 8px;
+      color: #444;
+    }
+
+    .statement-block .prediction-box {
+      margin-top: 10px;
+      padding: 10px;
+      background: #fff;
+      border-left: 4px solid #0b57d0;
+      border-radius: 4px;
+    }
+
+    .statement-block .prediction-box .label {
+      font-size: 0.85em;
+      color: #666;
+      margin-bottom: 4px;
+    }
+
+    .fight .prediction-box {
+      margin-top: 10px;
+      padding: 10px;
+      background: #fff;
+      border-left: 4px solid #0b57d0;
+      border-radius: 4px;
+    }
+
+    .fight .prediction-box .label {
+      font-size: 0.85em;
+      color: #666;
+      margin-bottom: 4px;
+    }
+
+    .fight .result-box {
+      margin-top: 10px;
+      padding: 10px;
+      background: #fff;
+      border-left: 4px solid #555;
+      border-radius: 4px;
+    }
+
+    .fight .result-box .label {
+      font-size: 0.85em;
+      color: #666;
+      margin-bottom: 4px;
+    }
+
+    .fight .prediction-box.prediction-box--empty {
+      opacity: 0.7;
+      border-left-style: dashed;
+    }
+
+    .match-row {
+      margin-top: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .match-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.85em;
+      border: 1px solid #e6e8eb;
+      background: #f8f9fa;
+      color: #333;
+    }
+
+    .match-badge--ok {
+      border-color: #b7e3c4;
+      background: #e9f7ee;
+      color: #0d7a3d;
+    }
+
+    .match-badge--ng {
+      border-color: #f1b0b7;
+      background: #fdecef;
+      color: #b00020;
+    }
+
+    .match-badge--unknown {
+      border-color: #e6e8eb;
+      background: #f8f9fa;
+      color: #666;
+    }
+
+    .statement-block .verification-box {
+      margin-top: 10px;
+      padding: 10px;
+      background: #fff;
+      border-left: 4px solid #0d7a3d;
+      border-radius: 4px;
+    }
+
+    .statement-block .verification-box .label {
+      font-size: 0.85em;
+      color: #666;
+      margin-bottom: 4px;
+    }
+
+    .statement-block .verification-box .status {
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .muted { color: #666; }
+    .small { font-size: 0.9em; }
+
+    .event-picker {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .event-card {
+      background: #fff;
+      border: 1px solid #e6e8eb;
+      border-radius: 10px;
+      padding: 14px;
+      cursor: pointer;
+      transition: box-shadow 0.2s ease, background-color 0.2s ease, transform 0.08s ease;
+    }
+
+    .event-card:hover {
+      background-color: #f8f9fa;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+    .event-card:active {
+      transform: translateY(1px);
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .event-card__title {
+      margin: 0 0 6px 0;
+      font-size: 1.05em;
+      color: #111;
+    }
+
+    .event-card__meta {
+      margin: 0;
+      color: #666;
+      font-size: 0.92em;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>イベント詳細</h1>
+  <p>イベントの試合カード / 発言・予測と検証</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="./index.html">トップ</a></li>
+    <li><a href="./martial-arts/">格闘技ログ</a></li>
+    <li><a href="./logs.html">ログ一覧</a></li>
+  </ul>
+</nav>
+
+<main class="event-container">
+  <h1 id="title">読み込み中...</h1>
+  <div class="date" id="date"></div>
+  <div id="fights"></div>
+  <div id="statements"></div>
+</main>
+
+<script>
+  (function () {
+    const CACHE_BUSTER = "20260317a";
+
+    // ■ 1. file パラメータの取得とバリデーション
+    const params = new URLSearchParams(location.search);
+    const fileRaw = params.get("file");
+
+    function showError(message) {
+      document.getElementById("title").textContent = "イベント詳細";
+      document.getElementById("date").textContent = "";
+      document.getElementById("statements").innerHTML =
+        "<p class=\"error\">" + escapeHtml(message) + "</p>";
+      document.getElementById("fights").innerHTML = "";
+    }
+
+    function escapeHtml(s) {
+      return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+
+    if (!fileRaw || typeof fileRaw !== "string") {
+      renderLanding();
+      return;
+    }
+
+    const file = fileRaw.trim();
+    // .json で終わること
+    if (!file.toLowerCase().endsWith(".json")) {
+      showError("file は .json で終わる必要があります。");
+      return;
+    }
+    // パストラバーサル・スラッシュ禁止
+    if (file.includes("..") || file.includes("/") || file.includes("\\")) {
+      showError("無効な file パラメータです。");
+      return;
+    }
+    // 空のベース名禁止（例: ".json"）
+    const basename = file.replace(/\.json$/i, "");
+    if (!basename) {
+      showError("無効な file 名です。");
+      return;
+    }
+
+    // ■ 2. data/events から読み込み
+    fetch("data/events/" + file + "?v=" + CACHE_BUSTER)
+      .then(function (res) {
+        if (!res.ok) {
+          throw new Error("読み込みに失敗しました（" + res.status + "）");
+        }
+        return res.json();
+      })
+      .then(function (data) {
+        renderEvent(normalizeEventData(data));
+      })
+      .catch(function (err) {
+        showError("データの読み込みに失敗しました: " + escapeHtml(err.message));
+      });
+
+    // file 指定なしで開いたときの入口（最新イベントへのリンク）
+    function renderLanding() {
+      document.getElementById("title").textContent = "イベントを選択";
+      document.getElementById("date").textContent = "";
+      document.getElementById("fights").innerHTML = "";
+
+      const target = document.getElementById("statements");
+      target.innerHTML =
+        "<p class=\"muted\">" +
+        "イベント詳細は <code>?file=xxx.json</code> で直接開けます。例: <code>event.html?file=rizin-35.json</code>" +
+        "</p>";
+
+      fetch("data/index.json?v=" + CACHE_BUSTER)
+        .then(function (res) {
+          if (!res.ok) throw new Error("index.json の読み込みに失敗しました（" + res.status + "）");
+          return res.json();
+        })
+        .then(function (index) {
+          const events = Array.isArray(index) ? index : (Array.isArray(index.events) ? index.events : []);
+          const normalized = events
+            .map(function (e) {
+              return {
+                title: e && e.title ? String(e.title) : "",
+                date: e && e.date ? String(e.date) : "",
+                organization: e && e.organization ? String(e.organization) : "",
+                file: e && e.file ? String(e.file) : "",
+              };
+            })
+            .filter(function (e) {
+              if (!e.file) return false;
+              if (!e.file.toLowerCase().endsWith(".json")) return false;
+              if (e.file.includes("..") || e.file.includes("/") || e.file.includes("\\")) return false;
+              return true;
+            })
+            .sort(function (a, b) {
+              return new Date(b.date).getTime() - new Date(a.date).getTime();
+            })
+            .slice(0, 10);
+
+          const section = document.createElement("div");
+          section.className = "statements-section";
+          const h2 = document.createElement("h2");
+          h2.textContent = "最新イベント";
+          section.appendChild(h2);
+
+          if (normalized.length === 0) {
+            const p = document.createElement("p");
+            p.className = "muted";
+            p.textContent = "イベントが見つかりません（data/index.json を確認してください）";
+            section.appendChild(p);
+          } else {
+            normalized.forEach(function (ev) {
+              const card = document.createElement("div");
+              card.className = "event-card";
+              card.setAttribute("role", "button");
+              card.setAttribute("tabindex", "0");
+
+              const title = document.createElement("h3");
+              title.className = "event-card__title";
+              title.textContent = ev.title || ev.file;
+
+              const meta = document.createElement("p");
+              meta.className = "event-card__meta";
+              meta.textContent =
+                (ev.organization ? ev.organization + " / " : "") +
+                (ev.date || "");
+
+              card.appendChild(title);
+              card.appendChild(meta);
+
+              const href = "./event.html?file=" + encodeURIComponent(ev.file) + "&v=" + CACHE_BUSTER;
+              card.addEventListener("click", function () {
+                location.href = href;
+              });
+              card.addEventListener("keydown", function (e) {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  location.href = href;
+                }
+              });
+
+              section.appendChild(card);
+            });
+          }
+
+          target.innerHTML = "";
+          target.appendChild(section);
+        })
+        .catch(function (err) {
+          showError("file パラメータがありません。イベントを指定してください。例: event.html?file=rizin-20.json\n\n" + err.message);
+        });
+    }
+
+    // スキーマ差を吸収: event_meta/cards/bouts / statements の各型に対応
+    function normalizeEventData(data) {
+      const meta = data.event_meta || {};
+      const title = data.title || meta.event_name || data.event_name || "(無題)";
+      const date = data.date || meta.date || data.event_date || "";
+
+      let fights = [];
+      if (Array.isArray(data.fights) && data.fights.length > 0) {
+        fights = data.fights.map(function (f) {
+          return {
+            bout_id: f.bout_id || f.fight_id || null,
+            red: f.red || "-",
+            blue: f.blue || "-",
+            result: f.result || "",
+            winner: f.winner,
+            method: f.method,
+            prediction: f.prediction || null,
+            rules: f.rules || null,
+          };
+        });
+      } else if (Array.isArray(data.cards)) {
+        data.cards.forEach(function (card) {
+          const bouts = card.bouts || [];
+          bouts.forEach(function (b) {
+            const out = b.outcome || {};
+            fights.push({
+              bout_id: b.bout_id || null,
+              red: b.red || "-",
+              blue: b.blue || "-",
+              result: out.winner
+                ? (out.method ? out.winner + " " + out.method : out.winner)
+                : "結果未登録",
+              winner: out.winner,
+              method: out.method,
+              prediction: b.prediction || null,
+              rules: b.rules || null,
+            });
+          });
+        });
+      }
+
+      const statements = Array.isArray(data.statements) ? data.statements : [];
+      return { title: title, date: date, fights: fights, statements: statements };
+    }
+
+    // ■ 3. title / date / statements / fights を表示
+    function renderEvent(data) {
+      document.getElementById("title").textContent = data.title;
+      document.getElementById("date").textContent = data.date || "";
+
+      function normKey(s) {
+        return String(s || "")
+          .trim()
+          .toLowerCase()
+          .replace(/\s+/g, "")
+          .replace(/[“”"'\u2019\u2018]/g, "")
+          .replace(/[・\u30fb]/g, "")
+          .replace(/[（）\(\)\[\]]/g, "");
+      }
+
+      function statementMatchesFight(stmt, fight) {
+        if (!stmt || !stmt.prediction || !stmt.prediction.exists) return false;
+        const target = normKey(stmt.prediction.target || "");
+        if (!target) return false;
+        const a = normKey(fight && fight.red);
+        const b = normKey(fight && fight.blue);
+        if (!a || !b) return false;
+        // target に両選手名が含まれていることだけで紐付け（推測しない）
+        return (target.includes(a) && target.includes(b));
+      }
+
+      function renderStatementBlock(stmt) {
+        const block = document.createElement("div");
+        block.className = "statement-block";
+        var speakerName = (stmt.speaker && stmt.speaker.name) ? stmt.speaker.name : "";
+        if (stmt.speaker && stmt.speaker.affiliation && String(stmt.speaker.affiliation).trim() !== "不明") {
+          speakerName += "（" + stmt.speaker.affiliation + "）";
+        }
+        var speakerDiv = document.createElement("div");
+        speakerDiv.className = "speaker";
+        speakerDiv.textContent = speakerName || "（発言者不明）";
+        block.appendChild(speakerDiv);
+        // 読み物として「意味が通る要約」と「引用」を両立させる
+        var normalizedText = (stmt.content && stmt.content.normalized_text != null) ? String(stmt.content.normalized_text) : "";
+        var rawText = (stmt.content && stmt.content.raw_text != null) ? String(stmt.content.raw_text) : "";
+
+        function hasQuoteMarks(s) {
+          const t = String(s || "");
+          return t.includes("「") || t.includes("」") || t.includes("『") || t.includes("』");
+        }
+
+        function normalizedAddsContext(norm, raw) {
+          const n = String(norm || "");
+          const r = String(raw || "");
+          const contextWords = ["展開", "想定", "条件", "理由", "根拠", "ポイントアウト", "ラウンド"];
+          return contextWords.some(function (w) {
+            return n.includes(w) && !r.includes(w);
+          });
+        }
+
+        // raw が引用（カギ括弧つき）で、要約が言い換えに留まる場合は「引用」を主表示にする
+        var useRawAsPrimary = !!(rawText && normalizedText && hasQuoteMarks(rawText) && !normalizedAddsContext(normalizedText, rawText));
+        var contentText = (useRawAsPrimary ? rawText : (normalizedText || rawText || ""));
+        var contentDiv = document.createElement("div");
+        contentDiv.className = "content";
+        contentDiv.textContent = contentText || "（内容なし）";
+        block.appendChild(contentDiv);
+
+        if (!useRawAsPrimary && rawText && normalizedText && rawText.trim() && normalizedText.trim() && rawText.trim() !== normalizedText.trim()) {
+          var rawDiv = document.createElement("div");
+          rawDiv.className = "muted small";
+          rawDiv.style.marginTop = "6px";
+          rawDiv.textContent = "引用: 「" + rawText + "」";
+          block.appendChild(rawDiv);
+        }
+
+        if (stmt.prediction && stmt.prediction.exists) {
+          var predBox = document.createElement("div");
+          predBox.className = "prediction-box";
+          var predPredictor = (stmt.prediction.predictor_name != null) ? String(stmt.prediction.predictor_name) : "不明";
+          var sourceUrl = (stmt.prediction.source_url != null) ? String(stmt.prediction.source_url) : (stmt.source && stmt.source.url != null) ? String(stmt.source.url) : "";
+          var sourceRef = (stmt.prediction.source_ref != null) ? String(stmt.prediction.source_ref) : (stmt.statement_id ? ("statement_id=" + String(stmt.statement_id)) : "");
+          var sourceNote = (stmt.prediction.source_note != null) ? String(stmt.prediction.source_note) : (stmt.source && stmt.source.timestamp != null) ? ("timestamp: " + String(stmt.source.timestamp)) : "";
+          var sourceHtml = (function () {
+            if (!sourceUrl && !sourceRef && !sourceNote) return "<div class=\"muted small\">ソース: 不明</div>";
+            var html = "<div class=\"muted small\">ソース: ";
+            if (sourceUrl) {
+              var safe = escapeHtml(sourceUrl);
+              html += "<a href=\"" + safe + "\" target=\"_blank\" rel=\"noopener noreferrer\">" + safe + "</a>";
+              if (sourceUrl.indexOf("spread-sports") !== -1) html += " <span class=\"muted\">(二次情報)</span>";
+            } else if (sourceRef) {
+              html += escapeHtml(sourceRef);
+            } else {
+              html += "（参照）";
+            }
+            if (sourceNote) html += " <span class=\"muted\">(" + escapeHtml(sourceNote) + ")</span>";
+            return html + "</div>";
+          })();
+
+          var expectedWinnerLine = (stmt.prediction.expected_winner != null && String(stmt.prediction.expected_winner).trim())
+            ? ("<div class=\"muted small\">勝者予想: " + escapeHtml(stmt.prediction.expected_winner) + "</div>")
+            : "";
+          predBox.innerHTML =
+            "<div class=\"label\">予測</div>" +
+            "<div class=\"muted small\">予測者: " + escapeHtml(predPredictor) + "</div>" +
+            sourceHtml +
+            "<div>" + escapeHtml(stmt.prediction.target || "") + "</div>" +
+            "<div>" + escapeHtml(stmt.prediction.expected_outcome || "") + "</div>" +
+            expectedWinnerLine +
+            (stmt.prediction.deadline ? "<div class=\"muted small\">検証期限: " + escapeHtml(stmt.prediction.deadline) + "</div>" : "");
+          block.appendChild(predBox);
+        }
+
+        if (stmt.verification) {
+          var verBox = document.createElement("div");
+          verBox.className = "verification-box";
+          var statusLabel = stmt.verification.status === "resolved" ? "検証済み" : stmt.verification.status === "pending" ? "未検証" : "要確認";
+          var matchBadge = "";
+          if (stmt.prediction && stmt.prediction.exists && stmt.verification.winner) {
+            var ew = String(stmt.prediction.expected_winner || "").trim();
+            var isUnknownWinner = !ew || ew.toLowerCase() === "不明";
+            if (isUnknownWinner) {
+              matchBadge = "<div class=\"match-row\" style=\"margin-top:6px;\"><span class=\"match-badge match-badge--unknown\">勝者予測: 集計対象外</span></div>";
+            } else {
+              var ok = ew.toLowerCase() === String(stmt.verification.winner).trim().toLowerCase();
+              matchBadge = "<div class=\"match-row\" style=\"margin-top:6px;\"><span class=\"match-badge " + (ok ? "match-badge--ok" : "match-badge--ng") + "\">勝者予測: " + (ok ? "的中" : "外れ") + "</span></div>";
+            }
+          }
+          verBox.innerHTML =
+            "<div class=\"label\">検証結果</div>" +
+            "<div class=\"status\">" + escapeHtml(statusLabel) + "</div>" +
+            (stmt.verification.winner ? "<div>勝者: " + escapeHtml(stmt.verification.winner) + (stmt.verification.method ? " / 方法: " + escapeHtml(stmt.verification.method) : "") + "</div>" : "") +
+            (stmt.verification.actual_outcome ? "<div>実際の結果: " + escapeHtml(stmt.verification.actual_outcome) + "</div>" : "") +
+            (stmt.verification.verification_date ? "<div class=\"muted small\">検証日: " + escapeHtml(stmt.verification.verification_date) + "</div>" : "") +
+            (stmt.verification.notes ? "<div class=\"muted small\">" + escapeHtml(stmt.verification.notes) + "</div>" : "") +
+            matchBadge;
+          block.appendChild(verBox);
+        }
+        return block;
+      }
+
+      const fightsEl = document.getElementById("fights");
+      fightsEl.innerHTML = "";
+      if (!data.fights || data.fights.length === 0) {
+        fightsEl.innerHTML = "<p class=\"muted\">" + (data.statements && data.statements.length > 0 ? "試合カードデータはありません" : "試合データがありません") + "</p>";
+        return;
+      }
+
+      var fightsHeading = document.createElement("h2");
+      fightsHeading.className = "statements-section";
+      fightsHeading.style.fontSize = "1.1em";
+      fightsHeading.style.marginTop = "24px";
+      fightsHeading.textContent = "試合一覧";
+      fightsEl.appendChild(fightsHeading);
+
+      function fightDisplayRank(f) {
+        const id = String((f && f.bout_id) || "").toLowerCase();
+        if (id.includes("main")) return 1000000;
+        const m = id.match(/-(\d+)\s*$/);
+        if (m) return Number(m[1]) || 0;
+        if (id.includes("opening")) return -1;
+        return 0;
+      }
+
+      const fightsSorted = (Array.isArray(data.fights) ? data.fights.slice() : []).sort(function (a, b) {
+        return fightDisplayRank(b) - fightDisplayRank(a);
+      });
+
+      const remainingStatements = (Array.isArray(data.statements) ? data.statements.slice() : []);
+
+      fightsSorted.forEach(function (fight, index) {
+        const div = document.createElement("div");
+        div.className = "fight";
+
+        const boutIdText = fight.bout_id ? (" <span class=\"muted small\">(" + escapeHtml(fight.bout_id) + ")</span>") : "";
+        const headerHtml = "<div><strong>対象カード</strong>" + boutIdText + "</div>";
+        const rulesHtml = (function () {
+          const r = fight && fight.rules;
+          if (!r) return "";
+          const minutes = (r.round_minutes != null) ? String(r.round_minutes) : "";
+          const rounds = (r.rounds != null) ? String(r.rounds) : "";
+          const ext = (r.extension_rounds != null) ? String(r.extension_rounds) : "";
+          const weight = (r.weight_class != null) ? String(r.weight_class) : "";
+          const parts = [];
+          if (weight && weight.trim() && weight.trim() !== "不明") parts.push(weight.trim());
+          if (minutes && rounds) parts.push(minutes + "分" + rounds + "R");
+          if (ext) parts.push("延長" + ext + "R");
+          if (parts.length === 0) return "";
+          return "<div class=\"muted small\" style=\"margin-top:4px;\">" + escapeHtml(parts.join(" / ")) + "</div>";
+        })();
+        const fightersHtml =
+          "<div class=\"fighter\">" +
+          "<span>" + escapeHtml(fight.red) + "</span>" +
+          "<span>vs</span>" +
+          "<span>" + escapeHtml(fight.blue) + "</span>" +
+          "</div>";
+
+        function normText(s) {
+          return String(s || "").trim().toLowerCase();
+        }
+
+        function normMethod(s) {
+          const t = normText(s);
+          if (!t) return "";
+          if (t.includes("decision")) return "decision";
+          if (t.includes("sub")) return "submission";
+          if (t.includes("submission")) return "submission";
+          if (t.includes("tko") || t.includes("ko")) return "ko";
+          return t;
+        }
+
+        let predictionHtml = "";
+        if (fight.prediction && fight.prediction.exists) {
+          const predictor =
+            (fight.prediction && (fight.prediction.predictor_name != null))
+              ? String(fight.prediction.predictor_name)
+              : "不明";
+          const predictorLine = "<div class=\"muted small\">予測者: " + escapeHtml(predictor) + "</div>";
+          const sourceUrl =
+            (fight.prediction && fight.prediction.source_url != null) ? String(fight.prediction.source_url) :
+            (fight.prediction && fight.prediction.source && fight.prediction.source.url != null) ? String(fight.prediction.source.url) :
+            "";
+          const sourceRef =
+            (fight.prediction && fight.prediction.source_ref != null) ? String(fight.prediction.source_ref) :
+            "";
+          const sourceNote =
+            (fight.prediction && fight.prediction.source_note != null) ? String(fight.prediction.source_note) :
+            (fight.prediction && fight.prediction.source && fight.prediction.source.note != null) ? String(fight.prediction.source.note) :
+            "";
+
+          const sourceLine = (function () {
+            if (!sourceUrl && !sourceRef && !sourceNote) {
+              return "<div class=\"muted small\">ソース: 不明</div>";
+            }
+            let html = "<div class=\"muted small\">ソース: ";
+            if (sourceUrl) {
+              const safe = escapeHtml(sourceUrl);
+              html += "<a href=\"" + safe + "\" target=\"_blank\" rel=\"noopener noreferrer\">" + safe + "</a>";
+            } else if (sourceRef) {
+              html += escapeHtml(sourceRef);
+            } else {
+              html += "（参照）";
+            }
+            if (sourceNote) {
+              html += " <span class=\"muted\">(" + escapeHtml(sourceNote) + ")</span>";
+            }
+            return html + "</div>";
+          })();
+          const expectedWinnerText = fight.prediction.expected_winner ? ("勝者予想: " + escapeHtml(fight.prediction.expected_winner)) : "";
+          const expectedMethodText = fight.prediction.expected_method ? (" / 副次: " + escapeHtml(fight.prediction.expected_method)) : "";
+          const basis = fight.prediction.basis ? ("<div class=\"muted small\">根拠: " + escapeHtml(fight.prediction.basis) + "</div>") : "";
+
+          // 照合（勝者予想/副次）: 人の評価ではなく「予測↔事実」の一致表示
+          const hasResult = !!fight.winner;
+          const hasExpectedWinner = !!fight.prediction.expected_winner;
+          const hasExpectedMethod = !!fight.prediction.expected_method;
+
+          let matchRow = "";
+          let overallOk = null;
+          let winnerOk = null;
+          let methodOk = null;
+          if (hasResult && hasExpectedWinner) {
+            winnerOk = normText(fight.prediction.expected_winner) === normText(fight.winner);
+            matchRow += "<span class=\"match-badge " + (winnerOk ? "match-badge--ok" : "match-badge--ng") + "\">勝者予想: " + (winnerOk ? "的中" : "外れ") + "</span>";
+          } else if (hasExpectedWinner) {
+            matchRow += "<span class=\"match-badge match-badge--unknown\">勝者予想: 結果待ち</span>";
+          }
+
+          if (hasExpectedMethod) {
+            if (hasResult && fight.method) {
+              methodOk = normMethod(fight.prediction.expected_method) === normMethod(fight.method);
+              matchRow += "<span class=\"match-badge " + (methodOk ? "match-badge--ok" : "match-badge--ng") + "\">方法: " + (methodOk ? "的中" : "外れ") + "</span>";
+            } else {
+              matchRow += "<span class=\"match-badge match-badge--unknown\">方法: 結果待ち</span>";
+            }
+          }
+
+          if (hasResult && hasExpectedWinner) {
+            if (hasExpectedMethod && (methodOk !== null)) {
+              overallOk = !!winnerOk && !!methodOk;
+            } else {
+              overallOk = !!winnerOk;
+            }
+          }
+
+          if (overallOk !== null) {
+            matchRow = "<span class=\"match-badge " + (overallOk ? "match-badge--ok" : "match-badge--ng") + "\">勝者予測: " + (overallOk ? "的中" : "外れ") + "</span>" + matchRow;
+          }
+
+          const matchHtml = matchRow ? ("<div class=\"match-row\">" + matchRow + "</div>") : "";
+
+          predictionHtml =
+            "<div class=\"prediction-box\">" +
+            "<div class=\"label\">予測（主予測＝勝者予想 / 副次＝KO/判定/SUB）</div>" +
+            predictorLine +
+            sourceLine +
+            "<div>" + expectedWinnerText + expectedMethodText + "</div>" +
+            basis +
+            matchHtml +
+            "</div>";
+        } else {
+          // statements 側をカード直下に差し込むため、カード内予測が無い場合は枠を出さない
+          predictionHtml = "";
+        }
+
+        var resultLine = escapeHtml(fight.result || "結果未登録");
+        if (fight.winner) {
+          resultLine += "<br>勝者: " + escapeHtml(fight.winner);
+          if (fight.method) resultLine += " / 方法: " + escapeHtml(fight.method);
+        }
+        const resultHtml =
+          "<div class=\"result-box\">" +
+          "<div class=\"label\">結果</div>" +
+          "<div class=\"result\">" + resultLine + "</div>" +
+          "</div>";
+
+        div.innerHTML = headerHtml + rulesHtml + fightersHtml + resultHtml + predictionHtml;
+
+        // このカードに紐づく statements を直下に表示（prediction.target に両選手名が含まれるもののみ）
+        const related = [];
+        for (let i = remainingStatements.length - 1; i >= 0; i--) {
+          const stmt = remainingStatements[i];
+          if (statementMatchesFight(stmt, fight)) {
+            related.push(stmt);
+            remainingStatements.splice(i, 1);
+          }
+        }
+        if (related.length > 0) {
+          const sub = document.createElement("div");
+          sub.style.marginTop = "12px";
+          const h = document.createElement("div");
+          h.className = "muted small";
+          h.style.marginBottom = "8px";
+          h.textContent = "このカードに関連する発言・予測";
+          sub.appendChild(h);
+          related.reverse().forEach(function (stmt) {
+            sub.appendChild(renderStatementBlock(stmt));
+          });
+          div.appendChild(sub);
+        }
+
+        fightsEl.appendChild(div);
+      });
+
+      const statementsEl = document.getElementById("statements");
+      statementsEl.innerHTML = "";
+      if (remainingStatements.length > 0) {
+        const section = document.createElement("div");
+        section.className = "statements-section";
+        const h2 = document.createElement("h2");
+        h2.textContent = "発言・予測と検証（その他）";
+        section.appendChild(h2);
+        remainingStatements.forEach(function (stmt) {
+          section.appendChild(renderStatementBlock(stmt));
+        });
+        statementsEl.appendChild(section);
+      }
+    }
+  })();
+</script>
+
+</body>
+</html>

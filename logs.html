@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>ログ一覧 | factcheck-platform</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* 一覧エリア：カード形式・ホバー */
+    .event-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .event-list__card {
+      cursor: pointer;
+      transition: box-shadow 0.2s ease, background-color 0.2s ease;
+    }
+
+    .event-list__card:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+      background-color: #f8f9fa;
+    }
+
+    .event-list__card:active {
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .event-list__meta {
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 4px;
+    }
+
+    .event-list__error {
+      color: #c00;
+      padding: 16px;
+      background: #fff5f5;
+      border-radius: 6px;
+    }
+
+    .rank-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid #e6e8eb;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .rank-table th,
+    .rank-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eef0f2;
+      text-align: left;
+      vertical-align: top;
+      font-size: 0.95em;
+    }
+
+    .rank-table thead th {
+      background: #f8f9fa;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .rank-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+
+    .rank-note {
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ログ一覧</h1>
+  <p>すべてのイベントログ</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="./index.html">トップ</a></li>
+    <li><a href="./martial-arts/">格闘技ログ</a></li>
+    <li><a href="./logs.html">ログ一覧</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section aria-label="的中率ランキング">
+    <h2>的中率ランキング（興行クローズ時点）</h2>
+    <div id="hit-rate-ranking" class="event-list__meta">読み込み中…</div>
+    <p class="rank-note">
+      集計対象は <code>prediction.exists = true</code> かつ「勝者が確定」しているカードのみです。的中率は主予測（勝者方向）のみで計算します。途中集計は行いません。
+    </p>
+  </section>
+
+  <!-- 将来: フィルタ・検索をここに追加しやすい -->
+  <section aria-label="イベント一覧">
+    <h2>イベント一覧</h2>
+    <div id="event-list" class="event-list">
+      <p>読み込み中…</p>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  const LIST_ID = "event-list";
+  const RANKING_ID = "hit-rate-ranking";
+
+  // ─── 状態（フィルタ追加時はここに filtered 等を足す） ───
+  var state = {
+    events: []
+  };
+
+  // ─── fetch ───
+  function fetchIndex() {
+    return fetch("data/index.json").then(function (res) {
+      if (!res.ok) throw new Error("読み込みに失敗しました（" + res.status + "）");
+      return res.json();
+    });
+  }
+
+  function fetchEventFile(file) {
+    return fetch("data/events/" + file).then(function (res) {
+      if (!res.ok) throw new Error(file + " の読み込みに失敗しました（" + res.status + "）");
+      return res.json();
+    });
+  }
+
+  // ─── normalize: index.json の仕様変更に強い形に正規化 ───
+  function normalizeIndex(raw) {
+    var list = Array.isArray(raw) ? raw : (raw && raw.events) ? raw.events : [];
+    return list
+      .map(function (item) {
+        if (!item || typeof item !== "object") return null;
+        var file = (item.file != null) ? String(item.file).trim() : "";
+        if (!isFileAllowed(file)) return null;
+        return {
+          title: item.title != null ? String(item.title) : "",
+          date: item.date != null ? String(item.date) : "",
+          organization: item.organization != null ? String(item.organization) : "",
+          file: file
+        };
+      })
+      .filter(Boolean);
+  }
+
+  function isFileAllowed(file) {
+    if (!file) return false;
+    if (file.indexOf("..") !== -1) return false;
+    if (!file.toLowerCase().endsWith(".json")) return false;
+    return true;
+  }
+
+  // ─── sort: 新しい順（date 降順） ───
+  function sortByDateNewestFirst(events) {
+    return events.slice().sort(function (a, b) {
+      var tA = a.date ? new Date(a.date).getTime() : 0;
+      var tB = b.date ? new Date(b.date).getTime() : 0;
+      return tB - tA;
+    });
+  }
+
+  // ─── DOM: 1枚のカードを生成 ───
+  function createCard(event) {
+    var card = document.createElement("div");
+    card.className = "event-card event-list__card";
+    card.setAttribute("role", "button");
+    card.setAttribute("tabindex", "0");
+
+    var title = document.createElement("h3");
+    title.textContent = event.title || "（無題）";
+
+    var meta = document.createElement("p");
+    meta.className = "event-list__meta";
+    var parts = [];
+    if (event.organization) parts.push(event.organization);
+    if (event.date) parts.push(event.date);
+    meta.textContent = parts.join(" / ");
+
+    card.appendChild(title);
+    card.appendChild(meta);
+
+    card.addEventListener("click", function () {
+      location.href = "event.html?file=" + encodeURIComponent(event.file);
+    });
+    card.addEventListener("keydown", function (e) {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        card.click();
+      }
+    });
+
+    return card;
+  }
+
+  // ─── render: 一覧コンテナにカードを描画 ───
+  function renderEventList(events, containerEl) {
+    if (!containerEl) return;
+    containerEl.innerHTML = "";
+    containerEl.className = "event-list";
+
+    if (!events || events.length === 0) {
+      var empty = document.createElement("p");
+      empty.textContent = "イベントがありません。";
+      empty.className = "event-list__meta";
+      containerEl.appendChild(empty);
+      return;
+    }
+
+    events.forEach(function (ev) {
+      containerEl.appendChild(createCard(ev));
+    });
+  }
+
+  // ─── エラー表示 ───
+  function showError(containerEl, message) {
+    if (!containerEl) return;
+    containerEl.innerHTML = "";
+    containerEl.className = "event-list";
+    var p = document.createElement("p");
+    p.className = "event-list__error";
+    p.textContent = message;
+    containerEl.appendChild(p);
+  }
+
+  function escapeHtml(s) {
+    return String(s)
+      .replaceAll("&", "&amp;")
+      .replaceAll("<", "&lt;")
+      .replaceAll(">", "&gt;")
+      .replaceAll('"', "&quot;")
+      .replaceAll("'", "&#039;");
+  }
+
+  // ─── ranking: 主予測（勝者方向）の的中率を集計 ───
+  function normalizeText(s) {
+    return String(s || "").trim().toLowerCase();
+  }
+
+  function addCount(map, name, hit) {
+    var key = name || "不明";
+    if (!map[key]) map[key] = { name: key, hit: 0, total: 0 };
+    map[key].total += 1;
+    if (hit) map[key].hit += 1;
+  }
+
+  function collectFromEventJson(evData, counts) {
+    if (!evData) return;
+
+    // A) cards[].bouts[] 型（勝者方向 expected_winner があるもの）
+    if (Array.isArray(evData.cards)) {
+      evData.cards.forEach(function (card) {
+        var bouts = (card && Array.isArray(card.bouts)) ? card.bouts : [];
+        bouts.forEach(function (b) {
+          var pred = b && b.prediction ? b.prediction : null;
+          var out = b && b.outcome ? b.outcome : null;
+          if (!pred || !pred.exists) return;
+          if (!pred.expected_winner) return;
+          if (!out || !out.winner) return; // 勝者未確定は集計しない
+
+          var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+          var hit = normalizeText(pred.expected_winner) === normalizeText(out.winner);
+          addCount(counts, predictor, hit);
+        });
+      });
+    }
+
+    // B) statements[] 型（勝者方向 expected_winner / verification.winner があるもの）
+    if (Array.isArray(evData.statements)) {
+      evData.statements.forEach(function (stmt) {
+        var pred = stmt && stmt.prediction ? stmt.prediction : null;
+        var ver = stmt && stmt.verification ? stmt.verification : null;
+        if (!pred || !pred.exists) return;
+        if (!pred.expected_winner) return;
+        if (!ver || !ver.winner) return; // 勝者未確定は集計しない
+
+        var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+        var hit = normalizeText(pred.expected_winner) === normalizeText(ver.winner);
+        addCount(counts, predictor, hit);
+      });
+    }
+  }
+
+  function renderRanking(countsMap, containerEl) {
+    if (!containerEl) return;
+    var rows = Object.keys(countsMap).map(function (k) { return countsMap[k]; });
+    if (!rows.length) {
+      containerEl.textContent = "集計対象がありません（予測・勝者確定のデータを追加してください）";
+      return;
+    }
+
+    rows.sort(function (a, b) {
+      var ra = a.total ? (a.hit / a.total) : 0;
+      var rb = b.total ? (b.hit / b.total) : 0;
+      if (rb !== ra) return rb - ra;
+      if (b.total !== a.total) return b.total - a.total;
+      return String(a.name).localeCompare(String(b.name), "ja");
+    });
+
+    var table = document.createElement("table");
+    table.className = "rank-table";
+    table.innerHTML =
+      "<thead><tr>" +
+      "<th>予測者</th>" +
+      "<th>的中率</th>" +
+      "<th>的中/母数</th>" +
+      "</tr></thead>" +
+      "<tbody></tbody>";
+
+    var tbody = table.querySelector("tbody");
+    rows.forEach(function (r) {
+      var rate = r.total ? Math.round((r.hit / r.total) * 1000) / 10 : 0; // 0.1%刻み
+      var tr = document.createElement("tr");
+      tr.innerHTML =
+        "<td>" + escapeHtml(r.name) + "</td>" +
+        "<td>" + escapeHtml(rate.toFixed(1)) + "%</td>" +
+        "<td>" + escapeHtml(String(r.hit)) + "/" + escapeHtml(String(r.total)) + "</td>";
+      tbody.appendChild(tr);
+    });
+
+    containerEl.innerHTML = "";
+    containerEl.appendChild(table);
+  }
+
+  // ─── エントリ ───
+  var container = document.getElementById(LIST_ID);
+  var rankingEl = document.getElementById(RANKING_ID);
+  fetchIndex()
+    .then(function (raw) {
+      state.events = sortByDateNewestFirst(normalizeIndex(raw));
+      renderEventList(state.events, container);
+
+      // ranking: index.json の events から event JSON を読み込んで集計
+      var counts = {};
+      return Promise.all(
+        state.events.map(function (ev) {
+          return fetchEventFile(ev.file)
+            .then(function (evData) { collectFromEventJson(evData, counts); })
+            .catch(function () { /* 個別失敗はスキップ（一覧表示を優先） */ });
+        })
+      ).then(function () {
+        renderRanking(counts, rankingEl);
+      });
+    })
+    .catch(function (err) {
+      showError(container, "イベント一覧の読み込みに失敗しました: " + (err && err.message ? err.message : String(err)));
+      if (rankingEl) rankingEl.textContent = "ランキングの読み込みに失敗しました。";
+    });
+})();
+</script>
+
+</body>
+</html>

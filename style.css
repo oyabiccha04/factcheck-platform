@@ -1,0 +1,299 @@
+/* -----------------------------
+   基本設定
+----------------------------- */
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+
+/* -----------------------------
+   ヘッダー
+----------------------------- */
+
+header {
+    background: #111;
+    color: white;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+header p {
+    margin-top: 6px;
+    color: #ccc;
+}
+
+
+/* -----------------------------
+   ナビ
+----------------------------- */
+
+nav {
+    background: #1f1f1f;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0;
+}
+
+nav a {
+    display: block;
+    padding: 14px 18px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+nav a:hover {
+    background: #333;
+}
+
+/* サブメニュー（格闘技ログ配下など） */
+nav .nav__parent {
+    position: relative;
+}
+nav .nav__parent > ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-width: 12em;
+    background: #1f1f1f;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    z-index: 10;
+}
+nav .nav__parent:hover > ul,
+nav .nav__parent:focus-within > ul {
+    display: block;
+}
+nav .nav__parent > ul li {
+    margin: 0;
+}
+nav .nav__parent > ul a {
+    display: block;
+    padding: 10px 18px;
+    white-space: nowrap;
+}
+nav .nav__parent > ul a:hover {
+    background: #333;
+}
+
+
+/* -----------------------------
+   メイン
+----------------------------- */
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 6px;
+}
+
+
+/* -----------------------------
+   イベントカード
+----------------------------- */
+
+.event-card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.card {
+    background: white;
+    padding: 18px;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    cursor: pointer;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    background-color: #f8f9fa;
+}
+
+.card:active {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.card.disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+}
+
+.card.disabled:hover {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    background-color: white;
+}
+
+.event-card h3 {
+    margin-top: 0;
+}
+
+.event-card a {
+    display: inline-block;
+    margin-top: 8px;
+    text-decoration: none;
+    color: white;
+    background: #0077cc;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.event-card a:hover {
+    background: #005fa3;
+}
+
+
+/* -----------------------------
+   リンク
+----------------------------- */
+
+a {
+    color: #0077cc;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* -----------------------------
+   フッター
+----------------------------- */
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    background: #111;
+    color: #aaa;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #ccc;
+}
+
+
+/* -----------------------------
+   モバイル
+----------------------------- */
+
+@media (max-width: 600px) {
+
+header h1 {
+    font-size: 22px;
+}
+
+nav ul {
+    flex-direction: column;
+}
+
+nav a {
+    border-top: 1px solid #333;
+}
+
+}
+/* -----------------------------
+   試合カード
+----------------------------- */
+
+.fight-card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.fight-header h2 {
+    margin: 0;
+}
+
+.fight-header p {
+    color: #666;
+    margin-top: 4px;
+}
+
+
+/* 発言ログ */
+
+.statements {
+    margin-top: 15px;
+}
+
+.statement {
+    background: #f1f3f5;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.statement .date {
+    font-size: 12px;
+    color: #777;
+}
+
+
+/* 結果 */
+
+.result {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+}
+#filter-buttons {
+    margin-bottom: 20px;
+}
+
+#filter-buttons button {
+    margin-right: 10px;
+    padding: 6px 12px;
+    border: none;
+    background: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#filter-buttons button:hover {
+    background: #bbb;
+}

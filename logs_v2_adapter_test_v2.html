@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>v2 Adapter Test v2</title>
+</head>
+<body>
+  <h1>v2 Adapter Test View (v2)</h1>
+  <pre id="output">loading...</pre>
+
+  <script>
+    const CACHE_BUSTER = '202603161430';
+
+    async function loadEventsV2ForLegacyView() {
+      const indexRes = await fetch(
+        '/factcheck-platform/data/events/index.json?v=' + CACHE_BUSTER
+      );
+      const indexData = await indexRes.json();
+
+      const results = [];
+
+      for (const ev of indexData.events) {
+        const evRes = await fetch(
+          '/factcheck-platform/data/events/' + ev.event_file + '?v=' + CACHE_BUSTER
+        );
+        const evData = await evRes.json();
+
+        results.push({
+          event: {
+            id: evData.event_id,
+            title: evData.event_name
+          },
+          data: evData
+        });
+      }
+
+      return results;
+    }
+
+    (async () => {
+      try {
+        const data = await loadEventsV2ForLegacyView();
+        document.getElementById('output').textContent =
+          JSON.stringify(data, null, 2);
+      } catch (e) {
+        document.getElementById('output').textContent =
+          'ERROR:\n' + e.message;
+      }
+    })();
+  </script>
+</body>
+</html>
+``

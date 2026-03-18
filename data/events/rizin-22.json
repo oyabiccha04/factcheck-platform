@@ -1,0 +1,83 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-22",
+  "event_meta": {
+    "event_name": "RIZIN.22",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2020-08-09",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "ぴあアリーナMM",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin-22-main",
+          "division": "Featherweight",
+          "rules": "RIZIN MMA",
+          "red": "朝倉未来",
+          "blue": "クレベル・コイケ",
+          "outcome": {
+            "winner": "クレベル・コイケ",
+            "method": "Decision",
+            "round": 3,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin-22-highlight-1",
+          "division": "Women Super Atomweight",
+          "rules": "RIZIN MMA",
+          "red": "伊澤星花",
+          "blue": "浅倉カンナ",
+          "outcome": {
+            "winner": "伊澤星花",
+            "method": "Decision",
+            "round": 3,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin-22-highlight-2",
+          "division": "Flyweight",
+          "rules": "RIZIN MMA",
+          "red": "扇久保博正",
+          "blue": "瀧澤謙太",
+          "outcome": {
+            "winner": "扇久保博正",
+            "method": "Decision",
+            "round": 3,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin-22-highlight-3",
+          "division": "Lightweight",
+          "rules": "RIZIN MMA",
+          "red": "武田光司",
+          "blue": "久米鷹介",
+          "outcome": {
+            "winner": "武田光司",
+            "method": "TKO",
+            "round": 1,
+            "time": "4:33"
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

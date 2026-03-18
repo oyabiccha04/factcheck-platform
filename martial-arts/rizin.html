@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>RIZINログ | factcheck-platform</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <h1>RIZINログ</h1>
+  <p>RIZINのイベントログ一覧</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="../index.html">トップ</a></li>
+    <li><a href="./">格闘技ログ</a></li>
+    <li><a href="../logs.html">ログ一覧</a></li>
+  </ul>
+</nav>
+
+<main class="container">
+
+  <!-- 🔴 概要 -->
+  <section>
+    <h2>概要</h2>
+    <p>
+      本ページでは、RIZINにおける発言・予測・結果のログを時系列で記録しています。
+    </p>
+  </section>
+
+  <!-- 📊 統計 -->
+  <section>
+    <h2>イベント数</h2>
+    <p id="event-count">読み込み中...</p>
+  </section>
+
+  <!-- 🟢 最新イベント -->
+  <section>
+    <h2>最新イベント</h2>
+    <div id="latest-event"></div>
+  </section>
+
+  <!-- 📚 一覧 -->
+  <section>
+    <h2>イベント一覧</h2>
+    <div id="event-list"></div>
+  </section>
+
+  <!-- 🔽 ナビ -->
+  <section>
+    <h2>ナビゲーション</h2>
+
+    <div class="card" onclick="location.href='../logs.html'">
+      <h3>ログ一覧へ</h3>
+      <p>全イベントを表示</p>
+    </div>
+
+    <div class="card" onclick="location.href='index.html'">
+      <h3>格闘技トップへ</h3>
+      <p>団体一覧に戻る</p>
+    </div>
+  </section>
+
+</main>
+
+<script src="../scripts/data_loader_v2_adapter.js"></script>
+
+<script>
+fetch("../data/index.json")
+  .then(res => res.json())
+  .then(data => {
+
+    // RIZINのみ抽出
+    const events = data.events.filter(e => e.organization === "RIZIN");
+
+    // 日付降順
+    events.sort((a, b) => new Date(b.date) - new Date(a.date));
+
+    // イベント数
+    document.getElementById("event-count").textContent = events.length + "件";
+
+    // 最新イベント
+    if (events.length > 0) {
+      const latest = events[0];
+      const latestDiv = document.getElementById("latest-event");
+
+      latestDiv.innerHTML = `
+        <div class="card" onclick="location.href='../event.html?file=${latest.file}'">
+          <h3>${latest.title}</h3>
+          <p>${latest.date}</p>
+          <p>詳細を見る →</p>
+        </div>
+      `;
+    }
+
+    // 一覧
+    const list = document.getElementById("event-list");
+
+    events.forEach(e => {
+      const card = document.createElement("div");
+      card.className = "card";
+      card.onclick = () => {
+        location.href = "../event.html?file=" + e.file;
+      };
+
+      card.innerHTML = `
+        <h3>${e.title}</h3>
+        <p>${e.date}</p>
+      `;
+
+      list.appendChild(card);
+    });
+
+  });
+</script>
+
+</body>
+</html>

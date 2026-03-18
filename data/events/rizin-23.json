@@ -1,0 +1,83 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-23",
+  "event_meta": {
+    "event_name": "RIZIN.23 - CALLING OVER",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2020-08-10",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "ぴあアリーナMM",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin-23-main",
+          "division": "Bantamweight Title",
+          "rules": "RIZIN MMA",
+          "red": "朝倉海",
+          "blue": "扇久保博正",
+          "outcome": {
+            "winner": "朝倉海",
+            "method": "TKO",
+            "round": 1,
+            "time": "4:31"
+          }
+        },
+        {
+          "bout_id": "rizin-23-highlight-1",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "元谷友貴",
+          "blue": "魚井フルスイング",
+          "outcome": {
+            "winner": "元谷友貴",
+            "method": "Submission",
+            "round": 3,
+            "time": "2:19"
+          }
+        },
+        {
+          "bout_id": "rizin-23-highlight-2",
+          "division": "Featherweight",
+          "rules": "RIZIN MMA",
+          "red": "斎藤裕",
+          "blue": "摩嶋一整",
+          "outcome": {
+            "winner": "斎藤裕",
+            "method": "TKO",
+            "round": 2,
+            "time": "0:24"
+          }
+        },
+        {
+          "bout_id": "rizin-23-highlight-3",
+          "division": "Kickboxing",
+          "rules": "RIZIN Kickboxing",
+          "red": "原口健飛",
+          "blue": "大雅",
+          "outcome": {
+            "winner": "原口健飛",
+            "method": "TKO",
+            "round": 1,
+            "time": "2:50"
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

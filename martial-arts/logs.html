@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>格闘技ログ一覧 | factcheck-platform</title>
+  <link rel="stylesheet" href="../style.css">
+  <style>
+    .event-list { display: flex; flex-direction: column; gap: 12px; }
+    .event-list__card { cursor: pointer; transition: box-shadow 0.2s ease, background-color 0.2s ease; }
+    .event-list__card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.12); background-color: #f8f9fa; }
+    .event-list__card:active { box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .event-list__meta { color: #666; font-size: 0.9em; margin-top: 4px; }
+    .event-list__error { color: #c00; padding: 16px; background: #fff5f5; border-radius: 6px; }
+    .filter-wrap { margin-bottom: 16px; }
+    .filter-wrap label { display: block; font-size: 0.9em; color: #333; margin-bottom: 6px; }
+    .filter-wrap input[type="search"] { width: 100%; max-width: 320px; padding: 8px 12px; border: 1px solid #ccc; border-radius: 6px; font-size: 1em; }
+    .filter-wrap input[type="search"]:focus { outline: none; border-color: #0b57d0; }
+    .filter-result-note { font-size: 0.9em; color: #666; margin-top: 8px; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>格闘技ログ一覧</h1>
+  <p>格闘技イベントのログ一覧</p>
+</header>
+
+<nav aria-label="グローバルナビ">
+  <ul>
+    <li><a href="../index.html">トップ</a></li>
+    <li class="nav__parent">
+      <a href="./">格闘技ログ</a>
+      <ul>
+        <li><a href="logs.html">格闘技ログ一覧</a></li>
+        <li><a href="predictors.html">予測者一覧</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+<main class="container">
+  <section aria-label="イベント一覧">
+    <h2>イベント一覧</h2>
+    <p class="event-list__meta" style="margin-bottom: 12px;">団体の区別なく、日付の新しい順に表示しています。</p>
+
+    <div class="filter-wrap" aria-label="検索">
+      <label for="event-search">興行名・団体名・選手名・予測者名で検索</label>
+      <input type="search" id="event-search" placeholder="例: RIZIN 40、那須川天心、朝倉未来" autocomplete="off">
+      <p id="filter-result-note" class="filter-result-note" aria-live="polite"></p>
+    </div>
+
+    <div id="event-list" class="event-list">
+      <p>読み込み中…</p>
+    </div>
+  </section>
+
+  <nav aria-label="ページ内導線" style="margin-top: 24px;">
+    <ul style="list-style: none; padding-left: 0;">
+      <li style="margin-bottom: 8px;"><a href="predictors.html">予測者一覧</a></li>
+      <li style="margin-bottom: 8px;"><a href="../logs.html">全ジャンル・ログ一覧へ</a></li>
+      <li style="margin-bottom: 8px;"><a href="./">格闘技ログトップへ戻る</a></li>
+      <li><a href="../index.html">トップへ戻る</a></li>
+    </ul>
+  </nav>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  var CACHE = "20260318";
+  var LIST_ID = "event-list";
+  var SEARCH_ID = "event-search";
+  var NOTE_ID = "filter-result-note";
+
+  // 格闘技として表示する団体（index.json の organization と一致）。他ジャンル追加時にここを拡張可能
+  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+
+  var state = { sortedEvents: [], eventFighters: {}, eventPredictors: {} };
+
+  function fetchIndex() {
+    return fetch("../data/index.json?v=" + CACHE).then(function (res) {
+      if (!res.ok) throw new Error("読み込みに失敗しました（" + res.status + "）");
+      return res.json();
+    });
+  }
+
+  function fetchEventFile(file) {
+    return fetch("../data/events/" + encodeURIComponent(file) + "?v=" + CACHE).then(function (res) {
+      if (!res.ok) return null;
+      return res.json();
+    });
+  }
+
+  function extractFighterNames(evData) {
+    var names = [];
+    function add(s) { if (s && String(s).trim()) names.push(String(s).trim()); }
+    if (!evData) return names;
+    if (Array.isArray(evData.fights)) {
+      evData.fights.forEach(function (f) { add(f.red); add(f.blue); });
+    }
+    if (Array.isArray(evData.cards)) {
+      evData.cards.forEach(function (card) {
+        (card && card.bouts || []).forEach(function (b) { add(b.red); add(b.blue); });
+      });
+    }
+    return names;
+  }
+
+  function extractPredictorNames(evData) {
+    var names = [];
+    function add(s) { if (s && String(s).trim()) names.push(String(s).trim()); }
+    if (!evData) return names;
+    if (Array.isArray(evData.statements)) {
+      evData.statements.forEach(function (s) {
+        var pred = s && s.prediction;
+        if (pred && pred.predictor_name) add(pred.predictor_name);
+      });
+    }
+    if (Array.isArray(evData.cards)) {
+      evData.cards.forEach(function (card) {
+        (card && card.bouts || []).forEach(function (b) {
+          var pred = b && b.prediction;
+          if (pred && pred.predictor_name) add(pred.predictor_name);
+        });
+      });
+    }
+    return names;
+  }
+
+  function normalizeIndex(raw) {
+    var list = Array.isArray(raw) ? raw : (raw && raw.events) ? raw.events : [];
+    return list
+      .map(function (item) {
+        if (!item || typeof item !== "object") return null;
+        var file = (item.file != null) ? String(item.file).trim() : "";
+        if (!file || file.indexOf("..") !== -1 || !file.toLowerCase().endsWith(".json")) return null;
+        return {
+          title: item.title != null ? String(item.title) : "",
+          date: item.date != null ? String(item.date) : "",
+          organization: item.organization != null ? String(item.organization) : "",
+          file: file
+        };
+      })
+      .filter(Boolean);
+  }
+
+  function filterMartialArts(events) {
+    var set = {};
+    MARTIAL_ARTS_ORGANIZATIONS.forEach(function (o) { set[o] = true; });
+    return events.filter(function (e) { return set[e.organization]; });
+  }
+
+  // 団体の分け隔てなく日付の新しい順
+  function sortByDateNewestFirst(events) {
+    return events.slice().sort(function (a, b) {
+      var tA = a.date ? new Date(a.date).getTime() : 0;
+      var tB = b.date ? new Date(b.date).getTime() : 0;
+      return tB - tA;
+    });
+  }
+
+  function createCard(event) {
+    var card = document.createElement("div");
+    card.className = "event-list__card card";
+    card.setAttribute("role", "button");
+    card.setAttribute("tabindex", "0");
+    var title = document.createElement("h3");
+    title.textContent = event.title || "（無題）";
+    var meta = document.createElement("p");
+    meta.className = "event-list__meta";
+    meta.textContent = [event.organization, event.date].filter(Boolean).join(" / ");
+    card.appendChild(title);
+    card.appendChild(meta);
+    card.addEventListener("click", function () { location.href = "../event.html?file=" + encodeURIComponent(event.file); });
+    card.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); card.click(); } });
+    return card;
+  }
+
+  function applySearchFilter(events, query) {
+    var q = String(query || "").trim().toLowerCase();
+    if (!q) return events;
+    return events.filter(function (ev) {
+      var text = [ev.title, ev.organization].filter(Boolean).join(" ") || "";
+      if (text.toLowerCase().indexOf(q) !== -1) return true;
+      var fighters = state.eventFighters[ev.file] || [];
+      for (var i = 0; i < fighters.length; i++) {
+        if (fighters[i].toLowerCase().indexOf(q) !== -1) return true;
+      }
+      var predictors = state.eventPredictors[ev.file] || [];
+      for (var j = 0; j < predictors.length; j++) {
+        if (predictors[j].toLowerCase().indexOf(q) !== -1) return true;
+      }
+      return false;
+    });
+  }
+
+  function renderEventList(events, containerEl, isFiltered) {
+    if (!containerEl) return;
+    containerEl.innerHTML = "";
+    containerEl.className = "event-list";
+    if (!events || events.length === 0) {
+      var p = document.createElement("p");
+      p.className = "event-list__meta";
+      p.textContent = isFiltered ? "該当するイベントがありません。検索ワードを変えてみてください。" : "格闘技イベントがありません。";
+      containerEl.appendChild(p);
+      return;
+    }
+    events.forEach(function (ev) { containerEl.appendChild(createCard(ev)); });
+  }
+
+  function updateFilterNote(filteredLength, totalLength, hasQuery) {
+    var noteEl = document.getElementById(NOTE_ID);
+    if (!noteEl) return;
+    if (!hasQuery) {
+      noteEl.textContent = totalLength ? "全 " + totalLength + " 件" : "";
+      return;
+    }
+    if (filteredLength === 0) {
+      noteEl.textContent = "該当なし";
+    } else {
+      noteEl.textContent = "全 " + totalLength + " 件中 " + filteredLength + " 件";
+    }
+  }
+
+  function showError(containerEl, message) {
+    if (!containerEl) return;
+    containerEl.innerHTML = "";
+    var p = document.createElement("p");
+    p.className = "event-list__error";
+    p.textContent = message;
+    containerEl.appendChild(p);
+  }
+
+  var container = document.getElementById(LIST_ID);
+  var searchInput = document.getElementById(SEARCH_ID);
+
+  function applyFilter() {
+    var query = searchInput ? searchInput.value : "";
+    var hasQuery = String(query).trim() !== "";
+    var filtered = applySearchFilter(state.sortedEvents, query);
+    renderEventList(filtered, container, hasQuery);
+    updateFilterNote(filtered.length, state.sortedEvents.length, hasQuery);
+  }
+
+  fetchIndex()
+    .then(function (raw) {
+      var all = normalizeIndex(raw);
+      var filtered = filterMartialArts(all);
+      state.sortedEvents = sortByDateNewestFirst(filtered);
+      return Promise.all(
+        state.sortedEvents.map(function (ev) {
+          return fetchEventFile(ev.file).then(function (evData) {
+            var data = evData || {};
+            state.eventFighters[ev.file] = extractFighterNames(data);
+            state.eventPredictors[ev.file] = extractPredictorNames(data);
+          }).catch(function () {
+            state.eventFighters[ev.file] = [];
+            state.eventPredictors[ev.file] = [];
+          });
+        })
+      ).then(function () {
+        applyFilter();
+        if (searchInput) {
+          searchInput.addEventListener("input", applyFilter);
+          searchInput.addEventListener("search", applyFilter);
+        }
+      });
+    })
+    .catch(function (err) {
+      showError(container, "イベント一覧の読み込みに失敗しました: " + (err && err.message ? err.message : String(err)));
+    });
+})();
+</script>
+
+</body>
+</html>

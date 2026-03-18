@@ -1,0 +1,80 @@
+【依頼】
+以下の一覧は、格闘技興行「THE MATCH 2022」の予測発言データです。各発言について、指定したURLの動画（または記事）のなかで、その発言がされている箇所のタイムスタンプ（例：5:20〜、12:34〜）を教えてください。動画の場合は「分:秒」形式で、該当する発言が始まるおおよその時刻を答えてください。複数が同じ動画の場合は、発言者名と引用文で区別して、それぞれのタイムスタンプを出してください。判別できない場合は「不明」と書いてください。
+
+【回答形式】
+各項目について、次の1行で答えてください。
+statement_id → タイムスタンプ（例：12:34〜、不明）
+
+---
+以下、タイムスタンプを取得してほしい発言一覧（source.timestamp が不明の13件）
+---
+
+■ 動画（YouTube）— 9件
+
+1) statement_id: stmt-the-match-2022-009
+発言者: 朝倉未来
+動画URL: https://www.youtube.com/watch?v=mRSODsjDvc4
+引用: 「天心君が判定で勝つんじゃないかな」「スピードの差が結構ある」
+
+2) statement_id: stmt-the-match-2022-010
+発言者: 平本蓮
+動画URL: https://www.youtube.com/watch?v=tPEfoTpKst8
+引用: 「天心のゲームには誰も勝てない」
+
+3) statement_id: stmt-the-match-2022-011
+発言者: 堀口恭司
+動画URL: https://www.youtube.com/watch?v=M7j6TkJhUr0
+引用: 「（天心が）当てて逃げるというか、ポイントアウトする」
+
+4) statement_id: stmt-the-match-2022-012
+発言者: 朝倉海
+動画URL: https://www.youtube.com/watch?v=M7j6TkJhUr0
+引用: 「天心選手のスピードと距離感についていけないのではないか」
+
+5) statement_id: stmt-the-match-2022-013
+発言者: 京口紘人
+動画URL: https://www.youtube.com/watch?v=M7j6TkJhUr0
+引用: 「ボクシング技術の差で天心選手」
+
+6) statement_id: stmt-the-match-2022-014
+発言者: 矢地祐介
+動画URL: https://www.youtube.com/watch?v=M7j6TkJhUr0
+引用: 「触らせないまま天心君が逃げ切る」
+
+7) statement_id: stmt-the-match-2022-015
+発言者: 小比類巻貴之
+動画URL: https://www.youtube.com/watch?v=M7j6TkJhUr0
+引用: 「武尊選手のタフさと後半の追い上げ」
+
+8) statement_id: stmt-the-match-2022-016
+発言者: 安保瑠輝也
+動画URL: https://www.youtube.com/watch?v=QFrXrJ9_bNc
+引用: 「武尊選手の圧力が最終的に上回る」
+
+9) statement_id: stmt-the-match-2022-017
+発言者: 青木真也
+動画URL: https://www.youtube.com/watch?v=QFrXrJ9_bNc
+引用: 「最後は武尊の執念が勝つんじゃないか」
+
+■ 記事（SPREAD）— 4件
+（記事内に動画の該当箇所が「○分○秒〜」などで書いてあればそれを、なければ「不明」）
+
+10) statement_id: stmt-the-match-2022-003
+発言者: 堀口恭司
+記事URL: https://spread-sports.jp/archives/116734/5
+引用: 「だから天心くんが勝つのかなと思いますね。」
+
+11) statement_id: stmt-the-match-2022-004
+発言者: 青木真也
+記事URL: https://spread-sports.jp/archives/116734/14
+引用: 「だから天心が勝つと思う。」
+
+12) statement_id: stmt-the-match-2022-007
+発言者: 久保賢司
+記事URL: https://spread-sports.jp/archives/116734/7
+引用: 「現時点では、那須川天心選手の判定（勝ち）かな。」
+
+13) statement_id: stmt-the-match-2022-008
+発言者: 魔裟斗
+記事URL: https://spread-sports.jp/archives/116734/12
+引用: 「3ラウンドなら天心、延長があるなら武尊」

@@ -1,0 +1,16 @@
+{
+  "events": [
+    {
+      "event_meta": {
+        "name": "THE MATCH 2022",
+        "event_date": "2022-06-19"
+      }
+    },
+    {
+      "event_meta": {
+        "name": "RIZIN LANDMARK",
+        "event_date": "2023-04-29"
+      }
+    }
+  ]
+}

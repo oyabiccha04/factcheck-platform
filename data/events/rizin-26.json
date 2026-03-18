@@ -1,0 +1,200 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-26",
+  "event_meta": {
+    "event_name": "Yogibo presents RIZIN.26",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2020-12-31",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "Saitama Super Arena",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin26-01",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "Kyoji Horiguchi",
+          "blue": "Kai Asakura",
+          "outcome": {
+            "winner": "Kyoji Horiguchi",
+            "method": "KO (Punches)",
+            "round": 1,
+            "time": "2:48"
+          }
+        },
+        {
+          "bout_id": "rizin26-02",
+          "division": "Catchweight 68kg",
+          "rules": "RIZIN MMA",
+          "red": "Mikuru Asakura",
+          "blue": "Satoshi Yamasu",
+          "outcome": {
+            "winner": "Mikuru Asakura",
+            "method": "KO (Head Kick and Punches)",
+            "round": 1,
+            "time": "4:20"
+          }
+        },
+        {
+          "bout_id": "rizin26-03",
+          "division": "Super Atomweight Championship",
+          "rules": "RIZIN MMA",
+          "red": "Ayaka Hamasaki",
+          "blue": "Miyuu Yamamoto",
+          "outcome": {
+            "winner": "Ayaka Hamasaki",
+            "method": "Submission (Leg Scissor Choke)",
+            "round": 2,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-04",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "Naoki Inoue",
+          "blue": "Yuki Motoya",
+          "outcome": {
+            "winner": "Naoki Inoue",
+            "method": "Decision",
+            "round": null,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-05",
+          "division": "Featherweight",
+          "rules": "RIZIN MMA",
+          "red": "Kleber Koike Erbst",
+          "blue": "Kyle Aguon",
+          "outcome": {
+            "winner": "Kleber Koike Erbst",
+            "method": "Submission",
+            "round": 1,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-06",
+          "division": "Featherweight",
+          "rules": "RIZIN MMA",
+          "red": "Kyohei Hagiwara",
+          "blue": "Ren Hiramoto",
+          "outcome": {
+            "winner": "Kyohei Hagiwara",
+            "method": "TKO",
+            "round": 2,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-07",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "Hideo Tokoro",
+          "blue": "Shinobu Ota",
+          "outcome": {
+            "winner": "Hideo Tokoro",
+            "method": "Submission",
+            "round": 2,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-08",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "Ulka Sasaki",
+          "blue": "Kenta Takizawa",
+          "outcome": {
+            "winner": "Ulka Sasaki",
+            "method": "Submission",
+            "round": 1,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-09",
+          "division": "Atomweight",
+          "rules": "RIZIN MMA",
+          "red": "Kanna Asakura",
+          "blue": "Ai Shimizu",
+          "outcome": {
+            "winner": "Kanna Asakura",
+            "method": "Decision",
+            "round": null,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-10",
+          "division": "Catchweight",
+          "rules": "RIZIN MMA",
+          "red": "Hiroya",
+          "blue": "Shibatar",
+          "outcome": {
+            "winner": "Draw",
+            "method": "Majority Draw",
+            "round": null,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-11",
+          "division": "Lightweight",
+          "rules": "RIZIN MMA",
+          "red": "Kazuma Kuramoto",
+          "blue": "Taiyo Nakahara",
+          "outcome": {
+            "winner": "Kazuma Kuramoto",
+            "method": "Decision",
+            "round": null,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-12",
+          "division": "Heavyweight",
+          "rules": "RIZIN MMA",
+          "red": "Tsuyoshi Sudario",
+          "blue": "Minowaman",
+          "outcome": {
+            "winner": "Tsuyoshi Sudario",
+            "method": "TKO",
+            "round": 1,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin26-13",
+          "division": "Super Atomweight",
+          "rules": "RIZIN MMA",
+          "red": "Sakura Mori",
+          "blue": "Eru Takebayashi",
+          "outcome": {
+            "winner": "Sakura Mori",
+            "method": "Decision",
+            "round": null,
+            "time": null
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

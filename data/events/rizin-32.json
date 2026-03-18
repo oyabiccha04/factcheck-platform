@@ -1,0 +1,57 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-32",
+  "event_meta": {
+    "event_name": "RIZIN.32",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2021-11-20",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "Okinawa Arena",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin32-01",
+          "division": "Lightweight",
+          "rules": "RIZIN MMA",
+          "red": "Roberto Satoshi de Souza",
+          "blue": "Yusuke Yachi",
+          "outcome": {
+            "winner": "Roberto Satoshi de Souza",
+            "method": "Submission",
+            "round": 1,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin32-02",
+          "division": "Featherweight",
+          "rules": "RIZIN MMA",
+          "red": "Yutaka Saito",
+          "blue": "Hiroaki Suzuki",
+          "outcome": {
+            "winner": "Yutaka Saito",
+            "method": "Decision",
+            "round": null,
+            "time": null
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

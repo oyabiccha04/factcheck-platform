@@ -1,0 +1,57 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-30",
+  "event_meta": {
+    "event_name": "RIZIN.30",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2021-09-19",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "Saitama Super Arena",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin30-01",
+          "division": "Bantamweight",
+          "rules": "RIZIN MMA",
+          "red": "Kyoji Horiguchi",
+          "blue": "Hiromasa Ougikubo",
+          "outcome": {
+            "winner": "Kyoji Horiguchi",
+            "method": "Decision (Unanimous)",
+            "round": null,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin30-02",
+          "division": "Featherweight",
+          "rules": "RIZIN MMA",
+          "red": "Mikuru Asakura",
+          "blue": "Yutaka Saito",
+          "outcome": {
+            "winner": "Yutaka Saito",
+            "method": "Decision (Unanimous)",
+            "round": null,
+            "time": null
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

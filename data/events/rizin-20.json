@@ -1,0 +1,83 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-20",
+  "event_meta": {
+    "event_name": "RIZIN.20",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2019-12-31",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "さいたまスーパーアリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "Main & Highlighted Bouts",
+      "bouts": [
+        {
+          "bout_id": "rizin-20-main",
+          "division": "Bantamweight Title",
+          "rules": "RIZIN MMA",
+          "red": "朝倉海",
+          "blue": "マネル・ケイプ",
+          "outcome": {
+            "winner": "マネル・ケイプ",
+            "method": "TKO",
+            "round": 2,
+            "time": "0:38"
+          }
+        },
+        {
+          "bout_id": "rizin-20-co-main",
+          "division": "Kickboxing Special",
+          "rules": "RIZIN Kickboxing",
+          "red": "那須川天心",
+          "blue": "江幡塁",
+          "outcome": {
+            "winner": "那須川天心",
+            "method": "TKO",
+            "round": 1,
+            "time": "2:46"
+          }
+        },
+        {
+          "bout_id": "rizin-20-title-women",
+          "division": "Women Super Atomweight Title",
+          "rules": "RIZIN MMA",
+          "red": "浜崎朱加",
+          "blue": "ハム・ソヒ",
+          "outcome": {
+            "winner": "ハム・ソヒ",
+            "method": "Decision",
+            "round": 3,
+            "time": null
+          }
+        },
+        {
+          "bout_id": "rizin-20-highlight",
+          "division": "RIZIN × Bellator",
+          "rules": "RIZIN MMA",
+          "red": "朝倉未来",
+          "blue": "ジョン・マカパ",
+          "outcome": {
+            "winner": "朝倉未来",
+            "method": "Decision",
+            "round": 3,
+            "time": null
+          }
+        }
+      ]
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

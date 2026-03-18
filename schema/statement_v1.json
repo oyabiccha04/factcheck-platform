@@ -1,0 +1,38 @@
+{
+  "schema_version": "statement_v1",
+  "description": "発言・予測の検証ログ用 基本スキーマ（評価を含まない）",
+
+  "statement_id": "string",
+  "statement_date": "YYYY-MM-DD",
+
+  "speaker": {
+    "name": "string",
+    "role": "string",
+    "affiliation": "string"
+  },
+
+  "content": {
+    "raw_text": "string",
+    "normalized_text": "string"
+  },
+
+  "source": {
+    "type": "video | article | post | other",
+    "url": "string",
+    "timestamp": "optional"
+  },
+
+  "prediction": {
+    "exists": true,
+    "target": "string",
+    "expected_outcome": "string",
+    "deadline": "YYYY-MM-DD"
+  },
+
+  "verification": {
+    "status": "pending | resolved | indeterminate",
+    "verification_date": "YYYY-MM-DD",
+    "actual_outcome": "string",
+    "notes": "string"
+  }
+}

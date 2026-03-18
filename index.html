@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>予測を、ファクトで評価する。 | factcheck-platform</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans JP", sans-serif; margin: 24px; line-height: 1.6; }
+    .muted { color: #666; }
+    .box { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 16px 0; }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 18px; }
+    code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
+    .row { display: grid; grid-template-columns: 1fr; gap: 12px; }
+    @media (min-width: 900px) { .row { grid-template-columns: 1fr 1fr; } }
+    .small { font-size: 12px; }
+  </style>
+</head>
+
+<body>
+  <h1>予測を、ファクトで評価する。</h1>
+  <p class="muted">
+    これは「発言・予測のログ」を検証可能な形で保存するアーカイブです。<br>
+    正誤判定・評価・意見は行いません（ログと結果を分離し、変更は commit 履歴で追跡可能）。
+  </p>
+
+  <div class="box">
+    <h2>入口</h2>
+    <ul>
+      <li><a href="./martial-arts/">格闘技ログ（RIZINなど）</a></li>
+      <li><a href="./logs.html?v=20260316">ログ一覧（閲覧ビュー）</a></li>
+      <li><a href="./data/index.json?v=20260316">イベントインデックス（JSON）</a> <span class="muted small">※機械読み取り用</span></li>
+      <li><a href="https://github.com/oyabiccha04/factcheck-platform">リポジトリ（commit 履歴含む）</a></li>
+    </ul>
+  </div>
+
+  <div class="row">
+    <div class="box">
+      <h2>最新イベント（日付降順）</h2>
+      <div id="latest" class="muted">Loading…</div>
+    </div>
+
+    <div class="box">
+      <h2>ランダムに1件</h2>
+      <div id="random" class="muted">Loading…</div>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>このサイトの使い方（最小）</h2>
+    <ul>
+      <li><code>logs.html</code> は “読むため” のページです（UIは最小）。</li>
+      <li>詳細を検証したい場合は、イベント JSON（raw）と commit 履歴を参照してください。</li>
+    </ul>
+    <p class="muted small">
+      ※ GitHub Pages はキャッシュが残ることがあるため、更新直後はURL末尾に <code>?v=XXXX</code> を付けると安全です。
+    </p>
+  </div>
+
+  <script>
+    // キャッシュ対策（HTML自体がキャッシュされても index.json は更新されやすくする）
+    const CACHE_BUSTER = "20260316";
+
+    // index.json を読み込んで、入口用の“客観表示”を作る
+    // （評価・ランキングは禁止。ここでは「日付順」「ランダム」を使う）
+    fetch("./data/index.json?v=" + CACHE_BUSTER)
+      .then(r => r.json())
+      .then(index => {
+        const events = Array.isArray(index.events) ? index.events.slice() : [];
+        const normalized = events
+          .map(e => ({
+            title: e?.title || "(no title)",
+            date: e?.date || "",
+            organization: e?.organization || "",
+            file: e?.file || "",
+          }))
+          .filter(e => e.file);
+
+        // 最新（日付降順）
+        const latest = normalized
+          .slice()
+          .sort((a, b) => new Date(b.date) - new Date(a.date))
+          .slice(0, 10);
+
+        // ランダム
+        const rnd = normalized.length
+          ? normalized[Math.floor(Math.random() * normalized.length)]
+          : null;
+
+        // 描画
+        const latestEl = document.getElementById("latest");
+        const randomEl = document.getElementById("random");
+
+        if (!latest.length) {
+          latestEl.textContent = "イベントがまだ登録されていません（index.json を確認してください）";
+        } else {
+          const ul = document.createElement("ul");
+          latest.forEach(ev => {
+            const li = document.createElement("li");
+
+            const a1 = document.createElement("a");
+            a1.href = "./event.html?file=" + encodeURIComponent(ev.file) + "&v=" + CACHE_BUSTER;
+            a1.textContent = ev.title;
+
+            const span = document.createElement("span");
+            span.className = "muted";
+            span.textContent =
+              "  /  " +
+              (ev.organization ? ev.organization + " / " : "") +
+              "Date: " +
+              (ev.date || "(unknown)");
+
+            const a2 = document.createElement("a");
+            a2.href = "./data/events/" + ev.file + "?v=" + CACHE_BUSTER;
+            a2.textContent = "（JSON）";
+            a2.className = "small";
+
+            li.appendChild(a1);
+            li.appendChild(span);
+            li.appendChild(document.createTextNode(" "));
+            li.appendChild(a2);
+            ul.appendChild(li);
+          });
+          latestEl.innerHTML = "";
+          latestEl.appendChild(ul);
+        }
+
+        if (!rnd) {
+          randomEl.textContent = "イベントがまだ登録されていません";
+        } else {
+          const p1 = document.createElement("p");
+          p1.innerHTML = "<strong>" + escapeHtml(rnd.title) + "</strong>";
+
+          const p2 = document.createElement("p");
+          p2.className = "muted";
+          p2.textContent =
+            (rnd.organization ? rnd.organization + " / " : "") +
+            "Date: " +
+            (rnd.date || "(unknown)");
+
+          const links = document.createElement("p");
+          const l1 = document.createElement("a");
+          l1.href = "./event.html?file=" + encodeURIComponent(rnd.file) + "&v=" + CACHE_BUSTER;
+          l1.textContent = "イベント詳細へ";
+
+          const l2 = document.createElement("a");
+          l2.href = "./data/events/" + rnd.file + "?v=" + CACHE_BUSTER;
+          l2.textContent = "イベントJSONを見る";
+
+          links.appendChild(l1);
+          links.appendChild(document.createTextNode(" / "));
+          links.appendChild(l2);
+
+          randomEl.innerHTML = "";
+          randomEl.appendChild(p1);
+          randomEl.appendChild(p2);
+          randomEl.appendChild(links);
+        }
+      })
+      .catch(err => {
+        document.getElementById("latest").textContent = "index.json の読み込みに失敗しました: " + err;
+        document.getElementById("random").textContent = "index.json の読み込みに失敗しました: " + err;
+      });
+
+    function escapeHtml(s) {
+      return String(s)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+    }
+  </script>
+</body>
+</html>
