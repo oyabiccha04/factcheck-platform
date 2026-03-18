@@ -13,6 +13,8 @@
     .rank-table th, .rank-table td { padding: 10px 12px; border-bottom: 1px solid #eef0f2; text-align: left; font-size: 0.95em; }
     .rank-table thead th { background: #f8f9fa; color: #333; font-weight: 600; }
     .rank-table tbody tr:last-child td { border-bottom: none; }
+    .rank-table .predictor-link { color: #0b57d0; text-decoration: none; }
+    .rank-table .predictor-link:hover { text-decoration: underline; }
     .rank-note { color: #666; font-size: 0.9em; margin-top: 8px; }
   </style>
 </head>
@@ -225,8 +227,9 @@
     var tbody = table.querySelector("tbody");
     rows.forEach(function (r) {
       var rate = r.total ? Math.round((r.hit / r.total) * 1000) / 10 : 0;
+      var predictorUrl = "predictor.html?name=" + encodeURIComponent(r.name);
       var tr = document.createElement("tr");
-      tr.innerHTML = "<td>" + escapeHtml(r.name) + "</td><td>" + escapeHtml(rate.toFixed(1)) + "%</td><td>" + escapeHtml(String(r.hit)) + "/" + escapeHtml(String(r.total)) + "</td>";
+      tr.innerHTML = "<td><a href=\"" + escapeHtml(predictorUrl) + "\" class=\"predictor-link\">" + escapeHtml(r.name) + "</a></td><td>" + escapeHtml(rate.toFixed(1)) + "%</td><td>" + escapeHtml(String(r.hit)) + "/" + escapeHtml(String(r.total)) + "</td>";
       tbody.appendChild(tr);
     });
     containerEl.innerHTML = "";

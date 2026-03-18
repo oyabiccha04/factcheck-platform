@@ -1,116 +1,39 @@
 {
   "events": [
     {
-      "id": "rizin-20",
-      "title": "RIZIN 20",
-      "date": "2019-12-31",
-      "organization": "RIZIN",
-      "file": "rizin-20.json"
+      "id": "the-match-2022",
+      "title": "THE MATCH 2022",
+      "date": "2022-06-19",
+      "organization": "THE MATCH",
+      "file": "the-match-2022.json"
     },
     {
-      "id": "rizin-21",
-      "title": "RIZIN 21",
-      "date": "2020-02-22",
+      "id": "rizin-36",
+      "title": "RIZIN 36",
+      "date": "2022-07-02",
       "organization": "RIZIN",
-      "file": "rizin-21.json"
+      "file": "rizin-36.json"
     },
     {
-      "id": "rizin-22",
-      "title": "RIZIN 22",
-      "date": "2020-08-09",
+      "id": "rizin-37",
+      "title": "RIZIN 37",
+      "date": "2022-07-31",
       "organization": "RIZIN",
-      "file": "rizin-22.json"
+      "file": "rizin-37.json"
     },
     {
-      "id": "rizin-23",
-      "title": "RIZIN 23",
-      "date": "2020-08-10",
+      "id": "rizin-38",
+      "title": "超RIZIN",
+      "date": "2022-09-25",
       "organization": "RIZIN",
-      "file": "rizin-23.json"
+      "file": "rizin-38.json"
     },
     {
-      "id": "rizin-24",
-      "title": "RIZIN 24",
-      "date": "2020-09-27",
+      "id": "rizin-39",
+      "title": "RIZIN 39",
+      "date": "2022-10-23",
       "organization": "RIZIN",
-      "file": "rizin-24.json"
-    },
-    {
-      "id": "rizin-25",
-      "title": "RIZIN 25",
-      "date": "2020-11-21",
-      "organization": "RIZIN",
-      "file": "rizin-25.json"
-    },
-    {
-      "id": "rizin-26",
-      "title": "RIZIN 26",
-      "date": "2020-12-31",
-      "organization": "RIZIN",
-      "file": "rizin-26.json"
-    },
-    {
-      "id": "rizin-27",
-      "title": "RIZIN 27",
-      "date": "2021-03-21",
-      "organization": "RIZIN",
-      "file": "rizin-27.json"
-    },
-    {
-      "id": "rizin-28",
-      "title": "RIZIN 28",
-      "date": "2021-06-13",
-      "organization": "RIZIN",
-      "file": "rizin-28.json"
-    },
-    {
-      "id": "rizin-29",
-      "title": "RIZIN 29",
-      "date": "2021-06-27",
-      "organization": "RIZIN",
-      "file": "rizin-29.json"
-    },
-    {
-      "id": "rizin-30",
-      "title": "RIZIN 30",
-      "date": "2021-09-19",
-      "organization": "RIZIN",
-      "file": "rizin-30.json"
-    },
-    {
-      "id": "rizin-31",
-      "title": "RIZIN 31",
-      "date": "2021-10-24",
-      "organization": "RIZIN",
-      "file": "rizin-31.json"
-    },
-    {
-      "id": "rizin-32",
-      "title": "RIZIN 32",
-      "date": "2021-11-20",
-      "organization": "RIZIN",
-      "file": "rizin-32.json"
-    },
-    {
-      "id": "rizin-33",
-      "title": "RIZIN 33",
-      "date": "2021-12-31",
-      "organization": "RIZIN",
-      "file": "rizin-33.json"
-    },
-    {
-      "id": "rizin-34",
-      "title": "RIZIN 34",
-      "date": "2022-03-20",
-      "organization": "RIZIN",
-      "file": "rizin-34.json"
-    },
-    {
-      "id": "rizin-35",
-      "title": "RIZIN 35",
-      "date": "2022-04-17",
-      "organization": "RIZIN",
-      "file": "rizin-35.json"
+      "file": "rizin-39.json"
     },
     {
       "id": "rizin-40",
@@ -120,11 +43,88 @@
       "file": "rizin-40.json"
     },
     {
-      "id": "the-match-2022",
-      "title": "THE MATCH 2022",
-      "date": "2022-06-19",
-      "organization": "THE MATCH",
-      "file": "the-match-2022.json"
+      "id": "rizin-41",
+      "title": "RIZIN 41",
+      "date": "2023-04-01",
+      "organization": "RIZIN",
+      "file": "rizin-41.json"
+    },
+    {
+      "id": "rizin-42",
+      "title": "RIZIN 42",
+      "date": "2023-05-06",
+      "organization": "RIZIN",
+      "file": "rizin-42.json"
+    },
+    {
+      "id": "rizin-43",
+      "title": "RIZIN 43",
+      "date": "2023-06-24",
+      "organization": "RIZIN",
+      "file": "rizin-43.json"
+    },
+    {
+      "id": "rizin-44",
+      "title": "RIZIN 44",
+      "date": "2023-09-24",
+      "organization": "RIZIN",
+      "file": "rizin-44.json"
+    },
+    {
+      "id": "rizin-45",
+      "title": "RIZIN 45",
+      "date": "2023-12-31",
+      "organization": "RIZIN",
+      "file": "rizin-45.json"
+    },
+    {
+      "id": "rizin-46",
+      "title": "RIZIN 46",
+      "date": "2024-04-29",
+      "organization": "RIZIN",
+      "file": "rizin-46.json"
+    },
+    {
+      "id": "rizin-47",
+      "title": "RIZIN 47",
+      "date": "2024-06-09",
+      "organization": "RIZIN",
+      "file": "rizin-47.json"
+    },
+    {
+      "id": "rizin-48",
+      "title": "RIZIN 48",
+      "date": "2024-09-29",
+      "organization": "RIZIN",
+      "file": "rizin-48.json"
+    },
+    {
+      "id": "rizin-49",
+      "title": "RIZIN DECADE",
+      "date": "2024-12-31",
+      "organization": "RIZIN",
+      "file": "rizin-49.json"
+    },
+    {
+      "id": "rizin-50",
+      "title": "RIZIN 50",
+      "date": "2025-03-30",
+      "organization": "RIZIN",
+      "file": "rizin-50.json"
+    },
+    {
+      "id": "rizin-51",
+      "title": "RIZIN 51",
+      "date": "2025-09-28",
+      "organization": "RIZIN",
+      "file": "rizin-51.json"
+    },
+    {
+      "id": "rizin-52",
+      "title": "RIZIN 52",
+      "date": "2026-03-07",
+      "organization": "RIZIN",
+      "file": "rizin-52.json"
     }
   ]
 }

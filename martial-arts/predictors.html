@@ -62,6 +62,7 @@
   "use strict";
   var CACHE = "20260318";
   var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+  var EXCLUDED_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
 
   function fetchIndex() {
     return fetch("../data/index.json?v=" + CACHE).then(function (res) {
@@ -91,7 +92,13 @@
   }
   function extractPredictorNames(evData) {
     var names = [];
-    function add(s) { if (s && String(s).trim()) names.push(String(s).trim()); }
+    function add(s) {
+      if (!s) return;
+      var name = String(s).trim();
+      if (!name) return;
+      if (EXCLUDED_PREDICTOR_NAMES[name]) return;
+      names.push(name);
+    }
     if (!evData) return names;
     if (Array.isArray(evData.statements)) {
       evData.statements.forEach(function (s) {
@@ -114,6 +121,7 @@
   var searchEl = document.getElementById("predictor-search");
   var noteEl = document.getElementById("filter-result-note");
   var allNames = [];
+  var countsByName = {};
 
   function renderList(names) {
     container.innerHTML = "";
@@ -124,7 +132,8 @@
     names.forEach(function (name) {
       var a = document.createElement("a");
       a.href = "predictor.html?name=" + encodeURIComponent(name);
-      a.textContent = name;
+      var c = countsByName && countsByName[name] ? countsByName[name] : 0;
+      a.textContent = c > 0 ? (name + "（" + c + "）") : name;
       container.appendChild(a);
     });
   }
@@ -163,7 +172,15 @@
         return fetchEventFile(ev.file).then(function (evData) { return extractPredictorNames(evData || {}); }).catch(function () { return []; });
       })).then(function (nameArrays) {
         var set = {};
-        nameArrays.forEach(function (arr) { arr.forEach(function (n) { set[n] = true; }); });
+        var counts = {};
+        nameArrays.forEach(function (arr) {
+          arr.forEach(function (n) {
+            if (!n || EXCLUDED_PREDICTOR_NAMES[n]) return;
+            set[n] = true;
+            counts[n] = (counts[n] || 0) + 1;
+          });
+        });
+        countsByName = counts;
         allNames = Object.keys(set).filter(function (n) { return n; }).sort(function (a, b) { return String(a).localeCompare(String(b), "ja"); });
         applyFilter();
       });

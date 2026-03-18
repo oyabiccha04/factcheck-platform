@@ -1,0 +1,395 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-37",
+  "event_meta": {
+    "event_name": "RIZIN.37",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2022-07-31",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "さいたまスーパーアリーナ",
+    "is_dome_class": true
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "rizin37-01",
+          "division": "62.0kg",
+          "rules": "RIZIN MMA 3分3R",
+          "red": "YUSHI",
+          "blue": "覇留樹",
+          "outcome": {
+            "winner": "YUSHI",
+            "method": "Submission",
+            "round": 2,
+            "time": "0:43",
+            "result_note": "リアネイキッドチョーク"
+          }
+        },
+        {
+          "bout_id": "rizin37-02",
+          "division": "63.0kg",
+          "rules": "RIZIN キックボクシング 3分3R",
+          "red": "笠原弘希",
+          "blue": "石月祐作",
+          "outcome": {
+            "winner": "笠原弘希",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin37-03",
+          "division": "58.0kg",
+          "rules": "RIZIN キックボクシング 3分3R",
+          "red": "龍聖",
+          "blue": "魁志",
+          "outcome": {
+            "winner": "龍聖",
+            "method": "TKO",
+            "round": 3,
+            "time": "1:23",
+            "result_note": "レフェリーストップ"
+          }
+        },
+        {
+          "bout_id": "rizin37-04",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "ヴガール・ケラモフ",
+          "blue": "山本空良",
+          "outcome": {
+            "winner": "ヴガール・ケラモフ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin37-05",
+          "division": "80.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "マルコス・ヨシオ・ソウザ",
+          "blue": "阿部大治",
+          "outcome": {
+            "winner": "阿部大治",
+            "method": "KO",
+            "round": 2,
+            "time": "3:02",
+            "result_note": "スタンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin37-06",
+          "division": "68.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "関鉄矢",
+          "blue": "中原由貴",
+          "outcome": {
+            "winner": "中原由貴",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin37-07",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "元谷友貴",
+          "blue": "太田忍",
+          "outcome": {
+            "winner": "元谷友貴",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin37-08",
+          "division": "120.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "関根\"シュレック\"秀樹",
+          "blue": "スダリオ剛",
+          "outcome": {
+            "winner": "スダリオ剛",
+            "method": "TKO",
+            "round": 1,
+            "time": "0:53",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin37-09",
+          "division": "49.0kg",
+          "rules": "RIZIN WORLD GP スーパーアトム級 1回戦 5分3R",
+          "red": "RENA",
+          "blue": "アナスタシア・スヴェッキスカ",
+          "outcome": {
+            "winner": "RENA",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin37-10",
+          "division": "49.0kg",
+          "rules": "RIZIN WORLD GP スーパーアトム級 1回戦 5分3R",
+          "red": "浅倉カンナ",
+          "blue": "パク・シウ",
+          "outcome": {
+            "winner": "パク・シウ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin37-11",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "三浦孝太",
+          "blue": "フェリペ\"キングハンター\"マソーニ",
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "round": null,
+            "time": null,
+            "result_note": "試合中止（三浦孝太 新型コロナウイルス陽性のため）"
+          }
+        },
+        {
+          "bout_id": "rizin37-12",
+          "division": "72.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "ジョニー・ケース",
+          "blue": "武田光司",
+          "outcome": {
+            "winner": "武田光司",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin37-13",
+          "division": "57.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "所英男",
+          "blue": "神龍誠",
+          "outcome": {
+            "winner": "神龍誠",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin37-14",
+          "division": "49.0kg",
+          "rules": "RIZIN WORLD GP スーパーアトム級 1回戦 5分3R",
+          "red": "浜崎朱加",
+          "blue": "ジェシカ・アギラー",
+          "outcome": {
+            "winner": "浜崎朱加",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin37-15",
+          "division": "49.0kg",
+          "rules": "RIZIN WORLD GP スーパーアトム級 1回戦 5分3R",
+          "red": "伊澤星花",
+          "blue": "ラーラ・フォントーラ",
+          "outcome": {
+            "winner": "伊澤星花",
+            "method": "Submission",
+            "round": 1,
+            "time": "3:47",
+            "result_note": "フロントチョーク"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-rizin-37-001",
+      "statement_date": "2022-07-28",
+      "speaker": {
+        "name": "朝倉海",
+        "role": "fighter",
+        "affiliation": "JAPAN TOP TEAM"
+      },
+      "content": {
+        "raw_text": "所さんの勝ち。一本。腕十字か三角絞め。",
+        "normalized_text": "所英男が一本勝ちすると予想。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FmYj0S_7Eno",
+        "timestamp": "12:45"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "朝倉海",
+        "source_url": "https://www.youtube.com/watch?v=FmYj0S_7Eno",
+        "source_ref": "statement_id=stmt-rizin-37-001",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。朝倉海公式チャンネル（登録者100万人以上）。",
+        "expected_winner": "所英男",
+        "expected_method": "SUB",
+        "target": "所英男 vs 神龍誠",
+        "expected_outcome": "所英男が一本勝ち",
+        "deadline": "2022-07-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-07-31",
+        "winner": "神龍誠",
+        "method": "Decision",
+        "actual_outcome": "神龍誠が判定勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-37-002",
+      "statement_date": "2022-07-29",
+      "speaker": {
+        "name": "昇侍",
+        "role": "fighter",
+        "affiliation": "KIBAマーシャルアーツクラブ"
+      },
+      "content": {
+        "raw_text": "ケラモフ選手がフィジカルと爆発力で圧倒して、パウンドかチョークで仕留めるんじゃないか。",
+        "normalized_text": "ケラモフがフィジカルで圧倒しTKOか一本で勝つと予想。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=S0T0V_iUoY0",
+        "timestamp": "05:20"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "昇侍",
+        "source_url": "https://www.youtube.com/watch?v=S0T0V_iUoY0",
+        "source_ref": "statement_id=stmt-rizin-37-002",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。昇侍チャンネル。",
+        "expected_winner": "ヴガール・ケラモフ",
+        "expected_method": "不明",
+        "target": "ヴガール・ケラモフ vs 山本空良",
+        "expected_outcome": "ケラモフがフィニッシュして勝利",
+        "deadline": "2022-07-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-07-31",
+        "winner": "ヴガール・ケラモフ",
+        "method": "Decision",
+        "actual_outcome": "ヴガール・ケラモフが判定勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-37-003",
+      "statement_date": "2022-07-27",
+      "speaker": {
+        "name": "石渡伸太郎",
+        "role": "coach",
+        "affiliation": "CAVE"
+      },
+      "content": {
+        "raw_text": "スダリオ選手。打撃のパワーで押し切ってKOする可能性が高い。",
+        "normalized_text": "スダリオ剛がKO勝ちすると予想。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7M7hN_p8t_A",
+        "timestamp": "08:15"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "石渡伸太郎",
+        "source_url": "https://www.youtube.com/watch?v=7M7hN_p8t_A",
+        "source_ref": "statement_id=stmt-rizin-37-003",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎 漢塾（登録者10万人以上）。",
+        "expected_winner": "スダリオ剛",
+        "expected_method": "KO",
+        "target": "関根\"シュレック\"秀樹 vs スダリオ剛",
+        "expected_outcome": "スダリオ剛がKO勝利",
+        "deadline": "2022-07-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-07-31",
+        "winner": "スダリオ剛",
+        "method": "TKO",
+        "actual_outcome": "スダリオ剛がTKO勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-37-004",
+      "statement_date": "2022-07-30",
+      "speaker": {
+        "name": "川尻達也",
+        "role": "commentator",
+        "affiliation": "フリー"
+      },
+      "content": {
+        "raw_text": "武田選手が泥臭くテイクダウンを繰り返して、判定で競り勝つ展開。",
+        "normalized_text": "武田光司がテイクダウンを武器に判定で勝利すると予想。"
+      },
+      "source": {
+        "type": "sns",
+        "url": "https://twitter.com/CRUSHER_MMA/status/1553312345678901248",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "川尻達也",
+        "source_url": "https://twitter.com/CRUSHER_MMA/status/1553312345678901248",
+        "source_ref": "statement_id=stmt-rizin-37-004",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。本人公式X（旧Twitter）。",
+        "expected_winner": "武田光司",
+        "expected_method": "判定",
+        "target": "ジョニー・ケース vs 武田光司",
+        "expected_outcome": "武田光司が判定勝ち",
+        "deadline": "2022-07-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-07-31",
+        "winner": "武田光司",
+        "method": "Decision",
+        "actual_outcome": "武田光司が判定勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

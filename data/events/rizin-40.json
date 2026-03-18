@@ -1,9 +1,357 @@
 {
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
   "event_id": "rizin-40",
-  "event_name": "RIZIN.40",
-  "event_date": "2022-12-31",
-  "event_location": "さいたまスーパーアリーナ",
-  "event_type": "combat_sports",
-  "source_note": "イベント単位JSON分離構造の拡張性確認用。内容の充実や検証は将来工程で行う。",
-  "statements": []
+  "event_meta": {
+    "event_name": "RIZIN.40",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2022-12-31",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "さいたまスーパーアリーナ",
+    "is_dome_class": true
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "rizin40-01",
+          "division": "62.0kg",
+          "rules": "RIZIN MMA 3分3R",
+          "red": "YUSHI",
+          "blue": "中澤達也",
+          "outcome": {
+            "winner": "YUSHI",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin40-02",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "\"ブラックパンサー\"ベイノア",
+          "blue": "宇佐美正パトリック",
+          "outcome": {
+            "winner": "宇佐美正パトリック",
+            "method": "KO",
+            "round": 1,
+            "time": "0:45",
+            "result_note": "スタンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin40-03",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "中原由貴",
+          "blue": "鈴木千裕",
+          "outcome": {
+            "winner": "鈴木千裕",
+            "method": "KO",
+            "round": 1,
+            "time": "4:44",
+            "result_note": "スタンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin40-04",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "ジョニー・ケース",
+          "blue": "大尊伸光",
+          "outcome": {
+            "winner": "ジョニー・ケース",
+            "method": "TKO",
+            "round": 1,
+            "time": "0:36",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin40-05",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "元谷友貴",
+          "blue": "ホジェリオ・ボントリン",
+          "outcome": {
+            "winner": "元谷友貴",
+            "method": "KO",
+            "round": 2,
+            "time": "2:56",
+            "result_note": "スタンドでの膝蹴り"
+          }
+        },
+        {
+          "bout_id": "rizin40-06",
+          "division": null,
+          "rules": "RIZINスタンディングバウト特別ルール",
+          "red": "平本蓮",
+          "blue": "梅野源治",
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "round": 2,
+            "time": "3:00",
+            "result_note": "勝敗なし"
+          }
+        },
+        {
+          "bout_id": "rizin40-07",
+          "division": "57.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "所英男",
+          "blue": "ジョン・ドッドソン",
+          "outcome": {
+            "winner": "ジョン・ドッドソン",
+            "method": "TKO",
+            "round": 1,
+            "time": "1:43",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin40-08",
+          "division": "120.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "スダリオ剛",
+          "blue": "ジュニア・タファ",
+          "outcome": {
+            "winner": "ジュニア・タファ",
+            "method": "TKO",
+            "round": 1,
+            "time": "1:38",
+            "result_note": "レフェリーストップ：スタンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin40-09",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "井上直樹",
+          "blue": "瀧澤謙太",
+          "outcome": {
+            "winner": "井上直樹",
+            "method": "Submission",
+            "round": 2,
+            "time": "3:53",
+            "result_note": "アームバー"
+          }
+        },
+        {
+          "bout_id": "rizin40-10",
+          "division": "49.0kg",
+          "rules": "RIZIN WORLD GP2022 スーパーアトム級トーナメント 決勝 5分3R",
+          "red": "伊澤星花",
+          "blue": "パク・シウ",
+          "outcome": {
+            "winner": "伊澤星花",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定2-1"
+          }
+        },
+        {
+          "bout_id": "rizin40-11",
+          "division": "71.0kg",
+          "rules": "RIZIN vs. Bellator全面対抗戦 RIZIN MMA 5分3R",
+          "red": "武田光司",
+          "blue": "ガジ・ラバダノフ",
+          "outcome": {
+            "winner": "ガジ・ラバダノフ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin40-12",
+          "division": "61.0kg",
+          "rules": "RIZIN vs. Bellator全面対抗戦 RIZIN MMA 5分3R",
+          "red": "キム・スーチョル",
+          "blue": "フアン・アーチュレッタ",
+          "outcome": {
+            "winner": "フアン・アーチュレッタ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定1-2"
+          }
+        },
+        {
+          "bout_id": "rizin40-13",
+          "division": "57.0kg",
+          "rules": "RIZIN vs. Bellator全面対抗戦 RIZIN MMA 5分3R",
+          "red": "扇久保博正",
+          "blue": "堀口恭司",
+          "outcome": {
+            "winner": "堀口恭司",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin40-14",
+          "division": "66.0kg",
+          "rules": "RIZIN vs. Bellator全面対抗戦 RIZIN MMA 5分3R",
+          "red": "クレベル・コイケ",
+          "blue": "パトリシオ・ピットブル",
+          "outcome": {
+            "winner": "パトリシオ・ピットブル",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin40-15",
+          "division": "71.0kg",
+          "rules": "RIZIN vs. Bellator全面対抗戦 RIZIN MMA 5分3R",
+          "red": "ホベルト・サトシ・ソウザ",
+          "blue": "AJ・マッキー",
+          "outcome": {
+            "winner": "AJ・マッキー",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-rizin-40-001",
+      "statement_date": "2022-12-30",
+      "speaker": {
+        "name": "扇久保博正",
+        "role": "fighter",
+        "affiliation": "パラエストラ松戸"
+      },
+      "content": {
+        "raw_text": "堀口選手を倒して最高の日にしたい",
+        "normalized_text": "自身の勝利（堀口恭司への勝利）を宣言。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.tokyoheadline.com/668825/",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "扇久保博正",
+        "source_url": "https://www.tokyoheadline.com/668825/",
+        "source_ref": "statement_id=stmt-rizin-40-001",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。TOKYO HEADLINE 前日計量インタビュー。",
+        "expected_winner": "扇久保博正",
+        "expected_method": "不明",
+        "target": "扇久保博正 vs 堀口恭司",
+        "expected_outcome": "扇久保博正が勝利",
+        "deadline": "2022-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-12-31",
+        "winner": "堀口恭司",
+        "method": "Decision",
+        "actual_outcome": "堀口恭司が判定勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-40-002",
+      "statement_date": "2022-12-28",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "格闘家"
+      },
+      "content": {
+        "raw_text": "AJマッキーがフィジカルと総合力で上回る",
+        "normalized_text": "AJ・マッキーの勝利を予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=pAnV2y96LpQ",
+        "timestamp": "12:45"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://www.youtube.com/watch?v=pAnV2y96LpQ",
+        "source_ref": "statement_id=stmt-rizin-40-002",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。ABEMA 格闘公式チャンネル。",
+        "expected_winner": "AJ・マッキー",
+        "expected_method": "不明",
+        "target": "ホベルト・サトシ・ソウザ vs AJ・マッキー",
+        "expected_outcome": "AJ・マッキーが勝利",
+        "deadline": "2022-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-12-31",
+        "winner": "AJ・マッキー",
+        "method": "Decision",
+        "actual_outcome": "AJ・マッキーが判定勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-40-003",
+      "statement_date": "2022-12-25",
+      "speaker": {
+        "name": "堀口恭司",
+        "role": "fighter",
+        "affiliation": "ATT"
+      },
+      "content": {
+        "raw_text": "サトシ選手がバックをとれば勝てる",
+        "normalized_text": "サトシがバックを奪えれば勝てる可能性がある、という条件付きの見立て。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=9pP8-YfQ-Rk",
+        "timestamp": "03:12"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "堀口恭司",
+        "source_url": "https://www.youtube.com/watch?v=9pP8-YfQ-Rk",
+        "source_ref": "statement_id=stmt-rizin-40-003",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。当該動画はRIZIN.40（2022-12-31）「RIZIN vs. Bellator 全面対抗戦」関連の勝敗予想動画。3:12付近の発言。要確認：最終的な勝者断定というより条件付き分析の可能性。",
+        "expected_winner": "不明",
+        "expected_method": "不明",
+        "target": "ホベルト・サトシ・ソウザ vs AJ・マッキー",
+        "expected_outcome": "不明",
+        "deadline": "2022-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-12-31",
+        "winner": "AJ・マッキー",
+        "method": "Decision",
+        "actual_outcome": "AJ・マッキーが判定勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
 }

@@ -1,0 +1,287 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-46",
+  "event_meta": {
+    "event_name": "Yogibo presents RIZIN.46",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2024-04-29",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "有明アリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "rizin46-01",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "高木凌",
+          "blue": "西谷大成",
+          "outcome": {
+            "winner": "高木凌",
+            "method": "KO",
+            "round": 1,
+            "time": "4:04",
+            "result_note": "スタンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin46-02",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "山本空良",
+          "blue": "イルホム・ノジモフ",
+          "outcome": {
+            "winner": "イルホム・ノジモフ",
+            "method": "TKO",
+            "round": 2,
+            "time": "3:39",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin46-03",
+          "division": "58.9kg",
+          "rules": "ベアナックル 2分5R",
+          "red": "篠塚辰樹",
+          "blue": "J.マルチネス",
+          "outcome": {
+            "winner": "篠塚辰樹",
+            "method": "KO",
+            "round": 1,
+            "time": "1:33",
+            "result_note": "右ストレート"
+          }
+        },
+        {
+          "bout_id": "rizin46-04",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "中原由貴",
+          "blue": "ビクター・コレスニック",
+          "outcome": {
+            "winner": "ビクター・コレスニック",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin46-05",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "\"ブラックパンサー\"ベイノア",
+          "blue": "井上雄策",
+          "outcome": {
+            "winner": "\"ブラックパンサー\"ベイノア",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin46-06",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R 日韓対抗戦",
+          "red": "倉本一真",
+          "blue": "ヤン・ジヨン",
+          "outcome": {
+            "winner": "倉本一真",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定2-1"
+          }
+        },
+        {
+          "bout_id": "rizin46-07",
+          "division": "57.0kg",
+          "rules": "RIZIN MMA 5分3R 日韓対抗戦",
+          "red": "神龍誠",
+          "blue": "イ・ジョンヒョン",
+          "outcome": {
+            "winner": "神龍誠",
+            "method": "Submission",
+            "round": 1,
+            "time": "4:29",
+            "result_note": "肩固め"
+          }
+        },
+        {
+          "bout_id": "rizin46-08",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R 日韓対抗戦",
+          "red": "中島太一",
+          "blue": "キム・スーチョル",
+          "outcome": {
+            "winner": "キム・スーチョル",
+            "method": "KO",
+            "round": 2,
+            "time": "0:06",
+            "result_note": "スタンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin46-09",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "牛久絢太郎",
+          "blue": "太田忍",
+          "outcome": {
+            "winner": "太田忍",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin46-10",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "鈴木千裕",
+          "blue": "金原正徳",
+          "outcome": {
+            "winner": "鈴木千裕",
+            "method": "TKO",
+            "round": 1,
+            "time": "4:20",
+            "result_note": "レフェリーストップ：グラウンドパンチ（フェザー級タイトルマッチ）"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-rizin-46-001",
+      "statement_date": "2024-04-25",
+      "speaker": {
+        "name": "石渡伸太郎",
+        "role": "coach",
+        "affiliation": "CAVE"
+      },
+      "content": {
+        "raw_text": "千裕選手が序盤で仕留めきれるかどうか。金原さんが塩漬けにする可能性も高い。",
+        "normalized_text": "金原がコントロールして勝利する可能性が高いと示唆。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=YpLgH7u_m-I",
+        "timestamp": "10:10"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "石渡伸太郎",
+        "source_url": "https://www.youtube.com/watch?v=YpLgH7u_m-I",
+        "source_ref": "statement_id=stmt-rizin-46-001",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。専門的分析。要確認：展開予測が主だが勝者方向は金原寄り。",
+        "expected_winner": "金原正徳",
+        "expected_method": "判定",
+        "target": "鈴木千裕 vs 金原正徳",
+        "expected_outcome": "金原正徳が判定勝ち",
+        "deadline": "2024-04-29"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-04-29",
+        "winner": "鈴木千裕",
+        "method": "TKO",
+        "actual_outcome": "鈴木千裕がTKO勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-46-002",
+      "statement_date": "2024-04-20",
+      "speaker": {
+        "name": "斎藤裕",
+        "role": "fighter",
+        "affiliation": "パラエストラ小岩"
+      },
+      "content": {
+        "raw_text": "金原選手がグラウンドで完封すると思う",
+        "normalized_text": "金原正徳がグラウンド展開で勝利すると予想。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=FmS3m61q-jQ",
+        "timestamp": "08:15"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "斎藤裕",
+        "source_url": "https://www.youtube.com/watch?v=FmS3m61q-jQ",
+        "source_ref": "statement_id=stmt-rizin-46-002",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。斎藤裕のYouTubeチャンネルにおける勝敗予想。",
+        "expected_winner": "金原正徳",
+        "expected_method": "判定",
+        "target": "鈴木千裕 vs 金原正徳",
+        "expected_outcome": "金原正徳が判定勝ち",
+        "deadline": "2024-04-29"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-04-29",
+        "winner": "鈴木千裕",
+        "method": "TKO",
+        "actual_outcome": "鈴木千裕がTKO勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-46-003",
+      "statement_date": "2024-04-24",
+      "speaker": {
+        "name": "朝倉海",
+        "role": "fighter",
+        "affiliation": "JAPAN TOP TEAM"
+      },
+      "content": {
+        "raw_text": "鈴木君のパンチが当たると思う",
+        "normalized_text": "鈴木千裕の打撃が当たり勝利すると予想。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=0hYm6lZ-m-o",
+        "timestamp": "05:30"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "朝倉海",
+        "source_url": "https://www.youtube.com/watch?v=0hYm6lZ-m-o",
+        "source_ref": "statement_id=stmt-rizin-46-003",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。動画内での勝敗予想発言（要確認：番組種別）。",
+        "expected_winner": "鈴木千裕",
+        "expected_method": "KO",
+        "target": "鈴木千裕 vs 金原正徳",
+        "expected_outcome": "鈴木千裕がKO勝ち",
+        "deadline": "2024-04-29"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-04-29",
+        "winner": "鈴木千裕",
+        "method": "TKO",
+        "actual_outcome": "鈴木千裕がTKO勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

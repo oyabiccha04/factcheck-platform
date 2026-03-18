@@ -1,0 +1,253 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-42",
+  "event_meta": {
+    "event_name": "RIZIN.42",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2023-05-06",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "有明アリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "rizin42-01",
+          "division": "69.0kg",
+          "rules": "RIZIN キックボクシング 3分3R",
+          "red": "城戸康裕",
+          "blue": "木村\"ケルベロス\"颯太",
+          "outcome": {
+            "winner": "木村\"ケルベロス\"颯太",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin42-02",
+          "division": "57.5kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "ラマザン・テミロフ",
+          "blue": "浜本\"キャット\"雄大",
+          "outcome": {
+            "winner": "ラマザン・テミロフ",
+            "method": "TKO",
+            "round": 1,
+            "time": "4:06",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin42-03",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "山本琢也",
+          "blue": "横山武司",
+          "outcome": {
+            "winner": "横山武司",
+            "method": "Submission",
+            "round": 1,
+            "time": "1:24",
+            "result_note": "アームバー"
+          }
+        },
+        {
+          "bout_id": "rizin42-04",
+          "division": "57.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "伊藤裕樹",
+          "blue": "山本アーセン",
+          "outcome": {
+            "winner": "山本アーセン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin42-05",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "岸本篤史",
+          "blue": "ビクター・コレスニック",
+          "outcome": {
+            "winner": "ビクター・コレスニック",
+            "method": "TKO",
+            "round": 2,
+            "time": "2:57",
+            "result_note": "レフェリーストップ：スタンドでのキック"
+          }
+        },
+        {
+          "bout_id": "rizin42-06",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "佐々木憂流迦",
+          "blue": "ボイド・アレン",
+          "outcome": {
+            "winner": "佐々木憂流迦",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin42-07",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "芦田崇宏",
+          "blue": "摩嶋一整",
+          "outcome": {
+            "winner": "摩嶋一整",
+            "method": "Submission",
+            "round": 1,
+            "time": "4:43",
+            "result_note": "ヴァンフルーチョーク"
+          }
+        },
+        {
+          "bout_id": "rizin42-08",
+          "division": "57.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "ジョン・ドッドソン",
+          "blue": "竿本樹生",
+          "outcome": {
+            "winner": "ジョン・ドッドソン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin42-09",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分2R",
+          "red": "三浦孝太",
+          "blue": "YA-MAN",
+          "outcome": {
+            "winner": "YA-MAN",
+            "method": "TKO",
+            "round": 1,
+            "time": "3:13",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin42-10",
+          "division": "70.0kg",
+          "rules": "RIZIN キックボクシング 3分3R",
+          "red": "ブアカーオ・バンチャメーク",
+          "blue": "安保瑠輝也",
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "round": null,
+            "time": null,
+            "result_note": "判定ドロー（0-0）"
+          }
+        },
+        {
+          "bout_id": "rizin42-11",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "ホベルト・サトシ・ソウザ",
+          "blue": "スパイク・カーライル",
+          "outcome": {
+            "winner": "ホベルト・サトシ・ソウザ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin42-12",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "井上直樹",
+          "blue": "フアン・アーチュレッタ",
+          "outcome": {
+            "winner": "フアン・アーチュレッタ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定0-3"
+          }
+        },
+        {
+          "bout_id": "rizin42-13",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "朝倉海",
+          "blue": "元谷友貴",
+          "outcome": {
+            "winner": "朝倉海",
+            "method": "KO",
+            "round": 3,
+            "time": "2:25",
+            "result_note": "スタンドでの膝打撃"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-rizin-42-001",
+      "statement_date": "2023-05-01",
+      "speaker": {
+        "name": "朝倉海",
+        "role": "fighter",
+        "affiliation": "JAPAN TOP TEAM"
+      },
+      "content": {
+        "raw_text": "圧倒して勝つところを見せる。",
+        "normalized_text": "元谷友貴戦での圧倒的な勝利を宣言。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=24YTgBArVjo",
+        "timestamp": "00:10"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "朝倉海",
+        "source_url": "https://www.youtube.com/watch?v=24YTgBArVjo",
+        "source_ref": "statement_id=stmt-rizin-42-001",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式切り抜き。",
+        "expected_winner": "朝倉海",
+        "expected_method": "不明",
+        "target": "朝倉海 vs 元谷友貴",
+        "expected_outcome": "朝倉海が勝利",
+        "deadline": "2023-05-06"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-05-06",
+        "winner": "朝倉海",
+        "method": "KO",
+        "actual_outcome": "朝倉海がKO勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

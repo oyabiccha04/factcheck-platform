@@ -748,6 +748,196 @@
         "actual_outcome": "那須川天心が判定勝ち",
         "notes": "興行クローズ後の試合結果に基づく"
       }
+    },
+    {
+      "statement_id": "stmt-the-match-2022-018",
+      "statement_date": "2022-05-29",
+      "speaker": {
+        "name": "渡嘉敷勝男",
+        "role": "former world champion",
+        "affiliation": "渡嘉敷勝男&竹原慎二&畑山隆則 ぶっちゃけチャンネル"
+      },
+      "content": {
+        "raw_text": "私は天心くんは3ラウンドまでなら火つけると（中略）俺武尊勝つと思ってねこれ",
+        "normalized_text": "3ラウンド制なら那須川天心が有利だが、延長も含めると武尊が勝つと予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=e3qu4fP44AM",
+        "timestamp": "02:37"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "渡嘉敷勝男",
+        "source_url": "https://www.youtube.com/watch?v=e3qu4fP44AM",
+        "source_ref": "statement_id=stmt-the-match-2022-018",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。出演者名は映像およびチャンネル名より。中盤で「武尊勝つ」と明言。",
+        "expected_winner": "武尊",
+        "expected_method": "不明",
+        "target": "那須川天心 vs 武尊",
+        "expected_outcome": "延長戦を含めて武尊が勝利",
+        "deadline": "2022-06-19"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-06-19",
+        "winner": "那須川天心",
+        "method": "判定",
+        "actual_outcome": "那須川天心が判定勝ち",
+        "notes": "興行クローズ後の試合結果に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-the-match-2022-019",
+      "statement_date": "2022-05-29",
+      "speaker": {
+        "name": "竹原慎二",
+        "role": "former world champion",
+        "affiliation": "渡嘉敷勝男&竹原慎二&畑山隆則 ぶっちゃけチャンネル"
+      },
+      "content": {
+        "raw_text": "僕はもう逆にやっぱ武尊君がKOで勝つんじゃないかと思う",
+        "normalized_text": "武尊がKOで勝利すると予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=e3qu4fP44AM",
+        "timestamp": "03:37"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "竹原慎二",
+        "source_url": "https://www.youtube.com/watch?v=e3qu4fP44AM",
+        "source_ref": "statement_id=stmt-the-match-2022-019",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。出演者名は映像およびチャンネル名より。",
+        "expected_winner": "武尊",
+        "expected_method": "KO",
+        "target": "那須川天心 vs 武尊",
+        "expected_outcome": "武尊がKO勝ち",
+        "deadline": "2022-06-19"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-06-19",
+        "winner": "那須川天心",
+        "method": "判定",
+        "actual_outcome": "那須川天心が判定勝ち",
+        "notes": "興行クローズ後の試合結果に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-the-match-2022-020",
+      "statement_date": "2022-05-29",
+      "speaker": {
+        "name": "畑山隆則",
+        "role": "former world champion",
+        "affiliation": "渡嘉敷勝男&竹原慎二&畑山隆則 ぶっちゃけチャンネル"
+      },
+      "content": {
+        "raw_text": "天心でしょう",
+        "normalized_text": "那須川天心が勝利すると予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=e3qu4fP44AM",
+        "timestamp": "10:47"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "畑山隆則",
+        "source_url": "https://www.youtube.com/watch?v=e3qu4fP44AM",
+        "source_ref": "statement_id=stmt-the-match-2022-020",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。出演者名は映像およびチャンネル名より。能力的に天心が上と評価。",
+        "expected_winner": "那須川天心",
+        "expected_method": "不明",
+        "target": "那須川天心 vs 武尊",
+        "expected_outcome": "那須川天心が勝利",
+        "deadline": "2022-06-19"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-06-19",
+        "winner": "那須川天心",
+        "method": "判定",
+        "actual_outcome": "那須川天心が判定勝ち",
+        "notes": "興行クローズ後の試合結果に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-the-match-2022-021",
+      "statement_date": "2022-06-18",
+      "speaker": {
+        "name": "細川バレンタイン",
+        "role": "former fighter",
+        "affiliation": "不明"
+      },
+      "content": {
+        "raw_text": "3分3ラウンドだったら、やっぱりその天心なスタイルの方が優位やと思うよ",
+        "normalized_text": "3分3ラウンドのルールであれば那須川天心が有利と予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xhP2ff7CpLI",
+        "timestamp": "09:12"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "細川バレンタイン",
+        "source_url": "https://www.youtube.com/watch?v=xhP2ff7CpLI",
+        "source_ref": "statement_id=stmt-the-match-2022-021",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。自身のチャンネルでの発言。ボクシングスキルとスピードで天心を評価。",
+        "expected_winner": "那須川天心",
+        "expected_method": "不明",
+        "target": "那須川天心 vs 武尊",
+        "expected_outcome": "那須川天心が勝利",
+        "deadline": "2022-06-19"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-06-19",
+        "winner": "那須川天心",
+        "method": "判定",
+        "actual_outcome": "那須川天心が判定勝ち",
+        "notes": "興行クローズ後の試合結果に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-the-match-2022-022",
+      "statement_date": "2022-06-18",
+      "speaker": {
+        "name": "栗原慶太",
+        "role": "fighter",
+        "affiliation": "OPBFバンタム級王者"
+      },
+      "content": {
+        "raw_text": "武尊選手に勝ってほしい（中略）パワー差じゃないですかシンプルに",
+        "normalized_text": "パワー差を理由に武尊の勝利を期待・予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=xhP2ff7CpLI",
+        "timestamp": "06:21"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "栗原慶太",
+        "source_url": "https://www.youtube.com/watch?v=xhP2ff7CpLI",
+        "source_ref": "statement_id=stmt-the-match-2022-022",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。ゲスト出演者。判明している流れを覆してほしいという願望込みの予想。",
+        "expected_winner": "武尊",
+        "expected_method": "不明",
+        "target": "那須川天心 vs 武尊",
+        "expected_outcome": "武尊が勝利",
+        "deadline": "2022-06-19"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-06-19",
+        "winner": "那須川天心",
+        "method": "判定",
+        "actual_outcome": "那須川天心が判定勝ち",
+        "notes": "興行クローズ後の試合結果に基づく"
+      }
     }
   ]
 }

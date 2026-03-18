@@ -1,0 +1,277 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "rizin-39",
+  "event_meta": {
+    "event_name": "RIZIN.39",
+    "organization": "RIZIN",
+    "sport": "martial_arts",
+    "discipline": "mma",
+    "event_tier": "arena",
+    "date": "2022-10-23",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "マリンメッセ福岡A館",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "rizin39-01",
+          "division": "63.0kg",
+          "rules": "RIZIN キックボクシング 3分3R",
+          "red": "REITO BRAVELY",
+          "blue": "関幸一郎",
+          "outcome": {
+            "winner": "REITO BRAVELY",
+            "method": "TKO",
+            "round": 1,
+            "time": "0:34",
+            "result_note": "レフェリーストップ"
+          }
+        },
+        {
+          "bout_id": "rizin39-02",
+          "division": "57.5kg",
+          "rules": "RIZIN キックボクシング 3分3R",
+          "red": "栗秋祥梧",
+          "blue": "翔",
+          "outcome": {
+            "winner": "栗秋祥梧",
+            "method": "TKO",
+            "round": 2,
+            "time": "1:42",
+            "result_note": "レフェリーストップ"
+          }
+        },
+        {
+          "bout_id": "rizin39-03",
+          "division": "61.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "手塚基伸",
+          "blue": "メイマン・マメドフ",
+          "outcome": {
+            "winner": "手塚基伸",
+            "method": "TKO",
+            "round": 1,
+            "time": "4:33",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin39-04",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "中原由貴",
+          "blue": "原口央",
+          "outcome": {
+            "winner": "中原由貴",
+            "method": "TKO",
+            "round": 1,
+            "time": "2:37",
+            "result_note": "レフェリーストップ：グラウンドでのキック"
+          }
+        },
+        {
+          "bout_id": "rizin39-05",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "芦田崇宏",
+          "blue": "中田大貴",
+          "outcome": {
+            "winner": "芦田崇宏",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin39-06",
+          "division": "61.0kg",
+          "rules": "RIZIN キックボクシング 3分3R（肘有り）",
+          "red": "梅野源治",
+          "blue": "トレント・ガーダム",
+          "outcome": {
+            "winner": "梅野源治",
+            "method": "TKO",
+            "round": 1,
+            "time": "0:21",
+            "result_note": "レフェリーストップ"
+          }
+        },
+        {
+          "bout_id": "rizin39-07",
+          "division": "77.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "阿部大治",
+          "blue": "田村ヒビキ",
+          "outcome": {
+            "winner": "阿部大治",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin39-08",
+          "division": "75.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "佐々木信治",
+          "blue": "宇佐美正パトリック",
+          "outcome": {
+            "winner": "宇佐美正パトリック",
+            "method": "TKO",
+            "round": 3,
+            "time": "2:33",
+            "result_note": "レフェリーストップ：グラウンドパンチ"
+          }
+        },
+        {
+          "bout_id": "rizin39-09",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "武田光司",
+          "blue": "ザック・ゼイン",
+          "outcome": {
+            "winner": "武田光司",
+            "method": "Submission",
+            "round": 1,
+            "time": "3:35",
+            "result_note": "アームバー"
+          }
+        },
+        {
+          "bout_id": "rizin39-10",
+          "division": "71.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "矢地祐介",
+          "blue": "ボイド・アレン",
+          "outcome": {
+            "winner": "矢地祐介",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0"
+          }
+        },
+        {
+          "bout_id": "rizin39-11",
+          "division": "120.0kg",
+          "rules": "RIZIN MMA 5分3R",
+          "red": "スダリオ剛",
+          "blue": "ヤノス・チューカス",
+          "outcome": {
+            "winner": "スダリオ剛",
+            "method": "TKO",
+            "round": 2,
+            "time": "0:30",
+            "result_note": "レフェリーストップ：グラウンドでの膝蹴り"
+          }
+        },
+        {
+          "bout_id": "rizin39-12",
+          "division": "66.0kg",
+          "rules": "RIZIN MMA 5分3R（フェザー級タイトルマッチ）",
+          "red": "牛久絢太郎",
+          "blue": "クレベル・コイケ",
+          "outcome": {
+            "winner": "クレベル・コイケ",
+            "method": "Submission",
+            "round": 2,
+            "time": "1:29",
+            "result_note": "三角絞め"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-rizin-39-001",
+      "statement_date": "2022-10-19",
+      "speaker": {
+        "name": "扇久保博正",
+        "role": "fighter",
+        "affiliation": "パラエストラ松戸"
+      },
+      "content": {
+        "raw_text": "クレベル選手が一本で勝つんじゃないかなと思います。",
+        "normalized_text": "クレベル・コイケの一本勝ちと予想。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=uTo51AWHARM",
+        "timestamp": "15:45"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "扇久保博正",
+        "source_url": "https://www.youtube.com/watch?v=uTo51AWHARM",
+        "source_ref": "statement_id=stmt-rizin-39-001",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。扇久保博正公式YouTube。",
+        "expected_winner": "クレベル・コイケ",
+        "expected_method": "SUB",
+        "target": "牛久絢太郎 vs クレベル・コイケ",
+        "expected_outcome": "クレベル・コイケが一本勝ち",
+        "deadline": "2022-10-23"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-10-23",
+        "winner": "クレベル・コイケ",
+        "method": "Submission",
+        "actual_outcome": "クレベル・コイケが一本勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-39-002",
+      "statement_date": "2022-10-15",
+      "speaker": {
+        "name": "ホベルト・サトシ・ソウザ",
+        "role": "fighter",
+        "affiliation": "ボンサイ柔術"
+      },
+      "content": {
+        "raw_text": "クレベルが三角（絞め）かバック（チョーク）で一本勝ちする。",
+        "normalized_text": "クレベル・コイケの一本勝ちを確信。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=LYm_VDajMM8",
+        "timestamp": "10:15"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "ホベルト・サトシ・ソウザ",
+        "source_url": "https://www.youtube.com/watch?v=LYm_VDajMM8",
+        "source_ref": "statement_id=stmt-rizin-39-002",
+        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。サトシ・ソウザ公式YouTube。",
+        "expected_winner": "クレベル・コイケ",
+        "expected_method": "SUB",
+        "target": "牛久絢太郎 vs クレベル・コイケ",
+        "expected_outcome": "クレベル・コイケが一本勝ち",
+        "deadline": "2022-10-23"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2022-10-23",
+        "winner": "クレベル・コイケ",
+        "method": "Submission",
+        "actual_outcome": "クレベル・コイケが一本勝ち",
+        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}
