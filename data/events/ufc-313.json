@@ -1,0 +1,129 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "ufc-313",
+    "event_name": "UFC 313: Pereira vs. Ankalaev",
+    "organization": "UFC",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2025-03-08",
+    "venue": "T-Mobile Arena",
+    "country": "USA",
+    "timezone": "America/Los_Angeles",
+    "attendance": null,
+    "note": "UFC 313。メインイベントはアレックス・ペレイラ vs マゴメド・アンカラエフ（ライトヘビー級タイトル）。鶴屋怜がジョシュア・ヴァン（ミャンマー）とフライ級マッチ。UFC史上初の2000年生まれ同士の対決。鶴屋がキャリア初黒星を喫した。"
+  },
+  "cards": [
+    {
+      "card_name": "Main Card",
+      "bouts": [
+        {
+          "bout_id": "ufc-313-001",
+          "bout_order": 3,
+          "division": "フライ級",
+          "rules": "UFC MMAルール 3R×5分",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "ジョシュア・ヴァン",
+            "nickname": null,
+            "nationality": "Myanmar",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "鶴屋怜",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "ジョシュア・ヴァン",
+            "method": "Decision",
+            "method_detail": "全会一致判定 (30-27×3)",
+            "round": 3,
+            "time": "5:00",
+            "result_note": "鶴屋がテイクダウンを奪う場面もあったが、打撃でヴァンが圧倒し判定勝ち。UFC史上初の2000年生まれ同士の対決。鶴屋のキャリア初黒星。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-ufc-313-001",
+      "statement_date": "2025-03-06",
+      "speaker": {
+        "name": "Garrett Kerman",
+        "role": "analyst",
+        "affiliation": "ClutchPoints（UFC担当アソシエイトエディター）"
+      },
+      "content": {
+        "raw_text": "Final Joshua Van-Rei Tsuruya Prediction & Pick: Joshua Van (-180), Over 2.5 Rounds (-195)",
+        "normalized_text": "ヴァンの高打撃出力（1分8.9発）と改善されたテイクダウンディフェンスがカギと分析。鶴屋のグラップリングを封じつつ、打撃で徐々に優位に立ち決定勝ちまたは後半フィニッシュすると予想。ジョシュア・ヴァンの勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://clutchpoints.com/betting/joshua-van-vs-rei-tsuruya-prediction-odds-pick-for-ufc-313",
+        "timestamp": "2025-03-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Garrett Kerman",
+        "source_url": "https://clutchpoints.com/betting/joshua-van-vs-rei-tsuruya-prediction-odds-pick-for-ufc-313",
+        "source_ref": "stmt-ufc-313-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ClutchPoints、UFC 313開催2日前公開。Garrett KermanはClutchPoints UFCベッティング担当アソシエイトエディター。",
+        "expected_winner": "ジョシュア・ヴァン",
+        "expected_method": "Decision",
+        "target": "ジョシュア・ヴァン vs 鶴屋怜",
+        "expected_outcome": "ジョシュア・ヴァンが判定または後半フィニッシュ勝ち",
+        "deadline": "2025-03-08"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-09",
+        "winner": "ジョシュア・ヴァン",
+        "method": "Decision",
+        "actual_outcome": "ヴァンが全会一致判定 (30-27×3) 勝ち。鶴屋の初黒星。テイクダウン21回中17回切られた。",
+        "notes": "予想的中。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-313-002",
+      "statement_date": "2025-03-08",
+      "speaker": {
+        "name": "Sean Zerillo",
+        "role": "analyst",
+        "affiliation": "Action Network（シニアベッティングアナリスト）"
+      },
+      "content": {
+        "raw_text": "I expect Van to flip the fight's momentum after five minutes and pull away down the stretch – if not finish the fight late after slowing Tsuruya with body combinations.",
+        "normalized_text": "鶴屋はグラップリングに依存しているが打撃が未熟でグラウンドアンドパウンドが少なく、1R以降に失速するパターンがあると分析。ヴァンは1R後から打撃で主導権を握り後半に引き離すか、ボディ連打からのフィニッシュを予想。ジョシュア・ヴァン勝利（61.6%）を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.actionnetwork.com/mma/joshua-van-vs-rei-tsuruya-prediction-picks-odds-for-ufc-313",
+        "timestamp": "2025-03-08"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Sean Zerillo",
+        "source_url": "https://www.actionnetwork.com/mma/joshua-van-vs-rei-tsuruya-prediction-picks-odds-for-ufc-313",
+        "source_ref": "stmt-ufc-313-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Action Network（Yardbarker経由）、UFC 313当日公開。Sean ZerilloはAction NetworkのシニアベッティングアナリストでMMA予測専門家。",
+        "expected_winner": "ジョシュア・ヴァン",
+        "expected_method": "Decision",
+        "target": "ジョシュア・ヴァン vs 鶴屋怜",
+        "expected_outcome": "ジョシュア・ヴァンが後半に主導権を握り判定またはフィニッシュ勝ち",
+        "deadline": "2025-03-08"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-09",
+        "winner": "ジョシュア・ヴァン",
+        "method": "Decision",
+        "actual_outcome": "ヴァンが全会一致判定 (30-27×3) 勝ち。鶴屋のテイクダウンを17/21回切り、打撃で圧倒した。",
+        "notes": "予想的中。分析通りの展開となった。"
+      }
+    }
+  ]
+}

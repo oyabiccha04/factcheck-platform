@@ -1,0 +1,660 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "super-rizin-2",
+    "event_name": "のむシリカ presents 超RIZIN.2 powered by U-NEXT",
+    "organization": "RIZIN",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2023-07-30",
+    "venue": "さいたまスーパーアリーナ",
+    "country": "Japan",
+    "timezone": "Asia/Tokyo",
+    "attendance": null,
+    "note": "RIZIN×Bellator合同イベント。前半がBellatorパート（5試合）、後半がRIZINパート（8試合）。メインは朝倉未来 vs ケラモフ フェザー級タイトルマッチ。鈴木千裕がパトリシオ・ピットブルに大金星1RKO。"
+  },
+  "cards": [
+    {
+      "card_name": "Bellatorパート",
+      "bouts": [
+        {
+          "bout_id": "super-rizin-2-bout-01",
+          "bout_order": 1,
+          "division": "ウェルター級",
+          "rules": "Bellatorルール 5分3R",
+          "weight_kg": 77.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "アンドレイ・コレシュコフ",
+            "nickname": null,
+            "nationality": "Russia",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ロレンズ・ラーキン",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "アンドレイ・コレシュコフ",
+            "method": "Decision",
+            "method_detail": "2-1",
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-02",
+          "bout_order": 2,
+          "division": "バンタム級",
+          "rules": "Bellatorルール 5分3R",
+          "weight_kg": 61.2,
+          "discipline": "MMA",
+          "red": {
+            "name": "マゴメド・マゴメドフ",
+            "nickname": null,
+            "nationality": "Russia",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ダニー・サバテロ",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "マゴメド・マゴメドフ",
+            "method": "Submission",
+            "method_detail": null,
+            "round": 1,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-03",
+          "bout_order": 3,
+          "division": "女子フライ級",
+          "rules": "Bellatorルール 5分3R",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "渡辺華奈",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ヴィタ・アルテイガ",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "渡辺華奈",
+            "method": "Decision",
+            "method_detail": "3-0",
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-04",
+          "bout_order": 4,
+          "division": "フライ級タイトルマッチ",
+          "rules": "Bellatorルール 5分3R",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "堀口恭司",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "神龍誠",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": null,
+            "method": "No Contest",
+            "method_detail": "偶発的なサミング",
+            "round": 1,
+            "time": "0:25",
+            "result_note": "1R25秒、偶発的なサミングによりノーコンテスト。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-05",
+          "bout_order": 5,
+          "division": "ライト級GP1回戦",
+          "rules": "Bellatorルール 5分3R",
+          "weight_kg": 70.3,
+          "discipline": "MMA",
+          "red": {
+            "name": "パトリッキー・ピットブル",
+            "nickname": null,
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ホベルト・サトシ・ソウザ",
+            "nickname": null,
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "パトリッキー・ピットブル",
+            "method": "TKO",
+            "method_detail": null,
+            "round": 3,
+            "time": null,
+            "result_note": "Bellatorライト級グランプリ1回戦。"
+          }
+        }
+      ]
+    },
+    {
+      "card_name": "RIZINパート",
+      "bouts": [
+        {
+          "bout_id": "super-rizin-2-bout-06",
+          "bout_order": 6,
+          "division": "58.0kg契約",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 58.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "伊藤裕樹",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ヒロヤ",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "伊藤裕樹",
+            "method": "Decision",
+            "method_detail": "2-1",
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-07",
+          "bout_order": 7,
+          "division": "84.0kg契約",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 84.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "イゴール・タナベ",
+            "nickname": null,
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "阿部大治",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "イゴール・タナベ",
+            "method": "Submission",
+            "method_detail": null,
+            "round": 1,
+            "time": "4:34",
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-08",
+          "bout_order": 8,
+          "division": "61.0kg契約",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "太田忍",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "瀧澤謙太",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "太田忍",
+            "method": "TKO",
+            "method_detail": null,
+            "round": 1,
+            "time": "4:54",
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-09",
+          "bout_order": 9,
+          "division": "71.0kg契約",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 71.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "トフィック・ムサエフ",
+            "nickname": null,
+            "nationality": "Azerbaijan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "アキラ",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "トフィック・ムサエフ",
+            "method": "KO",
+            "method_detail": null,
+            "round": 2,
+            "time": "1:11",
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-10",
+          "bout_order": 10,
+          "division": "70.0kg契約",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 70.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "鈴木千裕",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "パトリシオ・ピットブル",
+            "nickname": null,
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "鈴木千裕",
+            "method": "KO",
+            "method_detail": "右ストレート",
+            "round": 1,
+            "time": "2:32",
+            "result_note": "AJ・マッキー欠場による緊急代役出場。当時Bellatorフェザー級王者のピットブルを撃破。鈴木は下馬評で圧倒的不利。4日前に電撃発表の試合。「超RIZINに稲妻落としてやったぜ」コメント。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-11",
+          "bout_order": 11,
+          "division": "女子スーパーアトム級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 49.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "伊澤星花",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "クレア・ロペス",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "伊澤星花",
+            "method": "Submission",
+            "method_detail": null,
+            "round": 1,
+            "time": "1:04",
+            "result_note": "女子スーパーアトム級タイトルマッチ。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-12",
+          "bout_order": 12,
+          "division": "バンタム級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分5R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "フアン・アーチュレッタ",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "扇久保博正",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "フアン・アーチュレッタ",
+            "method": "Decision",
+            "method_detail": "3-0",
+            "round": 5,
+            "time": null,
+            "result_note": "バンタム級タイトルマッチ。アーチュレッタが王座奪取。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-2-bout-13",
+          "bout_order": 13,
+          "division": "フェザー級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分5R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "ヴガール・ケラモフ",
+            "nickname": null,
+            "nationality": "Azerbaijan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "朝倉未来",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "JAPAN TOP TEAM"
+          },
+          "outcome": {
+            "winner": "ヴガール・ケラモフ",
+            "method": "Submission",
+            "method_detail": "リアネイキッドチョーク",
+            "round": 1,
+            "time": "2:41",
+            "result_note": "フェザー級タイトルマッチ。「またしてもベルト奪取ならず」—朝倉は2度目の王座挑戦失敗。ケラモフが王座防衛。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-super-rizin-2-001",
+      "statement_date": "2023-07-09",
+      "speaker": {
+        "name": "金原正徳",
+        "role": "fighter",
+        "affiliation": "フリー（元RIZIN参戦）"
+      },
+      "content": {
+        "raw_text": "ケラモフが一番強いと思ってるのは変わらない。未来はカウンター待ちが強い選手だが、ケラモフのフィジカルに通用するか……勝敗結果は、未来が判定勝ちして、『判定あってるのか？』と話題になるまでがワンセット",
+        "normalized_text": "朝倉未来がケラモフに判定勝ち（接戦・物議醸す展開も含め）と予想。ケラモフのフィジカルを警戒しながらも朝倉の相性優位と見る。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/214348",
+        "timestamp": "2023-07-09"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "金原正徳",
+        "source_url": "https://spread-sports.jp/archives/214348",
+        "source_ref": "stmt-super-rizin-2-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.2事前トークショー（2023年7月9日都内開催）での発言。現役格闘家として直接コメント。",
+        "expected_winner": "朝倉未来",
+        "expected_method": "判定",
+        "target": "朝倉未来 vs ヴガール・ケラモフ",
+        "expected_outcome": "朝倉未来が判定勝ち（接戦・物議の展開）",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": "ヴガール・ケラモフ",
+        "method": "Submission",
+        "actual_outcome": "ケラモフが1R2分41秒リアネイキッドチョークで一本勝ち",
+        "notes": "金原の朝倉未来勝ち予想は外れ。ケラモフが圧勝。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-2-002",
+      "statement_date": "2023-07-09",
+      "speaker": {
+        "name": "石渡伸太郎",
+        "role": "fighter",
+        "affiliation": "元格闘家（元RIZIN参戦、堀口と対戦歴あり）"
+      },
+      "content": {
+        "raw_text": "未来選手が危なけなく勝つ。相性的に優位。寝かし切られることはないと思うが、そうなったら厳しい",
+        "normalized_text": "朝倉未来が相性の優位性から危なげなく勝つと予想。ただし寝技展開になれば厳しいと警戒。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/214348",
+        "timestamp": "2023-07-09"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "石渡伸太郎",
+        "source_url": "https://spread-sports.jp/archives/214348",
+        "source_ref": "stmt-super-rizin-2-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.2事前トークショー（2023年7月9日都内開催）での発言。元格闘家・堀口との対戦経験あり。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "朝倉未来 vs ヴガール・ケラモフ",
+        "expected_outcome": "朝倉未来が危なげなく勝利",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": "ヴガール・ケラモフ",
+        "method": "Submission",
+        "actual_outcome": "ケラモフが1R2分41秒リアネイキッドチョークで一本勝ち",
+        "notes": "石渡の朝倉未来勝ち予想は外れ。ケラモフが寝技で仕留めた。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-2-003",
+      "statement_date": "2023-07-09",
+      "speaker": {
+        "name": "佐々木憂流迦",
+        "role": "fighter",
+        "affiliation": "元UFC参戦格闘家"
+      },
+      "content": {
+        "raw_text": "未来選手が勝つ。相性がいいと思う。未来選手は分析力も高いし、しっかり自分の武器を使って勝つのでは",
+        "normalized_text": "朝倉未来が高い分析力と相性の良さで自分の武器を活かして勝つと予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/214348",
+        "timestamp": "2023-07-09"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "佐々木憂流迦",
+        "source_url": "https://spread-sports.jp/archives/214348",
+        "source_ref": "stmt-super-rizin-2-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.2事前トークショー（2023年7月9日都内開催）での発言。元UFC参戦・海外試合経験豊富な格闘家。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "朝倉未来 vs ヴガール・ケラモフ",
+        "expected_outcome": "朝倉未来が自分の武器を活かして勝利",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": "ヴガール・ケラモフ",
+        "method": "Submission",
+        "actual_outcome": "ケラモフが1R2分41秒リアネイキッドチョークで一本勝ち",
+        "notes": "佐々木の朝倉未来勝ち予想は外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-2-004",
+      "statement_date": "2023-07-28",
+      "speaker": {
+        "name": "パトリシオ・ピットブル",
+        "role": "fighter",
+        "affiliation": "Bellatorフェザー級王者（同大会出場）"
+      },
+      "content": {
+        "raw_text": "多分、未来が勝つと思う。親友なので彼に挑戦する気は特にないよ",
+        "normalized_text": "朝倉未来がケラモフに勝つと予想。（親友のため挑戦意欲なしとのコメントも）"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://gonkaku.jp/articles/14339",
+        "timestamp": "2023-07-28"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "パトリシオ・ピットブル",
+        "source_url": "https://gonkaku.jp/articles/14339",
+        "source_ref": "stmt-super-rizin-2-004",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ゴング格闘技、2023年7月28日個別インタビュー。同大会で鈴木千裕と対戦する立場からの発言。朝倉未来とは練習仲間。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "朝倉未来 vs ヴガール・ケラモフ",
+        "expected_outcome": "朝倉未来が勝利",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": "ヴガール・ケラモフ",
+        "method": "Submission",
+        "actual_outcome": "ケラモフが1R2分41秒リアネイキッドチョークで一本勝ち",
+        "notes": "ピットブルの朝倉未来勝ち予想は外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-2-006",
+      "statement_date": "2023-07-09",
+      "speaker": {
+        "name": "佐々木憂流迦",
+        "role": "fighter",
+        "affiliation": "元UFC参戦格闘家"
+      },
+      "content": {
+        "raw_text": "100％堀口くんが勝ちます",
+        "normalized_text": "堀口恭司が100%勝つと断言。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/214346",
+        "timestamp": "2023-07-09"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "佐々木憂流迦",
+        "source_url": "https://spread-sports.jp/archives/214346",
+        "source_ref": "stmt-super-rizin-2-006",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.2事前トークショー（2023年7月9日都内開催）での発言。元UFCファイター、海外経験から堀口を高く評価。",
+        "expected_winner": "堀口恭司",
+        "expected_method": null,
+        "target": "堀口恭司 vs 神龍誠",
+        "expected_outcome": "堀口恭司が100%勝利",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": null,
+        "method": "No Contest",
+        "actual_outcome": "1R25秒、偶発的なサミングによりノーコンテスト",
+        "notes": "試合自体がノーコンテストのため勝敗の検証不可。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-2-007",
+      "statement_date": "2023-07-09",
+      "speaker": {
+        "name": "石渡伸太郎",
+        "role": "fighter",
+        "affiliation": "元格闘家（堀口と対戦歴あり）"
+      },
+      "content": {
+        "raw_text": "堀口恭司のワンサイド。神龍は勝つとしたらフロントチョークとか",
+        "normalized_text": "堀口恭司がワンサイドゲームで勝つと予想。神龍の唯一のチャンスはフロントチョーク程度と評価。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/214346",
+        "timestamp": "2023-07-09"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "石渡伸太郎",
+        "source_url": "https://spread-sports.jp/archives/214346",
+        "source_ref": "stmt-super-rizin-2-007",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.2事前トークショー（2023年7月9日都内開催）での発言。堀口と対戦経験あり、実力差を直接体感している立場。",
+        "expected_winner": "堀口恭司",
+        "expected_method": null,
+        "target": "堀口恭司 vs 神龍誠",
+        "expected_outcome": "堀口恭司がワンサイドで勝利",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": null,
+        "method": "No Contest",
+        "actual_outcome": "1R25秒、偶発的なサミングによりノーコンテスト",
+        "notes": "試合自体がノーコンテストのため勝敗の検証不可。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-2-009",
+      "statement_date": "2023-07-22",
+      "speaker": {
+        "name": "朝倉未来",
+        "role": "fighter",
+        "affiliation": "JAPAN TOP TEAM（同大会出場・他試合の予想）"
+      },
+      "content": {
+        "raw_text": "堀口（恭司）が3R以内にKO。世界の堀口なんでね",
+        "normalized_text": "堀口恭司が神龍誠に3R以内にKO勝ちすると予想。世界レベルのファイターとして堀口の実力を高く評価。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://encount.press/archives/489158/",
+        "timestamp": "2023-07-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "朝倉未来",
+        "source_url": "https://encount.press/archives/489158/",
+        "source_ref": "stmt-super-rizin-2-009",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ENCOUNT、2023年7月22日公開。朝倉未来のYouTubeチャンネルでの同大会他カード予想を記事化。",
+        "expected_winner": "堀口恭司",
+        "expected_method": "KO",
+        "target": "堀口恭司 vs 神龍誠",
+        "expected_outcome": "堀口恭司が3R以内にKO勝ち",
+        "deadline": "2023-07-30"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2023-07-30",
+        "winner": null,
+        "method": "No Contest",
+        "actual_outcome": "1R25秒、偶発的なサミングによりノーコンテスト",
+        "notes": "試合自体がノーコンテストのため検証不可。"
+      }
+    }
+  ]
+}

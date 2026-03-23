@@ -52,6 +52,32 @@
 
 ---
 
+## 開発ドキュメント・サイト構造（運用者向け）
+
+- **前提・憲法**：リポジトリ直下の [PROJECT_CHARTER.md](PROJECT_CHARTER.md)（インデックス正本、種目別ランキングの扱い、ナビ方針など）
+- **開発判断**： [docs/DEVELOPMENT_GUIDELINES.md](docs/DEVELOPMENT_GUIDELINES.md)
+
+**予測者ハブ（グローバルナビの「MMA予測 / ボクシング予測 / キック予測」先）**
+
+| 表示名 | ファイル |
+|--------|-----------|
+| MMA予測 | `martial-arts/predictors.html` |
+| ボクシング予測 | `predictors.html` |
+| キック予測 | `kick-predictors.html` |
+
+ログ一覧（`logs.html` / `martial-arts/logs.html`）はナビの直接項目ではなく、各ページ内の導線から遷移する。
+
+生JSON・GitHub 等の**検証用リンク**はトップからは外し、[`verify.html`](verify.html) にまとめています。
+
+**閲覧者向けの説明・利用条件**
+
+| ファイル | 内容 |
+|----------|------|
+| [`about.html`](about.html) | サイトのねらい・記録のルール・方針（平易な説明） |
+| [`policy.html`](policy.html) | 編集の独立性、データの第三者利用（クレジット等）、免責 |
+
+---
+
 ## なぜ GitHub を使うのか
 
 GitHub は単なるホスティングではありません。

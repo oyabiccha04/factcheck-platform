@@ -1,0 +1,175 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2025-12-27-event-18",
+    "event_meta":  {
+                       "event_name":  "世界スーパーバンタム級4団体防衛戦 井上尚弥 vs アラン・デビッド・ピカソ",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2025-12-27",
+                       "timezone":  "不明",
+                       "country":  "サウジアラビア",
+                       "venue":  "ムハマド・アブド・アリーナ（リヤド）",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2025-12-27-event-18-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "井上尚弥",
+                                        "blue":  "アラン・デビッド・ピカソ",
+                                        "outcome":  {
+                                                        "winner":  "井上尚弥",
+                                                        "method":  "判定",
+                                                        "round":  12,
+                                                        "time":  null,
+                                                        "result_note":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。世界戦27連勝（歴代単独1位）。6度目の4団体同時防衛"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-001",
+                           "statement_date":  "2025-12-01",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "other",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥のKO勝利（6〜9R）が最も可能性が高い。",
+                                           "normalized_text":  "井上尚弥の6-9RでのKO勝利を予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.bscre8.com/journal/2025/12/01/kuma1201/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://www.bscre8.com/journal/2025/12/01/kuma1201/",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-19）。発言者個人名の特定ができず要確認。bscre8.comはURL検証未完了。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上の6-9R KO勝ち",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
+                                                "notes":  "KO予想だが実際は判定決着。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-002",
+                           "statement_date":  "2025-12-24",
+                           "speaker":  {
+                                           "name":  "椎野大輝",
+                                           "role":  "other",
+                                           "affiliation":  "ボクシング特化型パーソナルトレーナー / 元OPBF東洋太平洋バンタム級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "直前の予想としては、井上尚弥選手の前半KO。ロープに詰めて、左ボディ、ワンツー、カウンター。4ラウンドまでには終わると思っています。",
+                                           "normalized_text":  "井上尚弥が前半KO（4Rまで）で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://boxingtrainer-hirokishiino.com/28244/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "椎野大輝",
+                                              "source_url":  "https://boxingtrainer-hirokishiino.com/28244/",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-002",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。試合直前予想記事（サウジアラビア現地入り後に執筆）。Tier B（元OPBF東洋太平洋バンタム級王者、ボクシングトレーナーYouTuber）。記事公開日は2025-12-24前後と推定。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥が前半KO（4R以内）",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
+                                                "notes":  "前半KO予想だが実際は12回判定決着。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-003",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "内山高志",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフェザー級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "正直、勝負論はない。100%井上だと想像はつく。ただしカルデナス戦みたいなことがあるのがボクシング",
+                                           "normalized_text":  "井上尚弥が圧倒的有利（100%井上）と予想。ただし番狂わせの可能性は否定しない。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://boxingtrainer-hirokishiino.com/28244/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "内山高志",
+                                              "source_url":  "https://boxingtrainer-hirokishiino.com/28244/",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-003",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。椎野大輝の試合直前予想記事（boxingtrainer-hirokishiino.com/28244/）内で引用。YouTubeでの発言。直接のYouTube動画URLは不明。Tier A（元WBA世界スーパーフェザー級王者）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥が勝利（100%有利）",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。予想通り井上が勝利。",
+                                                "notes":  "勝者予想が的中。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       }
+                   ],
+    "charter_update_candidates":  [
+                                      {
+                                          "title":  "発言者不明のネット記事（stmt-001）の信頼性要確認",
+                                          "problem":  "stmt-boxing-2025-12-27-event-18-001のソース（bscre8.com）は個人ブログ系と見られ、発言者名・個人属性が特定できない。URLの実在確認も未完了。",
+                                          "proposed_rule":  "発言者個人名が特定できないソースは、追跡調査で名前が判明するまで「要確認」フラグを維持し、確認後に statement_id を更新する。",
+                                          "scope":  "events",
+                                          "evidence_urls":  [
+                                                                "https://www.bscre8.com/journal/2025/12/01/kuma1201/"
+                                                            ]
+                                      }
+                                  ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

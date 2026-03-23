@@ -1,0 +1,319 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "ufc-fight-night-qatar-2025",
+    "event_name": "UFC Fight Night: Qatar 2025（UFCファイトナイト・ドーハ 2025）",
+    "organization": "UFC",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2025-11-22",
+    "venue": "Lusail Sports Arena",
+    "country": "Qatar",
+    "timezone": "Asia/Qatar",
+    "attendance": null,
+    "note": "UFCファイトナイト・カタール。堀口恭司が2016年11月以来約9年ぶりにUFCに復帰。フライ級11位のタギル・ウランベコフに3Rリアネイキッドチョークで一本勝ち。パフォーマンス・オブ・ザ・ナイト5万ドル獲得。"
+  },
+  "cards": [
+    {
+      "card_name": "Main Card",
+      "bouts": [
+        {
+          "bout_id": "ufc-fight-night-qatar-2025-001",
+          "bout_order": 4,
+          "division": "フライ級",
+          "rules": "UFC MMAルール 3R×5分",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "タギル・ウランベコフ",
+            "nickname": null,
+            "nationality": "Russia",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "堀口恭司",
+            "nickname": "Ryujin",
+            "nationality": "Japan",
+            "affiliation": "American Top Team"
+          },
+          "outcome": {
+            "winner": "堀口恭司",
+            "method": "Submission",
+            "method_detail": "リアネイキッドチョーク",
+            "round": 3,
+            "time": "2:18",
+            "result_note": "堀口が9年ぶりのUFC復帰戦で完勝。伝統派空手のステップ・カーフキックでダメージ蓄積後、3Rにダウン→バック取りでRNC一本勝ち。パフォーマンス・オブ・ザ・ナイト受賞。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-ufc-qatar-2025-j001",
+      "statement_date": "2025-11-22",
+      "speaker": {
+        "name": "中村倫也",
+        "role": "fighter",
+        "affiliation": "UFC バンタム級ファイター・American Top Team（堀口の同門）"
+      },
+      "content": {
+        "raw_text": "（堀口の）足の使い方は、UFCの場ではめちゃくちゃ生きる。他の国にはもちろん、日本にもない。スペシャルな足の使い方。序盤からカーフとお腹を効かせて、テイクも混ぜて判定勝ちも、KOもある",
+        "normalized_text": "同門のATTでともに練習する立場から、堀口の伝統派空手特有のフットワーク・脚技の優位性を強調。「UFCでは特に生きる」と評し、カーフキックとボディワークを絡めたマルチな攻撃で堀口勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/368504",
+        "timestamp": "2025-11-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "中村倫也",
+        "source_url": "https://spread-sports.jp/archives/368504",
+        "source_ref": "stmt-ufc-qatar-2025-j001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「堀口恭司 vs. ウランベコフ 勝敗予想まとめ」記事、UFC Qatar当日公開。YouTube動画での発言。中村は堀口と同じAmerican Top Teamに所属。",
+        "expected_winner": "堀口恭司",
+        "expected_method": "Decision or KO",
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "堀口恭司が判定またはKOで勝利",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。パフォーマンス・オブ・ザ・ナイト受賞。",
+        "notes": "勝者予想的中。決着方法は一本（予想判定/KO→実際サブミッション）だが、勝者の正確性は高かった。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-qatar-2025-j002",
+      "statement_date": "2025-11-22",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "格闘家・元ONE世界ライト級王者"
+      },
+      "content": {
+        "raw_text": "ウランベコフの組技が堀口さんに通用するとは思えない",
+        "normalized_text": "ウランベコフの看板であるグラップリング・レスリングが堀口の動きに対しては機能しないと断言。堀口の特異なフットワークと速さがグラップラーにとって難敵と評価し、堀口勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/368504",
+        "timestamp": "2025-11-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://spread-sports.jp/archives/368504",
+        "source_ref": "stmt-ufc-qatar-2025-j002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「堀口恭司 vs. ウランベコフ 勝敗予想まとめ」記事、UFC Qatar当日公開。YouTube動画での発言。",
+        "expected_winner": "堀口恭司",
+        "expected_method": null,
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "堀口恭司が勝利（ウランベコフの組技は通じない）",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。",
+        "notes": "予想的中。青木の分析「組技が通用しない」は正確で、ウランベコフは堀口のサブミッションで敗れた。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-qatar-2025-j003",
+      "statement_date": "2025-11-22",
+      "speaker": {
+        "name": "川尻達也",
+        "role": "analyst",
+        "affiliation": "元UFCファイター・格闘技解説者"
+      },
+      "content": {
+        "raw_text": "相性はあまり良くない。勝ってくれるとは思うが、いい勝ち方をしづらい相手",
+        "normalized_text": "ウランベコフとの相性が悪いと懸念しつつも、最終的には堀口が勝利すると予想。スタイル的には堀口に向かい風だが実力で上回ると評価。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/368504",
+        "timestamp": "2025-11-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "川尻達也",
+        "source_url": "https://spread-sports.jp/archives/368504",
+        "source_ref": "stmt-ufc-qatar-2025-j003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「堀口恭司 vs. ウランベコフ 勝敗予想まとめ」記事、UFC Qatar当日公開。YouTube動画での発言。",
+        "expected_winner": "堀口恭司",
+        "expected_method": null,
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "堀口恭司が苦戦しながら勝利",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。",
+        "notes": "勝者予想的中。「いい勝ち方をしづらい」と懸念したが、実際は一本勝ちという鮮やかな形で勝利した。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-qatar-2025-j004",
+      "statement_date": "2025-11-22",
+      "speaker": {
+        "name": "扇久保博正",
+        "role": "fighter",
+        "affiliation": "格闘家・元RIZINフライ級王者"
+      },
+      "content": {
+        "raw_text": "堀口の判定勝ち",
+        "normalized_text": "堀口恭司が判定まで試合を持たせて勝利すると予想。SPREAD予想まとめにてYouTube動画発言として収録。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/368504",
+        "timestamp": "2025-11-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "扇久保博正",
+        "source_url": "https://spread-sports.jp/archives/368504",
+        "source_ref": "stmt-ufc-qatar-2025-j004",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「堀口恭司 vs. ウランベコフ 勝敗予想まとめ」記事、UFC Qatar当日公開。YouTube動画での発言。",
+        "expected_winner": "堀口恭司",
+        "expected_method": "Decision",
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "堀口恭司の判定勝ち",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。",
+        "notes": "勝者予想的中。決着方法は相違（判定予想→実際は一本）。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-qatar-2025-001",
+      "statement_date": "2025-11-22",
+      "speaker": {
+        "name": "ヘンリー・セフード",
+        "role": "fighter",
+        "affiliation": "元UFC世界フライ級・バンタム級2冠王者（米国）"
+      },
+      "content": {
+        "raw_text": "ホリグチは才能に溢れている。距離のとり方や出入りがとてもトリッキーで、グッと近づいたり離れたりする。王者パントージャにとって一番の脅威だ",
+        "normalized_text": "元UFC同級王者セフードが堀口を絶賛。フットワークと距離管理の特殊性を高く評価し、現王者パントージャに対する最大の脅威と位置付けた上で堀口の勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/368504",
+        "timestamp": "2025-11-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "ヘンリー・セフード",
+        "source_url": "https://spread-sports.jp/archives/368504",
+        "source_ref": "stmt-ufc-qatar-2025-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「堀口恭司 vs. ウランベコフ 勝敗予想まとめ」記事、UFC Qatar当日公開。元UFC世界フライ級王者（UFC初のベルト奪取者）の発言。",
+        "expected_winner": "堀口恭司",
+        "expected_method": null,
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "堀口恭司が勝利（パントージャへの挑戦権に値する実力を証明）",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。パフォーマンス・オブ・ザ・ナイト受賞。",
+        "notes": "予想的中。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-qatar-2025-002",
+      "statement_date": "2025-11-22",
+      "speaker": {
+        "name": "ヘナート・モイカノ",
+        "role": "fighter",
+        "affiliation": "UFC ライト級10位（ブラジル）・American Top Team（堀口の同門）"
+      },
+      "content": {
+        "raw_text": "普段の練習でパントージャを追い込んでいる。下手をしたらパントージャにとってもっともキツい相手だ。ウランベコフはとても強いがキョウジが勝つだろう。キョウジは速すぎる",
+        "normalized_text": "ATTでともに練習する同門として、堀口の練習でのパフォーマンスを直接知る立場から発言。堀口の速さを最大の武器と評価し、ウランベコフ戦での勝利を確信。「キョウジは速すぎる」と断言。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/368504",
+        "timestamp": "2025-11-22"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "ヘナート・モイカノ",
+        "source_url": "https://spread-sports.jp/archives/368504",
+        "source_ref": "stmt-ufc-qatar-2025-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「堀口恭司 vs. ウランベコフ 勝敗予想まとめ」記事、UFC Qatar当日公開。モイカノはAmerican Top Team所属で堀口の同門。",
+        "expected_winner": "堀口恭司",
+        "expected_method": null,
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "堀口恭司が勝利（速さが決定的優位）",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。",
+        "notes": "予想的中。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-qatar-2025-003",
+      "statement_date": "2025-11-20",
+      "speaker": {
+        "name": "Garrett Kerman",
+        "role": "analyst",
+        "affiliation": "ClutchPoints（UFC担当アソシエイトエディター）"
+      },
+      "content": {
+        "raw_text": "Tagir Ulanbekov gets it done by decision, using his grappling to edge out a close contest in Qatar. Final Pick: Tagir Ulanbekov (-192), Over 2.5 Rounds (-298)",
+        "normalized_text": "ウランベコフのレスリング・グラップリングが堀口を支配し、接戦ながら判定で逃げ切ると予想。「テイクダウンを毎ラウンド取ってスタミナを削り判定勝ち」という展開を想定。クラッチポイントのUFC担当エディターとして英語メディアを代表するウランベコフ支持予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://clutchpoints.com/betting/tagir-ulanbekov-vs-kyoji-horiguchi-prediction-odds-pick-for-ufc-qatar",
+        "timestamp": "2025-11-20"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Garrett Kerman",
+        "source_url": "https://clutchpoints.com/betting/tagir-ulanbekov-vs-kyoji-horiguchi-prediction-odds-pick-for-ufc-qatar",
+        "source_ref": "stmt-ufc-qatar-2025-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ClutchPoints、UFC Qatar開催2日前公開。Garrett KermanはClutchPoints UFCベッティング担当アソシエイトエディター。",
+        "expected_winner": "タギル・ウランベコフ",
+        "expected_method": "Decision",
+        "target": "堀口恭司 vs タギル・ウランベコフ",
+        "expected_outcome": "ウランベコフがグラップリングで支配し判定勝ち",
+        "deadline": "2025-11-22"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-23",
+        "winner": "堀口恭司",
+        "method": "Submission",
+        "actual_outcome": "堀口が3R2分18秒リアネイキッドチョークで一本勝ち。",
+        "notes": "予想外れ。ブックメーカーもウランベコフ有利（堀口オッズ2.75倍）だったが、堀口が逆転一本勝ち。"
+      }
+    }
+  ]
+}

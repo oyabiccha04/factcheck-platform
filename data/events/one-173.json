@@ -1,0 +1,201 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-173",
+  "event_meta": {
+    "event_name": "ONE 173: Superbon vs. Noiri",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "arena",
+    "date": "2025-11-16",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "有明アリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "one173-01",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分5R",
+          "red": "スーパーボン・シンハー・マウィン",
+          "blue": "野杁正明",
+          "outcome": {
+            "winner": "スーパーボン・シンハー・マウィン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（48-47, 49-47, 49-46）（ONEフェザー級キックボクシング王座統一戦）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one173-02",
+          "division": "フライ級",
+          "rules": "ONE MMA 5分3R",
+          "red": "若松佑弥",
+          "blue": "ジョシュア・パシオ",
+          "outcome": {
+            "winner": "若松佑弥",
+            "method": "TKO",
+            "round": 2,
+            "time": "0:54",
+            "result_note": "TKO（ニー）（ONEフライ級MMA世界タイトルマッチ）"
+          },
+          "discipline": "MMA"
+        },
+        {
+          "bout_id": "one173-03",
+          "division": "アトム級",
+          "rules": "ONE ムエタイルール 3分5R",
+          "red": "吉成名高",
+          "blue": "ヌンスリン・チョー・ケットウィナー",
+          "outcome": {
+            "winner": "吉成名高",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（50-45, 50-45, 50-45）（ONEアトム級ムエタイ世界初代王座決定戦）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one173-04",
+          "division": "フライ級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "武尊",
+          "blue": "デニス・ピューリック",
+          "outcome": {
+            "winner": "武尊",
+            "method": "TKO",
+            "round": 2,
+            "time": "2:49",
+            "result_note": "TKO（ハイキック＆パンチ、4ダウン）（パフォーマンス・オブ・ザ・ナイト受賞）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one173-05",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "マラット・グレゴリアン",
+          "blue": "安保瑠輝也",
+          "outcome": {
+            "winner": "マラット・グレゴリアン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（安保はフェザー級制限オーバー155.4lb）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one173-06",
+          "division": "バンタム級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "与座優貴",
+          "blue": "スーパーレック・キアトモー9",
+          "outcome": {
+            "winner": "与座優貴",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（29-28, 30-27, 30-27）"
+          },
+          "discipline": "KICKBOXING"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-one-173-001",
+      "statement_date": "2025-11-14",
+      "speaker": {
+        "name": "魔裟斗",
+        "role": "commentator",
+        "affiliation": "元K-1 WORLD MAX世界王者"
+      },
+      "content": {
+        "raw_text": "武尊は前半はインサイドのローキックで削っていって、削って削って最後はパンチでフィニッシュっていう、そういう形ができれば復活の日本大会になるんじゃないのかなと思ってますけどね。",
+        "normalized_text": "武尊がローキックとパンチの連打でKO/TKO勝ちする復活劇を予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=07ia6ogRGoQ",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "魔裟斗",
+        "source_url": "https://www.youtube.com/watch?v=07ia6ogRGoQ",
+        "source_ref": "stmt-one-173-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。U-NEXT格闘技公式YouTubeチャンネルのONE 173直前解説動画（ゴング格闘技掲載の書き起こし記事 https://news.yahoo.co.jp/articles/9e4d4b9fa43e93d973cfe9cc0fa51595593f84f8 より確認）。Tier A（元K-1 WORLD MAX世界王者・格闘技解説者）。",
+        "expected_winner": "武尊",
+        "expected_method": "TKO",
+        "target": "武尊 vs デニス・ピューリック",
+        "expected_outcome": "武尊がローキックで削り、パンチの連打でKO/TKO勝ちし復活",
+        "deadline": "2025-11-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-16",
+        "winner": "武尊",
+        "method": "TKO",
+        "actual_outcome": "武尊が2ラウンド2分49秒TKO勝ち（ハイキック＆パンチ、4ダウン）。パフォーマンス・オブ・ザ・ナイト受賞。",
+        "notes": "武尊TKO勝利を的中。魔裟斗の予想どおり復活の一戦となった。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-173-002",
+      "statement_date": "2025-11-14",
+      "speaker": {
+        "name": "魔裟斗",
+        "role": "commentator",
+        "affiliation": "元K-1 WORLD MAX世界王者"
+      },
+      "content": {
+        "raw_text": "1.5倍速の男ですから。1人だけ1.5倍速なので、ヌンスリンが名高に攻撃を当てるのは至難の業だろうなと思ってますけどね。",
+        "normalized_text": "吉成名高のスピードが圧倒的で、ヌンスリンは攻撃を当てられず名高の勝利"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=07ia6ogRGoQ",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "魔裟斗",
+        "source_url": "https://www.youtube.com/watch?v=07ia6ogRGoQ",
+        "source_ref": "stmt-one-173-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。U-NEXT格闘技公式YouTubeチャンネルのONE 173直前解説動画（ゴング格闘技掲載の書き起こし記事 https://news.yahoo.co.jp/articles/9e4d4b9fa43e93d973cfe9cc0fa51595593f84f8 より確認）。Tier A（元K-1 WORLD MAX世界王者・格闘技解説者）。",
+        "expected_winner": "吉成名高",
+        "expected_method": "判定",
+        "target": "吉成名高 vs ヌンスリン・チョー・ケットウィナー",
+        "expected_outcome": "吉成名高がスピードで圧倒し勝利（ONEアトム級ムエタイ初代世界王座決定戦）",
+        "deadline": "2025-11-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-11-16",
+        "winner": "吉成名高",
+        "method": "判定",
+        "actual_outcome": "吉成名高が判定3-0（50-45, 50-45, 50-45）で圧勝。ONEアトム級ムエタイ初代世界王者に。",
+        "notes": "吉成名高の勝利を的中。完璧なスコアで圧勝という内容も魔裟斗の分析どおり。",
+        "source_note": ""
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

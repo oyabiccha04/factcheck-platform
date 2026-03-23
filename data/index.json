@@ -1,130 +1,592 @@
 {
-  "events": [
-    {
-      "id": "the-match-2022",
-      "title": "THE MATCH 2022",
-      "date": "2022-06-19",
-      "organization": "THE MATCH",
-      "file": "the-match-2022.json"
-    },
-    {
-      "id": "rizin-36",
-      "title": "RIZIN 36",
-      "date": "2022-07-02",
-      "organization": "RIZIN",
-      "file": "rizin-36.json"
-    },
-    {
-      "id": "rizin-37",
-      "title": "RIZIN 37",
-      "date": "2022-07-31",
-      "organization": "RIZIN",
-      "file": "rizin-37.json"
-    },
-    {
-      "id": "rizin-38",
-      "title": "超RIZIN",
-      "date": "2022-09-25",
-      "organization": "RIZIN",
-      "file": "rizin-38.json"
-    },
-    {
-      "id": "rizin-39",
-      "title": "RIZIN 39",
-      "date": "2022-10-23",
-      "organization": "RIZIN",
-      "file": "rizin-39.json"
-    },
-    {
-      "id": "rizin-40",
-      "title": "RIZIN 40",
-      "date": "2022-12-31",
-      "organization": "RIZIN",
-      "file": "rizin-40.json"
-    },
-    {
-      "id": "rizin-41",
-      "title": "RIZIN 41",
-      "date": "2023-04-01",
-      "organization": "RIZIN",
-      "file": "rizin-41.json"
-    },
-    {
-      "id": "rizin-42",
-      "title": "RIZIN 42",
-      "date": "2023-05-06",
-      "organization": "RIZIN",
-      "file": "rizin-42.json"
-    },
-    {
-      "id": "rizin-43",
-      "title": "RIZIN 43",
-      "date": "2023-06-24",
-      "organization": "RIZIN",
-      "file": "rizin-43.json"
-    },
-    {
-      "id": "rizin-44",
-      "title": "RIZIN 44",
-      "date": "2023-09-24",
-      "organization": "RIZIN",
-      "file": "rizin-44.json"
-    },
-    {
-      "id": "rizin-45",
-      "title": "RIZIN 45",
-      "date": "2023-12-31",
-      "organization": "RIZIN",
-      "file": "rizin-45.json"
-    },
-    {
-      "id": "rizin-46",
-      "title": "RIZIN 46",
-      "date": "2024-04-29",
-      "organization": "RIZIN",
-      "file": "rizin-46.json"
-    },
-    {
-      "id": "rizin-47",
-      "title": "RIZIN 47",
-      "date": "2024-06-09",
-      "organization": "RIZIN",
-      "file": "rizin-47.json"
-    },
-    {
-      "id": "rizin-48",
-      "title": "RIZIN 48",
-      "date": "2024-09-29",
-      "organization": "RIZIN",
-      "file": "rizin-48.json"
-    },
-    {
-      "id": "rizin-49",
-      "title": "RIZIN DECADE",
-      "date": "2024-12-31",
-      "organization": "RIZIN",
-      "file": "rizin-49.json"
-    },
-    {
-      "id": "rizin-50",
-      "title": "RIZIN 50",
-      "date": "2025-03-30",
-      "organization": "RIZIN",
-      "file": "rizin-50.json"
-    },
-    {
-      "id": "rizin-51",
-      "title": "RIZIN 51",
-      "date": "2025-09-28",
-      "organization": "RIZIN",
-      "file": "rizin-51.json"
-    },
-    {
-      "id": "rizin-52",
-      "title": "RIZIN 52",
-      "date": "2026-03-07",
-      "organization": "RIZIN",
-      "file": "rizin-52.json"
-    }
-  ]
+    "events":  [
+                   {
+                       "id":  "the-match-2022",
+                       "title":  "THE MATCH 2022",
+                       "date":  "2022-06-19",
+                       "organization":  "THE MATCH",
+                       "file":  "the-match-2022.json",
+                       "disciplines":  [
+                                           "KICKBOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-36",
+                       "title":  "RIZIN 36",
+                       "date":  "2022-07-02",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-36.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-37",
+                       "title":  "RIZIN 37",
+                       "date":  "2022-07-31",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-37.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-38",
+                       "title":  "超RIZIN",
+                       "date":  "2022-09-25",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-38.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING",
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-39",
+                       "title":  "RIZIN 39",
+                       "date":  "2022-10-23",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-39.json",
+                       "disciplines":  [
+                                           "KICKBOXING",
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-40",
+                       "title":  "RIZIN 40",
+                       "date":  "2022-12-31",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-40.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-41",
+                       "title":  "RIZIN 41",
+                       "date":  "2023-04-01",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-41.json",
+                       "disciplines":  [
+                                           "KICKBOXING",
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-42",
+                       "title":  "RIZIN 42",
+                       "date":  "2023-05-06",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-42.json",
+                       "disciplines":  [
+                                           "KICKBOXING",
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-43",
+                       "title":  "RIZIN 43",
+                       "date":  "2023-06-24",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-43.json",
+                       "disciplines":  [
+                                           "KICKBOXING",
+                                           "MMA"
+                                       ]
+                   },
+                  {
+                      "id":  "super-rizin-2",
+                      "title":  "超RIZIN.2",
+                      "date":  "2023-07-30",
+                      "organization":  "RIZIN",
+                      "file":  "super-rizin-2.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "rizin-44",
+                      "title":  "RIZIN 44",
+                      "date":  "2023-09-24",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-44.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING"
+                                       ]
+                   },
+                  {
+                      "id":  "rizin-landmark-7-azerbaijan",
+                      "title":  "RIZIN LANDMARK 7 in Azerbaijan",
+                      "date":  "2023-11-04",
+                      "organization":  "RIZIN",
+                      "file":  "rizin-landmark-7-azerbaijan.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "rizin-45",
+                      "title":  "RIZIN 45",
+                      "date":  "2023-12-31",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-45.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-46",
+                       "title":  "RIZIN 46",
+                       "date":  "2024-04-29",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-46.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-47",
+                       "title":  "RIZIN 47",
+                       "date":  "2024-06-09",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-47.json",
+                       "disciplines":  [
+                                           "MMA",
+                                           "KICKBOXING"
+                                       ]
+                   },
+                  {
+                      "id":  "super-rizin-3",
+                      "title":  "超RIZIN.3",
+                      "date":  "2024-07-28",
+                      "organization":  "RIZIN",
+                      "file":  "super-rizin-3.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "rizin-48",
+                      "title":  "RIZIN 48",
+                      "date":  "2024-09-29",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-48.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-49",
+                       "title":  "RIZIN DECADE",
+                       "date":  "2024-12-31",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-49.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "rizin-50",
+                       "title":  "RIZIN 50",
+                       "date":  "2025-03-30",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-50.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                  {
+                      "id":  "rizin-otokomatsuri-2025",
+                      "title":  "RIZIN男祭り",
+                      "date":  "2025-05-04",
+                      "organization":  "RIZIN",
+                      "file":  "rizin-otokomatsuri-2025.json",
+                      "disciplines":  [
+                                          "MMA",
+                                          "KICKBOXING"
+                                      ]
+                  },
+                  {
+                      "id":  "rizin-51",
+                      "title":  "RIZIN 51",
+                      "date":  "2025-09-28",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-51.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                  {
+                      "id":  "rizin-shiwasu-2025",
+                      "title":  "RIZIN師走の超強者祭り",
+                      "date":  "2025-12-31",
+                      "organization":  "RIZIN",
+                      "file":  "rizin-shiwasu-2025.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "rizin-52",
+                      "title":  "RIZIN 52",
+                      "date":  "2026-03-07",
+                       "organization":  "RIZIN",
+                       "file":  "rizin-52.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2022-11-01-event-01",
+                       "title":  "WBC・WBO世界ライトフライ級王座統一戦 寺地拳四朗 vs 京口紘人",
+                       "date":  "2022-11-01",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2022-11-01-event-01.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2022-12-13-event-02",
+                       "title":  "世界バンタム級4団体王座統一戦 井上尚弥 vs ポール・バトラー",
+                       "date":  "2022-12-13",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2022-12-13-event-02.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2023-04-08-event-03",
+                       "title":  "WBA・WBC世界ライトフライ級 寺地拳四朗 vs アンソニー・オラスクアガ",
+                       "date":  "2023-04-08",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2023-04-08-event-03.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2023-07-25-event-04",
+                       "title":  "WBC・WBO世界スーパーバンタム級 スティーブン・フルトン vs 井上尚弥",
+                       "date":  "2023-07-25",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2023-07-25-event-04.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2023-12-26-event-05",
+                       "title":  "世界スーパーバンタム級4団体王座統一戦 井上尚弥 vs マーロン・タパレス",
+                       "date":  "2023-12-26",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2023-12-26-event-05.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2024-02-24-event-06",
+                       "title":  "WBC世界バンタム級 アレハンドロ・サンティアゴ vs 中谷潤人",
+                       "date":  "2024-02-24",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2024-02-24-event-06.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2024-05-06",
+                       "title":  "東京ドーム 世界ダブル世界戦 2024.05.06（井上尚弥 vs ネリ / 武居由樹 WBO王座奪取）",
+                       "date":  "2024-05-06",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2024-05-06.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2024-09-03",
+                       "title":  "世界ダブル世界戦 2024.09.03（井上尚弥 vs ドヘニー / 武居由樹 WBO初防衛）",
+                       "date":  "2024-09-03",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2024-09-03.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "ufc-fight-night-244",
+                       "title":  "UFC Fight Night: Royval vs. Taira（平良達郎 vs ブランドン・ロイバル）",
+                       "date":  "2024-10-12",
+                       "organization":  "UFC",
+                       "file":  "ufc-fight-night-244.json",
+                       "disciplines":  [
+                                           "MMA"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2024-10-13-event-11",
+                       "title":  "WBA世界バンタム級 井上拓真 vs 堤聖也",
+                       "date":  "2024-10-13",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2024-10-13-event-11.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2025-01-24-event-12",
+                       "title":  "世界スーパーバンタム級4団体防衛戦 井上尚弥 vs 金芸俊",
+                       "date":  "2025-01-24",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2025-01-24-event-12.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2025-03-13-event-13",
+                       "title":  "WBC世界フライ級 寺地拳四朗 vs ユーリ阿久井政悟",
+                       "date":  "2025-03-13",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2025-03-13-event-13.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2025-05-28-event-14",
+                       "title":  "WBO世界バンタム級 武居由樹 vs ユッタポン・トンディ",
+                       "date":  "2025-05-28",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2025-05-28-event-14.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                  {
+                      "id":  "ufc-on-espn-71",
+                      "title":  "UFC on ESPN 71: Taira vs. Park（平良達郎 + 中村倫也）",
+                      "date":  "2025-08-02",
+                      "organization":  "UFC",
+                      "file":  "ufc-on-espn-71.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-319",
+                      "title":  "UFC 319: Chimaev vs. du Plessis（朝倉海 vs ティム・エリオット）",
+                      "date":  "2025-08-16",
+                      "organization":  "UFC",
+                      "file":  "ufc-319.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "boxing-2025-09-14",
+                      "title":  "IGアリーナ名古屋 世界ダブル世界戦 2025.09.14（井上尚弥 vs アフマダリエフ / 武居由樹 WBO防衛戦）",
+                      "date":  "2025-09-14",
+                      "organization":  "BOXING",
+                      "file":  "boxing-2025-09-14.json",
+                      "disciplines":  [
+                                          "BOXING"
+                                      ]
+                  },
+                   {
+                       "id":  "boxing-2025-11-24-event-17",
+                       "title":  "WBC世界バンタム級王座決定戦 那須川天心 vs 井上拓真",
+                       "date":  "2025-11-24",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2025-11-24-event-17.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2025-12-27-event-18",
+                       "title":  "世界スーパーバンタム級4団体防衛戦 井上尚弥 vs アラン・デビッド・ピカソ",
+                       "date":  "2025-12-27",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2025-12-27-event-18.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                   {
+                       "id":  "boxing-2026-04-11-event-20",
+                       "title":  "WBC世界バンタム級挑戦者決定戦 那須川天心 vs エストラーダ",
+                       "date":  "2026-04-11",
+                       "organization":  "BOXING",
+                       "file":  "boxing-2026-04-11-event-20.json",
+                       "disciplines":  [
+                                           "BOXING"
+                                       ]
+                   },
+                  {
+                      "id":  "boxing-2026-05-02",
+                      "title":  "東京ドーム世界ダブル世界戦 2026.05.02（井上尚弥 vs 中谷潤人 / 井上拓真 WBC初防衛 vs 井岡一翔）",
+                      "date":  "2026-05-02",
+                      "organization":  "BOXING",
+                      "file":  "boxing-2026-05-02.json",
+                      "disciplines":  [
+                                          "BOXING"
+                                      ]
+                  },
+                  {
+                      "id":  "one-165",
+                      "title":  "ONE 165: Superlek vs. Takeru",
+                      "date":  "2024-01-28",
+                      "organization":  "ONE",
+                      "file":  "one-165.json",
+                      "disciplines":  [
+                                          "KICKBOXING"
+                                      ]
+                  },
+                  {
+                      "id":  "one-167",
+                      "title":  "ONE 167: Tawanchai vs. Nattawut 2",
+                      "date":  "2024-06-08",
+                      "organization":  "ONE",
+                      "file":  "one-167.json",
+                      "disciplines":  [
+                                          "KICKBOXING",
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "one-friday-fights-81",
+                      "title":  "ONE Friday Fights 81",
+                      "date":  "2024-09-27",
+                      "organization":  "ONE",
+                      "file":  "one-friday-fights-81.json",
+                      "disciplines":  [
+                                          "KICKBOXING"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-310",
+                      "title":  "UFC 310: Pantoja vs. Asakura（朝倉海 フライ級王座挑戦）",
+                      "date":  "2024-12-07",
+                      "organization":  "UFC",
+                      "file":  "ufc-310.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "one-friday-fights-92",
+                      "title":  "ONE Friday Fights 92: Sitthichai vs. Shadow",
+                      "date":  "2024-12-20",
+                      "organization":  "ONE",
+                      "file":  "one-friday-fights-92.json",
+                      "disciplines":  [
+                                          "KICKBOXING"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-311",
+                      "title":  "UFC 311: Makhachev vs. Moicano（中村倫也 vs ガフロフ）",
+                      "date":  "2025-01-18",
+                      "organization":  "UFC",
+                      "file":  "ufc-311.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "one-170",
+                      "title":  "ONE 170: Tawanchai vs. Superbon II",
+                      "date":  "2025-01-24",
+                      "organization":  "ONE",
+                      "file":  "one-170.json",
+                      "disciplines":  [
+                                          "KICKBOXING",
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-313",
+                      "title":  "UFC 313: Pereira vs. Ankalaev（鶴屋怜 vs ジョシュア・ヴァン）",
+                      "date":  "2025-03-08",
+                      "organization":  "UFC",
+                      "file":  "ufc-313.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "one-172",
+                      "title":  "ONE 172: Takeru vs. Rodtang",
+                      "date":  "2025-03-23",
+                      "organization":  "ONE",
+                      "file":  "one-172.json",
+                      "disciplines":  [
+                                          "KICKBOXING",
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "one-173",
+                      "title":  "ONE 173: Superbon vs. Noiri",
+                      "date":  "2025-11-16",
+                      "organization":  "ONE",
+                      "file":  "one-173.json",
+                      "disciplines":  [
+                                          "KICKBOXING",
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-fight-night-qatar-2025",
+                      "title":  "UFC Fight Night: Qatar 2025（堀口恭司 UFC復帰戦 vs ウランベコフ）",
+                      "date":  "2025-11-22",
+                      "organization":  "UFC",
+                      "file":  "ufc-fight-night-qatar-2025.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-fight-night-lv113",
+                      "title":  "UFC Fight Night: Bautista vs. Oliveira（堀口恭司 vs アミル・アルバジ）",
+                      "date":  "2026-02-07",
+                      "organization":  "UFC",
+                      "file":  "ufc-fight-night-lv113.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "ufc-327",
+                      "title":  "UFC 327（平良達郎 フライ級王座挑戦 vs ジョシュア・ヴァン）",
+                      "date":  "2026-04-12",
+                      "organization":  "UFC",
+                      "file":  "ufc-327.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
+                  {
+                      "id":  "one-samurai-1",
+                      "title":  "ONE Samurai 1: Rodtang vs. Takeru II",
+                      "date":  "2026-04-29",
+                      "organization":  "ONE",
+                      "file":  "one-samurai-1.json",
+                      "disciplines":  [
+                                          "KICKBOXING",
+                                          "MMA"
+                                      ]
+                  }
+              ]
 }

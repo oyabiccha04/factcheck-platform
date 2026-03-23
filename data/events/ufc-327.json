@@ -1,0 +1,129 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "ufc-327",
+    "event_name": "UFC 327: Van vs. Taira",
+    "organization": "UFC",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2026-04-12",
+    "venue": "Kaseya Center",
+    "country": "USA",
+    "timezone": "America/New_York",
+    "attendance": null,
+    "note": "UFC 327。フロリダ州マイアミ・カセヤセンター開催。UFCフライ級タイトルマッチ（ジョシュア・ヴァンの初防衛戦）。ヴァンは2025年12月のUFC323でパントージャを26秒TKOで下し戴冠。平良は同大会でブランドン・モレノを2R TKO撃破しタイトル挑戦権獲得。アジア男子ファイター同士によるUFC史上初のタイトルマッチ。2000年代生まれ同士によるUFC史上初のタイトルマッチでもある。平良は日本人初のUFC王座獲得を目指す。ベッティングオッズは平良-180（小差のフェイバリット）、ヴァン+150。"
+  },
+  "cards": [
+    {
+      "card_name": "Main Card",
+      "bouts": [
+        {
+          "bout_id": "ufc-327-001",
+          "bout_order": 5,
+          "division": "フライ級",
+          "rules": "UFC MMAルール 5R×5分（タイトルマッチ）",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "ジョシュア・ヴァン",
+            "nickname": null,
+            "nationality": "Myanmar",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "平良達郎",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "THE BLACKBELT JAPAN"
+          },
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "method_detail": null,
+            "round": null,
+            "time": null,
+            "result_note": "未開催（予定）"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-ufc-327-001",
+      "statement_date": "2026-03-18",
+      "speaker": {
+        "name": "Ethan Diamandas",
+        "role": "analyst",
+        "affiliation": "OddsShark（UFCベッティングアナリスト）"
+      },
+      "content": {
+        "raw_text": "Van exists in a different universe on the feet. He lands 8.84 significant strikes per minute. That's the highest rate in UFC history. The blueprint for beating Taira already exists, and it looks a lot like what Van does naturally. Van wants to make a statement after winning the belt on an injury TKO, and you can feel it. The finish should come before the championship rounds. Pick: Joshua Van Moneyline (+150); Value pick on Van by KO/TKO",
+        "normalized_text": "ヴァンの打撃ペース（1分8.84発はUFC史上最高）の圧倒的なプレッシャーが平良に対する最大の脅威と分析。ロイバルが平良に初黒星を与えたスタイル（猛烈なペースと動き）をヴァンが自然体でより高いレベルで体現していると指摘。ヴァンの81%テイクダウン防御も評価。平良はこれまでヴァンのようなボリュームを経験していないと断言し、チャンピオンシップラウンド前にフィニッシュすると予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "http://www.oddsshark.com/ufc/ufc-327-van-vs-taira-odds-picks-april-11-2026",
+        "timestamp": "2026-03-18"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Ethan Diamandas",
+        "source_url": "http://www.oddsshark.com/ufc/ufc-327-van-vs-taira-odds-picks-april-11-2026",
+        "source_ref": "stmt-ufc-327-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。OddsShark、2026年3月18日公開。Ethan DiamandaはOddsSharkのUFCベッティング担当アナリスト。試合3週間前に公開されたオッズ解説記事。",
+        "expected_winner": "ジョシュア・ヴァン",
+        "expected_method": "KO/TKO",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "ヴァンがチャンピオンシップラウンド前にKO/TKOフィニッシュ",
+        "deadline": "2026-04-11"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合は2026年4月11日（日本時間12日）開催予定。未検証。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-327-j001",
+      "statement_date": "2025-11-23",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "格闘家・元ONE世界ライト級王者"
+      },
+      "content": {
+        "raw_text": "日本人で勝つとしたら、平良が一番だと思う。練習したら堀口さんのほうが強いと思うが、フレッシュさと勢いを含めて、平良のほうが一枚上手なんじゃないか",
+        "normalized_text": "堀口恭司のUFC復帰直後（2025年11月）にコメント。現時点でフライ級タイトルに最も近い日本人は平良と評価。経験・練習量では堀口が上だが、フレッシュさと勢いで平良が一枚上手と分析。平良のタイトル挑戦を最有力視。※UFC327対戦発表前のコメントだが、平良優位の見解として記録。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/369011",
+        "timestamp": "2025-11-23"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://spread-sports.jp/archives/369011",
+        "source_ref": "stmt-ufc-327-j001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD、2025年11月23日公開。青木真也のYouTubeチャンネル発言をSPREADが記事化。UFC327の正式発表（2026年2月）前のコメントだが、平良がフライ級タイトルを獲得できる最有力の日本人選手との見解。",
+        "expected_winner": "平良達郎",
+        "expected_method": null,
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎がフライ級タイトル戦で勝利（日本人で勝てるとしたら平良が一番）",
+        "deadline": "2026-04-11"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合は2026年4月11日（日本時間12日）開催予定。未検証。※コメントはUFC327発表前（2025年11月）のもので、当時の対戦相手はヴァンでなくパントージャを想定していた可能性あり。"
+      }
+    }
+  ]
+}

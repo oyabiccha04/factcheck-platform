@@ -1,0 +1,129 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "ufc-fight-night-244",
+    "event_name": "UFC Fight Night: Royval vs. Taira（UFCファイトナイト・ラスベガス98）",
+    "organization": "UFC",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2024-10-12",
+    "venue": "UFC APEX",
+    "country": "USA",
+    "timezone": "America/Los_Angeles",
+    "attendance": null,
+    "note": "UFC Fight Night 244。メインイベント・フライ級5Rマッチ。平良達郎（5位）がフライ級1位のブランドン・ロイバルにスプリット判定(1-2)で初黒星。タイトル挑戦は仕切り直しに。"
+  },
+  "cards": [
+    {
+      "card_name": "Main Card",
+      "bouts": [
+        {
+          "bout_id": "ufc-fight-night-244-001",
+          "bout_order": 5,
+          "division": "フライ級",
+          "rules": "UFC MMAルール 5R×5分",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "ブランドン・ロイバル",
+            "nickname": "Raw Dawg",
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "平良達郎",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "THE BLACKBELT JAPAN"
+          },
+          "outcome": {
+            "winner": "ブランドン・ロイバル",
+            "method": "Decision",
+            "method_detail": "スプリット判定 (2-1)",
+            "round": 5,
+            "time": "5:00",
+            "result_note": "平良のUFC初黒星。6連勝でタイトル挑戦権を狙っていたが敗れた。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-ufc-fight-night-244-001",
+      "statement_date": "2024-10-12",
+      "speaker": {
+        "name": "Andrew Richardson",
+        "role": "analyst",
+        "affiliation": "MMAmania.com / Team Alpha Male（プロファイター兼アナリスト）"
+      },
+      "content": {
+        "raw_text": "Prediction: Taira via decision",
+        "normalized_text": "平良達郎がロイバルのカオスな打撃に対し、カウンターとテイクダウンを効果的に使い判定勝ちすると予想。ロイバルは最近オフェンスの爆発力が落ちており、平良のバックテイクが最大の武器になると分析。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.mmamania.com/2024/10/12/24266678/tatsuro-taira-vs-brandon-royval-odds-full-fight-preview-and-prediction-ufc-vegas-98",
+        "timestamp": "2024-10-12"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Andrew Richardson",
+        "source_url": "https://www.mmamania.com/2024/10/12/24266678/tatsuro-taira-vs-brandon-royval-odds-full-fight-preview-and-prediction-ufc-vegas-98",
+        "source_ref": "stmt-ufc-fight-night-244-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMAmania.com、試合当日公開のファイトプレビュー記事。筆者のAndrew RichardsonはTeam Alpha Male所属のプロファイター兼アナリスト。",
+        "expected_winner": "平良達郎",
+        "expected_method": "Decision",
+        "target": "平良達郎 vs ブランドン・ロイバル",
+        "expected_outcome": "平良達郎が判定勝ち",
+        "deadline": "2024-10-12"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-10-13",
+        "winner": "ブランドン・ロイバル",
+        "method": "Decision",
+        "actual_outcome": "ロイバルがスプリット判定 (2-1) 勝ち。平良のUFC・MMAデビュー以来の連勝が16でストップ。",
+        "notes": "予想外れ。平良有利の大方の予想を覆しロイバルが打撃で優位を確立。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-fight-night-244-002",
+      "statement_date": "2024-10-12",
+      "speaker": {
+        "name": "Michael Chiesa",
+        "role": "fighter",
+        "affiliation": "UFC（ウェルター級ファイター、ESPN格闘技解説）"
+      },
+      "content": {
+        "raw_text": "Taira wins in a fight that goes the distance",
+        "normalized_text": "平良は優れた基礎技術と手の位置・フットワークを持ち、テイクダウン牽制と打撃を組み合わせてフルファイトで判定勝ちすると予想。ロイバルはチャンピオンシップラウンドの経験があるが、平良の才能が上回ると評価。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://espn.go.com/mma/insider/story/_/id/41703122/ufc-fight-night-brandon-royval-tatsuro-taira-expert-picks-best-bets",
+        "timestamp": "2024-10-12"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Michael Chiesa",
+        "source_url": "https://espn.go.com/mma/insider/story/_/id/41703122/ufc-fight-night-brandon-royval-tatsuro-taira-expert-picks-best-bets",
+        "source_ref": "stmt-ufc-fight-night-244-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ESPN Insider、試合当日公開のエキスパートピックス記事。Michael ChiesaはUFCウェルター級ファイターでESPNの格闘技解説者。",
+        "expected_winner": "平良達郎",
+        "expected_method": "Decision",
+        "target": "平良達郎 vs ブランドン・ロイバル",
+        "expected_outcome": "平良達郎がフルファイトで判定勝ち",
+        "deadline": "2024-10-12"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-10-13",
+        "winner": "ブランドン・ロイバル",
+        "method": "Decision",
+        "actual_outcome": "ロイバルがスプリット判定 (2-1) 勝ち。",
+        "notes": "予想外れ。平良の打撃面での苦戦は試合前から懸念されていたが、決定打はロイバルの膝とボクシングテクニック。"
+      }
+    }
+  ]
+}

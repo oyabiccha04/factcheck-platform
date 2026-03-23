@@ -1,0 +1,210 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-172",
+  "event_meta": {
+    "event_name": "ONE 172: Takeru vs. Rodtang",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "arena",
+    "date": "2025-03-23",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "さいたまスーパーアリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "one172-01",
+          "division": "フライ級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "ロッタン・ジットムアンノン",
+          "blue": "武尊",
+          "outcome": {
+            "winner": "ロッタン・ジットムアンノン",
+            "method": "KO",
+            "round": 1,
+            "time": "1:20",
+            "result_note": "KO（スーパーファイト）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one172-02",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分5R",
+          "red": "タワンチャイ・PK・センチャイ",
+          "blue": "野杁正明",
+          "outcome": {
+            "winner": "野杁正明",
+            "method": "TKO",
+            "round": 3,
+            "time": "1:55",
+            "result_note": "TKO（パンチ）（ONEフェザー級キックボクシング暫定世界タイトルマッチ）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one172-03",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "マラット・グレゴリアン",
+          "blue": "加藤賀斗",
+          "outcome": {
+            "winner": "マラット・グレゴリアン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one172-04",
+          "division": "フライ級",
+          "rules": "ONE MMA 5分3R",
+          "red": "若松佑弥",
+          "blue": "アドリアーノ・モラエス",
+          "outcome": {
+            "winner": "若松佑弥",
+            "method": "TKO",
+            "round": 1,
+            "time": "3:39",
+            "result_note": "TKO（パンチ）（ONEフライ級MMA世界タイトルマッチ）"
+          },
+          "discipline": "MMA"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-one-172-001",
+      "statement_date": "2025-03-20",
+      "speaker": {
+        "name": "井熊知也",
+        "role": "media",
+        "affiliation": "スポーティングニュース日本版（元プロキックボクサー）"
+      },
+      "content": {
+        "raw_text": "最終的にはロッタンが一度ダウンを奪い、判定勝利を収めると予想する。",
+        "normalized_text": "ロッタンが武尊をダウンさせ判定勝利する"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sportingnews.com/jp/mma/news/2025-3-23-takeru-vs-rodtang-jitmuangnon-outline-prediction-odd-jpn/5b197edff322b4037c4b487b",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "井熊知也",
+        "source_url": "https://www.sportingnews.com/jp/mma/news/2025-3-23-takeru-vs-rodtang-jitmuangnon-outline-prediction-odd-jpn/5b197edff322b4037c4b487b",
+        "source_ref": "stmt-one-172-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。スポーティングニュース日本版のONE 172メインイベントプレビュー記事。Tier B（元プロキックボクサー兼スポーツライター）。",
+        "expected_winner": "ロッタン・ジットムアンノン",
+        "expected_method": "判定",
+        "target": "武尊 vs ロッタン・ジットムアンノン",
+        "expected_outcome": "ロッタンが一度ダウンを奪い判定3-0で勝利",
+        "deadline": "2025-03-23"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "ロッタン・ジットムアンノン",
+        "method": "KO",
+        "actual_outcome": "ロッタンが1ラウンド1分20秒KO勝ち",
+        "notes": "勝者（ロッタン）は的中したが、方法（判定→KO）はハズレ。予想外の早い決着。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-172-003",
+      "statement_date": "2025-03-17",
+      "speaker": {
+        "name": "チャトリ・シットヨートン",
+        "role": "promoter",
+        "affiliation": "ONE Championship CEO"
+      },
+      "content": {
+        "raw_text": "2人とも好きな選手ですが、どちらが勝つかと言うと60%の確率でロッタンかもしれません。それはロッタンが武尊より6歳若いからです。いや、55%ロッタンが有利ですかね。",
+        "normalized_text": "ロッタンが55〜60%の確率で武尊に勝つと予想（理由：ロッタンが6歳年下）"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://dot.asahi.com/articles/-/252380?page=2",
+        "timestamp": "2025-03-17前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "チャトリ・シットヨートン",
+        "source_url": "https://dot.asahi.com/articles/-/252380?page=2",
+        "source_ref": "stmt-one-172-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。AERA DIGITAL（dot.asahi.com）のインタビュー記事。ONE Championship CEO・プロモーター。両選手の内情を知る立場からの発言。",
+        "expected_winner": "ロッタン・ジットムアンノン",
+        "expected_method": null,
+        "target": "武尊 vs ロッタン・ジットムアンノン",
+        "expected_outcome": "ロッタンが55〜60%の確率で武尊に勝利",
+        "deadline": "2025-03-23"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "ロッタン・ジットムアンノン",
+        "method": "KO",
+        "actual_outcome": "ロッタンが1ラウンド1分20秒KO勝ち",
+        "notes": "チャトリ予想のロッタン勝利は的中。方法（KO）はチャトリが別途「KO決着になる」と発言しており、これも的中。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-172-002",
+      "statement_date": "2025-03-20",
+      "speaker": {
+        "name": "井熊知也",
+        "role": "media",
+        "affiliation": "スポーティングニュース日本版（元プロキックボクサー）"
+      },
+      "content": {
+        "raw_text": "3-0の判定でタワンチャイが勝利すると予想する。果たして、野杁はこの状況を活かし、番狂わせを起こすことができるのか。",
+        "normalized_text": "タワンチャイが野杁を判定3-0で下すと予想"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sportingnews.com/jp/mma/news/2025-3-23-masaaki-noiri-vs-tawanchai-pk-saenchaimuaythaigym-outline-prediction-odd-jpn/646797fc4c6a7267195704cc",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "井熊知也",
+        "source_url": "https://www.sportingnews.com/jp/mma/news/2025-3-23-masaaki-noiri-vs-tawanchai-pk-saenchaimuaythaigym-outline-prediction-odd-jpn/646797fc4c6a7267195704cc",
+        "source_ref": "stmt-one-172-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。スポーティングニュース日本版のONE 172暫定王座決定戦プレビュー記事。Tier B（元プロキックボクサー兼スポーツライター）。",
+        "expected_winner": "タワンチャイ・PKセンチャイ",
+        "expected_method": "判定",
+        "target": "タワンチャイ・PKセンチャイ vs 野杁正明",
+        "expected_outcome": "タワンチャイが判定3-0で勝利",
+        "deadline": "2025-03-23"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "野杁正明",
+        "method": "TKO",
+        "actual_outcome": "野杁正明が3ラウンド1分55秒TKO勝ち（ONEフェザー級キックボクシング暫定世界王者に）",
+        "notes": "大番狂わせ。井熊知也の予想（タワンチャイ判定勝ち）はハズレ。野杁が衝撃のTKO勝利。",
+        "source_note": ""
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

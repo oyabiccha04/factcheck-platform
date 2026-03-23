@@ -1,0 +1,62 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-170",
+  "event_meta": {
+    "event_name": "ONE 170: Tawanchai vs. Superbon II",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "arena",
+    "date": "2025-01-24",
+    "timezone": "Asia/Bangkok",
+    "country": "TH",
+    "venue": "インパクトアリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "one170-01",
+          "division": "フェザー級",
+          "rules": "ONE ムエタイルール 3分5R",
+          "red": "タワンチャイ・PK・センチャイ",
+          "blue": "スーパーボン・シンハー・マウィン",
+          "outcome": {
+            "winner": "タワンチャイ・PK・センチャイ",
+            "method": "TKO",
+            "round": 2,
+            "time": "1:10",
+            "result_note": "TKO（ONEフェザー級ムエタイ世界タイトルマッチ）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one170-02",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分5R",
+          "red": "シャキール・アル・テクリティ",
+          "blue": "野杁正明",
+          "outcome": {
+            "winner": "野杁正明",
+            "method": "KO",
+            "round": 2,
+            "time": null,
+            "result_note": "KO勝ち（ONEフェザー級キックボクシング暫定世界タイトルマッチ）"
+          },
+          "discipline": "KICKBOXING"
+        }
+      ]
+    }
+  ],
+  "statements": [],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

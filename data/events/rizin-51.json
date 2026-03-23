@@ -1,325 +1,306 @@
 {
-  "schema": "standard-log-v1.2-json",
-  "schema_version": "1.2.1",
-  "event_id": "rizin-51",
-  "event_meta": {
-    "event_name": "RIZIN.51",
-    "organization": "RIZIN",
-    "sport": "martial_arts",
-    "discipline": "mma",
-    "event_tier": "arena",
-    "date": "2025-09-28",
-    "timezone": "Asia/Tokyo",
-    "country": "JP",
-    "venue": "IGアリーナ（名古屋）",
-    "is_dome_class": false
-  },
-  "cards": [
-    {
-      "card_id": "opening",
-      "card_name": "オープニングファイト",
-      "bouts": [
-        {
-          "bout_id": "rizin51-opening-1",
-          "rules": "RIZIN MMA 5分2R",
-          "red": "YUHEI",
-          "blue": "脇田仁",
-          "outcome": {
-            "winner": "YUHEI",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin51-opening-2",
-          "rules": "RIZIN MMA 5分2R",
-          "red": "佐藤執斗",
-          "blue": "小林大介",
-          "outcome": {
-            "winner": "小林大介",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin51-opening-3",
-          "rules": "RIZIN MMA 5分2R",
-          "red": "山木麻弥",
-          "blue": "石坂空志",
-          "outcome": {
-            "winner": "石坂空志",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin51-opening-4",
-          "rules": "RIZIN MMA 5分2R",
-          "red": "太田将吾",
-          "blue": "Street♡★Bob洸助",
-          "outcome": {
-            "winner": "Street♡★Bob洸助",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        }
-      ]
-    },
-    {
-      "card_id": "main",
-      "card_name": "メインカード",
-      "bouts": [
-        {
-          "bout_id": "rizin51-01",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "大和哲也",
-          "blue": "奥山貴大",
-          "outcome": {
-            "winner": "奥山貴大",
-            "method": "Submission",
-            "round": 1,
-            "time": "4:10",
-            "result_note": "腕ひしぎ十字固め"
-          }
-        },
-        {
-          "bout_id": "rizin51-02",
-          "division": "100.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "金田一孝介",
-          "blue": "チャートゥ・バンビロール",
-          "outcome": {
-            "winner": "チャートゥ・バンビロール",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin51-03",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "冨澤大智",
-          "blue": "平本丈",
-          "outcome": {
-            "winner": "冨澤大智",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定2-1"
-          }
-        },
-        {
-          "bout_id": "rizin51-04",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "鈴木博昭",
-          "blue": "ファン・イェーロウ",
-          "outcome": {
-            "winner": "鈴木博昭",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定2-1"
-          }
-        },
-        {
-          "bout_id": "rizin51-05",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "矢地祐介",
-          "blue": "芳賀ビラル海",
-          "outcome": {
-            "winner": "矢地祐介",
-            "method": "Submission",
-            "round": 2,
-            "time": "2:09",
-            "result_note": "リアネイキッドチョーク"
-          }
-        },
-        {
-          "bout_id": "rizin51-06",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "高木凌",
-          "blue": "三宅輝砂",
-          "outcome": {
-            "winner": "高木凌",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin51-07",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "梅野源治",
-          "blue": "芦澤竜誠",
-          "outcome": {
-            "winner": "梅野源治",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin51-08",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "佐藤将光",
-          "blue": "ダニー・サバテロ",
-          "outcome": {
-            "winner": "ダニー・サバテロ",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定1-2"
-          }
-        },
-        {
-          "bout_id": "rizin51-09",
-          "division": "120.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "マレク・サモチュク",
-          "blue": "アレクサンダー・ソルダトキン",
-          "outcome": {
-            "winner": "アレクサンダー・ソルダトキン",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3（RIZIN WORLD GP 2025 ヘビー級トーナメント 決勝）"
-          }
-        },
-        {
-          "bout_id": "rizin51-10",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "伊藤裕樹",
-          "blue": "山本アーセン",
-          "outcome": {
-            "winner": "山本アーセン",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3（フライ級GP リザーブマッチ）"
-          }
-        },
-        {
-          "bout_id": "rizin51-11",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "元谷友貴",
-          "blue": "神龍誠",
-          "outcome": {
-            "winner": "元谷友貴",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0（フライ級GP 2回戦）"
-          }
-        },
-        {
-          "bout_id": "rizin51-12",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "扇久保博正",
-          "blue": "アリベク・ガジャマトフ",
-          "outcome": {
-            "winner": "扇久保博正",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0（フライ級GP 2回戦）"
-          }
-        },
-        {
-          "bout_id": "rizin51-13",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "ラジャブアリ・シェイドゥラエフ",
-          "blue": "ビクター・コレスニック",
-          "outcome": {
-            "winner": "ラジャブアリ・シェイドゥラエフ",
-            "method": "KO",
-            "round": 1,
-            "time": "0:33",
-            "result_note": "TKO（左パウンド連打）フェザー級タイトルマッチ"
-          }
-        },
-        {
-          "bout_id": "rizin51-14",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "ホベルト・サトシ・ソウザ",
-          "blue": "堀江圭功",
-          "outcome": {
-            "winner": "ホベルト・サトシ・ソウザ",
-            "method": "Submission",
-            "round": 1,
-            "time": "1:40",
-            "result_note": "リアネイキッドチョーク ライト級タイトルマッチ"
-          }
-        }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-51-001",
-      "statement_date": "2025-07-20",
-      "speaker": {
-        "name": "芦澤竜誠",
-        "role": "fighter",
-        "affiliation": "フリー"
-      },
-      "content": {
-        "raw_text": "梅野をボコボコにして終わらせる",
-        "normalized_text": "梅野に圧倒的勝利を宣言"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=uK1X9z3z2k8",
-        "timestamp": "05:10"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "芦澤竜誠",
-        "source_url": "https://www.youtube.com/watch?v=uK1X9z3z2k8",
-        "source_ref": "statement_id=stmt-rizin-51-001",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。記者会見動画。要確認：マイクパフォーマンスの性格が強いため客観的予測かは精査必要。",
-        "expected_winner": "芦澤竜誠",
-        "expected_method": "KO",
-        "target": "梅野源治 vs 芦澤竜誠",
-        "expected_outcome": "芦澤がKO勝利",
-        "deadline": "2025-09-28"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-09-28",
-        "winner": "梅野源治",
-        "method": "Decision",
-        "actual_outcome": "梅野源治が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    }
-  ],
-  "content_policy": {
-    "facts_only": true,
-    "no_opinion": true,
-    "no_analysis": true,
-    "no_ranking": true
-  }
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "rizin-51",
+    "event_meta":  {
+                       "event_name":  "RIZIN.51",
+                       "organization":  "RIZIN",
+                       "sport":  "martial_arts",
+                       "discipline":  "mma",
+                       "event_tier":  "arena",
+                       "date":  "2025-09-28",
+                       "timezone":  "Asia/Tokyo",
+                       "country":  "JP",
+                       "venue":  "IGアリーナ（名古屋）",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "opening",
+                      "card_name":  "オープニングファイト",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "rizin51-opening-1",
+                                        "rules":  "RIZIN MMA 5分2R",
+                                        "red":  "YUHEI",
+                                        "blue":  "脇田仁",
+                                        "outcome":  {
+                                                        "winner":  "YUHEI",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-opening-2",
+                                        "rules":  "RIZIN MMA 5分2R",
+                                        "red":  "佐藤執斗",
+                                        "blue":  "小林大介",
+                                        "outcome":  {
+                                                        "winner":  "小林大介",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-opening-3",
+                                        "rules":  "RIZIN MMA 5分2R",
+                                        "red":  "山木麻弥",
+                                        "blue":  "石坂空志",
+                                        "outcome":  {
+                                                        "winner":  "石坂空志",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-opening-4",
+                                        "rules":  "RIZIN MMA 5分2R",
+                                        "red":  "太田将吾",
+                                        "blue":  "Street♡★Bob洸助",
+                                        "outcome":  {
+                                                        "winner":  "Street♡★Bob洸助",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    }
+                                ]
+                  },
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "rizin51-01",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "大和哲也",
+                                        "blue":  "奥山貴大",
+                                        "outcome":  {
+                                                        "winner":  "奥山貴大",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  "4:10",
+                                                        "result_note":  "腕ひしぎ十字固め"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-02",
+                                        "division":  "100.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "金田一孝介",
+                                        "blue":  "チャートゥ・バンビロール",
+                                        "outcome":  {
+                                                        "winner":  "チャートゥ・バンビロール",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-03",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "冨澤大智",
+                                        "blue":  "平本丈",
+                                        "outcome":  {
+                                                        "winner":  "冨澤大智",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定2-1"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-04",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "鈴木博昭",
+                                        "blue":  "ファン・イェーロウ",
+                                        "outcome":  {
+                                                        "winner":  "鈴木博昭",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定2-1"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-05",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "矢地祐介",
+                                        "blue":  "芳賀ビラル海",
+                                        "outcome":  {
+                                                        "winner":  "矢地祐介",
+                                                        "method":  "Submission",
+                                                        "round":  2,
+                                                        "time":  "2:09",
+                                                        "result_note":  "リアネイキッドチョーク"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-06",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "高木凌",
+                                        "blue":  "三宅輝砂",
+                                        "outcome":  {
+                                                        "winner":  "高木凌",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-07",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "梅野源治",
+                                        "blue":  "芦澤竜誠",
+                                        "outcome":  {
+                                                        "winner":  "梅野源治",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-08",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "佐藤将光",
+                                        "blue":  "ダニー・サバテロ",
+                                        "outcome":  {
+                                                        "winner":  "ダニー・サバテロ",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定1-2"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-09",
+                                        "division":  "120.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "マレク・サモチュク",
+                                        "blue":  "アレクサンダー・ソルダトキン",
+                                        "outcome":  {
+                                                        "winner":  "アレクサンダー・ソルダトキン",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3（RIZIN WORLD GP 2025 ヘビー級トーナメント 決勝）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-10",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "伊藤裕樹",
+                                        "blue":  "山本アーセン",
+                                        "outcome":  {
+                                                        "winner":  "山本アーセン",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3（フライ級GP リザーブマッチ）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-11",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "元谷友貴",
+                                        "blue":  "神龍誠",
+                                        "outcome":  {
+                                                        "winner":  "元谷友貴",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0（フライ級GP 2回戦）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-12",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "扇久保博正",
+                                        "blue":  "アリベク・ガジャマトフ",
+                                        "outcome":  {
+                                                        "winner":  "扇久保博正",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0（フライ級GP 2回戦）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-13",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "ラジャブアリ・シェイドゥラエフ",
+                                        "blue":  "ビクター・コレスニック",
+                                        "outcome":  {
+                                                        "winner":  "ラジャブアリ・シェイドゥラエフ",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  "0:33",
+                                                        "result_note":  "TKO（左パウンド連打）フェザー級タイトルマッチ"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin51-14",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "ホベルト・サトシ・ソウザ",
+                                        "blue":  "堀江圭功",
+                                        "outcome":  {
+                                                        "winner":  "ホベルト・サトシ・ソウザ",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  "1:40",
+                                                        "result_note":  "リアネイキッドチョーク ライト級タイトルマッチ"
+                                                    },
+                                        "discipline":  "MMA"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
 }

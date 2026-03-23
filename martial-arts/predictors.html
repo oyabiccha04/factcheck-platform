@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>予測者一覧 | factcheck-platform</title>
+  <title>MMA予測 | factcheck-platform</title>
   <link rel="stylesheet" href="../style.css">
   <style>
     .filter-wrap { margin-bottom: 16px; }
@@ -13,56 +13,198 @@
     .predictor-list { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 12px; }
     .predictor-list a { display: inline-block; padding: 8px 14px; background: #fff; border: 1px solid #e6e8eb; border-radius: 8px; color: #0b57d0; text-decoration: none; font-size: 0.95em; }
     .predictor-list a:hover { background: #f8f9fa; border-color: #0b57d0; }
+    .spotlight-block { margin-bottom: 28px; }
+    .spotlight-block h2 { margin-bottom: 12px; }
+    .spotlight-block h3 { margin: 0 0 8px; font-size: 1.05em; font-weight: 600; color: #333; }
+    .spotlight-item {
+      border: 1px solid #e6e8eb;
+      border-radius: 8px;
+      padding: 12px 14px;
+      margin-bottom: 10px;
+      background: #fff;
+    }
+    .spotlight-item:last-child { margin-bottom: 0; }
+    .spotlight-item .spotlight-title { margin: 0 0 6px; font-size: 1em; }
+    .spotlight-item .spotlight-meta { margin: 0 0 8px; font-size: 0.9em; color: #666; }
+    .spotlight-item .spotlight-link { font-size: 0.9em; }
+    .rank-table {
+      width: 100%;
+      max-width: 640px;
+      border-collapse: collapse;
+      background: #fff;
+      border: 1px solid #e6e8eb;
+      border-radius: 10px;
+      overflow: hidden;
+      margin-top: 8px;
+    }
+    .rank-table th,
+    .rank-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid #eef0f2;
+      text-align: left;
+      font-size: 0.95em;
+    }
+    .rank-table thead th {
+      background: #f8f9fa;
+      color: #333;
+      font-weight: 600;
+    }
+    .rank-table tbody tr:last-child td {
+      border-bottom: none;
+    }
+    .rank-table a {
+      color: #0b57d0;
+      text-decoration: none;
+    }
+    .rank-table a:hover {
+      text-decoration: underline;
+    }
+    .rank-note {
+      color: #666;
+      font-size: 0.9em;
+      margin-top: 8px;
+    }
+    .site-footer--actions {
+      margin: 32px auto 0;
+      max-width: 960px;
+      padding: 20px 16px 40px;
+      border-top: 1px solid #e6e8eb;
+    }
+    .footer-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 16px;
+      align-items: center;
+    }
+    .footer-action {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 0;
+      padding: 0.35em 0.9em;
+      font-size: 1em;
+      line-height: 1.35;
+      font-weight: 500;
+      border: 1px solid #d0d5da;
+      border-radius: 6px;
+      background: #fff;
+      color: #0b57d0;
+      text-decoration: none;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+    }
+    .footer-action:hover {
+      background: #f4f8ff;
+      border-color: #0b57d0;
+      text-decoration: none;
+    }
+    .footer-action:focus-visible {
+      outline: 2px solid #0b57d0;
+      outline-offset: 2px;
+    }
+    .ranking-log-wrap {
+      margin-top: 24px;
+    }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>予測者一覧</h1>
+  <h1 id="page-heading">MMA予測</h1>
   <p>予測者ごとに発言・予測・検証を興行をまたいで確認できます</p>
 </header>
 
 <nav aria-label="グローバルナビ">
   <ul>
     <li><a href="../index.html">トップ</a></li>
-    <li class="nav__parent">
-      <a href="./">格闘技ログ</a>
-      <ul>
-        <li><a href="logs.html">格闘技ログ一覧</a></li>
-        <li><a href="predictors.html">予測者一覧</a></li>
-      </ul>
-    </li>
+    <li><a href="./predictors.html">MMA予測</a></li>
+    <li><a href="../predictors.html">ボクシング予測</a></li>
+    <li><a href="../kick-predictors.html">キック予測</a></li>
   </ul>
 </nav>
 
 <main class="container">
-  <section aria-label="予測者一覧">
-    <h2>予測者を選ぶ</h2>
-    <p class="muted" style="font-size: 0.9em;">名前をクリックすると、その予測者の発言・予測・検証結果を一覧表示します。</p>
-    <div class="filter-wrap" aria-label="名前で検索">
-      <label for="predictor-search">名前で検索</label>
-      <input type="search" id="predictor-search" placeholder="例: 朝倉未来、魔裟斗" autocomplete="off">
-      <p id="filter-result-note" class="filter-result-note" aria-live="polite"></p>
+  <section class="spotlight-block" aria-label="直近の興行">
+    <h2 id="spotlight-section-title">直近の興行</h2>
+    <p id="spotlight-section-note" class="muted" style="font-size: 0.9em; margin: -4px 0 16px;"></p>
+    <div>
+      <h3>次回の注目イベント</h3>
+      <div id="spotlight-upcoming" class="muted">読み込み中…</div>
     </div>
-    <div id="predictor-list" class="predictor-list">
-      <p class="muted">読み込み中…</p>
+    <div style="margin-top: 20px;">
+      <h3>直近の終了イベント</h3>
+      <div id="spotlight-past" class="muted">読み込み中…</div>
     </div>
   </section>
 
-  <nav aria-label="ページ内導線" style="margin-top: 24px;">
-    <ul style="list-style: none; padding-left: 0;">
-      <li style="margin-bottom: 8px;"><a href="logs.html">格闘技ログ一覧へ</a></li>
-      <li><a href="./">格闘技ログトップへ戻る</a></li>
-    </ul>
-  </nav>
+  <section aria-label="予測者ランキング">
+    <h2>予測者ランキング</h2>
+    <p class="muted rank-note">
+      主予測（勝者方向）について、<code>prediction.exists = true</code> かつ勝者が確定しているもののうち、<strong>各試合の <code>discipline</code> が当ページの種目（MMA では <code>MMA</code>、キック・ムエタイでは <code>KICKBOXING</code>）と一致する対戦</strong>に限定して集計します。発言ログは <code>prediction.target</code> がカード上の対戦表記と一致する場合のみ含めます。<strong>上位20名</strong>まで表示します。
+      試行回数（表の「的中/母数」の<strong>母数</strong>）が少ないと的中率が偶然に振れやすいため、ランキングの対象は<strong>母数が5以上</strong>の予測者に限定しています。
+    </p>
+    <div id="predictor-ranking" class="muted">読み込み中…</div>
+
+    <div class="filter-wrap" style="margin-top: 28px;" aria-label="予測者検索">
+      <label for="predictor-search">予測者検索（名前で検索）</label>
+      <input type="search" id="predictor-search" placeholder="例: 朝倉未来、魔裟斗" autocomplete="off">
+      <p id="filter-result-note" class="filter-result-note" aria-live="polite"></p>
+    </div>
+    <div id="predictor-search-results" class="predictor-list" style="margin-top: 12px;" aria-live="polite"></div>
+
+    <div class="ranking-log-wrap">
+      <a id="predictors-footer-log" class="footer-action" href="logs.html">ログ一覧へ</a>
+    </div>
+  </section>
 </main>
+
+<footer class="site-footer site-footer--actions">
+  <nav class="footer-actions" aria-label="フッター導線">
+    <a class="footer-action" href="../index.html">トップへ戻る</a>
+  </nav>
+</footer>
+
+<script>
+(function () {
+  var params = new URLSearchParams(window.location.search);
+  var d = params.get("discipline");
+  var isKick = d && String(d).toUpperCase() === "KICKBOXING";
+  var headingText = isKick ? "キック・ムエタイ予測" : "MMA予測";
+  var heading = document.getElementById("page-heading");
+  if (heading) heading.textContent = headingText;
+  document.title = headingText + " | factcheck-platform";
+
+  var el = document.getElementById("predictors-footer-log");
+  if (!el) return;
+  if (isKick) {
+    el.href = "logs.html?discipline=KICKBOXING";
+    el.textContent = "キック・ムエタイ ログ一覧へ";
+  } else {
+    el.href = "logs.html";
+    el.textContent = "MMA ログ一覧へ";
+  }
+})();
+</script>
 
 <script>
 (function () {
   "use strict";
-  var CACHE = "20260318";
-  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+  var CACHE = "20260323f";
+  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH", "ONE", "UFC"];
   var EXCLUDED_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
+
+  var urlParams = new URLSearchParams(window.location.search);
+  var rawDiscipline = urlParams.get("discipline");
+  var DISCIPLINE_FILTER =
+    rawDiscipline && String(rawDiscipline).toUpperCase() === "KICKBOXING" ? "KICKBOXING" : "MMA";
+  var spotlightLabel = DISCIPLINE_FILTER === "KICKBOXING" ? "キック・ムエタイ" : "MMA";
+  var spotlightNoteEl = document.getElementById("spotlight-section-note");
+  var titleEl = document.getElementById("spotlight-section-title");
+  if (spotlightNoteEl) {
+    spotlightNoteEl.textContent =
+      spotlightLabel +
+      "の興行（index.json の団体・種目）から、未開催で最も近い1件と、終了直近の2件を表示しています。";
+  }
+  if (titleEl) titleEl.textContent = spotlightLabel + " — 直近の興行";
 
   function fetchIndex() {
     return fetch("../data/index.json?v=" + CACHE).then(function (res) {
@@ -82,7 +224,13 @@
       if (!item || typeof item !== "object") return null;
       var file = (item.file != null) ? String(item.file).trim() : "";
       if (!file || file.indexOf("..") !== -1 || !file.toLowerCase().endsWith(".json")) return null;
-      return { title: item.title != null ? String(item.title) : "", date: item.date != null ? String(item.date) : "", organization: item.organization != null ? String(item.organization) : "", file: file };
+      return {
+        title: item.title != null ? String(item.title) : "",
+        date: item.date != null ? String(item.date) : "",
+        organization: item.organization != null ? String(item.organization) : "",
+        disciplines: Array.isArray(item.disciplines) ? item.disciplines : [],
+        file: file
+      };
     }).filter(Boolean);
   }
   function filterMartialArts(events) {
@@ -90,7 +238,147 @@
     MARTIAL_ARTS_ORGANIZATIONS.forEach(function (o) { set[o] = true; });
     return events.filter(function (e) { return set[e.organization]; });
   }
-  function extractPredictorNames(evData) {
+  function filterByDiscipline(events) {
+    return events.filter(function (e) {
+      return e.disciplines.indexOf(DISCIPLINE_FILTER) !== -1;
+    });
+  }
+  function sortByDateNewestFirst(events) {
+    return events.slice().sort(function (a, b) {
+      var tA = a.date ? new Date(a.date).getTime() : 0;
+      var tB = b.date ? new Date(b.date).getTime() : 0;
+      return tB - tA;
+    });
+  }
+  function pickUpcomingOne(events, today) {
+    var best = null;
+    events.forEach(function (ev) {
+      var raw = ev.date ? new Date(ev.date) : null;
+      if (!raw || isNaN(raw.getTime())) return;
+      var d = new Date(raw);
+      d.setHours(0, 0, 0, 0);
+      if (d.getTime() < today.getTime()) return;
+      if (!best) {
+        best = ev;
+        return;
+      }
+      var bd = new Date(best.date);
+      bd.setHours(0, 0, 0, 0);
+      if (d.getTime() < bd.getTime()) best = ev;
+    });
+    return best;
+  }
+  function pickPastTwo(sortedNewestFirst, today) {
+    var out = [];
+    for (var i = 0; i < sortedNewestFirst.length && out.length < 2; i++) {
+      var ev = sortedNewestFirst[i];
+      var raw = ev.date ? new Date(ev.date) : null;
+      if (!raw || isNaN(raw.getTime())) continue;
+      var d = new Date(raw);
+      d.setHours(0, 0, 0, 0);
+      if (d.getTime() < today.getTime()) out.push(ev);
+    }
+    return out;
+  }
+  function renderSpotlightCard(ev) {
+    var div = document.createElement("div");
+    div.className = "spotlight-item";
+    var t = document.createElement("p");
+    t.className = "spotlight-title";
+    var strong = document.createElement("strong");
+    strong.textContent = ev.title || "（無題）";
+    t.appendChild(strong);
+    var meta = document.createElement("p");
+    meta.className = "spotlight-meta";
+    meta.textContent = (ev.organization ? ev.organization + " / " : "") + (ev.date || "日付不明");
+    var linkP = document.createElement("p");
+    linkP.className = "spotlight-link";
+    linkP.style.margin = "0";
+    var a = document.createElement("a");
+    a.href = "../event.html?file=" + encodeURIComponent(ev.file) + "&v=" + CACHE;
+    a.textContent = "イベント詳細へ";
+    linkP.appendChild(a);
+    div.appendChild(t);
+    div.appendChild(meta);
+    div.appendChild(linkP);
+    return div;
+  }
+  function renderSpotlights(upcoming, pastArr) {
+    var upEl = document.getElementById("spotlight-upcoming");
+    var pastEl = document.getElementById("spotlight-past");
+    if (upEl) {
+      upEl.innerHTML = "";
+      upEl.className = "";
+      if (!upcoming) {
+        upEl.textContent = "該当する未開催の興行がありません。";
+        upEl.className = "muted";
+      } else {
+        upEl.appendChild(renderSpotlightCard(upcoming));
+      }
+    }
+    if (pastEl) {
+      pastEl.innerHTML = "";
+      pastEl.className = "";
+      if (!pastArr || pastArr.length === 0) {
+        pastEl.textContent = "該当する終了済みの興行がありません。";
+        pastEl.className = "muted";
+      } else {
+        pastArr.forEach(function (ev) {
+          pastEl.appendChild(renderSpotlightCard(ev));
+        });
+      }
+    }
+  }
+  function normalizeDisciplineToken(d) {
+    return String(d == null ? "" : d).trim().toUpperCase();
+  }
+  function normalizeMatchupKey(s) {
+    return String(s || "")
+      .replace(/\u3000/g, " ")
+      .trim()
+      .replace(/\s+/g, " ")
+      .toLowerCase()
+      .replace(/[ｖv][ｓs]/gi, "vs");
+  }
+  function buildTargetDisciplineMap(evData) {
+    var map = {};
+    if (!evData || !Array.isArray(evData.cards)) return map;
+    evData.cards.forEach(function (card) {
+      var bouts = (card && Array.isArray(card.bouts)) ? card.bouts : [];
+      bouts.forEach(function (b) {
+        var red = b && b.red != null ? String(b.red).trim() : "";
+        var blue = b && b.blue != null ? String(b.blue).trim() : "";
+        if (!red || !blue) return;
+        var disc = normalizeDisciplineToken(b.discipline);
+        var k1 = normalizeMatchupKey(red + " vs " + blue);
+        var k2 = normalizeMatchupKey(blue + " vs " + red);
+        if (k1) map[k1] = disc;
+        if (k2) map[k2] = disc;
+      });
+    });
+    return map;
+  }
+  function boutMatchesDisciplineFilter(b, disciplineFilter) {
+    return normalizeDisciplineToken(b && b.discipline) === normalizeDisciplineToken(disciplineFilter);
+  }
+  function statementMatchesDisciplineFilter(stmt, disciplineFilter, targetMap) {
+    var pred = stmt && stmt.prediction;
+    if (!pred || pred.target == null || String(pred.target).trim() === "") return false;
+    var boutDisc = targetMap[normalizeMatchupKey(pred.target)];
+    if (!boutDisc) return false;
+    return normalizeDisciplineToken(boutDisc) === normalizeDisciplineToken(disciplineFilter);
+  }
+  function resolvePredictorLabel(pred, stmt) {
+    var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+    var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
+    if (pn && !EXCLUDED_PREDICTOR_NAMES[pn]) return pn;
+    if (sn && !EXCLUDED_PREDICTOR_NAMES[sn]) return sn;
+    if (pn) return pn;
+    if (sn) return sn;
+    return "";
+  }
+
+  function extractPredictorNames(evData, disciplineFilter) {
     var names = [];
     function add(s) {
       if (!s) return;
@@ -100,77 +388,240 @@
       names.push(name);
     }
     if (!evData) return names;
+    var targetMap = buildTargetDisciplineMap(evData);
     if (Array.isArray(evData.statements)) {
       evData.statements.forEach(function (s) {
         var pred = s && s.prediction;
-        if (pred && pred.predictor_name) add(pred.predictor_name);
+        if (!pred || !pred.exists) return;
+        if (!statementMatchesDisciplineFilter(s, disciplineFilter, targetMap)) return;
+        var label = resolvePredictorLabel(pred, s);
+        if (label) add(label);
       });
     }
     if (Array.isArray(evData.cards)) {
       evData.cards.forEach(function (card) {
         (card && card.bouts || []).forEach(function (b) {
           var pred = b && b.prediction;
-          if (pred && pred.predictor_name) add(pred.predictor_name);
+          if (!pred || !pred.exists) return;
+          if (!boutMatchesDisciplineFilter(b, disciplineFilter)) return;
+          if (pred.predictor_name) add(pred.predictor_name);
         });
       });
     }
     return names;
   }
 
-  var container = document.getElementById("predictor-list");
+  var EXCLUDED_RANK_PREDICTOR_NAMES = EXCLUDED_PREDICTOR_NAMES;
+
+  function normalizeText(s) {
+    return String(s || "").trim().toLowerCase();
+  }
+
+  function addCount(map, name, hit) {
+    var key = name || "不明";
+    if (!map[key]) map[key] = { name: key, hit: 0, total: 0 };
+    map[key].total += 1;
+    if (hit) map[key].hit += 1;
+  }
+
+  function resolvePredictorNameForRanking(pred, stmt) {
+    var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+    var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
+    if (pn && !EXCLUDED_RANK_PREDICTOR_NAMES[pn]) return pn;
+    if (sn && !EXCLUDED_RANK_PREDICTOR_NAMES[sn]) return sn;
+    if (pn) return pn;
+    if (sn) return sn;
+    return "";
+  }
+
+  function resolvePredictorNameForBoutRanking(pred) {
+    return pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+  }
+
+  function collectFromEventJson(evData, counts, disciplineFilter) {
+    if (!evData) return;
+    var targetMap = buildTargetDisciplineMap(evData);
+    if (Array.isArray(evData.cards)) {
+      evData.cards.forEach(function (card) {
+        var bouts = (card && Array.isArray(card.bouts)) ? card.bouts : [];
+        bouts.forEach(function (b) {
+          if (!boutMatchesDisciplineFilter(b, disciplineFilter)) return;
+          var pred = b && b.prediction ? b.prediction : null;
+          var out = b && b.outcome ? b.outcome : null;
+          if (!pred || !pred.exists) return;
+          if (!pred.expected_winner) return;
+          if (!out || !out.winner) return;
+          var predictor = resolvePredictorNameForBoutRanking(pred);
+          if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
+          addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(out.winner));
+        });
+      });
+    }
+    if (Array.isArray(evData.statements)) {
+      evData.statements.forEach(function (stmt) {
+        if (!statementMatchesDisciplineFilter(stmt, disciplineFilter, targetMap)) return;
+        var pred = stmt && stmt.prediction ? stmt.prediction : null;
+        var ver = stmt && stmt.verification ? stmt.verification : null;
+        if (!pred || !pred.exists) return;
+        if (!pred.expected_winner) return;
+        if (!ver || !ver.winner) return;
+        var predictor = resolvePredictorNameForRanking(pred, stmt);
+        if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
+        addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(ver.winner));
+      });
+    }
+  }
+
+  /** ランキング掲載の最低試行回数（母数）。未満は的中率の偶然振れを抑えるため対象外 */
+  var RANKING_MIN_TRIALS = 5;
+
+  function renderRankingTable(countsMap, el) {
+    if (!el) return;
+    var rows = Object.keys(countsMap).map(function (k) { return countsMap[k]; });
+    rows = rows.filter(function (r) { return r.total >= RANKING_MIN_TRIALS; });
+    rows.sort(function (a, b) {
+      var ra = a.total ? (a.hit / a.total) : 0;
+      var rb = b.total ? (b.hit / b.total) : 0;
+      if (rb !== ra) return rb - ra;
+      if (b.total !== a.total) return b.total - a.total;
+      return String(a.name).localeCompare(String(b.name), "ja");
+    });
+    rows = rows.slice(0, 20);
+    el.innerHTML = "";
+    if (!rows.length) {
+      el.className = "muted";
+      el.innerHTML =
+        "的中率ランキングを表示するデータがありません。" +
+        "（勝者確定済みの予測がまだないか、<strong>母数が" +
+        RANKING_MIN_TRIALS +
+        "以上</strong>の予測者がいません。）";
+      return;
+    }
+    el.className = "";
+    var table = document.createElement("table");
+    table.className = "rank-table";
+    var thead = document.createElement("thead");
+    var hr = document.createElement("tr");
+    ["順位", "予測者", "的中率", "的中/母数"].forEach(function (label) {
+      var th = document.createElement("th");
+      th.textContent = label;
+      hr.appendChild(th);
+    });
+    thead.appendChild(hr);
+    table.appendChild(thead);
+    var tbody = document.createElement("tbody");
+    rows.forEach(function (r, idx) {
+      var tr = document.createElement("tr");
+      var rankTd = document.createElement("td");
+      rankTd.textContent = String(idx + 1);
+      var nameTd = document.createElement("td");
+      var a = document.createElement("a");
+      a.href = "predictor.html?name=" + encodeURIComponent(r.name);
+      a.textContent = r.name;
+      nameTd.appendChild(a);
+      var rate = r.total ? Math.round((r.hit / r.total) * 1000) / 10 : 0;
+      var rateTd = document.createElement("td");
+      rateTd.textContent = rate.toFixed(1) + "%";
+      var fracTd = document.createElement("td");
+      fracTd.textContent = r.hit + "/" + r.total;
+      tr.appendChild(rankTd);
+      tr.appendChild(nameTd);
+      tr.appendChild(rateTd);
+      tr.appendChild(fracTd);
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    el.appendChild(table);
+  }
+
+  var rankingEl = document.getElementById("predictor-ranking");
   var searchEl = document.getElementById("predictor-search");
   var noteEl = document.getElementById("filter-result-note");
+  var searchResultsEl = document.getElementById("predictor-search-results");
   var allNames = [];
   var countsByName = {};
+  var rankCounts = {};
 
-  function renderList(names) {
-    container.innerHTML = "";
-    if (names.length === 0) {
-      container.appendChild(document.createTextNode("該当する予測者がいません。"));
-      return;
-    }
-    names.forEach(function (name) {
-      var a = document.createElement("a");
-      a.href = "predictor.html?name=" + encodeURIComponent(name);
-      var c = countsByName && countsByName[name] ? countsByName[name] : 0;
-      a.textContent = c > 0 ? (name + "（" + c + "）") : name;
-      container.appendChild(a);
-    });
-  }
-  function updateFilterNote(visibleCount, totalCount) {
-    if (!noteEl) return;
-    if (totalCount === 0) {
-      noteEl.textContent = "";
-      return;
-    }
-    if (visibleCount === totalCount) {
-      noteEl.textContent = totalCount + "件";
-    } else {
-      noteEl.textContent = visibleCount + "件 / 全" + totalCount + "件";
-    }
-  }
-  function applyFilter() {
+  function applySearch() {
     var q = (searchEl && searchEl.value) ? String(searchEl.value).trim() : "";
+    if (!searchResultsEl) return;
+    searchResultsEl.innerHTML = "";
+    if (!q) {
+      var hint = document.createElement("p");
+      hint.className = "muted filter-result-note";
+      hint.style.marginTop = "0";
+      hint.textContent = "名前の一部を入力すると、該当する予測者名が表示されます（クリックで詳細）。";
+      searchResultsEl.appendChild(hint);
+      if (noteEl) noteEl.textContent = "";
+      return;
+    }
     var qLower = q.toLowerCase();
-    var filtered = q === "" ? allNames : allNames.filter(function (name) {
+    var filtered = allNames.filter(function (name) {
       return name.toLowerCase().indexOf(qLower) !== -1;
     });
-    renderList(filtered);
-    updateFilterNote(filtered.length, allNames.length);
+    if (filtered.length === 0) {
+      searchResultsEl.appendChild(document.createTextNode("該当する予測者がいません。"));
+    } else {
+      filtered.forEach(function (name) {
+        var link = document.createElement("a");
+        link.href = "predictor.html?name=" + encodeURIComponent(name);
+        var c = countsByName[name] || 0;
+        link.textContent = c > 0 ? name + "（" + c + "）" : name;
+        searchResultsEl.appendChild(link);
+      });
+    }
+    if (noteEl) {
+      noteEl.textContent = allNames.length
+        ? filtered.length + "件 / 検索対象 " + allNames.length + "名"
+        : filtered.length + "件";
+    }
   }
 
   if (searchEl) {
-    searchEl.addEventListener("input", applyFilter);
-    searchEl.addEventListener("change", applyFilter);
+    searchEl.addEventListener("input", applySearch);
+    searchEl.addEventListener("change", applySearch);
+  }
+
+  // 同時フェッチ数を limit 件に制限してリクエスト集中を避ける
+  function fetchAllWithLimit(items, fetchFn, limit) {
+    return new Promise(function (resolve) {
+      var results = new Array(items.length);
+      var running = 0;
+      var nextIdx = 0;
+      function runNext() {
+        if (nextIdx >= items.length && running === 0) { resolve(results); return; }
+        while (running < limit && nextIdx < items.length) {
+          (function (i) {
+            running++;
+            fetchFn(items[i])
+              .then(function (r) { results[i] = r; running--; runNext(); })
+              .catch(function () { results[i] = null; running--; runNext(); });
+          })(nextIdx++);
+        }
+      }
+      runNext();
+    });
   }
 
   fetchIndex()
     .then(function (raw) {
       var all = normalizeIndex(raw);
-      var events = filterMartialArts(all);
-      return Promise.all(events.map(function (ev) {
-        return fetchEventFile(ev.file).then(function (evData) { return extractPredictorNames(evData || {}); }).catch(function () { return []; });
-      })).then(function (nameArrays) {
+      var today = new Date();
+      today.setHours(0, 0, 0, 0);
+      var forSpotlight = sortByDateNewestFirst(filterByDiscipline(filterMartialArts(all)));
+      var upcoming = pickUpcomingOne(forSpotlight, today);
+      var pastTwo = pickPastTwo(forSpotlight, today);
+      renderSpotlights(upcoming, pastTwo);
+
+      var eventsDiscipline = filterByDiscipline(filterMartialArts(all));
+      rankCounts = {};
+      return fetchAllWithLimit(eventsDiscipline, function (ev) {
+        return fetchEventFile(ev.file).then(function (evData) {
+          collectFromEventJson(evData, rankCounts, DISCIPLINE_FILTER);
+          return extractPredictorNames(evData || {}, DISCIPLINE_FILTER);
+        }).catch(function () { return []; });
+      }, 4).then(function (nameArrays) {
+        renderRankingTable(rankCounts, rankingEl);
         var set = {};
         var counts = {};
         nameArrays.forEach(function (arr) {
@@ -182,16 +633,33 @@
         });
         countsByName = counts;
         allNames = Object.keys(set).filter(function (n) { return n; }).sort(function (a, b) { return String(a).localeCompare(String(b), "ja"); });
-        applyFilter();
+        applySearch();
       });
     })
     .catch(function (err) {
-      container.innerHTML = "";
-      var p = document.createElement("p");
-      p.className = "error";
-      p.style.color = "#c00";
-      p.textContent = "読み込みに失敗しました: " + (err && err.message ? err.message : String(err));
-      container.appendChild(p);
+      var msg = "読み込みに失敗しました: " + (err && err.message ? err.message : String(err));
+      var upEl = document.getElementById("spotlight-upcoming");
+      var pastEl = document.getElementById("spotlight-past");
+      if (upEl) {
+        upEl.textContent = msg;
+        upEl.className = "muted";
+      }
+      if (pastEl) {
+        pastEl.textContent = msg;
+        pastEl.className = "muted";
+      }
+      var rankEl = document.getElementById("predictor-ranking");
+      if (rankEl) {
+        rankEl.textContent = msg;
+        rankEl.className = "muted";
+      }
+      if (searchResultsEl) {
+        searchResultsEl.innerHTML = "";
+        var pe = document.createElement("p");
+        pe.className = "muted";
+        pe.textContent = msg;
+        searchResultsEl.appendChild(pe);
+      }
     });
 })();
 </script>

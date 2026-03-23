@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>検証用データ・リポジトリ | factcheck-platform</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans JP", sans-serif; margin: 24px; line-height: 1.6; max-width: 720px; }
+    .muted { color: #666; }
+    .box { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 16px 0; }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 18px; }
+    code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
+    .small { font-size: 12px; }
+  </style>
+</head>
+<body>
+  <p class="muted small"><a href="./index.html">← トップへ戻る</a></p>
+  <h1>検証用データ・リポジトリ</h1>
+  <p class="muted">
+    生のJSON・GitHub は、一般の閲覧より<strong>機械処理・一次データの確認・変更履歴の追跡</strong>向けです。通常はトップの「イベント詳細」や各ログ・予測ページからお読みください。
+  </p>
+  <p class="muted small">
+    データの再利用・クレジット・免責については <a href="./policy.html">ポリシー・利用条件</a> を参照してください。
+  </p>
+
+  <div class="box">
+    <h2>機械可読インデックス</h2>
+    <ul>
+      <li><a href="./data/index.json?v=20260321">data/index.json</a>（全イベント一覧のマニフェスト）</li>
+    </ul>
+    <p class="muted small">GitHub Pages ではキャッシュが残ることがあるため、更新直後は URL に <code>?v=日付</code> などを付与すると確実です。</p>
+  </div>
+
+  <div class="box">
+    <h2>興行ごとのイベント JSON</h2>
+    <p>各ファイルは <code>data/events/&lt;ファイル名&gt;.json</code> にあります。インデックスの <code>file</code> フィールドと対応します。</p>
+    <ul>
+      <li>例: <a href="./data/events/the-match-2022.json?v=20260321">the-match-2022.json</a>（実在ファイルに置き換えて利用）</li>
+    </ul>
+    <p>画面上で試合カード・発言ログを読む場合は <a href="./event.html">event.html</a>（<code>?file=…</code>）を利用してください。</p>
+  </div>
+
+  <div class="box">
+    <h2>ソースコード・変更履歴</h2>
+    <ul>
+      <li><a href="https://github.com/oyabiccha04/factcheck-platform">GitHub リポジトリ</a>（commit 履歴・Issue 等）</li>
+    </ul>
+  </div>
+
+  <p class="muted small">プロダクトの前提・運用ルールはリポジトリの <a href="https://github.com/oyabiccha04/factcheck-platform/blob/main/PROJECT_CHARTER.md">PROJECT_CHARTER.md</a> を参照してください。</p>
+</body>
+</html>

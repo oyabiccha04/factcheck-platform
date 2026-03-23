@@ -1,0 +1,281 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "ufc-310",
+    "event_name": "UFC 310: Pantoja vs. Asakura",
+    "organization": "UFC",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2024-12-07",
+    "venue": "T-Mobile Arena",
+    "country": "USA",
+    "timezone": "America/Los_Angeles",
+    "attendance": null,
+    "note": "UFC 310。メインイベント・UFCフライ級タイトルマッチ。朝倉海が日本人初のUFC王座獲得を目指したが、王者パントージャに2R失神一本負け。担架で運ばれる事態に。元RIZINバンタム級王者のUFCデビュー戦。"
+  },
+  "cards": [
+    {
+      "card_name": "Main Card",
+      "bouts": [
+        {
+          "bout_id": "ufc-310-001",
+          "bout_order": 6,
+          "division": "フライ級",
+          "rules": "UFC MMAルール 5R×5分（タイトルマッチ）",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "アレシャンドレ・パントージャ",
+            "nickname": "Bebezão",
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "朝倉海",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "JAPAN TOP TEAM"
+          },
+          "outcome": {
+            "winner": "アレシャンドレ・パントージャ",
+            "method": "Submission",
+            "method_detail": "リアネイキッドチョーク（タップなし・失神）",
+            "round": 2,
+            "time": "2:05",
+            "result_note": "朝倉海がUFCデビュー戦で王座挑戦。2Rにバックを取られリアネイキッドチョークでタップせず失神。担架退場。日本人初の王座獲得ならず。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-ufc-310-j001",
+      "statement_date": "2024-12-06",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "格闘家・元ONE世界ライト級王者"
+      },
+      "content": {
+        "raw_text": "まず、朝倉が57キロの体重で試合をするのは久しぶりというのが一つ。そして、ルールが違うこと。相手は一応、チャンピオンであること。勝つ材料が見えない。すぐにぶっ倒すしかない。時間が進めば進むほど不利になる。早いラウンドで仕留めるしか活路はない",
+        "normalized_text": "フライ級体重での試合が久しぶりである点、UFCルール（ラウンドマスト5R）への不慣れ、王者相手という条件が重なり「朝倉が勝つ材料が見えない」と断言。唯一の可能性は早いラウンドでのKOフィニッシュのみで、試合が進めば進むほどパントージャが有利と分析。事実上パントージャの勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.tokyo-sports.co.jp/articles/-/320488",
+        "timestamp": "2024-12-06前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://www.tokyo-sports.co.jp/articles/-/320488",
+        "source_ref": "stmt-ufc-310-j001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。東京スポーツ、UFC 310直前記事。青木真也がUFC310メインイベントを分析。元ONE世界ライト級王者、UFC参戦経験もある格闘技の知見者。",
+        "expected_winner": "アレシャンドレ・パントージャ",
+        "expected_method": null,
+        "target": "アレシャンドレ・パントージャ vs 朝倉海",
+        "expected_outcome": "パントージャが勝利（朝倉に勝つ材料が見えない。早期KO以外は困難）",
+        "deadline": "2024-12-07"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-12-08",
+        "winner": "アレシャンドレ・パントージャ",
+        "method": "Submission",
+        "actual_outcome": "パントージャが2R2分5秒リアネイキッドチョークで一本勝ち。青木が懸念した「ラウンドマストでポイントメークされる」展開になる前にパントージャがフィニッシュ。",
+        "notes": "予想的中。青木の「勝つ材料が見えない」分析は正確だった。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-310-j002",
+      "statement_date": "2024-12-07",
+      "speaker": {
+        "name": "Daniel Yanofsky",
+        "role": "analyst",
+        "affiliation": "Sporting News（格闘技ライター）"
+      },
+      "content": {
+        "raw_text": "すべてのサインはパントージャの勝利を示している。朝倉を選ぶのも面白いかもしれないが、賢い選択はパーフェクトファイターであるパントージャだ。",
+        "normalized_text": "オッズ、フライ級戦績の薄さ、ケージ慣れ、UFCルール適応のすべてがパントージャ有利を示すと分析。朝倉の打撃力・リーチ優位を認めつつも、判定でパントージャの勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sportingnews.com/jp/mma/news/ufc-310-predictions-tsn-usa-pantoja-vs-asakura-jpn/a6bbe5b1f228d3663d1f3137",
+        "timestamp": "2024-12-07"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Daniel Yanofsky",
+        "source_url": "https://www.sportingnews.com/jp/mma/news/ufc-310-predictions-tsn-usa-pantoja-vs-asakura-jpn/a6bbe5b1f228d3663d1f3137",
+        "source_ref": "stmt-ufc-310-j002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Sporting News日本版、UFC 310当日公開。Daniel YanofskyはFightful・FIGHT SPORTSなど複数メディア経験の格闘技ライター。",
+        "expected_winner": "アレシャンドレ・パントージャ",
+        "expected_method": "Decision",
+        "target": "アレシャンドレ・パントージャ vs 朝倉海",
+        "expected_outcome": "パントージャが判定勝ち",
+        "deadline": "2024-12-07"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-12-08",
+        "winner": "アレシャンドレ・パントージャ",
+        "method": "Submission",
+        "actual_outcome": "パントージャが2R一本勝ち（判定予想よりも早いフィニッシュ）。",
+        "notes": "勝者予想は的中。方法（判定→一本）は外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-310-001",
+      "statement_date": "2024-12-07",
+      "speaker": {
+        "name": "Brian Campbell",
+        "role": "analyst",
+        "affiliation": "CBS Sports（格闘技ライター）"
+      },
+      "content": {
+        "raw_text": "Asakura is battle-tested and dangerous, which makes him one heck of a live underdog entering Saturday.",
+        "normalized_text": "朝倉海は実戦経験豊富で危険な選手であり、非常に有力なアンダードッグとして会場に臨むと評価。パントージャは年齢や僅差の判定続きで王座が脅かされる時期にあり、朝倉がアップセットを起こす可能性を指摘して朝倉海の勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "timestamp": "2024-12-07"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Brian Campbell",
+        "source_url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "source_ref": "stmt-ufc-310-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。CBS Sports、UFC 310当日公開の専門家予想記事。Brian Campbellは同社格闘技担当ライター。",
+        "expected_winner": "朝倉海",
+        "expected_method": null,
+        "target": "アレシャンドレ・パントージャ vs 朝倉海",
+        "expected_outcome": "朝倉海がアップセット勝利",
+        "deadline": "2024-12-07"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-12-08",
+        "winner": "アレシャンドレ・パントージャ",
+        "method": "Submission",
+        "actual_outcome": "パントージャが2R2分5秒リアネイキッドチョークで一本勝ち（朝倉は失神）。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-310-002",
+      "statement_date": "2024-12-07",
+      "speaker": {
+        "name": "Brandon Wise",
+        "role": "analyst",
+        "affiliation": "CBS Sports（シニアエディター）"
+      },
+      "content": {
+        "raw_text": "facing a fighter moving back down in weight who is known to be a dangerous striker just feels like the right time for an upset",
+        "normalized_text": "パントージャは近年ギリギリの判定が続いており、階級を下げてくる危険なストライカーとの対戦は波乱のタイミングに感じると分析。朝倉海のアップセット勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "timestamp": "2024-12-07"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Brandon Wise",
+        "source_url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "source_ref": "stmt-ufc-310-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。CBS Sports、UFC 310当日公開の専門家予想記事。Brandon WiseはCBS Sportsシニアエディター。",
+        "expected_winner": "朝倉海",
+        "expected_method": null,
+        "target": "アレシャンドレ・パントージャ vs 朝倉海",
+        "expected_outcome": "朝倉海がアップセット勝利",
+        "deadline": "2024-12-07"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-12-08",
+        "winner": "アレシャンドレ・パントージャ",
+        "method": "Submission",
+        "actual_outcome": "パントージャが2R2分5秒リアネイキッドチョークで一本勝ち。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-310-003",
+      "statement_date": "2024-12-07",
+      "speaker": {
+        "name": "Brent Brookhouse",
+        "role": "analyst",
+        "affiliation": "CBS Sports（格闘技ライター）"
+      },
+      "content": {
+        "raw_text": "I can't get past the idea of Asakura, a big bantamweight, cutting back to flyweight and not impacting him. The cage, the cut and the styles at play are all working against Asakura.",
+        "normalized_text": "朝倉がバンタム級から階級を下げることの影響、ケージ慣れの問題、スタイル的な相性（朝倉の打撃の穴をパントージャのカウンターが突く）が全てアサクラに不利と分析。パントージャの勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "timestamp": "2024-12-07"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Brent Brookhouse",
+        "source_url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "source_ref": "stmt-ufc-310-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。CBS Sports、UFC 310当日公開の専門家予想記事。Brent BrookhouseはCBS Sports格闘技ライター。",
+        "expected_winner": "アレシャンドレ・パントージャ",
+        "expected_method": null,
+        "target": "アレシャンドレ・パントージャ vs 朝倉海",
+        "expected_outcome": "パントージャが勝利",
+        "deadline": "2024-12-07"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-12-08",
+        "winner": "アレシャンドレ・パントージャ",
+        "method": "Submission",
+        "actual_outcome": "パントージャが2R2分5秒リアネイキッドチョークで一本勝ち。",
+        "notes": "予想的中。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-310-004",
+      "statement_date": "2024-12-07",
+      "speaker": {
+        "name": "Shakiel Mahjouri",
+        "role": "analyst",
+        "affiliation": "CBS Sports（格闘技ライター）"
+      },
+      "content": {
+        "raw_text": "Pantoja can make this look easy if he takes his time, keeps his chin tucked and chains takedowns. I wouldn't be surprised if Pantoja wears down the UFC debutant before finding a stoppage in Round 3 or 4.",
+        "normalized_text": "パントージャは下顎を引いてテイクダウンを繋ぎ、UFCデビューの朝倉を消耗させ3〜4Rにフィニッシュすると予想。朝倉のKO力は認めるが、誰もパントージャのアゴを割れておらず5Rスタミナで圧倒的優位と分析。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "timestamp": "2024-12-07"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Shakiel Mahjouri",
+        "source_url": "https://www.cbssports.com/mma/news/ufc-310-predictions-alexandre-pantoja-vs-kai-asakura-fight-card-odds-expert-picks-preview-prelims/",
+        "source_ref": "stmt-ufc-310-004",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。CBS Sports、UFC 310当日公開の専門家予想記事。Shakiel MahjouriはCBS Sports格闘技ライター。",
+        "expected_winner": "アレシャンドレ・パントージャ",
+        "expected_method": "TKO/Submission",
+        "target": "アレシャンドレ・パントージャ vs 朝倉海",
+        "expected_outcome": "パントージャが3〜4Rにフィニッシュ勝ち",
+        "deadline": "2024-12-07"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-12-08",
+        "winner": "アレシャンドレ・パントージャ",
+        "method": "Submission",
+        "actual_outcome": "パントージャが2R2分5秒リアネイキッドチョークで一本勝ち（予想よりも早いフィニッシュ）。",
+        "notes": "勝者予想は的中。フィニッシュラウンドの予想（3〜4R）よりも早かった（2R）。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "ufc-319",
+    "event_name": "UFC 319: Chimaev vs. du Plessis",
+    "organization": "UFC",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2025-08-16",
+    "venue": "United Center",
+    "country": "USA",
+    "timezone": "America/Chicago",
+    "attendance": null,
+    "note": "UFC 319。メインイベントはハムザット・チマエフ vs ドリカス・デュ・プレシス（ミドル級タイトル）。朝倉海がフライ級マッチでティム・エリオットと対戦し2R一本負け。UFC2連敗となった。"
+  },
+  "cards": [
+    {
+      "card_name": "Main Card",
+      "bouts": [
+        {
+          "bout_id": "ufc-319-001",
+          "bout_order": 3,
+          "division": "フライ級",
+          "rules": "UFC MMAルール 3R×5分",
+          "weight_kg": 56.7,
+          "discipline": "MMA",
+          "red": {
+            "name": "ティム・エリオット",
+            "nickname": "Timmy Snacks",
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "朝倉海",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "JAPAN TOP TEAM"
+          },
+          "outcome": {
+            "winner": "ティム・エリオット",
+            "method": "Submission",
+            "method_detail": "ギロチンチョーク（ノーアームギロチン）",
+            "round": 2,
+            "time": "4:39",
+            "result_note": "1Rは朝倉優勢（打撃）。2Rのスクランブルでエリオットがギロチンをキャッチし仕留めた。朝倉のUFC2連敗。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-ufc-319-j001",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "朝倉未来",
+        "role": "fighter",
+        "affiliation": "RIZIN格闘家・朝倉海の兄"
+      },
+      "content": {
+        "raw_text": "俺的にも結構分析していて。全然いけるんじゃないかな",
+        "normalized_text": "弟・朝倉海を自ら分析した上で勝利を予想。エリオットに対して「全然いける」と強気の見解を示した。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "朝倉未来",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-j001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事、UFC319当日公開。YouTube動画での発言を収録。",
+        "expected_winner": "朝倉海",
+        "expected_method": null,
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海の勝利",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。朝倉のUFC2連敗。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-j002",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "格闘家・元ONE世界ライト級王者"
+      },
+      "content": {
+        "raw_text": "朝倉海のKO勝ち",
+        "normalized_text": "朝倉海のKO勝ちを予想。SPREAD「勝敗予想まとめ」にてYouTube動画発言として収録。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-j002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事、UFC319当日公開。YouTube動画での発言を収録。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海のKO勝ち",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。朝倉のUFC2連敗。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-j003",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "前田日明",
+        "role": "analyst",
+        "affiliation": "元格闘家・THE OUTSIDER主宰"
+      },
+      "content": {
+        "raw_text": "朝倉海の1RKO勝ち",
+        "normalized_text": "朝倉海が1ラウンドでKO決着すると予想。最も早期の決着を予想した識者の一人。SPREAD予想まとめにてYouTube動画発言として収録。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "前田日明",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-j003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事、UFC319当日公開。YouTube動画での発言を収録。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海の1RKO勝ち",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-j004",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "扇久保博正",
+        "role": "fighter",
+        "affiliation": "格闘家・元RIZINフライ級王者・エリオットとの対戦経験あり"
+      },
+      "content": {
+        "raw_text": "腹に効かせるような気がする",
+        "normalized_text": "エリオットと対戦経験のある扇久保が、朝倉海のKO勝利を予想。具体的に「腹に効かせる（ボディKO）」という決着をイメージしてコメント。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "扇久保博正",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-j004",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事、UFC319当日公開。エリオットとの対戦経験がある扇久保が発言。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海がボディへの打撃でKO勝ち",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-j005",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "川尻達也",
+        "role": "analyst",
+        "affiliation": "元UFCファイター・格闘技解説者"
+      },
+      "content": {
+        "raw_text": "朝倉海のKO勝利",
+        "normalized_text": "川尻達也が朝倉海のKO勝利を予想。UFC経験を持つ元ファイターとしての視点から朝倉の打撃力を評価。SPREAD予想まとめにてYouTube動画発言として収録。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "川尻達也",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-j005",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事、UFC319当日公開。YouTube動画での発言を収録。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海のKO勝利",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-j006",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "大沢ケンジ",
+        "role": "analyst",
+        "affiliation": "元格闘家・格闘技解説者・KRAZY BEE代表"
+      },
+      "content": {
+        "raw_text": "朝倉海の2RKO勝利",
+        "normalized_text": "朝倉海が2ラウンドにKOで決着すると予想。ラウンドを特定した具体的な予想。SPREAD予想まとめにてYouTube動画発言として収録。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "大沢ケンジ",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-j006",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事、UFC319当日公開。YouTube動画での発言を収録。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海の2RKO勝利",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-001",
+      "statement_date": "2025-08-16",
+      "speaker": {
+        "name": "ブランドン・ロイバル",
+        "role": "fighter",
+        "affiliation": "UFC フライ級3位・エリオットとの対戦経験あり（2020年一本勝ち）"
+      },
+      "content": {
+        "raw_text": "朝倉海がおそらく支配すると思う。朝倉海の試合は何度も見たけど、彼は危険な選手だよ。パントージャ以外の相手との試合は楽しみだ。パントージャはヤバいやつだからね",
+        "normalized_text": "エリオットとの対戦経験を持つUFC同級3位のロイバルが朝倉の勝利を予想。「朝倉が支配するだろう」と明言し、デビュー戦の相手パントージャを「別格」と評して今回の朝倉優位を強調。朝倉を「危険な選手」と高評価。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/353229",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "ブランドン・ロイバル",
+        "source_url": "https://spread-sports.jp/archives/353229",
+        "source_ref": "stmt-ufc-319-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD、UFC319当日公開のU-NEXT独占インタビュー記事。ロイバルはエリオットと2020年に対戦し肩固め一本勝ちしており、相手を熟知したコメント。",
+        "expected_winner": "朝倉海",
+        "expected_method": null,
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海が支配して勝利",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。なお試合後にエリオットは1Rで足を骨折していたことが判明。",
+        "notes": "予想外れ。エリオットとの対戦経験があるロイバルでさえ予想を外した大アップセット。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-002",
+      "statement_date": "2025-08-15",
+      "speaker": {
+        "name": "アレクサンダー・ボルガノフスキー",
+        "role": "fighter",
+        "affiliation": "UFC フェザー級王者（オーストラリア）"
+      },
+      "content": {
+        "raw_text": "アグレッシブで危険な選手だ。ハイライトなフィニッシュが見れるかもしれない",
+        "normalized_text": "UFC現フェザー級王者のボルガノフスキーが朝倉を「アグレッシブで危険な選手」と高評価し、朝倉有利との見解を示した。フィニッシュの可能性も言及。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/352654",
+        "timestamp": "2025-08-16"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "アレクサンダー・ボルガノフスキー",
+        "source_url": "https://spread-sports.jp/archives/352654",
+        "source_ref": "stmt-ufc-319-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD「朝倉海 vs. ティム・エリオット勝敗予想まとめ」記事にて収録。UFC現フェザー級王者による朝倉評価コメント。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO/TKO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海が有利。フィニッシュの可能性あり",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。",
+        "notes": "予想外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-319-003",
+      "statement_date": "2025-08-12",
+      "speaker": {
+        "name": "Andrew Richardson",
+        "role": "analyst",
+        "affiliation": "MMA Mania（ライター・Team Alpha Male所属ファイター）"
+      },
+      "content": {
+        "raw_text": "Barring an early finish (certainly possible), Elliott will get sloppy with time, and Asakura's knee will find another wrestler's liver when that happens. Prediction: Asakura via knockout",
+        "normalized_text": "年齢（38歳）と長期のブランクによりエリオットの動きが後半に鈍ると分析。朝倉の精度の高いカウンター打撃がエリオットを捉えてKO勝利すると予想。「バーニング・アーリー・フィニッシュは可能だが、時間が経てばエリオットは雑になる」と分析。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.mmamania.com/ufc-events-ppv/381729/kai-asakura-vs-tim-elliott-odds-full-fight-preview-and-prediction-ufc-319",
+        "timestamp": "2025-08-12"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "Andrew Richardson",
+        "source_url": "https://www.mmamania.com/ufc-events-ppv/381729/kai-asakura-vs-tim-elliott-odds-full-fight-preview-and-prediction-ufc-319",
+        "source_ref": "stmt-ufc-319-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Mania、UFC319の4日前公開のプレビュー記事。Andrew RichardsonはMMA ManiaライターかつTeam Alpha Maleに所属するプロファイター。",
+        "expected_winner": "朝倉海",
+        "expected_method": "KO",
+        "target": "朝倉海 vs ティム・エリオット",
+        "expected_outcome": "朝倉海がKO勝ち",
+        "deadline": "2025-08-16"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-08-17",
+        "winner": "ティム・エリオット",
+        "method": "Submission",
+        "actual_outcome": "エリオットが2R4分39秒ノーアームギロチンで一本勝ち。試合後に1Rで骨折しながら戦っていたことが判明。",
+        "notes": "予想外れ。14人の日本人格闘家＋英語圏メディア予想者全員が朝倉を予想したが、全員外れた大アップセット。"
+      }
+    }
+  ]
+}

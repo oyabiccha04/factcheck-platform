@@ -1,0 +1,345 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2025-09-14",
+    "event_meta":  {
+                       "event_name":  "IGアリーナ名古屋 世界ダブル世界戦 2025.09.14（井上尚弥 vs アフマダリエフ / 武居由樹 WBO防衛戦）",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2025-09-14",
+                       "timezone":  "JST",
+                       "country":  "日本",
+                       "venue":  "IGアリーナ（名古屋）",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2025-09-14-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "井上尚弥",
+                                        "blue":  "ムロジョン・アフマダリエフ",
+                                        "outcome":  {
+                                                        "winner":  "井上尚弥",
+                                                        "method":  "判定",
+                                                        "round":  12,
+                                                        "time":  null,
+                                                        "result_note":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で5度目の防衛。世界戦26連勝（世界タイ記録）"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    },
+                                    {
+                                        "bout_id":  "boxing-2025-09-14-02",
+                                        "rules":  "プロボクシング",
+                                        "red":  "武居由樹",
+                                        "blue":  "クリスチャン・メディナ",
+                                        "outcome":  {
+                                                        "winner":  "クリスチャン・メディナ",
+                                                        "method":  "TKO",
+                                                        "round":  4,
+                                                        "time":  "1:21",
+                                                        "result_note":  "クリスチャン・メディナが4回1分21秒TKO勝ちで王座奪取。武居は1回ダウン後に4回コーナーで連打を浴びストップ。プロ初黒星で11連勝ストップ"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-001",
+                           "statement_date":  "2025-08-24",
+                           "speaker":  {
+                                           "name":  "竹原慎二",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ミドル級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中盤以降に（井上の）KO勝ち",
+                                           "normalized_text":  "井上尚弥が中盤以降にKO勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000373000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "竹原慎二",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000373000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-001",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ記事によると「渡嘉敷勝男\u0026竹原慎二\u0026畑山隆則 ぶっちゃけチャンネル」（YouTube, 44.3万登録）での発言。Tier A（元WBA世界ミドル級王者）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ムロジョン・アフマダリエフ",
+                                              "expected_outcome":  "井上尚弥が中盤以降KO勝ち",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で勝利。KOなし。5度目の防衛成功。",
+                                                "notes":  "KO予想だが実際は判定。スコア: 117-111, 118-110, 118-110。",
+                                                "source_note":  "根拠URL: https://efight.jp/naoya-inoue_boxing-20250914_1646113"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-002",
+                           "statement_date":  "2025-08-24",
+                           "speaker":  {
+                                           "name":  "畑山隆則",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフェザー級・ライト級2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "10ラウンドくらい。無理しないで",
+                                           "normalized_text":  "井上尚弥が慎重に戦い10回頃にKO勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000373000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "畑山隆則",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000373000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-002",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ記事によると「ぶっちゃけチャンネル」（YouTube）での発言。Tier A（元世界2階級制覇王者）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ムロジョン・アフマダリエフ",
+                                              "expected_outcome":  "井上尚弥が10回KO勝ち",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で勝利。KOなし。",
+                                                "notes":  "KO予想だが実際は判定。スコア: 117-111, 118-110, 118-110。",
+                                                "source_note":  "根拠URL: https://efight.jp/naoya-inoue_boxing-20250914_1646113"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-003",
+                           "statement_date":  "2025-08-24",
+                           "speaker":  {
+                                           "name":  "小国以載",
+                                           "role":  "boxer",
+                                           "affiliation":  "元IBF世界スーパーバンタム級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "フルトン戦のように出入りすれば普通に井上くんが勝つと思います。判定勝ち",
+                                           "normalized_text":  "井上尚弥がフルトン戦同様の戦い方で判定勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000336000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "小国以載",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000336000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-003",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ記事によると細川バレンタイン「前向き教室」（YouTube, 26.4万登録）ゲスト出演での発言。Tier A（元IBF世界スーパーバンタム級王者）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "判定",
+                                              "target":  "井上尚弥 vs ムロジョン・アフマダリエフ",
+                                              "expected_outcome":  "井上尚弥が判定勝ち",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で勝利。予想通りの判定決着。",
+                                                "notes":  "判定勝ち予想が的中。スコア: 117-111, 118-110, 118-110。",
+                                                "source_note":  "根拠URL: https://efight.jp/naoya-inoue_boxing-20250914_1646113"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-004",
+                           "statement_date":  "2025-08-24",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "前向き教室（YouTube 26.4万登録）/ 第40代日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "単純な腕力はアフマダリエフの方が強いが回転スピードはない。早い回で井上のKO勝ち",
+                                           "normalized_text":  "井上尚弥が序盤〜中盤にKO勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000336000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/08/24/kiji/20250824s00021000336000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-004",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ記事より。自身のYouTubeチャンネル「前向き教室」（26.4万登録）での発言。Tier B（YouTuber 26.4万登録 + 元日本王者）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ムロジョン・アフマダリエフ",
+                                              "expected_outcome":  "井上尚弥が序盤〜中盤KO勝ち",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で勝利。KOなし。",
+                                                "notes":  "KO予想だが実際は判定。スコア: 117-111, 118-110, 118-110。",
+                                                "source_note":  "根拠URL: https://efight.jp/naoya-inoue_boxing-20250914_1646113"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-005",
+                           "statement_date":  "2025-09-07",
+                           "speaker":  {
+                                           "name":  "亀田大毅",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界フライ級・IBF世界スーパーフライ級王者 / KWORLD3会長"
+                                       },
+                           "content":  {
+                                           "raw_text":  "試合予想としては8：2で井上選手が勝つと思います。KO決着はないです。判定です。アフマダリエフ選手は技術もめちゃくちゃあるんで、あまりパンチをもらわないと思うんですよ",
+                                           "normalized_text":  "井上尚弥が判定勝ちすると予想（KOなし）。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sanspo.com/article/20250908-X2PE34FW4RE73B545IYUG5TMWQ/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "亀田大毅",
+                                              "source_url":  "https://www.sanspo.com/article/20250908-X2PE34FW4RE73B545IYUG5TMWQ/",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-005",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。サンスポ記事によると2025-09-07に自身のYouTubeチャンネルで発言。Tier A（元世界2階級制覇王者）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "判定",
+                                              "target":  "井上尚弥 vs ムロジョン・アフマダリエフ",
+                                              "expected_outcome":  "井上尚弥が判定勝ち（KOなし）",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で勝利。判定予想・KOなし予想ともに的中。",
+                                                "notes":  "判定勝ち予想が的中。KOなし予想も的中。スコア: 117-111, 118-110, 118-110。",
+                                                "source_note":  "根拠URL: https://efight.jp/naoya-inoue_boxing-20250914_1646113"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-006",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "椎野大輝",
+                                           "role":  "other",
+                                           "affiliation":  "ボクシング特化型パーソナルトレーナー / 元OPBF東洋太平洋バンタム級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥選手の中盤〜後半KO／ストップ勝ちが最も有力。試合が動くのは9〜10ラウンドと予想",
+                                           "normalized_text":  "井上尚弥が中盤〜後半にKO/ストップ勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://boxingtrainer-hirokishiino.com/27431/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "椎野大輝",
+                                              "source_url":  "https://boxingtrainer-hirokishiino.com/27431/",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-006",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。直前予想記事（YouTube解説あり）。Tier B（元プロ世界ランカー、ボクシングトレーナーYouTuber）。記事公開日不明（試合直前と推定）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ムロジョン・アフマダリエフ",
+                                              "expected_outcome":  "井上尚弥が中盤〜後半KO勝ち（9〜10回）",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（117-111, 118-110, 118-110）で勝利。KOなし。",
+                                                "notes":  "KO予想だが実際は判定。スコア: 117-111, 118-110, 118-110。",
+                                                "source_note":  "根拠URL: https://efight.jp/naoya-inoue_boxing-20250914_1646113"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-09-14-007",
+                           "statement_date":  "2025-09-12",
+                           "speaker":  {
+                                           "name":  "井熊知也",
+                                           "role":  "media",
+                                           "affiliation":  "スポーティングニュース日本版 / 元プロキックボクサー"
+                                       },
+                           "content":  {
+                                           "raw_text":  "スポーティングニュース日本版では、武居由樹が3R以内にKO勝利すると予想する",
+                                           "normalized_text":  "武居由樹が3回以内にKO勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sportingnews.com/jp/boxing/news/2025-09-14-yoshiki-takei-vs-christian-medina-jimenez-prediction-highlight-odds-jpn/b55667d7fa329fee822e870b",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "井熊知也",
+                                              "source_url":  "https://www.sportingnews.com/jp/boxing/news/2025-09-14-yoshiki-takei-vs-christian-medina-jimenez-prediction-highlight-odds-jpn/b55667d7fa329fee822e870b",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-09-14-007",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポーティングニュース日本版の試合前予想記事。記者個人名あり。Tier B相当（主要スポーツメディア記者、元プロキックボクサー）。",
+                                              "expected_winner":  "武居由樹",
+                                              "expected_method":  "KO",
+                                              "target":  "武居由樹 vs クリスチャン・メディナ",
+                                              "expected_outcome":  "武居由樹が3回以内KO勝ち",
+                                              "deadline":  "2025-09-14"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-09-14",
+                                                "winner":  "クリスチャン・メディナ",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "クリスチャン・メディナが4回1分21秒TKO勝ち。武居が1回ダウン後に4回ストップ。予想外の番狂わせ。",
+                                                "notes":  "武居有利（オッズ1.18倍）と見られていたが、メディナが4RTKO勝ち。1回武居ダウン。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/09/14/kiji/20250914s00021000366000c.html"
+                                            }
+                       }
+                   ],
+    "charter_update_candidates":  [
+                                      {
+                                          "title":  "同日開催メインイベントによるセミファイナル予測情報の不足",
+                                          "problem":  "武居由樹 vs メディナはメインの井上尚弥 vs アフマダリエフと同日同会場で開催されたセミファイナルであり、Tier A/B の解説者・YouTuber の予測情報がほぼメインイベントに集中し、セミファイナル専用の予測動画・記事が確認できなかった。",
+                                          "proposed_rule":  "同日に複数世界戦が行われる場合、メインイベント以外の試合についても個別に予測情報を収集する。一次情報が少ない場合は charter_update_candidates に不足理由を記録する。",
+                                          "scope":  "events",
+                                          "evidence_urls":  [
+                                                                "https://www.sportingnews.com/jp/boxing/news/2025-09-14-yoshiki-takei-vs-christian-medina-jimenez-prediction-highlight-odds-jpn/b55667d7fa329fee822e870b"
+                                                            ]
+                                      }
+                                  ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

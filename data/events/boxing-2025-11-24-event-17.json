@@ -1,0 +1,292 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2025-11-24-event-17",
+    "event_meta":  {
+                       "event_name":  "WBC世界バンタム級王座決定戦 那須川天心 vs 井上拓真",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2025-11-24",
+                       "timezone":  "JST",
+                       "country":  "日本",
+                       "venue":  "トヨタアリーナ東京",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2025-11-24-event-17-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "那須川天心",
+                                        "blue":  "井上拓真",
+                                        "outcome":  {
+                                                        "winner":  "井上拓真",
+                                                        "method":  "判定",
+                                                        "round":  12,
+                                                        "time":  null,
+                                                        "result_note":  "井上拓真が判定3-0（116-112, 116-112, 117-111）で勝利しWBC世界バンタム級王座を獲得。那須川天心はプロ初敗北"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2025-11-24-event-17-001",
+                           "statement_date":  "2025-10-14",
+                           "speaker":  {
+                                           "name":  "畑山隆則",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフェザー級・ライト級2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "戦前の予想で考えるなら「55-45」で55が天心、45が拓真なんですよね。勢いと、あとは派手さ。この試合、おそらく判定になると思うんですよ。そう考えたら、天心の動きが派手なんですよね、パンチの打ち方とか。判定になった場合、打ち方が派手な天心の方が有利に見えるんじゃないかと",
+                                           "normalized_text":  "那須川天心が55:45の僅差で有利。判定になった場合、天心のパンチの打ち方の派手さがポイントに繋がると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.asagei.com/excerpt/344495",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "畑山隆則",
+                                              "source_url":  "https://www.asagei.com/excerpt/344495",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-11-24-event-17-001",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。アサ芸プラス2025-10-14掲載、YouTube「渡嘉敷勝男＆竹原慎二＆畑山隆則ぶっちゃけチャンネル」での発言を引用。Tier A（元世界2階級制覇王者）。",
+                                              "expected_winner":  "那須川天心",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs 井上拓真",
+                                              "expected_outcome":  "那須川天心が僅差判定勝ち",
+                                              "deadline":  "2025-11-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-11-24",
+                                                "winner":  "井上拓真",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上拓真が判定3-0（116-112, 116-112, 117-111）で勝利。那須川天心のプロ初敗北。",
+                                                "notes":  "那須川天心の勝利予想は外れ。井上拓真が判定3-0で完勝。",
+                                                "source_note":  "根拠URL: https://efight.jp/result_s-20251124_1666612"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-11-24-event-17-002",
+                           "statement_date":  "2025-11-22",
+                           "speaker":  {
+                                           "name":  "竹原慎二",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ミドル級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "那須川天心の僅差判定勝ちを予想",
+                                           "normalized_text":  "那須川天心が僅差の判定で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "竹原慎二",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-11-24-event-17-002",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ2025-11-22記事に予想者の一人として列挙。Tier A（元WBA世界ミドル級王者）。",
+                                              "expected_winner":  "那須川天心",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs 井上拓真",
+                                              "expected_outcome":  "那須川天心が僅差判定勝ち",
+                                              "deadline":  "2025-11-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-11-24",
+                                                "winner":  "井上拓真",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上拓真が判定3-0（116-112, 116-112, 117-111）で勝利。",
+                                                "notes":  "那須川天心の勝利予想は外れ。",
+                                                "source_note":  "根拠URL: https://efight.jp/result_s-20251124_1666612"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-11-24-event-17-003",
+                           "statement_date":  "2025-11-22",
+                           "speaker":  {
+                                           "name":  "山中慎介",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBC世界バンタム級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "那須川天心の判定勝ちを予想",
+                                           "normalized_text":  "那須川天心が判定で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "山中慎介",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-11-24-event-17-003",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ2025-11-22記事に予想者の一人として列挙。Tier A（元WBC世界バンタム級王者・元同級王者）。",
+                                              "expected_winner":  "那須川天心",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs 井上拓真",
+                                              "expected_outcome":  "那須川天心が判定勝ち",
+                                              "deadline":  "2025-11-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-11-24",
+                                                "winner":  "井上拓真",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上拓真が判定3-0で勝利。",
+                                                "notes":  "那須川天心の勝利予想は外れ。",
+                                                "source_note":  "根拠URL: https://efight.jp/result_s-20251124_1666612"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-11-24-event-17-004",
+                           "statement_date":  "2025-11-22",
+                           "speaker":  {
+                                           "name":  "内山高志",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフェザー級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上拓真の判定勝ちを予想。キャリアの厚みが中盤以降に出てくる",
+                                           "normalized_text":  "井上拓真が12ラウンドの経験を活かして中盤以降に優位となり判定勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "内山高志",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-11-24-event-17-004",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ2025-11-22記事に予想者の一人として列挙。Tier A（元WBA世界スーパーフェザー級王者）。",
+                                              "expected_winner":  "井上拓真",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs 井上拓真",
+                                              "expected_outcome":  "井上拓真が判定勝ち",
+                                              "deadline":  "2025-11-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-11-24",
+                                                "winner":  "井上拓真",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上拓真が判定3-0（116-112, 116-112, 117-111）で勝利。予想的中。",
+                                                "notes":  "拓真の判定勝ち予想が的中。",
+                                                "source_note":  "根拠URL: https://efight.jp/result_s-20251124_1666612"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-11-24-event-17-005",
+                           "statement_date":  "2025-11-22",
+                           "speaker":  {
+                                           "name":  "亀田大毅",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界フライ級・IBF世界スーパーフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上拓真の判定勝ちを予想",
+                                           "normalized_text":  "井上拓真が判定で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "亀田大毅",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-11-24-event-17-005",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ2025-11-22記事に予想者の一人として列挙。Tier A（元世界2階級制覇王者）。",
+                                              "expected_winner":  "井上拓真",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs 井上拓真",
+                                              "expected_outcome":  "井上拓真が判定勝ち",
+                                              "deadline":  "2025-11-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-11-24",
+                                                "winner":  "井上拓真",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上拓真が判定3-0で勝利。予想的中。",
+                                                "notes":  "拓真の判定勝ち予想が的中。",
+                                                "source_note":  "根拠URL: https://efight.jp/result_s-20251124_1666612"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-11-24-event-17-006",
+                           "statement_date":  "2025-11-22",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "前向き教室（YouTube 26.4万登録）/ 第40代日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "那須川天心の僅差判定勝ちを予想",
+                                           "normalized_text":  "那須川天心が僅差の判定で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-11-24-event-17-006",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。スポニチ2025-11-22記事に予想者の一人として列挙。Tier B（YouTuber 26.4万登録 + 元日本王者）。",
+                                              "expected_winner":  "那須川天心",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs 井上拓真",
+                                              "expected_outcome":  "那須川天心が僅差判定勝ち",
+                                              "deadline":  "2025-11-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-11-24",
+                                                "winner":  "井上拓真",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上拓真が判定3-0で勝利。",
+                                                "notes":  "那須川天心の勝利予想は外れ。",
+                                                "source_note":  "根拠URL: https://efight.jp/result_s-20251124_1666612"
+                                            }
+                       }
+                   ],
+    "charter_update_candidates":  [
+                                      {
+                                          "title":  "予想多数派（天心有利）が全員外れた番狂わせ事例",
+                                          "problem":  "複数のTier A専門家（畑山、竹原、山中、細川）が那須川天心を有利と予想したが、井上拓真が判定3-0で完勝。KO予想はゼロで全員が僅差判定を予想する中、拓真が序盤から主導権を握る展開だった。",
+                                          "proposed_rule":  "多数派の予想と実際の結果が大きく乖離した試合については、予想の傾向（多数派/少数派）と実際の結果の分布を記録することで、予測精度の分析に活用できる。",
+                                          "scope":  "events",
+                                          "evidence_urls":  [
+                                                                "https://www.sponichi.co.jp/battle/news/2025/11/22/kiji/20251122s00021000229000c.html"
+                                                            ]
+                                      }
+                                  ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

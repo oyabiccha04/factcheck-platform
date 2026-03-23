@@ -1,0 +1,62 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-friday-fights-92",
+  "event_meta": {
+    "event_name": "ONE Friday Fights 92: Sitthichai vs. Shadow",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "friday_fights",
+    "date": "2024-12-20",
+    "timezone": "Asia/Bangkok",
+    "country": "TH",
+    "venue": "ルンピニースタジアム",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "oneff92-01",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "シッティチャイ・シッソンピーノン",
+          "blue": "シャドウ・シンハー・マウィン",
+          "outcome": {
+            "winner": "シャドウ・シンハー・マウィン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（メインイベント）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "oneff92-02",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "リウ・メンヤン",
+          "blue": "野杁正明",
+          "outcome": {
+            "winner": "リウ・メンヤン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（リウ・メンヤンのONEデビュー戦）"
+          },
+          "discipline": "KICKBOXING"
+        }
+      ]
+    }
+  ],
+  "statements": [],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

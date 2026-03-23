@@ -1,0 +1,77 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-167",
+  "event_meta": {
+    "event_name": "ONE 167: Tawanchai vs. Nattawut 2",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "arena",
+    "date": "2024-06-08",
+    "timezone": "Asia/Bangkok",
+    "country": "TH",
+    "venue": "インパクトアリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "one167-01",
+          "division": "フェザー級",
+          "rules": "ONE ムエタイルール 3分5R",
+          "red": "タワンチャイ・PK・センチャイ",
+          "blue": "ジョー・ナットウット",
+          "outcome": {
+            "winner": "タワンチャイ・PK・センチャイ",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定（多数決）（ONEフェザー級ムエタイ世界タイトルマッチ）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one167-02",
+          "division": "フライ級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "ロッタン・ジットムアンノン",
+          "blue": "デニス・ピューリック",
+          "outcome": {
+            "winner": "ロッタン・ジットムアンノン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（ロッタンが体重超過141.25lbs、キャッチウェイト）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "one167-03",
+          "division": "フェザー級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "シッティチャイ・シッソンピーノン",
+          "blue": "野杁正明",
+          "outcome": {
+            "winner": "シッティチャイ・シッソンピーノン",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（野杁のONEデビュー戦）"
+          },
+          "discipline": "KICKBOXING"
+        }
+      ]
+    }
+  ],
+  "statements": [],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

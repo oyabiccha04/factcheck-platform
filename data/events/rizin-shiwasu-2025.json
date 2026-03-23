@@ -1,0 +1,683 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "rizin-shiwasu-2025",
+    "event_name": "Yogibo presents RIZIN師走の超強者祭り",
+    "organization": "RIZIN",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2025-12-31",
+    "venue": "さいたまスーパーアリーナ",
+    "country": "Japan",
+    "timezone": "Asia/Tokyo",
+    "attendance": null,
+    "note": "RIZIN10周年締めくくりの大晦日大会。5大タイトルマッチ。メインはフェザー級タイトルマッチ ラジャブアリ・シェイドゥラエフ vs 朝倉未来。"
+  },
+  "cards": [
+    {
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-01",
+          "bout_order": 1,
+          "division": "バンタム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "芦澤竜誠",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ジョリー",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "ジョリー",
+            "method": "Submission",
+            "method_detail": "アームバー",
+            "round": 1,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-02",
+          "bout_order": 2,
+          "division": "ミドル級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 73.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "雑賀\"ヤン坊\"達也",
+            "nickname": "ヤン坊",
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "\"ブラックパンサー\"ベイノア",
+            "nickname": "ブラックパンサー",
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "雑賀\"ヤン坊\"達也",
+            "method": "KO",
+            "method_detail": "左ハイキック",
+            "round": 2,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-03",
+          "bout_order": 3,
+          "division": "スーパーアトム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 57.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "篠塚辰樹",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "冨澤大智",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "篠塚辰樹",
+            "method": "TKO",
+            "method_detail": "パンチ→パウンド",
+            "round": 2,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-04",
+          "bout_order": 4,
+          "division": "バンタム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "後藤丈治",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ホセ・トーレス",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "後藤丈治",
+            "method": "Decision",
+            "method_detail": "2-1",
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-05",
+          "bout_order": 5,
+          "division": "スーパーアトム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 57.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "神龍誠",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ヒロヤ",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "神龍誠",
+            "method": "Decision",
+            "method_detail": "3-0",
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-06",
+          "bout_order": 6,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "カルシャガ・ダウトベック",
+            "nickname": null,
+            "nationality": "Kazakhstan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "久保優太",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": null,
+            "method": "No Contest",
+            "method_detail": "アイポーク",
+            "round": null,
+            "time": null,
+            "result_note": "アイポークによりノーコンテスト。"
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-07",
+          "bout_order": 7,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "秋元強真",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "新居すぐる",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "HI ROLLERS ENTERTAINMENT"
+          },
+          "outcome": {
+            "winner": "秋元強真",
+            "method": "TKO",
+            "method_detail": "テンカオ",
+            "round": 1,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-08",
+          "bout_order": 8,
+          "division": "バンタム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "福田龍彌",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "安藤達也",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "福田龍彌",
+            "method": "TKO",
+            "method_detail": "右フック→パウンド",
+            "round": 2,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-09",
+          "bout_order": 9,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "クレベル・コイケ",
+            "nickname": null,
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ヴガール・ケラモフ",
+            "nickname": null,
+            "nationality": "Azerbaijan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "クレベル・コイケ",
+            "method": "Decision",
+            "method_detail": "3-0",
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-10",
+          "bout_order": 10,
+          "division": "女子スーパーアトム級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 49.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "伊澤星花",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "RENA",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "SHOOTBOXING/シーザージム"
+          },
+          "outcome": {
+            "winner": "伊澤星花",
+            "method": "Submission",
+            "method_detail": "ギロチンチョーク",
+            "round": 2,
+            "time": null,
+            "result_note": "女子スーパーアトム級タイトルマッチ。伊澤が王座防衛。"
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-11",
+          "bout_order": 11,
+          "division": "バンタム級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "ダニー・サバテロ",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "井上直樹",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "ダニー・サバテロ",
+            "method": "Decision",
+            "method_detail": "2-1",
+            "round": 3,
+            "time": null,
+            "result_note": "バンタム級タイトルマッチ。サバテロが王座獲得。"
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-12",
+          "bout_order": 12,
+          "division": "フライ級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 57.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "扇久保博正",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "元谷友貴",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "扇久保博正",
+            "method": "Decision",
+            "method_detail": "3-0",
+            "round": 3,
+            "time": null,
+            "result_note": "フライ級タイトルマッチ。扇久保が防衛。"
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-13",
+          "bout_order": 13,
+          "division": "ライト級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 71.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "イルホム・ノジモフ",
+            "nickname": null,
+            "nationality": "Uzbekistan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ホベルト・サトシ・ソウザ",
+            "nickname": null,
+            "nationality": "Brazil",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "イルホム・ノジモフ",
+            "method": "KO",
+            "method_detail": "膝蹴り",
+            "round": 1,
+            "time": null,
+            "result_note": "ライト級タイトルマッチ。ノジモフが王座獲得。"
+          }
+        },
+        {
+          "bout_id": "rizin-shiwasu-2025-bout-14",
+          "bout_order": 14,
+          "division": "フェザー級タイトルマッチ",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "ラジャブアリ・シェイドゥラエフ",
+            "nickname": null,
+            "nationality": "Kyrgyzstan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "朝倉未来",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "JAPAN TOP TEAM"
+          },
+          "outcome": {
+            "winner": "ラジャブアリ・シェイドゥラエフ",
+            "method": "TKO",
+            "method_detail": "パウンド（バックマウントからのグラウンドパンチ）",
+            "round": 1,
+            "time": "2:54",
+            "result_note": "フェザー級タイトルマッチ。シェイドゥラエフが2度目のベルト防衛。通算16戦16勝16フィニッシュ。朝倉はダメージ大で担架退場。開始早々テイクダウン→ジャーマンスープレックス→バックマウントからのパウンド連打でレフリーストップ。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-001",
+      "statement_date": "2025-12-28",
+      "speaker": {
+        "name": "堀口恭司",
+        "role": "fighter",
+        "affiliation": "RIZIN元フライ級王者・現役格闘家"
+      },
+      "content": {
+        "raw_text": "シェイドゥラエフの勝利",
+        "normalized_text": "ラジャブアリ・シェイドゥラエフが勝利すると予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/373909",
+        "timestamp": "2025-12-28前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "堀口恭司",
+        "source_url": "https://spread-sports.jp/archives/373909",
+        "source_ref": "stmt-rizin-shiwasu-2025-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN師走の超強者祭り事前勝敗予想まとめ記事。",
+        "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+        "expected_method": null,
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "シェイドゥラエフが勝利",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち（朝倉は担架退場）",
+        "notes": "堀口のシェイドゥラエフ勝ち予想は的中。"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-002",
+      "statement_date": "2025-12-28",
+      "speaker": {
+        "name": "平本蓮",
+        "role": "fighter",
+        "affiliation": "剛毅會・現役格闘家"
+      },
+      "content": {
+        "raw_text": "シェイドゥラエフの勝利。シェイドゥラエフの打撃が「ヤバい印象しかない」",
+        "normalized_text": "シェイドゥラエフが勝利すると予想。シェイドゥラエフの打撃力を高く評価しており、朝倉未来が苦戦するとの見方。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/373909",
+        "timestamp": "2025-12-28前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "平本蓮",
+        "source_url": "https://spread-sports.jp/archives/373909",
+        "source_ref": "stmt-rizin-shiwasu-2025-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN師走の超強者祭り事前勝敗予想まとめ記事。平本はシェイドゥラエフの打撃について「ヤバい印象しかない」と評価（https://spread-sports.jp/archives/369815）。",
+        "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+        "expected_method": null,
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "シェイドゥラエフが勝利",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち",
+        "notes": "平本のシェイドゥラエフ勝ち予想は的中。"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-003",
+      "statement_date": "2025-12-21",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "現役格闘家・MMAグラップラー"
+      },
+      "content": {
+        "raw_text": "言うほど朝倉未来は弱くない。厳しい試合でシェイドゥラエフ有利だが、勝負にならないカードじゃない。ディフェンスはよくない。ガードはよくないので、そこにパコンと一発入る可能性はめっちゃある",
+        "normalized_text": "シェイドゥラエフ有利と予想しながらも、朝倉には「付け入る隙がある」と分析。シェイドゥラエフのガードの甘さを指摘し、朝倉の一発逆転の可能性に言及。最終的にはシェイドゥラエフ勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/372795",
+        "timestamp": "2025-12-21"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://spread-sports.jp/archives/372795",
+        "source_ref": "stmt-rizin-shiwasu-2025-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、2025年12月21日記事。青木真也自身のYouTubeチャンネルでの発言をもとにした記事。分析は朝倉有利の側面も含むが、最終予想はシェイドゥラエフ勝利。",
+        "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+        "expected_method": null,
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "シェイドゥラエフが勝利（ただし朝倉に一発逆転の可能性あり）",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち",
+        "notes": "青木のシェイドゥラエフ勝ち予想は的中。朝倉の逆転は起きなかった。"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-004",
+      "statement_date": "2025-12-28",
+      "speaker": {
+        "name": "征矢貴",
+        "role": "fighter",
+        "affiliation": "パラエストラ松戸・現役格闘家（同大会出場）"
+      },
+      "content": {
+        "raw_text": "シェイドゥラエフが2ラウンドKO勝ち。打ち気になったときはカウンターが入るチャンスはある",
+        "normalized_text": "シェイドゥラエフが2RKO勝ちすると予想。ただし朝倉が打撃戦に持ち込めばカウンターの可能性があるとも指摘。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/373909",
+        "timestamp": "2025-12-28前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "征矢貴",
+        "source_url": "https://spread-sports.jp/archives/373909",
+        "source_ref": "stmt-rizin-shiwasu-2025-004",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN師走の超強者祭り事前勝敗予想まとめ記事。同大会に出場した現役格闘家としての予想。",
+        "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+        "expected_method": "KO",
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "シェイドゥラエフが2RKO勝ち",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち",
+        "notes": "征矢のシェイドゥラエフ勝ち予想は的中（ラウンドは2Rと予想したが実際は1R）。"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-005",
+      "statement_date": "2025-12-28",
+      "speaker": {
+        "name": "桜庭大世",
+        "role": "fighter",
+        "affiliation": "現役格闘家（JAPAN TOP TEAM所属）"
+      },
+      "content": {
+        "raw_text": "朝倉未来の勝利。RIZINを一番盛り上げた選手。何かを持っていて最後バチッと決めてくれそうな気がする",
+        "normalized_text": "朝倉未来が勝利すると予想。RIZINを盛り上げてきた選手として「何かを持っている」と応援を込めた予想。予想した格闘家の中で唯一朝倉勝利を支持。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/373909",
+        "timestamp": "2025-12-28前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "桜庭大世",
+        "source_url": "https://spread-sports.jp/archives/373909",
+        "source_ref": "stmt-rizin-shiwasu-2025-005",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN師走の超強者祭り事前勝敗予想まとめ記事。格闘家17人以上の中で唯一朝倉未来勝利を予想した。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "朝倉未来が勝利",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち",
+        "notes": "桜庭の朝倉未来勝ち予想は外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-006",
+      "statement_date": "2025-12-17",
+      "speaker": {
+        "name": "前田日明",
+        "role": "promoter",
+        "affiliation": "元THE OUTSIDER主宰・プロレスラー出身格闘技関係者"
+      },
+      "content": {
+        "raw_text": "どう考えても無理な試合。穴がない。未来が勝つとしたらフラッシュダウンからパウンドみたいな感じ。そういうのしかない。1発これだったら当たるかなっていうのはあるんですけど、それに気がついているのかな？『これだったら俺できる』っていう自信がある。未来もギャンブルなんでしょうね",
+        "normalized_text": "シェイドゥラエフは「穴がない」と高く評価し、朝倉未来との試合を「どう考えても無理な試合」と断言。朝倉が勝つとすれば早いラウンドのフラッシュダウンからのパウンドしかないと予想し、シェイドゥラエフの勝利を強く示唆。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sanspo.com/article/20251218-EBC3JNW3PNCYTDOWUAHYYSH6PM/",
+        "timestamp": "2025-12-17"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "前田日明",
+        "source_url": "https://www.sanspo.com/article/20251218-EBC3JNW3PNCYTDOWUAHYYSH6PM/",
+        "source_ref": "stmt-rizin-shiwasu-2025-006",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。サンスポ、2025年12月17日公開。前田日明がYouTubeチャンネルで試合分析を行い記事化。朝倉未来をスカウトしたTHE OUTSIDERの主宰として特別な立場から語った。",
+        "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+        "expected_method": null,
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "シェイドゥラエフが勝利（朝倉にとって無理な試合）",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち（朝倉は担架退場）",
+        "notes": "前田のシェイドゥラエフ勝ち予想は的中。前田は試合後「素人とプロぐらいの差があった」と力量差を指摘し「やっちゃいけない試合」と批判。"
+      }
+    },
+    {
+      "statement_id": "stmt-rizin-shiwasu-2025-007",
+      "statement_date": "2025-11-15",
+      "speaker": {
+        "name": "扇久保博正",
+        "role": "fighter",
+        "affiliation": "現役MMAファイター・元RIZIN参戦"
+      },
+      "content": {
+        "raw_text": "ここで（対戦を）受ける朝倉未来選手、男ですよね。世間が思ってるほど、シェイドゥラエフの圧勝にはならないんじゃないかな。そこ（右フック）に合わせるチャンスが出てくると思うんですよね",
+        "normalized_text": "朝倉未来が大一番への挑戦を称え、世間の予想ほど一方的にはならないと主張。シェイドゥラエフの右フックに合わせる朝倉の左ハイキックKO勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sanspo.com/article/20251115-3533Z6T53RDSLPORFSUONE543I/",
+        "timestamp": "2025-11-15"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "扇久保博正",
+        "source_url": "https://www.sanspo.com/article/20251115-3533Z6T53RDSLPORFSUONE543I/",
+        "source_ref": "stmt-rizin-shiwasu-2025-007",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。サンスポ、2025年11月15日公開。扇久保のYouTube「おぎちゃんねる」でのシェイドゥラエフvs朝倉未来の試合分析動画を記事化。なお後の予想まとめ（SPREAD）では扇久保はシェイドゥラエフ派にも分類されており、最終的な見解の変化があった可能性あり。",
+        "expected_winner": "朝倉未来",
+        "expected_method": "KO",
+        "target": "ラジャブアリ・シェイドゥラエフ vs 朝倉未来",
+        "expected_outcome": "朝倉未来が左ハイキックKO勝ち",
+        "deadline": "2025-12-31"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-12-31",
+        "winner": "ラジャブアリ・シェイドゥラエフ",
+        "method": "TKO",
+        "actual_outcome": "シェイドゥラエフが1R2分54秒パウンドTKO勝ち（朝倉は担架退場）",
+        "notes": "扇久保の朝倉未来勝ち予想は外れ。"
+      }
+    }
+  ]
+}

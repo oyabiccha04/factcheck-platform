@@ -1,0 +1,107 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2025-05-28-event-14",
+    "event_meta":  {
+                       "event_name":  "WBO世界バンタム級 武居由樹 vs ユッタポン・トンディ",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2025-05-28",
+                       "timezone":  "不明",
+                       "country":  "不明",
+                       "venue":  "不明",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2025-05-28-event-14-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "武居由樹",
+                                        "blue":  "ユッタポン・トンディ",
+                                        "outcome":  {
+                                                        "winner":  "武居由樹",
+                                                        "method":  "TKO",
+                                                        "round":  1,
+                                                        "time":  "2:07",
+                                                        "result_note":  "武居由樹が1回2分7秒TKO勝ちで2度目の防衛"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2025-05-28-event-14-001",
+                           "statement_date":  "2024-11-03",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "youtuber",
+                                           "affiliation":  "ボクシングラジオ"
+                                       },
+                           "content":  {
+                                           "raw_text":  "武居選手が5から7ラウンドくらいでの慶勝利としておこうと思います",
+                                           "normalized_text":  "武居由樹が5〜7回KO勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=tRvpEy4grmc",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://www.youtube.com/watch?v=tRvpEy4grmc",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-05-28-event-14-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-19）。",
+                                              "expected_winner":  "武居由樹",
+                                              "expected_method":  "KO",
+                                              "target":  "武居由樹 vs ユッタポン・トンディ",
+                                              "expected_outcome":  "武居由樹が5〜7回KO勝ち",
+                                              "deadline":  "2025-05-28"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-05-28",
+                                                "winner":  "武居由樹",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "武居由樹が1回2分7秒TKO勝ち。3度のダウンを奪いレフェリーストップ。2度目の防衛成功。",
+                                                "notes":  "1回TKO（2:07）。3ダウン後ストップ。武居のプロ戦績11勝9KO。",
+                                                "source_note":  "根拠URL: https://boxingnews.jp/news/112316/"
+                                            }
+                       }
+                   ],
+    "charter_update_candidates":  [
+                                      {
+                                          "title":  "Geminiによる実在試合の「架空イベント」誤判定（event-13/14で再発）",
+                                          "problem":  "event-13・event-14ともに、Geminiが実在する過去試合を「架空のカード」または「情報が確認できない」と誤判定し、statementsを空で返すパターンが複数回発生した。いずれも日本語で検索可能な一次情報が存在する試合であった。",
+                                          "proposed_rule":  "Geminiがstatementsを空で返した場合、プロンプト送信者は試合の実在を主要ニュースサイトで独自に確認し、Geminiの「情報不在」判断を鵜呑みにしない。",
+                                          "scope":  "prompts",
+                                          "evidence_urls":  [
+                                                                "https://boxingnews.jp/news/112316/",
+                                                                "https://efight.jp/result-20250528_1614741"
+                                                            ]
+                                      },
+                                      {
+                                          "title":  "Gemini出力のevidence_urlsにMarkdownリンクが混入",
+                                          "problem":  "Geminiの charter_update_candidates 内 evidence_urls に \u0027[https://...](https://...)\u0027 形式のMarkdownリンクが混入した。プロンプトで生URL指定を明記しているにもかかわらず再発している。",
+                                          "proposed_rule":  "charter_update_candidates の evidence_urls に Markdown 形式（[text](url)）が含まれる場合、そのエントリは採用せずに破棄する。",
+                                          "scope":  "verification",
+                                          "evidence_urls":  [
+
+                                                            ]
+                                      }
+                                  ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

@@ -1,13 +1,64 @@
-<h1>About</h1>
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>About | factcheck-platform</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans JP", sans-serif; margin: 24px; line-height: 1.65; max-width: 720px; }
+    .muted { color: #666; }
+    a { color: #0b57d0; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .small { font-size: 12px; }
+    h2 { font-size: 1.15rem; margin-top: 1.75em; margin-bottom: 0.5em; font-weight: 600; }
+    ul { padding-left: 1.25em; margin: 0.5em 0 1em; }
+    li { margin: 0.35em 0; }
+  </style>
+</head>
+<body>
+  <p class="muted small"><a href="./index.html">← トップへ戻る</a></p>
+  <h1>About</h1>
 
-<p>
-このサイトは、発信された「予測」と確定した「事実」を分離し、
-検証可能な形で記録するアーカイブです。
-</p>
+  <p>
+    このサイトは、格闘技・ボクシングの試合や興行を中心に、世に出た「予測」と、あとから確定した「事実（結果）」を分けて記録し、誰でも検証できる形で公開するアーカイブです。
+  </p>
 
-<p>
-予測の優劣を評価することが目的ではなく、
-予測と結果がどのように対応したかを確認できる形で残します。
-</p>
+  <h2>このサイトがねらっていること</h2>
+  <p>
+    一言でいうと、<strong>「予測を、ファクトで評価し、必要に応じて的中率などで可視化する」</strong>ことです。
+  </p>
+  <ul>
+    <li>予測は、いつ・誰が・どんな根拠で・何を言ったかを、可能な限り<strong>一次情報にたどれる形</strong>で残す。</li>
+    <li>結果が出たら、予測と結果を<strong>混ぜずに照合</strong>し、その履歴を残す。</li>
+    <li>世の中には予測があふれていますが、結果と照合されないまま消えていくものも多い、という偏りに対し、<strong>「事実としての履歴がある」状態</strong>をつくることを重視します。</li>
+    <li>いまは格闘技・ボクシングを主な題材にしていますが、同じ枠組みは他分野にも広げうる<strong>実証の場</strong>という位置づけでもあります。</li>
+  </ul>
 
-<a href="index.html">Homeに戻る</a>
+  <h2>大切にしているスタンス（やらないこと）</h2>
+  <ul>
+    <li><strong>誰かを断罪したり、格付けしたり、正しさを裁定することが目的ではありません。</strong>ランキングや的中率は、あくまで照合結果を数値化した<strong>事実指標の提示</strong>にとどめ、煽り・誹謗・人格攻撃を目的とした表現や設計にはしません。</li>
+    <li>編集部の意見や「当たり外れの総評」を主コンテンツにはしません。判断は<strong>閲覧者に委ね</strong>、ここにはログと照合の記録を置くことを優先します。</li>
+    <li>感情的な支持・不支持の表明や、思想的な断罪を<strong>主目的とするコンテンツ</strong>にはしません。</li>
+  </ul>
+
+  <h2>記録と運用のルール（要約）</h2>
+  <ul>
+    <li><strong>予測と結果は分離する。</strong>後から書き換えてごまかせないよう、データの変更は Git の commit 履歴として残せる運用（GitHub 上のリポジトリ）を前提にしています。</li>
+    <li>予測の<strong>主たる対象は「勝つ側（勝者方向）」</strong>です。KO・判定・サブミッションなどは、主予測を補う情報として扱います。</li>
+    <li>出典は可能な限り<strong>一次情報</strong>（公式・本人発信・原記事など）を優先し、不明な場合は「不明」と明示します。推測で埋めません。</li>
+    <li>誰の予測を載せるかには運用基準があります（例：当事者性・専門性の高い関係者、一定規模以上の格闘技系発信者など）。根拠が曖昧な場合は断定せず、要確認として残す方針です。</li>
+    <li>集計やランキングの表示は、原則として<strong>興行・試合の結果が確定したうえで</strong>扱い、途中経過だけで数字を煽るような設計にはしません。</li>
+    <li>同一の興行に複数種目（例：MMA とキック）が含まれる場合、種目ごとの画面では<strong>その種目の試合に紐づく予測だけ</strong>を集計の対象にします（データ上の種目情報に基づく）。</li>
+  </ul>
+
+  <h2>収益について（方針）</h2>
+  <p class="muted">
+    将来的に広告や寄付を導入する可能性はありますが、<strong>予測や結果の改変、特定の結論への誘導、スポンサー都合での歪曲を正当化する理由にはしません。</strong>収益は運営・データ整備・履歴保存の手段と位置づけ、思想そのものとは切り離します。
+  </p>
+
+  <h2>より詳しいルール・開発者向け</h2>
+  <p class="muted small">
+    運用上の細目・データ形式・ページ構成の正本は、リポジトリ内の憲法ドキュメント <a href="https://github.com/oyabiccha04/factcheck-platform/blob/main/PROJECT_CHARTER.md">PROJECT_CHARTER.md</a> にまとめています。生の JSON や GitHub への直リンクは <a href="./verify.html">検証用データ・リポジトリ</a> からどうぞ。データの第三者利用・免責は <a href="./policy.html">ポリシー・利用条件</a> に記載しています。
+  </p>
+</body>
+</html>

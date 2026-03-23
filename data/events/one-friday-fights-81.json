@@ -1,0 +1,87 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-friday-fights-81",
+  "event_meta": {
+    "event_name": "ONE Friday Fights 81",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "friday_fights",
+    "date": "2024-09-27",
+    "timezone": "Asia/Bangkok",
+    "country": "TH",
+    "venue": "ルンピニースタジアム",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "oneff81-01",
+          "division": "フライ級",
+          "rules": "ONE キックボクシングルール 3分3R",
+          "red": "武尊",
+          "blue": "タン・ジン",
+          "outcome": {
+            "winner": "武尊",
+            "method": "KO",
+            "round": 2,
+            "time": null,
+            "result_note": "KO勝ち（武尊のONE初勝利）"
+          },
+          "discipline": "KICKBOXING"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-oneff81-001",
+      "statement_date": "2024-09-20",
+      "speaker": {
+        "name": "井熊知也",
+        "role": "media",
+        "affiliation": "スポーティングニュース日本版（元プロキックボクサー）"
+      },
+      "content": {
+        "raw_text": "この試合の気になる勝敗予想だが、結論として、武尊がKO勝利すると予想する。",
+        "normalized_text": "武尊がKO勝利する"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sportingnews.com/jp/mma/news/one-friday-fights-81-takeru-vs-thant-zin-prediciton-odd-jpn/7f332df7f069afd0c0ad0ee7",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "井熊知也",
+        "source_url": "https://www.sportingnews.com/jp/mma/news/one-friday-fights-81-takeru-vs-thant-zin-prediciton-odd-jpn/7f332df7f069afd0c0ad0ee7",
+        "source_ref": "stmt-oneff81-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。スポーティングニュース日本版の試合プレビュー記事。Tier B（元プロキックボクサー兼スポーツライター）。",
+        "expected_winner": "武尊",
+        "expected_method": "KO",
+        "target": "武尊 vs タン・ジン",
+        "expected_outcome": "武尊がKO勝利",
+        "deadline": "2024-09-27"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-09-27",
+        "winner": "武尊",
+        "method": "KO",
+        "actual_outcome": "武尊が2ラウンドKO勝ち（武尊のONE初勝利）",
+        "notes": "武尊のKO勝利を的中。",
+        "source_note": ""
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

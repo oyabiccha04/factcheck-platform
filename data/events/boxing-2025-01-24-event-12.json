@@ -1,0 +1,106 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2025-01-24-event-12",
+    "event_meta":  {
+                       "event_name":  "世界スーパーバンタム級4団体防衛戦 井上尚弥 vs 金芸俊",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2025-01-24",
+                       "timezone":  "不明",
+                       "country":  "不明",
+                       "venue":  "不明",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2025-01-24-event-12-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "井上尚弥",
+                                        "blue":  "金芸俊",
+                                        "outcome":  {
+                                                        "winner":  "井上尚弥",
+                                                        "method":  "KO",
+                                                        "round":  4,
+                                                        "time":  "2:25",
+                                                        "result_note":  "井上尚弥が4回2分25秒KO勝ちで防衛"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2025-01-24-event-12-001",
+                           "statement_date":  "2024-11-22",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "youtuber",
+                                           "affiliation":  "ボクシングラジオ"
+                                       },
+                           "content":  {
+                                           "raw_text":  "ジャブの差し合いでは井上選手がグッドマンを圧倒すると考えています。",
+                                           "normalized_text":  "井上尚弥が有利と予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=Rdx_bbiAaF4",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://www.youtube.com/watch?v=Rdx_bbiAaF4",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-01-24-event-12-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。当初の対戦カード（井上尚弥 vs サム・グッドマン）に関する予想として収録。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs サム・グッドマン",
+                                              "expected_outcome":  "井上尚弥が勝利すると予想",
+                                              "deadline":  "2025-01-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-01-24",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が4回2分25秒KO勝ちで防衛",
+                                                "notes":  "挑戦者は金芸俊。サム・グッドマンは欠場し、代役で金芸俊が登板した。",
+                                                "source_note":  "根拠URL: https://www.sankei.com/article/20250124-I2ET2BI2ZRIHPFY6W4AIOTOLBU/"
+                                            }
+                       }
+                   ],
+    "charter_update_candidates":  [
+                                      {
+                                          "title":  "Gemini出力の一次情報URL不備",
+                                          "problem":  "マージ対象として提示されたレコードのうち、日刊スポーツのURLが404、YouTubeが当該予想と無関係な動画を指していた。検証欄に含まれていた10回KO・ボディー等の記述は、提示根拠では確認できなかった。",
+                                          "proposed_rule":  "マージ前に主要URLの実在性と内容一致を確認し、404や不正URLのレコードは採用しない。試合結果は複数の独立した一次記事で照合する。",
+                                          "scope":  "verification",
+                                          "evidence_urls":  [
+                                                                "https://www.sankei.com/article/20250124-I2ET2BI2ZRIHPFY6W4AIOTOLBU/"
+                                                            ]
+                                      },
+                                      {
+                                          "title":  "対戦相手変更と予測ターゲットの表記",
+                                          "problem":  "当初の予測対象は井上尚弥 vs サム・グッドマンであったが、試合当日の対戦相手は金芸俊に変更された。予測のtargetと結果の相手名が一致しないケースが生じる。",
+                                          "proposed_rule":  "予測は発言時点の対戦カード表記を維持し、検証では実際の対戦相手と結果を一次情報で記載する。",
+                                          "scope":  "events",
+                                          "evidence_urls":  [
+                                                                "https://www.sankei.com/article/20250124-I2ET2BI2ZRIHPFY6W4AIOTOLBU/"
+                                                            ]
+                                      }
+                                  ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

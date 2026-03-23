@@ -1,841 +1,782 @@
 {
-  "schema": "standard-log-v1.2-json",
-  "schema_version": "1.2.1",
-  "event_id": "rizin-45",
-  "event_meta": {
-    "event_name": "にゃんこ大戦争 presents RIZIN.45",
-    "organization": "RIZIN",
-    "sport": "martial_arts",
-    "discipline": "mma",
-    "event_tier": "arena",
-    "date": "2023-12-31",
-    "timezone": "Asia/Tokyo",
-    "country": "JP",
-    "venue": "さいたまスーパーアリーナ",
-    "is_dome_class": false
-  },
-  "cards": [
-    {
-      "card_id": "main",
-      "card_name": "メインカード",
-      "bouts": [
-        {
-          "bout_id": "rizin45-01",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "YUSHI",
-          "blue": "平本丈",
-          "outcome": {
-            "winner": "平本丈",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin45-02",
-          "division": "54.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "那須川龍心",
-          "blue": "シン・ジョンミン",
-          "outcome": {
-            "winner": "那須川龍心",
-            "method": "KO",
-            "round": 2,
-            "time": "2:10",
-            "result_note": "パウンド"
-          }
-        },
-        {
-          "bout_id": "rizin45-03",
-          "division": "60.0kg",
-          "rules": "RIZIN キックボクシング 3分3R",
-          "red": "篠塚辰樹",
-          "blue": "冨澤大智",
-          "outcome": {
-            "winner": "篠塚辰樹",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin45-04",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "弥益ドミネーター聡志",
-          "blue": "新居すぐる",
-          "outcome": {
-            "winner": "新居すぐる",
-            "method": "KO",
-            "round": 2,
-            "time": "1:03",
-            "result_note": "KO"
-          }
-        },
-        {
-          "bout_id": "rizin45-05",
-          "division": "70.0kg",
-          "rules": "RIZIN MMA 5分2R",
-          "red": "安保瑠輝也",
-          "blue": "久保優太",
-          "outcome": {
-            "winner": "久保優太",
-            "method": "Submission",
-            "round": 1,
-            "time": "4:28",
-            "result_note": "一本"
-          }
-        },
-        {
-          "bout_id": "rizin45-06",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "新井丈",
-          "blue": "ヒロヤ",
-          "outcome": {
-            "winner": "ヒロヤ",
-            "method": "TKO",
-            "round": 2,
-            "time": "2:53",
-            "result_note": "パンチ連打"
-          }
-        },
-        {
-          "bout_id": "rizin45-07",
-          "division": "77.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "イゴール・タナベ",
-          "blue": "安西信昌",
-          "outcome": {
-            "winner": "イゴール・タナベ",
-            "method": "Submission",
-            "round": 1,
-            "time": "1:32",
-            "result_note": "一本"
-          }
-        },
-        {
-          "bout_id": "rizin45-08",
-          "division": "65.0kg",
-          "rules": "RIZIN MMA 5分2R",
-          "red": "三浦孝太",
-          "blue": "皇治",
-          "outcome": {
-            "winner": "皇治",
-            "method": "KO",
-            "round": 2,
-            "time": "0:59",
-            "result_note": "サッカーボールキック"
-          }
-        },
-        {
-          "bout_id": "rizin45-09",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "芦澤竜誠",
-          "blue": "太田忍",
-          "outcome": {
-            "winner": "太田忍",
-            "method": "KO",
-            "round": 1,
-            "time": "2:21",
-            "result_note": "チョークからパウンド"
-          }
-        },
-        {
-          "bout_id": "rizin45-10",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "元谷友貴",
-          "blue": "ヴィンス・モラレス",
-          "outcome": {
-            "winner": "ヴィンス・モラレス",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin45-11",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "扇久保博正",
-          "blue": "ジョン・ドッドソン",
-          "outcome": {
-            "winner": "扇久保博正",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin45-12",
-          "division": "120.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "スダリオ剛",
-          "blue": "上田幹雄",
-          "outcome": {
-            "winner": "上田幹雄",
-            "method": "KO",
-            "round": 2,
-            "time": "0:57",
-            "result_note": "上段ヒザ"
-          }
-        },
-        {
-          "bout_id": "rizin45-13",
-          "division": "49.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "伊澤星花",
-          "blue": "山本美憂",
-          "outcome": {
-            "winner": "伊澤星花",
-            "method": "Submission",
-            "round": 2,
-            "time": "0:37",
-            "result_note": "一本（山本美憂引退試合）"
-          }
-        },
-        {
-          "bout_id": "rizin45-14",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "平本蓮",
-          "blue": "YA-MAN",
-          "outcome": {
-            "winner": "平本蓮",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin45-15",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "クレベル・コイケ",
-          "blue": "斎藤裕",
-          "outcome": {
-            "winner": "クレベル・コイケ",
-            "method": "Submission",
-            "round": 3,
-            "time": "1:22",
-            "result_note": "チョーク"
-          }
-        },
-        {
-          "bout_id": "rizin45-16",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "フアン・アーチュレッタ",
-          "blue": "朝倉海",
-          "outcome": {
-            "winner": "朝倉海",
-            "method": "KO",
-            "round": 2,
-            "time": "3:20",
-            "result_note": "ヒザ蹴り（バンタム級タイトルマッチ）"
-          }
-        },
-        {
-          "bout_id": "rizin45-17",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "堀口恭司",
-          "blue": "神龍誠",
-          "outcome": {
-            "winner": "堀口恭司",
-            "method": "Submission",
-            "round": 2,
-            "time": null,
-            "result_note": "一本（フライ級王座決定戦）"
-          }
-        }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-45-001",
-      "statement_date": "2023-12-28",
-      "speaker": {
-        "name": "扇久保博正",
-        "role": "fighter",
-        "affiliation": "パラエストラ松戸"
-      },
-      "content": {
-        "raw_text": "海くんがKOで勝つと思います。右のカウンターで。",
-        "normalized_text": "朝倉海が右のカウンターでKO勝ちすると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=7uV8-M6b9sQ",
-        "timestamp": "15:30"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "扇久保博正",
-        "source_url": "https://www.youtube.com/watch?v=7uV8-M6b9sQ",
-        "source_ref": "statement_id=stmt-rizin-45-001",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネルの勝敗予想回。",
-        "expected_winner": "朝倉海",
-        "expected_method": "KO",
-        "target": "フアン・アーチュレッタ vs 朝倉海",
-        "expected_outcome": "朝倉海がKO勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "朝倉海",
-        "method": "KO",
-        "actual_outcome": "朝倉海がKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-002",
-      "statement_date": "2023-12-25",
-      "speaker": {
-        "name": "朝倉未来",
-        "role": "fighter",
-        "affiliation": "JAPAN TOP TEAM"
-      },
-      "content": {
-        "raw_text": "海が勝つと思います。パンチの精度が違う。",
-        "normalized_text": "朝倉海がパンチの精度で勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=F3xZ8Tz7r_E",
-        "timestamp": "08:45"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "朝倉未来",
-        "source_url": "https://www.youtube.com/watch?v=F3xZ8Tz7r_E",
-        "source_ref": "statement_id=stmt-rizin-45-002",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。朝倉未来公式YouTubeチャンネル。本人による直接発言。",
-        "expected_winner": "朝倉海",
-        "expected_method": "KO",
-        "target": "フアン・アーチュレッタ vs 朝倉海",
-        "expected_outcome": "朝倉海がKO勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "朝倉海",
-        "method": "KO",
-        "actual_outcome": "朝倉海がKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-003",
-      "statement_date": "2023-12-28",
-      "speaker": {
-        "name": "石渡伸太郎",
-        "role": "coach",
-        "affiliation": "CAVE"
-      },
-      "content": {
-        "raw_text": "堀口選手が地力の差を見せて判定、もしくは後半に仕留める。",
-        "normalized_text": "堀口恭司が実力差で勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
-        "timestamp": "04:20"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "石渡伸太郎",
-        "source_url": "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
-        "source_ref": "statement_id=stmt-rizin-45-003",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式YouTubeチャンネル。元トップランカー・指導者視点。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "不明",
-        "target": "堀口恭司 vs 神龍誠",
-        "expected_outcome": "堀口恭司が勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "堀口恭司",
-        "method": "Submission",
-        "actual_outcome": "堀口恭司が一本勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-004",
-      "statement_date": "2023-12-28",
-      "speaker": {
-        "name": "石渡伸太郎",
-        "role": "coach",
-        "affiliation": "CAVE"
-      },
-      "content": {
-        "raw_text": "クレベル選手が一本取るイメージが強い。",
-        "normalized_text": "クレベル・コイケが一本勝ちすると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
-        "timestamp": "12:15"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "石渡伸太郎",
-        "source_url": "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
-        "source_ref": "statement_id=stmt-rizin-45-004",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式YouTubeチャンネル。",
-        "expected_winner": "クレベル・コイケ",
-        "expected_method": "SUB",
-        "target": "クレベル・コイケ vs 斎藤裕",
-        "expected_outcome": "クレベル・コイケが一本勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "クレベル・コイケ",
-        "method": "Submission",
-        "actual_outcome": "クレベル・コイケが一本勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-005",
-      "statement_date": "2023-12-29",
-      "speaker": {
-        "name": "大沢ケンジ",
-        "role": "commentator",
-        "affiliation": "和術慧舟會HEARTS"
-      },
-      "content": {
-        "raw_text": "アーチュレッタのタフさは異常。判定でアーチュレッタ。",
-        "normalized_text": "アーチュレッタが判定で勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=7p_G7z8pX3A",
-        "timestamp": "15:30"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "大沢ケンジ",
-        "source_url": "https://www.youtube.com/watch?v=7p_G7z8pX3A",
-        "source_ref": "statement_id=stmt-rizin-45-005",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。格闘キャスト。解説者視点。",
-        "expected_winner": "フアン・アーチュレッタ",
-        "expected_method": "判定",
-        "target": "フアン・アーチュレッタ vs 朝倉海",
-        "expected_outcome": "フアン・アーチュレッタが判定勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "朝倉海",
-        "method": "KO",
-        "actual_outcome": "朝倉海がKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-006",
-      "statement_date": "2023-12-27",
-      "speaker": {
-        "name": "扇久保博正",
-        "role": "fighter",
-        "affiliation": "パラエストラ松戸"
-      },
-      "content": {
-        "raw_text": "堀口選手が全局面で圧倒して勝つと思います。",
-        "normalized_text": "堀口恭司が全局面で圧倒し勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=f0_M0Kk_D6E",
-        "timestamp": "06:10"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "扇久保博正",
-        "source_url": "https://www.youtube.com/watch?v=f0_M0Kk_D6E",
-        "source_ref": "statement_id=stmt-rizin-45-006",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。扇久保博正公式YouTubeチャンネル。現役選手視点。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "不明",
-        "target": "堀口恭司 vs 神龍誠",
-        "expected_outcome": "堀口恭司が勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "堀口恭司",
-        "method": "Submission",
-        "actual_outcome": "堀口恭司が一本勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-007",
-      "statement_date": "2023-12-25",
-      "speaker": {
-        "name": "川尻達也",
-        "role": "commentator",
-        "affiliation": "フリー"
-      },
-      "content": {
-        "raw_text": "堀口選手が一本かKOで仕留めるんじゃないかと。",
-        "normalized_text": "堀口恭司がフィニッシュして勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=N4l_f8p9W-s",
-        "timestamp": "05:45"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "川尻達也",
-        "source_url": "https://www.youtube.com/watch?v=N4l_f8p9W-s",
-        "source_ref": "statement_id=stmt-rizin-45-007",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式YouTube（番組/企画内発言）。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "不明",
-        "target": "堀口恭司 vs 神龍誠",
-        "expected_outcome": "堀口恭司が一本かKOで勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "堀口恭司",
-        "method": "Submission",
-        "actual_outcome": "堀口恭司が一本勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-008",
-      "statement_date": "2023-12-27",
-      "speaker": {
-        "name": "石渡伸太郎",
-        "role": "coach",
-        "affiliation": "CAVE"
-      },
-      "content": {
-        "raw_text": "平本選手が判定で競り勝つと見てます。",
-        "normalized_text": "平本蓮が判定勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=9_D-C_H9B20",
-        "timestamp": "12:30"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "石渡伸太郎",
-        "source_url": "https://www.youtube.com/watch?v=9_D-C_H9B20",
-        "source_ref": "statement_id=stmt-rizin-45-008",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式チャンネル。",
-        "expected_winner": "平本蓮",
-        "expected_method": "判定",
-        "target": "平本蓮 vs YA-MAN",
-        "expected_outcome": "平本蓮が判定勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "平本蓮",
-        "method": "Decision",
-        "actual_outcome": "平本蓮が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-009",
-      "statement_date": "2023-12-29",
-      "speaker": {
-        "name": "太田忍",
-        "role": "fighter",
-        "affiliation": "パラエストラ柏"
-      },
-      "content": {
-        "raw_text": "もちろん僕が勝ちます。芦澤選手をボコボコにします。",
-        "normalized_text": "太田忍が芦澤竜誠に勝利すると述べた。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=vP7B3E_NExU",
-        "timestamp": "02:10"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "太田忍",
-        "source_url": "https://www.youtube.com/watch?v=vP7B3E_NExU",
-        "source_ref": "statement_id=stmt-rizin-45-009",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式動画（インタビュー内の発言）。",
-        "expected_winner": "太田忍",
-        "expected_method": "不明",
-        "target": "芦澤竜誠 vs 太田忍",
-        "expected_outcome": "太田忍が勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "太田忍",
-        "method": "KO",
-        "actual_outcome": "太田忍がKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-010",
-      "statement_date": "2023-12-24",
-      "speaker": {
-        "name": "金原正徳",
-        "role": "fighter",
-        "affiliation": "リバーサルジム立川ALPHA"
-      },
-      "content": {
-        "raw_text": "クレベルが斎藤選手を削って一本取る可能性が高い。",
-        "normalized_text": "クレベル・コイケが一本勝ちすると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=NnF_A_U4K6c",
-        "timestamp": "15:40"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "金原正徳",
-        "source_url": "https://www.youtube.com/watch?v=NnF_A_U4K6c",
-        "source_ref": "statement_id=stmt-rizin-45-010",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。金原正徳公式YouTube。",
-        "expected_winner": "クレベル・コイケ",
-        "expected_method": "SUB",
-        "target": "クレベル・コイケ vs 斎藤裕",
-        "expected_outcome": "クレベル・コイケが一本勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "クレベル・コイケ",
-        "method": "Submission",
-        "actual_outcome": "クレベル・コイケが一本勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-011",
-      "statement_date": "2023-12-26",
-      "speaker": {
-        "name": "久保優太",
-        "role": "fighter",
-        "affiliation": "PURGE TOKYO"
-      },
-      "content": {
-        "raw_text": "安保選手がMMAの洗礼を受ける。僕が勝ちます。",
-        "normalized_text": "久保優太が安保瑠輝也に勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=L_n_pXjM_M8",
-        "timestamp": "04:50"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "久保優太",
-        "source_url": "https://www.youtube.com/watch?v=L_n_pXjM_M8",
-        "source_ref": "statement_id=stmt-rizin-45-011",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。久保優太公式YouTube。",
-        "expected_winner": "久保優太",
-        "expected_method": "不明",
-        "target": "安保瑠輝也 vs 久保優太",
-        "expected_outcome": "久保優太が勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "久保優太",
-        "method": "Submission",
-        "actual_outcome": "久保優太が一本勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-012",
-      "statement_date": "2023-12-28",
-      "speaker": {
-        "name": "平本蓮",
-        "role": "fighter",
-        "affiliation": "剛毅會"
-      },
-      "content": {
-        "raw_text": "ドッドソンが扇久保さんに判定で勝つと思う。",
-        "normalized_text": "ジョン・ドッドソンが判定勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=ZfA7X_e_Oms",
-        "timestamp": "09:15"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "平本蓮",
-        "source_url": "https://www.youtube.com/watch?v=ZfA7X_e_Oms",
-        "source_ref": "statement_id=stmt-rizin-45-012",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。平本蓮公式YouTube。",
-        "expected_winner": "ジョン・ドッドソン",
-        "expected_method": "判定",
-        "target": "扇久保博正 vs ジョン・ドッドソン",
-        "expected_outcome": "ジョン・ドッドソンが判定勝ち",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "扇久保博正",
-        "method": "Decision",
-        "actual_outcome": "扇久保博正が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-013",
-      "statement_date": "2023-12-27",
-      "speaker": {
-        "name": "ジャン斉藤",
-        "role": "media",
-        "affiliation": "Dropkick"
-      },
-      "content": {
-        "raw_text": "上田幹雄選手がスダリオ選手をKOする期待を込めて。",
-        "normalized_text": "上田幹雄がKO勝利すると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://ch.nicovideo.jp/dropkick/blomaga/ar2178923",
-        "timestamp": "不明"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "ジャン斉藤",
-        "source_url": "https://ch.nicovideo.jp/dropkick/blomaga/ar2178923",
-        "source_ref": "statement_id=stmt-rizin-45-013",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。Dropkick記事。",
-        "expected_winner": "上田幹雄",
-        "expected_method": "KO",
-        "target": "スダリオ剛 vs 上田幹雄",
-        "expected_outcome": "上田幹雄がKO勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "上田幹雄",
-        "method": "KO",
-        "actual_outcome": "上田幹雄がKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-014",
-      "statement_date": "2023-12-30",
-      "speaker": {
-        "name": "魔裟斗",
-        "role": "commentator",
-        "affiliation": "フリー"
-      },
-      "content": {
-        "raw_text": "篠塚くんがスピードで圧倒して勝つでしょ。",
-        "normalized_text": "篠塚辰樹が勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=3u_Kx8XQ_Qc",
-        "timestamp": "06:22"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "魔裟斗",
-        "source_url": "https://www.youtube.com/watch?v=3u_Kx8XQ_Qc",
-        "source_ref": "statement_id=stmt-rizin-45-014",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。魔裟斗公式YouTube。",
-        "expected_winner": "篠塚辰樹",
-        "expected_method": "不明",
-        "target": "篠塚辰樹 vs 冨澤大智",
-        "expected_outcome": "篠塚辰樹が勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "篠塚辰樹",
-        "method": "Decision",
-        "actual_outcome": "篠塚辰樹が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-45-015",
-      "statement_date": "2023-12-25",
-      "speaker": {
-        "name": "升水翔兵",
-        "role": "fighter",
-        "affiliation": "不明"
-      },
-      "content": {
-        "raw_text": "新井丈選手がヒロヤ選手に打撃で勝つ。",
-        "normalized_text": "新井丈が勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=Yf_G7QfO6t8",
-        "timestamp": "03:40"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "升水翔兵",
-        "source_url": "https://www.youtube.com/watch?v=Yf_G7QfO6t8",
-        "source_ref": "statement_id=stmt-rizin-45-015",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。升水翔兵YouTube。原文の背景説明は要確認。",
-        "expected_winner": "新井丈",
-        "expected_method": "不明",
-        "target": "新井丈 vs ヒロヤ",
-        "expected_outcome": "新井丈が勝利",
-        "deadline": "2023-12-31"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-12-31",
-        "winner": "ヒロヤ",
-        "method": "TKO",
-        "actual_outcome": "ヒロヤがTKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    }
-  ],
-  "content_policy": {
-    "facts_only": true,
-    "no_opinion": true,
-    "no_analysis": true,
-    "no_ranking": true
-  }
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "rizin-45",
+    "event_meta":  {
+                       "event_name":  "にゃんこ大戦争 presents RIZIN.45",
+                       "organization":  "RIZIN",
+                       "sport":  "martial_arts",
+                       "discipline":  "mma",
+                       "event_tier":  "arena",
+                       "date":  "2023-12-31",
+                       "timezone":  "Asia/Tokyo",
+                       "country":  "JP",
+                       "venue":  "さいたまスーパーアリーナ",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "rizin45-01",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "YUSHI",
+                                        "blue":  "平本丈",
+                                        "outcome":  {
+                                                        "winner":  "平本丈",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-02",
+                                        "division":  "54.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "那須川龍心",
+                                        "blue":  "シン・ジョンミン",
+                                        "outcome":  {
+                                                        "winner":  "那須川龍心",
+                                                        "method":  "KO",
+                                                        "round":  2,
+                                                        "time":  "2:10",
+                                                        "result_note":  "パウンド"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-03",
+                                        "division":  "60.0kg",
+                                        "rules":  "RIZIN キックボクシング 3分3R",
+                                        "red":  "篠塚辰樹",
+                                        "blue":  "冨澤大智",
+                                        "outcome":  {
+                                                        "winner":  "篠塚辰樹",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "KICKBOXING"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-04",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "弥益ドミネーター聡志",
+                                        "blue":  "新居すぐる",
+                                        "outcome":  {
+                                                        "winner":  "新居すぐる",
+                                                        "method":  "KO",
+                                                        "round":  2,
+                                                        "time":  "1:03",
+                                                        "result_note":  "KO"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-05",
+                                        "division":  "70.0kg",
+                                        "rules":  "RIZIN MMA 5分2R",
+                                        "red":  "安保瑠輝也",
+                                        "blue":  "久保優太",
+                                        "outcome":  {
+                                                        "winner":  "久保優太",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  "4:28",
+                                                        "result_note":  "一本"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-06",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "新井丈",
+                                        "blue":  "ヒロヤ",
+                                        "outcome":  {
+                                                        "winner":  "ヒロヤ",
+                                                        "method":  "TKO",
+                                                        "round":  2,
+                                                        "time":  "2:53",
+                                                        "result_note":  "パンチ連打"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-07",
+                                        "division":  "77.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "イゴール・タナベ",
+                                        "blue":  "安西信昌",
+                                        "outcome":  {
+                                                        "winner":  "イゴール・タナベ",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  "1:32",
+                                                        "result_note":  "一本"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-08",
+                                        "division":  "65.0kg",
+                                        "rules":  "RIZIN MMA 5分2R",
+                                        "red":  "三浦孝太",
+                                        "blue":  "皇治",
+                                        "outcome":  {
+                                                        "winner":  "皇治",
+                                                        "method":  "KO",
+                                                        "round":  2,
+                                                        "time":  "0:59",
+                                                        "result_note":  "サッカーボールキック"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-09",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "芦澤竜誠",
+                                        "blue":  "太田忍",
+                                        "outcome":  {
+                                                        "winner":  "太田忍",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  "2:21",
+                                                        "result_note":  "チョークからパウンド"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-10",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "元谷友貴",
+                                        "blue":  "ヴィンス・モラレス",
+                                        "outcome":  {
+                                                        "winner":  "ヴィンス・モラレス",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-11",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "扇久保博正",
+                                        "blue":  "ジョン・ドッドソン",
+                                        "outcome":  {
+                                                        "winner":  "扇久保博正",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-12",
+                                        "division":  "120.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "スダリオ剛",
+                                        "blue":  "上田幹雄",
+                                        "outcome":  {
+                                                        "winner":  "上田幹雄",
+                                                        "method":  "KO",
+                                                        "round":  2,
+                                                        "time":  "0:57",
+                                                        "result_note":  "上段ヒザ"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-13",
+                                        "division":  "49.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "伊澤星花",
+                                        "blue":  "山本美憂",
+                                        "outcome":  {
+                                                        "winner":  "伊澤星花",
+                                                        "method":  "Submission",
+                                                        "round":  2,
+                                                        "time":  "0:37",
+                                                        "result_note":  "一本（山本美憂引退試合）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-14",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "平本蓮",
+                                        "blue":  "YA-MAN",
+                                        "outcome":  {
+                                                        "winner":  "平本蓮",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-15",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "クレベル・コイケ",
+                                        "blue":  "斎藤裕",
+                                        "outcome":  {
+                                                        "winner":  "クレベル・コイケ",
+                                                        "method":  "Submission",
+                                                        "round":  3,
+                                                        "time":  "1:22",
+                                                        "result_note":  "チョーク"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-16",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "フアン・アーチュレッタ",
+                                        "blue":  "朝倉海",
+                                        "outcome":  {
+                                                        "winner":  "朝倉海",
+                                                        "method":  "KO",
+                                                        "round":  2,
+                                                        "time":  "3:20",
+                                                        "result_note":  "ヒザ蹴り（バンタム級タイトルマッチ）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin45-17",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "堀口恭司",
+                                        "blue":  "神龍誠",
+                                        "outcome":  {
+                                                        "winner":  "堀口恭司",
+                                                        "method":  "Submission",
+                                                        "round":  2,
+                                                        "time":  null,
+                                                        "result_note":  "一本（フライ級王座決定戦）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-rizin-45-001",
+                           "statement_date":  "2023-12-28",
+                           "speaker":  {
+                                           "name":  "扇久保博正",
+                                           "role":  "fighter",
+                                           "affiliation":  "パラエストラ松戸"
+                                       },
+                           "content":  {
+                                           "raw_text":  "海くんがKOで勝つと思います。右のカウンターで。",
+                                           "normalized_text":  "朝倉海が右のカウンターでKO勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=7uV8-M6b9sQ",
+                                          "timestamp":  "15:30"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "扇久保博正",
+                                              "source_url":  "https://www.youtube.com/watch?v=7uV8-M6b9sQ",
+                                              "source_ref":  "statement_id=stmt-rizin-45-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネルの勝敗予想回。",
+                                              "expected_winner":  "朝倉海",
+                                              "expected_method":  "KO",
+                                              "target":  "フアン・アーチュレッタ vs 朝倉海",
+                                              "expected_outcome":  "朝倉海がKO勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "朝倉海",
+                                                "method":  "KO",
+                                                "actual_outcome":  "朝倉海がKO勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-002",
+                           "statement_date":  "2023-12-25",
+                           "speaker":  {
+                                           "name":  "朝倉未来",
+                                           "role":  "fighter",
+                                           "affiliation":  "JAPAN TOP TEAM"
+                                       },
+                           "content":  {
+                                           "raw_text":  "海が勝つと思います。パンチの精度が違う。",
+                                           "normalized_text":  "朝倉海がパンチの精度で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=F3xZ8Tz7r_E",
+                                          "timestamp":  "08:45"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "朝倉未来",
+                                              "source_url":  "https://www.youtube.com/watch?v=F3xZ8Tz7r_E",
+                                              "source_ref":  "statement_id=stmt-rizin-45-002",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。朝倉未来公式YouTubeチャンネル。本人による直接発言。",
+                                              "expected_winner":  "朝倉海",
+                                              "expected_method":  "KO",
+                                              "target":  "フアン・アーチュレッタ vs 朝倉海",
+                                              "expected_outcome":  "朝倉海がKO勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "朝倉海",
+                                                "method":  "KO",
+                                                "actual_outcome":  "朝倉海がKO勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-003",
+                           "statement_date":  "2023-12-28",
+                           "speaker":  {
+                                           "name":  "石渡伸太郎",
+                                           "role":  "coach",
+                                           "affiliation":  "CAVE"
+                                       },
+                           "content":  {
+                                           "raw_text":  "堀口選手が地力の差を見せて判定、もしくは後半に仕留める。",
+                                           "normalized_text":  "堀口恭司が実力差で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
+                                          "timestamp":  "04:20"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "石渡伸太郎",
+                                              "source_url":  "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
+                                              "source_ref":  "statement_id=stmt-rizin-45-003",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式YouTubeチャンネル。元トップランカー・指導者視点。",
+                                              "expected_winner":  "堀口恭司",
+                                              "expected_method":  "不明",
+                                              "target":  "堀口恭司 vs 神龍誠",
+                                              "expected_outcome":  "堀口恭司が勝利",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "堀口恭司",
+                                                "method":  "Submission",
+                                                "actual_outcome":  "堀口恭司が一本勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-004",
+                           "statement_date":  "2023-12-28",
+                           "speaker":  {
+                                           "name":  "石渡伸太郎",
+                                           "role":  "coach",
+                                           "affiliation":  "CAVE"
+                                       },
+                           "content":  {
+                                           "raw_text":  "クレベル選手が一本取るイメージが強い。",
+                                           "normalized_text":  "クレベル・コイケが一本勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
+                                          "timestamp":  "12:15"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "石渡伸太郎",
+                                              "source_url":  "https://www.youtube.com/watch?v=L_6n_U_Xv3s",
+                                              "source_ref":  "statement_id=stmt-rizin-45-004",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式YouTubeチャンネル。",
+                                              "expected_winner":  "クレベル・コイケ",
+                                              "expected_method":  "SUB",
+                                              "target":  "クレベル・コイケ vs 斎藤裕",
+                                              "expected_outcome":  "クレベル・コイケが一本勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "クレベル・コイケ",
+                                                "method":  "Submission",
+                                                "actual_outcome":  "クレベル・コイケが一本勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-005",
+                           "statement_date":  "2023-12-29",
+                           "speaker":  {
+                                           "name":  "大沢ケンジ",
+                                           "role":  "commentator",
+                                           "affiliation":  "和術慧舟會HEARTS"
+                                       },
+                           "content":  {
+                                           "raw_text":  "アーチュレッタのタフさは異常。判定でアーチュレッタ。",
+                                           "normalized_text":  "アーチュレッタが判定で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=7p_G7z8pX3A",
+                                          "timestamp":  "15:30"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "大沢ケンジ",
+                                              "source_url":  "https://www.youtube.com/watch?v=7p_G7z8pX3A",
+                                              "source_ref":  "statement_id=stmt-rizin-45-005",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。格闘キャスト。解説者視点。",
+                                              "expected_winner":  "フアン・アーチュレッタ",
+                                              "expected_method":  "判定",
+                                              "target":  "フアン・アーチュレッタ vs 朝倉海",
+                                              "expected_outcome":  "フアン・アーチュレッタが判定勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "朝倉海",
+                                                "method":  "KO",
+                                                "actual_outcome":  "朝倉海がKO勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-006",
+                           "statement_date":  "2023-12-27",
+                           "speaker":  {
+                                           "name":  "扇久保博正",
+                                           "role":  "fighter",
+                                           "affiliation":  "パラエストラ松戸"
+                                       },
+                           "content":  {
+                                           "raw_text":  "堀口選手が全局面で圧倒して勝つと思います。",
+                                           "normalized_text":  "堀口恭司が全局面で圧倒し勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=f0_M0Kk_D6E",
+                                          "timestamp":  "06:10"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "扇久保博正",
+                                              "source_url":  "https://www.youtube.com/watch?v=f0_M0Kk_D6E",
+                                              "source_ref":  "statement_id=stmt-rizin-45-006",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。扇久保博正公式YouTubeチャンネル。現役選手視点。",
+                                              "expected_winner":  "堀口恭司",
+                                              "expected_method":  "不明",
+                                              "target":  "堀口恭司 vs 神龍誠",
+                                              "expected_outcome":  "堀口恭司が勝利",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "堀口恭司",
+                                                "method":  "Submission",
+                                                "actual_outcome":  "堀口恭司が一本勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-007",
+                           "statement_date":  "2023-12-25",
+                           "speaker":  {
+                                           "name":  "川尻達也",
+                                           "role":  "commentator",
+                                           "affiliation":  "フリー"
+                                       },
+                           "content":  {
+                                           "raw_text":  "堀口選手が一本かKOで仕留めるんじゃないかと。",
+                                           "normalized_text":  "堀口恭司がフィニッシュして勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=N4l_f8p9W-s",
+                                          "timestamp":  "05:45"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "川尻達也",
+                                              "source_url":  "https://www.youtube.com/watch?v=N4l_f8p9W-s",
+                                              "source_ref":  "statement_id=stmt-rizin-45-007",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式YouTube（番組/企画内発言）。",
+                                              "expected_winner":  "堀口恭司",
+                                              "expected_method":  "不明",
+                                              "target":  "堀口恭司 vs 神龍誠",
+                                              "expected_outcome":  "堀口恭司が一本かKOで勝利",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "堀口恭司",
+                                                "method":  "Submission",
+                                                "actual_outcome":  "堀口恭司が一本勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-008",
+                           "statement_date":  "2023-12-27",
+                           "speaker":  {
+                                           "name":  "石渡伸太郎",
+                                           "role":  "coach",
+                                           "affiliation":  "CAVE"
+                                       },
+                           "content":  {
+                                           "raw_text":  "平本選手が判定で競り勝つと見てます。",
+                                           "normalized_text":  "平本蓮が判定勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=9_D-C_H9B20",
+                                          "timestamp":  "12:30"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "石渡伸太郎",
+                                              "source_url":  "https://www.youtube.com/watch?v=9_D-C_H9B20",
+                                              "source_ref":  "statement_id=stmt-rizin-45-008",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式チャンネル。",
+                                              "expected_winner":  "平本蓮",
+                                              "expected_method":  "判定",
+                                              "target":  "平本蓮 vs YA-MAN",
+                                              "expected_outcome":  "平本蓮が判定勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "平本蓮",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "平本蓮が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-010",
+                           "statement_date":  "2023-12-24",
+                           "speaker":  {
+                                           "name":  "金原正徳",
+                                           "role":  "fighter",
+                                           "affiliation":  "リバーサルジム立川ALPHA"
+                                       },
+                           "content":  {
+                                           "raw_text":  "クレベルが斎藤選手を削って一本取る可能性が高い。",
+                                           "normalized_text":  "クレベル・コイケが一本勝ちすると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=NnF_A_U4K6c",
+                                          "timestamp":  "15:40"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "金原正徳",
+                                              "source_url":  "https://www.youtube.com/watch?v=NnF_A_U4K6c",
+                                              "source_ref":  "statement_id=stmt-rizin-45-010",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。金原正徳公式YouTube。",
+                                              "expected_winner":  "クレベル・コイケ",
+                                              "expected_method":  "SUB",
+                                              "target":  "クレベル・コイケ vs 斎藤裕",
+                                              "expected_outcome":  "クレベル・コイケが一本勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "クレベル・コイケ",
+                                                "method":  "Submission",
+                                                "actual_outcome":  "クレベル・コイケが一本勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-012",
+                           "statement_date":  "2023-12-28",
+                           "speaker":  {
+                                           "name":  "平本蓮",
+                                           "role":  "fighter",
+                                           "affiliation":  "剛毅會"
+                                       },
+                           "content":  {
+                                           "raw_text":  "ドッドソンが扇久保さんに判定で勝つと思う。",
+                                           "normalized_text":  "ジョン・ドッドソンが判定勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=ZfA7X_e_Oms",
+                                          "timestamp":  "09:15"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "平本蓮",
+                                              "source_url":  "https://www.youtube.com/watch?v=ZfA7X_e_Oms",
+                                              "source_ref":  "statement_id=stmt-rizin-45-012",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。平本蓮公式YouTube。",
+                                              "expected_winner":  "ジョン・ドッドソン",
+                                              "expected_method":  "判定",
+                                              "target":  "扇久保博正 vs ジョン・ドッドソン",
+                                              "expected_outcome":  "ジョン・ドッドソンが判定勝ち",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "扇久保博正",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "扇久保博正が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-013",
+                           "statement_date":  "2023-12-27",
+                           "speaker":  {
+                                           "name":  "ジャン斉藤",
+                                           "role":  "media",
+                                           "affiliation":  "Dropkick"
+                                       },
+                           "content":  {
+                                           "raw_text":  "上田幹雄選手がスダリオ選手をKOする期待を込めて。",
+                                           "normalized_text":  "上田幹雄がKO勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://ch.nicovideo.jp/dropkick/blomaga/ar2178923",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "ジャン斉藤",
+                                              "source_url":  "https://ch.nicovideo.jp/dropkick/blomaga/ar2178923",
+                                              "source_ref":  "statement_id=stmt-rizin-45-013",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。Dropkick記事。",
+                                              "expected_winner":  "上田幹雄",
+                                              "expected_method":  "KO",
+                                              "target":  "スダリオ剛 vs 上田幹雄",
+                                              "expected_outcome":  "上田幹雄がKO勝利",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "上田幹雄",
+                                                "method":  "KO",
+                                                "actual_outcome":  "上田幹雄がKO勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-014",
+                           "statement_date":  "2023-12-30",
+                           "speaker":  {
+                                           "name":  "魔裟斗",
+                                           "role":  "commentator",
+                                           "affiliation":  "フリー"
+                                       },
+                           "content":  {
+                                           "raw_text":  "篠塚くんがスピードで圧倒して勝つでしょ。",
+                                           "normalized_text":  "篠塚辰樹が勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=3u_Kx8XQ_Qc",
+                                          "timestamp":  "06:22"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "魔裟斗",
+                                              "source_url":  "https://www.youtube.com/watch?v=3u_Kx8XQ_Qc",
+                                              "source_ref":  "statement_id=stmt-rizin-45-014",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。魔裟斗公式YouTube。",
+                                              "expected_winner":  "篠塚辰樹",
+                                              "expected_method":  "不明",
+                                              "target":  "篠塚辰樹 vs 冨澤大智",
+                                              "expected_outcome":  "篠塚辰樹が勝利",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "篠塚辰樹",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "篠塚辰樹が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-45-015",
+                           "statement_date":  "2023-12-25",
+                           "speaker":  {
+                                           "name":  "升水翔兵",
+                                           "role":  "fighter",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "新井丈選手がヒロヤ選手に打撃で勝つ。",
+                                           "normalized_text":  "新井丈が勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=Yf_G7QfO6t8",
+                                          "timestamp":  "03:40"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "升水翔兵",
+                                              "source_url":  "https://www.youtube.com/watch?v=Yf_G7QfO6t8",
+                                              "source_ref":  "statement_id=stmt-rizin-45-015",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。升水翔兵YouTube。原文の背景説明は要確認。",
+                                              "expected_winner":  "新井丈",
+                                              "expected_method":  "不明",
+                                              "target":  "新井丈 vs ヒロヤ",
+                                              "expected_outcome":  "新井丈が勝利",
+                                              "deadline":  "2023-12-31"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-31",
+                                                "winner":  "ヒロヤ",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "ヒロヤがTKO勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       }
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
 }

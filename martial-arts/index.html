@@ -28,13 +28,9 @@
 <nav aria-label="グローバルナビ">
   <ul>
     <li><a href="../index.html">トップ</a></li>
-    <li class="nav__parent">
-      <a href="./">格闘技ログ</a>
-      <ul>
-        <li><a href="logs.html">格闘技ログ一覧</a></li>
-        <li><a href="predictors.html">予測者一覧</a></li>
-      </ul>
-    </li>
+    <li><a href="./predictors.html">MMA予測</a></li>
+    <li><a href="../predictors.html">ボクシング予測</a></li>
+    <li><a href="../kick-predictors.html">キック予測</a></li>
   </ul>
 </nav>
 
@@ -84,7 +80,9 @@
 (function () {
   "use strict";
 
-  var CACHE = "20260318";
+  var CACHE = "20260323a";
+
+  var EXCLUDED_RANK_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
 
   function fetchIndex() {
     return fetch("../data/index.json?v=" + CACHE).then(function (res) {
@@ -183,6 +181,20 @@
     map[key].total += 1;
     if (hit) map[key].hit += 1;
   }
+  function resolvePredictorNameForRanking(pred, stmt) {
+    var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+    var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
+    if (pn && !EXCLUDED_RANK_PREDICTOR_NAMES[pn]) return pn;
+    if (sn && !EXCLUDED_RANK_PREDICTOR_NAMES[sn]) return sn;
+    if (pn) return pn;
+    if (sn) return sn;
+    return "";
+  }
+
+  function resolvePredictorNameForBoutRanking(pred) {
+    return pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+  }
+
   function collectFromEventJson(evData, counts) {
     if (!evData) return;
     if (Array.isArray(evData.cards)) {
@@ -192,7 +204,8 @@
           var pred = b && b.prediction ? b.prediction : null;
           var out = b && b.outcome ? b.outcome : null;
           if (!pred || !pred.exists || !pred.expected_winner || !out || !out.winner) return;
-          var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+          var predictor = resolvePredictorNameForBoutRanking(pred);
+          if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
           addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(out.winner));
         });
       });
@@ -202,7 +215,8 @@
         var pred = stmt && stmt.prediction ? stmt.prediction : null;
         var ver = stmt && stmt.verification ? stmt.verification : null;
         if (!pred || !pred.exists || !pred.expected_winner || !ver || !ver.winner) return;
-        var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+        var predictor = resolvePredictorNameForRanking(pred, stmt);
+        if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
         addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(ver.winner));
       });
     }
@@ -236,6 +250,27 @@
     containerEl.appendChild(table);
   }
 
+  // 同時フェッチ数を limit 件に制限してリクエスト集中を避ける
+  function fetchAllWithLimit(items, fetchFn, limit) {
+    return new Promise(function (resolve) {
+      var results = new Array(items.length);
+      var running = 0;
+      var nextIdx = 0;
+      function runNext() {
+        if (nextIdx >= items.length && running === 0) { resolve(results); return; }
+        while (running < limit && nextIdx < items.length) {
+          (function (i) {
+            running++;
+            fetchFn(items[i])
+              .then(function (r) { results[i] = r; running--; runNext(); })
+              .catch(function () { results[i] = null; running--; runNext(); });
+          })(nextIdx++);
+        }
+      }
+      runNext();
+    });
+  }
+
   fetchIndex()
     .then(function (raw) {
       var list = normalizeIndex(raw);
@@ -246,13 +281,10 @@
       renderSpotlight(document.getElementById("spotlight-past"), spotlight.past, "興行後");
 
       var counts = {};
-      return Promise.all(
-        list.map(function (ev) {
-          return fetchEventFile(ev.file)
-            .then(function (evData) { collectFromEventJson(evData, counts); })
-            .catch(function () {});
-        })
-      ).then(function () {
+      return fetchAllWithLimit(list, function (ev) {
+        return fetchEventFile(ev.file)
+          .then(function (evData) { collectFromEventJson(evData, counts); });
+      }, 4).then(function () {
         renderRanking(counts, document.getElementById("hit-rate-ranking"));
       });
     })

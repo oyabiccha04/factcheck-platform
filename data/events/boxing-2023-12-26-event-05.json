@@ -1,0 +1,487 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2023-12-26-event-05",
+    "event_meta":  {
+                       "event_name":  "世界スーパーバンタム級4団体王座統一戦 井上尚弥 vs マーロン・タパレス",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2023-12-26",
+                       "timezone":  "不明",
+                       "country":  "不明",
+                       "venue":  "不明",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2023-12-26-event-05-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "井上尚弥",
+                                        "blue":  "マーロン・タパレス",
+                                        "outcome":  {
+                                                        "winner":  "井上尚弥",
+                                                        "method":  "KO",
+                                                        "round":  10,
+                                                        "time":  null,
+                                                        "result_note":  "井上尚弥が10回KO勝ちで2階級4団体統一"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-001",
+                           "statement_date":  "2023-12-26",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "media",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "イノウエがしっかりとしたアドバンテージを持つと思います。",
+                                           "normalized_text":  "母国のタパレスではなく井上優位と主張。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://the-ans.jp/news/380182/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://the-ans.jp/news/380182/",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-19）。発言者個人名の特定ができず要確認。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上優位",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝ちで2階級4団体統一",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-002",
+                           "statement_date":  "2023-12-22",
+                           "speaker":  {
+                                           "name":  "長谷川穂積",
+                                           "role":  "commentator",
+                                           "affiliation":  "元世界3階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥のKO勝ち。中盤から後半にかけて倒すと予想",
+                                           "normalized_text":  "井上尚弥の中盤〜後半KO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://hochi.news/articles/20231222-OHT1T51197.html",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "長谷川穂積",
+                                              "source_url":  "https://hochi.news/articles/20231222-OHT1T51197.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-002",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。元世界3階級制覇王者。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥の中盤〜後半KO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-003",
+                           "statement_date":  "2023-12-25",
+                           "speaker":  {
+                                           "name":  "山中慎介",
+                                           "role":  "commentator",
+                                           "affiliation":  "元WBC世界バンタム級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上選手のKO勝ち。タパレスのガードを崩して中盤には仕留める",
+                                           "normalized_text":  "井上尚弥の中盤KO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.daily.co.jp/ring/2023/12/25/0017164998.shtml",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "山中慎介",
+                                              "source_url":  "https://www.daily.co.jp/ring/2023/12/25/0017164998.shtml",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-003",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。元世界王者・解説者。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥の中盤KO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-004",
+                           "statement_date":  "2023-12-22",
+                           "speaker":  {
+                                           "name":  "内山高志",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元WBA世界スーパーフェザー級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥のKO勝利。中盤から後半。タパレスはタフだが井上のパンチが勝る",
+                                           "normalized_text":  "井上尚弥のKO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=FqGjNfA-F6o",
+                                          "timestamp":  "10:15"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "内山高志",
+                                              "source_url":  "https://www.youtube.com/watch?v=FqGjNfA-F6o",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-004",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。元世界王者。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥のKO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-005",
+                           "statement_date":  "2023-12-23",
+                           "speaker":  {
+                                           "name":  "渡嘉敷勝男",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元WBA世界ライトフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥のKO勝ち。早い段階で倒すと期待している",
+                                           "normalized_text":  "井上尚弥の早期KO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=jW0Y7X9Xy4s",
+                                          "timestamp":  "04:30"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "渡嘉敷勝男",
+                                              "source_url":  "https://www.youtube.com/watch?v=jW0Y7X9Xy4s",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-005",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。元世界王者。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥の早期KO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-006",
+                           "statement_date":  "2023-12-23",
+                           "speaker":  {
+                                           "name":  "竹原慎二",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元WBA世界ミドル級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上の圧勝。KO。タパレスもガードが固いがそれを貫く",
+                                           "normalized_text":  "井上尚弥のKO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=jW0Y7X9Xy4s",
+                                          "timestamp":  "06:20"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "竹原慎二",
+                                              "source_url":  "https://www.youtube.com/watch?v=jW0Y7X9Xy4s",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-006",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。元世界王者。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥のKO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-007",
+                           "statement_date":  "2023-12-23",
+                           "speaker":  {
+                                           "name":  "畑山隆則",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥のKO。タパレスのディフェンス力はあるが、井上の精度には耐えられない",
+                                           "normalized_text":  "井上尚弥のKO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=jW0Y7X9Xy4s",
+                                          "timestamp":  "07:50"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "畑山隆則",
+                                              "source_url":  "https://www.youtube.com/watch?v=jW0Y7X9Xy4s",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-007",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。元世界王者。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥のKO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-008",
+                           "statement_date":  "2023-12-24",
+                           "speaker":  {
+                                           "name":  "京口紘人",
+                                           "role":  "boxer",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上尚弥のKO勝利。8ラウンド前後と予想",
+                                           "normalized_text":  "井上尚弥の8回前後KO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=P67y_V4_8hE",
+                                          "timestamp":  "09:30"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "京口紘人",
+                                              "source_url":  "https://www.youtube.com/watch?v=P67y_V4_8hE",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-008",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A。現役プロボクサー。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥の8回前後KO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-009",
+                           "statement_date":  "2023-12-25",
+                           "speaker":  {
+                                           "name":  "Allan Cerf",
+                                           "role":  "media",
+                                           "affiliation":  "Max Boxing"
+                                       },
+                           "content":  {
+                                           "raw_text":  "I see Inoue exerting his unique power and speed advantages to win by TKO 8-9.",
+                                           "normalized_text":  "井上尚弥の8-9回TKO勝利"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.maxboxing.com/news/news/believe-the-hype---naoya-inoue-vs-marlon-tapales",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "Allan Cerf",
+                                              "source_url":  "https://www.maxboxing.com/news/news/believe-the-hype---naoya-inoue-vs-marlon-tapales",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-009",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier B。ボクシングライター。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "TKO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥の8-9回TKO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-010",
+                           "statement_date":  "2023-12-26",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "media",
+                                           "affiliation":  "CBS Sports（記事名義・個人名未特定）"
+                                       },
+                           "content":  {
+                                           "raw_text":  "The real question is whether Tapales can score the moral victory of making it through 12 full rounds without being stopped. That seems unlikely.",
+                                           "normalized_text":  "井上尚弥のKO勝利（タパレスの完走は困難）"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.cbssports.com/boxing/news/naoya-inoue-vs-marlon-tapales-fight-prediction-odds-start-time-preview-undercard-expert-picks/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://www.cbssports.com/boxing/news/naoya-inoue-vs-marlon-tapales-fight-prediction-odds-start-time-preview-undercard-expert-picks/",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-010",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier B。CBS Sports 記事。個人名の特定ができず要確認。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥のKO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-011",
+                           "statement_date":  "2023-12-25",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "media",
+                                           "affiliation":  "Pro Boxing Insider（記事名義・個人名未特定）"
+                                       },
+                           "content":  {
+                                           "raw_text":  "Sooner or later I believe Inoue\u0027s going to eventually put enough power shots together to stop him.",
+                                           "normalized_text":  "井上尚弥のストップ勝利"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://proboxinginsider.com/naoya-inoue-vs-marlon-tapales-preview-prediction/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://proboxinginsider.com/naoya-inoue-vs-marlon-tapales-preview-prediction/",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-011",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier B。記事名義。個人名の特定ができず要確認。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥のストップ勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "10回KO。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
+                       }
+                   ],
+    "charter_update_candidates":  [
+                                      {
+                                          "title":  "抽出目標数と個人名特定（event-05）",
+                                          "problem":  "日本語圏の主要解説者（Tier A）は網羅できたが、海外一次情報で個人名を付けた予測の確保にばらつきがあり、15件目標に対し11件（個人名特定は一部が不明）に留まった。",
+                                          "proposed_rule":  "一次情報が不足する場合でも推測で埋めず、確認できた範囲のみを出力し、メディア名義のものは source_note に要確認理由を付記する。",
+                                          "scope":  "events",
+                                          "evidence_urls":  [
+                                                                "https://www.maxboxing.com/news/news/believe-the-hype---naoya-inoue-vs-marlon-tapales"
+                                                            ]
+                                      }
+                                  ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

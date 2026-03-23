@@ -1,287 +1,297 @@
 {
-  "schema": "standard-log-v1.2-json",
-  "schema_version": "1.2.1",
-  "event_id": "rizin-44",
-  "event_meta": {
-    "event_name": "RIZIN.44",
-    "organization": "RIZIN",
-    "sport": "martial_arts",
-    "discipline": "mma",
-    "event_tier": "arena",
-    "date": "2023-09-24",
-    "timezone": "Asia/Tokyo",
-    "country": "JP",
-    "venue": "さいたまスーパーアリーナ",
-    "is_dome_class": false
-  },
-  "cards": [
-    {
-      "card_id": "main",
-      "card_name": "メインカード",
-      "bouts": [
-        {
-          "bout_id": "rizin44-01",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "征矢貴",
-          "blue": "ラマザン・テミロフ",
-          "outcome": {
-            "winner": "ラマザン・テミロフ",
-            "method": "KO",
-            "round": 1,
-            "time": "3:15",
-            "result_note": "スタンドパンチ"
-          }
-        },
-        {
-          "bout_id": "rizin44-02",
-          "division": "120.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "シビサイ頌真",
-          "blue": "ヤノス・チューカス",
-          "outcome": {
-            "winner": "シビサイ頌真",
-            "method": "Submission",
-            "round": 1,
-            "time": "2:27",
-            "result_note": "ヒールホールド"
-          }
-        },
-        {
-          "bout_id": "rizin44-03",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "中島太一",
-          "blue": "岡田遼",
-          "outcome": {
-            "winner": "中島太一",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin44-04",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "福田龍彌",
-          "blue": "山本アーセン",
-          "outcome": {
-            "winner": "福田龍彌",
-            "method": "TKO",
-            "round": 3,
-            "time": "1:37",
-            "result_note": "ドクターストップ：有効打による負傷"
-          }
-        },
-        {
-          "bout_id": "rizin44-05",
-          "division": "66.2kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "摩嶋一整",
-          "blue": "横山武司",
-          "outcome": {
-            "winner": "摩嶋一整",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin44-06",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "中原由貴",
-          "blue": "白川陸斗",
-          "outcome": {
-            "winner": "中原由貴",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin44-07",
-          "division": "70.0kg",
-          "rules": "RIZIN キックボクシング 3分3R",
-          "red": "安保瑠輝也",
-          "blue": "宇佐美正パトリック",
-          "outcome": {
-            "winner": "安保瑠輝也",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin44-08",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "スパイク・カーライル",
-          "blue": "堀江圭功",
-          "outcome": {
-            "winner": "堀江圭功",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin44-09",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "牛久絢太郎",
-          "blue": "萩原京平",
-          "outcome": {
-            "winner": "牛久絢太郎",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin44-10",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "クレベル・コイケ",
-          "blue": "金原正徳",
-          "outcome": {
-            "winner": "金原正徳",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-44-001",
-      "statement_date": "2023-09-21",
-      "speaker": {
-        "name": "斎藤裕",
-        "role": "fighter",
-        "affiliation": "パラエストラ小岩"
-      },
-      "content": {
-        "raw_text": "金原さんが勝つんじゃないかなと思います。自分の形に持っていければ。",
-        "normalized_text": "金原正徳が自分の形を作って勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=F_f0h9f-vNo",
-        "timestamp": "12:45"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "斎藤裕",
-        "source_url": "https://www.youtube.com/watch?v=F_f0h9f-vNo",
-        "source_ref": "statement_id=stmt-rizin-44-001",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。自身のYouTubeチャンネルにて詳細解説。",
-        "expected_winner": "金原正徳",
-        "expected_method": "判定",
-        "target": "クレベル・コイケ vs 金原正徳",
-        "expected_outcome": "金原正徳が判定勝ち",
-        "deadline": "2023-09-24"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-09-24",
-        "winner": "金原正徳",
-        "method": "Decision",
-        "actual_outcome": "金原正徳が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-44-002",
-      "statement_date": "2023-09-22",
-      "speaker": {
-        "name": "朝倉未来",
-        "role": "fighter",
-        "affiliation": "JAPAN TOP TEAM"
-      },
-      "content": {
-        "raw_text": "牛久くんが勝つと思います。地力が違うというか、組みの展開で。",
-        "normalized_text": "組み技の地力の差で牛久が勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=mZ-m5W_Lw8E",
-        "timestamp": "08:20"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "朝倉未来",
-        "source_url": "https://www.youtube.com/watch?v=mZ-m5W_Lw8E",
-        "source_ref": "statement_id=stmt-rizin-44-002",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。勝敗予想動画より抽出。",
-        "expected_winner": "牛久絢太郎",
-        "expected_method": "判定",
-        "target": "牛久絢太郎 vs 萩原京平",
-        "expected_outcome": "牛久絢太郎が判定勝ち",
-        "deadline": "2023-09-24"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-09-24",
-        "winner": "牛久絢太郎",
-        "method": "Decision",
-        "actual_outcome": "牛久絢太郎が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-44-003",
-      "statement_date": "2023-09-20",
-      "speaker": {
-        "name": "昇侍",
-        "role": "fighter",
-        "affiliation": "KIBAマーシャルアーツクラブ"
-      },
-      "content": {
-        "raw_text": "堀江選手が打撃で圧倒して勝つ展開が見える。",
-        "normalized_text": "堀江圭功が打撃で優位に進めて勝利すると予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=9_pY6I9J0C0",
-        "timestamp": "05:15"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "昇侍",
-        "source_url": "https://www.youtube.com/watch?v=9_pY6I9J0C0",
-        "source_ref": "statement_id=stmt-rizin-44-003",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式の事前番組または個人の解説動画より。",
-        "expected_winner": "堀江圭功",
-        "expected_method": "不明",
-        "target": "スパイク・カーライル vs 堀江圭功",
-        "expected_outcome": "堀江圭功が勝利",
-        "deadline": "2023-09-24"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-09-24",
-        "winner": "堀江圭功",
-        "method": "Decision",
-        "actual_outcome": "堀江圭功が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    }
-  ],
-  "content_policy": {
-    "facts_only": true,
-    "no_opinion": true,
-    "no_analysis": true,
-    "no_ranking": true
-  }
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "rizin-44",
+    "event_meta":  {
+                       "event_name":  "RIZIN.44",
+                       "organization":  "RIZIN",
+                       "sport":  "martial_arts",
+                       "discipline":  "mma",
+                       "event_tier":  "arena",
+                       "date":  "2023-09-24",
+                       "timezone":  "Asia/Tokyo",
+                       "country":  "JP",
+                       "venue":  "さいたまスーパーアリーナ",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "rizin44-01",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "征矢貴",
+                                        "blue":  "ラマザン・テミロフ",
+                                        "outcome":  {
+                                                        "winner":  "ラマザン・テミロフ",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  "3:15",
+                                                        "result_note":  "スタンドパンチ"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-02",
+                                        "division":  "120.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "シビサイ頌真",
+                                        "blue":  "ヤノス・チューカス",
+                                        "outcome":  {
+                                                        "winner":  "シビサイ頌真",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  "2:27",
+                                                        "result_note":  "ヒールホールド"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-03",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "中島太一",
+                                        "blue":  "岡田遼",
+                                        "outcome":  {
+                                                        "winner":  "中島太一",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-04",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "福田龍彌",
+                                        "blue":  "山本アーセン",
+                                        "outcome":  {
+                                                        "winner":  "福田龍彌",
+                                                        "method":  "TKO",
+                                                        "round":  3,
+                                                        "time":  "1:37",
+                                                        "result_note":  "ドクターストップ：有効打による負傷"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-05",
+                                        "division":  "66.2kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "摩嶋一整",
+                                        "blue":  "横山武司",
+                                        "outcome":  {
+                                                        "winner":  "摩嶋一整",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-06",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "中原由貴",
+                                        "blue":  "白川陸斗",
+                                        "outcome":  {
+                                                        "winner":  "中原由貴",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-07",
+                                        "division":  "70.0kg",
+                                        "rules":  "RIZIN キックボクシング 3分3R",
+                                        "red":  "安保瑠輝也",
+                                        "blue":  "宇佐美正パトリック",
+                                        "outcome":  {
+                                                        "winner":  "安保瑠輝也",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "KICKBOXING"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-08",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "スパイク・カーライル",
+                                        "blue":  "堀江圭功",
+                                        "outcome":  {
+                                                        "winner":  "堀江圭功",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-09",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "牛久絢太郎",
+                                        "blue":  "萩原京平",
+                                        "outcome":  {
+                                                        "winner":  "牛久絢太郎",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin44-10",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "クレベル・コイケ",
+                                        "blue":  "金原正徳",
+                                        "outcome":  {
+                                                        "winner":  "金原正徳",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-rizin-44-001",
+                           "statement_date":  "2023-09-21",
+                           "speaker":  {
+                                           "name":  "斎藤裕",
+                                           "role":  "fighter",
+                                           "affiliation":  "パラエストラ小岩"
+                                       },
+                           "content":  {
+                                           "raw_text":  "金原さんが勝つんじゃないかなと思います。自分の形に持っていければ。",
+                                           "normalized_text":  "金原正徳が自分の形を作って勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=F_f0h9f-vNo",
+                                          "timestamp":  "12:45"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "斎藤裕",
+                                              "source_url":  "https://www.youtube.com/watch?v=F_f0h9f-vNo",
+                                              "source_ref":  "statement_id=stmt-rizin-44-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。自身のYouTubeチャンネルにて詳細解説。",
+                                              "expected_winner":  "金原正徳",
+                                              "expected_method":  "判定",
+                                              "target":  "クレベル・コイケ vs 金原正徳",
+                                              "expected_outcome":  "金原正徳が判定勝ち",
+                                              "deadline":  "2023-09-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-09-24",
+                                                "winner":  "金原正徳",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "金原正徳が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-44-002",
+                           "statement_date":  "2023-09-22",
+                           "speaker":  {
+                                           "name":  "朝倉未来",
+                                           "role":  "fighter",
+                                           "affiliation":  "JAPAN TOP TEAM"
+                                       },
+                           "content":  {
+                                           "raw_text":  "牛久くんが勝つと思います。地力が違うというか、組みの展開で。",
+                                           "normalized_text":  "組み技の地力の差で牛久が勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=mZ-m5W_Lw8E",
+                                          "timestamp":  "08:20"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "朝倉未来",
+                                              "source_url":  "https://www.youtube.com/watch?v=mZ-m5W_Lw8E",
+                                              "source_ref":  "statement_id=stmt-rizin-44-002",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。勝敗予想動画より抽出。",
+                                              "expected_winner":  "牛久絢太郎",
+                                              "expected_method":  "判定",
+                                              "target":  "牛久絢太郎 vs 萩原京平",
+                                              "expected_outcome":  "牛久絢太郎が判定勝ち",
+                                              "deadline":  "2023-09-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-09-24",
+                                                "winner":  "牛久絢太郎",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "牛久絢太郎が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-rizin-44-003",
+                           "statement_date":  "2023-09-20",
+                           "speaker":  {
+                                           "name":  "昇侍",
+                                           "role":  "fighter",
+                                           "affiliation":  "KIBAマーシャルアーツクラブ"
+                                       },
+                           "content":  {
+                                           "raw_text":  "堀江選手が打撃で圧倒して勝つ展開が見える。",
+                                           "normalized_text":  "堀江圭功が打撃で優位に進めて勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=9_pY6I9J0C0",
+                                          "timestamp":  "05:15"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "昇侍",
+                                              "source_url":  "https://www.youtube.com/watch?v=9_pY6I9J0C0",
+                                              "source_ref":  "statement_id=stmt-rizin-44-003",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式の事前番組または個人の解説動画より。",
+                                              "expected_winner":  "堀江圭功",
+                                              "expected_method":  "不明",
+                                              "target":  "スパイク・カーライル vs 堀江圭功",
+                                              "expected_outcome":  "堀江圭功が勝利",
+                                              "deadline":  "2023-09-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-09-24",
+                                                "winner":  "堀江圭功",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "堀江圭功が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       }
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
 }

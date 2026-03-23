@@ -260,8 +260,9 @@
 <nav aria-label="グローバルナビ">
   <ul>
     <li><a href="./index.html">トップ</a></li>
-    <li><a href="./martial-arts/">格闘技ログ</a></li>
-    <li><a href="./logs.html">ログ一覧</a></li>
+    <li><a href="./martial-arts/predictors.html">MMA予測</a></li>
+    <li><a href="./predictors.html">ボクシング予測</a></li>
+    <li><a href="./kick-predictors.html">キック予測</a></li>
   </ul>
 </nav>
 
@@ -434,13 +435,19 @@
       const title = data.title || meta.event_name || data.event_name || "(無題)";
       const date = data.date || meta.date || data.event_date || "";
 
+      function extractFighterName(f) {
+        if (!f) return "-";
+        if (typeof f === "object" && f !== null) return String(f.name || f.fighter_name || "-");
+        return String(f) || "-";
+      }
+
       let fights = [];
       if (Array.isArray(data.fights) && data.fights.length > 0) {
         fights = data.fights.map(function (f) {
           return {
             bout_id: f.bout_id || f.fight_id || null,
-            red: f.red || "-",
-            blue: f.blue || "-",
+            red: extractFighterName(f.red),
+            blue: extractFighterName(f.blue),
             result: f.result || "",
             winner: f.winner,
             method: f.method,
@@ -455,8 +462,8 @@
             const out = b.outcome || {};
             fights.push({
               bout_id: b.bout_id || null,
-              red: b.red || "-",
-              blue: b.blue || "-",
+              red: extractFighterName(b.red),
+              blue: extractFighterName(b.blue),
               result: out.winner
                 ? (out.method ? out.winner + " " + out.method : out.winner)
                 : "結果未登録",

@@ -1,225 +1,236 @@
 {
-  "schema": "standard-log-v1.2-json",
-  "schema_version": "1.2.1",
-  "event_id": "rizin-48",
-  "event_meta": {
-    "event_name": "RIZIN.48",
-    "organization": "RIZIN",
-    "sport": "martial_arts",
-    "discipline": "mma",
-    "event_tier": "arena",
-    "date": "2024-09-29",
-    "timezone": "Asia/Tokyo",
-    "country": "JP",
-    "venue": "さいたまスーパーアリーナ",
-    "is_dome_class": false
-  },
-  "cards": [
-    {
-      "card_id": "main",
-      "card_name": "メインカード",
-      "bouts": [
-        {
-          "bout_id": "rizin48-01",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "カルシャガ・ダウトベック",
-          "blue": "木下カラテ",
-          "outcome": {
-            "winner": "カルシャガ・ダウトベック",
-            "method": "KO",
-            "round": 1,
-            "time": null,
-            "result_note": "1R KO"
-          }
-        },
-        {
-          "bout_id": "rizin48-02",
-          "division": "57.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "新井丈",
-          "blue": "エンカジムーロ・ズールー",
-          "outcome": {
-            "winner": "エンカジムーロ・ズールー",
-            "method": "TKO",
-            "round": 1,
-            "time": "0:44",
-            "result_note": "TKO"
-          }
-        },
-        {
-          "bout_id": "rizin48-03",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "金太郎",
-          "blue": "秋元強真",
-          "outcome": {
-            "winner": "秋元強真",
-            "method": "TKO",
-            "round": 1,
-            "time": "3:16",
-            "result_note": "グラウンドでの膝打撃→レフェリーストップ"
-          }
-        },
-        {
-          "bout_id": "rizin48-04",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "萩原京平",
-          "blue": "高木凌",
-          "outcome": {
-            "winner": "高木凌",
-            "method": "Submission",
-            "round": 1,
-            "time": null,
-            "result_note": "リアネイキッドチョーク"
-          }
-        },
-        {
-          "bout_id": "rizin48-05",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "矢地祐介",
-          "blue": "宇佐美正パトリック",
-          "outcome": {
-            "winner": "矢地祐介",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin48-06",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "牛久絢太郎",
-          "blue": "佐藤将光",
-          "outcome": {
-            "winner": "佐藤将光",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin48-07",
-          "division": "49.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "伊澤星花",
-          "blue": "浅倉カンナ",
-          "outcome": {
-            "winner": "伊澤星花",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0（女子スーパーアトム級）"
-          }
-        },
-        {
-          "bout_id": "rizin48-08",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "フアン・アーチュレッタ",
-          "blue": "ラジャブアリ・シェイドゥラエフ",
-          "outcome": {
-            "winner": "ラジャブアリ・シェイドゥラエフ",
-            "method": "Submission",
-            "round": 1,
-            "time": null,
-            "result_note": "アームバー"
-          }
-        },
-        {
-          "bout_id": "rizin48-09",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "元谷友貴",
-          "blue": "太田忍",
-          "outcome": {
-            "winner": "元谷友貴",
-            "method": "Submission",
-            "round": 3,
-            "time": null,
-            "result_note": "一本"
-          }
-        },
-        {
-          "bout_id": "rizin48-10",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "井上直樹",
-          "blue": "キム・スーチョル",
-          "outcome": {
-            "winner": "井上直樹",
-            "method": "KO",
-            "round": 1,
-            "time": null,
-            "result_note": "KO（バンタム級タイトルマッチ）"
-          }
-        },
-        {
-          "bout_id": "rizin48-11",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "ホベルト・サトシ・ソウザ",
-          "blue": "ルイス・グスタボ",
-          "outcome": {
-            "winner": "ホベルト・サトシ・ソウザ",
-            "method": "KO",
-            "round": 1,
-            "time": "0:21",
-            "result_note": "KO（ライト級タイトルマッチ）"
-          }
-        }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-48-001",
-      "statement_date": "2024-09-26",
-      "speaker": {
-        "name": "佐々木憂流迦",
-        "role": "fighter",
-        "affiliation": "フリー"
-      },
-      "content": {
-        "raw_text": "井上選手がスピードで競り勝つと思う。",
-        "normalized_text": "井上直樹がスピードと技術で競り勝つと予想。"
-      },
-      "source": {
-        "type": "video",
-        "url": "https://www.youtube.com/watch?v=XW9vXpE_R3M",
-        "timestamp": "07:30"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "佐々木憂流迦",
-        "source_url": "https://www.youtube.com/watch?v=XW9vXpE_R3M",
-        "source_ref": "statement_id=stmt-rizin-48-001",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。技術分析を含む予想。",
-        "expected_winner": "井上直樹",
-        "expected_method": "判定",
-        "target": "井上直樹 vs キム・スーチョル",
-        "expected_outcome": "井上直樹が判定勝ち",
-        "deadline": "2024-09-29"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2024-09-29",
-        "winner": "井上直樹",
-        "method": "KO",
-        "actual_outcome": "井上直樹がKO勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    }
-  ],
-  "content_policy": {
-    "facts_only": true,
-    "no_opinion": true,
-    "no_analysis": true,
-    "no_ranking": true
-  }
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "rizin-48",
+    "event_meta":  {
+                       "event_name":  "RIZIN.48",
+                       "organization":  "RIZIN",
+                       "sport":  "martial_arts",
+                       "discipline":  "mma",
+                       "event_tier":  "arena",
+                       "date":  "2024-09-29",
+                       "timezone":  "Asia/Tokyo",
+                       "country":  "JP",
+                       "venue":  "さいたまスーパーアリーナ",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "rizin48-01",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "カルシャガ・ダウトベック",
+                                        "blue":  "木下カラテ",
+                                        "outcome":  {
+                                                        "winner":  "カルシャガ・ダウトベック",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  null,
+                                                        "result_note":  "1R KO"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-02",
+                                        "division":  "57.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "新井丈",
+                                        "blue":  "エンカジムーロ・ズールー",
+                                        "outcome":  {
+                                                        "winner":  "エンカジムーロ・ズールー",
+                                                        "method":  "TKO",
+                                                        "round":  1,
+                                                        "time":  "0:44",
+                                                        "result_note":  "TKO"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-03",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "金太郎",
+                                        "blue":  "秋元強真",
+                                        "outcome":  {
+                                                        "winner":  "秋元強真",
+                                                        "method":  "TKO",
+                                                        "round":  1,
+                                                        "time":  "3:16",
+                                                        "result_note":  "グラウンドでの膝打撃→レフェリーストップ"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-04",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "萩原京平",
+                                        "blue":  "高木凌",
+                                        "outcome":  {
+                                                        "winner":  "高木凌",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  null,
+                                                        "result_note":  "リアネイキッドチョーク"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-05",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "矢地祐介",
+                                        "blue":  "宇佐美正パトリック",
+                                        "outcome":  {
+                                                        "winner":  "矢地祐介",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-06",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "牛久絢太郎",
+                                        "blue":  "佐藤将光",
+                                        "outcome":  {
+                                                        "winner":  "佐藤将光",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-07",
+                                        "division":  "49.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "伊澤星花",
+                                        "blue":  "浅倉カンナ",
+                                        "outcome":  {
+                                                        "winner":  "伊澤星花",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0（女子スーパーアトム級）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-08",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "フアン・アーチュレッタ",
+                                        "blue":  "ラジャブアリ・シェイドゥラエフ",
+                                        "outcome":  {
+                                                        "winner":  "ラジャブアリ・シェイドゥラエフ",
+                                                        "method":  "Submission",
+                                                        "round":  1,
+                                                        "time":  null,
+                                                        "result_note":  "アームバー"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-09",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "元谷友貴",
+                                        "blue":  "太田忍",
+                                        "outcome":  {
+                                                        "winner":  "元谷友貴",
+                                                        "method":  "Submission",
+                                                        "round":  3,
+                                                        "time":  null,
+                                                        "result_note":  "一本"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-10",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "井上直樹",
+                                        "blue":  "キム・スーチョル",
+                                        "outcome":  {
+                                                        "winner":  "井上直樹",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  null,
+                                                        "result_note":  "KO（バンタム級タイトルマッチ）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin48-11",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "ホベルト・サトシ・ソウザ",
+                                        "blue":  "ルイス・グスタボ",
+                                        "outcome":  {
+                                                        "winner":  "ホベルト・サトシ・ソウザ",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  "0:21",
+                                                        "result_note":  "KO（ライト級タイトルマッチ）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-rizin-48-001",
+                           "statement_date":  "2024-09-26",
+                           "speaker":  {
+                                           "name":  "佐々木憂流迦",
+                                           "role":  "fighter",
+                                           "affiliation":  "フリー"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上選手がスピードで競り勝つと思う。",
+                                           "normalized_text":  "井上直樹がスピードと技術で競り勝つと予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=XW9vXpE_R3M",
+                                          "timestamp":  "07:30"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "佐々木憂流迦",
+                                              "source_url":  "https://www.youtube.com/watch?v=XW9vXpE_R3M",
+                                              "source_ref":  "statement_id=stmt-rizin-48-001",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。技術分析を含む予想。",
+                                              "expected_winner":  "井上直樹",
+                                              "expected_method":  "判定",
+                                              "target":  "井上直樹 vs キム・スーチョル",
+                                              "expected_outcome":  "井上直樹が判定勝ち",
+                                              "deadline":  "2024-09-29"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-09-29",
+                                                "winner":  "井上直樹",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上直樹がKO勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       }
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
 }

@@ -26,13 +26,9 @@
 <nav aria-label="グローバルナビ">
   <ul>
     <li><a href="../index.html">トップ</a></li>
-    <li class="nav__parent">
-      <a href="./">格闘技ログ</a>
-      <ul>
-        <li><a href="logs.html">格闘技ログ一覧</a></li>
-        <li><a href="predictors.html">予測者一覧</a></li>
-      </ul>
-    </li>
+    <li><a href="./predictors.html">MMA予測</a></li>
+    <li><a href="../predictors.html">ボクシング予測</a></li>
+    <li><a href="../kick-predictors.html">キック予測</a></li>
   </ul>
 </nav>
 
@@ -52,8 +48,9 @@
 <script>
 (function () {
   "use strict";
-  var CACHE = "20260318";
-  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+  var CACHE = "20260323a";
+  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH", "ONE", "UFC"];
+  var EXCLUDED_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
 
   function getQueryName() {
     var p = new URLSearchParams(location.search);
@@ -102,6 +99,17 @@
     return pName === queryName || normText(pName) === normText(queryName);
   }
 
+  /** 一覧・ランキングと同じ解決順（「不明」は speaker の実名があればそちらを優先） */
+  function resolvePredictorName(pred, stmt) {
+    var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+    var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
+    if (pn && !EXCLUDED_PREDICTOR_NAMES[pn]) return pn;
+    if (sn && !EXCLUDED_PREDICTOR_NAMES[sn]) return sn;
+    if (pn) return pn;
+    if (sn) return sn;
+    return "";
+  }
+
   function collectRows(evData, file, eventTitle, eventDate, queryName) {
     var rows = [];
     var ev = evData || {};
@@ -112,7 +120,7 @@
       ev.statements.forEach(function (stmt) {
         var pred = stmt && stmt.prediction;
         if (!pred || !pred.exists) return;
-        var pName = (pred.predictor_name != null) ? String(pred.predictor_name).trim() : "";
+        var pName = resolvePredictorName(pred, stmt);
         if (!nameMatches(pName, queryName)) return;
         var ver = stmt && stmt.verification;
         var actualWinner = ver && ver.winner ? String(ver.winner).trim() : "";
@@ -136,13 +144,13 @@
         (card && card.bouts || []).forEach(function (b) {
           var pred = b && b.prediction;
           if (!pred || !pred.exists) return;
-          var pName = (pred.predictor_name != null) ? String(pred.predictor_name).trim() : "";
+          var pName = resolvePredictorName(pred, null);
           if (!nameMatches(pName, queryName)) return;
           var out = b && b.outcome;
           var actualWinner = out && out.winner ? String(out.winner).trim() : "";
           var hl = hitLabel(pred.expected_winner, actualWinner);
-          var red = (b.red != null) ? String(b.red) : "";
-          var blue = (b.blue != null) ? String(b.blue) : "";
+          var red = b.red ? (typeof b.red === "object" ? String(b.red.name || "") : String(b.red)) : "";
+          var blue = b.blue ? (typeof b.blue === "object" ? String(b.blue.name || "") : String(b.blue)) : "";
           rows.push({
             type: "bout",
             eventTitle: title,
@@ -176,15 +184,36 @@
 
   subtitleEl.textContent = "予測者: " + nameParam;
 
+  // 同時フェッチ数を limit 件に制限してリクエスト集中を避ける
+  function fetchAllWithLimit(items, fetchFn, limit) {
+    return new Promise(function (resolve) {
+      var results = new Array(items.length);
+      var running = 0;
+      var nextIdx = 0;
+      function runNext() {
+        if (nextIdx >= items.length && running === 0) { resolve(results); return; }
+        while (running < limit && nextIdx < items.length) {
+          (function (i) {
+            running++;
+            fetchFn(items[i])
+              .then(function (r) { results[i] = r; running--; runNext(); })
+              .catch(function () { results[i] = null; running--; runNext(); });
+          })(nextIdx++);
+        }
+      }
+      runNext();
+    });
+  }
+
   fetchIndex()
     .then(function (raw) {
       var all = normalizeIndex(raw);
       var events = filterMartialArts(all);
-      return Promise.all(events.map(function (ev) {
+      return fetchAllWithLimit(events, function (ev) {
         return fetchEventFile(ev.file).then(function (evData) {
           return collectRows(evData, ev.file, ev.title, ev.date, nameParam);
         }).catch(function () { return []; });
-      })).then(function (arrays) {
+      }, 4).then(function (arrays) {
         var allRows = [];
         arrays.forEach(function (arr) { arr.forEach(function (r) { allRows.push(r); }); });
         return allRows;

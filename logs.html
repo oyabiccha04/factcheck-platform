@@ -72,6 +72,28 @@
       font-size: 0.9em;
       margin-top: 8px;
     }
+
+    .event-list__toolbar {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      flex-wrap: wrap;
+      margin-bottom: 12px;
+    }
+
+    .event-list__button {
+      border: 1px solid #d0d5da;
+      background: #fff;
+      border-radius: 8px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 0.92em;
+    }
+
+    .event-list__button:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
   </style>
 </head>
 <body>
@@ -84,15 +106,20 @@
 <nav aria-label="グローバルナビ">
   <ul>
     <li><a href="./index.html">トップ</a></li>
-    <li><a href="./martial-arts/">格闘技ログ</a></li>
-    <li><a href="./logs.html">ログ一覧</a></li>
+    <li><a href="./martial-arts/predictors.html">MMA予測</a></li>
+    <li><a href="./predictors.html">ボクシング予測</a></li>
+    <li><a href="./kick-predictors.html">キック予測</a></li>
   </ul>
 </nav>
 
 <main class="container">
   <section aria-label="的中率ランキング">
     <h2>的中率ランキング（興行クローズ時点）</h2>
-    <div id="hit-rate-ranking" class="event-list__meta">読み込み中…</div>
+    <div class="event-list__toolbar">
+      <button id="load-ranking" class="event-list__button" type="button">ランキングを計算する</button>
+      <span class="event-list__meta">初回表示を軽くするため、集計は必要時のみ実行します。</span>
+    </div>
+    <div id="hit-rate-ranking" class="event-list__meta">未計算</div>
     <p class="rank-note">
       集計対象は <code>prediction.exists = true</code> かつ「勝者が確定」しているカードのみです。的中率は主予測（勝者方向）のみで計算します。途中集計は行いません。
     </p>
@@ -113,22 +140,28 @@
 
   const LIST_ID = "event-list";
   const RANKING_ID = "hit-rate-ranking";
+  const CACHE = "20260323a";
+
+  /** ランキング・予測者一覧から除外（複数件が「不明」に丸められて上位に来るのを防ぐ） */
+  var EXCLUDED_RANK_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
 
   // ─── 状態（フィルタ追加時はここに filtered 等を足す） ───
   var state = {
-    events: []
+    events: [],
+    renderedCount: 0,
+    pageSize: 20
   };
 
   // ─── fetch ───
   function fetchIndex() {
-    return fetch("data/index.json").then(function (res) {
+    return fetch("data/index.json?v=" + CACHE).then(function (res) {
       if (!res.ok) throw new Error("読み込みに失敗しました（" + res.status + "）");
       return res.json();
     });
   }
 
   function fetchEventFile(file) {
-    return fetch("data/events/" + file).then(function (res) {
+    return fetch("data/events/" + encodeURIComponent(file) + "?v=" + CACHE).then(function (res) {
       if (!res.ok) throw new Error(file + " の読み込みに失敗しました（" + res.status + "）");
       return res.json();
     });
@@ -206,6 +239,7 @@
     if (!containerEl) return;
     containerEl.innerHTML = "";
     containerEl.className = "event-list";
+    state.renderedCount = 0;
 
     if (!events || events.length === 0) {
       var empty = document.createElement("p");
@@ -215,9 +249,32 @@
       return;
     }
 
-    events.forEach(function (ev) {
-      containerEl.appendChild(createCard(ev));
-    });
+    renderMoreEvents(containerEl);
+  }
+
+  function renderMoreEvents(containerEl) {
+    if (!containerEl) return;
+
+    var nextEnd = Math.min(state.renderedCount + state.pageSize, state.events.length);
+    for (var i = state.renderedCount; i < nextEnd; i += 1) {
+      containerEl.appendChild(createCard(state.events[i]));
+    }
+    state.renderedCount = nextEnd;
+
+    var oldMore = document.getElementById("load-more-events");
+    if (oldMore && oldMore.parentNode) oldMore.parentNode.removeChild(oldMore);
+
+    if (state.renderedCount < state.events.length) {
+      var moreBtn = document.createElement("button");
+      moreBtn.id = "load-more-events";
+      moreBtn.type = "button";
+      moreBtn.className = "event-list__button";
+      moreBtn.textContent = "さらに表示 (" + state.renderedCount + "/" + state.events.length + ")";
+      moreBtn.addEventListener("click", function () {
+        renderMoreEvents(containerEl);
+      });
+      containerEl.appendChild(moreBtn);
+    }
   }
 
   // ─── エラー表示 ───
@@ -252,6 +309,21 @@
     if (hit) map[key].hit += 1;
   }
 
+  /** prediction.predictor_name が空のときは statement.speaker.name にフォールバック（予測者ページと整合） */
+  function resolvePredictorNameForRanking(pred, stmt) {
+    var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+    var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
+    if (pn && !EXCLUDED_RANK_PREDICTOR_NAMES[pn]) return pn;
+    if (sn && !EXCLUDED_RANK_PREDICTOR_NAMES[sn]) return sn;
+    if (pn) return pn;
+    if (sn) return sn;
+    return "";
+  }
+
+  function resolvePredictorNameForBoutRanking(pred) {
+    return pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+  }
+
   function collectFromEventJson(evData, counts) {
     if (!evData) return;
 
@@ -266,7 +338,8 @@
           if (!pred.expected_winner) return;
           if (!out || !out.winner) return; // 勝者未確定は集計しない
 
-          var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+          var predictor = resolvePredictorNameForBoutRanking(pred);
+          if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
           var hit = normalizeText(pred.expected_winner) === normalizeText(out.winner);
           addCount(counts, predictor, hit);
         });
@@ -282,7 +355,8 @@
         if (!pred.expected_winner) return;
         if (!ver || !ver.winner) return; // 勝者未確定は集計しない
 
-        var predictor = (pred.predictor_name != null) ? String(pred.predictor_name) : "不明";
+        var predictor = resolvePredictorNameForRanking(pred, stmt);
+        if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
         var hit = normalizeText(pred.expected_winner) === normalizeText(ver.winner);
         addCount(counts, predictor, hit);
       });
@@ -330,25 +404,44 @@
     containerEl.appendChild(table);
   }
 
+  function loadRankingOnDemand(events, rankingEl, buttonEl) {
+    if (!rankingEl) return;
+    if (buttonEl) buttonEl.disabled = true;
+    rankingEl.textContent = "ランキングを集計中…";
+
+    var counts = {};
+    Promise.all(
+      events.map(function (ev) {
+        return fetchEventFile(ev.file)
+          .then(function (evData) { collectFromEventJson(evData, counts); })
+          .catch(function () { /* 個別失敗はスキップ */ });
+      })
+    )
+      .then(function () {
+        renderRanking(counts, rankingEl);
+      })
+      .catch(function () {
+        rankingEl.textContent = "ランキングの読み込みに失敗しました。";
+      })
+      .finally(function () {
+        if (buttonEl) buttonEl.disabled = false;
+      });
+  }
+
   // ─── エントリ ───
   var container = document.getElementById(LIST_ID);
   var rankingEl = document.getElementById(RANKING_ID);
+  var rankingBtn = document.getElementById("load-ranking");
   fetchIndex()
     .then(function (raw) {
       state.events = sortByDateNewestFirst(normalizeIndex(raw));
       renderEventList(state.events, container);
 
-      // ranking: index.json の events から event JSON を読み込んで集計
-      var counts = {};
-      return Promise.all(
-        state.events.map(function (ev) {
-          return fetchEventFile(ev.file)
-            .then(function (evData) { collectFromEventJson(evData, counts); })
-            .catch(function () { /* 個別失敗はスキップ（一覧表示を優先） */ });
-        })
-      ).then(function () {
-        renderRanking(counts, rankingEl);
-      });
+      if (rankingBtn) {
+        rankingBtn.addEventListener("click", function () {
+          loadRankingOnDemand(state.events, rankingEl, rankingBtn);
+        });
+      }
     })
     .catch(function (err) {
       showError(container, "イベント一覧の読み込みに失敗しました: " + (err && err.message ? err.message : String(err)));

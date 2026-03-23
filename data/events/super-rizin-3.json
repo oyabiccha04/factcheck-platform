@@ -1,0 +1,523 @@
+{
+  "schema_version": "standard-log-v1.2-json",
+  "event_meta": {
+    "event_id": "super-rizin-3",
+    "event_name": "Yogibo presents 超RIZIN.3",
+    "organization": "RIZIN",
+    "sport": "MMA",
+    "discipline": "MMA",
+    "date": "2024-07-28",
+    "venue": "さいたまスーパーアリーナ",
+    "country": "Japan",
+    "timezone": "Asia/Tokyo",
+    "attendance": 48117,
+    "note": "朝倉未来 vs 平本蓮 メイン。お互いに「負けたら引退」を宣言した一戦。"
+  },
+  "cards": [
+    {
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "super-rizin-3-bout-01",
+          "bout_order": 1,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "摩嶋一整",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "毛利道場"
+          },
+          "blue": {
+            "name": "新居すぐる",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "HI ROLLERS ENTERTAINMENT"
+          },
+          "outcome": {
+            "winner": "摩嶋一整",
+            "method": "Submission",
+            "method_detail": "リアネイキッドチョーク",
+            "round": 2,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-02",
+          "bout_order": 2,
+          "division": "女子57.2kg契約",
+          "rules": "ベアナックルルール 2分5R",
+          "weight_kg": 57.2,
+          "discipline": "MMA",
+          "red": {
+            "name": "タイ・エマリー",
+            "nickname": null,
+            "nationality": "Australia",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "チャリーサ・シガーラ",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "タイ・エマリー",
+            "method": "KO",
+            "method_detail": null,
+            "round": 1,
+            "time": null,
+            "result_note": "ベアナックルルール。シガーラの鼻を粉砕してのTKO勝ち。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-03",
+          "bout_order": 3,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "YA-MAN",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "TARGET SHIBUYA"
+          },
+          "blue": {
+            "name": "鈴木博昭",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "BELLWOOD FIGHT TEAM"
+          },
+          "outcome": {
+            "winner": "YA-MAN",
+            "method": "KO",
+            "method_detail": null,
+            "round": 1,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-04",
+          "bout_order": 4,
+          "division": "女子アトム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 49.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "RENA",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "SHOOTBOXING/シーザージム"
+          },
+          "blue": {
+            "name": "ケイト・ロータス",
+            "nickname": null,
+            "nationality": "Unknown",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "RENA",
+            "method": "TKO",
+            "method_detail": null,
+            "round": 2,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-05",
+          "bout_order": 5,
+          "division": "57.2kg契約",
+          "rules": "ベアナックルルール 2分5R",
+          "weight_kg": 57.2,
+          "discipline": "MMA",
+          "red": {
+            "name": "ジョン・ドッドソン",
+            "nickname": null,
+            "nationality": "USA",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "征矢貴",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "パラエストラ松戸"
+          },
+          "outcome": {
+            "winner": "ジョン・ドッドソン",
+            "method": "Decision",
+            "method_detail": null,
+            "round": 5,
+            "time": null,
+            "result_note": "ベアナックルルール。両選手流血の壮絶な試合。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-06",
+          "bout_order": 6,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "久保優太",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "斎藤裕",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "久保優太",
+            "method": "KO",
+            "method_detail": "ミドルキック",
+            "round": 2,
+            "time": null,
+            "result_note": "久保は5連勝達成。フェザー級上位戦線へ。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-07",
+          "bout_order": 7,
+          "division": "スーパーライト級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 70.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "芦澤竜誠",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "皇治",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "芦澤竜誠",
+            "method": "Decision",
+            "method_detail": null,
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-08",
+          "bout_order": 8,
+          "division": "フェザー級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "所英男",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "ヒロヤ",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "所英男",
+            "method": "TKO",
+            "method_detail": null,
+            "round": 1,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-09",
+          "bout_order": 9,
+          "division": "バンタム級",
+          "rules": "RIZIN MMAルール 5分3R",
+          "weight_kg": 61.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "扇久保博正",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "神龍誠",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": "扇久保博正",
+            "method": "Decision",
+            "method_detail": null,
+            "round": 3,
+            "time": null,
+            "result_note": null
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-10",
+          "bout_order": 10,
+          "division": "スーパーライト級",
+          "rules": "RIZINスタンディングバウト特別ルール 3分3R",
+          "weight_kg": 69.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "マニー・パッキャオ",
+            "nickname": null,
+            "nationality": "Philippines",
+            "affiliation": null
+          },
+          "blue": {
+            "name": "安保瑠輝也",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": null
+          },
+          "outcome": {
+            "winner": null,
+            "method": "Draw",
+            "method_detail": "規定によりジャッジなし",
+            "round": 3,
+            "time": null,
+            "result_note": "スタンディングバウト特別ルール。3R終了後、規定により判定なしでドロー決着。"
+          }
+        },
+        {
+          "bout_id": "super-rizin-3-bout-11",
+          "bout_order": 11,
+          "division": "フェザー級 ラストマンスタンディングタイトルマッチ",
+          "rules": "RIZIN MMA特別ルール 5分5R",
+          "weight_kg": 66.0,
+          "discipline": "MMA",
+          "red": {
+            "name": "朝倉未来",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "JAPAN TOP TEAM"
+          },
+          "blue": {
+            "name": "平本蓮",
+            "nickname": null,
+            "nationality": "Japan",
+            "affiliation": "剛毅會"
+          },
+          "outcome": {
+            "winner": "平本蓮",
+            "method": "TKO",
+            "method_detail": "レフリーストップ（グラウンドパンチ）",
+            "round": 1,
+            "time": "2:18",
+            "result_note": "朝倉未来が8ヶ月ぶり復帰戦。両者「負けたら引退」宣言の一戦。朝倉が左ストレートでぐらついた後、連打を浴びてダウン、パウンドアウト。"
+          }
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-super-rizin-3-001",
+      "statement_date": "2024-07-20",
+      "speaker": {
+        "name": "大沢ケンジ",
+        "role": "coach",
+        "affiliation": "GUTSMAN GYM 代表・格闘技解説者"
+      },
+      "content": {
+        "raw_text": "朝倉未来の判定勝利",
+        "normalized_text": "朝倉未来が判定で勝利すると予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://sportsbull.jp/p/1846023/",
+        "timestamp": "2024-07-20前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "大沢ケンジ",
+        "source_url": "https://sportsbull.jp/p/1846023/",
+        "source_ref": "stmt-super-rizin-3-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。スポーツブル、超RIZIN.3事前予想記事。格闘技解説者・トレーナーとしての予想。",
+        "expected_winner": "朝倉未来",
+        "expected_method": "判定",
+        "target": "朝倉未来 vs 平本蓮",
+        "expected_outcome": "朝倉未来が判定勝ち",
+        "deadline": "2024-07-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-07-28",
+        "winner": "平本蓮",
+        "method": "TKO",
+        "actual_outcome": "平本蓮が1R2分18秒グラウンドパンチTKO勝ち",
+        "notes": "大沢の朝倉未来勝ち予想は外れ。平本が1Rで圧倒。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-3-002",
+      "statement_date": "2024-07-20",
+      "speaker": {
+        "name": "石渡伸太郎",
+        "role": "coach",
+        "affiliation": "RIZIN漢塾塾長・元格闘家"
+      },
+      "content": {
+        "raw_text": "平本の2RKO勝ち。平本蓮は「対朝倉未来専用兵器」",
+        "normalized_text": "平本蓮が「対朝倉未来専用兵器」として2RKO勝ちすると予想。平本の朝倉に対する相性の良さを高く評価。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://sportsbull.jp/p/1846023/",
+        "timestamp": "2024-07-20前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "石渡伸太郎",
+        "source_url": "https://sportsbull.jp/p/1846023/",
+        "source_ref": "stmt-super-rizin-3-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。スポーツブル、超RIZIN.3事前予想記事。元格闘家・RIZIN漢塾塾長としての予想。",
+        "expected_winner": "平本蓮",
+        "expected_method": "KO",
+        "target": "朝倉未来 vs 平本蓮",
+        "expected_outcome": "平本蓮が2RKO勝ち",
+        "deadline": "2024-07-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-07-28",
+        "winner": "平本蓮",
+        "method": "TKO",
+        "actual_outcome": "平本蓮が1R2分18秒グラウンドパンチTKO勝ち",
+        "notes": "石渡の平本勝ち予想は的中（ラウンドは2Rと予想したが実際は1R）。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-3-003",
+      "statement_date": "2024-07-09",
+      "speaker": {
+        "name": "金原正徳",
+        "role": "fighter",
+        "affiliation": "フリー（現役格闘家）"
+      },
+      "content": {
+        "raw_text": "メンタル面では平本が優位だが、技術・経験値では朝倉が7:3で上。現状では五分五分。最終的には朝倉の勝利。覚悟を決めれば展開が変わる。どちらかがリスクを負わないと決着がつかない",
+        "normalized_text": "朝倉未来が技術・経験値で7:3優位。最終的には朝倉勝利と予想。ただしメンタルで平本優位のため五分五分の見方もある。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://sportsbull.jp/p/1836885/",
+        "timestamp": "2024-07-09前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "金原正徳",
+        "source_url": "https://sportsbull.jp/p/1836885/",
+        "source_ref": "stmt-super-rizin-3-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。スポーツブル、超RIZIN.3事前予想記事。金原正徳が試合展開・勝敗を大胆予想。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "朝倉未来 vs 平本蓮",
+        "expected_outcome": "朝倉未来が技術・経験値の優位性で勝利",
+        "deadline": "2024-07-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-07-28",
+        "winner": "平本蓮",
+        "method": "TKO",
+        "actual_outcome": "平本蓮が1R2分18秒グラウンドパンチTKO勝ち",
+        "notes": "金原の朝倉未来勝ち予想は外れ。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-3-005",
+      "statement_date": "2024-07-18",
+      "speaker": {
+        "name": "朝倉海",
+        "role": "fighter",
+        "affiliation": "JAPAN TOP TEAM（兄・朝倉未来のセコンド予定）"
+      },
+      "content": {
+        "raw_text": "今の兄貴は強い。こんだけ練習に向き合っている姿を見たのは初めてです。強いですね。安心して見れるなという感じですね今回は",
+        "normalized_text": "兄・朝倉未来が今まで見たことのないほど練習に向き合っており、「今の兄貴は強い」と断言。セコンドとして安心して見ていられると信頼を示した。朝倉未来の勝利を確信。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/281732",
+        "timestamp": "2024-07-18前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "朝倉海",
+        "source_url": "https://spread-sports.jp/archives/281732",
+        "source_ref": "stmt-super-rizin-3-005",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.3直前記事。朝倉未来の弟・朝倉海が、兄のセコンドを務める立場から練習の充実ぶりを語った発言。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "朝倉未来 vs 平本蓮",
+        "expected_outcome": "朝倉未来が勝利（練習充実・今が最強）",
+        "deadline": "2024-07-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-07-28",
+        "winner": "平本蓮",
+        "method": "TKO",
+        "actual_outcome": "平本蓮が1R2分18秒グラウンドパンチTKO勝ち",
+        "notes": "朝倉海の兄・勝利予想は外れ。1Rで完敗となった。"
+      }
+    },
+    {
+      "statement_id": "stmt-super-rizin-3-006",
+      "statement_date": "2024-07-18",
+      "speaker": {
+        "name": "西谷大成",
+        "role": "fighter",
+        "affiliation": "JAPAN TOP TEAM所属（朝倉未来の練習パートナー）"
+      },
+      "content": {
+        "raw_text": "当たり前ですが未来さん勝利予想で。最近やらされる練習が本当に増えてきて、自分で考えるのは練習が終わった後。未来さんは今本当に強くなってると思いますね。今が最強だと思います",
+        "normalized_text": "同じジムの練習パートナーとして、朝倉未来の直近の練習量と成長を近くで見てきた立場から「今が最強」と断言し、勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://spread-sports.jp/archives/284326",
+        "timestamp": "2024-07-18前後"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "西谷大成",
+        "source_url": "https://spread-sports.jp/archives/284326",
+        "source_ref": "stmt-super-rizin-3-006",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、超RIZIN.3事前ABEMA特番（2024年7月18日放送）での発言。JAPAN TOP TEAM所属として朝倉の練習を最も近くで見ている立場。",
+        "expected_winner": "朝倉未来",
+        "expected_method": null,
+        "target": "朝倉未来 vs 平本蓮",
+        "expected_outcome": "朝倉未来が勝利（今が最強）",
+        "deadline": "2024-07-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-07-28",
+        "winner": "平本蓮",
+        "method": "TKO",
+        "actual_outcome": "平本蓮が1R2分18秒グラウンドパンチTKO勝ち",
+        "notes": "西谷の朝倉未来勝ち予想は外れ。"
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-samurai-1",
+  "event_meta": {
+    "event_name": "ONE Samurai 1: Rodtang vs. Takeru II",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "arena",
+    "date": "2026-04-29",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "有明アリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "onesamurai1-01",
+          "division": "フライ級",
+          "rules": "ONE キックボクシングルール 3分5R",
+          "red": "ロッタン・ジットムアンノン",
+          "blue": "武尊",
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "round": null,
+            "time": null,
+            "result_note": "ONEフライ級キックボクシング暫定世界タイトルマッチ（武尊の引退試合）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "onesamurai1-02",
+          "division": "バンタム級",
+          "rules": "ONE キックボクシングルール 3分5R",
+          "red": "ジョナサン・ハガティー",
+          "blue": "与座優貴",
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "round": null,
+            "time": null,
+            "result_note": "ONEバンタム級キックボクシング世界タイトルマッチ（ハガティー防衛戦）"
+          },
+          "discipline": "KICKBOXING"
+        },
+        {
+          "bout_id": "onesamurai1-03",
+          "division": "フライ級",
+          "rules": "ONE MMA 5分3R",
+          "red": "若松佑弥",
+          "blue": "アヴァズベク・ホルミルザエフ",
+          "outcome": {
+            "winner": null,
+            "method": null,
+            "round": null,
+            "time": null,
+            "result_note": "ONEフライ級MMA世界タイトルマッチ"
+          },
+          "discipline": "MMA"
+        }
+      ]
+    }
+  ],
+  "statements": [],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

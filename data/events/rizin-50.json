@@ -1,277 +1,251 @@
 {
-  "schema": "standard-log-v1.2-json",
-  "schema_version": "1.2.1",
-  "event_id": "rizin-50",
-  "event_meta": {
-    "event_name": "RIZIN.50",
-    "organization": "RIZIN",
-    "sport": "martial_arts",
-    "discipline": "mma",
-    "event_tier": "arena",
-    "date": "2025-03-30",
-    "timezone": "Asia/Tokyo",
-    "country": "JP",
-    "venue": "あなぶきアリーナ香川",
-    "is_dome_class": false
-  },
-  "cards": [
-    {
-      "card_id": "main",
-      "card_name": "メインカード",
-      "bouts": [
-        {
-          "bout_id": "rizin50-01",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "魚井フルスイング",
-          "blue": "赤田プレイボイ功輝",
-          "outcome": {
-            "winner": "魚井フルスイング",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定2-1"
-          }
-        },
-        {
-          "bout_id": "rizin50-02",
-          "division": "53.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "越智晴雄",
-          "blue": "中務修良",
-          "outcome": {
-            "winner": "越智晴雄",
-            "method": "Submission",
-            "round": 3,
-            "time": "1:23",
-            "result_note": "ギロチンチョーク"
-          }
-        },
-        {
-          "bout_id": "rizin50-03",
-          "division": "52.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "万智",
-          "blue": "パク・ソヨン",
-          "outcome": {
-            "winner": "万智",
-            "method": "TKO",
-            "round": 2,
-            "time": null,
-            "result_note": "パウンド連打"
-          }
-        },
-        {
-          "bout_id": "rizin50-04",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "泉武志",
-          "blue": "スパイク・カーライル",
-          "outcome": {
-            "winner": "泉武志",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin50-05",
-          "division": "59.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "前田吉朗",
-          "blue": "横内三旺",
-          "outcome": {
-            "winner": "前田吉朗",
-            "method": "Submission",
-            "round": null,
-            "time": null,
-            "result_note": "リアネイキッドチョーク"
-          }
-        },
-        {
-          "bout_id": "rizin50-06",
-          "division": "59.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "伊藤裕樹",
-          "blue": "トニー・ララミー",
-          "outcome": {
-            "winner": "伊藤裕樹",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定3-0"
-          }
-        },
-        {
-          "bout_id": "rizin50-07",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "横山武司",
-          "blue": "木村柊也",
-          "outcome": {
-            "winner": "木村柊也",
-            "method": "KO",
-            "round": 1,
-            "time": "0:54",
-            "result_note": "右フック＆パウンド"
-          }
-        },
-        {
-          "bout_id": "rizin50-08",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "萩原京平",
-          "blue": "トビー・ミセッチ",
-          "outcome": {
-            "winner": "萩原京平",
-            "method": "TKO",
-            "round": 1,
-            "time": "0:26",
-            "result_note": "右ストレート→パウンド"
-          }
-        },
-        {
-          "bout_id": "rizin50-09",
-          "division": "120.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "酒井リョウ",
-          "blue": "エドポロキング",
-          "outcome": {
-            "winner": "エドポロキング",
-            "method": "TKO",
-            "round": null,
-            "time": null,
-            "result_note": "パウンド"
-          }
-        },
-        {
-          "bout_id": "rizin50-10",
-          "division": "71.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "ルイス・グスタボ",
-          "blue": "野村駿太",
-          "outcome": {
-            "winner": "野村駿太",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "テクニカル判定0-3"
-          }
-        },
-        {
-          "bout_id": "rizin50-11",
-          "division": "66.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "鈴木千裕",
-          "blue": "カルシャガ・ダウトベック",
-          "outcome": {
-            "winner": "カルシャガ・ダウトベック",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定1-2"
-          }
-        },
-        {
-          "bout_id": "rizin50-12",
-          "division": "61.0kg",
-          "rules": "RIZIN MMA 5分3R",
-          "red": "井上直樹",
-          "blue": "元谷友貴",
-          "outcome": {
-            "winner": "井上直樹",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定2-1（バンタム級タイトルマッチ）"
-          }
-        }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-50-001",
-      "statement_date": "2025-02-15",
-      "speaker": {
-        "name": "井上直樹",
-        "role": "fighter",
-        "affiliation": "現王者"
-      },
-      "content": {
-        "raw_text": "自分がしっかりフィニッシュして勝ちます",
-        "normalized_text": "自身がフィニッシュ勝利すると断言"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://jp.rizinff.com/_ct/17684200",
-        "timestamp": "不明"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "井上直樹",
-        "source_url": "https://jp.rizinff.com/_ct/17684200",
-        "source_ref": "statement_id=stmt-rizin-50-001",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式サイト会見レポート。",
-        "expected_winner": "井上直樹",
-        "expected_method": "不明",
-        "target": "井上直樹 vs 元谷友貴",
-        "expected_outcome": "井上がフィニッシュ勝利",
-        "deadline": "2025-03-30"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-03-30",
-        "winner": "井上直樹",
-        "method": "Decision",
-        "actual_outcome": "井上直樹が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-50-002",
-      "statement_date": "2025-03-10",
-      "speaker": {
-        "name": "不明",
-        "role": "media",
-        "affiliation": "不明"
-      },
-      "content": {
-        "raw_text": "井上のスピードが元谷を上回る",
-        "normalized_text": "井上直樹がスピード面で優位とする見立て。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://jp.rizinff.com/_ct/17747082",
-        "timestamp": "不明"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "不明",
-        "source_url": "https://jp.rizinff.com/_ct/17747082",
-        "source_ref": "statement_id=stmt-rizin-50-002",
-        "source_note": "Gemini補助で抽出（確認日：2026-03-18）。記事内の筆者名（個人名）が一次情報上で明示されているか要確認。Gemini出力の話者表記は「某格闘技専門誌記者」だったため個人名不明として扱う。",
-        "expected_winner": "井上直樹",
-        "expected_method": "判定",
-        "target": "井上直樹 vs 元谷友貴",
-        "expected_outcome": "井上直樹が判定勝ち",
-        "deadline": "2025-03-30"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-03-30",
-        "winner": "井上直樹",
-        "method": "Decision",
-        "actual_outcome": "井上直樹が判定勝ち",
-        "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-      }
-    }
-  ],
-  "content_policy": {
-    "facts_only": true,
-    "no_opinion": true,
-    "no_analysis": true,
-    "no_ranking": true
-  }
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "rizin-50",
+    "event_meta":  {
+                       "event_name":  "RIZIN.50",
+                       "organization":  "RIZIN",
+                       "sport":  "martial_arts",
+                       "discipline":  "mma",
+                       "event_tier":  "arena",
+                       "date":  "2025-03-30",
+                       "timezone":  "Asia/Tokyo",
+                       "country":  "JP",
+                       "venue":  "あなぶきアリーナ香川",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "rizin50-01",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "魚井フルスイング",
+                                        "blue":  "赤田プレイボイ功輝",
+                                        "outcome":  {
+                                                        "winner":  "魚井フルスイング",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定2-1"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-02",
+                                        "division":  "53.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "越智晴雄",
+                                        "blue":  "中務修良",
+                                        "outcome":  {
+                                                        "winner":  "越智晴雄",
+                                                        "method":  "Submission",
+                                                        "round":  3,
+                                                        "time":  "1:23",
+                                                        "result_note":  "ギロチンチョーク"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-03",
+                                        "division":  "52.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "万智",
+                                        "blue":  "パク・ソヨン",
+                                        "outcome":  {
+                                                        "winner":  "万智",
+                                                        "method":  "TKO",
+                                                        "round":  2,
+                                                        "time":  null,
+                                                        "result_note":  "パウンド連打"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-04",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "泉武志",
+                                        "blue":  "スパイク・カーライル",
+                                        "outcome":  {
+                                                        "winner":  "泉武志",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-05",
+                                        "division":  "59.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "前田吉朗",
+                                        "blue":  "横内三旺",
+                                        "outcome":  {
+                                                        "winner":  "前田吉朗",
+                                                        "method":  "Submission",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "リアネイキッドチョーク"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-06",
+                                        "division":  "59.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "伊藤裕樹",
+                                        "blue":  "トニー・ララミー",
+                                        "outcome":  {
+                                                        "winner":  "伊藤裕樹",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定3-0"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-07",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "横山武司",
+                                        "blue":  "木村柊也",
+                                        "outcome":  {
+                                                        "winner":  "木村柊也",
+                                                        "method":  "KO",
+                                                        "round":  1,
+                                                        "time":  "0:54",
+                                                        "result_note":  "右フック＆パウンド"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-08",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "萩原京平",
+                                        "blue":  "トビー・ミセッチ",
+                                        "outcome":  {
+                                                        "winner":  "萩原京平",
+                                                        "method":  "TKO",
+                                                        "round":  1,
+                                                        "time":  "0:26",
+                                                        "result_note":  "右ストレート→パウンド"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-09",
+                                        "division":  "120.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "酒井リョウ",
+                                        "blue":  "エドポロキング",
+                                        "outcome":  {
+                                                        "winner":  "エドポロキング",
+                                                        "method":  "TKO",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "パウンド"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-10",
+                                        "division":  "71.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "ルイス・グスタボ",
+                                        "blue":  "野村駿太",
+                                        "outcome":  {
+                                                        "winner":  "野村駿太",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "テクニカル判定0-3"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-11",
+                                        "division":  "66.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "鈴木千裕",
+                                        "blue":  "カルシャガ・ダウトベック",
+                                        "outcome":  {
+                                                        "winner":  "カルシャガ・ダウトベック",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定1-2"
+                                                    },
+                                        "discipline":  "MMA"
+                                    },
+                                    {
+                                        "bout_id":  "rizin50-12",
+                                        "division":  "61.0kg",
+                                        "rules":  "RIZIN MMA 5分3R",
+                                        "red":  "井上直樹",
+                                        "blue":  "元谷友貴",
+                                        "outcome":  {
+                                                        "winner":  "井上直樹",
+                                                        "method":  "Decision",
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "判定2-1（バンタム級タイトルマッチ）"
+                                                    },
+                                        "discipline":  "MMA"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-rizin-50-002",
+                           "statement_date":  "2025-03-10",
+                           "speaker":  {
+                                           "name":  "不明",
+                                           "role":  "media",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上のスピードが元谷を上回る",
+                                           "normalized_text":  "井上直樹がスピード面で優位とする見立て。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://jp.rizinff.com/_ct/17747082",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "不明",
+                                              "source_url":  "https://jp.rizinff.com/_ct/17747082",
+                                              "source_ref":  "statement_id=stmt-rizin-50-002",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。記事内の筆者名（個人名）が一次情報上で明示されているか要確認。Gemini出力の話者表記は「某格闘技専門誌記者」だったため個人名不明として扱う。",
+                                              "expected_winner":  "井上直樹",
+                                              "expected_method":  "判定",
+                                              "target":  "井上直樹 vs 元谷友貴",
+                                              "expected_outcome":  "井上直樹が判定勝ち",
+                                              "deadline":  "2025-03-30"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-03-30",
+                                                "winner":  "井上直樹",
+                                                "method":  "Decision",
+                                                "actual_outcome":  "井上直樹が判定勝ち",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+                                            }
+                       }
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
 }

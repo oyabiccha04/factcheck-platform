@@ -1,0 +1,85 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2026-04-11-event-20",
+    "event_meta":  {
+                       "event_name":  "WBC世界バンタム級挑戦者決定戦 那須川天心 vs ファン・フランシスコ・エストラーダ",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2026-04-11",
+                       "timezone":  "JST",
+                       "country":  "日本",
+                       "venue":  "両国国技館",
+                       "is_dome_class":  false
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2026-04-11-event-20-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "那須川天心",
+                                        "blue":  "ファン・フランシスコ・エストラーダ",
+                                        "outcome":  {
+                                                        "winner":  null,
+                                                        "method":  null,
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "未開催（2026-04-11予定）"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2026-04-11-event-20-001",
+                           "statement_date":  "2026-03-13",
+                           "speaker":  {
+                                           "name":  "椎野大輝",
+                                           "role":  "other",
+                                           "affiliation":  "元OPBF東洋太平洋バンタム級王者 / ボクシング特化型パーソナルトレーナー"
+                                       },
+                           "content":  {
+                                           "raw_text":  "僅差から中差の判定勝ちで那須川天心選手。7-3ぐらい。2人の一番の差はフレーム。エストラーダ選手はバンタム級では小さい。ガンとぶつかった時の当たりが全然、天心選手の方が強いと思う。乱戦に持っていきたいエストラーダ選手は、フィジカル負けしているとしんどい。天心選手が押し返せる",
+                                           "normalized_text":  "那須川天心が7:3の有利で僅差～中差の判定勝ちを予想。フレーム（体格）の差が最大の根拠。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/379236",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "椎野大輝",
+                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/379236",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-04-11-event-20-001",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。東スポWEB掲載（2026-03-13頃）。Tier B（元OPBF東洋太平洋バンタム級王者、ボクシングトレーナーYouTuber）。",
+                                              "expected_winner":  "那須川天心",
+                                              "expected_method":  "判定",
+                                              "target":  "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                                              "expected_outcome":  "那須川天心が僅差～中差の判定勝ち（7:3）",
+                                              "deadline":  "2026-04-11"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-04-11予定）"
+                                            }
+                       }
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}

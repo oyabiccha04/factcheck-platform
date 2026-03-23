@@ -12,8 +12,6 @@
     a:hover { text-decoration: underline; }
     ul { padding-left: 18px; }
     code { background: #f6f8fa; padding: 2px 6px; border-radius: 6px; }
-    .row { display: grid; grid-template-columns: 1fr; gap: 12px; }
-    @media (min-width: 900px) { .row { grid-template-columns: 1fr 1fr; } }
     .small { font-size: 12px; }
   </style>
 </head>
@@ -28,42 +26,46 @@
   <div class="box">
     <h2>入口</h2>
     <ul>
-      <li><a href="./martial-arts/">格闘技ログ（RIZINなど）</a></li>
-      <li><a href="./logs.html?v=20260316">ログ一覧（閲覧ビュー）</a></li>
-      <li><a href="./data/index.json?v=20260316">イベントインデックス（JSON）</a> <span class="muted small">※機械読み取り用</span></li>
-      <li><a href="https://github.com/oyabiccha04/factcheck-platform">リポジトリ（commit 履歴含む）</a></li>
+      <li><a href="./martial-arts/predictors.html">MMA予測</a></li>
+      <li><a href="./predictors.html">ボクシング予測</a></li>
+      <li><a href="./kick-predictors.html">キック・ムエタイ予測</a></li>
     </ul>
   </div>
 
-  <div class="row">
-    <div class="box">
-      <h2>最新イベント（日付降順）</h2>
-      <div id="latest" class="muted">Loading…</div>
-    </div>
+  <div class="box">
+    <h2>About</h2>
+    <p>
+      発信された「予測」と確定した「事実」を分け、検証可能な形で記録するアーカイブです。予測の優劣を裁くことが目的ではなく、予測と結果がどう対応したかを後からたどれるようにします。
+    </p>
+    <p class="muted small" style="margin-bottom: 0;">
+      <a href="./about.html">About ページへ</a>（ねらい・ルール・方針の全文）
+    </p>
+  </div>
 
-    <div class="box">
-      <h2>ランダムに1件</h2>
-      <div id="random" class="muted">Loading…</div>
-    </div>
+  <div class="box">
+    <h2>最新イベント（日付降順）</h2>
+    <div id="latest" class="muted">Loading…</div>
   </div>
 
   <div class="box">
     <h2>このサイトの使い方（最小）</h2>
     <ul>
-      <li><code>logs.html</code> は “読むため” のページです（UIは最小）。</li>
-      <li>詳細を検証したい場合は、イベント JSON（raw）と commit 履歴を参照してください。</li>
+      <li><strong>予測者一覧・ランキング・検索</strong>は、ページ上の<strong>「入口」</strong>（MMA予測 / ボクシング予測 / キック・ムエタイ予測）から入ってください。種目ごとに専用ページが開きます。</li>
+      <li><strong>ログ一覧</strong>（興行を一覧で時系列に読む画面）は、<strong>それぞれの予測ページの中</strong>にある「ログ一覧へ」などのリンクから開いてください（MMA・ボクシング・キックで別のログになります）。</li>
+      <li><strong>1興行の詳細</strong>（試合カードや発言ログ）は、下の<strong>最新イベント</strong>一覧からイベント名を選ぶか、ログ一覧・予測者詳細などから辿ってください。</li>
+      <li>生データ・GitHub での検証が必要な場合のみ <a href="./verify.html">検証用データ・リポジトリ</a> を参照してください。</li>
     </ul>
-    <p class="muted small">
-      ※ GitHub Pages はキャッシュが残ることがあるため、更新直後はURL末尾に <code>?v=XXXX</code> を付けると安全です。
-    </p>
   </div>
+
+  <p class="muted small" style="margin-top: 24px;">
+    <a href="./verify.html">検証用データ・リポジトリ（開発者向け）</a>
+  </p>
 
   <script>
     // キャッシュ対策（HTML自体がキャッシュされても index.json は更新されやすくする）
-    const CACHE_BUSTER = "20260316";
+    const CACHE_BUSTER = "20260323";
 
-    // index.json を読み込んで、入口用の“客観表示”を作る
-    // （評価・ランキングは禁止。ここでは「日付順」「ランダム」を使う）
+    // index.json を読み込んで、入口用の“客観表示”を作る（日付降順のみ）
     fetch("./data/index.json?v=" + CACHE_BUSTER)
       .then(r => r.json())
       .then(index => {
@@ -83,14 +85,7 @@
           .sort((a, b) => new Date(b.date) - new Date(a.date))
           .slice(0, 10);
 
-        // ランダム
-        const rnd = normalized.length
-          ? normalized[Math.floor(Math.random() * normalized.length)]
-          : null;
-
-        // 描画
         const latestEl = document.getElementById("latest");
-        const randomEl = document.getElementById("random");
 
         if (!latest.length) {
           latestEl.textContent = "イベントがまだ登録されていません（index.json を確認してください）";
@@ -111,66 +106,17 @@
               "Date: " +
               (ev.date || "(unknown)");
 
-            const a2 = document.createElement("a");
-            a2.href = "./data/events/" + ev.file + "?v=" + CACHE_BUSTER;
-            a2.textContent = "（JSON）";
-            a2.className = "small";
-
             li.appendChild(a1);
             li.appendChild(span);
-            li.appendChild(document.createTextNode(" "));
-            li.appendChild(a2);
             ul.appendChild(li);
           });
           latestEl.innerHTML = "";
           latestEl.appendChild(ul);
         }
-
-        if (!rnd) {
-          randomEl.textContent = "イベントがまだ登録されていません";
-        } else {
-          const p1 = document.createElement("p");
-          p1.innerHTML = "<strong>" + escapeHtml(rnd.title) + "</strong>";
-
-          const p2 = document.createElement("p");
-          p2.className = "muted";
-          p2.textContent =
-            (rnd.organization ? rnd.organization + " / " : "") +
-            "Date: " +
-            (rnd.date || "(unknown)");
-
-          const links = document.createElement("p");
-          const l1 = document.createElement("a");
-          l1.href = "./event.html?file=" + encodeURIComponent(rnd.file) + "&v=" + CACHE_BUSTER;
-          l1.textContent = "イベント詳細へ";
-
-          const l2 = document.createElement("a");
-          l2.href = "./data/events/" + rnd.file + "?v=" + CACHE_BUSTER;
-          l2.textContent = "イベントJSONを見る";
-
-          links.appendChild(l1);
-          links.appendChild(document.createTextNode(" / "));
-          links.appendChild(l2);
-
-          randomEl.innerHTML = "";
-          randomEl.appendChild(p1);
-          randomEl.appendChild(p2);
-          randomEl.appendChild(links);
-        }
       })
       .catch(err => {
         document.getElementById("latest").textContent = "index.json の読み込みに失敗しました: " + err;
-        document.getElementById("random").textContent = "index.json の読み込みに失敗しました: " + err;
       });
-
-    function escapeHtml(s) {
-      return String(s)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
-    }
   </script>
 </body>
 </html>

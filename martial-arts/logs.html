@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>格闘技ログ一覧 | factcheck-platform</title>
+  <title>MMA・格闘技ログ一覧 | factcheck-platform</title>
   <link rel="stylesheet" href="../style.css">
   <style>
     .event-list { display: flex; flex-direction: column; gap: 12px; }
@@ -21,20 +21,16 @@
 <body>
 
 <header>
-  <h1>格闘技ログ一覧</h1>
-  <p>格闘技イベントのログ一覧</p>
+  <h1 id="page-heading">ログ一覧</h1>
+  <p id="page-subhead">イベントのログ一覧</p>
 </header>
 
 <nav aria-label="グローバルナビ">
   <ul>
     <li><a href="../index.html">トップ</a></li>
-    <li class="nav__parent">
-      <a href="./">格闘技ログ</a>
-      <ul>
-        <li><a href="logs.html">格闘技ログ一覧</a></li>
-        <li><a href="predictors.html">予測者一覧</a></li>
-      </ul>
-    </li>
+    <li><a href="./predictors.html">MMA予測</a></li>
+    <li><a href="../predictors.html">ボクシング予測</a></li>
+    <li><a href="../kick-predictors.html">キック予測</a></li>
   </ul>
 </nav>
 
@@ -44,7 +40,7 @@
     <p class="event-list__meta" style="margin-bottom: 12px;">団体の区別なく、日付の新しい順に表示しています。</p>
 
     <div class="filter-wrap" aria-label="検索">
-      <label for="event-search">興行名・団体名・選手名・予測者名で検索</label>
+      <label for="event-search" id="search-label">興行名・団体名・選手名・予測者名で検索</label>
       <input type="search" id="event-search" placeholder="例: RIZIN 40、那須川天心、朝倉未来" autocomplete="off">
       <p id="filter-result-note" class="filter-result-note" aria-live="polite"></p>
     </div>
@@ -68,13 +64,25 @@
 (function () {
   "use strict";
 
-  var CACHE = "20260318";
+  var CACHE = "20260323a";
   var LIST_ID = "event-list";
   var SEARCH_ID = "event-search";
   var NOTE_ID = "filter-result-note";
 
-  // 格闘技として表示する団体（index.json の organization と一致）。他ジャンル追加時にここを拡張可能
-  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH"];
+  // URL パラメータから種目フィルタを取得（MMA / KICKBOXING / 未指定=MMA）
+  var params = new URLSearchParams(window.location.search);
+  var DISCIPLINE_FILTER = params.get("discipline") || "MMA";
+
+  // ページタイトル・見出しを種目に応じて更新
+  var disciplineLabel = DISCIPLINE_FILTER === "KICKBOXING" ? "キック・ムエタイ" : "MMA";
+  var heading = document.getElementById("page-heading");
+  var subhead = document.getElementById("page-subhead");
+  if (heading) heading.textContent = disciplineLabel + " ログ一覧";
+  if (subhead)  subhead.textContent  = disciplineLabel + " イベントのログ一覧";
+  document.title = disciplineLabel + " ログ一覧 | factcheck-platform";
+
+  // MMA・キックの両方を含む組織を表示対象とする（BOXINGのみ除外）
+  var MARTIAL_ARTS_ORGANIZATIONS = ["RIZIN", "THE MATCH", "ONE", "UFC"];
 
   var state = { sortedEvents: [], eventFighters: {}, eventPredictors: {} };
 
@@ -101,27 +109,51 @@
     }
     if (Array.isArray(evData.cards)) {
       evData.cards.forEach(function (card) {
-        (card && card.bouts || []).forEach(function (b) { add(b.red); add(b.blue); });
+        (card && card.bouts || []).forEach(function (b) {
+          var rn = b.red ? (typeof b.red === "object" ? b.red.name : b.red) : null;
+          var bn = b.blue ? (typeof b.blue === "object" ? b.blue.name : b.blue) : null;
+          add(rn); add(bn);
+        });
       });
     }
     return names;
   }
 
+  var EXCLUDED_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
+
+  function resolvePredictorLabel(pred, stmt) {
+    var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
+    var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
+    if (pn && !EXCLUDED_PREDICTOR_NAMES[pn]) return pn;
+    if (sn && !EXCLUDED_PREDICTOR_NAMES[sn]) return sn;
+    if (pn) return pn;
+    if (sn) return sn;
+    return "";
+  }
+
   function extractPredictorNames(evData) {
     var names = [];
-    function add(s) { if (s && String(s).trim()) names.push(String(s).trim()); }
+    function add(s) {
+      if (!s) return;
+      var name = String(s).trim();
+      if (!name || EXCLUDED_PREDICTOR_NAMES[name]) return;
+      names.push(name);
+    }
     if (!evData) return names;
     if (Array.isArray(evData.statements)) {
       evData.statements.forEach(function (s) {
         var pred = s && s.prediction;
-        if (pred && pred.predictor_name) add(pred.predictor_name);
+        if (!pred || !pred.exists) return;
+        var label = resolvePredictorLabel(pred, s);
+        if (label) add(label);
       });
     }
     if (Array.isArray(evData.cards)) {
       evData.cards.forEach(function (card) {
         (card && card.bouts || []).forEach(function (b) {
           var pred = b && b.prediction;
-          if (pred && pred.predictor_name) add(pred.predictor_name);
+          if (!pred || !pred.exists) return;
+          if (pred.predictor_name) add(pred.predictor_name);
         });
       });
     }
@@ -139,6 +171,7 @@
           title: item.title != null ? String(item.title) : "",
           date: item.date != null ? String(item.date) : "",
           organization: item.organization != null ? String(item.organization) : "",
+          disciplines: Array.isArray(item.disciplines) ? item.disciplines : [],
           file: file
         };
       })
@@ -149,6 +182,13 @@
     var set = {};
     MARTIAL_ARTS_ORGANIZATIONS.forEach(function (o) { set[o] = true; });
     return events.filter(function (e) { return set[e.organization]; });
+  }
+
+  function filterByDiscipline(events) {
+    if (!DISCIPLINE_FILTER || DISCIPLINE_FILTER === "all") return events;
+    return events.filter(function (e) {
+      return e.disciplines.indexOf(DISCIPLINE_FILTER) !== -1;
+    });
   }
 
   // 団体の分け隔てなく日付の新しい順
@@ -232,6 +272,27 @@
     containerEl.appendChild(p);
   }
 
+  // 同時フェッチ数を limit 件に制限してリクエスト集中を避ける
+  function fetchAllWithLimit(items, fetchFn, limit) {
+    return new Promise(function (resolve) {
+      var results = new Array(items.length);
+      var running = 0;
+      var nextIdx = 0;
+      function runNext() {
+        if (nextIdx >= items.length && running === 0) { resolve(results); return; }
+        while (running < limit && nextIdx < items.length) {
+          (function (i) {
+            running++;
+            fetchFn(items[i])
+              .then(function (r) { results[i] = r; running--; runNext(); })
+              .catch(function () { results[i] = null; running--; runNext(); });
+          })(nextIdx++);
+        }
+      }
+      runNext();
+    });
+  }
+
   var container = document.getElementById(LIST_ID);
   var searchInput = document.getElementById(SEARCH_ID);
 
@@ -246,24 +307,28 @@
   fetchIndex()
     .then(function (raw) {
       var all = normalizeIndex(raw);
-      var filtered = filterMartialArts(all);
+      var byOrg = filterMartialArts(all);
+      var filtered = filterByDiscipline(byOrg);
       state.sortedEvents = sortByDateNewestFirst(filtered);
-      return Promise.all(
-        state.sortedEvents.map(function (ev) {
-          return fetchEventFile(ev.file).then(function (evData) {
-            var data = evData || {};
-            state.eventFighters[ev.file] = extractFighterNames(data);
-            state.eventPredictors[ev.file] = extractPredictorNames(data);
-          }).catch(function () {
-            state.eventFighters[ev.file] = [];
-            state.eventPredictors[ev.file] = [];
-          });
-        })
-      ).then(function () {
-        applyFilter();
-        if (searchInput) {
-          searchInput.addEventListener("input", applyFilter);
-          searchInput.addEventListener("search", applyFilter);
+
+      // index.json のデータだけで即座にリスト表示（選手名・予測者名検索はまだ無効）
+      applyFilter();
+      if (searchInput) {
+        searchInput.addEventListener("input", applyFilter);
+        searchInput.addEventListener("search", applyFilter);
+      }
+
+      // 検索インデックスをバックグラウンドで構築（同時4件に制限）
+      return fetchAllWithLimit(state.sortedEvents, function (ev) {
+        return fetchEventFile(ev.file).then(function (evData) {
+          var data = evData || {};
+          state.eventFighters[ev.file] = extractFighterNames(data);
+          state.eventPredictors[ev.file] = extractPredictorNames(data);
+        });
+      }, 4).then(function () {
+        // 検索クエリが入力済みの場合のみ再フィルタリング
+        if (searchInput && String(searchInput.value).trim()) {
+          applyFilter();
         }
       });
     })

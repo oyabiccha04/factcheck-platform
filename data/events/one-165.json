@@ -1,0 +1,204 @@
+{
+  "schema": "standard-log-v1.2-json",
+  "schema_version": "1.2.1",
+  "event_id": "one-165",
+  "event_meta": {
+    "event_name": "ONE 165: Superlek vs. Takeru",
+    "organization": "ONE",
+    "sport": "martial_arts",
+    "discipline": "kickboxing",
+    "event_tier": "arena",
+    "date": "2024-01-28",
+    "timezone": "Asia/Tokyo",
+    "country": "JP",
+    "venue": "有明アリーナ",
+    "is_dome_class": false
+  },
+  "cards": [
+    {
+      "card_id": "main",
+      "card_name": "メインカード",
+      "bouts": [
+        {
+          "bout_id": "one165-01",
+          "division": "フライ級",
+          "rules": "ONE キックボクシングルール 3分5R",
+          "red": "スーパーレック・キアトモー9",
+          "blue": "武尊",
+          "outcome": {
+            "winner": "スーパーレック・キアトモー9",
+            "method": "Decision",
+            "round": null,
+            "time": null,
+            "result_note": "判定3-0（ONEフライ級キックボクシング世界タイトルマッチ）"
+          },
+          "discipline": "KICKBOXING"
+        }
+      ]
+    }
+  ],
+  "statements": [
+    {
+      "statement_id": "stmt-one-165-001",
+      "statement_date": "2024-01-16",
+      "speaker": {
+        "name": "魔裟斗",
+        "role": "commentator",
+        "affiliation": "元K-1 WORLD MAX世界王者"
+      },
+      "content": {
+        "raw_text": "今回のスーパーレックはロッタンに勝るとも劣らない強豪なので、きっと勝負は後半になると思う。武尊の持ってる右の重いパンチを当てて、武尊の日本でのKO勝利を久しぶりに見たい。期待してます！",
+        "normalized_text": "後半4〜5ラウンドに武尊がチャンスをつかみKOで勝つと予想"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://encount.press/archives/570919/",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "魔裟斗",
+        "source_url": "https://encount.press/archives/570919/",
+        "source_ref": "stmt-one-165-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ABEMA格闘チャンネル公式YouTube公開のインタビュー動画をencount.pressが記事化。Tier A（元K-1 WORLD MAX世界王者・格闘技解説者）。",
+        "expected_winner": "武尊",
+        "expected_method": "KO",
+        "target": "スーパーレック・キアトモー9 vs 武尊",
+        "expected_outcome": "武尊が後半4〜5ラウンドにKO勝ち",
+        "deadline": "2024-01-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-01-28",
+        "winner": "スーパーレック・キアトモー9",
+        "method": "判定",
+        "actual_outcome": "スーパーレック・キアトモー9が判定3-0で防衛（ONEフライ級キックボクシング世界タイトルマッチ）",
+        "notes": "魔裟斗は武尊のKO勝利を予想したが、スーパーレックが判定勝ち。ハズレ。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-165-002",
+      "statement_date": "2024-01-07",
+      "speaker": {
+        "name": "吉成名高",
+        "role": "boxer",
+        "affiliation": "エイワスポーツジム（ラジャダムナン・ルンピニースタジアム統一王者）"
+      },
+      "content": {
+        "raw_text": "スーパーレック選手が有利かな。武尊選手のパンチが当たればスーパーレック選手も倒れるのでKOはあり得る。でも武尊選手ちょっと不利かな。",
+        "normalized_text": "スーパーレック有利。ただし武尊のKO勝ちも可能性あり"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.nikkansports.com/battle/news/202401070000433.html",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "吉成名高",
+        "source_url": "https://www.nikkansports.com/battle/news/202401070000433.html",
+        "source_ref": "stmt-one-165-002",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ABEMA格闘チャンネル公式YouTube公開のインタビュー動画を日刊スポーツが記事化（2024-01-07）。Tier A（日本人初ラジャダムナン・ルンピニー統一王者）。",
+        "expected_winner": "スーパーレック・キアトモー9",
+        "expected_method": "判定",
+        "target": "スーパーレック・キアトモー9 vs 武尊",
+        "expected_outcome": "スーパーレックが判定勝利（武尊KOの可能性は認めつつ）",
+        "deadline": "2024-01-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-01-28",
+        "winner": "スーパーレック・キアトモー9",
+        "method": "判定",
+        "actual_outcome": "スーパーレック・キアトモー9が判定3-0で防衛",
+        "notes": "吉成名高の予想（スーパーレック判定勝ち）が的中。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-165-003",
+      "statement_date": "2024-01-20",
+      "speaker": {
+        "name": "堀口恭司",
+        "role": "boxer",
+        "affiliation": "ATT（第7代Bellator世界バンタム級王者・RIZIN初代フライ級王者）"
+      },
+      "content": {
+        "raw_text": "武尊くんが有利なのかな、と自分は思います。相性？ いいんじゃないですかね。武尊くんはガチャガチャ攻めていくタイプで、スーパーレックは、"技術"って言いますけど、ヒジとかヒザが多い。でも、今回はキックルールなので、それがあまり役に立たない。",
+        "normalized_text": "キックルールで武尊はスーパーレックと相性が良く有利"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://gonkaku.jp/articles/15944",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "堀口恭司",
+        "source_url": "https://gonkaku.jp/articles/15944",
+        "source_ref": "stmt-one-165-003",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ゴング格闘技によるインタビュー記事。発言はABEMAでも動画公開。Tier A（第7代Bellator世界バンタム級王者・RIZIN初代フライ級王者）。",
+        "expected_winner": "武尊",
+        "expected_method": "不明",
+        "target": "スーパーレック・キアトモー9 vs 武尊",
+        "expected_outcome": "武尊がスーパーレックに有利なキックルールを活かして勝利",
+        "deadline": "2024-01-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-01-28",
+        "winner": "スーパーレック・キアトモー9",
+        "method": "判定",
+        "actual_outcome": "スーパーレック・キアトモー9が判定3-0で防衛",
+        "notes": "堀口恭司の予想（武尊有利）はハズレ。スーパーレックが判定勝ち。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-165-004",
+      "statement_date": "2024-01-24",
+      "speaker": {
+        "name": "平本蓮",
+        "role": "boxer",
+        "affiliation": "剛毅會（K-1出身・RIZIN選手）"
+      },
+      "content": {
+        "raw_text": "武尊選手が勝つんじゃないかな？ここぞという時に作ってくる人だと思っている。シンプルに頑張ってほしいから、絶対に勝ってほしい。でも、まあ勝つんじゃないですか？",
+        "normalized_text": "「ここぞの場面で仕留める」武尊の勝利を予想"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=7QM4x2zkowE",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "平本蓮",
+        "source_url": "https://www.youtube.com/watch?v=7QM4x2zkowE",
+        "source_ref": "stmt-one-165-004",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ABEMA格闘チャンネル公式YouTubeのインタビュー動画（ゴング格闘技記事 https://gonkaku.jp/articles/15941 より動画URLを確認）。Tier A（K-1・RIZIN現役選手）。",
+        "expected_winner": "武尊",
+        "expected_method": "不明",
+        "target": "スーパーレック・キアトモー9 vs 武尊",
+        "expected_outcome": "武尊がここぞの場面でチャンスをつかみ勝利",
+        "deadline": "2024-01-28"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2024-01-28",
+        "winner": "スーパーレック・キアトモー9",
+        "method": "判定",
+        "actual_outcome": "スーパーレック・キアトモー9が判定3-0で防衛",
+        "notes": "平本蓮の予想（武尊勝利）はハズレ。スーパーレックが判定勝ち。",
+        "source_note": ""
+      }
+    }
+  ],
+  "content_policy": {
+    "facts_only": true,
+    "no_opinion": true,
+    "no_analysis": true,
+    "no_ranking": true
+  }
+}

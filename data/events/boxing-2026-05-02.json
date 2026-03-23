@@ -1,0 +1,99 @@
+{
+    "schema":  "standard-log-v1.2-json",
+    "schema_version":  "1.2.1",
+    "event_id":  "boxing-2026-05-02",
+    "event_meta":  {
+                       "event_name":  "東京ドーム世界ダブル世界戦 2026.05.02（井上尚弥 vs 中谷潤人 / 井上拓真 WBC初防衛 vs 井岡一翔）",
+                       "organization":  "BOXING",
+                       "sport":  "martial_arts",
+                       "discipline":  "boxing",
+                       "event_tier":  "不明",
+                       "date":  "2026-05-02",
+                       "timezone":  "JST",
+                       "country":  "日本",
+                       "venue":  "東京ドーム",
+                       "is_dome_class":  true
+                   },
+    "cards":  [
+                  {
+                      "card_id":  "main",
+                      "card_name":  "メインカード",
+                      "bouts":  [
+                                    {
+                                        "bout_id":  "boxing-2026-05-02-01",
+                                        "rules":  "プロボクシング",
+                                        "red":  "井上尚弥",
+                                        "blue":  "中谷潤人",
+                                        "outcome":  {
+                                                        "winner":  null,
+                                                        "method":  null,
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "未開催（2026-05-02予定）。世界スーパーバンタム級4団体統一タイトルマッチ。Lemino PPV独占配信"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    },
+                                    {
+                                        "bout_id":  "boxing-2026-05-02-02",
+                                        "rules":  "プロボクシング",
+                                        "red":  "井上拓真",
+                                        "blue":  "井岡一翔",
+                                        "outcome":  {
+                                                        "winner":  null,
+                                                        "method":  null,
+                                                        "round":  null,
+                                                        "time":  null,
+                                                        "result_note":  "未開催（2026-05-02予定）。WBC世界バンタム級タイトルマッチ（王者：井上拓真 初防衛戦）。井岡が勝てば日本男子初の5階級制覇"
+                                                    },
+                                        "discipline":  "BOXING"
+                                    }
+                                ]
+                  }
+              ],
+    "statements":  [
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-001",
+                           "statement_date":  "2026-03-06",
+                           "speaker":  {
+                                           "name":  "椎野大輝",
+                                           "role":  "other",
+                                           "affiliation":  "元OPBF東洋太平洋バンタム級王者 / ボクシング特化型パーソナルトレーナー"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上選手の5、6ラウンドKO勝ち。何回もダウンして試合が終わるのは想像できないど、1回ぐらいダウンを取って井上選手が倒すんじゃないかと、なんとなく思います。リーチは中谷選手の方が長いど、フットワークのスピードが井上選手の方がある。ロングレンジのジャブとワンツーの戦いになると、僕は井上選手に分があるのかなと",
+                                           "normalized_text":  "井上尚弥が5〜6ラウンドKO勝ちを予想。フットワークとスピードで井上が優位。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/379949",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "椎野大輝",
+                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/379949",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-001",
+                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。東スポWEB掲載（2026-03-06頃）。Tier B（元OPBF東洋太平洋バンタム級王者、ボクシングトレーナーYouTuber）。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が5〜6ラウンドKO勝ち",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       }
+                   ],
+    "content_policy":  {
+                           "facts_only":  true,
+                           "no_opinion":  true,
+                           "no_analysis":  true,
+                           "no_ranking":  true
+                       }
+}
