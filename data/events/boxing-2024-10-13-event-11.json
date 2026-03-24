@@ -231,6 +231,84 @@
                                                 "notes":  "スコアは113-114、112-115、110-117",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202410130002011.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-10-13-event-11-006",
+                           "statement_date":  "2024-10-12",
+                           "speaker":  {
+                                           "name":  "飯田覚士",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "堤の変則的な動きに手を焼く場面もあるだろうが、拓真のディフェンスと正確性が上回る判定決着。",
+                                           "normalized_text":  "井上拓真が判定で勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.bbm-japan.com/article/detail/49210",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "飯田覚士",
+                                              "source_url":  "https://www.bbm-japan.com/article/detail/49210",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-10-13-event-11-006",
+                                              "source_note":  "Tier A。ボクシング・マガジンWeb。スキャン反映・確認日：2026-03-24。",
+                                              "expected_winner":  "井上拓真",
+                                              "expected_method":  "判定",
+                                              "target":  "井上拓真 vs 堤聖也",
+                                              "expected_outcome":  "井上拓真が判定勝ち",
+                                              "deadline":  "2024-10-13"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-10-13",
+                                                "winner":  "堤聖也",
+                                                "method":  "判定",
+                                                "actual_outcome":  "堤聖也が判定勝ち（0－3、スコア113-114、112-115、110-117）",
+                                                "notes":  "勝者は外れ。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202410130002011.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-10-13-event-11-007",
+                           "statement_date":  "2024-10-08",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "技術は拓真選手だが、堤選手のプレッシャーは異常。堤選手が勝つ可能性がある",
+                                           "normalized_text":  "堤聖也の判定勝利の可能性を強く示唆。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=V9L-f7XW7Sg",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=V9L-f7XW7Sg",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-10-13-event-11-007",
+                                              "source_note":  "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "堤聖也",
+                                              "expected_method":  "判定",
+                                              "target":  "井上拓真 vs 堤聖也",
+                                              "expected_outcome":  "堤聖也の判定勝利",
+                                              "deadline":  "2024-10-13"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-10-13",
+                                                "winner":  "堤聖也",
+                                                "method":  "判定",
+                                                "actual_outcome":  "堤聖也が判定勝ち（0－3、スコア113-114、112-115、110-117）",
+                                                "notes":  "勝者・判定は的中。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202410130002011.html"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

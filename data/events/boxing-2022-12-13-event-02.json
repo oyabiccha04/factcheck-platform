@@ -426,6 +426,84 @@
                                                 "notes":  "11回に力尽きたバトラーを仕留めてKO決着",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2022-12-13-event-02-011",
+                           "statement_date":  "2022-12-12",
+                           "speaker":  {
+                                           "name":  "飯田覚士",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上君のパンチがどこかで必ず捕まえる。中盤までには終わるでしょう。",
+                                           "normalized_text":  "井上尚弥が中盤までにKO勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/248011",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "飯田覚士",
+                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/248011",
+                                              "source_ref":  "statement_id=stmt-boxing-2022-12-13-event-02-011",
+                                              "source_note":  "Tier A。東スポWEB。スキャン反映・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ポール・バトラー",
+                                              "expected_outcome":  "井上尚弥が中盤までにKO勝利",
+                                              "deadline":  "2022-12-13"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2022-12-13",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
+                                                "notes":  "勝者・KOは的中。決着は11回。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2022-12-13-event-02-012",
+                           "statement_date":  "2022-12-10",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上選手がどこで捕まえるかだけの試合。バトラーに勝ち目はない",
+                                           "normalized_text":  "井上尚弥のKO勝利を予想。バトラーに勝ち目はないと述べる。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=0O6lQWlX5D4",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=0O6lQWlX5D4",
+                                              "source_ref":  "statement_id=stmt-boxing-2022-12-13-event-02-012",
+                                              "source_note":  "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ポール・バトラー",
+                                              "expected_outcome":  "井上尚弥のKO勝利",
+                                              "deadline":  "2022-12-13"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2022-12-13",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
+                                                "notes":  "勝者・KOは的中。決着は11回。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
+                                            }
                        }
                    ],
     "content_policy":  {

@@ -88,6 +88,424 @@
                                                 "actual_outcome":  null,
                                                 "notes":  "試合未開催（2026-05-02予定）"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-002",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "ジェイソン・モロニー",
+                                           "role":  "boxer",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "両者との対戦経験から井上のスピードと経験を高く評価し、この試合でも井上が勝つと見ている趣旨",
+                                           "normalized_text":  "井上尚弥のスピードと経験を評価し勝利を見る趣旨"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=lw-JaFP8eVQ",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "ジェイソン・モロニー",
+                                              "source_url":  "https://www.youtube.com/watch?v=lw-JaFP8eVQ",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-002",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。ASIGN制作協力・YouTube「FamilytimeFT」独占インタビュー。raw_textは要：原典確認。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が勝利すると見る（勝ち方の明示は一次情報上不明）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-003",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "竹原慎二",
+                                           "role":  "youtuber",
+                                           "affiliation":  "ぶっちゃけチャンネル"
+                                       },
+                           "content":  {
+                                           "raw_text":  "体格差を認めつつも井上の技術とパワーが上回ると予想",
+                                           "normalized_text":  "井上尚弥の技術とパワーが上回りKO勝利を予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=R3L-A0m-Sss",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "竹原慎二",
+                                              "source_url":  "https://www.youtube.com/watch?v=R3L-A0m-Sss",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-003",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。ぶっちゃけチャンネル（渡嘉敷・竹原・畑山）動画内。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥がKO勝ち",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-004",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "畑山隆則",
+                                           "role":  "youtuber",
+                                           "affiliation":  "ぶっちゃけチャンネル"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷の距離に苦戦するが最終的に井上がポイントで上回ると予想",
+                                           "normalized_text":  "井上尚弥が判定で上回ると予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=R3L-A0m-Sss",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "畑山隆則",
+                                              "source_url":  "https://www.youtube.com/watch?v=R3L-A0m-Sss",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-004",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。ぶっちゃけチャンネル動画内。竹原と同一動画。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "判定",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が判定勝ち",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-005",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "細川バレンタイン / 前向き教室"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上がわずかに上回るとの見解。中谷の距離支配力を評価しつつ、井上の爆発力を重視する趣旨",
+                                           "normalized_text":  "井上尚弥がわずかに上回り勝利を見る趣旨（勝ち方の明示は一次情報上不明）"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=FXeoHlBtaE8",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=FXeoHlBtaE8",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-005",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。YouTube「細川バレンタイン / 前向き教室」。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が勝利（方法は一次情報上不明）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-006",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "具志堅用高",
+                                           "role":  "media",
+                                           "affiliation":  "具志堅用高のネクストチャレンジ"
+                                       },
+                           "content":  {
+                                           "raw_text":  "スピードは互角だが、パワーとキャリアで井上が判定で勝利すると予想",
+                                           "normalized_text":  "井上尚弥が判定勝利を予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=fJUsL_1XjXY",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "具志堅用高",
+                                              "source_url":  "https://www.youtube.com/watch?v=fJUsL_1XjXY",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-006",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。YouTube「具志堅用高のネクストチャレンジ」勝敗予想動画。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "判定",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が判定勝ち",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-007",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "内山高志",
+                                           "role":  "boxer",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷の対応力を高く評価しつつも、井上のプレッシャーと修正能力を勝因に挙げる趣旨",
+                                           "normalized_text":  "井上尚弥の勝利を見る趣旨（勝ち方の明示は一次情報上不明）"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=TtiXYtLtCv0",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "内山高志",
+                                              "source_url":  "https://www.youtube.com/watch?v=TtiXYtLtCv0",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-007",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。YouTube「高柳謙一チャンネル」内の発言。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が勝利（方法は一次情報上不明）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-008",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "小國以載",
+                                           "role":  "boxer",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷のサイズとサウスポー特有の距離感が井上を翻弄する可能性を指摘し、中谷勝利を見る趣旨",
+                                           "normalized_text":  "中谷潤人の勝利を見る趣旨（勝ち方の明示は一次情報上不明）"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=-nGpXgjN4Dg",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "小國以載",
+                                              "source_url":  "https://www.youtube.com/watch?v=-nGpXgjN4Dg",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-008",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。細川バレンタインチャンネル出演。一次確認前。",
+                                              "expected_winner":  "中谷潤人",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "中谷潤人が勝利（方法は一次情報上不明）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-009",
+                           "statement_date":  "2025-09-17",
+                           "speaker":  {
+                                           "name":  "アンソニー・リカルディ",
+                                           "role":  "commentator",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷が井上をストップすると予想。中谷の若さとサウスポーの利点を根拠に挙げる趣旨",
+                                           "normalized_text":  "中谷潤人がTKO勝利を予想"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://sportiva.shueisha.co.jp/clm/othersports/fight/2025/09/17/vs10/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "アンソニー・リカルディ",
+                                              "source_url":  "https://sportiva.shueisha.co.jp/clm/othersports/fight/2025/09/17/vs10/",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-009",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。web Sportiva（米識者10名アンケート・インタビュー）。一次確認前。",
+                                              "expected_winner":  "中谷潤人",
+                                              "expected_method":  "TKO",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "中谷潤人がTKO勝ち",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-010",
+                           "statement_date":  "2025-06-05",
+                           "speaker":  {
+                                           "name":  "ノニト・ドネア",
+                                           "role":  "boxer",
+                                           "affiliation":  "不明"
+                                       },
+                           "content":  {
+                                           "raw_text":  "自身の対戦経験から井上のスピードと経験値を高く評価し、僅差での勝利を予想する趣旨",
+                                           "normalized_text":  "井上尚弥の僅差勝利を予想（勝ち方の明示は一次情報上不明）"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://sportiva.shueisha.co.jp/clm/othersports/fight/2025/06/05/post_52/",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "ノニト・ドネア",
+                                              "source_url":  "https://sportiva.shueisha.co.jp/clm/othersports/fight/2025/06/05/post_52/",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-010",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。web Sportiva独占インタビュー。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が僅差で勝利（方法は一次情報上不明）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-011",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "渡嘉敷勝男",
+                                           "role":  "youtuber",
+                                           "affiliation":  "渡嘉敷勝男&竹原慎二&畑山隆則 公式ぶっちゃけチャンネル"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷の長い距離に井上が苦労する展開を想定しつつも、最終的には井上のヒット数が上回ると予想",
+                                           "normalized_text":  "井上尚弥が判定勝利を予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=R3L-A0m-Sss",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "渡嘉敷勝男",
+                                              "source_url":  "https://www.youtube.com/watch?v=R3L-A0m-Sss",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-011",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。ぶっちゃけチャンネル動画内。竹原・畑山と同一動画。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "判定",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥が判定勝ち",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-012",
+                           "statement_date":  "2026-01-10",
+                           "speaker":  {
+                                           "name":  "長谷川穂積",
+                                           "role":  "commentator",
+                                           "affiliation":  "元世界3階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷潤人にも勝てる要素ある。ただ、やはり井上有利。",
+                                           "normalized_text":  "中谷潤人の勝機にも言及しつつ井上尚弥有利と見る。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://number.bunshun.jp/articles/-/868848",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "長谷川穂積",
+                                              "source_url":  "https://number.bunshun.jp/articles/-/868848",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-012",
+                                              "source_note":  "Tier A。Number Web（ピカソ戦記事内の展望含む）。スキャン反映・確認日：2026-03-24。試合前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs 中谷潤人",
+                                              "expected_outcome":  "井上尚弥の勝利を主軸にしつつ中谷の要素にも言及",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
                        }
                    ],
     "content_policy":  {

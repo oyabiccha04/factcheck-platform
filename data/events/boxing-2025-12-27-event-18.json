@@ -153,6 +153,201 @@
                                                 "notes":  "勝者予想が的中。",
                                                 "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-004",
+                           "statement_date":  "2025-12-27",
+                           "speaker":  {
+                                           "name":  "渡嘉敷勝男",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ライトフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "2ラウンド3ラウンドから徐々に行って5ラウンドで仕留めるんじゃないかと私は思うよ",
+                                           "normalized_text":  "井上尚弥が2〜3Rから攻勢を強め5RでKO勝利すると予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=VWPBoAY3tKM",
+                                          "timestamp":  "12:53"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "渡嘉敷勝男",
+                                              "source_url":  "https://www.youtube.com/watch?v=VWPBoAY3tKM",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-004",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。同一動画内ライブ配信。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥が5ラウンドでKO勝ち",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
+                                                "notes":  "5ラウンドKOを予想したが12回判定決着。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-005",
+                           "statement_date":  "2025-12-27",
+                           "speaker":  {
+                                           "name":  "竹原慎二",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ミドル級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "僕は3、4ラウンド",
+                                           "normalized_text":  "井上尚弥が3〜4ラウンドでKO決着と予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=VWPBoAY3tKM",
+                                          "timestamp":  "15:39"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "竹原慎二",
+                                              "source_url":  "https://www.youtube.com/watch?v=VWPBoAY3tKM",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-005",
+                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。渡嘉敷・竹原・畑山チャンネル同一動画。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥が3〜4ラウンドで勝利",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
+                                                "notes":  "3〜4ラウンドKOを予想したが12回判定決着。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-006",
+                           "statement_date":  "2025-12-27",
+                           "speaker":  {
+                                           "name":  "畑山隆則",
+                                           "role":  "boxer",
+                                           "affiliation":  "渡嘉敷勝男&竹原慎二&畑山隆則 公式ぶっちゃけチャンネル"
+                                       },
+                           "content":  {
+                                           "raw_text":  "ピカソのアウトボクシングや体格を認めつつ、井上のスピードとパワーが最終的に上回りKO勝ちになると見る趣旨",
+                                           "normalized_text":  "井上尚弥のKO勝利を予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=VWPBoAY3tKM",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "畑山隆則",
+                                              "source_url":  "https://www.youtube.com/watch?v=VWPBoAY3tKM",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-006",
+                                              "source_note":  "ユーザー提供要約を反映。一次根拠は試合日ライブ動画（004・005と同一）。チャンネルページ https://www.youtube.com/@ぶっちゃけチャンネル は動画特定には不十分。番組内アンケートでKO決着が多数との情報は原典確認推奨。畑山パートのタイムスタンプは要確認。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥がKO勝ち",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
+                                                "notes":  "KOを予想したが12回判定決着。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-007",
+                           "statement_date":  "不明",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "細川バレンタイン / 前向き教室"
+                                       },
+                           "content":  {
+                                           "raw_text":  "ピカソの踏み込みの癖を踏まえ、井上が距離にアジャストした後、中盤以降にカウンターで仕留めると見る趣旨",
+                                           "normalized_text":  "井上尚弥が6〜9ラウンドでKO勝利すると予想"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=D_q1H7eIKXE",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=D_q1H7eIKXE",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-007",
+                                              "source_note":  "ユーザー提供URL。一次確認前。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥が6〜9ラウンドでKO勝ち",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
+                                                "notes":  "6〜9ラウンドKOを予想したが12回判定決着。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2025-12-27-event-18-008",
+                           "statement_date":  "2025-12-20",
+                           "speaker":  {
+                                           "name":  "長谷川穂積",
+                                           "role":  "commentator",
+                                           "affiliation":  "元世界3階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "やはり井上有利。あれが最低ラインだとしたら怖い。",
+                                           "normalized_text":  "井上尚弥有利の構図は変わらないとコメント。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://number.bunshun.jp/articles/-/868848",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "長谷川穂積",
+                                              "source_url":  "https://number.bunshun.jp/articles/-/868848",
+                                              "source_ref":  "statement_id=stmt-boxing-2025-12-27-event-18-008",
+                                              "source_note":  "Tier A。Number Web。スキャン反映・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "不明",
+                                              "target":  "井上尚弥 vs アラン・デビッド・ピカソ",
+                                              "expected_outcome":  "井上尚弥の勝利",
+                                              "deadline":  "2025-12-27"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2025-12-27",
+                                                "winner":  "井上尚弥",
+                                                "method":  "判定",
+                                                "actual_outcome":  "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛",
+                                                "notes":  "勝者は的中。",
+                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

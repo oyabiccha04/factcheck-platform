@@ -621,6 +621,45 @@
                                                 "notes":  "6回TKO。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-02-24-event-06-016",
+                           "statement_date":  "2024-02-22",
+                           "speaker":  {
+                                           "name":  "京口紘人",
+                                           "role":  "boxer",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "中谷選手のKO勝利を期待",
+                                           "normalized_text":  "中谷潤人のKO勝利を予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=vV-GZp-vLqE",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "京口紘人",
+                                              "source_url":  "https://www.youtube.com/watch?v=vV-GZp-vLqE",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-016",
+                                              "source_note":  "Tier A。京口紘人公式YouTube。スキャン反映・確認日：2026-03-23。",
+                                              "expected_winner":  "中谷潤人",
+                                              "expected_method":  "KO",
+                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
+                                              "expected_outcome":  "中谷潤人がKO勝利",
+                                              "deadline":  "2024-02-24"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-02-24",
+                                                "winner":  "中谷潤人",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
+                                                "notes":  "6回TKO。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

@@ -1220,6 +1220,123 @@
                                                 "notes":  "12回、判定による決着。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-05-06-031",
+                           "statement_date":  "2024-05-04",
+                           "speaker":  {
+                                           "name":  "京口紘人",
+                                           "role":  "boxer",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上選手のKO勝ち",
+                                           "normalized_text":  "井上尚弥のKO勝利を予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "京口紘人",
+                                              "source_url":  "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-05-06-031",
+                                              "source_note":  "Tier A。京口紘人公式YouTube。スキャン反映・確認日：2026-03-23。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ルイス・ネリ",
+                                              "expected_outcome":  "井上尚弥がKO勝利",
+                                              "deadline":  "2024-05-06"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-05-06",
+                                                "winner":  "井上尚弥",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "井上尚弥が6回TKO勝ちで防衛",
+                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-05-06-032",
+                           "statement_date":  "2024-05-04",
+                           "speaker":  {
+                                           "name":  "京口紘人",
+                                           "role":  "boxer",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "武居選手が獲る可能性がある",
+                                           "normalized_text":  "武居由樹の勝利を示唆。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "京口紘人",
+                                              "source_url":  "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-05-06-032",
+                                              "source_note":  "Tier A。京口紘人公式YouTube（同一動画内で2カード言及）。スキャン反映・確認日：2026-03-23。",
+                                              "expected_winner":  "武居由樹",
+                                              "expected_method":  "不明",
+                                              "target":  "ジェイソン・モロニー vs 武居由樹",
+                                              "expected_outcome":  "武居由樹が勝利する可能性を示唆",
+                                              "deadline":  "2024-05-06"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-05-06",
+                                                "winner":  "武居由樹",
+                                                "method":  "判定",
+                                                "actual_outcome":  "武居由樹が判定勝ちで王座奪取",
+                                                "notes":  "12回、判定による決着。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-05-06-033",
+                           "statement_date":  "2024-04-29",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "僕の予想は早いラウンドでのKO決着です。今の井上選手は本当強すぎる。",
+                                           "normalized_text":  "井上尚弥が早いラウンドでKO勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=c1b92YdKNGw",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=c1b92YdKNGw",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-05-06-033",
+                                              "source_note":  "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs ルイス・ネリ",
+                                              "expected_outcome":  "井上尚弥の早いラウンドでのKO勝利",
+                                              "deadline":  "2024-05-06"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-05-06",
+                                                "winner":  "井上尚弥",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "井上尚弥が6回TKO勝ちで防衛",
+                                                "notes":  "勝者・ストップ勝ちは的中。決着は6回TKO。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

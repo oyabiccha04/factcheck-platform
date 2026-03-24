@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>格闘技ログ | factcheck-platform</title>
   <link rel="stylesheet" href="../style.css">
   <style>
@@ -80,7 +81,7 @@
 (function () {
   "use strict";
 
-  var CACHE = "20260323a";
+  var CACHE = "20260325a";
 
   var EXCLUDED_RANK_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
 
@@ -144,7 +145,7 @@
       "<h3>" + escapeHtml(event.title) + "</h3>" +
       "<p class=\"meta\">" + escapeHtml(event.organization || "") + " / " + escapeHtml(event.date || "") + "</p>" +
       "<p class=\"meta\">" + escapeHtml(label) + " → 詳細を見る</p>";
-    el.onclick = function () { location.href = "../event.html?file=" + encodeURIComponent(event.file); };
+    el.onclick = function () { location.href = "../event.html?file=" + encodeURIComponent(event.file) + "&v=" + CACHE; };
     el.style.cursor = "pointer";
   }
 

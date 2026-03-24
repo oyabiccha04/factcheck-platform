@@ -465,6 +465,45 @@
                                                 "notes":  "10回KO。",
                                                 "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-12-26-event-05-012",
+                           "statement_date":  "2023-12-20",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "タパレスはタフだが井上選手に勝てる要素が見当たらない",
+                                           "normalized_text":  "井上尚弥が中盤から後半にかけてKO勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=F3Q_Z9R6-M8",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=F3Q_Z9R6-M8",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-12-26-event-05-012",
+                                              "source_note":  "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "井上尚弥 vs マーロン・タパレス",
+                                              "expected_outcome":  "井上尚弥の中盤から後半にかけてのKO勝利",
+                                              "deadline":  "2023-12-26"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-12-26",
+                                                "winner":  "井上尚弥",
+                                                "method":  "KO",
+                                                "actual_outcome":  "井上尚弥が10回KO勝利",
+                                                "notes":  "勝者・KOは的中。決着は10回。",
+                                                "source_note":  "根拠URL: https://www.daily.co.jp/ring/2023/12/26/0017170076.shtml"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

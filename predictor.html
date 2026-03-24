@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ボクシング予測者ごとの発言・予測・検証 | factcheck-platform</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -48,7 +49,7 @@
 <script>
 (function () {
   "use strict";
-  var CACHE = "20260323a";
+  var CACHE = "20260325a";
   var BOXING_ORGANIZATIONS = { "BOXING": true };
   var EXCLUDED_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
 
@@ -232,7 +233,7 @@
       var tbody = table.querySelector("tbody");
       allRows.forEach(function (r) {
         var tr = document.createElement("tr");
-        var detailLink = "<a href=\"event.html?file=" + escapeHtml(r.eventFile) + "\">興行を見る</a>";
+        var detailLink = "<a href=\"event.html?file=" + escapeHtml(r.eventFile) + "&v=" + CACHE + "\">興行を見る</a>";
         tr.innerHTML =
           "<td>" + escapeHtml(r.eventTitle) + "</td>" +
           "<td>" + escapeHtml(r.eventDate) + "</td>" +

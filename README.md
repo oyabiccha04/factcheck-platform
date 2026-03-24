@@ -135,6 +135,10 @@ git push -u origin main
 - 数分後、`https://あなたのユーザー名.github.io/リポジトリ名/` でサイトが表示される。  
   （トップは `index.html` がルートにあるので、リポジトリ名が付く場合は `https://あなたのユーザー名.github.io/リポジトリ名/index.html` や `../index.html` のリンクが正しく動くか確認する。）
 
+### 既にリポジトリがある場合：変更を Git に反映してプッシュする
+
+初回セットアップではなく、**日々の修正を GitHub に載せる**ときの手順は、リポジトリ直下の [**AGENTS.md**](AGENTS.md) にまとめてある（`git add` → `commit` → `push`）。
+
 ---
 
 ## 最後に

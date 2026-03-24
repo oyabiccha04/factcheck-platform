@@ -465,6 +465,84 @@
                                                 "notes":  "8回1分14秒TKO",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-07-25-event-04-012",
+                           "statement_date":  "2023-03-06",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "理論上ではね、フルトンが勝つ可能性が高いと俺はちょっと持ってる",
+                                           "normalized_text":  "理論上はスティーブン・フルトンの判定勝ちの可能性が高いと述べる。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=GReo5k0q5K0",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=GReo5k0q5K0",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-012",
+                                              "source_note":  "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "スティーブン・フルトン",
+                                              "expected_method":  "判定",
+                                              "target":  "スティーブン・フルトン vs 井上尚弥",
+                                              "expected_outcome":  "スティーブン・フルトンの判定勝ち",
+                                              "deadline":  "2023-07-25"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-07-25",
+                                                "winner":  "井上尚弥",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
+                                                "notes":  "勝者は外れ。井上が8回TKO。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-07-25-event-04-013",
+                           "statement_date":  "2023-07-18",
+                           "speaker":  {
+                                           "name":  "具志堅用高",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ライトフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "フルトンは上手い。でも井上君のプレッシャーには耐えられない。中盤から後半にかけてKOになるよ。",
+                                           "normalized_text":  "井上尚弥が中盤から後半にかけてKO勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=pW_p3Xm_P_M",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "具志堅用高",
+                                              "source_url":  "https://www.youtube.com/watch?v=pW_p3Xm_P_M",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-013",
+                                              "source_note":  "Tier A（元世界王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "KO",
+                                              "target":  "スティーブン・フルトン vs 井上尚弥",
+                                              "expected_outcome":  "井上尚弥の中盤から後半にかけてのKO勝利",
+                                              "deadline":  "2023-07-25"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-07-25",
+                                                "winner":  "井上尚弥",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
+                                                "notes":  "勝者・ストップ勝ちは的中。決着は8回TKO。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

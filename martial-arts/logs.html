@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MMA・格闘技ログ一覧 | factcheck-platform</title>
   <link rel="stylesheet" href="../style.css">
   <style>
@@ -64,7 +65,7 @@
 (function () {
   "use strict";
 
-  var CACHE = "20260323a";
+  var CACHE = "20260325a";
   var LIST_ID = "event-list";
   var SEARCH_ID = "event-search";
   var NOTE_ID = "filter-result-note";
@@ -212,7 +213,7 @@
     meta.textContent = [event.organization, event.date].filter(Boolean).join(" / ");
     card.appendChild(title);
     card.appendChild(meta);
-    card.addEventListener("click", function () { location.href = "../event.html?file=" + encodeURIComponent(event.file); });
+    card.addEventListener("click", function () { location.href = "../event.html?file=" + encodeURIComponent(event.file) + "&v=" + CACHE; });
     card.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); card.click(); } });
     return card;
   }

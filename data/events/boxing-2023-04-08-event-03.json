@@ -231,6 +231,123 @@
                                                 "notes":  "カード上の結果と照合。",
                                                 "source_note":  "根拠URL: https://www.proboxing-stats.com/schedule/20230408_kenshiro-teraji_anthony-olascuaga/"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-04-08-event-03-006",
+                           "statement_date":  "2023-04-06",
+                           "speaker":  {
+                                           "name":  "京口紘人",
+                                           "role":  "boxer",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "拳四朗選手の判定か後半KO勝ち",
+                                           "normalized_text":  "寺地拳四朗の判定または後半KOでの勝利を予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=FjIuP-vXkX8",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "京口紘人",
+                                              "source_url":  "https://www.youtube.com/watch?v=FjIuP-vXkX8",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-04-08-event-03-006",
+                                              "source_note":  "Tier A。京口紘人公式YouTube。スキャン反映・確認日：2026-03-23。",
+                                              "expected_winner":  "寺地拳四朗",
+                                              "expected_method":  "不明",
+                                              "target":  "寺地拳四朗 vs アンソニー・オラスクアガ",
+                                              "expected_outcome":  "寺地拳四朗が判定または後半KOで勝利",
+                                              "deadline":  "2023-04-08"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-04-08",
+                                                "winner":  "寺地拳四朗",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "寺地拳四朗が9回TKO勝ち",
+                                                "notes":  "勝者は的中。決着は9回TKO。",
+                                                "source_note":  "根拠URL: https://www.proboxing-stats.com/schedule/20230408_kenshiro-teraji_anthony-olascuaga/"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-04-08-event-03-007",
+                           "statement_date":  "2023-04-08",
+                           "speaker":  {
+                                           "name":  "長谷川穂積",
+                                           "role":  "commentator",
+                                           "affiliation":  "元世界3階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "寺地選手の技術と経験が勝る。ただ相手は失うものがなく不気味。",
+                                           "normalized_text":  "寺地拳四朗の技術・経験が上回るが、代役相手の不気味さに言及。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.daily.co.jp/ring/2023/04/08/0016223847.shtml",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "長谷川穂積",
+                                              "source_url":  "https://www.daily.co.jp/ring/2023/04/08/0016223847.shtml",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-04-08-event-03-007",
+                                              "source_note":  "Tier A。デイリースポーツ。スキャン反映・確認日：2026-03-24。",
+                                              "expected_winner":  "寺地拳四朗",
+                                              "expected_method":  "不明",
+                                              "target":  "寺地拳四朗 vs アンソニー・オラスクアガ",
+                                              "expected_outcome":  "寺地拳四朗の勝利（技術差で上回る展開）",
+                                              "deadline":  "2023-04-08"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-04-08",
+                                                "winner":  "寺地拳四朗",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "寺地拳四朗が9回TKO勝ち",
+                                                "notes":  "勝者は的中。",
+                                                "source_note":  "根拠URL: https://www.proboxing-stats.com/schedule/20230408_kenshiro-teraji_anthony-olascuaga/"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2023-04-08-event-03-008",
+                           "statement_date":  "2023-04-05",
+                           "speaker":  {
+                                           "name":  "細川バレンタイン",
+                                           "role":  "youtuber",
+                                           "affiliation":  "元日本スーパーライト級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "オラスクアガはタフで怖いが、拳四朗選手が崩れることはない",
+                                           "normalized_text":  "寺地拳四朗が崩れず判定勝利すると予想。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=TzHqXjO2H68",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "細川バレンタイン",
+                                              "source_url":  "https://www.youtube.com/watch?v=TzHqXjO2H68",
+                                              "source_ref":  "statement_id=stmt-boxing-2023-04-08-event-03-008",
+                                              "source_note":  "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
+                                              "expected_winner":  "寺地拳四朗",
+                                              "expected_method":  "判定",
+                                              "target":  "寺地拳四朗 vs アンソニー・オラスクアガ",
+                                              "expected_outcome":  "寺地拳四朗の判定勝利",
+                                              "deadline":  "2023-04-08"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2023-04-08",
+                                                "winner":  "寺地拳四朗",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "寺地拳四朗が9回TKO勝ち",
+                                                "notes":  "勝者は的中。決着は9回TKO（予想は判定）。",
+                                                "source_note":  "根拠URL: https://www.proboxing-stats.com/schedule/20230408_kenshiro-teraji_anthony-olascuaga/"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [

@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ログ一覧 | factcheck-platform</title>
   <link rel="stylesheet" href="style.css">
   <style>
@@ -140,7 +141,7 @@
 
   const LIST_ID = "event-list";
   const RANKING_ID = "hit-rate-ranking";
-  const CACHE = "20260323a";
+  const CACHE = "20260325a";
 
   /** ランキング・予測者一覧から除外（複数件が「不明」に丸められて上位に来るのを防ぐ） */
   var EXCLUDED_RANK_PREDICTOR_NAMES = { "不明": true, "unknown": true, "Unknown": true, "UNKNOWN": true };
@@ -222,7 +223,7 @@
     card.appendChild(meta);
 
     card.addEventListener("click", function () {
-      location.href = "event.html?file=" + encodeURIComponent(event.file);
+      location.href = "event.html?file=" + encodeURIComponent(event.file) + "&v=" + CACHE;
     });
     card.addEventListener("keydown", function (e) {
       if (e.key === "Enter" || e.key === " ") {

@@ -790,6 +790,84 @@
                                                 "notes":  "判定3-0。スコアは115-112、114-113、114-113。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202409030001090.html"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-09-03-020",
+                           "statement_date":  "2024-09-03",
+                           "speaker":  {
+                                           "name":  "長谷川穂積",
+                                           "role":  "commentator",
+                                           "affiliation":  "元世界3階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "どちらが勝ってもおかしくないが、今の勢いは武居選手か。",
+                                           "normalized_text":  "接戦を想定しつつ武居由樹の勢いを評価。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.daily.co.jp/ring/2024/09/03/0018076625.shtml",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "長谷川穂積",
+                                              "source_url":  "https://www.daily.co.jp/ring/2024/09/03/0018076625.shtml",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-09-03-020",
+                                              "source_note":  "Tier A。デイリースポーツ。スキャン反映・確認日：2026-03-24。",
+                                              "expected_winner":  "武居由樹",
+                                              "expected_method":  "不明",
+                                              "target":  "武居由樹 vs 比嘉大吾",
+                                              "expected_outcome":  "武居由樹の僅差勝利を示唆",
+                                              "deadline":  "2024-09-03"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-09-03",
+                                                "winner":  "武居由樹",
+                                                "method":  "判定",
+                                                "actual_outcome":  "武居由樹が3-0の判定勝ち",
+                                                "notes":  "勝者は的中。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202409030001090.html"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2024-09-03-021",
+                           "statement_date":  "2024-09-02",
+                           "speaker":  {
+                                           "name":  "飯田覚士",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界スーパーフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上のスピードと的確さがドヘニーを削る。5、6ラウンドあたりが山場。",
+                                           "normalized_text":  "井上尚弥がスピードと的確さでドヘニーを削り、中盤付近で決着へ。"
+                                       },
+                           "source":  {
+                                          "type":  "article",
+                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/315354",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "飯田覚士",
+                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/315354",
+                                              "source_ref":  "statement_id=stmt-boxing-2024-09-03-021",
+                                              "source_note":  "Tier A。東スポWEB。スキャン反映・確認日：2026-03-24。",
+                                              "expected_winner":  "井上尚弥",
+                                              "expected_method":  "TKO",
+                                              "target":  "井上尚弥 vs テレンス・ジョン・ドヘニー",
+                                              "expected_outcome":  "5〜6ラウンド付近を山場に井上尚弥が勝利",
+                                              "deadline":  "2024-09-03"
+                                          },
+                           "verification":  {
+                                                "status":  "resolved",
+                                                "verification_date":  "2024-09-03",
+                                                "winner":  "井上尚弥",
+                                                "method":  "TKO",
+                                                "actual_outcome":  "井上尚弥が7回TKO勝ちで防衛",
+                                                "notes":  "7回TKO。",
+                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202409030000743.html"
+                                            }
                        }
                    ],
     "charter_update_candidates":  [
