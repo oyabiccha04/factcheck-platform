@@ -1,0 +1,44 @@
+{
+  "master_id": "one-tier-ab-v1",
+  "schema_version": "1",
+  "organization": "ONE",
+  "charter_ref": "PROJECT_CHARTER.md 1.3.1.1（Tier A/B）",
+  "date_window_defaults": {
+    "days_before": 14,
+    "days_after": 3
+  },
+  "tier_a_observers": [
+    {
+      "observer_id": "one-tier-a-masato-gong",
+      "tier": "A",
+      "predictor_name": "魔裟斗",
+      "affiliation_note": "元K-1 WORLD MAX 世界王者・解説者（例: one-173 の statements と整合）",
+      "youtube_scan_targets": [
+        {
+          "label": "ゴング格闘技公式（番組・解説動画の探索用）",
+          "youtube_handle": "gonkaku",
+          "youtube_channel_id": "UCvzWODu42lSstqe2IgZwQDg",
+          "role": "media"
+        }
+      ],
+      "extra_query_terms": ["魔裟斗"]
+    }
+  ],
+  "tier_b_observers": [
+    {
+      "observer_id": "one-tier-b-placeholder-001",
+      "tier": "B",
+      "predictor_name": "（未登録: 個人名を CHARTER どおりに記入）",
+      "subscriber_rule_note": "原則 10 万以上（収集時点）。根拠は source_note に残す。",
+      "youtube_scan_targets": [
+        {
+          "label": "本人チャンネル",
+          "youtube_handle": "",
+          "youtube_channel_id": "",
+          "role": "self"
+        }
+      ],
+      "extra_query_terms": []
+    }
+  ]
+}
