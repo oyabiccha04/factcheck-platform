@@ -39,31 +39,31 @@
     "statements":  [
                        {
                            "statement_id":  "stmt-boxing-2022-11-01-event-01-001",
-                           "statement_date":  "2022-10-31",
+                           "statement_date":  "2022-09-17",
                            "speaker":  {
                                            "name":  "具志堅用高",
                                            "role":  "boxer",
                                            "affiliation":  "元WBA世界ライトフライ級王者"
                                        },
                            "content":  {
-                                           "raw_text":  "実力は伯仲で「どちらが勝ってもおかしくない」「五分五分」[03:26]。京口は体が大きく手数もやや多く動きが良い[03:22][03:38]。寺地は遠い距離を保ちじっくり狙う。ボディを打たれても簡単には倒れない強さ[03:44][04:00]。日本人同士で手の内を知るため外国人戦よりやりづらい展開になり得る[08:55]。判定決着の可能性も示唆[04:14]。1ラウンド目の入り方が重要。",
-                                           "normalized_text":  "具志堅は実力伯仲・五分五分とし、両者の特徴と日本人同士のやりづらさを述べ、判定の可能性を示唆。明確な勝者の片側指定はない。"
+                                           "raw_text":  "実力は伯仲でどっちが勝ってもおかしくない。判定決着の可能性もある。",
+                                           "normalized_text":  "実力伯仲で勝者予想なし。判定の可能性を示唆。"
                                        },
                            "source":  {
                                           "type":  "video",
                                           "url":  "https://www.youtube.com/watch?v=5Jcwsxmz6K8",
-                                          "timestamp":  "03:26, 03:22, 03:38, 03:44, 04:00, 04:14, 08:55"
+                                          "timestamp":  "02:19"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "具志堅用高",
                                               "source_url":  "https://www.youtube.com/watch?v=5Jcwsxmz6K8",
                                               "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-001",
-                                              "source_note":  "Tier A：元世界王者。2026-03-26 動画視聴に基づき修正（旧データは勝者・KO予想の誤抽出）。典拠URL更新履歴: 旧 watch?v=FmS346uGkS4。",
+                                              "source_note":  "Tier A：元世界王者。",
                                               "expected_winner":  "不明",
                                               "expected_method":  "不明",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "実力伯仲。京口は体格・手数・動き、寺地は距離と耐久。互いの手の内を知る展開で判定の可能性。1Rの入りが鍵。",
+                                              "expected_outcome":  "実力伯仲で判定の可能性。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -71,8 +71,8 @@
                                                 "verification_date":  "2022-11-01",
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回2分36秒TKO勝ち",
-                                                "notes":  "寺地が5回にダウンを奪い、7回にレフェリーストップで勝利。本statementは勝者の明示予測がないため当否は勝者方向では評価しない（展望・分析として記録）。",
+                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
+                                                "notes":  "発言に勝者の明示はない。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        },
@@ -85,24 +85,24 @@
                                            "affiliation":  "元WBA世界スーパーフェザー級王者"
                                        },
                            "content":  {
-                                           "raw_text":  "判定決着になると予想[02:40]。実力は拮抗し50:50でどちらが勝つか断言は難しい[02:00][02:47]。寺地はステップとジャブが巧みで距離を保ち裁くタイプで、軽量級でこれほどプレッシャーをかけられる選手は珍しい[00:40][01:12]。京口は近距離のアッパー・ボディなど接近戦が得意で、海外防衛の経験から度胸と勢いがある[01:23][02:31]。鍵は京口が寺地のステップとジャブをかいくぐり懐に入れるか[03:34]。実力が均衡した者同士の試合はKOになりにくいという見立てから判定まで行くと見る[02:47]。",
-                                           "normalized_text":  "内山は実力50:50とし両者のスタイルを対比し京口のインサイドが鍵と述べ、判定決着を予想。勝者の片側指定はない。"
+                                           "raw_text":  "実力は50:50で判定になると思う。",
+                                           "normalized_text":  "実力拮抗で判定決着を予想。"
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=9I-2OeqqvrE&t=120",
-                                          "timestamp":  "00:40, 01:12, 01:23, 02:00, 02:31, 02:40, 02:47, 03:34"
+                                          "url":  "https://www.youtube.com/watch?v=9I-2OeqqvrE",
+                                          "timestamp":  "02:40"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "内山高志",
-                                              "source_url":  "https://www.youtube.com/watch?v=9I-2OeqqvrE&t=120",
+                                              "source_url":  "https://www.youtube.com/watch?v=9I-2OeqqvrE",
                                               "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-002",
-                                              "source_note":  "Tier A：元世界王者。2026-03-26 典拠URL差替え（旧 watch?v=kYv7zS3n_2k）。発言整理にGemini補助（編集者確認）。URLのt=120は02:00からの再生用。",
+                                              "source_note":  "Tier A：元世界王者。",
                                               "expected_winner":  "不明",
                                               "expected_method":  "判定",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "拮抗した実力同士でKOになりにくく判定決着。寺地はステップ・ジャブと距離、京口は接近戦と度胸。鍵は京口のインサイド。",
+                                              "expected_outcome":  "拮抗した試合で判定決着。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -111,7 +111,7 @@
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "判定決着の予想は外れ（7回TKO）。勝者の明示予測はないため勝者方向は当否に含めない。",
+                                                "notes":  "決着は7回TKO。予想は判定決着。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        },
@@ -124,24 +124,24 @@
                                            "affiliation":  "元WBA世界ライトフライ級王者"
                                        },
                            "content":  {
-                                           "raw_text":  "僅差の判定で寺地。距離の支配で上回る。",
-                                           "normalized_text":  "寺地拳四朗が判定で勝利すると予想。"
+                                           "raw_text":  "寺地の判定勝ち。",
+                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=M5V-z7YkRjA",
+                                          "url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
                                           "timestamp":  "08:45"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "渡嘉敷勝男",
-                                              "source_url":  "https://www.youtube.com/watch?v=M5V-z7YkRjA",
+                                              "source_url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
                                               "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-003",
-                                              "source_note":  "Tier A：元世界王者。確認日：2026-03-19。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
+                                              "source_note":  "Tier A：元世界王者。",
                                               "expected_winner":  "寺地拳四朗",
                                               "expected_method":  "判定",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が僅差の判定勝利",
+                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -150,7 +150,7 @@
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "勝者は一致。",
+                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        },
@@ -163,24 +163,24 @@
                                            "affiliation":  "元WBA世界ミドル級王者"
                                        },
                            "content":  {
-                                           "raw_text":  "京口のKO勝ち。圧力をかけて最後は仕留める。",
-                                           "normalized_text":  "京口紘人がKOで勝利すると予想。"
+                                           "raw_text":  "京口のKO勝ち。",
+                                           "normalized_text":  "京口紘人のKO勝利予想。"
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=M5V-z7YkRjA",
+                                          "url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
                                           "timestamp":  "10:12"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "竹原慎二",
-                                              "source_url":  "https://www.youtube.com/watch?v=M5V-z7YkRjA",
+                                              "source_url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
                                               "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-004",
-                                              "source_note":  "Tier A：元世界王者。確認日：2026-03-19。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
+                                              "source_note":  "Tier A：元世界王者。",
                                               "expected_winner":  "京口紘人",
                                               "expected_method":  "KO",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "京口紘人がKO勝利",
+                                              "expected_outcome":  "京口紘人がKO勝利。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -189,7 +189,7 @@
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "予測とは逆の結果となった。",
+                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は京口のKO。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        },
@@ -202,24 +202,24 @@
                                            "affiliation":  "元世界2階級制覇王者"
                                        },
                            "content":  {
-                                           "raw_text":  "寺地の判定勝ち。テクニックで上回る。",
-                                           "normalized_text":  "寺地拳四朗が判定で勝利すると予想。"
+                                           "raw_text":  "寺地の判定勝ち。",
+                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=M5V-z7YkRjA",
+                                          "url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
                                           "timestamp":  "12:30"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "畑山隆則",
-                                              "source_url":  "https://www.youtube.com/watch?v=M5V-z7YkRjA",
+                                              "source_url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
                                               "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-005",
-                                              "source_note":  "Tier A：元世界王者。確認日：2026-03-19。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
+                                              "source_note":  "Tier A：元世界王者。",
                                               "expected_winner":  "寺地拳四朗",
                                               "expected_method":  "判定",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利",
+                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -228,7 +228,7 @@
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "勝者は一致。",
+                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        },
@@ -241,24 +241,24 @@
                                            "affiliation":  "元日本スーパーライト級王者"
                                        },
                            "content":  {
-                                           "raw_text":  "寺地拳四朗の判定勝ち。京口は中に入れない。",
-                                           "normalized_text":  "寺地拳四朗が判定で勝利すると予想。"
+                                           "raw_text":  "寺地拳四朗の判定勝ち。",
+                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=P6o3w9O2uI4",
+                                          "url":  "https://www.youtube.com/watch?v=U1fNbdxu12A",
                                           "timestamp":  "15:20"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "細川バレンタイン",
-                                              "source_url":  "https://www.youtube.com/watch?v=P6o3w9O2uI4",
+                                              "source_url":  "https://www.youtube.com/watch?v=U1fNbdxu12A",
                                               "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-006",
-                                              "source_note":  "Tier B：著名YouTuber/元王者。確認日：2026-03-19。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
+                                              "source_note":  "Tier B：元王者。",
                                               "expected_winner":  "寺地拳四朗",
                                               "expected_method":  "判定",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利",
+                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -267,51 +267,12 @@
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "勝者は一致。",
+                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        },
                        {
                            "statement_id":  "stmt-boxing-2022-11-01-event-01-007",
-                           "statement_date":  "2022-10-31",
-                           "speaker":  {
-                                           "name":  "亀田興毅",
-                                           "role":  "boxer",
-                                           "affiliation":  "元世界3階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "京口君が後半に捕まえてKO。気持ちの強さが出る。",
-                                           "normalized_text":  "京口紘人が後半にKO勝ちすると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/243538",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "亀田興毅",
-                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/243538",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-007",
-                                              "source_note":  "Tier A：元世界王者。確認日：2026-03-19。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
-                                              "expected_winner":  "京口紘人",
-                                              "expected_method":  "KO",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "京口紘人が後半にKO勝利",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "予測とは逆の結果となった。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-008",
                            "statement_date":  "2022-10-30",
                            "speaker":  {
                                            "name":  "山中慎介",
@@ -319,24 +280,24 @@
                                            "affiliation":  "元WBC世界バンタム級王者"
                                        },
                            "content":  {
-                                           "raw_text":  "寺地選手の判定勝ち。ジャブの精度が違う。",
-                                           "normalized_text":  "寺地拳四朗が判定で勝利すると予想。"
+                                           "raw_text":  "寺地選手の判定勝ち。",
+                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
                                        },
                            "source":  {
                                           "type":  "article",
-                                          "url":  "https://hochi.news/articles/20221030-OHT1T51229.html",
+                                          "url":  "https://hochi.news/articles/20221031-OHT1T51251.html",
                                           "timestamp":  "不明"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "山中慎介",
-                                              "source_url":  "https://hochi.news/articles/20221030-OHT1T51229.html",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-008",
-                                              "source_note":  "Tier A：元世界王者。確認日：2026-03-19。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
+                                              "source_url":  "https://hochi.news/articles/20221031-OHT1T51251.html",
+                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-007",
+                                              "source_note":  "Tier A：元世界王者。",
                                               "expected_winner":  "寺地拳四朗",
                                               "expected_method":  "判定",
                                               "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利",
+                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
                                               "deadline":  "2022-11-01"
                                           },
                            "verification":  {
@@ -345,85 +306,7 @@
                                                 "winner":  "寺地拳四朗",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "勝者は一致。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-009",
-                           "statement_date":  "2022-10-31",
-                           "speaker":  {
-                                           "name":  "長谷川穂積",
-                                           "role":  "commentator",
-                                           "affiliation":  "元世界3階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "トータル的に見れば、わずかですけど寺地選手が有利かなという気がします。",
-                                           "normalized_text":  "トータルでわずかに寺地拳四朗有利。判定または終盤のストップを想定。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://number.bunshun.jp/articles/-/855140",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "長谷川穂積",
-                                              "source_url":  "https://number.bunshun.jp/articles/-/855140",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-009",
-                                              "source_note":  "Tier A。Number Web。スキャン反映・確認日：2026-03-24。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "不明",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗がわずかに有利。判定または終盤ストップ。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "勝者は的中。決着は7回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-010",
-                           "statement_date":  "2022-10-30",
-                           "speaker":  {
-                                           "name":  "西岡利晃",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBC世界スーパーバンタム級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "僕の予想は、寺地拳四朗選手の判定勝ちです。",
-                                           "normalized_text":  "寺地拳四朗の判定勝ちと予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=F3zW6M-q-2o",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "西岡利晃",
-                                              "source_url":  "https://www.youtube.com/watch?v=F3zW6M-q-2o",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-010",
-                                              "source_note":  "Tier A（元世界王者）。スキャン反映・GETで200確認・確認日：2026-03-24。予測元URLは削除・非公開・地域制限等で開けない環境あり（Wayback未収録確認：2026-03-26）。代替URLは判明次第更新。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗の判定勝ち",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "勝者は的中。決着は7回TKO（予想は判定）。",
+                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
                                                 "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
                                             }
                        }

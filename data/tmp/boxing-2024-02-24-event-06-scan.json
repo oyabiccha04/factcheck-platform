@@ -1,0 +1,47 @@
+{
+  "base_query": "アレハンドロ・サンティアゴ 中谷潤人",
+  "query_variants": [
+    "アレハンドロ・サンティアゴ 中谷潤人 試合予想",
+    "アレハンドロ・サンティアゴ 中谷潤人 勝敗 予想",
+    "中谷潤人 試合予想"
+  ],
+  "match_date": "2024-02-24",
+  "published_window": { "days_before": 30, "end_before_match_days": 1 },
+  "title_filter": { "enabled": true, "title_must_contain_any_of": ["予想", "勝敗"] },
+  "channels": [
+    { "label": "村田諒太", "channel_id": "UCboA2psINpCOu4s8QuCKB2w", "queries_used": [], "videos": [] },
+    { "label": "具志堅用高", "channel_id": "UCSRK2LqNpLei1p_HlhlYH-g", "queries_used": [], "videos": [] },
+    { "label": "内山高志", "channel_id": "UCkK5Y6l1XhHcb_pEH-B3FYg", "queries_used": [], "videos": [] },
+    {
+      "label": "渡嘉敷・竹原・畑山",
+      "channel_id": "UCKKK9zISB9DSgHyEKCoCAAQ",
+      "queries_used": ["アレハンドロ・サンティアゴ 中谷潤人 試合予想"],
+      "videos": [
+        {
+          "title": "Vol.386 群雄割拠の世界バンタム級！拓真&中谷勝敗予想/田中恒成！世界最速の４階級制覇なるか!?",
+          "url": "https://www.youtube.com/watch?v=LliR5s6Ch_o",
+          "publishedAt": "2024-02-15T11:31:26Z",
+          "title_matches_prediction_focus": true
+        }
+      ]
+    },
+    {
+      "label": "細川バレンタイン",
+      "channel_id": "UCRKutOrnx5S0tTxUR_wNYqA",
+      "queries_used": ["アレハンドロ・サンティアゴ 中谷潤人 試合予想"],
+      "videos": [
+        {
+          "title": "「目指すはPFP」中谷潤人 vs サンティアゴはメイン級の強者 vs 強者のカード",
+          "url": "https://www.youtube.com/watch?v=OR7VOGFHfKs",
+          "publishedAt": "2024-02-22T09:00:26Z",
+          "title_matches_prediction_focus": true
+        }
+      ]
+    },
+    { "label": "京口紘人", "channel_id": "UCgwNAGfFi6SLkqF0nJnUv9A", "queries_used": [], "videos": [] },
+    { "label": "亀田興毅", "channel_id": "UCHGYAdPGQAPAydcmkJ8hiKw", "queries_used": [], "videos": [] },
+    { "label": "山中慎介", "channel_id": "UCDlh8Pmz_ze5ygiXKuwzq4w", "queries_used": [], "videos": [] },
+    { "label": "長谷川穂積", "channel_id": "UCPX2gJXnOGtNY3tnSj0ToAw", "queries_used": [], "videos": [] },
+    { "label": "飯田覚士", "channel_id": "UCl-3xQT6yZ2LY68L2l5EDgg", "queries_used": [], "videos": [] }
+  ]
+}

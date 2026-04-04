@@ -1,0 +1,97 @@
+{
+  "base_query": "井上尚弥 ルイス・ネリ",
+  "query_variants": [
+    "井上尚弥 ルイス・ネリ 試合予想",
+    "井上尚弥 ルイス・ネリ 勝敗 予想",
+    "井上尚弥 ルイス・ネリ ボクシング 予想",
+    "ルイス・ネリ 試合予想",
+    "井上尚弥 試合予想",
+    "ルイス・ネリ 勝敗 予想",
+    "井上尚弥 勝敗 予想",
+    "井上尚弥 ルイス・ネリ"
+  ],
+  "match_date": "2024-05-06",
+  "published_window": {
+    "days_before": 30,
+    "end_before_match_days": 1
+  },
+  "title_filter": {
+    "enabled": true,
+    "title_must_contain_any_of": [
+      "予想",
+      "勝敗"
+    ]
+  },
+  "channels": [
+    {
+      "label": "村田諒太",
+      "channel_id": "UCboA2psINpCOu4s8QuCKB2w",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCboA2psINpCOu4s8QuCKB2w&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "具志堅用高",
+      "channel_id": "UCSRK2LqNpLei1p_HlhlYH-g",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCSRK2LqNpLei1p_HlhlYH-g&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "内山高志",
+      "channel_id": "UCkK5Y6l1XhHcb_pEH-B3FYg",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCkK5Y6l1XhHcb_pEH-B3FYg&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "渡嘉敷・竹原・畑山",
+      "channel_id": "UCKKK9zISB9DSgHyEKCoCAAQ",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCKKK9zISB9DSgHyEKCoCAAQ&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "細川バレンタイン",
+      "channel_id": "UCRKutOrnx5S0tTxUR_wNYqA",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCRKutOrnx5S0tTxUR_wNYqA&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "京口紘人",
+      "channel_id": "UCgwNAGfFi6SLkqF0nJnUv9A",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCgwNAGfFi6SLkqF0nJnUv9A&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "亀田興毅",
+      "channel_id": "UCHGYAdPGQAPAydcmkJ8hiKw",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCHGYAdPGQAPAydcmkJ8hiKw&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "山中慎介",
+      "channel_id": "UCDlh8Pmz_ze5ygiXKuwzq4w",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCDlh8Pmz_ze5ygiXKuwzq4w&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "長谷川穂積",
+      "channel_id": "UCPX2gJXnOGtNY3tnSj0ToAw",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCPX2gJXnOGtNY3tnSj0ToAw&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    },
+    {
+      "label": "飯田覚士",
+      "channel_id": "UCl-3xQT6yZ2LY68L2l5EDgg",
+      "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCl-3xQT6yZ2LY68L2l5EDgg&q=%E4%BA%95%E4%B8%8A%E5%B0%9A%E5%BC%A5+%E3%83%AB%E3%82%A4%E3%82%B9%E3%83%BB%E3%83%8D%E3%83%AA+%E8%A9%A6%E5%90%88%E4%BA%88%E6%83%B3&publishedAfter=2024-04-06T00%3A00%3A00Z&publishedBefore=2024-05-05T00%3A00%3A00Z&type=video&maxResults=50&key=AIzaSyACGT11bLxZ5tBdD8IHcp0_r6oirVuhr2c&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+      "queries_used": [],
+      "videos": []
+    }
+  ]
+}

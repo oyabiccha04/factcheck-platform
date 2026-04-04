@@ -38,162 +38,6 @@
               ],
     "statements":  [
                        {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-001",
-                           "statement_date":  "2024-02-21",
-                           "speaker":  {
-                                           "name":  "村田諒太",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界ミドル級スーパー王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手が中盤から後半にかけてKOで勝つんじゃないかなと予想しています。",
-                                           "normalized_text":  "中谷潤人が中盤から後半にKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=68D0H2g7sLw",
-                                          "timestamp":  "02:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "村田諒太",
-                                              "source_url":  "https://www.youtube.com/watch?v=68D0H2g7sLw",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人がKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-002",
-                           "statement_date":  "2024-02-22",
-                           "speaker":  {
-                                           "name":  "具志堅用高",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界ライトフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷君が中盤、6回か7回に倒すと思うね。ボクシングの質が違う。",
-                                           "normalized_text":  "中谷潤人が6回か7回にKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=UeXpPshN_Gk",
-                                          "timestamp":  "04:30"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "具志堅用高",
-                                              "source_url":  "https://www.youtube.com/watch?v=UeXpPshN_Gk",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人がKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-003",
-                           "statement_date":  "2024-02-21",
-                           "speaker":  {
-                                           "name":  "長谷川穂積",
-                                           "role":  "boxer",
-                                           "affiliation":  "元世界3階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手が距離を支配して、後半にストップをかける展開になる。",
-                                           "normalized_text":  "中谷潤人が後半にTKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=68D0H2g7sLw",
-                                          "timestamp":  "05:10"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "長谷川穂積",
-                                              "source_url":  "https://www.youtube.com/watch?v=68D0H2g7sLw",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-003",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "TKO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が後半にTKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-004",
-                           "statement_date":  "2024-02-23",
-                           "speaker":  {
-                                           "name":  "香川照之",
-                                           "role":  "commentator",
-                                           "affiliation":  "ボクシング解説者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手のロングアッパーが火を噴く。中盤KO。圧倒的な戴冠になるでしょう。",
-                                           "normalized_text":  "中谷潤人が中盤KO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=UeXpPshN_Gk",
-                                          "timestamp":  "12:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "香川照之",
-                                              "source_url":  "https://www.youtube.com/watch?v=UeXpPshN_Gk",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-004",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（著名解説者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が中盤KO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
                            "statement_id":  "stmt-boxing-2024-02-24-event-06-005",
                            "statement_date":  "2024-02-20",
                            "speaker":  {
@@ -207,15 +51,15 @@
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=F0S2j5M4j3k",
-                                          "timestamp":  "08:20"
+                                          "url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
+                                          "timestamp":  "不明"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "渡嘉敷勝男",
-                                              "source_url":  "https://www.youtube.com/watch?v=F0S2j5M4j3k",
+                                              "source_url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
                                               "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-005",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
+                                              "source_note":  "YouTube Data API v3（scripts/boxing_youtube_prediction_scan.py）。チャンネル: 渡嘉敷・竹原・畑山。先頭候補: Vol.386（中谷勝敗予想を含む）。ヒットした検索語の例: アレハンドロ・サンティアゴ 中谷潤人 試合予想。Tier A（元世界王者）。確認日: 2026-04-04。",
                                               "expected_winner":  "中谷潤人",
                                               "expected_method":  "不明",
                                               "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
@@ -229,7 +73,7 @@
                                                 "method":  "TKO",
                                                 "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
                                                 "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
+                                                "source_note":  "試合結果の根拠（スポニチ・アレハンドロ・サンティアゴvs中谷潤人）: https://www.sponichi.co.jp/battle/news/2024/02/24/kiji/20240224s00021000475000c.html"
                                             }
                        },
                        {
@@ -246,15 +90,15 @@
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=F0S2j5M4j3k",
-                                          "timestamp":  "09:45"
+                                          "url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
+                                          "timestamp":  "不明"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "竹原慎二",
-                                              "source_url":  "https://www.youtube.com/watch?v=F0S2j5M4j3k",
+                                              "source_url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
                                               "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-006",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
+                                              "source_note":  "YouTube Data API v3（scripts/boxing_youtube_prediction_scan.py）。チャンネル: 渡嘉敷・竹原・畑山。先頭候補: Vol.386（中谷勝敗予想を含む）。ヒットした検索語の例: アレハンドロ・サンティアゴ 中谷潤人 試合予想。Tier A（元世界王者）。確認日: 2026-04-04。",
                                               "expected_winner":  "中谷潤人",
                                               "expected_method":  "KO",
                                               "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
@@ -268,7 +112,7 @@
                                                 "method":  "TKO",
                                                 "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
                                                 "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
+                                                "source_note":  "試合結果の根拠（スポニチ・アレハンドロ・サンティアゴvs中谷潤人）: https://www.sponichi.co.jp/battle/news/2024/02/24/kiji/20240224s00021000475000c.html"
                                             }
                        },
                        {
@@ -285,15 +129,15 @@
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=F0S2j5M4j3k",
-                                          "timestamp":  "11:10"
+                                          "url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
+                                          "timestamp":  "不明"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "畑山隆則",
-                                              "source_url":  "https://www.youtube.com/watch?v=F0S2j5M4j3k",
+                                              "source_url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
                                               "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-007",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
+                                              "source_note":  "YouTube Data API v3（scripts/boxing_youtube_prediction_scan.py）。チャンネル: 渡嘉敷・竹原・畑山。先頭候補: Vol.386（中谷勝敗予想を含む）。ヒットした検索語の例: アレハンドロ・サンティアゴ 中谷潤人 試合予想。Tier A（元世界王者）。確認日: 2026-04-04。",
                                               "expected_winner":  "中谷潤人",
                                               "expected_method":  "判定",
                                               "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
@@ -307,85 +151,7 @@
                                                 "method":  "TKO",
                                                 "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
                                                 "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-008",
-                           "statement_date":  "2024-02-22",
-                           "speaker":  {
-                                           "name":  "亀田興毅",
-                                           "role":  "boxer",
-                                           "affiliation":  "元世界3階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手のKO勝ち。今の勢いならサンティアゴでも止められない。",
-                                           "normalized_text":  "中谷潤人がKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=mD-0Y1A1n3w",
-                                          "timestamp":  "03:40"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "亀田興毅",
-                                              "source_url":  "https://www.youtube.com/watch?v=mD-0Y1A1n3w",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-008",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人がKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-009",
-                           "statement_date":  "2024-02-18",
-                           "speaker":  {
-                                           "name":  "内山高志",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界スーパーフェザー級スーパー王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手がジャブで支配して、中盤以降にKOする確率が高い。",
-                                           "normalized_text":  "中谷潤人が中盤以降にKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=kYJ-pGz3y8U",
-                                          "timestamp":  "06:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "内山高志",
-                                              "source_url":  "https://www.youtube.com/watch?v=kYJ-pGz3y8U",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-009",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が中盤以降にKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
+                                                "source_note":  "試合結果の根拠（スポニチ・アレハンドロ・サンティアゴvs中谷潤人）: https://www.sponichi.co.jp/battle/news/2024/02/24/kiji/20240224s00021000475000c.html"
                                             }
                        },
                        {
@@ -402,15 +168,15 @@
                                        },
                            "source":  {
                                           "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=XhY7H-E8qZ0",
-                                          "timestamp":  "15:20"
+                                          "url":  "https://www.youtube.com/watch?v=OR7VOGFHfKs",
+                                          "timestamp":  "不明"
                                       },
                            "prediction":  {
                                               "exists":  true,
                                               "predictor_name":  "細川バレンタイン",
-                                              "source_url":  "https://www.youtube.com/watch?v=XhY7H-E8qZ0",
+                                              "source_url":  "https://www.youtube.com/watch?v=OR7VOGFHfKs",
                                               "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-010",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier B（登録者10万人超のボクシング系YouTuber）。",
+                                              "source_note":  "YouTube Data API v3（scripts/boxing_youtube_prediction_scan.py）。チャンネル: 細川バレンタイン。先頭候補タイトル: 「目指すはPFP」中谷潤人 vs サンティアゴはメイン級の強者 vs 強者のカード。Tier B（登録者10万人超のボクシング系YouTuber）。確認日: 2026-04-04。",
                                               "expected_winner":  "中谷潤人",
                                               "expected_method":  "判定",
                                               "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
@@ -424,241 +190,7 @@
                                                 "method":  "TKO",
                                                 "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
                                                 "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-011",
-                           "statement_date":  "2024-02-22",
-                           "speaker":  {
-                                           "name":  "飯田覚士",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界スーパーフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷潤人のKO勝ち。サンティアゴのガードを突き破るパンチがある。",
-                                           "normalized_text":  "中谷潤人がKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.chunichi.co.jp/article/857502",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "飯田覚士",
-                                              "source_url":  "https://www.chunichi.co.jp/article/857502",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-011",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人がKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-012",
-                           "statement_date":  "2024-02-22",
-                           "speaker":  {
-                                           "name":  "内藤大助",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBC世界フライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手がリーチを生かして判定で勝つ。サンティアゴは頑丈ですから。",
-                                           "normalized_text":  "中谷潤人が判定勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=UeXpPshN_Gk",
-                                          "timestamp":  "02:40"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "内藤大助",
-                                              "source_url":  "https://www.youtube.com/watch?v=UeXpPshN_Gk",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-012",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "判定",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が判定勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-013",
-                           "statement_date":  "2024-02-23",
-                           "speaker":  {
-                                           "name":  "西岡利晃",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBC世界スーパーバンタム級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷潤人のKO勝ち。中盤の5〜8回くらいかな。",
-                                           "normalized_text":  "中谷潤人が中盤にKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=N6L-r7uI9wE",
-                                          "timestamp":  "05:55"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "西岡利晃",
-                                              "source_url":  "https://www.youtube.com/watch?v=N6L-r7uI9wE",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-013",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が中盤KO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-014",
-                           "statement_date":  "2024-02-23",
-                           "speaker":  {
-                                           "name":  "木村悠",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBC世界ライトフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷潤人の判定勝ち。サンティアゴはタフで簡単には崩れない。",
-                                           "normalized_text":  "中谷潤人が判定勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.bbm-japan.com/article/detail/47748",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "木村悠",
-                                              "source_url":  "https://www.bbm-japan.com/article/detail/47748",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-014",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "判定",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が判定勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-015",
-                           "statement_date":  "2024-02-24",
-                           "speaker":  {
-                                           "name":  "ジョー小泉",
-                                           "role":  "commentator",
-                                           "affiliation":  "マッチメイカー・解説者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷のKO。サンティアゴはドネアには勝ったが中谷の距離には対応できない。",
-                                           "normalized_text":  "中谷潤人がKO勝利と予想"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.wowow.co.jp/sports/excite/column/detail_240224_01.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "ジョー小泉",
-                                              "source_url":  "https://www.wowow.co.jp/sports/excite/column/detail_240224_01.html",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-015",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（著名解説者）。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人がKO勝ち",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2024-02-24-event-06-016",
-                           "statement_date":  "2024-02-22",
-                           "speaker":  {
-                                           "name":  "京口紘人",
-                                           "role":  "boxer",
-                                           "affiliation":  "元世界2階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中谷選手のKO勝利を期待",
-                                           "normalized_text":  "中谷潤人のKO勝利を予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=vV-GZp-vLqE",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "京口紘人",
-                                              "source_url":  "https://www.youtube.com/watch?v=vV-GZp-vLqE",
-                                              "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-016",
-                                              "source_note":  "Tier A。京口紘人公式YouTube。スキャン反映・確認日：2026-03-23。",
-                                              "expected_winner":  "中谷潤人",
-                                              "expected_method":  "KO",
-                                              "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人がKO勝利",
-                                              "deadline":  "2024-02-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-02-24",
-                                                "winner":  "中谷潤人",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202402240001391.html"
+                                                "source_note":  "試合結果の根拠（スポニチ・アレハンドロ・サンティアゴvs中谷潤人）: https://www.sponichi.co.jp/battle/news/2024/02/24/kiji/20240224s00021000475000c.html"
                                             }
                        }
                    ],
