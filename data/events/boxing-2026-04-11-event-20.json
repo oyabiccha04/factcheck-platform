@@ -1,199 +1,428 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "boxing-2026-04-11-event-20",
-    "event_meta":  {
-                       "event_name":  "WBC世界バンタム級挑戦者決定戦 那須川天心 vs ファン・フランシスコ・エストラーダ",
-                       "organization":  "BOXING",
-                       "sport":  "martial_arts",
-                       "discipline":  "boxing",
-                       "event_tier":  "不明",
-                       "date":  "2026-04-11",
-                       "timezone":  "JST",
-                       "country":  "日本",
-                       "venue":  "両国国技館",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "boxing-2026-04-11-event-20-01",
-                                        "rules":  "プロボクシング",
-                                        "red":  "那須川天心",
-                                        "blue":  "ファン・フランシスコ・エストラーダ",
-                                        "outcome":  {
-                                                        "winner":  null,
-                                                        "method":  null,
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "未開催（2026-04-11予定）"
-                                                    },
-                                        "discipline":  "BOXING"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-boxing-2026-04-11-event-20-001",
-                           "statement_date":  "2026-03-13",
-                           "speaker":  {
-                                           "name":  "椎野大輝",
-                                           "role":  "other",
-                                           "affiliation":  "元OPBF東洋太平洋バンタム級王者 / ボクシング特化型パーソナルトレーナー"
-                                       },
-                           "content":  {
-                                           "raw_text":  "僅差から中差の判定勝ちで那須川天心選手。7-3ぐらい。2人の一番の差はフレーム。エストラーダ選手はバンタム級では小さい。ガンとぶつかった時の当たりが全然、天心選手の方が強いと思う。乱戦に持っていきたいエストラーダ選手は、フィジカル負けしているとしんどい。天心選手が押し返せる",
-                                           "normalized_text":  "那須川天心が7:3の有利で僅差～中差の判定勝ちを予想。フレーム（体格）の差が最大の根拠。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/379236",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "椎野大輝",
-                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/379236",
-                                              "source_ref":  "statement_id=stmt-boxing-2026-04-11-event-20-001",
-                                              "source_note":  "Gemini補助なし・直接確認（確認日：2026-03-21）。東スポWEB掲載（2026-03-13頃）。Tier B（元OPBF東洋太平洋バンタム級王者、ボクシングトレーナーYouTuber）。",
-                                              "expected_winner":  "那須川天心",
-                                              "expected_method":  "判定",
-                                              "target":  "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                                              "expected_outcome":  "那須川天心が僅差～中差の判定勝ち（7:3）",
-                                              "deadline":  "2026-04-11"
-                                          },
-                           "verification":  {
-                                                "status":  "pending",
-                                                "verification_date":  null,
-                                                "winner":  null,
-                                                "method":  null,
-                                                "actual_outcome":  null,
-                                                "notes":  "試合未開催（2026-04-11予定）"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2026-04-11-event-20-002",
-                           "statement_date":  "2026-03-17",
-                           "speaker":  {
-                                           "name":  "栗原慶太",
-                                           "role":  "boxer",
-                                           "affiliation":  "一力ジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "期待も込めて判定天心かな",
-                                           "normalized_text":  "那須川天心が判定勝利を予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=At1k2H5X7hs",
-                                          "timestamp":  "07:54"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "栗原慶太",
-                                              "source_url":  "https://www.youtube.com/watch?v=At1k2H5X7hs",
-                                              "source_ref":  "statement_id=stmt-boxing-2026-04-11-event-20-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。Tier A（現役プロ）。一次確認前。",
-                                              "expected_winner":  "那須川天心",
-                                              "expected_method":  "判定",
-                                              "target":  "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                                              "expected_outcome":  "那須川天心が判定勝ち",
-                                              "deadline":  "2026-04-11"
-                                          },
-                           "verification":  {
-                                                "status":  "pending",
-                                                "verification_date":  null,
-                                                "winner":  null,
-                                                "method":  null,
-                                                "actual_outcome":  null,
-                                                "notes":  "試合未開催（2026-04-11予定）"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2026-04-11-event-20-003",
-                           "statement_date":  "2026-02-03",
-                           "speaker":  {
-                                           "name":  "小國以載",
-                                           "role":  "boxer",
-                                           "affiliation":  "角海老宝石ボクシングジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "前半逃げ切れてそのこう逃げ切れればポイントでなんとかっていうとこあるんじゃないかな",
-                                           "normalized_text":  "那須川天心が判定で勝つ可能性があると予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=MhcPWZ9FARs",
-                                          "timestamp":  "09:26"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "小國以載",
-                                              "source_url":  "https://www.youtube.com/watch?v=MhcPWZ9FARs",
-                                              "source_ref":  "statement_id=stmt-boxing-2026-04-11-event-20-003",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。Tier A（元世界王者）。一次確認前。",
-                                              "expected_winner":  "那須川天心",
-                                              "expected_method":  "判定",
-                                              "target":  "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                                              "expected_outcome":  "那須川天心が判定勝ち",
-                                              "deadline":  "2026-04-11"
-                                          },
-                           "verification":  {
-                                                "status":  "pending",
-                                                "verification_date":  null,
-                                                "winner":  null,
-                                                "method":  null,
-                                                "actual_outcome":  null,
-                                                "notes":  "試合未開催（2026-04-11予定）"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2026-04-11-event-20-004",
-                           "statement_date":  "2026-02-25",
-                           "speaker":  {
-                                           "name":  "細川バレンタイン",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元日本スーパーライト級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "天心が多分僅差の判定で勝てるんじゃないかな",
-                                           "normalized_text":  "那須川天心が僅差の判定で勝利すると予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=S4mYIofc274",
-                                          "timestamp":  "00:26"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "細川バレンタイン",
-                                              "source_url":  "https://www.youtube.com/watch?v=S4mYIofc274",
-                                              "source_ref":  "statement_id=stmt-boxing-2026-04-11-event-20-004",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-23）。Tier B（元王者・解説YouTuber）。一次確認前。",
-                                              "expected_winner":  "那須川天心",
-                                              "expected_method":  "判定",
-                                              "target":  "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                                              "expected_outcome":  "那須川天心が僅差で判定勝ち",
-                                              "deadline":  "2026-04-11"
-                                          },
-                           "verification":  {
-                                                "status":  "pending",
-                                                "verification_date":  null,
-                                                "winner":  null,
-                                                "method":  null,
-                                                "actual_outcome":  null,
-                                                "notes":  "試合未開催（2026-04-11予定）"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "boxing-2026-04-11-event-20",
+    "event_meta": {
+        "event_name": "WBC世界バンタム級挑戦者決定戦 那須川天心 vs ファン・フランシスコ・エストラーダ",
+        "organization": "BOXING",
+        "sport": "martial_arts",
+        "discipline": "boxing",
+        "event_tier": "不明",
+        "date": "2026-04-11",
+        "timezone": "JST",
+        "country": "日本",
+        "venue": "両国国技館",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "boxing-2026-04-11-event-20-01",
+                    "rules": "プロボクシング",
+                    "red": "那須川天心",
+                    "blue": "ファン・フランシスコ・エストラーダ",
+                    "outcome": {
+                        "winner": null,
+                        "method": null,
+                        "round": null,
+                        "time": null,
+                        "result_note": "未開催（2026-04-11予定）"
+                    },
+                    "discipline": "BOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-001",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "具志堅用高",
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "提示URLの動画にて、那須川天心対ファン・フランシスコ・エストラーダ戦の展望を発言",
+                "normalized_text": "那須川天心の勝利を支持する展望（詳細は根拠動画を参照）"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=MhcPWZ9FARs",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "具志堅用高",
+                "source_url": "https://www.youtube.com/watch?v=MhcPWZ9FARs",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-001",
+                "source_note": "根拠URLは目視確認（2026-04-05）。小國以載と同一動画。Tier A（元世界王者）。",
+                "expected_winner": "那須川天心",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "那須川天心の勝利を予想",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-002",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "内山高志",
+                "role": "boxer",
+                "affiliation": "元WBA世界スーパーフェザー級王者"
+            },
+            "content": {
+                "raw_text": "提示URLの動画にて、那須川天心対エストラーダ戦の展望を発言",
+                "normalized_text": "那須川天心の勝利を支持する展望（詳細は根拠動画を参照）"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=8LwXJ6p2vo0",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "内山高志",
+                "source_url": "https://www.youtube.com/watch?v=8LwXJ6p2vo0",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-002",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "那須川天心",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "那須川天心の勝利を予想",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-003",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "渡嘉敷勝男",
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "天心対エストラーダは「負ける可能性の方が高い」「勝つ可能性もあるかもしれないけど」と発言。竹原に「トさんの意見はエストラーダが勝つと言うこと」と要約され「まあね。そう」と応じる。",
+                "normalized_text": "那須川天心の敗戦可能性が高いと見る一方で勝つ可能性も否定しない。対エストラーダ戦はエストラーダ勝利を想定する発言"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=Ix_S6h7YGJk",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "渡嘉敷勝男",
+                "source_url": "https://www.youtube.com/watch?v=Ix_S6h7YGJk",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-003",
+                "source_note": "根拠URLは目視確認（2026-04-05）。竹原慎二・畑山隆則と同一動画。要約は当該動画の自動文字起こしに基づく（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "ファン・フランシスコ・エストラーダ",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "ファン・フランシスコ・エストラーダの勝利を想定する発言（天心にも勝ち筋は残すとの文脈）",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-004",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "竹原慎二",
+                "role": "boxer",
+                "affiliation": "元WBA世界ミドル級王者"
+            },
+            "content": {
+                "raw_text": "「俺もぶっちゃけエストラーダ勝つと思いますよ」「前半は取れるかもわかんないけど、やっぱり中盤からこっちにかけたらやっぱりエストラーダ有利じゃないかと俺は思うんだけどね」「うまくやれば（天心が）勝つ可能性は確かにあるよ」と発言。",
+                "normalized_text": "中盤以降はエストラーダ有利と見てエストラーダ勝利を予想。天心側の戦い方次第では勝ち筋もあるとの補足"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=Ix_S6h7YGJk",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "竹原慎二",
+                "source_url": "https://www.youtube.com/watch?v=Ix_S6h7YGJk",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-004",
+                "source_note": "根拠URLは目視確認（2026-04-05）。渡嘉敷勝男・畑山隆則と同一動画。要約は当該動画の自動文字起こしに基づく（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "ファン・フランシスコ・エストラーダ",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "ファン・フランシスコ・エストラーダの勝利を予想（天心は戦術次第で勝機あり）",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-005",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "畑山隆則",
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "井上拓真戦のような立ち上がりの戦い方の徹底を提言。左ストレートやボディへの当て方を活かせば「勝つ可能性は確かにある」。12ラウンド「ポイントを取るボクシング」「アウトボクシング」を徹底すれば「勝つ」と主張。締めは天心に勝ってほしいとの応援。",
+                "normalized_text": "那須川天心がアウトボクシングでポイントを取り切る戦術を徹底すれば勝てると主張。勝者名の断定はせず勝ち筋を説く"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=Ix_S6h7YGJk",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "畑山隆則",
+                "source_url": "https://www.youtube.com/watch?v=Ix_S6h7YGJk",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-005",
+                "source_note": "根拠URLは目視確認（2026-04-05）。渡嘉敷勝男・竹原慎二と同一動画。要約は当該動画の自動文字起こしに基づく（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "那須川天心",
+                "expected_method": "判定",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "那須川天心がアウトボクシングでポイントを重ね判定勝ちする戦い方を前提に勝利可能と主張",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-006",
+            "statement_date": "2026-03-30",
+            "speaker": {
+                "name": "亀田大毅",
+                "role": "boxer",
+                "affiliation": "元世界2階級王者"
+            },
+            "content": {
+                "raw_text": "今回はしっかりポイントを取ってくるプランで、僕はいけると思う。優位にいくと思う。倒すのはちょっと難しいと思うんですけど、最大１１６―１１２。負けることはないと思う。天心選手はここで終わる選手じゃないと思う。チャンピオンになれる器だと僕は思っています",
+                "normalized_text": "那須川天心が判定で優位に進め勝利すると予想（スコア最大116-112、KOは難しいとの見立て）"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://topics.smt.docomo.ne.jp/article/chuspo/sports/chuspo-1230482",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "亀田大毅",
+                "source_url": "https://topics.smt.docomo.ne.jp/article/chuspo/sports/chuspo-1230482",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-006",
+                "source_note": "根拠URLは目視確認（2026-04-05）。中日スポーツ（dメニューニュース）。",
+                "expected_winner": "那須川天心",
+                "expected_method": "判定",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "那須川天心が判定勝ち（最大116-112程度の優位を示唆）",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-007",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "小國以載",
+                "role": "boxer",
+                "affiliation": "角海老宝石ボクシングジム"
+            },
+            "content": {
+                "raw_text": "前半逃げ切れてそのこう逃げ切れればポイントでなんとかっていうとこあるんじゃないかな",
+                "normalized_text": "那須川天心が前半を運べればポイントで勝ち切れる可能性を示唆"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=MhcPWZ9FARs",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "小國以載",
+                "source_url": "https://www.youtube.com/watch?v=MhcPWZ9FARs",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-007",
+                "source_note": "根拠URLは目視確認（2026-04-05）。具志堅用高と同一動画。Tier A（元IBF世界スーパーバンタム級王者）。",
+                "expected_winner": "那須川天心",
+                "expected_method": "判定",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "那須川天心が判定勝ちを想定する発言",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-008",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "栗原慶太",
+                "role": "boxer",
+                "affiliation": "OPBF東洋太平洋バンタム級王者／一力ジム"
+            },
+            "content": {
+                "raw_text": "「どっちが有利」と聞かれ「エストラーダ有利にしときます」「実績考えると」その上で「勝ってほしいのは那須川天心選手」。天心が僅差判定勝ちでも「すごいこと」と述べ、試合は厳しく想像がつきにくいと繰り返す。",
+                "normalized_text": "マッチアップ・実績ではエストラーダ有利と答えるが、天心の勝利を願う。天心の僅差判定勝ちも高く評価する見立て"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=TL8-PwPDeVk",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "栗原慶太",
+                "source_url": "https://www.youtube.com/watch?v=TL8-PwPDeVk",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-008",
+                "source_note": "根拠URLは目視確認（2026-04-05）。要約は当該動画の自動文字起こしに基づく（2026-04-05）。動画概要欄にOPBF東洋太平洋バンタム級王者表記。Tier B（現役プロ）。",
+                "expected_winner": "ファン・フランシスコ・エストラーダ",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "有利なのはエストラーダと明言（実績面）。天心の勝利を期待しており僅差判定勝ちも十分すごいと述べる",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-009",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "飯田覚士",
+                "role": "boxer",
+                "affiliation": "元WBA世界スーパーフライ級王者"
+            },
+            "content": {
+                "raw_text": "チャンネル上の動画タイトルは「那須川天心VSエストラーダ戦の展開予想」。ライブ配信のためアーカイブ・文字起こしが未整備の間は発言の逐語録を記録しない（据え置き）。",
+                "normalized_text": "ライブ配信ソースのため、本編取得後まで展開予想の内容はここでは確定しない"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=QDgZkcvU-OA",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "飯田覚士",
+                "source_url": "https://www.youtube.com/watch?v=QDgZkcvU-OA",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-009",
+                "source_note": "根拠URLは目視確認（2026-04-05）。ライブ配信のためアーカイブ・字幕が整うまで勝敗・展開の記録は保留でよい（ユーザー方針）。watch 形式URL。Tier A（元世界王者）。",
+                "expected_winner": "不明",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "ライブ配信（または未アーカイブ）のため、本編取得まで勝敗予想は未記録",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-010",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "和氣慎吾",
+                "role": "commentator",
+                "affiliation": "Wake Riseボクシングジム"
+            },
+            "content": {
+                "raw_text": "エストラーダは「強い」「厳しい相手」。一方で年齢・体格・スピードの利点は天心側にあると述べる。「次のエストラーダ戦は落とせない」「100%天心応援できます」「絶対勝たなきゃいけない」と発言。",
+                "normalized_text": "エストラーダを強敵と認めつつ体格とスピードは天心有利と分析。天心の勝利を強く応援し必勝の文脈で語る"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=bOA-dDL5wWI",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "和氣慎吾",
+                "source_url": "https://www.youtube.com/watch?v=bOA-dDL5wWI",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-010",
+                "source_note": "根拠URLは目視確認（2026-04-05）。要約は当該動画の自動文字起こしに基づく（2026-04-05）。所属は動画概要欄のWake Rise表記。",
+                "expected_winner": "那須川天心",
+                "expected_method": "不明",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "那須川天心の勝利を応援・必須とする立場。エストラーダは強いが体格・スピードは天心に利があるとの見立て",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-04-11予定）"
+            }
+        }
+    ],
+    "charter_update_candidates": [],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

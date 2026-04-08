@@ -1,4 +1,4 @@
-﻿{
+{
     "scope":  "RIZIN and UFC events in factcheck-platform data/index.json",
     "bouts":  [
                   {
@@ -2315,10 +2315,10 @@
                   },
                   {
                       "red":  "ジョシュア・ヴァン",
-                      "event_file":  "ufc-327.json",
-                      "date":  "2026-04-12",
-                      "event_id":  "ufc-327",
-                      "bout_id":  "ufc-327-001",
+                      "event_file":  "ufc-328.json",
+                      "date":  "2026-05-10",
+                      "event_id":  "ufc-328",
+                      "bout_id":  "ufc-328-001",
                       "blue":  "平良達郎"
                   }
               ]

@@ -1,6 +1,6 @@
 {
   "schema": "boxing-youtube-channels-v1",
-  "description": "ボクシング予測動画スキャン用。label は表示名、channel_id は YouTube Data API のチャンネル ID。2026-04-04 channels.list で有効性を再確認。",
+  "description": "ボクシング予測動画スキャン用。label は表示名、channel_id は YouTube Data API のチャンネル ID。和氣・栗原・格闘キャストは 2026-04-05 に channel ページの identifier／会員リンクで確認。",
   "channels": [
     { "label": "村田諒太", "channel_id": "UCboA2psINpCOu4s8QuCKB2w" },
     { "label": "具志堅用高", "channel_id": "UCSRK2LqNpLei1p_HlhlYH-g" },
@@ -11,6 +11,9 @@
     { "label": "亀田興毅", "channel_id": "UCHGYAdPGQAPAydcmkJ8hiKw" },
     { "label": "山中慎介", "channel_id": "UCDlh8Pmz_ze5ygiXKuwzq4w" },
     { "label": "長谷川穂積", "channel_id": "UCPX2gJXnOGtNY3tnSj0ToAw" },
-    { "label": "飯田覚士", "channel_id": "UCl-3xQT6yZ2LY68L2l5EDgg" }
+    { "label": "飯田覚士", "channel_id": "UCl-3xQT6yZ2LY68L2l5EDgg" },
+    { "label": "和氣慎吾", "channel_id": "UC4osInzUWGfkUpxl1WMxz-A" },
+    { "label": "栗原慶太", "channel_id": "UCakDrwE6fQRj-y64--i1vkA" },
+    { "label": "格闘キャスト", "channel_id": "UC2bXo5ROWI6LY6m1jTaKNsg" }
   ]
 }

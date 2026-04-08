@@ -243,6 +243,16 @@
                                            "MMA"
                                        ]
                    },
+                  {
+                      "id":  "rizin-landmark-13-fukuoka",
+                      "title":  "RIZIN LANDMARK 13 in FUKUOKA",
+                      "date":  "2026-04-12",
+                      "organization":  "RIZIN",
+                      "file":  "rizin-landmark-13-fukuoka.json",
+                      "disciplines":  [
+                                          "MMA"
+                                      ]
+                  },
                    {
                        "id":  "boxing-2022-11-01-event-01",
                        "title":  "WBC・WBO世界ライトフライ級王座統一戦 寺地拳四朗 vs 京口紘人",
@@ -568,11 +578,11 @@
                                       ]
                   },
                   {
-                      "id":  "ufc-327",
-                      "title":  "UFC 327（平良達郎 フライ級王座挑戦 vs ジョシュア・ヴァン）",
-                      "date":  "2026-04-12",
+                      "id":  "ufc-328",
+                      "title":  "UFC 328（平良達郎 フライ級王座挑戦 vs ジョシュア・ヴァン）",
+                      "date":  "2026-05-10",
                       "organization":  "UFC",
-                      "file":  "ufc-327.json",
+                      "file":  "ufc-328.json",
                       "disciplines":  [
                                           "MMA"
                                       ]

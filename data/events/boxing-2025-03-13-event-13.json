@@ -1,145 +1,243 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "boxing-2025-03-13-event-13",
-    "event_meta":  {
-                       "event_name":  "WBC世界フライ級 寺地拳四朗 vs ユーリ阿久井政悟",
-                       "organization":  "BOXING",
-                       "sport":  "martial_arts",
-                       "discipline":  "boxing",
-                       "event_tier":  "不明",
-                       "date":  "2025-03-13",
-                       "timezone":  "不明",
-                       "country":  "不明",
-                       "venue":  "不明",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "boxing-2025-03-13-event-13-01",
-                                        "rules":  "プロボクシング",
-                                        "red":  "寺地拳四朗",
-                                        "blue":  "ユーリ阿久井政悟",
-                                        "outcome":  {
-                                                        "winner":  "寺地拳四朗",
-                                                        "method":  "TKO",
-                                                        "round":  12,
-                                                        "time":  null,
-                                                        "result_note":  "寺地拳四朗が12回TKO勝ちで防衛"
-                                                    },
-                                        "discipline":  "BOXING"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-boxing-2025-03-13-event-13-001",
-                           "statement_date":  "2025-02-06",
-                           "speaker":  {
-                                           "name":  "畑山隆則",
-                                           "role":  "boxer",
-                                           "affiliation":  "不明"
-                                       },
-                           "content":  {
-                                           "raw_text":  "拳四朗の方が戦い方の引き出しはある。阿久井はガードを固めてジャブからのワンツー。それが拳四朗に通用するか、見所はそこ。判定なら拳四朗。KOなら阿久井",
-                                           "normalized_text":  "判定なら寺地拳四朗、KOならユーリ阿久井と予想。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/02/06/kiji/20250206s00021000342000c.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "畑山隆則",
-                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/02/06/kiji/20250206s00021000342000c.html",
-                                              "source_ref":  "statement_id=stmt-boxing-2025-03-13-event-13-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A（元世界王者）。スポニチ記事（ぶっちゃけチャンネル関連取材）。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs ユーリ阿久井政悟",
-                                              "expected_outcome":  "寺地拳四朗が判定勝ち（KO決着の場合はユーリ阿久井の可能性に言及）",
-                                              "deadline":  "2025-03-13"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2025-03-13",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が12回TKO勝ちで王座統一",
-                                                "notes":  "12回、レフェリーストップによる決着。",
-                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2025-03-13-event-13-002",
-                           "statement_date":  "2025-02-06",
-                           "speaker":  {
-                                           "name":  "竹原慎二",
-                                           "role":  "boxer",
-                                           "affiliation":  "不明"
-                                       },
-                           "content":  {
-                                           "raw_text":  "阿久井くんもスピードはある。だが、判定でもKOでも拳四朗かな",
-                                           "normalized_text":  "寺地拳四朗が判定またはKOで勝利すると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.sponichi.co.jp/battle/news/2025/02/06/kiji/20250206s00021000342000c.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "竹原慎二",
-                                              "source_url":  "https://www.sponichi.co.jp/battle/news/2025/02/06/kiji/20250206s00021000342000c.html",
-                                              "source_ref":  "statement_id=stmt-boxing-2025-03-13-event-13-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-21）。Tier A（元世界王者）。スポニチ記事（ぶっちゃけチャンネル関連取材）。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "不明",
-                                              "target":  "寺地拳四朗 vs ユーリ阿久井政悟",
-                                              "expected_outcome":  "寺地拳四朗が勝利",
-                                              "deadline":  "2025-03-13"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2025-03-13",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が12回TKO勝ちで王座統一",
-                                                "notes":  "12回、レフェリーストップによる決着。",
-                                                "source_note":  "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
-                                            }
-                       }
-                   ],
-    "charter_update_candidates":  [
-                                      {
-                                          "title":  "Gemini出力のダミーURLと一次情報の差し替え",
-                                          "problem":  "マージ対象として提示されたレコードに、YouTubeのダミー動画IDやexample.comのプレースホルダーURLが含まれていた。採用せず、スポニチの実在記事に基づく畑山隆則氏・竹原慎二氏の2件に差し替えた。",
-                                          "proposed_rule":  "マージ前にURLの実在性を確認し、dummyやexampleドメインのレコードは採用しない。",
-                                          "scope":  "verification",
-                                          "evidence_urls":  [
-                                                                "https://www.sponichi.co.jp/battle/news/2025/02/06/kiji/20250206s00021000342000c.html"
-                                                            ]
-                                      },
-                                      {
-                                          "title":  "予測の「KO」表現と公式記録のTKO",
-                                          "problem":  "予測で「KO」と述べた場合でも、公式記録がTKO（レフェリーストップ）になることがある。照合ルールの明文化が必要になる場合がある。",
-                                          "proposed_rule":  "verification.method は公式記録に従う。予測側の口語の「KO」との照合は notes で事実のみ補足する。",
-                                          "scope":  "verification",
-                                          "evidence_urls":  [
-                                                                "https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
-                                                            ]
-                                      }
-                                  ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "boxing-2025-03-13-event-13",
+    "event_meta": {
+        "event_name": "WBC世界フライ級 寺地拳四朗 vs ユーリ阿久井政悟",
+        "organization": "BOXING",
+        "sport": "martial_arts",
+        "discipline": "boxing",
+        "event_tier": "不明",
+        "date": "2025-03-13",
+        "timezone": "不明",
+        "country": "不明",
+        "venue": "不明",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "boxing-2025-03-13-event-13-01",
+                    "rules": "プロボクシング",
+                    "red": "寺地拳四朗",
+                    "blue": "ユーリ阿久井政悟",
+                    "outcome": {
+                        "winner": "寺地拳四朗",
+                        "method": "TKO",
+                        "round": 12,
+                        "time": null,
+                        "result_note": "寺地拳四朗が12回TKO勝ちで防衛"
+                    },
+                    "discipline": "BOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-boxing-2025-03-13-event-13-001",
+            "statement_date": "2025-03-12",
+            "speaker": {
+                "name": "具志堅用高",
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "提示URLの動画にて、寺地拳四朗対ユーリ阿久井政悟戦について展望を発言",
+                "normalized_text": "寺地拳四朗の勝利を支持する展望（詳細は根拠動画を参照）"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=-mEJaG4Qo6A",
+                "timestamp": "00:01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "具志堅用高",
+                "source_url": "https://www.youtube.com/watch?v=-mEJaG4Qo6A",
+                "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-001",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "不明",
+                "target": "寺地拳四朗 vs ユーリ阿久井政悟",
+                "expected_outcome": "寺地拳四朗の勝利を予想",
+                "deadline": "2025-03-13"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-03-13",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
+                "notes": "12回、レフェリーストップによる決着。勝者は的中。",
+                "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2025-03-13-event-13-002",
+            "statement_date": "2025-02-06",
+            "speaker": {
+                "name": "竹原慎二",
+                "role": "boxer",
+                "affiliation": "元WBA世界ミドル級王者"
+            },
+            "content": {
+                "raw_text": "阿久井くんもスピードはある。だが、判定でもKOでも拳四朗かな",
+                "normalized_text": "寺地拳四朗が判定またはKOで勝利すると予想"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "竹原慎二",
+                "source_url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
+                "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-002",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "不明",
+                "target": "寺地拳四朗 vs ユーリ阿久井政悟",
+                "expected_outcome": "寺地拳四朗が勝利",
+                "deadline": "2025-03-13"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-03-13",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
+                "notes": "12回、レフェリーストップによる決着。勝者は的中。",
+                "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2025-03-13-event-13-003",
+            "statement_date": "2025-02-06",
+            "speaker": {
+                "name": "畑山隆則",
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "拳四朗の方が戦い方の引き出しはある。阿久井はガードを固めてジャブからのワンツー。それが拳四朗に通用するか、見所はそこ。判定なら拳四朗。KOなら阿久井",
+                "normalized_text": "判定なら寺地拳四朗、KO決着ならユーリ阿久井の可能性に言及"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "畑山隆則",
+                "source_url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
+                "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-003",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs ユーリ阿久井政悟",
+                "expected_outcome": "判定決着を想定した場合は寺地拳四朗優位（KOの場合はユーリの可能性）",
+                "deadline": "2025-03-13"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-03-13",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
+                "notes": "12回TKO。勝者は的中。畑山氏は判定シナリオを主に述べつつKO時は阿久井に言及。",
+                "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2025-03-13-event-13-004",
+            "statement_date": "2025-03-12",
+            "speaker": {
+                "name": "山中慎介",
+                "role": "commentator",
+                "affiliation": "元WBC世界バンタム級王者"
+            },
+            "content": {
+                "raw_text": "【拳四朗６―４ユーリ】左を制した方が、勝利をたぐり寄せるだろう",
+                "normalized_text": "スコア目安6対4で寺地拳四朗を支持。ジャブ（左）の主導権が勝敗を分けると分析"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20250312-OHT1T51186.html",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "山中慎介",
+                "source_url": "https://hochi.news/articles/20250312-OHT1T51186.html",
+                "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-004",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs ユーリ阿久井政悟",
+                "expected_outcome": "寺地拳四朗が僅差で勝利する展開を予想",
+                "deadline": "2025-03-13"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-03-13",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
+                "notes": "勝者は的中。決着方法は予想（判定系）と異なり12回TKO。",
+                "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2025-03-13-event-13-005",
+            "statement_date": "2025-03-12",
+            "speaker": {
+                "name": "亀田大毅",
+                "role": "boxer",
+                "affiliation": "元世界2階級王者"
+            },
+            "content": {
+                "raw_text": "拳四朗選手の判定勝ち。判定どっち？ みたいな試合になる。世界戦のキャリアの差が出るんじゃないかなと思う",
+                "normalized_text": "寺地拳四朗の判定勝ちを予想。接戦の判定決着となり世界戦キャリアの差が出るとの見立て"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sanspo.com/article/20250312-66NS5AUGP5G5BC6VFAJ2GYVI5U/",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "亀田大毅",
+                "source_url": "https://www.sanspo.com/article/20250312-66NS5AUGP5G5BC6VFAJ2GYVI5U/",
+                "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-005",
+                "source_note": "根拠URLは目視確認（2026-04-05）。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs ユーリ阿久井政悟",
+                "expected_outcome": "寺地拳四朗が判定勝ち",
+                "deadline": "2025-03-13"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-03-13",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
+                "notes": "勝者は的中。決着は判定ではなく12回TKO。",
+                "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
+            }
+        }
+    ],
+    "charter_update_candidates": [],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

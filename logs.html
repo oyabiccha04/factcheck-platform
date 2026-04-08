@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ボクシング ログ一覧 | factcheck-platform</title>
+  <title>ボクシング ログ一覧 | 予測VSFACT（予想の的中率・精度をデータで検証）</title>
   <link rel="stylesheet" href="style.css">
   <style>
     /* 一覧エリア：カード形式・ホバー */
@@ -142,7 +142,7 @@
 
   const LIST_ID = "event-list";
   const RANKING_ID = "hit-rate-ranking";
-  const CACHE = "20260326a";
+  const CACHE = "20260405a";
 
   /** ボクシング予測ページ（predictors.html）と同じく index の organization で絞り込む */
   var BOXING_ORGANIZATIONS = { "BOXING": true };
@@ -447,14 +447,14 @@
   var subEl = document.getElementById("logs-page-sub");
   var scopeSwitch = document.getElementById("logs-scope-switch");
   if (viewAll) {
-    document.title = "ログ一覧（全ジャンル） | factcheck-platform";
+    document.title = "ログ一覧（全ジャンル） | 予測VSFACT（予想の的中率・精度をデータで検証）";
     if (titleEl) titleEl.textContent = "ログ一覧（全ジャンル）";
     if (subEl) subEl.textContent = "すべてのイベントログ（MMA・キック・ボクシングなど）";
     if (scopeSwitch) {
       scopeSwitch.innerHTML = "<a href=\"logs.html\">ボクシングのみ表示</a>（通常のボクシング入口）";
     }
   } else {
-    document.title = "ボクシング ログ一覧 | factcheck-platform";
+    document.title = "ボクシング ログ一覧 | 予測VSFACT（予想の的中率・精度をデータで検証）";
     if (scopeSwitch) {
       scopeSwitch.innerHTML = "<a href=\"logs.html?view=all\">全ジャンルのログ一覧を見る</a>";
     }

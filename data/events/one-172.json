@@ -51,21 +51,6 @@
         },
         {
           "bout_id": "one172-03",
-          "division": "フェザー級",
-          "rules": "ONE キックボクシングルール 3分3R",
-          "red": "マラット・グレゴリアン",
-          "blue": "加藤賀斗",
-          "outcome": {
-            "winner": "マラット・グレゴリアン",
-            "method": "Decision",
-            "round": null,
-            "time": null,
-            "result_note": "判定"
-          },
-          "discipline": "KICKBOXING"
-        },
-        {
-          "bout_id": "one172-04",
           "division": "フライ級",
           "rules": "ONE MMA 5分3R",
           "red": "若松佑弥",
@@ -197,6 +182,135 @@
         "method": "TKO",
         "actual_outcome": "野杁正明が3ラウンド1分55秒TKO勝ち（ONEフェザー級キックボクシング暫定世界王者に）",
         "notes": "大番狂わせ。井熊知也の予想（タワンチャイ判定勝ち）はハズレ。野杁が衝撃のTKO勝利。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-172-004",
+      "statement_date": "2025-01-31",
+      "speaker": {
+        "name": "スーパーレック・キアトモー9",
+        "role": "fighter",
+        "affiliation": "ONE（フライ級キック／ムエタイ王者）"
+      },
+      "content": {
+        "raw_text": "（会見・ORICON掲載動画）武尊対ロッタンについて「間違いなくすごい試合になる」「メインにふさわしい最高の殴り合いをしたい」などと述べた。",
+        "normalized_text": "武尊対ロッタンを激しい打ち合いの名勝負になるとの見立てで期待を表明したが、どちらが勝つかの指名はしていない。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=udehDc8YkrA",
+        "timestamp": "2025-01-31前後"
+      },
+      "prediction": {
+        "exists": false
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "ロッタン・ジットムアンノン",
+        "method": "KO",
+        "actual_outcome": "ロッタンが1ラウンド1分20秒KO勝ち",
+        "notes": "当該発言からは勝者を特定する予想は抽出できないため、的中・ハズレの評価は行わない。試合結果のみ記録。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-172-005",
+      "statement_date": "2025-03-15",
+      "speaker": {
+        "name": "小比類巻貴之",
+        "role": "fighter",
+        "affiliation": "元K-1 WORLD MAX世界王者"
+      },
+      "content": {
+        "raw_text": "「ロッタンが勝つんじゃないかなってちょっと思ってる」「5ラウンド長丁場なら粘り・プレッシャーはロッタン」「殴り合いで時間が長ければ長いほどロッタン」「ズバり予想としてはKO、ロッタン」「3、4ラウンドでダウンを取るような」「武尊が勝つなら手数で押し切って判定、ダウンは取れないイメージ」",
+        "normalized_text": "ロッタンが3〜4ラウンド前後でダウンを奪う展開を想定し、KOで勝つと予想。前半は武尊が仕掛けるが、中盤以降ロッタンの粘りとプレッシャーが上回る見立て。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=l5TtAAY8dZo",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "小比類巻貴之",
+        "source_url": "https://www.youtube.com/watch?v=l5TtAAY8dZo",
+        "source_ref": "stmt-one-172-005",
+        "source_note": "YouTube「小比類巻貴之 / KOHI CHANNEL」公開動画の内容に基づく要約（確認日：2026-04-08）。",
+        "expected_winner": "ロッタン・ジットムアンノン",
+        "expected_method": "KO",
+        "target": "武尊 vs ロッタン・ジットムアンノン",
+        "expected_outcome": "ロッタンが中盤（3〜4ラウンド）でダウンを奪いKO勝ち",
+        "deadline": "2025-03-23"
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "ロッタン・ジットムアンノン",
+        "method": "KO",
+        "actual_outcome": "ロッタンが1ラウンド1分20秒KO勝ち",
+        "notes": "勝者・KO決着は的中。ラウンド指定（3〜4R）とダウン展開のイメージは外れ（実際は1R早期KO）。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-172-006",
+      "statement_date": "2025-03-20",
+      "speaker": {
+        "name": "魔裟斗",
+        "role": "fighter",
+        "affiliation": "元K-1 WORLD MAX世界王者・格闘技解説"
+      },
+      "content": {
+        "raw_text": "（動画タイトル・企画）ONE172 武尊vsロッタン出場のフェザー級ビッグカードをK-1 MAXレジェンド達が語り尽くす｜U-NEXTでPPV独占ライブ配信。",
+        "normalized_text": "ONE 172の武尊対ロッタンおよび同大会のフェザー級カードなどを、K-1 MAX世代のレジェンドらが語る企画動画。当リポジトリで参照した範囲では、勝者を一方に断定する明確な試合予想は読み取れない。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=GupO8RHFtNA",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": false
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "ロッタン・ジットムアンノン",
+        "method": "KO",
+        "actual_outcome": "ロッタンが1ラウンド1分20秒KO勝ち",
+        "notes": "当該ソースから勝者予想を特定できないため、的中・ハズレの評価は行わない。試合結果のみ記録。",
+        "source_note": ""
+      }
+    },
+    {
+      "statement_id": "stmt-one-172-007",
+      "statement_date": "2025-03-20",
+      "speaker": {
+        "name": "城戸康裕",
+        "role": "fighter",
+        "affiliation": "元K-1選手"
+      },
+      "content": {
+        "raw_text": "「どちらもメンタル強い」「ロッタンは強い、メンタルが強い」「武尊のすごいところは回転力とパンチの速さ」「ま武尊はこれ勝ってロッタン（を下して）スーパーレックにリベンジしてえたま最高じゃないかな、それを見たい」など。",
+        "normalized_text": "両者のメンタル・スタイル・市場環境を長く分析。武尊の回転の速さやロッタンの強さを称賛し、武尊がロッタンを下してスーパーレック再戦へ進むストーリーを「見たい」と述べる一方、試合の勝者を一方に決め打ちする予想はしていない。"
+      },
+      "source": {
+        "type": "video",
+        "url": "https://www.youtube.com/watch?v=jZW8CrgT2wY",
+        "timestamp": "不明"
+      },
+      "prediction": {
+        "exists": false
+      },
+      "verification": {
+        "status": "resolved",
+        "verification_date": "2025-03-23",
+        "winner": "ロッタン・ジットムアンノン",
+        "method": "KO",
+        "actual_outcome": "ロッタンが1ラウンド1分20秒KO勝ち",
+        "notes": "当該発言からは勝者を特定する予想は抽出できないため、的中・ハズレの評価は行わない。試合結果のみ記録。",
         "source_note": ""
       }
     }

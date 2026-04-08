@@ -60,25 +60,16 @@
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "井上君のKO勝ち。中盤までには終わるんじゃないかな。",
-                "normalized_text": "井上尚弥のKO勝ち（中盤まで）"
+                "raw_text": "",
+                "normalized_text": ""
             },
             "source": {
                 "type": "video",
-                "url": "https://www.youtube.com/watch?v=F0S_XzE8WjU",
-                "timestamp": "04:15"
+                "url": "https://www.youtube.com/watch?v=Rl0f5LWSRNY",
+                "timestamp": "不明"
             },
             "prediction": {
-                "exists": true,
-                "predictor_name": "具志堅用高",
-                "source_url": "https://www.youtube.com/watch?v=F0S_XzE8WjU",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-002",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
+                "exists": false
             },
             "verification": {
                 "status": "resolved",
@@ -87,124 +78,7 @@
                 "method": "TKO",
                 "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
                 "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-003",
-            "statement_date": "2024-05-02",
-            "speaker": {
-                "name": "渡嘉敷勝男",
-                "role": "boxer",
-                "affiliation": "元WBA世界ライトフライ級王者"
-            },
-            "content": {
-                "raw_text": "井上のKO勝ち。序盤で決まる可能性も高い。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=7uD3W7Iq6tE",
-                "timestamp": "08:20"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "渡嘉敷勝男",
-                "source_url": "https://www.youtube.com/watch?v=7uD3W7Iq6tE",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-003",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-004",
-            "statement_date": "2024-05-02",
-            "speaker": {
-                "name": "竹原慎二",
-                "role": "boxer",
-                "affiliation": "元WBA世界ミドル級王者"
-            },
-            "content": {
-                "raw_text": "井上君のKO勝ちでしょ。ネリも強いけどレベルが違う。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=7uD3W7Iq6tE",
-                "timestamp": "09:45"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "竹原慎二",
-                "source_url": "https://www.youtube.com/watch?v=7uD3W7Iq6tE",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-004",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-005",
-            "statement_date": "2024-05-02",
-            "speaker": {
-                "name": "畑山隆則",
-                "role": "boxer",
-                "affiliation": "元世界2階級制覇王者"
-            },
-            "content": {
-                "raw_text": "井上のKO勝ち。ネリの荒っぽさは井上には通用しない。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=7uD3W7Iq6tE",
-                "timestamp": "11:10"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "畑山隆則",
-                "source_url": "https://www.youtube.com/watch?v=7uD3W7Iq6tE",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-005",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
+                "source_note": "試合結果の根拠（スポニチ・井上尚弥vsルイス・ネリ）: https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html"
             }
         },
         {
@@ -216,64 +90,16 @@
                 "affiliation": "元WBA世界スーパーフェザー級王者"
             },
             "content": {
-                "raw_text": "井上尚弥選手のKO勝ち。中盤から後半にかけて仕留める。",
-                "normalized_text": "井上尚弥のKO勝ち（中盤〜後半）"
+                "raw_text": "",
+                "normalized_text": ""
             },
             "source": {
                 "type": "video",
-                "url": "https://www.youtube.com/watch?v=Y7e-07_nS0Q",
-                "timestamp": "05:50"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "内山高志",
-                "source_url": "https://www.youtube.com/watch?v=Y7e-07_nS0Q",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-006",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-007",
-            "statement_date": "2024-05-01",
-            "speaker": {
-                "name": "長谷川穂積",
-                "role": "boxer",
-                "affiliation": "元世界3階級制覇王者"
-            },
-            "content": {
-                "raw_text": "井上選手のKO勝ち。どこかで捕まえると思う。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.daily.co.jp/ring/2024/05/01/0017602345.shtml",
+                "url": "https://www.youtube.com/watch?v=zqdBF42FhUU",
                 "timestamp": "不明"
             },
             "prediction": {
-                "exists": true,
-                "predictor_name": "長谷川穂積",
-                "source_url": "https://www.daily.co.jp/ring/2024/05/01/0017602345.shtml",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-007",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
+                "exists": false
             },
             "verification": {
                 "status": "resolved",
@@ -282,934 +108,28 @@
                 "method": "TKO",
                 "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
                 "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
+                "source_note": "試合結果の根拠（スポニチ・井上尚弥vsルイス・ネリ）: https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html"
             }
         },
         {
-            "statement_id": "stmt-boxing-2024-05-06-008",
-            "statement_date": "2024-05-05",
-            "speaker": {
-                "name": "山中慎介",
-                "role": "boxer",
-                "affiliation": "元WBC世界バンタム級王者"
-            },
-            "content": {
-                "raw_text": "井上選手のKO勝利。後半までもつれないと思う。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.sponichi.co.jp/battle/news/2024/05/05/kiji/20240505s00021000002000c.html",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "山中慎介",
-                "source_url": "https://www.sponichi.co.jp/battle/news/2024/05/05/kiji/20240505s00021000002000c.html",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-008",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-009",
-            "statement_date": "2024-05-04",
-            "speaker": {
-                "name": "亀田興毅",
-                "role": "boxer",
-                "affiliation": "元世界3階級制覇王者"
-            },
-            "content": {
-                "raw_text": "井上選手のKO。中盤くらいに倒すんと違うかな。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=pAnuFkK9yC4",
-                "timestamp": "02:30"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "亀田興毅",
-                "source_url": "https://www.youtube.com/watch?v=pAnuFkK9yC4",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-009",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（元世界王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-010",
-            "statement_date": "2024-05-03",
-            "speaker": {
-                "name": "那須川天心",
-                "role": "boxer",
-                "affiliation": "現役ボクサー（当時）"
-            },
-            "content": {
-                "raw_text": "井上さんがKOで勝つと思います。圧倒的だと思います。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=Vz2fG29p5s8",
-                "timestamp": "01:15"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "那須川天心",
-                "source_url": "https://www.youtube.com/watch?v=Vz2fG29p5s8",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-010",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier A（現役著名選手）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-011",
-            "statement_date": "2024-04-30",
-            "speaker": {
-                "name": "マイク・タイソン",
-                "role": "boxer",
-                "affiliation": "元世界ヘビー級王者"
-            },
-            "content": {
-                "raw_text": "Inoue is a monster. He will dominate and win by KO.",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=3S7bOitMByM",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "マイク・タイソン",
-                "source_url": "https://www.youtube.com/watch?v=3S7bOitMByM",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-011",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（世界的元王者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-012",
-            "statement_date": "2024-05-03",
-            "speaker": {
-                "name": "ジョージ・グローヴス",
-                "role": "boxer",
-                "affiliation": "元WBA世界スーパーミドル級王者"
-            },
-            "content": {
-                "raw_text": "Inoue to win by stoppage in the middle rounds.",
-                "normalized_text": "井上尚弥の中盤KO勝ち"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.boxingscene.com/inoue-vs-nery-predictions/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "ジョージ・グローヴス",
-                "source_url": "https://www.boxingscene.com/inoue-vs-nery-predictions/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-012",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（専門家）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥が中盤KO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-013",
-            "statement_date": "2024-05-04",
-            "speaker": {
-                "name": "トニー・ベリュー",
-                "role": "boxer",
-                "affiliation": "元WBC世界クルーザー級王者"
-            },
-            "content": {
-                "raw_text": "Inoue is too clinical. KO win for him.",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.boxingscene.com/inoue-vs-nery-predictions/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "トニー・ベリュー",
-                "source_url": "https://www.boxingscene.com/inoue-vs-nery-predictions/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-013",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（専門家）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-014",
+            "statement_id": "stmt-boxing-2024-05-06-003",
             "statement_date": "2024-05-02",
-            "speaker": {
-                "name": "ティム・ブラッドリー",
-                "role": "boxer",
-                "affiliation": "元世界2階級制覇王者・解説者"
-            },
-            "content": {
-                "raw_text": "Inoue within distance. Nery has no chance.",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=S6YI-o7m0-E",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "ティム・ブラッドリー",
-                "source_url": "https://www.youtube.com/watch?v=S6YI-o7m0-E",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-014",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（著名解説者）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-015",
-            "statement_date": "2024-04-29",
-            "speaker": {
-                "name": "魔裟斗",
-                "role": "other",
-                "affiliation": "元K-1世界王者"
-            },
-            "content": {
-                "raw_text": "井上尚弥選手の圧勝。KOで終わるでしょう。",
-                "normalized_text": "井上尚弥のKO勝ち"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=Yp69m-v-K_A",
-                "timestamp": "06:40"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "魔裟斗",
-                "source_url": "https://www.youtube.com/watch?v=Yp69m-v-K_A",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-015",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース。Tier B（格闘技系著名YouTuber）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝ち",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "井上尚弥",
-                "method": "TKO",
-                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-016",
-            "statement_date": "2024-05-03",
             "speaker": {
                 "name": "渡嘉敷勝男",
                 "role": "boxer",
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "武居選手が早い回に倒すんじゃないかな。KOで勝つと予想します。",
-                "normalized_text": "武居由樹の早いラウンドでのKO勝ちを予想。"
+                "raw_text": "",
+                "normalized_text": ""
             },
             "source": {
                 "type": "video",
-                "url": "https://www.youtube.com/watch?v=kYJ_tXz_n_s",
-                "timestamp": "02:15"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "渡嘉敷勝男",
-                "source_url": "https://www.youtube.com/watch?v=kYJ_tXz_n_s",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-016",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-017",
-            "statement_date": "2024-05-03",
-            "speaker": {
-                "name": "竹原慎二",
-                "role": "boxer",
-                "affiliation": "元WBA世界ミドル級王者"
-            },
-            "content": {
-                "raw_text": "モロニーが判定で勝つと思う。キャリアの差が出る。",
-                "normalized_text": "ジェイソン・モロニーの判定勝ちを予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=kYJ_tXz_n_s",
-                "timestamp": "04:50"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "竹原慎二",
-                "source_url": "https://www.youtube.com/watch?v=kYJ_tXz_n_s",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-017",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                "expected_winner": "ジェイソン・モロニー",
-                "expected_method": "判定",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "ジェイソン・モロニーが判定勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-018",
-            "statement_date": "2024-05-03",
-            "speaker": {
-                "name": "畑山隆則",
-                "role": "boxer",
-                "affiliation": "元世界2階級制覇王者"
-            },
-            "content": {
-                "raw_text": "武居くんが序盤に捕まえればKO。中盤以降ならモロニー。でも武居くんのパンチに期待して武居くん。",
-                "normalized_text": "武居由樹のKO勝ちを予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=kYJ_tXz_n_s",
-                "timestamp": "07:10"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "畑山隆則",
-                "source_url": "https://www.youtube.com/watch?v=kYJ_tXz_n_s",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-018",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-019",
-            "statement_date": "2024-05-01",
-            "speaker": {
-                "name": "内山高志",
-                "role": "boxer",
-                "affiliation": "元WBA世界スーパーフェザー級王者"
-            },
-            "content": {
-                "raw_text": "武居君のKO勝ちを予想します。モロニーの堅実さより武居君の爆発力が上回る。",
-                "normalized_text": "武居由樹のKO勝ちを予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=4Ua_uFv-s6Q",
-                "timestamp": "05:30"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "内山高志",
-                "source_url": "https://www.youtube.com/watch?v=4Ua_uFv-s6Q",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-019",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-020",
-            "statement_date": "2024-05-04",
-            "speaker": {
-                "name": "井上尚弥",
-                "role": "boxer",
-                "affiliation": "世界4階級制覇王者"
-            },
-            "content": {
-                "raw_text": "武居が勝つチャンスは十分にある。KOで獲ってくれると思う。",
-                "normalized_text": "武居由樹のKO勝ちを期待・予想。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.tokyo-sports.co.jp/articles/-/301138",
+                "url": "https://www.youtube.com/watch?v=lHg8skIKXrg",
                 "timestamp": "不明"
             },
             "prediction": {
-                "exists": true,
-                "predictor_name": "井上尚弥",
-                "source_url": "https://www.tokyo-sports.co.jp/articles/-/301138",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-020",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（現役トップ選手・同門）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-021",
-            "statement_date": "2024-04-30",
-            "speaker": {
-                "name": "亀田興毅",
-                "role": "boxer",
-                "affiliation": "元世界3階級制覇王者"
-            },
-            "content": {
-                "raw_text": "武居君のパンチが当たれば倒れる。KOで勝つ可能性が高い。",
-                "normalized_text": "武居由樹のKO勝ちを予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=MInZ6Rbe27s",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "亀田興毅",
-                "source_url": "https://www.youtube.com/watch?v=MInZ6Rbe27s",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-021",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-022",
-            "statement_date": "2024-05-05",
-            "speaker": {
-                "name": "香川照之",
-                "role": "commentator",
-                "affiliation": "俳優・ボクシング解説者"
-            },
-            "content": {
-                "raw_text": "モロニーのディフェンスは堅いが、武居の左がそれを突き破る。中盤KO。",
-                "normalized_text": "武居由樹の中盤KO勝ちを予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=Vl3pCgL7r9w",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "香川照之",
-                "source_url": "https://www.youtube.com/watch?v=Vl3pCgL7r9w",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-022",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（著名解説者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-023",
-            "statement_date": "2024-05-02",
-            "speaker": {
-                "name": "長谷川穂積",
-                "role": "boxer",
-                "affiliation": "元世界3階級制覇王者"
-            },
-            "content": {
-                "raw_text": "武居君が序盤からプレッシャーをかければチャンス。判定でも勝てる。",
-                "normalized_text": "武居由樹の勝利を予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=I7X8GfWqR2U",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "長谷川穂積",
-                "source_url": "https://www.youtube.com/watch?v=I7X8GfWqR2U",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-023",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（元世界王者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "不明",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹が勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-024",
-            "statement_date": "2024-05-03",
-            "speaker": {
-                "name": "赤穂亮",
-                "role": "boxer",
-                "affiliation": "元日本スーパーフライ級王者"
-            },
-            "content": {
-                "raw_text": "モロニーは強い。判定ならモロニー、KOなら武居。僕は武居君に期待して武居君。",
-                "normalized_text": "武居由樹の勝利を予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=A8vG_q3_nsc",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "赤穂亮",
-                "source_url": "https://www.youtube.com/watch?v=A8vG_q3_nsc",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-024",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier B（有名YouTuber・トップ選手）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "不明",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹が勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-025",
-            "statement_date": "2024-05-03",
-            "speaker": {
-                "name": "大橋秀行",
-                "role": "coach",
-                "affiliation": "大橋ジム会長"
-            },
-            "content": {
-                "raw_text": "武居はやってくれる。KOを期待している。",
-                "normalized_text": "武居由樹のKO勝ちを予想。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.sanspo.com/article/20240503-7O6H6V5WZVKKPBK2G5XWR4N7X4/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "大橋秀行",
-                "source_url": "https://www.sanspo.com/article/20240503-7O6H6V5WZVKKPBK2G5XWR4N7X4/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-025",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier A（所属ジム会長）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "KO",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹がKO勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-026",
-            "statement_date": "2024-05-01",
-            "speaker": {
-                "name": "細川バレンタイン",
-                "role": "boxer",
-                "affiliation": "元日本スーパーライト級王者"
-            },
-            "content": {
-                "raw_text": "モロニーが判定で勝つ。武居はまだ早い。",
-                "normalized_text": "ジェイソン・モロニーの判定勝ちを予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=SRE8f_uG-oE",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "細川バレンタイン",
-                "source_url": "https://www.youtube.com/watch?v=SRE8f_uG-oE",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-026",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。国内ソース優先。Tier B（有名YouTuber）。",
-                "expected_winner": "ジェイソン・モロニー",
-                "expected_method": "判定",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "ジェイソン・モロニーが判定勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-027",
-            "statement_date": "2024-04-20",
-            "speaker": {
-                "name": "Bradley Skeete",
-                "role": "boxer",
-                "affiliation": "元英国ウェルター級王者"
-            },
-            "content": {
-                "raw_text": "Moloney's experience will be too much. Moloney by decision.",
-                "normalized_text": "ジェイソン・モロニーの判定勝ちを予想。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "Bradley Skeete",
-                "source_url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-027",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（専門家）。",
-                "expected_winner": "ジェイソン・モロニー",
-                "expected_method": "判定",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "ジェイソン・モロニーが判定勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-028",
-            "statement_date": "2024-04-20",
-            "speaker": {
-                "name": "Tom Gray",
-                "role": "media",
-                "affiliation": "The Ring Magazine"
-            },
-            "content": {
-                "raw_text": "Moloney on points. Takei is dangerous early but Moloney is too professional.",
-                "normalized_text": "ジェイソン・モロニーの判定勝ちを予想。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "Tom Gray",
-                "source_url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-028",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（専門メディア編集者）。",
-                "expected_winner": "ジェイソン・モロニー",
-                "expected_method": "判定",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "ジェイソン・モロニーが判定勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-029",
-            "statement_date": "2024-04-20",
-            "speaker": {
-                "name": "Anson Wainwright",
-                "role": "media",
-                "affiliation": "The Ring Magazine"
-            },
-            "content": {
-                "raw_text": "I think Moloney will box smart and win a unanimous decision.",
-                "normalized_text": "ジェイソン・モロニーが3-0の判定で勝つと予想。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "Anson Wainwright",
-                "source_url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-029",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（専門メディア記者）。",
-                "expected_winner": "ジェイソン・モロニー",
-                "expected_method": "判定",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "ジェイソン・モロニーが判定勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-030",
-            "statement_date": "2024-04-20",
-            "speaker": {
-                "name": "Lee Groves",
-                "role": "media",
-                "affiliation": "RingTV.com"
-            },
-            "content": {
-                "raw_text": "Moloney by decision. His work rate and variety will keep Takei at bay.",
-                "normalized_text": "ジェイソン・モロニーの判定勝ちを予想。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "Lee Groves",
-                "source_url": "https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-030",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-21）。海外ソース補完。Tier A（専門メディア）。",
-                "expected_winner": "ジェイソン・モロニー",
-                "expected_method": "判定",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "ジェイソン・モロニーが判定勝利",
-                "deadline": "2024-05-06"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2024-05-06-031",
-            "statement_date": "2024-05-04",
-            "speaker": {
-                "name": "京口紘人",
-                "role": "boxer",
-                "affiliation": "元世界2階級制覇王者"
-            },
-            "content": {
-                "raw_text": "井上選手のKO勝ち",
-                "normalized_text": "井上尚弥のKO勝利を予想。"
-            },
-            "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "京口紘人",
-                "source_url": "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-031",
-                "source_note": "Tier A。京口紘人公式YouTube。スキャン反映・確認日：2026-03-23。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥がKO勝利",
-                "deadline": "2024-05-06"
+                "exists": false
             },
             "verification": {
                 "status": "resolved",
@@ -1217,47 +137,68 @@
                 "winner": "井上尚弥",
                 "method": "TKO",
                 "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
-                "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
+                "notes": "6回TKO。",
+                "source_note": "試合結果の根拠（スポニチ・井上尚弥vsルイス・ネリ）: https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html"
             }
         },
         {
-            "statement_id": "stmt-boxing-2024-05-06-032",
-            "statement_date": "2024-05-04",
+            "statement_id": "stmt-boxing-2024-05-06-004",
+            "statement_date": "2024-05-02",
             "speaker": {
-                "name": "京口紘人",
+                "name": "竹原慎二",
                 "role": "boxer",
-                "affiliation": "元世界2階級制覇王者"
+                "affiliation": "元WBA世界ミドル級王者"
             },
             "content": {
-                "raw_text": "武居選手が獲る可能性がある",
-                "normalized_text": "武居由樹の勝利を示唆。"
+                "raw_text": "",
+                "normalized_text": ""
             },
             "source": {
                 "type": "video",
-                "url": "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
+                "url": "https://www.youtube.com/watch?v=lHg8skIKXrg",
                 "timestamp": "不明"
             },
             "prediction": {
-                "exists": true,
-                "predictor_name": "京口紘人",
-                "source_url": "https://www.youtube.com/watch?v=FpG6o2_Yh_I",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-032",
-                "source_note": "Tier A。京口紘人公式YouTube（同一動画内で2カード言及）。スキャン反映・確認日：2026-03-23。",
-                "expected_winner": "武居由樹",
-                "expected_method": "不明",
-                "target": "ジェイソン・モロニー vs 武居由樹",
-                "expected_outcome": "武居由樹が勝利する可能性を示唆",
-                "deadline": "2024-05-06"
+                "exists": false
             },
             "verification": {
                 "status": "resolved",
                 "verification_date": "2024-05-06",
-                "winner": "武居由樹",
-                "method": "判定",
-                "actual_outcome": "武居由樹が判定勝ちで王座奪取",
-                "notes": "12回、判定による決着。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001097.html"
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
+                "notes": "6回TKO。",
+                "source_note": "試合結果の根拠（スポニチ・井上尚弥vsルイス・ネリ）: https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2024-05-06-005",
+            "statement_date": "2024-05-02",
+            "speaker": {
+                "name": "畑山隆則",
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "",
+                "normalized_text": ""
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=lHg8skIKXrg",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": false
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2024-05-06",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
+                "notes": "6回TKO。",
+                "source_note": "試合結果の根拠（スポニチ・井上尚弥vsルイス・ネリ）: https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html"
             }
         },
         {
@@ -1269,25 +210,16 @@
                 "affiliation": "元日本スーパーライト級王者"
             },
             "content": {
-                "raw_text": "僕の予想は早いラウンドでのKO決着です。今の井上選手は本当強すぎる。",
-                "normalized_text": "井上尚弥が早いラウンドでKO勝利すると予想。"
+                "raw_text": "",
+                "normalized_text": ""
             },
             "source": {
                 "type": "video",
-                "url": "https://www.youtube.com/watch?v=c1b92YdKNGw",
+                "url": "https://www.youtube.com/watch?v=pDXuhMJnW1Y",
                 "timestamp": "不明"
             },
             "prediction": {
-                "exists": true,
-                "predictor_name": "細川バレンタイン",
-                "source_url": "https://www.youtube.com/watch?v=c1b92YdKNGw",
-                "source_ref": "statement_id=stmt-boxing-2024-05-06-033",
-                "source_note": "Tier B（YouTuber／元日本王者）。スキャン反映・YouTube GETで200確認・確認日：2026-03-24。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs ルイス・ネリ",
-                "expected_outcome": "井上尚弥の早いラウンドでのKO勝利",
-                "deadline": "2024-05-06"
+                "exists": false
             },
             "verification": {
                 "status": "resolved",
@@ -1296,7 +228,7 @@
                 "method": "TKO",
                 "actual_outcome": "井上尚弥が6回TKO勝ちで防衛",
                 "notes": "勝者・ストップ勝ちは的中。決着は6回TKO。",
-                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202405060001476.html"
+                "source_note": "試合結果の根拠（スポニチ・井上尚弥vsルイス・ネリ）: https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html"
             }
         }
     ],

@@ -1,24 +1,24 @@
 {
   "schema_version": "standard-log-v1.2-json",
   "event_meta": {
-    "event_id": "ufc-327",
-    "event_name": "UFC 327: Van vs. Taira",
+    "event_id": "ufc-328",
+    "event_name": "UFC 328: Van vs. Taira",
     "organization": "UFC",
     "sport": "MMA",
     "discipline": "MMA",
-    "date": "2026-04-12",
-    "venue": "Kaseya Center",
+    "date": "2026-05-10",
+    "venue": "Prudential Center（ニュージャージー州ニューアーク）",
     "country": "USA",
     "timezone": "America/New_York",
     "attendance": null,
-    "note": "UFC 327。フロリダ州マイアミ・カセヤセンター開催。UFCフライ級タイトルマッチ（ジョシュア・ヴァンの初防衛戦）。ヴァンは2025年12月のUFC323でパントージャを26秒TKOで下し戴冠。平良は同大会でブランドン・モレノを2R TKO撃破しタイトル挑戦権獲得。アジア男子ファイター同士によるUFC史上初のタイトルマッチ。2000年代生まれ同士によるUFC史上初のタイトルマッチでもある。平良は日本人初のUFC王座獲得を目指す。ベッティングオッズは平良-180（小差のフェイバリット）、ヴァン+150。"
+    "note": "UFC 328。本戦はヴァンの負傷により、当初UFC 327（2026年4月12日・マイアミ）で予定されていたフライ級タイトルマッチ（ジョシュア・ヴァン vs 平良達郎）がこちらへ移行。会場はPrudential Center。米国現地は2026年5月9日（土）開催予定で、日本の暦日では5月10日前後。UFCフライ級タイトルマッチ（ヴァンの初防衛戦）。ヴァンは2025年12月のUFC323でパントージャを26秒TKOで下し戴冠。平良は同大会でブランドン・モレノを2R TKO撃破しタイトル挑戦権獲得。"
   },
   "cards": [
     {
       "card_name": "Main Card",
       "bouts": [
         {
-          "bout_id": "ufc-327-001",
+          "bout_id": "ufc-328-001",
           "bout_order": 5,
           "division": "フライ級",
           "rules": "UFC MMAルール 5R×5分（タイトルマッチ）",
@@ -50,7 +50,7 @@
   ],
   "statements": [
     {
-      "statement_id": "stmt-ufc-327-001",
+      "statement_id": "stmt-ufc-328-001",
       "statement_date": "2026-03-18",
       "speaker": {
         "name": "Ethan Diamandas",
@@ -70,13 +70,13 @@
         "exists": true,
         "predictor_name": "Ethan Diamandas",
         "source_url": "http://www.oddsshark.com/ufc/ufc-327-van-vs-taira-odds-picks-april-11-2026",
-        "source_ref": "stmt-ufc-327-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。OddsShark、2026年3月18日公開。Ethan DiamandaはOddsSharkのUFCベッティング担当アナリスト。試合3週間前に公開されたオッズ解説記事。",
+        "source_ref": "stmt-ufc-328-001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。OddsShark、2026年3月18日公開（当時はUFC327想定の記事URL）。試合はUFC328（2026年5月）へ延期後も同一対戦カードの予想として継続記録。",
         "expected_winner": "ジョシュア・ヴァン",
         "expected_method": "KO/TKO",
         "target": "ジョシュア・ヴァン vs 平良達郎",
         "expected_outcome": "ヴァンがチャンピオンシップラウンド前にKO/TKOフィニッシュ",
-        "deadline": "2026-04-11"
+        "deadline": "2026-05-09"
       },
       "verification": {
         "status": "pending",
@@ -84,11 +84,11 @@
         "winner": null,
         "method": null,
         "actual_outcome": null,
-        "notes": "試合は2026年4月11日（日本時間12日）開催予定。未検証。"
+        "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。"
       }
     },
     {
-      "statement_id": "stmt-ufc-327-j001",
+      "statement_id": "stmt-ufc-328-j001",
       "statement_date": "2025-11-23",
       "speaker": {
         "name": "青木真也",
@@ -97,7 +97,7 @@
       },
       "content": {
         "raw_text": "日本人で勝つとしたら、平良が一番だと思う。練習したら堀口さんのほうが強いと思うが、フレッシュさと勢いを含めて、平良のほうが一枚上手なんじゃないか",
-        "normalized_text": "堀口恭司のUFC復帰直後（2025年11月）にコメント。現時点でフライ級タイトルに最も近い日本人は平良と評価。経験・練習量では堀口が上だが、フレッシュさと勢いで平良が一枚上手と分析。平良のタイトル挑戦を最有力視。※UFC327対戦発表前のコメントだが、平良優位の見解として記録。"
+        "normalized_text": "堀口恭司のUFC復帰直後（2025年11月）にコメント。現時点でフライ級タイトルに最も近い日本人は平良と評価。経験・練習量では堀口が上だが、フレッシュさと勢いで平良が一枚上手と分析。平良のタイトル挑戦を最有力視。※当初のUFC327対戦発表前のコメントだが、平良優位の見解として記録。"
       },
       "source": {
         "type": "article",
@@ -108,13 +108,13 @@
         "exists": true,
         "predictor_name": "青木真也",
         "source_url": "https://spread-sports.jp/archives/369011",
-        "source_ref": "stmt-ufc-327-j001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD、2025年11月23日公開。青木真也のYouTubeチャンネル発言をSPREADが記事化。UFC327の正式発表（2026年2月）前のコメントだが、平良がフライ級タイトルを獲得できる最有力の日本人選手との見解。",
+        "source_ref": "stmt-ufc-328-j001",
+        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD、2025年11月23日公開。青木真也のYouTubeチャンネル発言をSPREADが記事化。UFCでのヴァン対平良の正式発表前のコメントだが、平良がフライ級タイトルを獲得できる最有力の日本人選手との見解。",
         "expected_winner": "平良達郎",
         "expected_method": null,
         "target": "ジョシュア・ヴァン vs 平良達郎",
         "expected_outcome": "平良達郎がフライ級タイトル戦で勝利（日本人で勝てるとしたら平良が一番）",
-        "deadline": "2026-04-11"
+        "deadline": "2026-05-09"
       },
       "verification": {
         "status": "pending",
@@ -122,7 +122,7 @@
         "winner": null,
         "method": null,
         "actual_outcome": null,
-        "notes": "試合は2026年4月11日（日本時間12日）開催予定。未検証。※コメントはUFC327発表前（2025年11月）のもので、当時の対戦相手はヴァンでなくパントージャを想定していた可能性あり。"
+        "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。※コメントは対戦発表前（2025年11月）のもので、当時の対戦相手はヴァンでなくパントージャを想定していた可能性あり。"
       }
     }
   ]

@@ -506,6 +506,234 @@
                                                 "actual_outcome":  null,
                                                 "notes":  "試合未開催（2026-05-02予定）"
                                             }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-013",
+                           "statement_date":  "2026-04-03",
+                           "speaker":  {
+                                           "name":  "具志堅用高",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ライトフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "「後半の勝負になると思いますね」「8ラウンド以降」。見合い・採点の割れもありつつ「後半勝負となるとまだフレッシュな井上拓真さんのがになる可能性もあります」。井岡はスロースターとの言及。「判定になる可能性が高い」。井岡のコンビネーションや拓真のガードの隙も論じ、WBCの4・8R採点発表で流れが変わり得ると述べる。",
+                                           "normalized_text":  "井上拓真対井岡一翔は後半・8R以降で勝負がつきやすく、後半は拓真側に傾く可能性に言及。判定濃厚。双方にチャンスがある展開と分析。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=hTrcTBxrh48",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "具志堅用高",
+                                              "source_url":  "https://www.youtube.com/watch?v=hTrcTBxrh48",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-013",
+                                              "source_note":  "YouTube「具志堅用高のネクストチャレンジ」。【井上拓真vs井岡一翔】動画。要約は自動文字起こしに基づく（確認日：2026-04-05）。Tier A（元世界王者）。",
+                                              "expected_winner":  "井上拓真",
+                                              "expected_method":  "判定",
+                                              "target":  "井上拓真 vs 井岡一翔",
+                                              "expected_outcome":  "後半戦で明暗。8R以降はフレッシュさから井上拓真に傾きうるとしつつ採点の割れも示唆。判定勝ちを濃厚と見る。",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-014",
+                           "statement_date":  "2026-03-14",
+                           "speaker":  {
+                                           "name":  "和氣慎吾",
+                                           "role":  "commentator",
+                                           "affiliation":  "Wake Riseボクシングジム"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井岡の円熟したペース操作やボディを軸にしたボクシングと、拓真の適応力・ディフェンスの対比を論じ、技術戦になると予想。視聴者案のニックネームで拓真を「ザ・ファントム」、井岡を「唯一無二」とし、予想の掛け合いで「ファントムの勝ち」対「俺は唯一無二の勝ち」と発言（和氣は井岡側を選択）。",
+                                           "normalized_text":  "激しい打ち合いより技術戦になると見る。予想表明では井岡一翔（唯一無二）の勝利を主張。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=gvJGLSjw_V4",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "和氣慎吾",
+                                              "source_url":  "https://www.youtube.com/watch?v=gvJGLSjw_V4",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-014",
+                                              "source_note":  "YouTube「和氣慎吾 リーゼントチャンネル」。要約は自動文字起こしに基づく（確認日：2026-04-05）。共演者は「ファントム（拓真）」勝ちと発言。",
+                                              "expected_winner":  "井岡一翔",
+                                              "expected_method":  "不明",
+                                              "target":  "井上拓真 vs 井岡一翔",
+                                              "expected_outcome":  "井岡一翔の勝利を予想（動画内では「唯一無二の勝ち」と表現）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-015",
+                           "statement_date":  "2026-04-09",
+                           "speaker":  {
+                                           "name":  "渡嘉敷勝男",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ライトフライ級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "拓真対井岡は難戦と前置き。竹原の分析に同意し、予想は井上拓真側に傾く旨を発言（動画では「井上琢ま寄り」に近い発音）。天心戦後の拓真の勢いにも言及。",
+                                           "normalized_text":  "予想は井上拓真側に傾くと発言（難戦である前提）。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=aG2mgQVL_Ls",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "渡嘉敷勝男",
+                                              "source_url":  "https://www.youtube.com/watch?v=aG2mgQVL_Ls",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-015",
+                                              "source_note":  "ぶっちゃけチャンネル Vol.498。竹原・畑山と同一動画。要約は自動文字起こしに基づく（確認日：2026-04-05）。Tier A（元世界王者）。",
+                                              "expected_winner":  "井上拓真",
+                                              "expected_method":  "不明",
+                                              "target":  "井上拓真 vs 井岡一翔",
+                                              "expected_outcome":  "井上拓真の勝利を主軸にした予想に言及（難戦）",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-016",
+                           "statement_date":  "2026-04-09",
+                           "speaker":  {
+                                           "name":  "竹原慎二",
+                                           "role":  "boxer",
+                                           "affiliation":  "元WBA世界ミドル級王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "体格は拓真が一回り大きい、井岡の前の残りはマルチネス戦などから大きく落ちていないと分析。琢磨が天心戦並みの圧を継続できれば井岡を崩せるが単発だと捌かれる可能性と述べる。「年齢も比べると私は64で井上拓真かな」と発言。",
+                                           "normalized_text":  "条件次第の難戦としつつ、見立てとして井上拓真を6割（64）と明示。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=aG2mgQVL_Ls",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "竹原慎二",
+                                              "source_url":  "https://www.youtube.com/watch?v=aG2mgQVL_Ls",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-016",
+                                              "source_note":  "ぶっちゃけチャンネル Vol.498。渡嘉敷・畑山と同一動画。要約は自動文字起こしに基づく（確認日：2026-04-05）。Tier A（元世界王者）。",
+                                              "expected_winner":  "井上拓真",
+                                              "expected_method":  "不明",
+                                              "target":  "井上拓真 vs 井岡一翔",
+                                              "expected_outcome":  "井上拓真を約6割と明示",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-017",
+                           "statement_date":  "2026-04-09",
+                           "speaker":  {
+                                           "name":  "畑山隆則",
+                                           "role":  "boxer",
+                                           "affiliation":  "元世界2階級制覇王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "「これはゴブゴブと思うね。55。」と発言。前戦のバンタムでのKO勝ちなど井岡の手堅さに触れつつ、拓真相手に同じボクシングができるかは未知数とする。",
+                                           "normalized_text":  "互角・五分五分の見立て。明確な片寄りは示さない。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=aG2mgQVL_Ls",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "畑山隆則",
+                                              "source_url":  "https://www.youtube.com/watch?v=aG2mgQVL_Ls",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-017",
+                                              "source_note":  "ぶっちゃけチャンネル Vol.498。渡嘉敷・竹原と同一動画。要約は自動文字起こしに基づく（確認日：2026-04-05）。Tier A（元世界王者）。",
+                                              "expected_winner":  "不明",
+                                              "expected_method":  "不明",
+                                              "target":  "井上拓真 vs 井岡一翔",
+                                              "expected_outcome":  "互角（ゴブゴブ・55）と述べ、勝者を一方に断定しない",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
+                       },
+                       {
+                           "statement_id":  "stmt-boxing-2026-05-02-018",
+                           "statement_date":  "2026-04-06",
+                           "speaker":  {
+                                           "name":  "ファン・フランシスコ・エストラーダ",
+                                           "role":  "boxer",
+                                           "affiliation":  "メキシコ／元複数階級世界王者"
+                                       },
+                           "content":  {
+                                           "raw_text":  "井上拓真対井岡一翔の勝者について質問され、「勝つと予想して」「6対4で、ま、経験ですとか今までの戦い方とかを見ると井岡選手にもしかしたらあるかもしれないな。ただこれはやってみなきゃ分からない」と英語→通訳で述べる。",
+                                           "normalized_text":  "井岡一翔を約6対4でやや有利と予想（経験・戦い方）。試合前は不確実性にも言及。"
+                                       },
+                           "source":  {
+                                          "type":  "video",
+                                          "url":  "https://www.youtube.com/watch?v=bnG5IIwUkZE",
+                                          "timestamp":  "不明"
+                                      },
+                           "prediction":  {
+                                              "exists":  true,
+                                              "predictor_name":  "ファン・フランシスコ・エストラーダ",
+                                              "source_url":  "https://www.youtube.com/watch?v=bnG5IIwUkZE",
+                                              "source_ref":  "statement_id=stmt-boxing-2026-05-02-018",
+                                              "source_note":  "オリコンYouTube。天心戦公開練習の取材映像内。要約は自動文字起こしに基づく（確認日：2026-04-05）。通訳表現「岩岡」は井岡の聞き間違いと判断。",
+                                              "expected_winner":  "井岡一翔",
+                                              "expected_method":  "不明",
+                                              "target":  "井上拓真 vs 井岡一翔",
+                                              "expected_outcome":  "井岡一翔を約60対40の見立てで支持",
+                                              "deadline":  "2026-05-02"
+                                          },
+                           "verification":  {
+                                                "status":  "pending",
+                                                "verification_date":  null,
+                                                "winner":  null,
+                                                "method":  null,
+                                                "actual_outcome":  null,
+                                                "notes":  "試合未開催（2026-05-02予定）"
+                                            }
                        }
                    ],
     "content_policy":  {

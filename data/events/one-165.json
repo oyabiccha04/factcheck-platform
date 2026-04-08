@@ -48,7 +48,7 @@
       },
       "content": {
         "raw_text": "今回のスーパーレックはロッタンに勝るとも劣らない強豪なので、きっと勝負は後半になると思う。武尊の持ってる右の重いパンチを当てて、武尊の日本でのKO勝利を久しぶりに見たい。期待してます！",
-        "normalized_text": "後半4〜5ラウンドに武尊がチャンスをつかみKOで勝つと予想"
+        "normalized_text": "スーパーレックをロッタンに劣らない強豪と位置づけ、展開は後半になりそうとの見立て。武尊の右ストレートと日本でのKOを「見たい」「期待」と述べた応援・願望の表明であり、勝者をどちらかに断定する試合予想ではない。"
       },
       "source": {
         "type": "article",
@@ -56,16 +56,7 @@
         "timestamp": "不明"
       },
       "prediction": {
-        "exists": true,
-        "predictor_name": "魔裟斗",
-        "source_url": "https://encount.press/archives/570919/",
-        "source_ref": "stmt-one-165-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ABEMA格闘チャンネル公式YouTube公開のインタビュー動画をencount.pressが記事化。Tier A（元K-1 WORLD MAX世界王者・格闘技解説者）。",
-        "expected_winner": "武尊",
-        "expected_method": "KO",
-        "target": "スーパーレック・キアトモー9 vs 武尊",
-        "expected_outcome": "武尊が後半4〜5ラウンドにKO勝ち",
-        "deadline": "2024-01-28"
+        "exists": false
       },
       "verification": {
         "status": "resolved",
@@ -73,7 +64,7 @@
         "winner": "スーパーレック・キアトモー9",
         "method": "判定",
         "actual_outcome": "スーパーレック・キアトモー9が判定3-0で防衛（ONEフライ級キックボクシング世界タイトルマッチ）",
-        "notes": "魔裟斗は武尊のKO勝利を予想したが、スーパーレックが判定勝ち。ハズレ。",
+        "notes": "当該発言からは勝者を特定する予想は抽出できないため、的中・ハズレの評価は行わない。試合結果のみ記録。",
         "source_note": ""
       }
     },

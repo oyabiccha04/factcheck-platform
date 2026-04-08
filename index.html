@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>予測を、ファクトで評価する。 | factcheck-platform</title>
+  <title>予測VSFACT（予想の的中率・精度をデータで検証）</title>
   <style>
     body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans JP", sans-serif; margin: 24px; line-height: 1.6; }
     .muted { color: #666; }
@@ -63,7 +63,7 @@
 
   <script>
     // キャッシュ対策（HTML自体がキャッシュされても index.json は更新されやすくする）
-    const CACHE_BUSTER = "20260325a";
+    const CACHE_BUSTER = "20260405a";
 
     // index.json を読み込んで、入口用の“客観表示”を作る（日付降順のみ）
     fetch("./data/index.json?v=" + CACHE_BUSTER)

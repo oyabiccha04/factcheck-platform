@@ -1,0 +1,47 @@
+# boxing-2024-05-06.json (git d76a3d1) から抽出した https URL の生存確認
+# 確認日: 自動 HEAD/GET、User-Agent 付き
+# TOTAL=25 ALIVE=19 DEAD=6
+
+## 生存 (HTTP < 400)
+
+200	https://www.ringtv.com/668474-fight-pick-jason-moloney-vs-yoshiki-takei/	-> https://www.ringmagazine.com/
+200	https://www.tokyo-sports.co.jp/articles/-/301138
+200	https://www.youtube.com/watch?v=3S7bOitMByM
+200	https://www.youtube.com/watch?v=4Ua_uFv-s6Q
+200	https://www.youtube.com/watch?v=7uD3W7Iq6tE
+200	https://www.youtube.com/watch?v=A8vG_q3_nsc
+200	https://www.youtube.com/watch?v=F0S_XzE8WjU
+200	https://www.youtube.com/watch?v=FpG6o2_Yh_I
+200	https://www.youtube.com/watch?v=I7X8GfWqR2U
+200	https://www.youtube.com/watch?v=MInZ6Rbe27s
+200	https://www.youtube.com/watch?v=S6YI-o7m0-E
+200	https://www.youtube.com/watch?v=SRE8f_uG-oE
+200	https://www.youtube.com/watch?v=Vl3pCgL7r9w
+200	https://www.youtube.com/watch?v=Vz2fG29p5s8
+200	https://www.youtube.com/watch?v=Y7e-07_nS0Q
+200	https://www.youtube.com/watch?v=Yp69m-v-K_A
+200	https://www.youtube.com/watch?v=c1b92YdKNGw
+200	https://www.youtube.com/watch?v=kYJ_tXz_n_s
+200	https://www.youtube.com/watch?v=pAnuFkK9yC4
+
+## 失敗・要確認
+
+404	https://www.boxingscene.com/inoue-vs-nery-predictions/	Not Found
+404	https://www.daily.co.jp/ring/2024/05/01/0017602345.shtml	Not Found
+404	https://www.nikkansports.com/battle/news/202405060001097.html	Not Found
+404	https://www.nikkansports.com/battle/news/202405060001476.html	Not Found
+404	https://www.sanspo.com/article/20240503-7O6H6V5WZVKKPBK2G5XWR4N7X4/	Not Found
+404	https://www.sponichi.co.jp/battle/news/2024/05/05/kiji/20240505s00021000002000c.html	Not Found
+
+## 現在の data/events/boxing-2024-05-06.json に含まれる URL（別途 GET 確認・いずれも 200）
+
+200	https://www.youtube.com/watch?v=Rl0f5LWSRNY
+200	https://www.youtube.com/watch?v=zqdBF42FhUU
+200	https://www.youtube.com/watch?v=lHg8skIKXrg
+200	https://www.youtube.com/watch?v=pDXuhMJnW1Y
+200	https://www.sponichi.co.jp/battle/news/2024/05/06/kiji/20240506s00021000371000c.html
+
+## 注意
+
+- ringtv.com の1件は HTTP 200 だがトップ https://www.ringmagazine.com/ へリダイレクトされ、元記事本文とはみなせない可能性あり。
+- charter の evidence_urls にある boxingscene は 404。差し替え検討。
