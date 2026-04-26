@@ -46,10 +46,10 @@
                         "result_note": "クリスチャン・メディナが4回1分21秒TKO勝ちで王座奪取。武居は1回ダウン後に4回コーナーで連打を浴びストップ。プロ初黒星で11連勝ストップ"
                     },
                     "discipline": "BOXING"
-                                    }
-                                ]
-                  }
-              ],
+                }
+            ]
+        }
+    ],
     "statements": [
         {
             "statement_id": "stmt-boxing-2025-09-14-001",
@@ -482,31 +482,31 @@
         },
         {
             "statement_id": "stmt-boxing-2025-09-14-012",
-            "statement_date": "2025-09-13",
+            "statement_date": "2025-08-24",
             "speaker": {
                 "name": "渡嘉敷勝男",
                 "role": "boxer",
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "提示URLの動画にて、武居由樹対クリスチャン・メディナ戦について展望を発言（井上戦の展望と同一動画の可能性）",
-                "normalized_text": "武居対メディナの展望（詳細は根拠動画を参照）"
+                "raw_text": "「カウンターでもらったらわかんないよ。お互いにね。」「そうですね。俺もそう思うな。」メディナは前にガンガン出てくるタイプで武居のパンチが当たりやすいとの流れに同調。「武居君のパンチを受けてどう耐えられるか、どう戦うかですよね。面白いですね、これ。」世界1位の相手で「嘘つけない」「締めの試合」だとも述べる。会話終盤、他者の「KOは間違いないと思いますけどね」に「はい。」と応じ同調する趣旨。",
+                "normalized_text": "打ち合いなら互いに一発のリスクがあるとしつつ、武居にやりやすいマッチアップとの分析に同意。武居のパンチをメディナがどう耐えるかが焦点と述べる。終盤の武居KO予想に同調。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=Ut_If9FsMoU",
-                "timestamp": "不明"
+                "timestamp": "セミファイナル展望パート（自動文字起こしベース）"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "渡嘉敷勝男",
                 "source_url": "https://www.youtube.com/watch?v=Ut_If9FsMoU",
                 "source_ref": "statement_id=stmt-boxing-2025-09-14-012",
-                "source_note": "根拠URLは目視確認（2026-04-05）。竹原慎二・畑山隆則と同一動画ID。井上戦の根拠と同一URLのため、該当パートの目視確認を推奨。",
-                "expected_winner": "不明",
-                "expected_method": "不明",
+                "source_note": "YouTube「渡嘉敷勝男&竹原慎二&畑山隆則 ぶっちゃけチャンネル」Vol.472（公開2025-08-24）。要約は当該動画の日本語自動文字起こしに基づく（確認日：2026-04-08）。竹原・畑山と同一収録。発言の帰属はトーンで推定しうる箇所あり。Tier A（元世界王者）。",
+                "expected_winner": "武居由樹",
+                "expected_method": "KO",
                 "target": "武居由樹 vs クリスチャン・メディナ",
-                "expected_outcome": "動画にて対戦を展望（台詞要確認）",
+                "expected_outcome": "武居由樹がKOで勝利すると見る（対談の結論寄り）",
                 "deadline": "2025-09-14"
             },
             "verification": {
@@ -515,37 +515,37 @@
                 "winner": "クリスチャン・メディナ",
                 "method": "TKO",
                 "actual_outcome": "クリスチャン・メディナが4回1分21秒TKO勝ち。",
-                "notes": "勝者・決着方法は台詞確認後に照合。",
+                "notes": "武居のKO勝利を見込む流れだったが、メディナがTKO勝ち。ハズレ。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/09/14/kiji/20250914s00021000366000c.html"
             }
         },
         {
             "statement_id": "stmt-boxing-2025-09-14-013",
-            "statement_date": "2025-09-13",
+            "statement_date": "2025-08-24",
             "speaker": {
                 "name": "竹原慎二",
                 "role": "boxer",
                 "affiliation": "元WBA世界ミドル級王者"
             },
             "content": {
-                "raw_text": "提示URLの動画にて、武居由樹対メディナ戦について展望を発言（渡嘉敷・畑山と同一動画）",
-                "normalized_text": "武居対メディナの展望（詳細は根拠動画を参照）"
+                "raw_text": "「打たれ強さは関係ない」とし、メディナはスピードはないが武居のパンチが当たりそうなタイプで「結構前にガンガン出てきてくれる」と分析。「これはもう倒し倒されるかどっちかだけど、ま、武居君のやりやすいタイプだとは思うけど。」身長もメディナの方が低く武居はやりやすいと述べる。メディナは西田凌佑に判定負けした経緯にも言及。会話の締めに「KOは間違いないと思いますけどね」と発言。",
+                "normalized_text": "メディナは前に出るタイプで武居のパンチが届きやすく、身長差も武居有利。打ち合いになりうるが武居にとってやりやすいマッチアップと分析し、武居のKO勝利を予想。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=Ut_If9FsMoU",
-                "timestamp": "不明"
+                "timestamp": "セミファイナル展望パート（自動文字起こしベース）"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "竹原慎二",
                 "source_url": "https://www.youtube.com/watch?v=Ut_If9FsMoU",
                 "source_ref": "statement_id=stmt-boxing-2025-09-14-013",
-                "source_note": "根拠URLは目視確認（2026-04-05）。渡嘉敷勝男・畑山隆則と同一動画。",
-                "expected_winner": "不明",
-                "expected_method": "不明",
+                "source_note": "YouTube「ぶっちゃけチャンネル」Vol.472。要約は日本語自動文字起こしに基づく（確認日：2026-04-08）。渡嘉敷・畑山と同一動画。Tier A（元世界王者）。",
+                "expected_winner": "武居由樹",
+                "expected_method": "KO",
                 "target": "武居由樹 vs クリスチャン・メディナ",
-                "expected_outcome": "動画にて対戦を展望（台詞要確認）",
+                "expected_outcome": "武居由樹がKOで勝利",
                 "deadline": "2025-09-14"
             },
             "verification": {
@@ -554,37 +554,37 @@
                 "winner": "クリスチャン・メディナ",
                 "method": "TKO",
                 "actual_outcome": "クリスチャン・メディナが4回1分21秒TKO勝ち。",
-                "notes": "勝者・決着方法は台詞確認後に照合。",
+                "notes": "武居のKO勝利を予想したが、メディナがTKO勝ち。ハズレ。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/09/14/kiji/20250914s00021000366000c.html"
             }
         },
         {
             "statement_id": "stmt-boxing-2025-09-14-014",
-            "statement_date": "2025-09-13",
+            "statement_date": "2025-08-24",
             "speaker": {
                 "name": "畑山隆則",
                 "role": "boxer",
                 "affiliation": "元世界2階級制覇王者"
             },
             "content": {
-                "raw_text": "提示URLの動画にて、武居由樹対メディナ戦について展望を発言（渡嘉敷・竹原と同一動画）",
-                "normalized_text": "武居対メディナの展望（詳細は根拠動画を参照）"
+                "raw_text": "「どれだけ打たれ強いかどうかだよね」とメディナの耐久を問いかけ。メディナは映像ではパワフルで「カウンターでもらったらわかんないなと思っ」とリスクを述べる。西田凌佑に判定で敗れたことにも言及し、「やりがいはある」「ちょっとスレディングはあるよね。パンチはこんだけあんだから」とメディナのパンチの重さを認める（文字起こし表記のまま）。単独で勝者を断定する明言は弱く、同パートでは主にメディナの脅威と展開の不確実性を補足する役回り。",
+                "normalized_text": "メディナのパワーとカウンターへの警戒、西田戦の結果に触れる。対談全体の帰結は武居有利・KO寄りだが、畑山パート自体は脅威の言及が中心。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=Ut_If9FsMoU",
-                "timestamp": "不明"
+                "timestamp": "セミファイナル展望パート（自動文字起こしベース）"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "畑山隆則",
                 "source_url": "https://www.youtube.com/watch?v=Ut_If9FsMoU",
                 "source_ref": "statement_id=stmt-boxing-2025-09-14-014",
-                "source_note": "根拠URLは目視確認（2026-04-05）。渡嘉敷勝男・竹原慎二と同一動画。",
-                "expected_winner": "不明",
-                "expected_method": "不明",
+                "source_note": "YouTube「ぶっちゃけチャンネル」Vol.472。畑山の発言は主にメディナの手強さの補足。勝者は同収録の会話の帰結（竹原・渡嘉敷の武居KO予想）に合わせて記録。要約は自動文字起こしに基づく（確認日：2026-04-08）。Tier A（元世界王者）。",
+                "expected_winner": "武居由樹",
+                "expected_method": "KO",
                 "target": "武居由樹 vs クリスチャン・メディナ",
-                "expected_outcome": "動画にて対戦を展望（台詞要確認）",
+                "expected_outcome": "対談の帰結として武居由樹のKO勝利寄り（畑山本人の単独断定は弱い）",
                 "deadline": "2025-09-14"
             },
             "verification": {
@@ -593,37 +593,37 @@
                 "winner": "クリスチャン・メディナ",
                 "method": "TKO",
                 "actual_outcome": "クリスチャン・メディナが4回1分21秒TKO勝ち。",
-                "notes": "勝者・決着方法は台詞確認後に照合。",
+                "notes": "対談では武居KO寄りだったがメディナがTKO勝ち。畑山パートは警戒論が中心でも全体の予想軸は外れ。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/09/14/kiji/20250914s00021000366000c.html"
             }
         },
         {
             "statement_id": "stmt-boxing-2025-09-14-015",
-            "statement_date": "2025-09-13",
+            "statement_date": "2025-09-15",
             "speaker": {
                 "name": "細川バレンタイン",
                 "role": "youtuber",
                 "affiliation": "元日本スーパーライト級王者"
             },
             "content": {
-                "raw_text": "提示URLの動画にて、武居由樹対クリスチャン・メディナ戦について発言",
-                "normalized_text": "武居対メディナの展望（詳細は根拠動画を参照）"
+                "raw_text": "試合後の本編で、試合前の自分の見立てを振り返り「クリスチャン・メディナは今まで武居選手が戦った選手の中で一番強い」としていたことに言及。理由としてサウスポに対する立ち回りとポジション取りが最もできている点を挙げる。予想については「メディナは今までの武居の相手としては一番強いけれども、それでもやっぱり武居が上回るんじゃないかなとは思ってた」「破壊力がすごいから」と述べ、武居のパンチの方が力強いという前提で武居優勢を見ていた旨を自己言及する。",
+                "normalized_text": "試合前はメディナを最強クラスの相手としつつ、破壊力から武居由樹が上回ると見ていた（試合後動画内での振り返り）。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=jvapbgCf25E",
-                "timestamp": "不明"
+                "timestamp": "序盤・予想振り返りパート（自動文字起こしベース）"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "細川バレンタイン",
                 "source_url": "https://www.youtube.com/watch?v=jvapbgCf25E",
                 "source_ref": "statement_id=stmt-boxing-2025-09-14-015",
-                "source_note": "根拠URLは目視確認（2026-04-05）。Tier B（YouTuber／元日本王者）。",
-                "expected_winner": "不明",
+                "source_note": "本動画は2025-09-15公開の試合後レビュー（タイトルに敗因分析）。試合前予想は出演者の自己言及として抽出。要約は日本語自動文字起こしに基づく（確認日：2026-04-08）。Tier B（YouTuber／元日本王者）。",
+                "expected_winner": "武居由樹",
                 "expected_method": "不明",
                 "target": "武居由樹 vs クリスチャン・メディナ",
-                "expected_outcome": "動画にて対戦を展望（台詞要確認）",
+                "expected_outcome": "武居由樹がメディナを上回ると試合前は見ていた（パンチの破壊力を根拠に言及）",
                 "deadline": "2025-09-14"
             },
             "verification": {
@@ -632,7 +632,7 @@
                 "winner": "クリスチャン・メディナ",
                 "method": "TKO",
                 "actual_outcome": "クリスチャン・メディナが4回1分21秒TKO勝ち。",
-                "notes": "勝者・決着方法は台詞確認後に照合。",
+                "notes": "武居優勢を試合前に見ていたがメディナがTKO勝ち。ハズレ。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/09/14/kiji/20250914s00021000366000c.html"
             }
         },

@@ -78,31 +78,31 @@
         },
         {
             "statement_id": "stmt-boxing-2025-12-27-event-18-003",
-            "statement_date": "不明",
+            "statement_date": "2025-12-26",
             "speaker": {
                 "name": "内山高志",
                 "role": "boxer",
                 "affiliation": "元WBA世界スーパーフェザー級王者"
             },
             "content": {
-                "raw_text": "正直、勝負論はない。100%井上だと想像はつく。ただしカルデナス戦みたいなことがあるのがボクシング",
-                "normalized_text": "井上尚弥が圧倒的有利（100%井上）と予想。ただし番狂わせの可能性は否定しない。"
+                "raw_text": "12月27日サウジ興行の井上尚弥対アラン・ピカソについて。ピカソの「怖さ」はそこまでないが、カルデナス戦のように事前映像と違い覚醒すれば面白い余地はある。普通に考えたら井上が勝つ。勝負論があるかと言われると微妙。スタンス面や身長差で最初はやりづらさもあるかもしれないが、大柄相手（マクドナルド戦）の経験もあり対策していると見る。",
+                "normalized_text": "井上尚弥の圧勝を想定。ピカソの脅威は限定的だが、カルデナス戦のような「別人級の覚醒」なら展開に幅はある。勝負の議論そのものは微妙な水準との趣旨。"
             },
             "source": {
-                "type": "article",
-                "url": "https://boxingtrainer-hirokishiino.com/28244/",
-                "timestamp": "不明"
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=djt0aYOiu7k&t=29s",
+                "timestamp": "2025-12月下旬"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "内山高志",
-                "source_url": "https://boxingtrainer-hirokishiino.com/28244/",
+                "source_url": "https://www.youtube.com/watch?v=djt0aYOiu7k&t=29s",
                 "source_ref": "statement_id=stmt-boxing-2025-12-27-event-18-003",
-                "source_note": "Gemini補助なし・直接確認（確認日：2026-03-21）。椎野大輝の試合直前予想記事（boxingtrainer-hirokishiino.com/28244/）内で引用。YouTubeでの発言。直接のYouTube動画URLは不明。Tier A（元WBA世界スーパーフェザー級王者）。",
+                "source_note": "YouTube「内山高志KOチャンネル」【井上尚弥vsピカソ】… 要約は自動文字起こしに基づく（確認日：2026-04-08）。Tier A（元WBA世界スーパーフェザー級王者）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "不明",
                 "target": "井上尚弥 vs アラン・デビッド・ピカソ",
-                "expected_outcome": "井上尚弥が勝利（100%有利）",
+                "expected_outcome": "井上尚弥が圧勝する展開を主軸に予想（相手の覚醒パターンには言及しつつ）",
                 "deadline": "2025-12-27"
             },
             "verification": {
@@ -268,45 +268,6 @@
                 "method": "判定",
                 "actual_outcome": "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
                 "notes": "6〜9ラウンドKOを予想したが12回判定決着。",
-                "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
-            }
-        },
-        {
-            "statement_id": "stmt-boxing-2025-12-27-event-18-008",
-            "statement_date": "2025-12-20",
-            "speaker": {
-                "name": "長谷川穂積",
-                "role": "commentator",
-                "affiliation": "元世界3階級制覇王者"
-            },
-            "content": {
-                "raw_text": "やはり井上有利。あれが最低ラインだとしたら怖い。",
-                "normalized_text": "井上尚弥有利の構図は変わらないとコメント。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://number.bunshun.jp/articles/-/868848",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "長谷川穂積",
-                "source_url": "https://number.bunshun.jp/articles/-/868848",
-                "source_ref": "statement_id=stmt-boxing-2025-12-27-event-18-008",
-                "source_note": "Tier A。Number Web。スキャン反映・確認日：2026-03-24。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "不明",
-                "target": "井上尚弥 vs アラン・デビッド・ピカソ",
-                "expected_outcome": "井上尚弥の勝利",
-                "deadline": "2025-12-27"
-            },
-            "verification": {
-                "status": "resolved",
-                "verification_date": "2025-12-27",
-                "winner": "井上尚弥",
-                "method": "判定",
-                "actual_outcome": "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛",
-                "notes": "勝者は的中。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
             }
         }

@@ -25,11 +25,11 @@
                     "red": "那須川天心",
                     "blue": "ファン・フランシスコ・エストラーダ",
                     "outcome": {
-                        "winner": null,
-                        "method": null,
-                        "round": null,
+                        "winner": "那須川天心",
+                        "method": "TKO",
+                        "round": 9,
                         "time": null,
-                        "result_note": "未開催（2026-04-11予定）"
+                        "result_note": "9回終了後、エストラーダ側が棄権（スツール上）。副審集計は3者とも天心が大差（88-83、89-82、87-84）。WBC世界バンタム級挑戦者決定戦（公式戦績表記はTKO/RSC等に準拠）。"
                     },
                     "discipline": "BOXING"
                 }
@@ -67,12 +67,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "那須川天心の勝利で的中。方法（TKO）は未予測。"
             }
         },
         {
@@ -105,12 +105,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "那須川天心の勝利で的中。方法（TKO）は未予測。"
             }
         },
         {
@@ -143,12 +143,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "エストラーダ勝利を想定していたが、天心がTKO勝ち。ハズレ。"
             }
         },
         {
@@ -181,12 +181,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "エストラーダ勝利を予想していたが、天心がTKO勝ち。ハズレ。"
             }
         },
         {
@@ -219,12 +219,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "勝者（那須川天心）は的中。判定勝ちの予想に対し実際は9回TKOのため方法は外れ。"
             }
         },
         {
@@ -257,12 +257,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "勝者（那須川天心）は的中。判定での勝利を示唆していたがTKO決着のため方法は外れ。"
             }
         },
         {
@@ -295,12 +295,12 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "勝者（那須川天心）は的中。判定勝ちの予想に対し実際はTKOのため方法は外れ。"
             }
         },
         {
@@ -333,88 +333,126 @@
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "データ上のexpected_winnerはエストラーダのためハズレ。発言全体では天心の勝利を願う文脈もあり、結果はその願望と整合。"
             }
         },
         {
             "statement_id": "stmt-boxing-2026-04-11-event-20-009",
-            "statement_date": "2026-04-05",
+            "statement_date": "2026-04-08",
             "speaker": {
                 "name": "飯田覚士",
                 "role": "boxer",
                 "affiliation": "元WBA世界スーパーフライ級王者"
             },
             "content": {
-                "raw_text": "チャンネル上の動画タイトルは「那須川天心VSエストラーダ戦の展開予想」。ライブ配信のためアーカイブ・文字起こしが未整備の間は発言の逐語録を記録しない（据え置き）。",
-                "normalized_text": "ライブ配信ソースのため、本編取得後まで展開予想の内容はここでは確定しない"
+                "raw_text": "結論としてエストラーダの得意なインファイト・接近戦には「付き合わない」「接近戦で戦わない」。天心はリーチ（会見では177cm対168cm等）とジャブで距離を取り、中間〜アウトで戦えば「まあまあいけんじゃないかな」と述べる。序盤からエストラーダが入れず3R頃に首をかしげる展開なら天心の圧勝イメージ。中間・アウトで「カチ封じ」するのは「めっちゃ美しい勝ち方」と表現。まとめで天心側の有利展開を「リーチで離れて戦う」「インファイトに付き合わない」と再確認。",
+                "normalized_text": "那須川天心がエストラーダの接近・インファイトに付き合わず、リーチとジャブで距離を支配して中間〜アウトボクシングで戦えば勝てるとの見立て（美しい勝ち方・優勢のイメージ）。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=QDgZkcvU-OA",
-                "timestamp": "不明"
+                "timestamp": "2026-04-08前後"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "飯田覚士",
                 "source_url": "https://www.youtube.com/watch?v=QDgZkcvU-OA",
                 "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-009",
-                "source_note": "根拠URLは目視確認（2026-04-05）。ライブ配信のためアーカイブ・字幕が整うまで勝敗・展開の記録は保留でよい（ユーザー方針）。watch 形式URL。Tier A（元世界王者）。",
-                "expected_winner": "不明",
-                "expected_method": "不明",
+                "source_note": "YouTube「飯田覚士ボクシング塾ボックスファイ」【那須川天心VSエストラーダ戦の展開予想】アーカイブ。要約は自動文字起こしに基づく（確認日：2026-04-08）。Tier A（元世界王者）。",
+                "expected_winner": "那須川天心",
+                "expected_method": "判定",
                 "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                "expected_outcome": "ライブ配信（または未アーカイブ）のため、本編取得まで勝敗予想は未記録",
+                "expected_outcome": "距離を取りジャブとリーチでエストラーダの侵入を封じ、アウト〜中間で優勢に進める展開での那須川天心の勝利（配信内ではKOよりポイント・コントロールの「美しい勝ち方」が主なイメージ）。",
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "勝者（那須川天心）は的中。展開観（リーチ・ジャブ・接近に付き合わない、ボディを含む長いストレート）は実戦と整合。配信では判定・カチ封じ寄りのイメージが強く、明示のTKO予想ではないため方法は一致しない。"
             }
         },
         {
             "statement_id": "stmt-boxing-2026-04-11-event-20-010",
-            "statement_date": "2026-04-05",
+            "statement_date": "2026-04-09",
             "speaker": {
                 "name": "和氣慎吾",
                 "role": "commentator",
                 "affiliation": "Wake Riseボクシングジム"
             },
             "content": {
-                "raw_text": "エストラーダは「強い」「厳しい相手」。一方で年齢・体格・スピードの利点は天心側にあると述べる。「次のエストラーダ戦は落とせない」「100%天心応援できます」「絶対勝たなきゃいけない」と発言。",
-                "normalized_text": "エストラーダを強敵と認めつつ体格とスピードは天心有利と分析。天心の勝利を強く応援し必勝の文脈で語る"
+                "raw_text": "「勝敗予想をするなら」「天心」「変えずに行きます」「予想をするなら俺は天心判定勝ちではあるけども、新たなニュー天心を見せてくれて勝利してくれるんじゃないかな」。10cmの爆弾・接近戦での手の出し方など展開観も述べる。",
+                "normalized_text": "勝敗予想として那須川天心の勝利を表明。判定勝ち寄りだが「新しい天心」が勝つイメージ。同一動画では赤井祥彦（フレアボクシングジム会長）が別途エストラーダ判定を主張。"
             },
             "source": {
                 "type": "video",
-                "url": "https://www.youtube.com/watch?v=bOA-dDL5wWI",
-                "timestamp": "不明"
+                "url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
+                "timestamp": "2026-04-09前後"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "和氣慎吾",
-                "source_url": "https://www.youtube.com/watch?v=bOA-dDL5wWI",
+                "source_url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
                 "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-010",
-                "source_note": "根拠URLは目視確認（2026-04-05）。要約は当該動画の自動文字起こしに基づく（2026-04-05）。所属は動画概要欄のWake Rise表記。",
+                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」【直前予想！4.11那須川天心vsエストラーダ！】要約は自動文字起こしに基づく（確認日：2026-04-08）。エストラーダ有利の発言は赤井祥彦（stmt-boxing-2026-04-11-event-20-011）に分離。",
                 "expected_winner": "那須川天心",
-                "expected_method": "不明",
+                "expected_method": "判定",
                 "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                "expected_outcome": "那須川天心の勝利を応援・必須とする立場。エストラーダは強いが体格・スピードは天心に利があるとの見立て",
+                "expected_outcome": "那須川天心が判定勝ち寄りで勝利（新しい天心のパフォーマンスとの文脈）",
                 "deadline": "2026-04-11"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-04-11予定）"
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "勝者（那須川天心）は的中。判定寄りの予想に対し実際は9回TKOのため方法は外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-04-11-event-20-011",
+            "statement_date": "2026-04-09",
+            "speaker": {
+                "name": "赤井祥彦",
+                "role": "promoter",
+                "affiliation": "フレアボクシングジム（会長）"
+            },
+            "content": {
+                "raw_text": "「俺はエストラーダ判定かな？」「エストラーダ判定。ま、それで行きますか。当初の予定通りね。」葛西トレーナーのミットなどを踏まえつつエストラーダ側の見立てを述べる。",
+                "normalized_text": "赤井祥彦として、勝敗予想でファン・フランシスコ・エストラーダの判定勝利を表明。和氣慎吾の天心予想と同一動画内で対立する予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
+                "timestamp": "2026-04-09前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "赤井祥彦",
+                "source_url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
+                "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-011",
+                "source_note": "同一動画の文字起こしで「エストラーダ判定」と明言する声。対談相手はフレアボクシングジム会長の赤井祥彦とユーザー確認（確認日：2026-04-08）。",
+                "expected_winner": "ファン・フランシスコ・エストラーダ",
+                "expected_method": "判定",
+                "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
+                "expected_outcome": "エストラーダが判定で勝利",
+                "deadline": "2026-04-11"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-04-11",
+                "winner": "那須川天心",
+                "method": "TKO",
+                "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
+                "notes": "エストラーダの判定勝ちを予想していたが、天心がTKO勝ち。ハズレ。"
             }
         }
     ],
