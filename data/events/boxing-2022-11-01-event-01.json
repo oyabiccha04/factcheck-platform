@@ -1,320 +1,320 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "boxing-2022-11-01-event-01",
-    "event_meta":  {
-                       "event_name":  "WBC・WBO世界ライトフライ級王座統一戦 寺地拳四朗 vs 京口紘人",
-                       "organization":  "BOXING",
-                       "sport":  "martial_arts",
-                       "discipline":  "boxing",
-                       "event_tier":  "不明",
-                       "date":  "2022-11-01",
-                       "timezone":  "不明",
-                       "country":  "不明",
-                       "venue":  "不明",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "boxing-2022-11-01-event-01-01",
-                                        "rules":  "プロボクシング",
-                                        "red":  "寺地拳四朗",
-                                        "blue":  "京口紘人",
-                                        "outcome":  {
-                                                        "winner":  "寺地拳四朗",
-                                                        "method":  "TKO",
-                                                        "round":  7,
-                                                        "time":  null,
-                                                        "result_note":  "寺地拳四朗が7回TKO勝ちで王座統一"
-                                                    },
-                                        "discipline":  "BOXING"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-001",
-                           "statement_date":  "2022-09-17",
-                           "speaker":  {
-                                           "name":  "具志堅用高",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界ライトフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "実力は伯仲でどっちが勝ってもおかしくない。判定決着の可能性もある。",
-                                           "normalized_text":  "実力伯仲で勝者予想なし。判定の可能性を示唆。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=5Jcwsxmz6K8",
-                                          "timestamp":  "02:19"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "具志堅用高",
-                                              "source_url":  "https://www.youtube.com/watch?v=5Jcwsxmz6K8",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-001",
-                                              "source_note":  "Tier A：元世界王者。",
-                                              "expected_winner":  "不明",
-                                              "expected_method":  "不明",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "実力伯仲で判定の可能性。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "発言に勝者の明示はない。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-002",
-                           "statement_date":  "2022-10-25",
-                           "speaker":  {
-                                           "name":  "内山高志",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界スーパーフェザー級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "実力は50:50で判定になると思う。",
-                                           "normalized_text":  "実力拮抗で判定決着を予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=9I-2OeqqvrE",
-                                          "timestamp":  "02:40"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "内山高志",
-                                              "source_url":  "https://www.youtube.com/watch?v=9I-2OeqqvrE",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-002",
-                                              "source_note":  "Tier A：元世界王者。",
-                                              "expected_winner":  "不明",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "拮抗した試合で判定決着。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "決着は7回TKO。予想は判定決着。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-003",
-                           "statement_date":  "2022-10-29",
-                           "speaker":  {
-                                           "name":  "渡嘉敷勝男",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界ライトフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "寺地の判定勝ち。",
-                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
-                                          "timestamp":  "08:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "渡嘉敷勝男",
-                                              "source_url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-003",
-                                              "source_note":  "Tier A：元世界王者。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-004",
-                           "statement_date":  "2022-10-29",
-                           "speaker":  {
-                                           "name":  "竹原慎二",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界ミドル級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "京口のKO勝ち。",
-                                           "normalized_text":  "京口紘人のKO勝利予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
-                                          "timestamp":  "10:12"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "竹原慎二",
-                                              "source_url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-004",
-                                              "source_note":  "Tier A：元世界王者。",
-                                              "expected_winner":  "京口紘人",
-                                              "expected_method":  "KO",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "京口紘人がKO勝利。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は京口のKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-005",
-                           "statement_date":  "2022-10-29",
-                           "speaker":  {
-                                           "name":  "畑山隆則",
-                                           "role":  "boxer",
-                                           "affiliation":  "元世界2階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "寺地の判定勝ち。",
-                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
-                                          "timestamp":  "12:30"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "畑山隆則",
-                                              "source_url":  "https://www.youtube.com/watch?v=CTgGJdh312c",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-005",
-                                              "source_note":  "Tier A：元世界王者。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-006",
-                           "statement_date":  "2022-10-27",
-                           "speaker":  {
-                                           "name":  "細川バレンタイン",
-                                           "role":  "boxer",
-                                           "affiliation":  "元日本スーパーライト級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "寺地拳四朗の判定勝ち。",
-                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=U1fNbdxu12A",
-                                          "timestamp":  "15:20"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "細川バレンタイン",
-                                              "source_url":  "https://www.youtube.com/watch?v=U1fNbdxu12A",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-006",
-                                              "source_note":  "Tier B：元王者。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-11-01-event-01-007",
-                           "statement_date":  "2022-10-30",
-                           "speaker":  {
-                                           "name":  "山中慎介",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBC世界バンタム級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "寺地選手の判定勝ち。",
-                                           "normalized_text":  "寺地拳四朗の判定勝利予想。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://hochi.news/articles/20221031-OHT1T51251.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "山中慎介",
-                                              "source_url":  "https://hochi.news/articles/20221031-OHT1T51251.html",
-                                              "source_ref":  "statement_id=stmt-boxing-2022-11-01-event-01-007",
-                                              "source_note":  "Tier A：元世界王者。",
-                                              "expected_winner":  "寺地拳四朗",
-                                              "expected_method":  "判定",
-                                              "target":  "寺地拳四朗 vs 京口紘人",
-                                              "expected_outcome":  "寺地拳四朗が判定勝利。",
-                                              "deadline":  "2022-11-01"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-11-01",
-                                                "winner":  "寺地拳四朗",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "寺地拳四朗が7回TKO勝ち",
-                                                "notes":  "寺地拳四朗が7回TKO勝利。予想は判定。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "boxing-2022-11-01-event-01",
+    "event_meta": {
+        "event_name": "WBC・WBO世界ライトフライ級王座統一戦 寺地拳四朗 vs 京口紘人",
+        "organization": "BOXING",
+        "sport": "martial_arts",
+        "discipline": "boxing",
+        "event_tier": "不明",
+        "date": "2022-11-01",
+        "timezone": "不明",
+        "country": "不明",
+        "venue": "不明",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "boxing-2022-11-01-event-01-01",
+                    "rules": "プロボクシング",
+                    "red": "寺地拳四朗",
+                    "blue": "京口紘人",
+                    "outcome": {
+                        "winner": "寺地拳四朗",
+                        "method": "TKO",
+                        "round": 7,
+                        "time": null,
+                        "result_note": "寺地拳四朗が7回TKO勝ちで王座統一"
+                    },
+                    "discipline": "BOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-001",
+            "statement_date": "2022-09-17",
+            "speaker": {
+                "name": "具志堅用高",
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "実力は伯仲でどっちが勝ってもおかしくない。判定決着の可能性もある。",
+                "normalized_text": "実力伯仲で勝者予想なし。判定の可能性を示唆。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=5Jcwsxmz6K8",
+                "timestamp": "02:19"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "具志堅用高",
+                "source_url": "https://www.youtube.com/watch?v=5Jcwsxmz6K8",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-001",
+                "source_note": "Tier A：元世界王者。",
+                "expected_winner": "不明",
+                "expected_method": "不明",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "実力伯仲で判定の可能性。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "発言に勝者の明示はない。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-002",
+            "statement_date": "2022-10-25",
+            "speaker": {
+                "name": "内山高志",
+                "role": "boxer",
+                "affiliation": "元WBA世界スーパーフェザー級王者"
+            },
+            "content": {
+                "raw_text": "実力は50:50で判定になると思う。",
+                "normalized_text": "実力拮抗で判定決着を予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=9I-2OeqqvrE",
+                "timestamp": "02:40"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "内山高志",
+                "source_url": "https://www.youtube.com/watch?v=9I-2OeqqvrE",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-002",
+                "source_note": "Tier A：元世界王者。",
+                "expected_winner": "不明",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "拮抗した試合で判定決着。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "決着は7回TKO。予想は判定決着。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-003",
+            "statement_date": "2022-10-29",
+            "speaker": {
+                "name": "渡嘉敷勝男",
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "寺地の判定勝ち。",
+                "normalized_text": "寺地拳四朗の判定勝利予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=CTgGJdh312c",
+                "timestamp": "08:45"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "渡嘉敷勝男",
+                "source_url": "https://www.youtube.com/watch?v=CTgGJdh312c",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-003",
+                "source_note": "Tier A：元世界王者。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "寺地拳四朗が判定勝利。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "寺地拳四朗が7回TKO勝利。予想は判定。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-004",
+            "statement_date": "2022-10-29",
+            "speaker": {
+                "name": "竹原慎二",
+                "role": "boxer",
+                "affiliation": "元WBA世界ミドル級王者"
+            },
+            "content": {
+                "raw_text": "京口のKO勝ち。",
+                "normalized_text": "京口紘人のKO勝利予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=CTgGJdh312c",
+                "timestamp": "10:12"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "竹原慎二",
+                "source_url": "https://www.youtube.com/watch?v=CTgGJdh312c",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-004",
+                "source_note": "Tier A：元世界王者。",
+                "expected_winner": "京口紘人",
+                "expected_method": "KO",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "京口紘人がKO勝利。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "寺地拳四朗が7回TKO勝利。予想は京口のKO。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-005",
+            "statement_date": "2022-10-29",
+            "speaker": {
+                "name": "畑山隆則",
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "寺地の判定勝ち。 [2026-04-26監査: stmt-003（渡嘉敷勝男）と同一テキスト。同一動画内の別人物なので、発言内容の個別書き起こしを推奨]",
+                "normalized_text": "寺地拳四朗の判定勝利予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=CTgGJdh312c",
+                "timestamp": "12:30"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "畑山隆則",
+                "source_url": "https://www.youtube.com/watch?v=CTgGJdh312c",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-005",
+                "source_note": "Tier A：元世界王者。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "寺地拳四朗が判定勝利。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "寺地拳四朗が7回TKO勝利。予想は判定。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-006",
+            "statement_date": "2022-10-27",
+            "speaker": {
+                "name": "細川バレンタイン",
+                "role": "boxer",
+                "affiliation": "元日本スーパーライト級王者"
+            },
+            "content": {
+                "raw_text": "寺地拳四朗の判定勝ち。",
+                "normalized_text": "寺地拳四朗の判定勝利予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=U1fNbdxu12A",
+                "timestamp": "15:20"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "細川バレンタイン",
+                "source_url": "https://www.youtube.com/watch?v=U1fNbdxu12A",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-006",
+                "source_note": "Tier B：元王者。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "寺地拳四朗が判定勝利。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "寺地拳四朗が7回TKO勝利。予想は判定。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2022-11-01-event-01-007",
+            "statement_date": "2022-10-30",
+            "speaker": {
+                "name": "山中慎介",
+                "role": "boxer",
+                "affiliation": "元WBC世界バンタム級王者"
+            },
+            "content": {
+                "raw_text": "寺地選手の判定勝ち。",
+                "normalized_text": "寺地拳四朗の判定勝利予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20221031-OHT1T51251.html",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "山中慎介",
+                "source_url": "https://hochi.news/articles/20221031-OHT1T51251.html",
+                "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-007",
+                "source_note": "Tier A：元世界王者。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "判定",
+                "target": "寺地拳四朗 vs 京口紘人",
+                "expected_outcome": "寺地拳四朗が判定勝利。",
+                "deadline": "2022-11-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-11-01",
+                "winner": "寺地拳四朗",
+                "method": "TKO",
+                "actual_outcome": "寺地拳四朗が7回TKO勝ち",
+                "notes": "寺地拳四朗が7回TKO勝利。予想は判定。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

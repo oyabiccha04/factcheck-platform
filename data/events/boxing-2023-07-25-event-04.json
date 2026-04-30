@@ -1,407 +1,407 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "boxing-2023-07-25-event-04",
-    "event_meta":  {
-                       "event_name":  "WBC・WBO世界スーパーバンタム級 スティーブン・フルトン vs 井上尚弥",
-                       "organization":  "BOXING",
-                       "sport":  "martial_arts",
-                       "discipline":  "boxing",
-                       "event_tier":  "不明",
-                       "date":  "2023-07-25",
-                       "timezone":  "不明",
-                       "country":  "不明",
-                       "venue":  "不明",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "boxing-2023-07-25-event-04-01",
-                                        "rules":  "プロボクシング",
-                                        "red":  "スティーブン・フルトン",
-                                        "blue":  "井上尚弥",
-                                        "outcome":  {
-                                                        "winner":  "井上尚弥",
-                                                        "method":  "TKO",
-                                                        "round":  8,
-                                                        "time":  null,
-                                                        "result_note":  "井上尚弥が8回TKO勝ちで2団体王座奪取"
-                                                    },
-                                        "discipline":  "BOXING"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-002",
-                           "statement_date":  "2023-07-23",
-                           "speaker":  {
-                                           "name":  "長谷川穂積",
-                                           "role":  "commentator",
-                                           "affiliation":  "元世界3階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "井上選手の判定勝ち、もしくは終盤のKO勝ち。7対3、あるいは8対2で井上選手が有利",
-                                           "normalized_text":  "井上尚弥の判定または終盤KO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://hochi.news/articles/20230720-OHT1T51111.html?page=1&utm_abtest=A",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "長谷川穂積",
-                                              "source_url":  "https://hochi.news/articles/20230720-OHT1T51111.html?page=1&utm_abtest=A",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-002",
-                                              "source_note":  "Tier A。元世界3階級制覇王者・解説者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "不明",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥が判定または終盤KO勝ち",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-003",
-                           "statement_date":  "2023-07-20",
-                           "speaker":  {
-                                           "name":  "山中慎介",
-                                           "role":  "commentator",
-                                           "affiliation":  "元WBC世界バンタム級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "中盤から後半にかけてのKO。早い段階で井上選手がペースを握る",
-                                           "normalized_text":  "井上尚弥の中盤から後半にかけてのKO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://hochi.news/articles/20230306-OHT1T51236.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "山中慎介",
-                                              "source_url":  "https://hochi.news/articles/20230306-OHT1T51236.html",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-003",
-                                              "source_note":  "Tier A。元世界王者・解説者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "KO",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥の中盤から後半にかけてのKO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-004",
-                           "statement_date":  "2023-07-14",
-                           "speaker":  {
-                                           "name":  "渡嘉敷勝男",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元WBA世界ライトフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "井上尚弥のKO勝ち。フルトンは逃げ切れない",
-                                           "normalized_text":  "井上尚弥のKO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=OW6AjVUXgKE",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "渡嘉敷勝男",
-                                              "source_url":  "https://www.youtube.com/watch?v=OW6AjVUXgKE",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-004",
-                                              "source_note":  "Tier A。元世界王者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "KO",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥のKO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-005",
-                           "statement_date":  "2023-07-14",
-                           "speaker":  {
-                                           "name":  "竹原慎二",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元WBA世界ミドル級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "井上のKO。フルトンも強いが井上のパワーが上回る",
-                                           "normalized_text":  "井上尚弥のKO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=OW6AjVUXgKE",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "竹原慎二",
-                                              "source_url":  "https://www.youtube.com/watch?v=OW6AjVUXgKE",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-005",
-                                              "source_note":  "Tier A。元世界王者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "KO",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥のKO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-006",
-                           "statement_date":  "2023-07-14",
-                           "speaker":  {
-                                           "name":  "畑山隆則",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元世界2階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "井上のTKO勝ち。終盤に捕まえる",
-                                           "normalized_text":  "井上尚弥のTKO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=OW6AjVUXgKE",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "畑山隆則",
-                                              "source_url":  "https://www.youtube.com/watch?v=OW6AjVUXgKE",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-006",
-                                              "source_note":  "Tier A。元世界王者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "TKO",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥のTKO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-007",
-                           "statement_date":  "2023-07-21",
-                           "speaker":  {
-                                           "name":  "内山高志",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元WBA世界スーパーフェザー級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "井上尚弥のKO。8ラウンドか9ラウンドくらい",
-                                           "normalized_text":  "井上尚弥の8-9回KO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=jEN5fxEHBms",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "内山高志",
-                                              "source_url":  "https://www.youtube.com/watch?v=jEN5fxEHBms",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-007",
-                                              "source_note":  "Tier A。元世界王者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "KO",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥の8-9回KO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-009",
-                           "statement_date":  "2023-07-22",
-                           "speaker":  {
-                                           "name":  "京口紘人",
-                                           "role":  "boxer",
-                                           "affiliation":  "元世界2階級制覇王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "井上の判定勝ち。もしくは10〜12ラウンドでのKO",
-                                           "normalized_text":  "井上尚弥の判定または終盤KO勝利"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=UyW6akQzWL4",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "京口紘人",
-                                              "source_url":  "https://www.youtube.com/watch?v=UyW6akQzWL4",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-009",
-                                              "source_note":  "Tier A。元世界王者。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "不明",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥の判定または終盤KO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "8回1分14秒TKO",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-012",
-                           "statement_date":  "2023-03-06",
-                           "speaker":  {
-                                           "name":  "細川バレンタイン",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元日本スーパーライト級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "理論上ではね、フルトンが勝つ可能性が高いと俺はちょっと持ってる",
-                                           "normalized_text":  "理論上はスティーブン・フルトンの判定勝ちの可能性が高いと述べる。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=GReo5k0q5K0",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "細川バレンタイン",
-                                              "source_url":  "https://www.youtube.com/watch?v=GReo5k0q5K0",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-012",
-                                              "source_note":  "Tier B（YouTuber／元日本王者）。",
-                                              "expected_winner":  "スティーブン・フルトン",
-                                              "expected_method":  "判定",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "スティーブン・フルトンの判定勝ち",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "予想はフルトンの判定。井上尚弥が8回1分14秒TKOで勝利。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2023-07-25-event-04-013",
-                           "statement_date":  "2023-07-18",
-                           "speaker":  {
-                                           "name":  "具志堅用高",
-                                           "role":  "boxer",
-                                           "affiliation":  "元WBA世界ライトフライ級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "フルトンは上手い。でも井上君のプレッシャーには耐えられない。中盤から後半にかけてKOになるよ。",
-                                           "normalized_text":  "井上尚弥が中盤から後半にかけてKO勝利すると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=vBzDe1v0q84",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "具志堅用高",
-                                              "source_url":  "https://www.youtube.com/watch?v=vBzDe1v0q84",
-                                              "source_ref":  "statement_id=stmt-boxing-2023-07-25-event-04-013",
-                                              "source_note":  "Tier A（元世界王者）。",
-                                              "expected_winner":  "井上尚弥",
-                                              "expected_method":  "KO",
-                                              "target":  "スティーブン・フルトン vs 井上尚弥",
-                                              "expected_outcome":  "井上尚弥の中盤から後半にかけてのKO勝利",
-                                              "deadline":  "2023-07-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-07-25",
-                                                "winner":  "井上尚弥",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "井上尚弥が8回TKO勝利",
-                                                "notes":  "井上尚弥が8回1分14秒TKOで勝利。予想は中盤から後半のKO。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
-                                            }
-                       }
-                   ],
-    "charter_update_candidates":  [
-                                        {
-                                            "title":  "最低件数未達（event-04）",
-                                            "problem":  "一次情報に遡れるTier A/Bの勝者方向予測は9件に減少し、15件目標には未達。",
-                                            "proposed_rule":  "最低15件を目標としつつ、一次情報不足時は捏造せず不足理由をcharter_update_candidatesへ記録する。",
-                                            "scope":  "events",
-                                            "evidence_urls":  []
-                                        }
-                                    ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "boxing-2023-07-25-event-04",
+    "event_meta": {
+        "event_name": "WBC・WBO世界スーパーバンタム級 スティーブン・フルトン vs 井上尚弥",
+        "organization": "BOXING",
+        "sport": "martial_arts",
+        "discipline": "boxing",
+        "event_tier": "不明",
+        "date": "2023-07-25",
+        "timezone": "不明",
+        "country": "不明",
+        "venue": "不明",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "boxing-2023-07-25-event-04-01",
+                    "rules": "プロボクシング",
+                    "red": "スティーブン・フルトン",
+                    "blue": "井上尚弥",
+                    "outcome": {
+                        "winner": "井上尚弥",
+                        "method": "TKO",
+                        "round": 8,
+                        "time": null,
+                        "result_note": "井上尚弥が8回TKO勝ちで2団体王座奪取"
+                    },
+                    "discipline": "BOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-002",
+            "statement_date": "2023-07-23",
+            "speaker": {
+                "name": "長谷川穂積",
+                "role": "commentator",
+                "affiliation": "元世界3階級制覇王者"
+            },
+            "content": {
+                "raw_text": "井上選手の判定勝ち、もしくは終盤のKO勝ち。7対3、あるいは8対2で井上選手が有利",
+                "normalized_text": "井上尚弥の判定または終盤KO勝利"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20230720-OHT1T51111.html?page=1&utm_abtest=A",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "長谷川穂積",
+                "source_url": "https://hochi.news/articles/20230720-OHT1T51111.html?page=1&utm_abtest=A",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-002",
+                "source_note": "Tier A。元世界3階級制覇王者・解説者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "不明",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥が判定または終盤KO勝ち",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-003",
+            "statement_date": "2023-07-20",
+            "speaker": {
+                "name": "山中慎介",
+                "role": "commentator",
+                "affiliation": "元WBC世界バンタム級王者"
+            },
+            "content": {
+                "raw_text": "中盤から後半にかけてのKO。早い段階で井上選手がペースを握る",
+                "normalized_text": "井上尚弥の中盤から後半にかけてのKO勝利"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20230306-OHT1T51236.html",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "山中慎介",
+                "source_url": "https://hochi.news/articles/20230306-OHT1T51236.html",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-003",
+                "source_note": "Tier A。元世界王者・解説者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥の中盤から後半にかけてのKO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-004",
+            "statement_date": "2023-07-14",
+            "speaker": {
+                "name": "渡嘉敷勝男",
+                "role": "youtuber",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "井上尚弥のKO勝ち。フルトンは逃げ切れない",
+                "normalized_text": "井上尚弥のKO勝利"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=OW6AjVUXgKE",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "渡嘉敷勝男",
+                "source_url": "https://www.youtube.com/watch?v=OW6AjVUXgKE",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-004",
+                "source_note": "Tier A。元世界王者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥のKO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-005",
+            "statement_date": "2023-07-14",
+            "speaker": {
+                "name": "竹原慎二",
+                "role": "youtuber",
+                "affiliation": "元WBA世界ミドル級王者"
+            },
+            "content": {
+                "raw_text": "井上のKO。フルトンも強いが井上のパワーが上回る",
+                "normalized_text": "井上尚弥のKO勝利"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=OW6AjVUXgKE",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "竹原慎二",
+                "source_url": "https://www.youtube.com/watch?v=OW6AjVUXgKE",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-005",
+                "source_note": "Tier A。元世界王者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥のKO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-006",
+            "statement_date": "2023-07-14",
+            "speaker": {
+                "name": "畑山隆則",
+                "role": "youtuber",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "井上のTKO勝ち。終盤に捕まえる",
+                "normalized_text": "井上尚弥のTKO勝利"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=OW6AjVUXgKE",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "畑山隆則",
+                "source_url": "https://www.youtube.com/watch?v=OW6AjVUXgKE",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-006",
+                "source_note": "Tier A。元世界王者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "TKO",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥のTKO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-007",
+            "statement_date": "2023-07-21",
+            "speaker": {
+                "name": "内山高志",
+                "role": "youtuber",
+                "affiliation": "元WBA世界スーパーフェザー級王者"
+            },
+            "content": {
+                "raw_text": "井上尚弥のKO。8ラウンドか9ラウンドくらい",
+                "normalized_text": "井上尚弥の8-9回KO勝利"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=jEN5fxEHBms",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "内山高志",
+                "source_url": "https://www.youtube.com/watch?v=jEN5fxEHBms",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-007",
+                "source_note": "Tier A。元世界王者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥の8-9回KO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-009",
+            "statement_date": "2023-07-22",
+            "speaker": {
+                "name": "京口紘人",
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "井上の判定勝ち。もしくは10〜12ラウンドでのKO",
+                "normalized_text": "井上尚弥の判定または終盤KO勝利"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=UyW6akQzWL4",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "京口紘人",
+                "source_url": "https://www.youtube.com/watch?v=UyW6akQzWL4",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-009",
+                "source_note": "Tier A。元世界王者。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "不明",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥の判定または終盤KO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "8回1分14秒TKO",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-012",
+            "statement_date": "2023-03-06",
+            "speaker": {
+                "name": "細川バレンタイン",
+                "role": "youtuber",
+                "affiliation": "元日本スーパーライト級王者"
+            },
+            "content": {
+                "raw_text": "理論上ではね、フルトンが勝つ可能性が高いと俺はちょっと持ってる",
+                "normalized_text": "理論上はスティーブン・フルトンが勝つ可能性を「ちょっと持ってる」と留保付きで述べる。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=GReo5k0q5K0",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "細川バレンタイン",
+                "source_url": "https://www.youtube.com/watch?v=GReo5k0q5K0",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-012",
+                "source_note": "Tier B（YouTuber／元日本王者）。",
+                "expected_winner": "スティーブン・フルトン",
+                "expected_method": "判定",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "スティーブン・フルトンの判定勝ち",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "予想はフルトンの判定。井上尚弥が8回1分14秒TKOで勝利。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2023-07-25-event-04-013",
+            "statement_date": "2023-07-18",
+            "speaker": {
+                "name": "具志堅用高",
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "フルトンは上手い。でも井上君のプレッシャーには耐えられない。中盤から後半にかけてKOになるよ。",
+                "normalized_text": "井上尚弥が中盤から後半にかけてKO勝利すると予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=vBzDe1v0q84",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "具志堅用高",
+                "source_url": "https://www.youtube.com/watch?v=vBzDe1v0q84",
+                "source_ref": "statement_id=stmt-boxing-2023-07-25-event-04-013",
+                "source_note": "Tier A（元世界王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "スティーブン・フルトン vs 井上尚弥",
+                "expected_outcome": "井上尚弥の中盤から後半にかけてのKO勝利",
+                "deadline": "2023-07-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-07-25",
+                "winner": "井上尚弥",
+                "method": "TKO",
+                "actual_outcome": "井上尚弥が8回TKO勝利",
+                "notes": "井上尚弥が8回1分14秒TKOで勝利。予想は中盤から後半のKO。",
+                "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202307250001391.html"
+            }
+        }
+    ],
+    "charter_update_candidates": [
+        {
+            "title": "最低件数未達（event-04）",
+            "problem": "一次情報に遡れるTier A/Bの勝者方向予測は9件に減少し、15件目標には未達。",
+            "proposed_rule": "最低15件を目標としつつ、一次情報不足時は捏造せず不足理由をcharter_update_candidatesへ記録する。",
+            "scope": "events",
+            "evidence_urls": []
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

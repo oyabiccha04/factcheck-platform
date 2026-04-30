@@ -1,287 +1,46 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "boxing-2022-12-13-event-02",
-    "event_meta":  {
-                       "event_name":  "世界バンタム級4団体王座統一戦 井上尚弥 vs ポール・バトラー",
-                       "organization":  "BOXING",
-                       "sport":  "martial_arts",
-                       "discipline":  "boxing",
-                       "event_tier":  "不明",
-                       "date":  "2022-12-13",
-                       "timezone":  "不明",
-                       "country":  "不明",
-                       "venue":  "不明",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "boxing-2022-12-13-event-02-01",
-                                        "rules":  "プロボクシング",
-                                        "red":  "井上尚弥",
-                                        "blue":  "ポール・バトラー",
-                                        "outcome":  {
-                                                        "winner":  "井上尚弥",
-                                                        "method":  "KO",
-                                                        "round":  11,
-                                                        "time":  null,
-                                                        "result_note":  "井上尚弥が11回KO勝ちで4団体王座統一"
-                                                    },
-                                        "discipline":  "BOXING"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-001",
-                           "statement_date":  "2022-11-23",
-                           "speaker":  {
-                                           "name":  "村田諒太",
-                                           "role":  "boxer",
-                                           "affiliation":  "帝拳ボクシングジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.nikkansports.com/battle/news/201905160000634.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "11ラウンドに井上尚弥が連打でバトラーを仕留めた",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-002",
-                           "statement_date":  "2022-12-08",
-                           "speaker":  {
-                                           "name":  "長谷川穂積",
-                                           "role":  "commentator",
-                                           "affiliation":  "真正ボクシングジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=-_D6hzlCXpk",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "中盤を過ぎた11ラウンドでのKO決着となった",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-003",
-                           "statement_date":  "2022-12-05",
-                           "speaker":  {
-                                           "name":  "具志堅用高",
-                                           "role":  "commentator",
-                                           "affiliation":  "太田プロダクション"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.nikkansports.com/battle/news/201905160000634.html",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "決着は11回だった。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-005",
-                           "statement_date":  "2022-12-10",
-                           "speaker":  {
-                                           "name":  "渡嘉敷勝男",
-                                           "role":  "commentator",
-                                           "affiliation":  "渡嘉敷ボクシングジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=kLLzY3wSLlc",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "バトラーの徹底した防御により決着は11回となった",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-006",
-                           "statement_date":  "2022-12-10",
-                           "speaker":  {
-                                           "name":  "竹原慎二",
-                                           "role":  "commentator",
-                                           "affiliation":  "竹原慎二&畑山隆則のボクサ・フィットネスジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=kLLzY3wSLlc",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "決着は終盤11回となった",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-007",
-                           "statement_date":  "2022-12-10",
-                           "speaker":  {
-                                           "name":  "畑山隆則",
-                                           "role":  "commentator",
-                                           "affiliation":  "竹原慎二&畑山隆則のボクサ・フィットネスジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=kLLzY3wSLlc",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "バトラーが防御に徹し、試合は11回まで及んだ",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-008",
-                           "statement_date":  "2022-12-12",
-                           "speaker":  {
-                                           "name":  "内山高志",
-                                           "role":  "commentator",
-                                           "affiliation":  "KOD LAB"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=-KVRdmN4kWQ",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "11回まで試合が続いたが、最終的にKO決着となった",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-boxing-2022-12-13-event-02-012",
-                           "statement_date":  "2022-12-10",
-                           "speaker":  {
-                                           "name":  "細川バレンタイン",
-                                           "role":  "youtuber",
-                                           "affiliation":  "元日本スーパーライト級王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "",
-                                           "normalized_text":  ""
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=H5o52pCHYkA",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  false
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-12-13",
-                                                "winner":  "井上尚弥",
-                                                "method":  "KO",
-                                                "actual_outcome":  "11回1分18秒KOで井上尚弥が勝利",
-                                                "notes":  "井上尚弥が11回KOで勝利した。",
-                                                "source_note":  "根拠URL: https://www.nikkansports.com/battle/news/202212130000450.html"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "boxing-2022-12-13-event-02",
+    "event_meta": {
+        "event_name": "世界バンタム級4団体王座統一戦 井上尚弥 vs ポール・バトラー",
+        "organization": "BOXING",
+        "sport": "martial_arts",
+        "discipline": "boxing",
+        "event_tier": "不明",
+        "date": "2022-12-13",
+        "timezone": "不明",
+        "country": "不明",
+        "venue": "不明",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "boxing-2022-12-13-event-02-01",
+                    "rules": "プロボクシング",
+                    "red": "井上尚弥",
+                    "blue": "ポール・バトラー",
+                    "outcome": {
+                        "winner": "井上尚弥",
+                        "method": "KO",
+                        "round": 11,
+                        "time": null,
+                        "result_note": "井上尚弥が11回KO勝ちで4団体王座統一"
+                    },
+                    "discipline": "BOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

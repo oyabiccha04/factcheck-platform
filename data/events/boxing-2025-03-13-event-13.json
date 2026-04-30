@@ -46,8 +46,8 @@
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "提示URLの動画にて、寺地拳四朗対ユーリ阿久井政悟戦について展望を発言",
-                "normalized_text": "寺地拳四朗の勝利を支持する展望（詳細は根拠動画を参照）"
+                "raw_text": "※趣旨要約・原典未確認※ 提示URLの動画にて、寺地拳四朗対ユーリ阿久井政悟戦について展望を発言",
+                "normalized_text": "発言内容未起こし（動画の展望発言を確認済みだが、具体的な発言テキストは未記録）"
             },
             "source": {
                 "type": "video",
@@ -59,11 +59,11 @@
                 "predictor_name": "具志堅用高",
                 "source_url": "https://www.youtube.com/watch?v=-mEJaG4Qo6A",
                 "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-001",
-                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
-                "expected_winner": "寺地拳四朗",
-                "expected_method": "不明",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。 [2026-04-26監査] raw_textがプレースホルダーのため予測を「不明」に修正。修正前: expected_winner=寺地拳四朗, expected_method=不明。",
+                "expected_winner": "不明（原典未起こし）",
+                "expected_method": "不明（原典未起こし）",
                 "target": "寺地拳四朗 vs ユーリ阿久井政悟",
-                "expected_outcome": "寺地拳四朗の勝利を予想",
+                "expected_outcome": "原典未起こしのため不明（修正前: 寺地拳四朗の勝利を予想）",
                 "deadline": "2025-03-13"
             },
             "verification": {
@@ -72,7 +72,7 @@
                 "winner": "寺地拳四朗",
                 "method": "TKO",
                 "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
-                "notes": "12回、レフェリーストップによる決着。勝者は的中。",
+                "notes": "12回、レフェリーストップによる決着。勝者は的中。 [2026-04-26監査] 原典未起こしのため予測正誤の判定は保留。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
             }
         },
@@ -137,11 +137,11 @@
                 "predictor_name": "畑山隆則",
                 "source_url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
                 "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-003",
-                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
-                "expected_winner": "寺地拳四朗",
-                "expected_method": "判定",
+                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。 [2026-04-26監査] 条件付き予想を正しく反映。修正前: expected_winner=寺地拳四朗, method=判定（一方のシナリオのみ採用していた）。",
+                "expected_winner": "条件付き（判定: 寺地拳四朗 / KO: ユーリ阿久井政悟）",
+                "expected_method": "条件付き（判定 or KO）",
                 "target": "寺地拳四朗 vs ユーリ阿久井政悟",
-                "expected_outcome": "判定決着を想定した場合は寺地拳四朗優位（KOの場合はユーリの可能性）",
+                "expected_outcome": "判定決着なら寺地拳四朗、KO決着ならユーリ阿久井政悟（条件分岐型の予想）",
                 "deadline": "2025-03-13"
             },
             "verification": {
