@@ -21,9 +21,7 @@
   <nav aria-label="グローバルナビ">
     <ul>
       <li><a href="./index.html" class="active">トップ</a></li>
-      <li><a href="./martial-arts/predictors.html">MMA予測</a></li>
       <li><a href="./predictors.html">ボクシング予測</a></li>
-      <li><a href="./kick-predictors.html">キック予測</a></li>
     </ul>
   </nav>
 
@@ -32,29 +30,13 @@
     <!-- ランキング入口（3種目） -->
     <section>
       <h2>予測者ランキング</h2>
-      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-top:4px;">
+      <div style="margin-top:4px;">
 
-        <a href="./martial-arts/predictors.html" style="display:block;text-decoration:none;">
-          <div class="card" style="border-left:4px solid var(--purple);padding-left:14px;">
-            <div style="font-size:0.75rem;font-weight:600;letter-spacing:0.06em;color:var(--purple);text-transform:uppercase;margin-bottom:4px;">MMA</div>
-            <div style="font-size:1.05rem;font-weight:600;color:var(--text-primary);">MMA予測ランキング</div>
-            <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:4px;">RIZIN / UFC / ONE</div>
-          </div>
-        </a>
-
-        <a href="./predictors.html" style="display:block;text-decoration:none;">
+        <a href="./predictors.html" style="display:block;text-decoration:none;max-width:480px;">
           <div class="card" style="border-left:4px solid var(--purple);padding-left:14px;">
             <div style="font-size:0.75rem;font-weight:600;letter-spacing:0.06em;color:var(--purple);text-transform:uppercase;margin-bottom:4px;">Boxing</div>
             <div style="font-size:1.05rem;font-weight:600;color:var(--text-primary);">ボクシング予測ランキング</div>
             <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:4px;">世界タイトル戦を中心に記録</div>
-          </div>
-        </a>
-
-        <a href="./kick-predictors.html" style="display:block;text-decoration:none;">
-          <div class="card" style="border-left:4px solid var(--purple);padding-left:14px;">
-            <div style="font-size:0.75rem;font-weight:600;letter-spacing:0.06em;color:var(--purple);text-transform:uppercase;margin-bottom:4px;">Kick / Muay Thai</div>
-            <div style="font-size:1.05rem;font-weight:600;color:var(--text-primary);">キック予測ランキング</div>
-            <div style="font-size:0.85rem;color:var(--text-secondary);margin-top:4px;">K-1 / ムエタイ系</div>
           </div>
         </a>
 
@@ -85,7 +67,7 @@
       <h2>使い方</h2>
       <div class="box">
         <ul style="margin:0;padding-left:18px;font-size:0.9rem;line-height:1.8;">
-          <li><strong>予測者ランキング</strong>は上の「MMA予測 / ボクシング予測 / キック予測」から。種目ごとに専用ページが開きます。</li>
+          <li><strong>予測者ランキング</strong>は上の「ボクシング予測」から。</li>
           <li><strong>興行ログ一覧</strong>は、各予測ページ内の「ログ一覧へ」リンクから。</li>
           <li><strong>1興行の詳細</strong>（試合カード・発言ログ）は、下の最新イベント一覧のイベント名から。</li>
           <li>生データ・GitHubでの検証は <a href="./verify.html">検証用データ</a> から。</li>
@@ -122,32 +104,4 @@
 
         const latestEl = document.getElementById("latest");
 
-        if (!latest.length) {
-          latestEl.textContent = "イベントがまだ登録されていません";
-        } else {
-          const ul = document.createElement("ul");
-          ul.style.cssText = "margin:0;padding-left:18px;line-height:1.9;";
-          latest.forEach(ev => {
-            const li = document.createElement("li");
-            const a1 = document.createElement("a");
-            a1.href = "./event.html?file=" + encodeURIComponent(ev.file) + "&v=" + CACHE_BUSTER;
-            a1.textContent = ev.title;
-            const span = document.createElement("span");
-            span.className = "muted";
-            span.style.fontSize = "0.85rem";
-            span.textContent = "  " + (ev.organization ? ev.organization + " · " : "") + (ev.date || "");
-            li.appendChild(a1);
-            li.appendChild(span);
-            ul.appendChild(li);
-          });
-          latestEl.innerHTML = "";
-          latestEl.appendChild(ul);
-        }
-      })
-      .catch(err => {
-        document.getElementById("latest").textContent = "index.json の読み込みに失敗しました: " + err;
-      });
-  </script>
-
-</body>
-</html>
+        if (!latest.leng
