@@ -87,8 +87,14 @@
   }
 
   function normText(s) { return String(s || "").trim().toLowerCase(); }
-  function isUnknownWinner(ew) { var t = String(ew || "").trim(); return !t || t === "不明"; }
+  function isUnknownWinner(ew) { var t = String(ew || "").trim(); return !t || t === "不明" || t.indexOf("不明") === 0; }
   function hitLabel(ew, actualWinner) {
+    var ewTrim = String(ew || "").trim();
+    if (ewTrim.indexOf("条件付き") === 0) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("明言なし") !== -1) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("断定なし") !== -1) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("互角") === 0 || ewTrim.indexOf("五分") === 0) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("ドロー") === 0) return { text: "集計対象外", cls: "badge-unknown" };
     if (isUnknownWinner(ew)) return { text: "集計対象外", cls: "badge-unknown" };
     if (!actualWinner) return { text: "−", cls: "badge-unknown" };
     var ok = normText(ew) === normText(actualWinner);

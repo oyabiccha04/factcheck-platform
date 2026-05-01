@@ -182,6 +182,20 @@
     map[key].total += 1;
     if (hit) map[key].hit += 1;
   }
+
+  function hasClearExpectedWinner(pred, ver) {
+    if (!pred || pred.expected_winner == null) return false;
+    if (ver && ver.status === "excluded_from_stats") return false;
+    var ew = String(pred.expected_winner || "").trim();
+    if (!ew) return false;
+    if (ew.indexOf("不明") === 0) return false;
+    if (ew.indexOf("条件付き") === 0) return false;
+    if (ew.indexOf("明言なし") !== -1) return false;
+    if (ew.indexOf("断定なし") !== -1) return false;
+    if (ew.indexOf("互角") === 0 || ew.indexOf("五分") === 0) return false;
+    if (ew.indexOf("ドロー") === 0) return false;
+    return true;
+  }
   function resolvePredictorNameForRanking(pred, stmt) {
     var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
     var sn = stmt && stmt.speaker && stmt.speaker.name != null ? String(stmt.speaker.name).trim() : "";
@@ -204,7 +218,7 @@
         bouts.forEach(function (b) {
           var pred = b && b.prediction ? b.prediction : null;
           var out = b && b.outcome ? b.outcome : null;
-          if (!pred || !pred.exists || !pred.expected_winner || !out || !out.winner) return;
+          if (!pred || !pred.exists || !hasClearExpectedWinner(pred, null) || !out || !out.winner) return;
           var predictor = resolvePredictorNameForBoutRanking(pred);
           if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
           addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(out.winner));
@@ -215,7 +229,7 @@
       evData.statements.forEach(function (stmt) {
         var pred = stmt && stmt.prediction ? stmt.prediction : null;
         var ver = stmt && stmt.verification ? stmt.verification : null;
-        if (!pred || !pred.exists || !pred.expected_winner || !ver || !ver.winner) return;
+        if (!pred || !pred.exists || !hasClearExpectedWinner(pred, ver) || !ver || !ver.winner) return;
         var predictor = resolvePredictorNameForRanking(pred, stmt);
         if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
         addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(ver.winner));

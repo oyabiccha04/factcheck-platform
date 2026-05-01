@@ -597,7 +597,8 @@
             var ew = String(stmt.prediction.expected_winner || "").trim();
             var isStatExcluded = stmt.verification.status === "excluded_from_stats";
             var isConditionalWinner = ew.indexOf("条件付き") === 0;
-            var isUnknownWinner = !ew || ew.toLowerCase() === "不明" || ew.indexOf("不明") === 0 || isStatExcluded || isConditionalWinner;
+            var isAmbiguousWinner = ew.indexOf("明言なし") !== -1 || ew.indexOf("断定なし") !== -1 || ew.indexOf("互角") === 0 || ew.indexOf("五分") === 0 || ew.indexOf("ドロー") === 0;
+            var isUnknownWinner = !ew || ew.toLowerCase() === "不明" || ew.indexOf("不明") === 0 || isStatExcluded || isConditionalWinner || isAmbiguousWinner;
             if (isUnknownWinner) {
               matchBadge = "<div class=\"match-row\" style=\"margin-top:6px;\"><span class=\"match-badge match-badge--unknown\">勝者予測: 集計対象外</span></div>";
             } else {

@@ -90,6 +90,10 @@
     if (ver && ver.status === "excluded_from_stats") return { text: "集計対象外", cls: "badge-unknown" };
     var ewTrim = String(ew || "").trim();
     if (ewTrim.indexOf("条件付き") === 0) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("明言なし") !== -1) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("断定なし") !== -1) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("互角") === 0 || ewTrim.indexOf("五分") === 0) return { text: "集計対象外", cls: "badge-unknown" };
+    if (ewTrim.indexOf("ドロー") === 0) return { text: "集計対象外", cls: "badge-unknown" };
     if (isUnknownWinner(ew)) return { text: "集計対象外", cls: "badge-unknown" };
     if (!actualWinner) return { text: "−", cls: "badge-unknown" };
     var ok = normText(ew) === normText(actualWinner);

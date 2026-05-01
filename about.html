@@ -3,20 +3,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>About | 予測VSFACT（予想の的中率・精度をデータで検証）</title>
-  <style>
-    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Noto Sans JP", sans-serif; margin: 24px; line-height: 1.65; max-width: 720px; }
-    .muted { color: #666; }
-    a { color: #0b57d0; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .small { font-size: 12px; }
-    h2 { font-size: 1.15rem; margin-top: 1.75em; margin-bottom: 0.5em; font-weight: 600; }
-    ul { padding-left: 1.25em; margin: 0.5em 0 1em; }
-    li { margin: 0.35em 0; }
-  </style>
+  <title>About | 予測VSFACT</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-  <p class="muted small"><a href="./index.html">← トップへ戻る</a></p>
+
+  <header>
+    <div class="header-inner">
+      <h1>予測VSFACT <span class="site-badge">Beta</span></h1>
+    </div>
+  </header>
+
+  <nav aria-label="グローバルナビ">
+    <ul>
+      <li><a href="./index.html">トップ</a></li>
+      <li><a href="./martial-arts/predictors.html">MMA予測</a></li>
+      <li><a href="./predictors.html">ボクシング予測</a></li>
+      <li><a href="./kick-predictors.html">キック予測</a></li>
+    </ul>
+  </nav>
+
+  <main style="max-width:720px;">
   <h1>About</h1>
 
   <p>
@@ -61,5 +68,11 @@
   <p class="muted small">
     運用上の細目・データ形式・ページ構成の正本は、リポジトリ内の憲法ドキュメント <a href="https://github.com/oyabiccha04/factcheck-platform/blob/main/PROJECT_CHARTER.md">PROJECT_CHARTER.md</a> にまとめています。生の JSON や GitHub への直リンクは <a href="./verify.html">検証用データ・リポジトリ</a> からどうぞ。データの第三者利用・免責は <a href="./policy.html">ポリシー・利用条件</a> に記載しています。
   </p>
+  </main>
+
+  <footer>
+    <a href="./index.html">トップ</a>　／　<a href="./policy.html">ポリシー</a>　／　<a href="./verify.html">検証用データ</a>
+  </footer>
+
 </body>
 </html>

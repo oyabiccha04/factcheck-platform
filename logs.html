@@ -320,6 +320,20 @@
     if (hit) map[key].hit += 1;
   }
 
+  function hasClearExpectedWinner(pred, ver) {
+    if (!pred || pred.expected_winner == null) return false;
+    if (ver && ver.status === "excluded_from_stats") return false;
+    var ew = String(pred.expected_winner || "").trim();
+    if (!ew) return false;
+    if (ew.indexOf("不明") === 0) return false;
+    if (ew.indexOf("条件付き") === 0) return false;
+    if (ew.indexOf("明言なし") !== -1) return false;
+    if (ew.indexOf("断定なし") !== -1) return false;
+    if (ew.indexOf("互角") === 0 || ew.indexOf("五分") === 0) return false;
+    if (ew.indexOf("ドロー") === 0) return false;
+    return true;
+  }
+
   /** prediction.predictor_name が空のときは statement.speaker.name にフォールバック（予測者ページと整合） */
   function resolvePredictorNameForRanking(pred, stmt) {
     var pn = pred && pred.predictor_name != null ? String(pred.predictor_name).trim() : "";
@@ -346,7 +360,7 @@
           var pred = b && b.prediction ? b.prediction : null;
           var out = b && b.outcome ? b.outcome : null;
           if (!pred || !pred.exists) return;
-          if (!pred.expected_winner) return;
+          if (!hasClearExpectedWinner(pred, null)) return;
           if (!out || !out.winner) return; // 勝者未確定は集計しない
 
           var predictor = resolvePredictorNameForBoutRanking(pred);
@@ -363,13 +377,8 @@
         var pred = stmt && stmt.prediction ? stmt.prediction : null;
         var ver = stmt && stmt.verification ? stmt.verification : null;
         if (!pred || !pred.exists) return;
-        if (!pred.expected_winner) return;
+        if (!hasClearExpectedWinner(pred, ver)) return;
         if (!ver || !ver.winner) return; // 勝者未確定は集計しない
-
-        if (ver.status === "excluded_from_stats") return;
-        var ewTrim = String(pred.expected_winner).trim();
-        if (ewTrim.indexOf("条件付き") === 0) return;
-        if (ewTrim.indexOf("不明") === 0) return;
 
         var predictor = resolvePredictorNameForRanking(pred, stmt);
         if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
