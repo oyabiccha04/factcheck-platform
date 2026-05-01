@@ -52,44 +52,6 @@
     ],
     "statements": [
         {
-            "statement_id": "stmt-boxing-2026-05-02-001",
-            "statement_date": "2026-03-06",
-            "speaker": {
-                "name": "椎野大輝",
-                "role": "other",
-                "affiliation": "元OPBF東洋太平洋バンタム級王者 / ボクシング特化型パーソナルトレーナー"
-            },
-            "content": {
-                "raw_text": "井上選手の5、6ラウンドKO勝ち。何回もダウンして試合が終わるのは想像できないど、1回ぐらいダウンを取って井上選手が倒すんじゃないかと、なんとなく思います。リーチは中谷選手の方が長いど、フットワークのスピードが井上選手の方がある。ロングレンジのジャブとワンツーの戦いになると、僕は井上選手に分があるのかなと",
-                "normalized_text": "井上尚弥が5〜6ラウンドKO勝ちを予想。フットワークとスピードで井上が優位。"
-            },
-            "source": {
-                "type": "article",
-                "url": "https://www.tokyo-sports.co.jp/articles/-/379949",
-                "timestamp": "不明"
-            },
-            "prediction": {
-                "exists": true,
-                "predictor_name": "椎野大輝",
-                "source_url": "https://www.tokyo-sports.co.jp/articles/-/379949",
-                "source_ref": "statement_id=stmt-boxing-2026-05-02-001",
-                "source_note": "Gemini補助なし・直接確認（確認日：2026-03-21）。東スポWEB掲載（2026-03-06頃）。Tier B（元OPBF東洋太平洋バンタム級王者、ボクシングトレーナーYouTuber）。",
-                "expected_winner": "井上尚弥",
-                "expected_method": "KO",
-                "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "井上尚弥が5〜6ラウンドKO勝ち",
-                "deadline": "2026-05-02"
-            },
-            "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
-            }
-        },
-        {
             "statement_id": "stmt-boxing-2026-05-02-002",
             "statement_date": "2026-01-14",
             "speaker": {
@@ -1221,6 +1183,44 @@
                 "expected_method": "KO",
                 "target": "井上尚弥 vs 中谷潤人",
                 "expected_outcome": "井上尚弥が終盤KO勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-001",
+            "statement_date": "2026-03-06",
+            "speaker": {
+                "name": "椎野大輝",
+                "role": "other",
+                "affiliation": "元OPBF東洋太平洋バンタム級王者 / ボクシング特化型パーソナルトレーナー"
+            },
+            "content": {
+                "raw_text": "井上選手の5、6ラウンドKO勝ち。何回もダウンして試合が終わるのは想像できないど、1回ぐらいダウンを取って井上選手が倒すんじゃないかと、なんとなく思います。リーチは中谷選手の方が長いど、フットワークのスピードが井上選手の方がある。ロングレンジのジャブとワンツーの戦いになると、僕は井上選手に分があるのかなと",
+                "normalized_text": "井上尚弥が5〜6ラウンドKO勝ちを予想。フットワークとスピードで井上が優位。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.tokyo-sports.co.jp/articles/-/379949",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "椎野大輝",
+                "source_url": "https://www.tokyo-sports.co.jp/articles/-/379949",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-001",
+                "source_note": "Gemini補助なし・直接確認（確認日：2026-03-21）。東スポWEB掲載（2026-03-06頃）。Tier B（元OPBF東洋太平洋バンタム級王者、ボクシングトレーナーYouTuber）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が5〜6ラウンドKO勝ち",
                 "deadline": "2026-05-02"
             },
             "verification": {
