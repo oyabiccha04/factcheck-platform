@@ -449,7 +449,7 @@
 
       let fights = [];
       if (Array.isArray(data.fights) && data.fights.length > 0) {
-        fights = data.fights.map(function (f) {
+        fights = data.fights.map(function (f, idx) {
           return {
             bout_id: f.bout_id || f.fight_id || null,
             red: extractFighterName(f.red),
@@ -459,9 +459,11 @@
             method: f.method,
             prediction: f.prediction || null,
             rules: f.rules || null,
+            display_order: idx,
           };
         });
       } else if (Array.isArray(data.cards)) {
+        let displayOrder = 0;
         data.cards.forEach(function (card) {
           const bouts = card.bouts || [];
           bouts.forEach(function (b) {
@@ -477,6 +479,7 @@
               method: out.method,
               prediction: b.prediction || null,
               rules: b.rules || null,
+              display_order: displayOrder++,
             });
           });
         });
@@ -639,17 +642,8 @@
       fightsHeading.textContent = "試合一覧";
       fightsEl.appendChild(fightsHeading);
 
-      function fightDisplayRank(f) {
-        const id = String((f && f.bout_id) || "").toLowerCase();
-        if (id.includes("main")) return 1000000;
-        const m = id.match(/-(\d+)\s*$/);
-        if (m) return Number(m[1]) || 0;
-        if (id.includes("opening")) return -1;
-        return 0;
-      }
-
       const fightsSorted = (Array.isArray(data.fights) ? data.fights.slice() : []).sort(function (a, b) {
-        return fightDisplayRank(b) - fightDisplayRank(a);
+        return (a.display_order || 0) - (b.display_order || 0);
       });
 
       const remainingStatements = (Array.isArray(data.statements) ? data.statements.slice() : []);

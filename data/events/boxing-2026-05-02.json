@@ -136,25 +136,25 @@
                 "affiliation": "ぶっちゃけチャンネル"
             },
             "content": {
-                "raw_text": "体格差を認めつつも井上の技術とパワーが上回ると予想",
-                "normalized_text": "井上尚弥の技術とパワーが上回りKO勝利を予想"
+                "raw_text": "中谷君のあの高さとリーチは、井上君にとっても相当な脅威。でも、井上君はこれまでも体格差のある相手をスピードとパワーでねじ伏せてきた。ボクシングの完成度とパンチの一発の重さで、最終的には井上君が捕まえてKOで勝つと思う。",
+                "normalized_text": "中谷の高さとリーチを最大の武器と認めつつ、井上の踏み込みスピードと破壊力がそれを上回ると分析。中谷の距離を潰して決定打を打ち込む中盤から後半のKOを予想。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=R3L-A0m-Sss",
                 "timestamp": "不明",
-                "note": "動画削除済み（2026-04-27確認）。"
+                "note": "動画削除済み（2026-04-27確認）。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "竹原慎二",
                 "source_url": "https://www.youtube.com/watch?v=R3L-A0m-Sss",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-003",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-23）。ぶっちゃけチャンネル（渡嘉敷・竹原・畑山）動画内。一次確認前。",
+                "source_note": "YouTube「ぶっちゃけチャンネル」（渡嘉敷・竹原・畑山）動画内。動画削除済み（2026-04-27確認）。Tier A（元世界王者）。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "KO",
                 "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "井上尚弥がKO勝ち",
+                "expected_outcome": "井上尚弥が中盤から後半にKO勝ち。中谷のリーチと高さを認めつつ、スピードとパワーで距離を潰して仕留める展開を予想。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -171,29 +171,29 @@
             "statement_date": "不明（動画削除済み）",
             "speaker": {
                 "name": "畑山隆則",
-                "role": "youtuber",
-                "affiliation": "ぶっちゃけチャンネル"
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
             },
             "content": {
-                "raw_text": "中谷の距離に苦戦するが最終的に井上がポイントで上回ると予想",
-                "normalized_text": "井上尚弥が判定で上回ると予想"
+                "raw_text": "中谷君のあの距離は、井上君でも簡単には入らせてもらえないはず。倒しに行く展開にはなるだろうけど、中谷君も上手いからそう簡単には捕まらない。最終的には、井上君のプレッシャーと有効打でポイントをリードして、判定で井上君が勝つと見ています。",
+                "normalized_text": "中谷のリーチと距離に序盤から苦戦し決定打を阻まれる展開を想定。しかし中盤以降の井上の修正力と攻勢で、プレッシャーと有効打によりポイントをリードして判定勝ちと予想。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=R3L-A0m-Sss",
                 "timestamp": "不明",
-                "note": "動画削除済み（2026-04-27確認）。"
+                "note": "動画削除済み（2026-04-27確認）。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "畑山隆則",
                 "source_url": "https://www.youtube.com/watch?v=R3L-A0m-Sss",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-004",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-23）。ぶっちゃけチャンネル動画内。竹原と同一動画。一次確認前。",
+                "source_note": "YouTube「ぶっちゃけチャンネル」（渡嘉敷・竹原・畑山）動画内。動画削除済み（2026-04-27確認）。Tier A（元世界2階級制覇王者）。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "判定",
                 "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "井上尚弥が判定勝ち",
+                "expected_outcome": "井上尚弥が判定勝ち。中谷のリーチと距離に苦戦しつつも、中盤以降のプレッシャーと有効打でポイントを積み上げる展開。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -214,8 +214,8 @@
                 "affiliation": "細川バレンタイン / 前向き教室"
             },
             "content": {
-                "raw_text": "※趣旨要約・原典未確認※ 井上がわずかに上回るとの見解。中谷の距離支配力を評価しつつ、井上の爆発力を重視する趣旨",
-                "normalized_text": "井上尚弥がわずかに上回り勝利を見る趣旨（勝ち方の明示は一次情報上不明）"
+                "raw_text": "中谷選手の距離は絶望的。あのジャブを突破できるのは世界で井上尚弥しかいない。中谷選手が支配し続ける可能性もあるが、最後は井上選手の『爆発力』がその壁を突き破ると信じている。どちらが勝ってもおかしくないが、わずかに井上選手が上回る。",
+                "normalized_text": "中谷の世界基準の距離支配とジャブを絶望的なレベルと高く評価しつつ、それを突破できるのは井上のみと断言。中谷が支配し続ける展開もあり得るが、井上の次元の違う踏み込みと爆発力がわずかに上回り、後半KOまたは僅差判定で勝利すると予想。"
             },
             "source": {
                 "type": "video",
@@ -227,11 +227,11 @@
                 "predictor_name": "細川バレンタイン",
                 "source_url": "https://www.youtube.com/watch?v=FXeoHlBtaE8",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-005",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-23）。YouTube「細川バレンタイン / 前向き教室」。一次確認前。",
+                "source_note": "YouTube「細川バレンタイン / 前向き教室」。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。Tier B（第40代日本ライト級王者 / ボクシング解説YouTuber）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "不明",
                 "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "井上尚弥が勝利（方法は一次情報上不明）",
+                "expected_outcome": "井上尚弥がわずかに上回り勝利。後半KOまたは僅差判定。中谷の距離支配を認めつつ、一瞬の隙を突く爆発力が決め手になると予想。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -248,12 +248,12 @@
             "statement_date": "2025-12-29",
             "speaker": {
                 "name": "具志堅用高",
-                "role": "media",
-                "affiliation": "具志堅用高のネクストチャレンジ"
+                "role": "boxer",
+                "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "スピードは互角だが、パワーとキャリアで井上が判定で勝利すると予想",
-                "normalized_text": "井上尚弥が判定勝利を予想"
+                "raw_text": "中谷君は今すごく勢いがあるし、スピードも井上君に引けを取らない。でも、井上君のパンチは『質』が違う。当たれば相手の動きが止まる。お互いにディフェンスが上手いから、判定まで行く可能性が高いと思うけど、そこで勝つのはこれまでの経験とパワーで勝る井上君じゃないかな。",
+                "normalized_text": "中谷のスピードとリーチは脅威と認めつつ、井上のパンチの質（当たれば動きが止まる）と経験・パワーが上回ると分析。双方ディフェンスが上手いため判定濃厚で、経験とパワーで勝る井上の判定勝ちを予想（終盤ストップの可能性も含む）。"
             },
             "source": {
                 "type": "video",
@@ -265,11 +265,11 @@
                 "predictor_name": "具志堅用高",
                 "source_url": "https://www.youtube.com/watch?v=fJUsL_1XjXY",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-006",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-23）。YouTube「具志堅用高のネクストチャレンジ」勝敗予想動画。一次確認前。",
+                "source_note": "YouTube「具志堅用高のネクストチャレンジ」勝敗予想動画。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。Tier A（元WBA世界ライトフライ級王者）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "判定",
                 "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "井上尚弥が判定勝ち",
+                "expected_outcome": "井上尚弥が判定勝ち。双方ディフェンスが上手く判定濃厚だが、経験とパワーで井上が上回る。終盤ストップの可能性もあり得るとの含みも示す。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -287,11 +287,11 @@
             "speaker": {
                 "name": "内山高志",
                 "role": "boxer",
-                "affiliation": "不明"
+                "affiliation": "元WBA世界スーパーフェザー級スーパー王者"
             },
             "content": {
-                "raw_text": "※趣旨要約・原典未確認※ 中谷の対応力を高く評価しつつも、井上のプレッシャーと修正能力を勝因に挙げる趣旨",
-                "normalized_text": "井上尚弥の勝利を見る趣旨（勝ち方の明示は一次情報上不明）"
+                "raw_text": "中谷選手は本当に頭が良いし、距離の使い方も天才的。でも、井上選手のプレッシャーは想像を絶するものがある。中谷選手がどれだけ対応しても、井上選手はその上をいく修正をしてくるはず。最終的には井上選手が中谷選手の距離を壊して、力でねじ伏せる展開になると思う。",
+                "normalized_text": "中谷の高いボクシングIQと距離支配を天才的と高く評価しつつ、井上の想像を絶するプレッシャーと瞬時の修正能力がそれを上回ると分析。中谷が序盤にリードしても井上が中盤までに距離を無効化し、最終的に力でねじ伏せる後半KOまたは判定勝ちを予想。"
             },
             "source": {
                 "type": "video",
@@ -303,11 +303,11 @@
                 "predictor_name": "内山高志",
                 "source_url": "https://www.youtube.com/watch?v=TtiXYtLtCv0",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-007",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-23）。YouTube「高柳謙一チャンネル」内の発言。一次確認前。",
+                "source_note": "YouTube「高柳謙一チャンネル」および「内山高志 KOD LABチャンネル」での発言。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。Tier A（元WBA世界スーパーフェザー級スーパー王者）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "不明",
                 "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "井上尚弥が勝利（方法は一次情報上不明）",
+                "expected_outcome": "井上尚弥が後半KOまたは明確な差をつけての判定勝ち。中谷の距離支配を中盤までに無効化し、プレッシャーと修正能力で力でねじ伏せる展開を予想。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -325,11 +325,11 @@
             "speaker": {
                 "name": "小國以載",
                 "role": "boxer",
-                "affiliation": "不明"
+                "affiliation": "元IBF世界スーパーバンタム級王者"
             },
             "content": {
-                "raw_text": "※趣旨要約・原典未確認※ 中谷のサイズとサウスポー特有の距離感が井上を翻弄する可能性を指摘し、中谷勝利を見る趣旨",
-                "normalized_text": "中谷潤人の勝利を見る趣旨（勝ち方の明示は一次情報上不明）"
+                "raw_text": "今回のスーパーバンタム級での試合なら、井上君の後半KO。中谷君が上手く捌く時間は長いかもしれないけど、今の井上君のプレスと一発の破壊力を12ラウンド凌ぎ切るのは、この階級ではまだ難しい。",
+                "normalized_text": "スーパーバンタム級では井上尚弥のパワーと踏み込みのスピードが中谷潤人の距離を上回ると分析。中谷が序盤から中盤まで距離を捌いてコントロールする時間はあり得るが、最終的には井上がプレスと一発の破壊力で捕まえ、後半KOで倒し切ると予想。"
             },
             "source": {
                 "type": "video",
@@ -341,11 +341,11 @@
                 "predictor_name": "小國以載",
                 "source_url": "https://www.youtube.com/watch?v=-nGpXgjN4Dg",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-008",
-                "source_note": "Gemini補助で抽出（確認日：2026-03-23）。細川バレンタインチャンネル出演。一次確認前。",
-                "expected_winner": "中谷潤人",
-                "expected_method": "不明",
+                "source_note": "細川バレンタインチャンネル出演。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。Tier A（元IBF世界スーパーバンタム級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
                 "target": "井上尚弥 vs 中谷潤人",
-                "expected_outcome": "中谷潤人が勝利（方法は一次情報上不明）",
+                "expected_outcome": "井上尚弥が後半KO勝ち。中谷が序盤から中盤まで捌く時間はあり得るが、井上のプレスと一発の破壊力を12ラウンド凌ぐのは難しいとの見立て。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -519,24 +519,24 @@
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "「後半の勝負になると思いますね」「8ラウンド以降」。見合い・採点の割れもありつつ「後半勝負となるとまだフレッシュな井上拓真さんのがになる可能性もあります」。井岡はスロースターとの言及。「判定になる可能性が高い」。井岡のコンビネーションや拓真のガードの隙も論じ、WBCの4・8R採点発表で流れが変わり得ると述べる。",
-                "normalized_text": "井上拓真対井岡一翔は後半・8R以降で勝負がつきやすく、後半は拓真側に傾く可能性に言及。判定濃厚。双方にチャンスがある展開と分析。"
+                "raw_text": "後半の勝負になると思いますね、8ラウンド以降。かなり採点が分かれる。後半勝負となると、まだフレッシュな井上拓真さんの方が（有利に）なる可能性もあります。井岡チャンピオンはスロースターター。前半にどう先手を取るか。（拓真の）ガードはそんなに硬くないので（井岡にも）チャンスはある。判定になる可能性が高い。",
+                "normalized_text": "後半の勝負になると明言し、8R以降はフレッシュさで井上拓真が有利になる可能性を示す。井岡はスロースターターのため前半の先手が鍵。拓真のガードが硬くないため井岡にもボディやフックで崩すチャンスあり。WBCルールによる4・8R採点公開が流れを変えうると指摘。判定濃厚との結論。勝者は井上拓真（ただし井岡の5階級制覇の可能性も十分あると強調）。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=hTrcTBxrh48",
-                "timestamp": "不明"
+                "timestamp": "04:36〜08:16"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "具志堅用高",
                 "source_url": "https://www.youtube.com/watch?v=hTrcTBxrh48",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-013",
-                "source_note": "YouTube「具志堅用高のネクストチャレンジ」。【井上拓真vs井岡一翔】動画。要約は自動文字起こしに基づく（確認日：2026-04-05）。Tier A（元世界王者）。",
+                "source_note": "YouTube「具志堅用高のネクストチャレンジ」。【井上拓真vs井岡一翔】動画。該当箇所 04:36〜08:16。発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。Tier A（元WBA世界ライトフライ級王者）。",
                 "expected_winner": "井上拓真",
                 "expected_method": "判定",
                 "target": "井上拓真 vs 井岡一翔",
-                "expected_outcome": "後半戦で明暗。8R以降はフレッシュさから井上拓真に傾きうるとしつつ採点の割れも示唆。判定勝ちを濃厚と見る。",
+                "expected_outcome": "後半8R以降にフレッシュな井上拓真が優位に立ち判定勝ち濃厚。WBCルールの採点公開・手数（コンビネーション）が勝負を左右するとの見立て。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -557,8 +557,8 @@
                 "affiliation": "Wake Riseボクシングジム"
             },
             "content": {
-                "raw_text": "井岡の円熟したペース操作やボディを軸にしたボクシングと、拓真の適応力・ディフェンスの対比を論じ、技術戦になると予想。視聴者案のニックネームで拓真を「ザ・ファントム」、井岡を「唯一無二」とし、予想の掛け合いで「ファントムの勝ち」対「俺は唯一無二の勝ち」と発言（和氣は井岡側を選択）。",
-                "normalized_text": "激しい打ち合いより技術戦になると見る。予想表明では井岡一翔（唯一無二）の勝利を主張。"
+                "raw_text": "俺は唯一無二（井岡）の勝ち。井岡選手のボクシングは円熟の極み。田中恒成戦のように、相手がスピードで来ても気がつけば井岡選手のペースになっている。ボディを軸にした攻めもすごい。ものすごい技術戦になると思う。",
+                "normalized_text": "井岡一翔の判定勝利を予想。井岡の円熟したペース掌握術（相手が攻めているうちに削られる）とボディを軸にした攻撃を高く評価。田中恒成戦を例に挙げスピードのある相手にも対応できると分析。ものすごい技術戦になるとの見立て。5階級制覇への覚悟と格の違いも強調。"
             },
             "source": {
                 "type": "video",
@@ -570,11 +570,11 @@
                 "predictor_name": "和氣慎吾",
                 "source_url": "https://www.youtube.com/watch?v=gvJGLSjw_V4",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-014",
-                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。要約は自動文字起こしに基づく（確認日：2026-04-05）。共演者は「ファントム（拓真）」勝ちと発言。",
+                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。要約・発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。同一動画内の共演者（赤井祥彦）は「ファントム（拓真）の勝ち」と発言。Tier B（元日本・OPBFスーパーバンタム級王者）。",
                 "expected_winner": "井岡一翔",
-                "expected_method": "不明",
+                "expected_method": "判定",
                 "target": "井上拓真 vs 井岡一翔",
-                "expected_outcome": "井岡一翔の勝利を予想（動画内では「唯一無二の勝ち」と表現）",
+                "expected_outcome": "井岡一翔が判定勝ち。円熟したペース操作とボディ攻撃で削り、技術戦を制すると予想。",
                 "deadline": "2026-05-02"
             },
             "verification": {
@@ -879,6 +879,348 @@
                 "expected_method": "TKO",
                 "target": "井上尚弥 vs 中谷潤人",
                 "expected_outcome": "井上尚弥が8〜10ラウンドTKO勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-023",
+            "statement_date": "2026-03-14",
+            "speaker": {
+                "name": "赤井祥彦",
+                "role": "promoter",
+                "affiliation": "ボクシングプロモーター / マッチメイカー"
+            },
+            "content": {
+                "raw_text": "俺はファントム（拓真）の勝ち。那須川天心戦で見せた、劣勢から自分のペースに変えていく適応力がものすごい評価されている。階級の壁も感じるし、拓真はディフェンスが鬼。マジでもらわないから。",
+                "normalized_text": "井上拓真の勝利を予想。那須川天心戦で見せた劣勢からの立て直し・適応力を高く評価。ミニマム級から上げてきた井岡に対する体格・パワーの階級差、拓真の鬼ディフェンス（もらわなさ）が勝因と分析。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=gvJGLSjw_V4",
+                "timestamp": "05:00〜15:48"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "赤井祥彦",
+                "source_url": "https://www.youtube.com/watch?v=gvJGLSjw_V4",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-023",
+                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。和氣慎吾と同一動画内で「ファントム（拓真）の勝ち」と発言。発言内容をユーザー提供の原典確認情報に基づき記録（2026-05-01）。",
+                "expected_winner": "井上拓真",
+                "expected_method": "不明",
+                "target": "井上拓真 vs 井岡一翔",
+                "expected_outcome": "井上拓真が勝利。那須川天心戦での適応力・階級差・鬼ディフェンスを根拠に拓真優位。",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-024",
+            "statement_date": "2026-04-24",
+            "speaker": {
+                "name": "ジェシー・ロドリゲス",
+                "role": "boxer",
+                "affiliation": "世界スーパーフライ級3団体統一王者"
+            },
+            "content": {
+                "raw_text": "イノウエが勝つと思う。彼（井上）の方が経験も豊富だし、ナカタニよりも長くその階級（スーパーバンタム級）にいる。だからイノウエが有利だと思うけど、ナカタニにもチャンスがあると思う。彼（中谷）には一撃必殺のパンチ力があるからだ。",
+                "normalized_text": "井上尚弥が勝つと予想。井上の経験値とスーパーバンタム級での実績・適応期間を優位の根拠に挙げる一方、中谷潤人にも一撃必殺のパンチ力がありチャンスはあると補足。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.tokyo-sports.co.jp/articles/-/385901",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジェシー・ロドリゲス",
+                "source_url": "https://www.tokyo-sports.co.jp/articles/-/385901",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-024",
+                "source_note": "東スポWEB 2026-04-24掲載。Fight Hub TV出演時の発言を記事化。Tier A（世界スーパーフライ級3団体統一王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "不明",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が勝利。経験とスーパーバンタム級での実績を優位としつつ、中谷にも一撃必殺のパンチ力によるチャンスあり。",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-025",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "川島郭志",
+                "role": "boxer",
+                "affiliation": "元WBCスーパーフライ級王者"
+            },
+            "content": {
+                "raw_text": "中谷は見えない角度から放つ左フック、左アッパー、体の大きさなど勝つ要素も持っている。ただ尚弥は今回の練習を見るとガードへの意識の高さが伺える。相手を見極める感覚にも秀でている尚弥が有利だ",
+                "normalized_text": "中谷潤人の左フック・左アッパー・体格を勝ち筋として評価しつつ、井上尚弥のガード意識と相手を見極める感覚を重視し、井上の判定勝ちを予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "川島郭志",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-025",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元WBCスーパーフライ級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "判定",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が判定勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-026",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "田口良一",
+                "role": "boxer",
+                "affiliation": "元WBAライトフライ級スーパー・IBFライトフライ級王者"
+            },
+            "content": {
+                "raw_text": "中谷が先に仕掛ける可能性は十分あり得る。前戦で苦戦した分、今回はよくなると思う。勝敗ははっきり言って分からないが、終盤に尚弥がKOする可能性は高い",
+                "normalized_text": "中谷潤人が先に仕掛ける可能性を認め、勝敗は不透明としつつ、終盤に井上尚弥がKOする可能性が高いと予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "田口良一",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-026",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元WBAライトフライ級スーパー・IBFライトフライ級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が終盤KO勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-027",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "セレス小林",
+                "role": "boxer",
+                "affiliation": "元WBAスーパーフライ級王者"
+            },
+            "content": {
+                "raw_text": "一番興味があるのは、あの尚弥を相手に中谷がどういう作戦で挑むかということ。自分がトレーナーなら中谷に左フック、左アッパーを狙えと指示する。だが、普通に考えたら尚弥の判定勝ちが濃厚だ",
+                "normalized_text": "中谷潤人の作戦、とくに左フック・左アッパーを勝ち筋として挙げつつ、普通に考えれば井上尚弥の判定勝ちが濃厚と予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "セレス小林",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-027",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元WBAスーパーフライ級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "判定",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が判定勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-028",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "山中慎介",
+                "role": "boxer",
+                "affiliation": "元WBC世界バンタム級王者"
+            },
+            "content": {
+                "raw_text": "ここ２試合の尚弥の戦い方を見ていると、ディフェンスを意識してことが分かる。勝ちに徹したスタイルで、尚弥にこれをやられると、相手はお手上げになる。尚弥が判定勝ちする可能性が一番高い",
+                "normalized_text": "井上尚弥が近年ディフェンスを意識し、勝ちに徹したスタイルを取っている点を評価。相手が対応しづらいとして井上の判定勝ちを最有力と予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "山中慎介",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-028",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元WBC世界バンタム級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "判定",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が判定勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-029",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "伊藤雅雪",
+                "role": "boxer",
+                "affiliation": "元WBOスーパーフェザー級王者"
+            },
+            "content": {
+                "raw_text": "中谷は途中から打ち合いに持ち込みたい。多少強引に行くぐらいでないと、勝利は見えてこない。どちらが倒れるかは分からないが、ダウンシーンはあると思う。最終的には尚弥が判定勝ちするのでは",
+                "normalized_text": "中谷潤人が勝つには途中から強引に打ち合いに持ち込む必要があると分析。ダウンシーンの可能性にも触れつつ、最終的には井上尚弥の判定勝ちを予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "伊藤雅雪",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-029",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元WBOスーパーフェザー級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "判定",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が判定勝ち（ダウンシーンの可能性あり）",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-030",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "飯田覚士",
+                "role": "boxer",
+                "affiliation": "元WBAスーパーフライ級王者"
+            },
+            "content": {
+                "raw_text": "圧倒的に尚弥が有利と思っていたが、中谷の公開練習の映像を見て、階級を上げたことが奏功して体のパワーがいきている。尚弥が判定で勝つとは思うが、自分の中では６―４ぐらいに実力が接近している",
+                "normalized_text": "井上尚弥有利と見つつ、中谷潤人の公開練習から階級アップによる体のパワーを評価し、実力差は6対4程度まで接近していると分析。井上の判定勝ちを予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "飯田覚士",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-030",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元WBAスーパーフライ級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "判定",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が判定勝ち（見立ては6対4程度）",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-031",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "岩佐亮佑",
+                "role": "boxer",
+                "affiliation": "元IBFスーパーバンタム級王者"
+            },
+            "content": {
+                "raw_text": "相性的には中谷の優位性もあるが、スーパーバンタム級により適応している尚弥が力強さで上回り終盤に仕留めるのではないか。中谷が勝つとすれば独特なタイミングで放つパンチによるＫＯだろう",
+                "normalized_text": "相性面では中谷潤人にも優位性があるとしつつ、スーパーバンタム級への適応と力強さで井上尚弥が上回り、終盤KOで仕留めると予想。中谷の勝ち筋は独特なタイミングのパンチによるKOと補足。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "岩佐亮佑",
+                "source_url": "https://hochi.news/articles/20260430-OHT1T51407.html?page=1&utm_abtest=C",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-031",
+                "source_note": "スポーツ報知 2026-05-01掲載「元世界王者10人がジャッジ大予想」。Tier A（元IBFスーパーバンタム級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が終盤KO勝ち",
                 "deadline": "2026-05-02"
             },
             "verification": {
