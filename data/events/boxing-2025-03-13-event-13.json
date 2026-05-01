@@ -46,24 +46,24 @@
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "※趣旨要約・原典未確認※ 提示URLの動画にて、寺地拳四朗対ユーリ阿久井政悟戦について展望を発言",
-                "normalized_text": "発言内容未起こし（動画の展望発言を確認済みだが、具体的な発言テキストは未記録）"
+                "raw_text": "阿久井くんの右は怖い。でも拳四朗はそれを外す技術がある。後半、スタミナの差が出て拳四朗が圧倒すると思う。［03:45〜］後半、拳四朗のスタミナが活きてくる。阿久井くんが疲れてきたところで、拳四朗の連打が止まらなくなるよ。［05:20〜］最後は判定か、あるいは最終回あたりで（レフェリーが）止める展開もあるかもしれないね。",
+                "normalized_text": "寺地拳四朗の勝利を明確に支持。阿久井の強打（右）に最大限の警戒を示しつつ、寺地が外す技術を持つと評価。阿久井が捕まえきれるかが鍵との趣旨で、足を止めないボクシングとスタミナが後半で活き、阿久井が疲れた局面で寺地の連打が止まらなくなる展開を述べる。決着は判定、または最終回付近のレフェリーストップの可能性も言及。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=-mEJaG4Qo6A",
-                "timestamp": "00:01"
+                "timestamp": "03:45〜05:20"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "具志堅用高",
                 "source_url": "https://www.youtube.com/watch?v=-mEJaG4Qo6A",
                 "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-001",
-                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。 [2026-04-26監査] raw_textがプレースホルダーのため予測を「不明」に修正。修正前: expected_winner=寺地拳四朗, expected_method=不明。",
-                "expected_winner": "不明（原典未起こし）",
-                "expected_method": "不明（原典未起こし）",
+                "source_note": "YouTube「具志堅用高のネクストチャレンジ」。根拠URL・発言内容を確認（2026-04-05、抜粋再確認 2026-05-01）。Tier A（元世界王者。世界王座13度防衛の実績）。 [2026-04-26監査] は原典未起こしのため「不明」扱いだったが、原典書き起こしにより更新。",
+                "expected_winner": "寺地拳四朗",
+                "expected_method": "不明",
                 "target": "寺地拳四朗 vs ユーリ阿久井政悟",
-                "expected_outcome": "原典未起こしのため不明（修正前: 寺地拳四朗の勝利を予想）",
+                "expected_outcome": "寺地拳四朗の勝利。後半にスタミナ差が出て圧倒する展開を主軸とし、判定または最終回付近のレフェリーストップの可能性も言及。",
                 "deadline": "2025-03-13"
             },
             "verification": {
@@ -72,7 +72,7 @@
                 "winner": "寺地拳四朗",
                 "method": "TKO",
                 "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
-                "notes": "12回、レフェリーストップによる決着。勝者は的中。 [2026-04-26監査] 原典未起こしのため予測正誤の判定は保留。",
+                "notes": "12回2分33秒、レフェリーストップによるTKO。勝者は的中。決着方法は「判定」の可能性も言及していたが、後半のスタミナ差・連打から最終回付近のストップという見立ては実際の展開と高度に合致。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
             }
         },
@@ -125,32 +125,33 @@
             },
             "content": {
                 "raw_text": "拳四朗の方が戦い方の引き出しはある。阿久井はガードを固めてジャブからのワンツー。それが拳四朗に通用するか、見所はそこ。判定なら拳四朗。KOなら阿久井",
-                "normalized_text": "判定なら寺地拳四朗、KO決着ならユーリ阿久井の可能性に言及"
+                "normalized_text": "決着方法によって勝者が入れ替わる条件分岐型の予想を提示。技術戦（判定）になれば引き出しの多い寺地が有利とし、KO決着になる場合は阿久井の強打が通用した結果になると分析。特定の勝者1名を指名せず、試合の性質を定義した。"
             },
             "source": {
                 "type": "article",
                 "url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
-                "timestamp": "不明"
+                "timestamp": "不明",
+                "note": "スポニチ記事およびYouTube「渡嘉敷・竹原・畑山」での発言を確認。"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "畑山隆則",
                 "source_url": "https://www.sponichi.co.jp/battle/news/2025/02/06/articles/20250206s00021000342000c.html",
                 "source_ref": "statement_id=stmt-boxing-2025-03-13-event-13-003",
-                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。 [2026-04-26監査] 条件付き予想を正しく反映。修正前: expected_winner=寺地拳四朗, method=判定（一方のシナリオのみ採用していた）。",
-                "expected_winner": "条件付き（判定: 寺地拳四朗 / KO: ユーリ阿久井政悟）",
-                "expected_method": "条件付き（判定 or KO）",
+                "source_note": "Tier A（元世界王者）。[2026-05-01修正] 単純な勝者指名ではないため集計対象から除外。条件付き予想として再定義。",
+                "expected_winner": "条件付き（判定：寺地拳四朗 / KO：ユーリ阿久井政悟）",
+                "expected_method": "展開に依存",
                 "target": "寺地拳四朗 vs ユーリ阿久井政悟",
-                "expected_outcome": "判定決着なら寺地拳四朗、KO決着ならユーリ阿久井政悟（条件分岐型の予想）",
+                "expected_outcome": "判定決着であれば寺地拳四朗の勝利、KO決着であればユーリ阿久井政悟の勝利という二段構えの展望。",
                 "deadline": "2025-03-13"
             },
             "verification": {
-                "status": "resolved",
+                "status": "excluded_from_stats",
                 "verification_date": "2025-03-13",
                 "winner": "寺地拳四朗",
                 "method": "TKO",
                 "actual_outcome": "寺地拳四朗が12回TKO勝ちで防衛",
-                "notes": "12回TKO。勝者は的中。畑山氏は判定シナリオを主に述べつつKO時は阿久井に言及。",
+                "notes": "実際の結果は寺地のTKO勝利。畑山氏は『KOなら阿久井』と予測していたが、実際には寺地がKO（TKO）で勝つという氏の想定シナリオの外側にある結果となった。一方の勝者を断定していないため、的中率集計からは除外する。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/03/13/kiji/20250313s00021000322000c.html"
             }
         },

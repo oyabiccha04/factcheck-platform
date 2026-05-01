@@ -202,24 +202,24 @@
                 "affiliation": "元世界2階級制覇王者"
             },
             "content": {
-                "raw_text": "寺地の判定勝ち。 [2026-04-26監査: stmt-003（渡嘉敷勝男）と同一テキスト。同一動画内の別人物なので、発言内容の個別書き起こしを推奨]",
-                "normalized_text": "寺地拳四朗の判定勝利予想。"
+                "raw_text": "ボクシング技術は本当にケンシロウの方が全然上手い。判定でもKOでもケンシロウ君が有利かな。",
+                "normalized_text": "技術的には寺地が上手い旨にも触れた上で、寺地のボクシング技術が京口より上で判定でもKOでも寺地有利と述べる。足とテクニックに徹し相手を疲らせれば判定で勝てる展開も示唆（渡嘉敷の判定見立てに同意しつつ技術差を強調）。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=CTgGJdh312c",
-                "timestamp": "12:30"
+                "timestamp": "06:36〜06:55"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "畑山隆則",
                 "source_url": "https://www.youtube.com/watch?v=CTgGJdh312c",
                 "source_ref": "statement_id=stmt-boxing-2022-11-01-event-01-005",
-                "source_note": "Tier A：元世界王者。",
+                "source_note": "Tier A：元世界王者。同一動画（渡嘉敷・竹原と同席）を原典とし、畑山氏の発言を個別書き起こしで反映。",
                 "expected_winner": "寺地拳四朗",
                 "expected_method": "判定",
                 "target": "寺地拳四朗 vs 京口紘人",
-                "expected_outcome": "寺地拳四朗が判定勝利。",
+                "expected_outcome": "寺地拳四朗が判定勝利。本線としての判定に加え、KOでも寺地有利との発言あり。",
                 "deadline": "2022-11-01"
             },
             "verification": {
@@ -228,7 +228,7 @@
                 "winner": "寺地拳四朗",
                 "method": "TKO",
                 "actual_outcome": "寺地拳四朗が7回TKO勝ち",
-                "notes": "寺地拳四朗が7回TKO勝利。予想は判定。",
+                "notes": "寺地拳四朗が7回TKO勝利。データ上の決着方法の予想は判定（発言ではKOでも寺地有利とも述べる）。",
                 "source_note": "根拠URL: https://www.nikkansports.com/battle/news/202211010001083.html"
             }
         },

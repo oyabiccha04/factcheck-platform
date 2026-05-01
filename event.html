@@ -591,11 +591,13 @@
         if (stmt.verification) {
           var verBox = document.createElement("div");
           verBox.className = "verification-box";
-          var statusLabel = stmt.verification.status === "resolved" ? "検証済み" : stmt.verification.status === "pending" ? "未検証" : "要確認";
+          var statusLabel = stmt.verification.status === "resolved" ? "検証済み" : stmt.verification.status === "pending" ? "未検証" : stmt.verification.status === "excluded_from_stats" ? "検証済み（的中率集計除外）" : "要確認";
           var matchBadge = "";
           if (stmt.prediction && stmt.prediction.exists && stmt.verification.winner) {
             var ew = String(stmt.prediction.expected_winner || "").trim();
-            var isUnknownWinner = !ew || ew.toLowerCase() === "不明";
+            var isStatExcluded = stmt.verification.status === "excluded_from_stats";
+            var isConditionalWinner = ew.indexOf("条件付き") === 0;
+            var isUnknownWinner = !ew || ew.toLowerCase() === "不明" || ew.indexOf("不明") === 0 || isStatExcluded || isConditionalWinner;
             if (isUnknownWinner) {
               matchBadge = "<div class=\"match-row\" style=\"margin-top:6px;\"><span class=\"match-badge match-badge--unknown\">勝者予測: 集計対象外</span></div>";
             } else {

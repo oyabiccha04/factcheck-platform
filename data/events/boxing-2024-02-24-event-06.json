@@ -125,7 +125,7 @@
                                        },
                            "content":  {
                                            "raw_text":  "中谷が判定で勝つ。サンティアゴは打たれ強いから、倒しきるのは難しいかも。",
-                                           "normalized_text":  "中谷潤人が判定勝利と予想"
+                                           "normalized_text":  "中谷潤人の技術優位を認めつつ、試合を支配してポイントを積み上げるフルラウンド寄りの攻防で判定勝ちを本線に予想。サンティアゴの打たれ強さを重視し、倒しきりは難しいとの見立て。"
                                        },
                            "source":  {
                                           "type":  "video",
@@ -137,11 +137,11 @@
                                               "predictor_name":  "畑山隆則",
                                               "source_url":  "https://www.youtube.com/watch?v=LliR5s6Ch_o",
                                               "source_ref":  "statement_id=stmt-boxing-2024-02-24-event-06-007",
-                                              "source_note":  "YouTube Data API v3（scripts/boxing_youtube_prediction_scan.py）。チャンネル: 渡嘉敷・竹原・畑山。先頭候補: Vol.386（中谷勝敗予想を含む）。ヒットした検索語の例: アレハンドロ・サンティアゴ 中谷潤人 試合予想。Tier A（元世界王者）。確認日: 2026-04-04。",
+                                              "source_note":  "YouTube Data API v3（scripts/boxing_youtube_prediction_scan.py）。チャンネル: 渡嘉敷・竹原・畑山。先頭候補: Vol.386（中谷勝敗予想を含む）。ヒットした検索語の例: アレハンドロ・サンティアゴ 中谷潤人 試合予想。Tier A（元世界王者）。確認日: 2026-04-04。raw_text は Vol.386 内の畑山発言として 2026-05-01 に再確認。",
                                               "expected_winner":  "中谷潤人",
                                               "expected_method":  "判定",
                                               "target":  "アレハンドロ・サンティアゴ vs 中谷潤人",
-                                              "expected_outcome":  "中谷潤人が判定勝ち",
+                                              "expected_outcome":  "中谷潤人が判定勝ち（サンティアゴの耐久を踏まえた長期戦・ポイント奪取を想定）。",
                                               "deadline":  "2024-02-24"
                                           },
                            "verification":  {
@@ -150,7 +150,7 @@
                                                 "winner":  "中谷潤人",
                                                 "method":  "TKO",
                                                 "actual_outcome":  "中谷潤人が6回TKO勝ちで3階級制覇",
-                                                "notes":  "6回TKO。",
+                                                "notes":  "勝者は的中。決着方法は判定予想に対し6回TKOで不的中。サンティアゴの打たれ強さから倒しきりは難しいとの見立てだったが、中谷の強打が想定を上回った。",
                                                 "source_note":  "試合結果の根拠（スポニチ・アレハンドロ・サンティアゴvs中谷潤人）: https://www.sponichi.co.jp/battle/news/2024/02/24/kiji/20240224s00021000475000c.html"
                                             }
                        },

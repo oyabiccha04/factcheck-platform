@@ -85,8 +85,11 @@
   }
 
   function normText(s) { return String(s || "").trim().toLowerCase(); }
-  function isUnknownWinner(ew) { var t = String(ew || "").trim(); return !t || t === "不明"; }
-  function hitLabel(ew, actualWinner) {
+  function isUnknownWinner(ew) { var t = String(ew || "").trim(); return !t || t === "不明" || t.indexOf("不明") === 0; }
+  function hitLabel(ew, actualWinner, ver) {
+    if (ver && ver.status === "excluded_from_stats") return { text: "集計対象外", cls: "badge-unknown" };
+    var ewTrim = String(ew || "").trim();
+    if (ewTrim.indexOf("条件付き") === 0) return { text: "集計対象外", cls: "badge-unknown" };
     if (isUnknownWinner(ew)) return { text: "集計対象外", cls: "badge-unknown" };
     if (!actualWinner) return { text: "−", cls: "badge-unknown" };
     var ok = normText(ew) === normText(actualWinner);
@@ -122,7 +125,7 @@
         if (!nameMatches(pName, queryName)) return;
         var ver = stmt && stmt.verification;
         var actualWinner = ver && ver.winner ? String(ver.winner).trim() : "";
-        var hl = hitLabel(pred.expected_winner, actualWinner);
+        var hl = hitLabel(pred.expected_winner, actualWinner, ver);
         var content = (stmt.content && (stmt.content.raw_text || stmt.content.normalized_text)) ? (stmt.content.raw_text || stmt.content.normalized_text) : "";
         rows.push({
           type: "statement",
@@ -146,7 +149,7 @@
           if (!nameMatches(pName, queryName)) return;
           var out = b && b.outcome;
           var actualWinner = out && out.winner ? String(out.winner).trim() : "";
-          var hl = hitLabel(pred.expected_winner, actualWinner);
+          var hl = hitLabel(pred.expected_winner, actualWinner, null);
           var red = b.red ? (typeof b.red === "object" ? String(b.red.name || "") : String(b.red)) : "";
           var blue = b.blue ? (typeof b.blue === "object" ? String(b.blue.name || "") : String(b.blue)) : "";
           rows.push({

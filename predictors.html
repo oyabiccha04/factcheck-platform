@@ -470,6 +470,10 @@
         if (!pred || !pred.exists) return;
         if (!pred.expected_winner) return;
         if (!ver || !ver.winner) return;
+        if (ver.status === "excluded_from_stats") return;
+        var ewTrim = String(pred.expected_winner).trim();
+        if (ewTrim.indexOf("条件付き") === 0) return;
+        if (ewTrim.indexOf("不明") === 0) return;
         var predictor = resolvePredictorNameForRanking(pred, stmt);
         if (!predictor || EXCLUDED_RANK_PREDICTOR_NAMES[predictor]) return;
         addCount(counts, predictor, normalizeText(pred.expected_winner) === normalizeText(ver.winner));

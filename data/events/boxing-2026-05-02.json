@@ -737,6 +737,158 @@
                 "actual_outcome": null,
                 "notes": "試合未開催（2026-05-02予定）"
             }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-019",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "赤井英五郎",
+                "role": "boxer",
+                "affiliation": "プロボクサー"
+            },
+            "content": {
+                "raw_text": "井上選手はこういう大舞台や注目される試合に慣れている。プレッシャーに強いのが井上選手。",
+                "normalized_text": "井上尚弥が大舞台での経験値とプレッシャー耐性の差を活かして勝利すると予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=2H4B_FlR38s",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "赤井英五郎",
+                "source_url": "https://www.youtube.com/watch?v=2H4B_FlR38s",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-019",
+                "source_note": "Gemini補助で抽出（確認日：2026-05-01）。【公式】ds ボクシング動画内。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "不明",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が勝利",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-020",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "森岡智",
+                "role": "trainer",
+                "affiliation": "森岡ボクシングジム会長"
+            },
+            "content": {
+                "raw_text": "中谷選手が逃げたら判定まで行くが、彼は判定を狙うタイプではない。打ち合いになれば井上がKOする。",
+                "normalized_text": "中谷潤人が真っ向から打ち合いに応じるため、最終的に井上尚弥がKOで仕留めると予想。中谷が逃げれば判定もあり得るが、判定狙いではないとの見立て。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=2H4B_FlR38s",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "森岡智",
+                "source_url": "https://www.youtube.com/watch?v=2H4B_FlR38s",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-020",
+                "source_note": "Gemini補助で抽出（確認日：2026-05-01）。【公式】ds ボクシング動画内。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "KO",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥がKO勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-021",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "石井一成",
+                "role": "fighter",
+                "affiliation": "ムエタイ世界王者"
+            },
+            "content": {
+                "raw_text": "判定なら中谷選手。倒れるとしたら井上選手か。中谷の一発でグラつかせるのはありそう。",
+                "normalized_text": "中谷潤人が距離を支配すれば判定勝ち、井上尚弥が仕留めればKO勝ちという条件分岐型の予想。中谷の一発で井上をぐらつかせる可能性にも言及。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=2H4B_FlR38s",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "石井一成",
+                "source_url": "https://www.youtube.com/watch?v=2H4B_FlR38s",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-021",
+                "source_note": "Gemini補助で抽出（確認日：2026-05-01）。【公式】ds ボクシング動画内。",
+                "expected_winner": "条件付き（判定: 中谷潤人 / KO: 井上尚弥）",
+                "expected_method": "条件付き（判定 or KO）",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "判定なら中谷潤人、KOなら井上尚弥",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-022",
+            "statement_date": "2026-05-01",
+            "speaker": {
+                "name": "亀田大毅",
+                "role": "boxer",
+                "affiliation": "元世界2階級制覇王者"
+            },
+            "content": {
+                "raw_text": "1、2ラウンドで一気に井上選手が主導権を握る。そこからポイントを蓄積させ、8ラウンドから10ラウンドでストップ（TKO）になる。",
+                "normalized_text": "井上尚弥が序盤1〜2ラウンドでペースを掌握し、ポイントを蓄積した後、後半8〜10ラウンドにTKOで勝利すると予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=aFLrEz03mFk",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "亀田大毅",
+                "source_url": "https://www.youtube.com/watch?v=aFLrEz03mFk",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-022",
+                "source_note": "Gemini補助で抽出（確認日：2026-05-01）。亀田大毅公式チャンネル動画内。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "TKO",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が8〜10ラウンドTKO勝ち",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": null,
+                "notes": "試合未開催（2026-05-02予定）"
+            }
         }
     ],
     "content_policy": {

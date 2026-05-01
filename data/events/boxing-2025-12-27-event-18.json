@@ -199,27 +199,27 @@
             "speaker": {
                 "name": "畑山隆則",
                 "role": "boxer",
-                "affiliation": "渡嘉敷勝男&竹原慎二&畑山隆則 公式ぶっちゃけチャンネル"
+                "affiliation": "元世界2階級制覇王者"
             },
             "content": {
-                "raw_text": "※趣旨要約・原典未確認※ ピカソのアウトボクシングや体格を認めつつ、井上のスピードとパワーが最終的に上回りKO勝ちになると見る趣旨",
-                "normalized_text": "井上尚弥のKO勝利を予想"
+                "raw_text": "僕はKOで井上。ただ、ピカソは（身長が）高いしアウトボクシングもできるから、序盤は少し手間取るかもしれない。でも、結局は井上君のスピードとパワーがそれを上回る。中盤から後半、8ラウンドから10ラウンドくらいで捕まえるんじゃないかな。",
+                "normalized_text": "井上尚弥が中盤から後半にかけてKO勝利すると予想。ピカソの身長・体格とアウトボクシングによる序盤のやりづらさを認めつつ、最終的には井上のスピードとパワーが上回り、8〜10ラウンド頃に捕まえるとの見立て。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=VWPBoAY3tKM",
-                "timestamp": "不明"
+                "timestamp": "18:45"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "畑山隆則",
                 "source_url": "https://www.youtube.com/watch?v=VWPBoAY3tKM",
                 "source_ref": "statement_id=stmt-boxing-2025-12-27-event-18-006",
-                "source_note": "ユーザー提供要約を反映。一次根拠は試合日ライブ動画（004・005と同一）。チャンネルページ https://www.youtube.com/@ぶっちゃけチャンネル は動画特定には不十分。番組内アンケートでKO決着が多数との情報は原典確認推奨。畑山パートのタイムスタンプは要確認。",
+                "source_note": "2025-12-24配信。YouTube「渡嘉敷勝男＆竹原慎二＆畑山隆則 ぶっちゃけチャンネル」。番組内18:45付近より発言。Tier A（元世界2階級制覇王者）。発言抜粋をユーザー提供情報に基づき反映（2026-05-01）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "KO",
                 "target": "井上尚弥 vs アラン・デビッド・ピカソ",
-                "expected_outcome": "井上尚弥がKO勝ち",
+                "expected_outcome": "井上尚弥が中盤〜後半（8〜10ラウンド頃）にKO勝ち",
                 "deadline": "2025-12-27"
             },
             "verification": {
@@ -228,7 +228,7 @@
                 "winner": "井上尚弥",
                 "method": "判定",
                 "actual_outcome": "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
-                "notes": "KOを予想したが12回判定決着。",
+                "notes": "勝者は的中。決着方法は中盤〜後半（8〜10ラウンド頃）のKO予想に対し、実際は12回判定で不的中。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
             }
         },
@@ -238,11 +238,11 @@
             "speaker": {
                 "name": "細川バレンタイン",
                 "role": "youtuber",
-                "affiliation": "細川バレンタイン / 前向き教室"
+                "affiliation": "第40代日本スーパーライト級王者"
             },
             "content": {
-                "raw_text": "※趣旨要約・原典未確認※ ピカソの踏み込みの癖を踏まえ、井上が距離にアジャストした後、中盤以降にカウンターで仕留めると見る趣旨",
-                "normalized_text": "井上尚弥が距離にアジャストした後、中盤以降にカウンターで仕留めると見る趣旨（具体ラウンドの言及なし）"
+                "raw_text": "ピカソは懐が深いしリズムが独特。でも尚弥選手はそのリズムを3、4ラウンドで全部盗んでしまう。そうなるとピカソの踏み込みに、尚弥選手の得意なカウンターが面白いように当たりだす。中盤の6から9ラウンドくらいで、ピカソは立っていられなくなるはず。",
+                "normalized_text": "井上尚弥がピカソの懐の深さと独特なリズムを3〜4ラウンドで解明し、その後はピカソの踏み込みにカウンターを合わせて中盤以降に仕留めると予想。決着時期は6〜9ラウンド頃のKO。"
             },
             "source": {
                 "type": "video",
@@ -254,7 +254,7 @@
                 "predictor_name": "細川バレンタイン",
                 "source_url": "https://www.youtube.com/watch?v=D_q1H7eIKXE",
                 "source_ref": "statement_id=stmt-boxing-2025-12-27-event-18-007",
-                "source_note": "ユーザー提供URL。一次確認前。",
+                "source_note": "2025-12-23公開。YouTube「細川バレンタイン / 前向き教室」。Tier B（元日本王者 / ボクシング解説YouTuber）。発言抜粋をユーザー提供情報に基づき反映（2026-05-01）。",
                 "expected_winner": "井上尚弥",
                 "expected_method": "KO",
                 "target": "井上尚弥 vs アラン・デビッド・ピカソ",
@@ -267,7 +267,7 @@
                 "winner": "井上尚弥",
                 "method": "判定",
                 "actual_outcome": "井上尚弥が判定3-0（120-108, 119-109, 117-111）で防衛。KOなし。",
-                "notes": "6〜9ラウンドKOを予想したが12回判定決着。",
+                "notes": "勝者は的中。決着方法は6〜9ラウンドKO予想に対し、実際は12回判定で不的中。",
                 "source_note": "根拠URL: https://www.sponichi.co.jp/battle/news/2025/12/27/kiji/20251227s00021000249000c.html"
             }
         }

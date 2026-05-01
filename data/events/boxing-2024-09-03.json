@@ -411,24 +411,24 @@
                 "affiliation": "元WBA世界ライトフライ級王者"
             },
             "content": {
-                "raw_text": "武居君。やっぱりサウスポーだし、あの距離で戦われたら比嘉君は中に入れない。 [2026-04-26監査: このraw_textはstmt-008（具志堅用高・別動画）と完全一致しており、コピペ誤りの可能性あり。原典動画(NVIW5nYOqr8)で渡嘉敷本人の発言を再確認する必要あり]",
-                "normalized_text": "武居由樹の勝利を予想。サウスポーの距離を支配し比嘉を中に入らせない展開を想定。（※コピペ疑い、原典再確認必要）"
+                "raw_text": "いや、俺（比嘉）サウスポー苦手なんだって言ってるんだから、ちょっと難しいんじゃない？ まあ、不利かもしれませんしね。（勝てる）確率は下がりますよ、かなり下がりますよ。",
+                "normalized_text": "比嘉大吾がサウスポーを苦手と公言しており、武居由樹戦は「確率がかなり下がる」「不利かもしれない」と発言。勝者の断定なし。"
             },
             "source": {
                 "type": "video",
                 "url": "https://www.youtube.com/watch?v=NVIW5nYOqr8",
-                "timestamp": "不明"
+                "timestamp": "10:33〜12:12"
             },
             "prediction": {
                 "exists": true,
                 "predictor_name": "渡嘉敷勝男",
                 "source_url": "https://www.youtube.com/watch?v=NVIW5nYOqr8",
                 "source_ref": "statement_id=stmt-boxing-2024-09-03-010",
-                "source_note": "根拠URLは目視確認（2026-04-05）。Tier A（元世界王者）。",
-                "expected_winner": "武居由樹",
-                "expected_method": "判定",
+                "source_note": "根拠URLは目視確認（2026-04-30）。Tier A（元世界王者）。2026-04-30監査：raw_textを具志堅用高のコピペから渡嘉敷本人の実発言に修正。勝者断定なし。",
+                "expected_winner": "不明",
+                "expected_method": "不明",
                 "target": "武居由樹 vs 比嘉大吾",
-                "expected_outcome": "武居由樹が判定勝ち",
+                "expected_outcome": "比嘉大吾がサウスポーを苦手としており苦戦を示唆。勝者断定なし。",
                 "deadline": "2024-09-03"
             },
             "verification": {
