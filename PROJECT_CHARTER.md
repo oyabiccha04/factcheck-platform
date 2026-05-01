@@ -318,7 +318,7 @@ logs_v2.html が存在する場合でも、現運用の基準は logs.html。
 イベント一覧インデックスは `data/index.json` を唯一の正本として運用する（表示ページの参照先もここに統一する）。
 2.2 公開URL（ユーザー申告ベース）
 
-GitHub Pages 公開URL：https://oyabiccha04.github.io/factcheck-platform/logs_v2_adapter_test.html（動作確認で参照されたURL）
+GitHub Pages 公開URL：https://forecastVSfact.github.io/factcheck-platform/logs_v2_adapter_test.html（動作確認で参照されたURL）
 ※「本番の入口URL（トップ）」と「ログ表示ページの正URL」は、リポジトリをCursorで開いて確定させ、ここに追記する。
 
 
