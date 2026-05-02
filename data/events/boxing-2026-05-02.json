@@ -39,11 +39,11 @@
                     "red": "井上拓真",
                     "blue": "井岡一翔",
                     "outcome": {
-                        "winner": null,
-                        "method": null,
+                        "winner": "井上拓真",
+                        "method": "判定",
                         "round": null,
                         "time": null,
-                        "result_note": "未開催（2026-05-02予定）。WBC世界バンタム級タイトルマッチ（王者：井上拓真 初防衛戦）。井岡が勝てば日本男子初の5階級制覇"
+                        "result_note": "井上拓真が3-0のユナニマス判定勝ち。WBC世界バンタム級タイトルマッチ（王者：井上拓真 初防衛戦）"
                     },
                     "discipline": "BOXING"
                 }
@@ -502,12 +502,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "予想的中（勝者・決着方法ともに正確）。"
             }
         },
         {
@@ -540,12 +540,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "勝者は外れ、決着方法は的中。"
             }
         },
         {
@@ -578,12 +578,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "予想的中（勝者的中。決着方法は予想なし）。"
             }
         },
         {
@@ -616,12 +616,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "予想的中（勝者的中。決着方法は予想なし）。"
             }
         },
         {
@@ -654,12 +654,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "勝者を明示しなかったため的中判定なし。"
             }
         },
         {
@@ -692,12 +692,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "予想外れ（勝者相違）。"
             }
         },
         {
@@ -882,12 +882,12 @@
                 "deadline": "2026-05-02"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": null,
-                "notes": "試合未開催（2026-05-02予定）"
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上拓真",
+                "method": "判定",
+                "actual_outcome": "井上拓真が3-0のユナニマス判定勝ち。",
+                "notes": "予想的中（勝者的中。決着方法は予想なし）。"
             }
         },
         {
