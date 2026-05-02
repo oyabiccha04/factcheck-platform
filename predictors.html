@@ -362,8 +362,13 @@
     return out;
   }
   function renderSpotlightCard(ev) {
-    var div = document.createElement("div");
-    div.className = "spotlight-item";
+    var a = document.createElement("a");
+    a.className = "spotlight-item";
+    a.href = "event.html?file=" + encodeURIComponent(ev.file) + "&v=" + CACHE;
+    a.style.cssText = "display:block;text-decoration:none;color:inherit;cursor:pointer;";
+    var inner = document.createElement("div");
+    inner.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:8px;";
+    var textDiv = document.createElement("div");
     var t = document.createElement("p");
     t.className = "spotlight-title";
     var strong = document.createElement("strong");
@@ -371,18 +376,19 @@
     t.appendChild(strong);
     var meta = document.createElement("p");
     meta.className = "spotlight-meta";
+    meta.style.margin = "0";
     meta.textContent = (ev.organization ? ev.organization + " / " : "") + (ev.date || "日付不明");
-    var linkP = document.createElement("p");
-    linkP.className = "spotlight-link";
-    linkP.style.margin = "0";
-    var a = document.createElement("a");
-    a.href = "event.html?file=" + encodeURIComponent(ev.file) + "&v=" + CACHE;
-    a.textContent = "イベント詳細へ";
-    linkP.appendChild(a);
-    div.appendChild(t);
-    div.appendChild(meta);
-    div.appendChild(linkP);
-    return div;
+    textDiv.appendChild(t);
+    textDiv.appendChild(meta);
+    var arrow = document.createElement("span");
+    arrow.textContent = "›";
+    arrow.style.cssText = "font-size:20px;color:#888;flex-shrink:0;";
+    inner.appendChild(textDiv);
+    inner.appendChild(arrow);
+    a.appendChild(inner);
+    a.addEventListener("mouseover", function() { a.style.background = "#f8f9fa"; });
+    a.addEventListener("mouseout", function() { a.style.background = ""; });
+    return a;
   }
   function renderSpotlights(upcomingArr, pastArr) {
     var upEl = document.getElementById("spotlight-upcoming");
