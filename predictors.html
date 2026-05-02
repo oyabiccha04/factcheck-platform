@@ -10,6 +10,7 @@
     gtag('config', 'G-57FO2BRNFY');
   </script>
   <meta charset="UTF-8">
+  <meta name="robots" content="noai, noimageai">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ボクシング予測 | 予測VSFACT（予想の的中率・精度をデータで検証）</title>
   <link rel="stylesheet" href="style.css">
@@ -204,9 +205,9 @@
   </ul>
 </nav>
 
-<div style="background:#EEEDFE;border:1px solid #AFA9EC;border-radius:12px;padding:1rem 1.25rem;margin-bottom:1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
+<div id="tokyo-dome-event-banner" hidden style="background:#EEEDFE;border:1px solid #AFA9EC;border-radius:12px;padding:1rem 1.25rem;margin-bottom:1.5rem;display:flex;align-items:center;justify-content:space-between;gap:1rem;flex-wrap:wrap;">
   <div>
-    <span style="font-size:11px;font-weight:500;color:#534AB7;background:#CECBF6;border-radius:4px;padding:2px 8px;display:inline-block;margin-bottom:4px;">明日開催</span>
+    <span id="tokyo-dome-event-banner-label" style="font-size:11px;font-weight:500;color:#534AB7;background:#CECBF6;border-radius:4px;padding:2px 8px;display:inline-block;margin-bottom:4px;">明日開催</span>
     <p style="font-size:15px;font-weight:500;color:#26215C;margin:4px 0 2px;">東京ドーム世界ダブル世界戦 2026.05.02</p>
     <p style="font-size:13px;color:#3C3489;margin:0;">井上尚弥 vs 中谷潤人 ／ 井上拓真 vs 井岡一翔</p>
   </div>
@@ -265,6 +266,24 @@
     <a class="footer-action" href="index.html">トップへ戻る</a>
   </nav>
 </footer>
+
+<script>
+(function () {
+  var banner = document.getElementById("tokyo-dome-event-banner");
+  var label = document.getElementById("tokyo-dome-event-banner-label");
+  if (!banner || !label) return;
+
+  var today = new Date();
+  today.setHours(0, 0, 0, 0);
+  var eventDate = new Date(2026, 4, 2);
+  var daysUntilEvent = Math.round((eventDate.getTime() - today.getTime()) / 86400000);
+
+  if (daysUntilEvent < 0) return;
+
+  label.textContent = daysUntilEvent === 0 ? "本日開催" : (daysUntilEvent === 1 ? "明日開催" : "開催予定");
+  banner.hidden = false;
+})();
+</script>
 
 <script>
 (function () {
