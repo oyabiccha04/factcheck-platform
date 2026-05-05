@@ -20,81 +20,6 @@
             "card_name": "メインカード",
             "bouts": [
                 {
-                    "bout_id": "rizin50-01",
-                    "division": "61.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "魚井フルスイング",
-                    "blue": "赤田プレイボイ功輝",
-                    "outcome": {
-                        "winner": "魚井フルスイング",
-                        "method": "Decision",
-                        "round": null,
-                        "time": null,
-                        "result_note": "判定2-1"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-02",
-                    "division": "53.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "越智晴雄",
-                    "blue": "中務修良",
-                    "outcome": {
-                        "winner": "越智晴雄",
-                        "method": "Submission",
-                        "round": 3,
-                        "time": "1:23",
-                        "result_note": "ギロチンチョーク"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-03",
-                    "division": "52.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "万智",
-                    "blue": "パク・ソヨン",
-                    "outcome": {
-                        "winner": "万智",
-                        "method": "TKO",
-                        "round": 2,
-                        "time": null,
-                        "result_note": "パウンド連打"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-04",
-                    "division": "71.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "泉武志",
-                    "blue": "スパイク・カーライル",
-                    "outcome": {
-                        "winner": "泉武志",
-                        "method": "Decision",
-                        "round": null,
-                        "time": null,
-                        "result_note": "判定0-3"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-05",
-                    "division": "59.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "前田吉朗",
-                    "blue": "横内三旺",
-                    "outcome": {
-                        "winner": "前田吉朗",
-                        "method": "Submission",
-                        "round": null,
-                        "time": null,
-                        "result_note": "リアネイキッドチョーク"
-                    },
-                    "discipline": "MMA"
-                },
-                {
                     "bout_id": "rizin50-06",
                     "division": "59.0kg",
                     "rules": "RIZIN MMA 5分3R",
@@ -106,66 +31,6 @@
                         "round": null,
                         "time": null,
                         "result_note": "判定3-0"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-07",
-                    "division": "66.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "横山武司",
-                    "blue": "木村柊也",
-                    "outcome": {
-                        "winner": "木村柊也",
-                        "method": "KO",
-                        "round": 1,
-                        "time": "0:54",
-                        "result_note": "右フック＆パウンド"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-08",
-                    "division": "66.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "萩原京平",
-                    "blue": "トビー・ミセッチ",
-                    "outcome": {
-                        "winner": "萩原京平",
-                        "method": "TKO",
-                        "round": 1,
-                        "time": "0:26",
-                        "result_note": "右ストレート→パウンド"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-09",
-                    "division": "120.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "酒井リョウ",
-                    "blue": "エドポロキング",
-                    "outcome": {
-                        "winner": "エドポロキング",
-                        "method": "TKO",
-                        "round": null,
-                        "time": null,
-                        "result_note": "パウンド"
-                    },
-                    "discipline": "MMA"
-                },
-                {
-                    "bout_id": "rizin50-10",
-                    "division": "71.0kg",
-                    "rules": "RIZIN MMA 5分3R",
-                    "red": "ルイス・グスタボ",
-                    "blue": "野村駿太",
-                    "outcome": {
-                        "winner": "野村駿太",
-                        "method": "Decision",
-                        "round": null,
-                        "time": null,
-                        "result_note": "テクニカル判定0-3"
                     },
                     "discipline": "MMA"
                 },
@@ -202,7 +67,119 @@
             ]
         }
     ],
-    "statements": [],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-50-001",
+            "statement_date": "2025-03-25",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "伊藤選手が判定勝ちで勝利することを予想します",
+                "normalized_text": "伊藤裕樹の判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=u_jmCnT1cnA",
+                "timestamp": "2025-03-25"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=u_jmCnT1cnA",
+                "source_ref": "stmt-rizin-50-001",
+                "expected_winner": "伊藤裕樹",
+                "expected_method": "判定",
+                "target": "伊藤裕樹 vs トニー・ララミー",
+                "expected_outcome": "伊藤裕樹の判定勝ち",
+                "deadline": "2025-03-30"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-03-31",
+                "winner": "伊藤裕樹",
+                "method": "Decision",
+                "actual_outcome": "伊藤裕樹の勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-50-002",
+            "statement_date": "2025-03-25",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "鈴木選手判定勝ち予想します",
+                "normalized_text": "鈴木千裕の判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=u_jmCnT1cnA",
+                "timestamp": "2025-03-25"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=u_jmCnT1cnA",
+                "source_ref": "stmt-rizin-50-002",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "判定",
+                "target": "鈴木千裕 vs カルシャガ・ダウトベック",
+                "expected_outcome": "鈴木千裕の判定勝ち",
+                "deadline": "2025-03-30"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想外れ。",
+                "verification_date": "2025-03-31",
+                "winner": "カルシャガ・ダウトベック",
+                "method": "Decision",
+                "actual_outcome": "カルシャガ・ダウトベックの勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-50-003",
+            "statement_date": "2025-03-25",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "元谷のギロチンチョーク1本勝ちしようかなうん僕は元谷はグランド勝負をかけると思う",
+                "normalized_text": "元谷友貴の一本勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=u_jmCnT1cnA",
+                "timestamp": "2025-03-25"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=u_jmCnT1cnA",
+                "source_ref": "stmt-rizin-50-003",
+                "expected_winner": "元谷友貴",
+                "expected_method": "Submission",
+                "target": "井上直樹 vs 元谷友貴",
+                "expected_outcome": "元谷友貴の一本勝ち",
+                "deadline": "2025-03-30"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想外れ。",
+                "verification_date": "2025-03-31",
+                "winner": "井上直樹",
+                "method": "Decision",
+                "actual_outcome": "井上直樹の勝利"
+            }
+        }
+    ],
     "content_policy": {
         "facts_only": true,
         "no_opinion": true,

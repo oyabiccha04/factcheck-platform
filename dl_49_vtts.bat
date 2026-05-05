@@ -1,0 +1,3 @@
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=as_ot9pNXIs" -o "as_ot9pNXIs.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=dDDq7hGWscE" -o "dDDq7hGWscE.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=qKHHCjT2Oac" -o "qKHHCjT2Oac.%(ext)s"

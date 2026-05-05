@@ -1,343 +1,130 @@
 {
-  "schema_version": "standard-log-v1.2-json",
-  "event_meta": {
-    "event_id": "rizin-landmark-7-azerbaijan",
-    "event_name": "RIZIN LANDMARK 7 in Azerbaijan",
-    "organization": "RIZIN",
-    "sport": "MMA",
-    "discipline": "MMA",
-    "date": "2023-11-04",
-    "venue": "National Gymnastics Arena（国立体操競技場）",
-    "country": "Azerbaijan",
-    "timezone": "Asia/Baku",
-    "attendance": null,
-    "note": "RIZINの日本国外初開催（アゼルバイジャン・バクー）。メインは鈴木千裕 vs ヴガール・ケラモフ フェザー級タイトルマッチ。鈴木がアップキックから連続グラウンドパンチで1R KO。第5代RIZINフェザー級王者に。"
-  },
-  "cards": [
-    {
-      "card_name": "メインカード",
-      "bouts": [
+    "schema_version": "standard-log-v1.2-json",
+    "event_meta": {
+        "event_id": "rizin-landmark-7-azerbaijan",
+        "event_name": "RIZIN LANDMARK 7 in Azerbaijan",
+        "organization": "RIZIN",
+        "sport": "MMA",
+        "discipline": "MMA",
+        "date": "2023-11-04",
+        "venue": "National Gymnastics Arena（国立体操競技場）",
+        "country": "Azerbaijan",
+        "timezone": "Asia/Baku",
+        "attendance": null,
+        "note": "RIZINの日本国外初開催（アゼルバイジャン・バクー）。メインは鈴木千裕 vs ヴガール・ケラモフ フェザー級タイトルマッチ。鈴木がアップキックから連続グラウンドパンチで1R KO。第5代RIZINフェザー級王者に。"
+    },
+    "cards": [
         {
-          "bout_id": "rizin-landmark-7-az-bout-01",
-          "bout_order": 1,
-          "division": "ミドル級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 83.9,
-          "discipline": "MMA",
-          "red": {
-            "name": "ハサン・メジエフ",
-            "nickname": null,
-            "nationality": "Russia",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "コンスタンチン・メルクロフ",
-            "nickname": null,
-            "nationality": "Russia",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ハサン・メジエフ",
-            "method": "Submission",
-            "method_detail": "リアネイキッドチョーク",
-            "round": 1,
-            "time": "2:32",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-02",
-          "bout_order": 2,
-          "division": "ライトヘビー級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 93.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "ショタ・ベトレミゼ",
-            "nickname": null,
-            "nationality": "Georgia",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "カンタン・ドミンゴス",
-            "nickname": null,
-            "nationality": "France",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ショタ・ベトレミゼ",
-            "method": "TKO",
-            "method_detail": "負傷によるストップ",
-            "round": 1,
-            "time": "5:00",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-03",
-          "bout_order": 3,
-          "division": "ウェルター級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 77.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "ヴラジスラフ・ルドニェフ",
-            "nickname": null,
-            "nationality": "Ukraine",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "イリヤル・アスハノフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ヴラジスラフ・ルドニェフ",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-04",
-          "bout_order": 4,
-          "division": "ライト級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 70.3,
-          "discipline": "MMA",
-          "red": {
-            "name": "イルホム・ナシモフ",
-            "nickname": null,
-            "nationality": "Uzbekistan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ジョレス・デア・ゴメス",
-            "nickname": null,
-            "nationality": "Cameroon",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "イルホム・ナシモフ",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-05",
-          "bout_order": 5,
-          "division": "女子フライ級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 57.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "アナスタシア・スヴェトキフスカ",
-            "nickname": null,
-            "nationality": "Ukraine",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ファリダ・アブドゥエヴァ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "アナスタシア・スヴェトキフスカ",
-            "method": "Submission",
-            "method_detail": "アームバー",
-            "round": 2,
-            "time": "4:20",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-06",
-          "bout_order": 6,
-          "division": "バンタム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 61.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "キョン・ピョ・キム",
-            "nickname": null,
-            "nationality": "South Korea",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "トゥラル・ラギモフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "キョン・ピョ・キム",
-            "method": "KO",
-            "method_detail": "パンチ",
-            "round": 1,
-            "time": "0:21",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-07",
-          "bout_order": 7,
-          "division": "ウェルター級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 77.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "メフマン・マメドフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "フェリット・ゲクテペ",
-            "nickname": null,
-            "nationality": "Turkey",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "メフマン・マメドフ",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-08",
-          "bout_order": 8,
-          "division": "ライトヘビー級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 93.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "アリ・アブドゥルハリコフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ナリマン・アッバソフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "アリ・アブドゥルハリコフ",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-09",
-          "bout_order": 9,
-          "division": "ライト級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 70.3,
-          "discipline": "MMA",
-          "red": {
-            "name": "トフィック・ムサエフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "武田光司",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "トフィック・ムサエフ",
-            "method": "TKO",
-            "method_detail": "レフリーストップ",
-            "round": 3,
-            "time": "2:03",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-landmark-7-az-bout-10",
-          "bout_order": 10,
-          "division": "フェザー級タイトルマッチ",
-          "rules": "RIZIN MMAルール 5分5R",
-          "weight_kg": 66.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "鈴木千裕",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ヴガール・ケラモフ",
-            "nickname": null,
-            "nationality": "Azerbaijan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "鈴木千裕",
-            "method": "KO",
-            "method_detail": "アップキック→グラウンドパンチ",
-            "round": 1,
-            "time": "1:18",
-            "result_note": "フェザー級タイトルマッチ。鈴木がバックに倒れた状態からアップキックでケラモフをぐらつかせ、グラウンドパンチを連打してレフリーストップ。鈴木千裕が第5代RIZINフェザー級王者に。"
-          }
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin-landmark-7-az-bout-10",
+                    "bout_order": 10,
+                    "division": "フェザー級タイトルマッチ",
+                    "rules": "RIZIN MMAルール 5分5R",
+                    "weight_kg": 66.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "鈴木千裕",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "ヴガール・ケラモフ",
+                        "nickname": null,
+                        "nationality": "Azerbaijan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "鈴木千裕",
+                        "method": "KO",
+                        "method_detail": "アップキック→グラウンドパンチ",
+                        "round": 1,
+                        "time": "1:18",
+                        "result_note": "フェザー級タイトルマッチ。鈴木がバックに倒れた状態からアップキックでケラモフをぐらつかせ、グラウンドパンチを連打してレフリーストップ。鈴木千裕が第5代RIZINフェザー級王者に。"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-landmark-7-az-001",
-      "statement_date": "2023-11-03",
-      "speaker": {
-        "name": "平本蓮",
-        "role": "fighter",
-        "affiliation": "剛毅會"
-      },
-      "content": {
-        "raw_text": "普通に考えたらケラモフ勝利。けど鈴木千裕も敵地で気合が入っていて、勝った方が面白い。朝倉未来との試合を見る限りではケラモフが普通に勝ちそう",
-        "normalized_text": "超RIZIN.2での朝倉未来戦の内容を踏まえ、ケラモフが普通に勝つと予想。鈴木千裕の勢いは認めつつも最終的にはケラモフ勝利と見る。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/236536",
-        "timestamp": "2023-11-03前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "平本蓮",
-        "source_url": "https://spread-sports.jp/archives/236536",
-        "source_ref": "stmt-rizin-landmark-7-az-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN LANDMARK 7事前予想記事。平本蓮が試合展開と勝敗を予想した動画・記事コンテンツ。",
-        "expected_winner": "ヴガール・ケラモフ",
-        "expected_method": null,
-        "target": "鈴木千裕 vs ヴガール・ケラモフ",
-        "expected_outcome": "ケラモフが勝利（朝倉未来戦の内容から優位と判断）",
-        "deadline": "2023-11-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2023-11-04",
-        "winner": "鈴木千裕",
-        "method": "KO",
-        "actual_outcome": "鈴木千裕が1R1分18秒アップキック→グラウンドパンチKO勝ち。第5代フェザー級王者に。",
-        "notes": "平本のケラモフ勝ち予想は外れ。鈴木がケラモフの攻撃パターンを読んだ逆転KO。"
-      }
-    }
-  ]
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-lm7-001",
+            "statement_date": "2023-11-02",
+            "speaker": {
+                "name": "平本蓮",
+                "role": "fighter",
+                "affiliation": "剛毅會"
+            },
+            "content": {
+                "raw_text": "ケラモフが普通に勝ちそうっすね",
+                "normalized_text": "ヴガール・ケラモフの勝利を予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/236536",
+                "timestamp": null
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "平本蓮",
+                "source_url": "https://spread-sports.jp/archives/236536",
+                "source_ref": "statement_id=stmt-rizin-lm7-001",
+                "source_note": "SPREAD記事（公式YouTubeの内容をまとめた記事）より抽出",
+                "expected_winner": "ヴガール・ケラモフ",
+                "expected_method": "不明",
+                "target": "ヴガール・ケラモフ vs 鈴木千裕",
+                "expected_outcome": "ヴガール・ケラモフが勝利",
+                "deadline": "2023-11-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-11-04",
+                "winner": "鈴木千裕",
+                "method": "KO",
+                "actual_outcome": "鈴木千裕が1R KO勝ち",
+                "notes": "予想は外れ。鈴木千裕が勝利。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-lm7-002",
+            "statement_date": "2023-11-01",
+            "speaker": {
+                "name": "石渡伸太郎",
+                "role": "retired fighter",
+                "affiliation": "CAVE"
+            },
+            "content": {
+                "raw_text": "どっかで（鈴木の）ボロが出ちゃうんじゃないかっていう予想",
+                "normalized_text": "ヴガール・ケラモフの勝利を予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=L5YE_LvFqn8",
+                "timestamp": "10:42"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "石渡伸太郎",
+                "source_url": "https://www.youtube.com/watch?v=L5YE_LvFqn8",
+                "source_ref": "statement_id=stmt-rizin-lm7-002",
+                "source_note": "石渡伸太郎公式YouTubeより抽出",
+                "expected_winner": "ヴガール・ケラモフ",
+                "expected_method": "不明",
+                "target": "ヴガール・ケラモフ vs 鈴木千裕",
+                "expected_outcome": "ヴガール・ケラモフが勝利",
+                "deadline": "2023-11-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-11-04",
+                "winner": "鈴木千裕",
+                "method": "KO",
+                "actual_outcome": "鈴木千裕が1R KO勝ち",
+                "notes": "予想は外れ。鈴木千裕が勝利。"
+            }
+        }
+    ]
 }

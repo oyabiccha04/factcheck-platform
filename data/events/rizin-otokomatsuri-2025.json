@@ -1,891 +1,1210 @@
 {
-  "schema_version": "standard-log-v1.2-json",
-  "event_meta": {
-    "event_id": "rizin-otokomatsuri-2025",
-    "event_name": "RIZIN男祭り",
-    "organization": "RIZIN",
-    "sport": "MMA",
-    "discipline": "MMA",
-    "date": "2025-05-04",
-    "venue": "東京ドーム",
-    "country": "Japan",
-    "timezone": "Asia/Tokyo",
-    "attendance": null,
-    "note": "東京ドーム開催。メインはフェザー級タイトルマッチ シェイドゥラエフ vs クレベル・コイケ（シェイドゥラエフ1RKO）。セミは朝倉未来の復帰戦（vs鈴木千裕、3RTKO）。RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦も開催。"
-  },
-  "cards": [
-    {
-      "card_name": "メインカード",
-      "bouts": [
+    "schema_version": "standard-log-v1.2-json",
+    "event_meta": {
+        "event_id": "rizin-otokomatsuri-2025",
+        "event_name": "RIZIN男祭り",
+        "organization": "RIZIN",
+        "sport": "MMA",
+        "discipline": "MMA",
+        "date": "2025-05-04",
+        "venue": "東京ドーム",
+        "country": "Japan",
+        "timezone": "Asia/Tokyo",
+        "attendance": null,
+        "note": "東京ドーム開催。メインはフェザー級タイトルマッチ シェイドゥラエフ vs クレベル・コイケ（シェイドゥラエフ1RKO）。セミは朝倉未来の復帰戦（vs鈴木千裕、3RTKO）。RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦も開催。"
+    },
+    "cards": [
         {
-          "bout_id": "rizin-otokomatsuri-2025-bout-01",
-          "bout_order": 1,
-          "division": "スーパーアトム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 57.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "平本丈",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "田丸辰",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "平本丈",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-02",
-          "bout_order": 2,
-          "division": "スーパーアトム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 57.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "山本アーセン",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "冨澤大智",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "山本アーセン",
-            "method": "Submission",
-            "method_detail": "リアネイキッドチョーク",
-            "round": 2,
-            "time": "1:24",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-03",
-          "bout_order": 3,
-          "division": "63.0kg契約",
-          "rules": "RIZINキックボクシングルール 3分3R",
-          "weight_kg": 63.0,
-          "discipline": "KICKBOXING",
-          "red": {
-            "name": "朝久泰央",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ウザ強ヨシヤ",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "朝久泰央",
-            "method": "TKO",
-            "method_detail": "左ハイキック",
-            "round": 2,
-            "time": "1:16",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-04",
-          "bout_order": 4,
-          "division": "スーパーアトム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 57.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "ジョン・ドッドソン",
-            "nickname": null,
-            "nationality": "USA",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "征矢貴",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": "パラエストラ松戸"
-          },
-          "outcome": {
-            "winner": "征矢貴",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": "征矢が超RIZIN.3でのドッドソン戦（判定負け）からリベンジ達成。"
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-05",
-          "bout_order": 5,
-          "division": "スーパーアトム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 57.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "ヒロヤ",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "篠塚辰樹",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ヒロヤ",
-            "method": "TKO",
-            "method_detail": "コーナーストップ（肘によるパウンド）",
-            "round": 1,
-            "time": "2:11",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-06",
-          "bout_order": 6,
-          "division": "バンタム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 61.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "ダニー・サバテロ",
-            "nickname": null,
-            "nationality": "USA",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "太田忍",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ダニー・サバテロ",
-            "method": "TKO",
-            "method_detail": "パウンドアウト",
-            "round": 3,
-            "time": "0:20",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-07",
-          "bout_order": 7,
-          "division": "ライト級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 71.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "中村大介",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "桜庭大世",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "中村大介",
-            "method": "Submission",
-            "method_detail": "腕ひしぎ十字固め",
-            "round": 2,
-            "time": "2:01",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-08",
-          "bout_order": 8,
-          "division": "バンタム級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 59.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "神龍誠",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "伊藤裕樹",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "神龍誠",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-09",
-          "bout_order": 9,
-          "division": "98.0kg契約",
-          "rules": "RIZINスタンディングバウト特別ルール 3分3R",
-          "weight_kg": 98.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "皇治",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "シナ・カリミアン",
-            "nickname": null,
-            "nationality": "USA",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": null,
-            "method": "Draw",
-            "method_detail": "規定によりジャッジなし",
-            "round": 3,
-            "time": null,
-            "result_note": "スタンディングバウト特別ルール。規定により判定なしでドロー。"
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-10",
-          "bout_order": 10,
-          "division": "ヘビー級GP1回戦",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 120.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "マレク・サモチュク",
-            "nickname": null,
-            "nationality": "Poland",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ダニエル・ジェームス",
-            "nickname": null,
-            "nationality": "USA",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "マレク・サモチュク",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": "RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦。"
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-11",
-          "bout_order": 11,
-          "division": "ヘビー級GP1回戦",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 120.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "スダリオ剛",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ジョゼ・アウグスト",
-            "nickname": null,
-            "nationality": "Brazil",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ジョゼ・アウグスト",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": "RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦。"
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-12",
-          "bout_order": 12,
-          "division": "ヘビー級GP1回戦",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 120.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "上田幹雄",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "シビサイ頌真",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "上田幹雄",
-            "method": "KO",
-            "method_detail": "左ローキック",
-            "round": 1,
-            "time": "1:03",
-            "result_note": "RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦。"
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-13",
-          "bout_order": 13,
-          "division": "フェザー級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 66.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "萩原京平",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "西谷大成",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "萩原京平",
-            "method": "KO",
-            "method_detail": "スタンドパンチからパウンド",
-            "round": 1,
-            "time": "3:36",
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-14",
-          "bout_order": 14,
-          "division": "フェザー級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 66.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "秋元強真",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "高木凌",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "秋元強真",
-            "method": "Decision",
-            "method_detail": "3-0",
-            "round": 3,
-            "time": null,
-            "result_note": null
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-15",
-          "bout_order": 15,
-          "division": "フェザー級",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 66.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "朝倉未来",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": "JAPAN TOP TEAM"
-          },
-          "blue": {
-            "name": "鈴木千裕",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "朝倉未来",
-            "method": "TKO",
-            "method_detail": "ドクターストップ（裂傷）",
-            "round": 3,
-            "time": "1:56",
-            "result_note": "朝倉未来の約9ヶ月ぶり復帰戦。本来は平本蓮との再戦予定だったが平本の負傷で鈴木が代替出場。朝倉が3ラウンド通じてテイクダウン→パウンドで主導権。鈴木の左目上が裂傷で出血、ドクターストップ。"
-          }
-        },
-        {
-          "bout_id": "rizin-otokomatsuri-2025-bout-16",
-          "bout_order": 16,
-          "division": "フェザー級タイトルマッチ",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 66.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "クレベル・コイケ",
-            "nickname": null,
-            "nationality": "Brazil",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "ラジャブアリ・シェイドゥラエフ",
-            "nickname": null,
-            "nationality": "Kyrgyzstan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "ラジャブアリ・シェイドゥラエフ",
-            "method": "KO",
-            "method_detail": "パンチ",
-            "round": 1,
-            "time": "1:02",
-            "result_note": "フェザー級タイトルマッチ。シェイドゥラエフが3度目の防衛成功。"
-          }
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-01",
+                    "bout_order": 1,
+                    "division": "スーパーアトム級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 57.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "平本丈",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "田丸辰",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "平本丈",
+                        "method": "Decision",
+                        "method_detail": "3-0",
+                        "round": 3,
+                        "time": null,
+                        "result_note": null
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-02",
+                    "bout_order": 2,
+                    "division": "スーパーアトム級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 57.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "山本アーセン",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "冨澤大智",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "山本アーセン",
+                        "method": "Submission",
+                        "method_detail": "リアネイキッドチョーク",
+                        "round": 2,
+                        "time": "1:24",
+                        "result_note": null
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-04",
+                    "bout_order": 4,
+                    "division": "スーパーアトム級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 57.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "ジョン・ドッドソン",
+                        "nickname": null,
+                        "nationality": "USA",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "征矢貴",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": "パラエストラ松戸"
+                    },
+                    "outcome": {
+                        "winner": "征矢貴",
+                        "method": "Decision",
+                        "method_detail": "3-0",
+                        "round": 3,
+                        "time": null,
+                        "result_note": "征矢が超RIZIN.3でのドッドソン戦（判定負け）からリベンジ達成。"
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-05",
+                    "bout_order": 5,
+                    "division": "スーパーアトム級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 57.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "ヒロヤ",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "篠塚辰樹",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "ヒロヤ",
+                        "method": "TKO",
+                        "method_detail": "コーナーストップ（肘によるパウンド）",
+                        "round": 1,
+                        "time": "2:11",
+                        "result_note": null
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-06",
+                    "bout_order": 6,
+                    "division": "バンタム級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 61.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "ダニー・サバテロ",
+                        "nickname": null,
+                        "nationality": "USA",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "太田忍",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "ダニー・サバテロ",
+                        "method": "TKO",
+                        "method_detail": "パウンドアウト",
+                        "round": 3,
+                        "time": "0:20",
+                        "result_note": null
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-07",
+                    "bout_order": 7,
+                    "division": "ライト級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 71.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "中村大介",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "桜庭大世",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "中村大介",
+                        "method": "Submission",
+                        "method_detail": "腕ひしぎ十字固め",
+                        "round": 2,
+                        "time": "2:01",
+                        "result_note": null
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-08",
+                    "bout_order": 8,
+                    "division": "バンタム級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 59.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "神龍誠",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "伊藤裕樹",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "神龍誠",
+                        "method": "Decision",
+                        "method_detail": "3-0",
+                        "round": 3,
+                        "time": null,
+                        "result_note": null
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-09",
+                    "bout_order": 9,
+                    "division": "98.0kg契約",
+                    "rules": "RIZINスタンディングバウト特別ルール 3分3R",
+                    "weight_kg": 98.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "皇治",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "シナ・カリミアン",
+                        "nickname": null,
+                        "nationality": "USA",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": null,
+                        "method": "Draw",
+                        "method_detail": "規定によりジャッジなし",
+                        "round": 3,
+                        "time": null,
+                        "result_note": "スタンディングバウト特別ルール。規定により判定なしでドロー。"
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-10",
+                    "bout_order": 10,
+                    "division": "ヘビー級GP1回戦",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 120.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "マレク・サモチュク",
+                        "nickname": null,
+                        "nationality": "Poland",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "ダニエル・ジェームス",
+                        "nickname": null,
+                        "nationality": "USA",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "マレク・サモチュク",
+                        "method": "Decision",
+                        "method_detail": "3-0",
+                        "round": 3,
+                        "time": null,
+                        "result_note": "RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦。"
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-11",
+                    "bout_order": 11,
+                    "division": "ヘビー級GP1回戦",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 120.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "スダリオ剛",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "ジョゼ・アウグスト",
+                        "nickname": null,
+                        "nationality": "Brazil",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "ジョゼ・アウグスト",
+                        "method": "Decision",
+                        "method_detail": "3-0",
+                        "round": 3,
+                        "time": null,
+                        "result_note": "RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦。"
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-12",
+                    "bout_order": 12,
+                    "division": "ヘビー級GP1回戦",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 120.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "上田幹雄",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "シビサイ頌真",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "上田幹雄",
+                        "method": "KO",
+                        "method_detail": "左ローキック",
+                        "round": 1,
+                        "time": "1:03",
+                        "result_note": "RIZIN WORLD GP 2025 ヘビー級トーナメント1回戦。"
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-15",
+                    "bout_order": 15,
+                    "division": "フェザー級",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 66.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "朝倉未来",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": "JAPAN TOP TEAM"
+                    },
+                    "blue": {
+                        "name": "鈴木千裕",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "朝倉未来",
+                        "method": "TKO",
+                        "method_detail": "ドクターストップ（裂傷）",
+                        "round": 3,
+                        "time": "1:56",
+                        "result_note": "朝倉未来の約9ヶ月ぶり復帰戦。本来は平本蓮との再戦予定だったが平本の負傷で鈴木が代替出場。朝倉が3ラウンド通じてテイクダウン→パウンドで主導権。鈴木の左目上が裂傷で出血、ドクターストップ。"
+                    }
+                },
+                {
+                    "bout_id": "rizin-otokomatsuri-2025-bout-16",
+                    "bout_order": 16,
+                    "division": "フェザー級タイトルマッチ",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 66.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "クレベル・コイケ",
+                        "nickname": null,
+                        "nationality": "Brazil",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "ラジャブアリ・シェイドゥラエフ",
+                        "nickname": null,
+                        "nationality": "Kyrgyzstan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "ラジャブアリ・シェイドゥラエフ",
+                        "method": "KO",
+                        "method_detail": "パンチ",
+                        "round": 1,
+                        "time": "1:02",
+                        "result_note": "フェザー級タイトルマッチ。シェイドゥラエフが3度目の防衛成功。"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-001",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "平本蓮",
-        "role": "fighter",
-        "affiliation": "剛毅會（前戦で朝倉未来に勝利した当事者）"
-      },
-      "content": {
-        "raw_text": "鈴木の1RKO勝ち",
-        "normalized_text": "鈴木千裕が1ラウンドKO勝ちすると予想。朝倉未来の試合中の恐怖感を指摘し、鈴木のフィジカル優位を根拠に。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "平本蓮",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。平本は朝倉未来に直近で勝利した当事者。",
-        "expected_winner": "鈴木千裕",
-        "expected_method": "KO",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "鈴木千裕が1RKO勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "平本の鈴木千裕勝ち予想は外れ。朝倉が3Rを通じてテイクダウン→パウンドで完封。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-002",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "堀口恭司",
-        "role": "fighter",
-        "affiliation": "RIZIN元フライ級王者・現役格闘家"
-      },
-      "content": {
-        "raw_text": "鈴木の2RTKO勝ち",
-        "normalized_text": "鈴木千裕が2ラウンドTKO勝ちすると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "堀口恭司",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-002",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。",
-        "expected_winner": "鈴木千裕",
-        "expected_method": "TKO",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "鈴木千裕が2RTKO勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "堀口の鈴木千裕勝ち予想は外れ。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-003",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "朝倉海",
-        "role": "fighter",
-        "affiliation": "RIZIN元バンタム級王者・朝倉未来の弟"
-      },
-      "content": {
-        "raw_text": "朝倉（未来）の勝利",
-        "normalized_text": "兄・朝倉未来が勝利すると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "朝倉海",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-003",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。朝倉未来の実弟・現役格闘家としての予想。",
-        "expected_winner": "朝倉未来",
-        "expected_method": null,
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "朝倉未来が勝利",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "朝倉海の朝倉未来勝ち予想は的中。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-004",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "クレベル・コイケ",
-        "role": "fighter",
-        "affiliation": "RIZIN元フェザー級王者（同大会メインに出場）"
-      },
-      "content": {
-        "raw_text": "鈴木千裕の一本勝ち",
-        "normalized_text": "鈴木千裕が一本勝ちすると予想。直近で鈴木に勝った立場からの見解。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "クレベル・コイケ",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-004",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。直近のRIZIN DECADEで鈴木千裕に勝利した立場から。",
-        "expected_winner": "鈴木千裕",
-        "expected_method": "Submission",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "鈴木千裕が一本勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "クレベルの鈴木千裕勝ち予想は外れ。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-005",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "石渡伸太郎",
-        "role": "coach",
-        "affiliation": "RIZIN漢塾塾長・元格闘家"
-      },
-      "content": {
-        "raw_text": "朝倉の判定勝ち",
-        "normalized_text": "朝倉未来が判定勝ちすると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "石渡伸太郎",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-005",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。",
-        "expected_winner": "朝倉未来",
-        "expected_method": "判定",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "朝倉未来が判定勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "石渡の朝倉未来勝ち予想は的中（手段はTKOで判定とは異なる）。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-006",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "川尻達也",
-        "role": "fighter",
-        "affiliation": "元UFC・DREAM参戦・現役格闘家"
-      },
-      "content": {
-        "raw_text": "鈴木千裕の1R右フックでKO",
-        "normalized_text": "鈴木千裕が1ラウンドに右フックでKO勝ちすると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "川尻達也",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-006",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。",
-        "expected_winner": "鈴木千裕",
-        "expected_method": "KO",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "鈴木千裕が1R右フックKO勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "川尻の鈴木千裕勝ち予想は外れ。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-007",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "青木真也",
-        "role": "fighter",
-        "affiliation": "元DREAM王者・グラップリング世界王者"
-      },
-      "content": {
-        "raw_text": "鈴木のKO勝ち",
-        "normalized_text": "鈴木千裕がKO勝ちすると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "青木真也",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-007",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。",
-        "expected_winner": "鈴木千裕",
-        "expected_method": "KO",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "鈴木千裕がKO勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "青木の鈴木千裕勝ち予想は外れ。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-008",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "斎藤裕",
-        "role": "fighter",
-        "affiliation": "元RIZINフェザー級王者・現役格闘家"
-      },
-      "content": {
-        "raw_text": "朝倉の判定勝ち",
-        "normalized_text": "朝倉未来が判定勝ちすると予想。フェザー級元王者としての見立て。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "斎藤裕",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-008",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。フェザー級元王者の立場から。",
-        "expected_winner": "朝倉未来",
-        "expected_method": "判定",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "朝倉未来が判定勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "斎藤の朝倉未来勝ち予想は的中（手段はTKO）。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-009",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "大沢ケンジ",
-        "role": "coach",
-        "affiliation": "GUTSMAN GYM代表・格闘技解説者"
-      },
-      "content": {
-        "raw_text": "朝倉の判定勝ち",
-        "normalized_text": "朝倉未来が判定勝ちすると予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "大沢ケンジ",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-009",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家・識者が予想）。",
-        "expected_winner": "朝倉未来",
-        "expected_method": "判定",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "朝倉未来が判定勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "大沢の朝倉未来勝ち予想は的中（手段はTKO）。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-010",
-      "statement_date": "2025-05-02",
-      "speaker": {
-        "name": "扇久保博正",
-        "role": "fighter",
-        "affiliation": "現役MMAファイター・元RIZIN参戦"
-      },
-      "content": {
-        "raw_text": "鈴木の判定勝ち",
-        "normalized_text": "鈴木千裕が判定勝ちすると予想。朝倉のダメージ蓄積を懸念し、鈴木の方がキツい相手との見立て。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/334922",
-        "timestamp": "2025-05-02前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "扇久保博正",
-        "source_url": "https://spread-sports.jp/archives/334922",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-010",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。別記事（https://spread-sports.jp/archives/332465）でも詳細分析。",
-        "expected_winner": "鈴木千裕",
-        "expected_method": "判定",
-        "target": "朝倉未来 vs 鈴木千裕",
-        "expected_outcome": "鈴木千裕が判定勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "朝倉未来",
-        "method": "TKO",
-        "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
-        "notes": "扇久保の鈴木千裕勝ち予想は外れ。"
-      }
-    },
-    {
-      "statement_id": "stmt-rizin-otokomatsuri-2025-011",
-      "statement_date": "2025-04-28",
-      "speaker": {
-        "name": "扇久保博正",
-        "role": "fighter",
-        "affiliation": "現役MMAファイター・元RIZIN参戦"
-      },
-      "content": {
-        "raw_text": "シェイドゥラエフを止められるのはクレベルしかいないと思っていた。打撃がキーになってくる。クレベルなら下になっても極めるのでは。クレベルが三角絞め→シェイドゥラエフが防いで片足スイープ→クレベルがマウントからパウンド→バックチョーク。クレベル1ラウンド一本勝ち。会場大爆発",
-        "normalized_text": "クレベル・コイケがシェイドゥラエフを1ラウンドでバックチョーク一本勝ちすると予想。シェイドゥラエフを止められるのはクレベルだけと分析。柔術技（三角絞め・バックチョーク）がカギと見立て。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/333095",
-        "timestamp": "2025-04-28前後"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "扇久保博正",
-        "source_url": "https://spread-sports.jp/archives/333095",
-        "source_ref": "stmt-rizin-otokomatsuri-2025-011",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭りメインカード（クレベルvsシェイドゥラエフ）の事前予想記事。扇久保のYouTube「おぎちゃんねる」でのコメントを記事化。",
-        "expected_winner": "クレベル・コイケ",
-        "expected_method": "Submission",
-        "target": "クレベル・コイケ vs ラジャブアリ・シェイドゥラエフ",
-        "expected_outcome": "クレベルが1ラウンドバックチョーク一本勝ち",
-        "deadline": "2025-05-04"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-05-04",
-        "winner": "ラジャブアリ・シェイドゥラエフ",
-        "method": "KO",
-        "actual_outcome": "シェイドゥラエフが1R62秒右オーバーハンドKO勝ち。新フェザー級王者に。",
-        "notes": "扇久保のクレベル勝ち予想は外れ。シェイドゥラエフが打撃でKO勝ち。"
-      }
-    }
-  ]
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-001",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "平本蓮",
+                "role": "fighter",
+                "affiliation": "剛毅會（前戦で朝倉未来に勝利した当事者）"
+            },
+            "content": {
+                "raw_text": "鈴木の1RKO勝ち",
+                "normalized_text": "鈴木千裕が1ラウンドKO勝ちすると予想。朝倉未来の試合中の恐怖感を指摘し、鈴木のフィジカル優位を根拠に。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "平本蓮",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-001",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。平本は朝倉未来に直近で勝利した当事者。",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "KO",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕が1RKO勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "平本の鈴木千裕勝ち予想は外れ。朝倉が3Rを通じてテイクダウン→パウンドで完封。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-002",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "堀口恭司",
+                "role": "fighter",
+                "affiliation": "RIZIN元フライ級王者・現役格闘家"
+            },
+            "content": {
+                "raw_text": "鈴木の2RTKO勝ち",
+                "normalized_text": "鈴木千裕が2ラウンドTKO勝ちすると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "堀口恭司",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-002",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "TKO",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕が2RTKO勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "堀口の鈴木千裕勝ち予想は外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-003",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "朝倉海",
+                "role": "fighter",
+                "affiliation": "RIZIN元バンタム級王者・朝倉未来の弟"
+            },
+            "content": {
+                "raw_text": "朝倉（未来）の勝利",
+                "normalized_text": "兄・朝倉未来が勝利すると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "朝倉海",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-003",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。朝倉未来の実弟・現役格闘家としての予想。",
+                "expected_winner": "朝倉未来",
+                "expected_method": null,
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "朝倉未来が勝利",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "朝倉海の朝倉未来勝ち予想は的中。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-004",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "クレベル・コイケ",
+                "role": "fighter",
+                "affiliation": "RIZIN元フェザー級王者（同大会メインに出場）"
+            },
+            "content": {
+                "raw_text": "鈴木千裕の一本勝ち",
+                "normalized_text": "鈴木千裕が一本勝ちすると予想。直近で鈴木に勝った立場からの見解。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "クレベル・コイケ",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-004",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。直近のRIZIN DECADEで鈴木千裕に勝利した立場から。",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "Submission",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕が一本勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "クレベルの鈴木千裕勝ち予想は外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-005",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "石渡伸太郎",
+                "role": "coach",
+                "affiliation": "RIZIN漢塾塾長・元格闘家"
+            },
+            "content": {
+                "raw_text": "朝倉の判定勝ち",
+                "normalized_text": "朝倉未来が判定勝ちすると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "石渡伸太郎",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-005",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。",
+                "expected_winner": "朝倉未来",
+                "expected_method": "判定",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "朝倉未来が判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "石渡の朝倉未来勝ち予想は的中（手段はTKOで判定とは異なる）。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-006",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "川尻達也",
+                "role": "fighter",
+                "affiliation": "元UFC・DREAM参戦・現役格闘家"
+            },
+            "content": {
+                "raw_text": "鈴木千裕の1R右フックでKO",
+                "normalized_text": "鈴木千裕が1ラウンドに右フックでKO勝ちすると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "川尻達也",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-006",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "KO",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕が1R右フックKO勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "川尻の鈴木千裕勝ち予想は外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-007",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "青木真也",
+                "role": "fighter",
+                "affiliation": "元DREAM王者・グラップリング世界王者"
+            },
+            "content": {
+                "raw_text": "鈴木のKO勝ち",
+                "normalized_text": "鈴木千裕がKO勝ちすると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "青木真也",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-007",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "KO",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕がKO勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "青木の鈴木千裕勝ち予想は外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-008",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "斎藤裕",
+                "role": "fighter",
+                "affiliation": "元RIZINフェザー級王者・現役格闘家"
+            },
+            "content": {
+                "raw_text": "朝倉の判定勝ち",
+                "normalized_text": "朝倉未来が判定勝ちすると予想。フェザー級元王者としての見立て。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "斎藤裕",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-008",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家が予想）。フェザー級元王者の立場から。",
+                "expected_winner": "朝倉未来",
+                "expected_method": "判定",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "朝倉未来が判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "斎藤の朝倉未来勝ち予想は的中（手段はTKO）。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-009",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "大沢ケンジ",
+                "role": "coach",
+                "affiliation": "GUTSMAN GYM代表・格闘技解説者"
+            },
+            "content": {
+                "raw_text": "朝倉の判定勝ち",
+                "normalized_text": "朝倉未来が判定勝ちすると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "大沢ケンジ",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-009",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事（19人の格闘家・識者が予想）。",
+                "expected_winner": "朝倉未来",
+                "expected_method": "判定",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "朝倉未来が判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "大沢の朝倉未来勝ち予想は的中（手段はTKO）。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-010",
+            "statement_date": "2025-05-02",
+            "speaker": {
+                "name": "扇久保博正",
+                "role": "fighter",
+                "affiliation": "現役MMAファイター・元RIZIN参戦"
+            },
+            "content": {
+                "raw_text": "鈴木の判定勝ち",
+                "normalized_text": "鈴木千裕が判定勝ちすると予想。朝倉のダメージ蓄積を懸念し、鈴木の方がキツい相手との見立て。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/334922",
+                "timestamp": "2025-05-02前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "扇久保博正",
+                "source_url": "https://spread-sports.jp/archives/334922",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-010",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭り事前勝敗予想まとめ記事。別記事（https://spread-sports.jp/archives/332465）でも詳細分析。",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "判定",
+                "target": "朝倉未来 vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕が判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "朝倉未来",
+                "method": "TKO",
+                "actual_outcome": "朝倉未来が3R1分56秒ドクターストップTKO勝ち",
+                "notes": "扇久保の鈴木千裕勝ち予想は外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-011",
+            "statement_date": "2025-04-28",
+            "speaker": {
+                "name": "扇久保博正",
+                "role": "fighter",
+                "affiliation": "現役MMAファイター・元RIZIN参戦"
+            },
+            "content": {
+                "raw_text": "シェイドゥラエフを止められるのはクレベルしかいないと思っていた。打撃がキーになってくる。クレベルなら下になっても極めるのでは。クレベルが三角絞め→シェイドゥラエフが防いで片足スイープ→クレベルがマウントからパウンド→バックチョーク。クレベル1ラウンド一本勝ち。会場大爆発",
+                "normalized_text": "クレベル・コイケがシェイドゥラエフを1ラウンドでバックチョーク一本勝ちすると予想。シェイドゥラエフを止められるのはクレベルだけと分析。柔術技（三角絞め・バックチョーク）がカギと見立て。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://spread-sports.jp/archives/333095",
+                "timestamp": "2025-04-28前後"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "扇久保博正",
+                "source_url": "https://spread-sports.jp/archives/333095",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-011",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD格闘技、RIZIN男祭りメインカード（クレベルvsシェイドゥラエフ）の事前予想記事。扇久保のYouTube「おぎちゃんねる」でのコメントを記事化。",
+                "expected_winner": "クレベル・コイケ",
+                "expected_method": "Submission",
+                "target": "クレベル・コイケ vs ラジャブアリ・シェイドゥラエフ",
+                "expected_outcome": "クレベルが1ラウンドバックチョーク一本勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-05-04",
+                "winner": "ラジャブアリ・シェイドゥラエフ",
+                "method": "KO",
+                "actual_outcome": "シェイドゥラエフが1R62秒右オーバーハンドKO勝ち。新フェザー級王者に。",
+                "notes": "扇久保のクレベル勝ち予想は外れ。シェイドゥラエフが打撃でKO勝ち。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-012",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "平本丈が3ラウンドつけ切って、え、判定勝ち予想にしておきます",
+                "normalized_text": "平本丈の判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-012",
+                "expected_winner": "平本丈",
+                "expected_method": "判定",
+                "target": "平本丈 vs 田丸辰",
+                "expected_outcome": "平本丈の判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "平本丈",
+                "method": "Decision",
+                "actual_outcome": "平本丈の勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-013",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "山本アーセンの漬け切っての判定勝ち",
+                "normalized_text": "山本アーセンの判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-013",
+                "expected_winner": "山本アーセン",
+                "expected_method": "判定",
+                "target": "山本アーセン vs 冨澤大智",
+                "expected_outcome": "山本アーセンの判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "山本アーセン",
+                "method": "Submission",
+                "actual_outcome": "山本アーセンの勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-014",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "ジョンドッドソン うん。1ラウンドTKO勝ち予想にしておきます",
+                "normalized_text": "ジョン・ドッドソンの1RTKO勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-014",
+                "expected_winner": "ジョン・ドッドソン",
+                "expected_method": "TKO",
+                "target": "ジョン・ドッドソン vs 征矢貴",
+                "expected_outcome": "ジョン・ドッドソンの1RTKO勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想外れ。",
+                "verification_date": "2025-05-05",
+                "winner": "征矢貴",
+                "method": "Decision",
+                "actual_outcome": "征矢貴の勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-015",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "後ろ向いた篠塚にバックでキープしてチョーク1本勝ち。はい。ここはヒロヤ勝利予想にしておきます",
+                "normalized_text": "ヒロヤの一本勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-015",
+                "expected_winner": "ヒロヤ",
+                "expected_method": "Submission",
+                "target": "ヒロヤ vs 篠塚辰樹",
+                "expected_outcome": "ヒロヤの一本勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "ヒロヤ",
+                "method": "TKO",
+                "actual_outcome": "ヒロヤの勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-016",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "テイクダウン切るけど最後の方はテイクダウンされてバックとか捉えて判定勝ち予想にしておきます",
+                "normalized_text": "ダニー・サバテロの判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-016",
+                "expected_winner": "ダニー・サバテロ",
+                "expected_method": "判定",
+                "target": "ダニー・サバテロ vs 太田忍",
+                "expected_outcome": "ダニー・サバテロの判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "ダニー・サバテロ",
+                "method": "TKO",
+                "actual_outcome": "ダニー・サバテロの勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-017",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "桜庭が2ラウンドアンクルホールドでうん、1本勝ち",
+                "normalized_text": "桜庭大世の2R一本勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-017",
+                "expected_winner": "桜庭大世",
+                "expected_method": "Submission",
+                "target": "桜庭大世 vs 中村大介",
+                "expected_outcome": "桜庭大世の2R一本勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想外れ。",
+                "verification_date": "2025-05-05",
+                "winner": "中村大介",
+                "method": "Submission",
+                "actual_outcome": "中村大介の勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-018",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "神龍が勝つ気がする俺は。でも一本は難しいと思ってて。うん。判定で神龍結構でも完勝で",
+                "normalized_text": "神龍誠の判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-018",
+                "expected_winner": "神龍誠",
+                "expected_method": "判定",
+                "target": "神龍誠 vs 伊藤裕樹",
+                "expected_outcome": "神龍誠の判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "神龍誠",
+                "method": "Decision",
+                "actual_outcome": "神龍誠の勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-019",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "工事が判定で勝つと思います",
+                "normalized_text": "皇治の判定勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ci4aoIdGp_w",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-019",
+                "expected_winner": "皇治",
+                "expected_method": "判定",
+                "target": "皇治 vs シナ・カリミアン",
+                "expected_outcome": "皇治の判定勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "unverified",
+                "notes": "試合結果を要確認。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-020",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "サモチュクが、え、2ラウンドパウンドで、えー、マウントからのパウンドで、え、TKO勝ち予想",
+                "normalized_text": "サモチュクの2RTKO勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=NJ8CJ3d9MDk",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=NJ8CJ3d9MDk",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-020",
+                "expected_winner": "マレク・サモチュク",
+                "expected_method": "TKO",
+                "target": "マレク・サモチュク vs ダニエル・ジェームス",
+                "expected_outcome": "サモチュクの2RTKO勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "マレク・サモチュク",
+                "method": "Decision",
+                "actual_outcome": "マレク・サモチュクの勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-021",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "最後下から十字2ラウンド。はい、予想にしておきます",
+                "normalized_text": "ジョゼ・アウグストの2R一本勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=NJ8CJ3d9MDk",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=NJ8CJ3d9MDk",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-021",
+                "expected_winner": "ジョゼ・アウグスト",
+                "expected_method": "Submission",
+                "target": "スダリオ剛 vs ジョゼ・アウグスト",
+                "expected_outcome": "ジョゼ・アウグストの2R一本勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想的中。",
+                "verification_date": "2025-05-05",
+                "winner": "ジョゼ・アウグスト",
+                "method": "Decision",
+                "actual_outcome": "ジョゼ・アウグストの勝利"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-otokomatsuri-2025-022",
+            "statement_date": "2025-05-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "元DEEP王者・YouTuber"
+            },
+            "content": {
+                "raw_text": "ラウンドテイクダウン奪って結構削って2ラウンドチョークで1本勝ち予想",
+                "normalized_text": "シビサイ頌真の2R一本勝ちと予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=NJ8CJ3d9MDk",
+                "timestamp": "2025-05-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=NJ8CJ3d9MDk",
+                "source_ref": "stmt-rizin-otokomatsuri-2025-022",
+                "expected_winner": "シビサイ頌真",
+                "expected_method": "Submission",
+                "target": "上田幹雄 vs シビサイ頌真",
+                "expected_outcome": "シビサイ頌真の2R一本勝ち",
+                "deadline": "2025-05-04"
+            },
+            "verification": {
+                "status": "resolved",
+                "notes": "予想外れ。",
+                "verification_date": "2025-05-05",
+                "winner": "上田幹雄",
+                "method": "KO",
+                "actual_outcome": "上田幹雄の勝利"
+            }
+        }
+    ]
 }

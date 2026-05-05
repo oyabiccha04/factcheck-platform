@@ -1,546 +1,200 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-38",
-    "event_meta":  {
-                       "event_name":  "超RIZIN / RIZIN.38",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2022-09-25",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "さいたまスーパーアリーナ",
-                       "is_dome_class":  true
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "super",
-                      "card_name":  "超RIZIN",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin38-01",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "三浦孝太",
-                                        "blue":  "ブンチュアイ・ポーンスーンヌーン",
-                                        "outcome":  {
-                                                        "winner":  "三浦孝太",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "1:54",
-                                                        "result_note":  "腕十字"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-02",
-                                        "division":  "キック",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "吉成名高",
-                                        "blue":  "バンダサック・ソー・トラクンペット",
-                                        "outcome":  {
-                                                        "winner":  "吉成名高",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "2:24",
-                                                        "result_note":  "レフェリーストップ"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-03",
-                                        "division":  "キック",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "皇治",
-                                        "blue":  "ジジ",
-                                        "outcome":  {
-                                                        "winner":  "皇治",
-                                                        "method":  "TKO",
-                                                        "round":  3,
-                                                        "time":  "0:50",
-                                                        "result_note":  "レフェリーストップ"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-04",
-                                        "division":  "エキシビション",
-                                        "rules":  "スペシャルルール",
-                                        "red":  "フロイド・メイウェザー",
-                                        "blue":  "朝倉未来",
-                                        "outcome":  {
-                                                        "winner":  "フロイド・メイウェザー",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "3:15",
-                                                        "result_note":  "レフェリーストップ"
-                                                    },
-                                        "discipline":  "BOXING"
-                                    }
-                                ]
-                  },
-                  {
-                      "card_id":  "main",
-                      "card_name":  "RIZIN.38 メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin38-05",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "大原樹理",
-                                        "blue":  "ルイス・グスタボ",
-                                        "outcome":  {
-                                                        "winner":  "ルイス・グスタボ",
-                                                        "method":  "KO",
-                                                        "round":  1,
-                                                        "time":  "1:25",
-                                                        "result_note":  null
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-06",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "萩原京平",
-                                        "blue":  "鈴木千裕",
-                                        "outcome":  {
-                                                        "winner":  "鈴木千裕",
-                                                        "method":  "Submission",
-                                                        "round":  2,
-                                                        "time":  "2:14",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-07",
-                                        "division":  "120.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "シビサイ頌真",
-                                        "blue":  "カルリ・ギブレイン",
-                                        "outcome":  {
-                                                        "winner":  "シビサイ頌真",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "1:48",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-08",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "扇久保博正",
-                                        "blue":  "キム・スーチョル",
-                                        "outcome":  {
-                                                        "winner":  "キム・スーチョル",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-09",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN WORLD GP スーパーアトム級 2回戦 5分3R",
-                                        "red":  "浜崎朱加",
-                                        "blue":  "パク・シウ",
-                                        "outcome":  {
-                                                        "winner":  "パク・シウ",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-10",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN WORLD GP スーパーアトム級 2回戦 5分3R",
-                                        "red":  "伊澤星花",
-                                        "blue":  "アナスタシア・スヴェッキスカ",
-                                        "outcome":  {
-                                                        "winner":  "伊澤星花",
-                                                        "method":  "Submission",
-                                                        "round":  2,
-                                                        "time":  "4:56",
-                                                        "result_note":  "アームバー"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin38-11",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "堀口恭司",
-                                        "blue":  "金太郎",
-                                        "outcome":  {
-                                                        "winner":  "堀口恭司",
-                                                        "method":  "Submission",
-                                                        "round":  2,
-                                                        "time":  "0:59",
-                                                        "result_note":  "肩固め"
-                                                    },
-                                        "discipline":  "MMA"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-rizin-38-001",
-                           "statement_date":  "2022-09-23",
-                           "speaker":  {
-                                           "name":  "川尻達也",
-                                           "role":  "commentator",
-                                           "affiliation":  "元RIZINファイター/解説者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "展開としては、堀口選手が終始圧倒して、最後はパウンドかチョークで一本勝ちするんじゃないかと予想します。",
-                                           "normalized_text":  "堀口恭司が終始圧倒し、パウンドまたはチョークで一本勝ちと予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=FmYjN_NqM-c",
-                                          "timestamp":  "12:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "川尻達也",
-                                              "source_url":  "https://www.youtube.com/watch?v=FmYjN_NqM-c",
-                                              "source_ref":  "statement_id=stmt-rizin-38-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式YouTubeチャンネル「RIZIN.38 / 超RIZIN 勝敗予想」。",
-                                              "expected_winner":  "堀口恭司",
-                                              "expected_method":  "SUB",
-                                              "target":  "堀口恭司 vs 金太郎",
-                                              "expected_outcome":  "堀口恭司が一本勝ち",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "堀口恭司",
-                                                "method":  "Submission",
-                                                "actual_outcome":  "堀口恭司が一本勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-002",
-                           "statement_date":  "2022-09-21",
-                           "speaker":  {
-                                           "name":  "朝倉海",
-                                           "role":  "fighter",
-                                           "affiliation":  "JAPAN TOP TEAM"
-                                       },
-                           "content":  {
-                                           "raw_text":  "鈴木選手は勢いがあるけれど、萩原選手が打撃で競り勝ってKOする展開を期待しているし、そうなると思う。",
-                                           "normalized_text":  "萩原京平が打撃で競り勝ち、KO勝利すると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=7XvF_fHq-I0",
-                                          "timestamp":  "05:20"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "朝倉海",
-                                              "source_url":  "https://www.youtube.com/watch?v=7XvF_fHq-I0",
-                                              "source_ref":  "statement_id=stmt-rizin-38-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。朝倉海公式YouTubeチャンネル。",
-                                              "expected_winner":  "萩原京平",
-                                              "expected_method":  "KO",
-                                              "target":  "萩原京平 vs 鈴木千裕",
-                                              "expected_outcome":  "萩原京平がKO勝ち",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "鈴木千裕",
-                                                "method":  "Submission",
-                                                "actual_outcome":  "鈴木千裕が一本勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-003",
-                           "statement_date":  "2022-09-24",
-                           "speaker":  {
-                                           "name":  "石渡伸太郎",
-                                           "role":  "coach",
-                                           "affiliation":  "CAVE"
-                                       },
-                           "content":  {
-                                           "raw_text":  "扇久保選手がしつこく組んで、削って、判定で競り勝つ展開。キム・スーチョル選手は強いが扇久保選手が上回る。",
-                                           "normalized_text":  "扇久保博正が組みで削り、判定勝ちを収めると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=E_MvJ8yX_qM",
-                                          "timestamp":  "08:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "石渡伸太郎",
-                                              "source_url":  "https://www.youtube.com/watch?v=E_MvJ8yX_qM",
-                                              "source_ref":  "statement_id=stmt-rizin-38-003",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式YouTubeチャンネル「イシワタシ」。",
-                                              "expected_winner":  "扇久保博正",
-                                              "expected_method":  "判定",
-                                              "target":  "扇久保博正 vs キム・スーチョル",
-                                              "expected_outcome":  "扇久保博正が判定勝ち",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "キム・スーチョル",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "キム・スーチョルが判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-004",
-                           "statement_date":  "2022-09-22",
-                           "speaker":  {
-                                           "name":  "川尻達也",
-                                           "role":  "fighter",
-                                           "affiliation":  "フリー"
-                                       },
-                           "content":  {
-                                           "raw_text":  "展開としてはメイウェザーが遊んで終わるか、未来くんがどこかで一発当てるか。ただ勝敗予想となるとメイウェザー。",
-                                           "normalized_text":  "メイウェザーの勝利を予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=N6Lp3yUuM0k",
-                                          "timestamp":  "08:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "川尻達也",
-                                              "source_url":  "https://www.youtube.com/watch?v=N6Lp3yUuM0k",
-                                              "source_ref":  "statement_id=stmt-rizin-38-004",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネル「川尻達也 Tatsuya Kawajiri」。",
-                                              "expected_winner":  "フロイド・メイウェザー",
-                                              "expected_method":  "不明",
-                                              "target":  "フロイド・メイウェザー vs 朝倉未来",
-                                              "expected_outcome":  "メイウェザーが勝利",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "フロイド・メイウェザー",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "フロイド・メイウェザーがTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-005",
-                           "statement_date":  "2022-09-23",
-                           "speaker":  {
-                                           "name":  "前田日明",
-                                           "role":  "other",
-                                           "affiliation":  "リングス"
-                                       },
-                           "content":  {
-                                           "raw_text":  "メイウェザーに勝つのは至難の業。普通に考えたらメイウェザーですよ。",
-                                           "normalized_text":  "客観的な実力差からメイウェザーの勝利を予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=9_pY6p-uK_M",
-                                          "timestamp":  "05:12"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "前田日明",
-                                              "source_url":  "https://www.youtube.com/watch?v=9_pY6p-uK_M",
-                                              "source_ref":  "statement_id=stmt-rizin-38-005",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネル「前田日明チャンネル」。",
-                                              "expected_winner":  "フロイド・メイウェザー",
-                                              "expected_method":  "不明",
-                                              "target":  "フロイド・メイウェザー vs 朝倉未来",
-                                              "expected_outcome":  "メイウェザーが勝利",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "フロイド・メイウェザー",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "フロイド・メイウェザーがTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-006",
-                           "statement_date":  "2022-09-20",
-                           "speaker":  {
-                                           "name":  "石渡伸太郎",
-                                           "role":  "coach",
-                                           "affiliation":  "CAVE"
-                                       },
-                           "content":  {
-                                           "raw_text":  "僕はもうキム・スーチョル選手が削りきって勝つんじゃないかと予想します。",
-                                           "normalized_text":  "キム・スーチョルが勝つと予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=E_u7zS_VIsE",
-                                          "timestamp":  "12:30"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "石渡伸太郎",
-                                              "source_url":  "https://www.youtube.com/watch?v=E_u7zS_VIsE",
-                                              "source_ref":  "statement_id=stmt-rizin-38-006",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネル「石渡伸太郎 オフィシャル」。",
-                                              "expected_winner":  "キム・スーチョル",
-                                              "expected_method":  "判定",
-                                              "target":  "扇久保博正 vs キム・スーチョル",
-                                              "expected_outcome":  "キム・スーチョルが判定勝ち",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "キム・スーチョル",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "キム・スーチョルが判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-007",
-                           "statement_date":  "2022-09-21",
-                           "speaker":  {
-                                           "name":  "大橋秀行",
-                                           "role":  "coach",
-                                           "affiliation":  "大橋ボクシングジム"
-                                       },
-                           "content":  {
-                                           "raw_text":  "ボクシング技術で言えばメイウェザー。パンチを当てることすら難しい。",
-                                           "normalized_text":  "ボクシング競技の特性上、メイウェザーが圧倒すると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "article",
-                                          "url":  "https://www.tokyo-sports.co.jp/articles/-/238942",
-                                          "timestamp":  "不明"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "大橋秀行",
-                                              "source_url":  "https://www.tokyo-sports.co.jp/articles/-/238942",
-                                              "source_ref":  "statement_id=stmt-rizin-38-007",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。東スポWEB記事。",
-                                              "expected_winner":  "フロイド・メイウェザー",
-                                              "expected_method":  "不明",
-                                              "target":  "フロイド・メイウェザー vs 朝倉未来",
-                                              "expected_outcome":  "メイウェザーが勝利",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "フロイド・メイウェザー",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "フロイド・メイウェザーがTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-008",
-                           "statement_date":  "2022-09-24",
-                           "speaker":  {
-                                           "name":  "朝倉海",
-                                           "role":  "fighter",
-                                           "affiliation":  "JAPAN TOP TEAM"
-                                       },
-                           "content":  {
-                                           "raw_text":  "兄貴（未来）がKOで勝つ。作戦は完璧に練っている。",
-                                           "normalized_text":  "朝倉未来のKO勝利を予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=mY8Q0_qfC6o",
-                                          "timestamp":  "03:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "朝倉海",
-                                              "source_url":  "https://www.youtube.com/watch?v=mY8Q0_qfC6o",
-                                              "source_ref":  "statement_id=stmt-rizin-38-008",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネル「KAI Channel」。",
-                                              "expected_winner":  "朝倉未来",
-                                              "expected_method":  "KO",
-                                              "target":  "フロイド・メイウェザー vs 朝倉未来",
-                                              "expected_outcome":  "朝倉未来がKO勝ち",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "フロイド・メイウェザー",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "フロイド・メイウェザーがTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-38-009",
-                           "statement_date":  "2022-09-20",
-                           "speaker":  {
-                                           "name":  "那須川天心",
-                                           "role":  "fighter",
-                                           "affiliation":  "格闘家"
-                                       },
-                           "content":  {
-                                           "raw_text":  "メイウェザーが普通にやれば勝つ",
-                                           "normalized_text":  "メイウェザーの勝利を予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=R6u_D7uJ_34",
-                                          "timestamp":  "05:20"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "那須川天心",
-                                              "source_url":  "https://www.youtube.com/watch?v=R6u_D7uJ_34",
-                                              "source_ref":  "statement_id=stmt-rizin-38-009",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。本人のYouTubeチャンネル。",
-                                              "expected_winner":  "フロイド・メイウェザー",
-                                              "expected_method":  "不明",
-                                              "target":  "フロイド・メイウェザー vs 朝倉未来",
-                                              "expected_outcome":  "メイウェザーが勝利",
-                                              "deadline":  "2022-09-25"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-09-25",
-                                                "winner":  "フロイド・メイウェザー",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "フロイド・メイウェザーがTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-38",
+    "event_meta": {
+        "event_name": "超RIZIN / RIZIN.38",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2022-09-25",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "さいたまスーパーアリーナ",
+        "is_dome_class": true
+    },
+    "cards": [
+        {
+            "card_id": "super",
+            "card_name": "超RIZIN",
+            "bouts": [
+                {
+                    "bout_id": "rizin38-04",
+                    "division": "エキシビション",
+                    "rules": "スペシャルルール",
+                    "red": "フロイド・メイウェザー",
+                    "blue": "朝倉未来",
+                    "outcome": {
+                        "winner": "フロイド・メイウェザー",
+                        "method": "TKO",
+                        "round": 2,
+                        "time": "3:15",
+                        "result_note": "レフェリーストップ"
+                    },
+                    "discipline": "BOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-38-001",
+            "statement_date": "2022-06-17",
+            "speaker": {
+                "name": "前田日明",
+                "role": "other",
+                "affiliation": "リングス"
+            },
+            "content": {
+                "raw_text": "普通に考えたらコテンパン。メイウェザーですよ。",
+                "normalized_text": "客観的な実力差からメイウェザーの勝利を予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://efight.jp/news-20220617_1131899",
+                "timestamp": null
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "前田日明",
+                "source_url": "https://efight.jp/news-20220617_1131899",
+                "source_ref": "statement_id=stmt-rizin-38-001",
+                "source_note": "eFight記事から抽出",
+                "expected_winner": "フロイド・メイウェザー",
+                "expected_method": "不明",
+                "target": "フロイド・メイウェザー vs 朝倉未来",
+                "expected_outcome": "メイウェザーが勝利",
+                "deadline": "2022-09-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-09-25",
+                "winner": "フロイド・メイウェザー",
+                "method": "TKO",
+                "actual_outcome": "フロイド・メイウェザーがTKO勝ち",
+                "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-38-002",
+            "statement_date": "2022-06-16",
+            "speaker": {
+                "name": "魔裟斗",
+                "role": "retired fighter",
+                "affiliation": "フリー"
+            },
+            "content": {
+                "raw_text": "メイウェザーにとっては軽いスパーリング。朝倉選手にとって厳しい戦いになる",
+                "normalized_text": "メイウェザーが勝利すると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sponichi.co.jp/battle/news/2022/06/16/kiji/20220616s00003000554000c.html",
+                "timestamp": null
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "魔裟斗",
+                "source_url": "https://www.sponichi.co.jp/battle/news/2022/06/16/kiji/20220616s00003000554000c.html",
+                "source_ref": "statement_id=stmt-rizin-38-002",
+                "source_note": "スポニチ記事から抽出",
+                "expected_winner": "フロイド・メイウェザー",
+                "expected_method": "不明",
+                "target": "フロイド・メイウェザー vs 朝倉未来",
+                "expected_outcome": "メイウェザーが勝利",
+                "deadline": "2022-09-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-09-25",
+                "winner": "フロイド・メイウェザー",
+                "method": "TKO",
+                "actual_outcome": "フロイド・メイウェザーがTKO勝ち",
+                "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-38-003",
+            "statement_date": "2022-06-21",
+            "speaker": {
+                "name": "京口紘人",
+                "role": "fighter",
+                "affiliation": "ワタナベボクシングジム"
+            },
+            "content": {
+                "raw_text": "朝倉未来が勝つのは9：1で無理。試合展開は塩漬けになる",
+                "normalized_text": "メイウェザーの勝利と、一方的な展開を予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sponichi.co.jp/battle/news/2022/06/21/kiji/20220621s00003000554000c.html",
+                "timestamp": null
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "京口紘人",
+                "source_url": "https://www.sponichi.co.jp/battle/news/2022/06/21/kiji/20220621s00003000554000c.html",
+                "source_ref": "statement_id=stmt-rizin-38-003",
+                "source_note": "スポニチ記事から抽出",
+                "expected_winner": "フロイド・メイウェザー",
+                "expected_method": "不明",
+                "target": "フロイド・メイウェザー vs 朝倉未来",
+                "expected_outcome": "メイウェザーが勝利",
+                "deadline": "2022-09-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-09-25",
+                "winner": "フロイド・メイウェザー",
+                "method": "TKO",
+                "actual_outcome": "フロイド・メイウェザーがTKO勝ち",
+                "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-38-004",
+            "statement_date": "2022-06-25",
+            "speaker": {
+                "name": "内藤大助",
+                "role": "retired fighter",
+                "affiliation": "元WBC世界フライ級王者"
+            },
+            "content": {
+                "raw_text": "勝つのは99%ない。キックボクサーがボクシングルールで勝てるわけない。",
+                "normalized_text": "ボクシングルールでのメイウェザー勝利を予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=9tN_sQqL1OM",
+                "timestamp": "04:00"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "内藤大助",
+                "source_url": "https://www.youtube.com/watch?v=9tN_sQqL1OM",
+                "source_ref": "statement_id=stmt-rizin-38-004",
+                "source_note": "本人の公式YouTubeチャンネル動画より抽出",
+                "expected_winner": "フロイド・メイウェザー",
+                "expected_method": "不明",
+                "target": "フロイド・メイウェザー vs 朝倉未来",
+                "expected_outcome": "メイウェザーが勝利",
+                "deadline": "2022-09-25"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-09-25",
+                "winner": "フロイド・メイウェザー",
+                "method": "TKO",
+                "actual_outcome": "フロイド・メイウェザーがTKO勝ち",
+                "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

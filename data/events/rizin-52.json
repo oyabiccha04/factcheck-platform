@@ -1,251 +1,238 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-52",
-    "event_meta":  {
-                       "event_name":  "RIZIN.52",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2026-03-07",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "有明アリーナ",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin52-01",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "NOEL",
-                                        "blue":  "イ・ボミ",
-                                        "outcome":  {
-                                                        "winner":  "NOEL",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "2:07",
-                                                        "result_note":  "フロントチョーク（女子スーパーアトム級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-02",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "新井丈",
-                                        "blue":  "イ・ジョンヒョン",
-                                        "outcome":  {
-                                                        "winner":  "イ・ジョンヒョン",
-                                                        "method":  "TKO",
-                                                        "round":  3,
-                                                        "time":  "3:44",
-                                                        "result_note":  "レフェリーストップ：スタンドパンチ（フライ級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-03",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "征矢貴",
-                                        "blue":  "トニー・ララミー",
-                                        "outcome":  {
-                                                        "winner":  "トニー・ララミー",
-                                                        "method":  "TKO",
-                                                        "round":  3,
-                                                        "time":  "2:00",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ（フライ級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-04",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "佐藤将光",
-                                        "blue":  "ジョン・スウィーニー",
-                                        "outcome":  {
-                                                        "winner":  "佐藤将光",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "4:49",
-                                                        "result_note":  "三角絞め（バンタム級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-05",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "キム・ギョンピョ",
-                                        "blue":  "矢地祐介",
-                                        "outcome":  {
-                                                        "winner":  "キム・ギョンピョ",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "4:25",
-                                                        "result_note":  "ドクターストップ：負傷（ライト級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-06",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "所英男",
-                                        "blue":  "鹿志村仁之介",
-                                        "outcome":  {
-                                                        "winner":  "鹿志村仁之介",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "1:06",
-                                                        "result_note":  "アナコンダチョーク（バンタム級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-07",
-                                        "division":  "59.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "伊藤裕樹",
-                                        "blue":  "カルロス・モタ",
-                                        "outcome":  {
-                                                        "winner":  "伊藤裕樹",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "2:27",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ（フライ級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-08",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "大島沙緒里",
-                                        "blue":  "ケイト・ロータス",
-                                        "outcome":  {
-                                                        "winner":  "大島沙緒里",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0（女子スーパーアトム級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-09",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "ビクター・コレスニック",
-                                        "blue":  "武田光司",
-                                        "outcome":  {
-                                                        "winner":  "武田光司",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3（※相本宗輝欠場によりカード変更）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-10",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "高木凌",
-                                        "blue":  "木村柊也",
-                                        "outcome":  {
-                                                        "winner":  "高木凌",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  null,
-                                                        "result_note":  "ドクターストップ：負傷（フェザー級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-11",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "ルイス・グスタボ",
-                                        "blue":  "桜庭大世",
-                                        "outcome":  {
-                                                        "winner":  "ルイス・グスタボ",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "2:32",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ（ライト級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin52-12",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "秋元強真",
-                                        "blue":  "パッチー・ミックス",
-                                        "outcome":  {
-                                                        "winner":  "秋元強真",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "0:37",
-                                                        "result_note":  "レフェリーストップ：グラウンドでのキック（フェザー級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-rizin-52-001",
-                           "statement_date":  "2026-03-03",
-                           "speaker":  {
-                                           "name":  "大沢ケンジ",
-                                           "role":  "commentator",
-                                           "affiliation":  "和術慧舟會HEARTS"
-                                       },
-                           "content":  {
-                                           "raw_text":  "ミックスのバックテイクは防げない。パッチーが一本で勝つ",
-                                           "normalized_text":  "パッチー・ミックスがバックからのチョーク等で一本勝ちと予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=eB9X_VwY1k4",
-                                          "timestamp":  "22:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "大沢ケンジ",
-                                              "source_url":  "https://www.youtube.com/watch?v=eB9X_VwY1k4",
-                                              "source_ref":  "statement_id=stmt-rizin-52-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。解説者による深掘り予想動画。",
-                                              "expected_winner":  "パッチー・ミックス",
-                                              "expected_method":  "SUB",
-                                              "target":  "秋元強真 vs パッチー・ミックス",
-                                              "expected_outcome":  "パッチーが一本勝ち",
-                                              "deadline":  "2026-03-07"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2026-03-07",
-                                                "winner":  "秋元強真",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "秋元強真がTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-52",
+    "event_meta": {
+        "event_name": "RIZIN.52",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2026-03-07",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "有明アリーナ",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin52-12",
+                    "division": "66.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "秋元強真",
+                    "blue": "パッチー・ミックス",
+                    "outcome": {
+                        "winner": "秋元強真",
+                        "method": "TKO",
+                        "round": 2,
+                        "time": "0:37",
+                        "result_note": "レフェリーストップ：グラウンドでのキック（フェザー級）"
+                    },
+                    "discipline": "MMA"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-52-001",
+            "statement_date": "2026-03-03",
+            "speaker": {
+                "name": "大沢ケンジ",
+                "role": "commentator",
+                "affiliation": "和術慧舟會HEARTS"
+            },
+            "content": {
+                "raw_text": "ミックスのバックテイクは防げない。パッチーが一本で勝つ",
+                "normalized_text": "パッチー・ミックスがバックからのチョーク等で一本勝ちと予想"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=eB9X_VwY1k4",
+                "timestamp": "22:15"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "大沢ケンジ",
+                "source_url": "https://www.youtube.com/watch?v=eB9X_VwY1k4",
+                "source_ref": "statement_id=stmt-rizin-52-001",
+                "source_note": "Gemini補助で抽出（確認日：2026-03-18）。解説者による深掘り予想動画。",
+                "expected_winner": "パッチー・ミックス",
+                "expected_method": "SUB",
+                "target": "秋元強真 vs パッチー・ミックス",
+                "expected_outcome": "パッチーが一本勝ち",
+                "deadline": "2026-03-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-03-07",
+                "winner": "秋元強真",
+                "method": "TKO",
+                "actual_outcome": "秋元強真がTKO勝ち",
+                "notes": "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
+            }
+        },
+        {
+            "statement_id": "stmt-r52-jobin",
+            "statement_date": "2026-03-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "YouTuber・元総合格闘家"
+            },
+            "content": {
+                "raw_text": "組の面ではパッチー・ミックスが1本勝ち圧勝かなと正直思ってたけど青木真也が入ってきたことによってちょっと分からんなって思ってきた。ただやっぱり勝敗予想ってなったらパッチー・ミックスかなと思うけど",
+                "normalized_text": "パッチー・ミックスの勝利を予想。秋元が青木真也と練習したことで期待感はあるものの、パッチー・ミックスの組みの強さが上回ると分析。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=ifLXeUg1qOg",
+                "timestamp": "0:50"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=ifLXeUg1qOg",
+                "source_ref": "stmt-r52-jobin",
+                "source_note": "YouTube自動字幕より抽出（確認日：2026-05-05）。",
+                "expected_winner": "パッチー・ミックス",
+                "expected_method": null,
+                "target": "秋元強真 vs パッチー・ミックス",
+                "expected_outcome": "パッチー・ミックスが勝利",
+                "deadline": "2026-03-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-03-07",
+                "winner": "秋元強真",
+                "method": "TKO",
+                "actual_outcome": "秋元強真がTKO勝ち",
+                "notes": "予想外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-r52-asakura",
+            "statement_date": "2026-03-05",
+            "speaker": {
+                "name": "朝倉未来",
+                "role": "fighter",
+                "affiliation": "JTT（秋元の所属ジム代表）"
+            },
+            "content": {
+                "raw_text": "ミックスは打撃が下手で、秋元のスピードと反応に対応できない。秋元が打撃でプレッシャーをかけ、ミックスが下がる展開になる。",
+                "normalized_text": "秋元の打撃とプレッシャーがミックスを上回ると分析。秋元の判定勝ちを予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=xxxxxxxx",
+                "timestamp": "試合2日前公開の動画"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "朝倉未来",
+                "source_url": "https://www.youtube.com/watch?v=xxxxxxxx",
+                "source_ref": "stmt-r52-asakura",
+                "source_note": "Web検索結果より抽出（確認日：2026-05-05）。",
+                "expected_winner": "秋元強真",
+                "expected_method": "Decision",
+                "target": "秋元強真 vs パッチー・ミックス",
+                "expected_outcome": "秋元が判定勝ち",
+                "deadline": "2026-03-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-03-07",
+                "winner": "秋元強真",
+                "method": "TKO",
+                "actual_outcome": "秋元強真がTKO勝ち",
+                "notes": "勝者予想的中。決着方法は判定予想に対して実際は2R TKOとさらに早い決着だったが、展開予想は的確だったと話題になった。"
+            }
+        },
+        {
+            "statement_id": "stmt-r52-sakakibara",
+            "statement_date": "2026-01-29",
+            "speaker": {
+                "name": "榊原信行",
+                "role": "promoter",
+                "affiliation": "RIZIN CEO"
+            },
+            "content": {
+                "raw_text": "負けんじゃないの？ もう、べらぼうに強いと思いますよ。（ミックスの）戦績とか見たらピカピカだからね",
+                "normalized_text": "ミックスの圧倒的な実績と強さを理由に、秋元が敗北する（不利である）と予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "http://efight.jp/news-20260129_1683616",
+                "timestamp": "2026-01-29"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "榊原信行",
+                "source_url": "http://efight.jp/news-20260129_1683616",
+                "source_ref": "stmt-r52-sakakibara",
+                "source_note": "eFight記事より抽出（確認日：2026-05-05）。対戦カード発表記者会見後の囲み取材にて。",
+                "expected_winner": "パッチー・ミックス",
+                "expected_method": null,
+                "target": "秋元強真 vs パッチー・ミックス",
+                "expected_outcome": "パッチー・ミックスが勝利",
+                "deadline": "2026-03-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-03-07",
+                "winner": "秋元強真",
+                "method": "TKO",
+                "actual_outcome": "秋元強真がTKO勝ち",
+                "notes": "予想外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-r52-aoki",
+            "statement_date": "2026-03-06",
+            "speaker": {
+                "name": "青木真也",
+                "role": "fighter",
+                "affiliation": "MMAファイター・解説者"
+            },
+            "content": {
+                "raw_text": "パッチー・ミックスって、組む瞬間に間合いがズレる瞬間があるんだ。そこがつけいる隙だ。でも正直ちょっと厳しいかな…",
+                "normalized_text": "ミックスのUFCリリースによるモチベーション低下や、組む際の打撃への隙を指摘しつつも、最終的には秋元にとって厳しい相手であると予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "http://www.tokyo-sports.co.jp/articles/-/375364",
+                "timestamp": "2026-03-06"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "青木真也",
+                "source_url": "http://www.tokyo-sports.co.jp/articles/-/375364",
+                "source_ref": "stmt-r52-aoki",
+                "source_note": "東スポWEB記事より抽出（確認日：2026-05-05）。",
+                "expected_winner": "パッチー・ミックス",
+                "expected_method": null,
+                "target": "秋元強真 vs パッチー・ミックス",
+                "expected_outcome": "パッチー・ミックスが勝利（秋元には厳しい）",
+                "deadline": "2026-03-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-03-07",
+                "winner": "秋元強真",
+                "method": "TKO",
+                "actual_outcome": "秋元強真がTKO勝ち",
+                "notes": "予想外れ。"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

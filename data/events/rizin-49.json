@@ -1,372 +1,230 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-49",
-    "event_meta":  {
-                       "event_name":  "RIZIN DECADE / Yogibo presents RIZIN.49",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2024-12-31",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "さいたまスーパーアリーナ",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "RIZIN.49 メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin49-00",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN甲子園 5分2R",
-                                        "red":  "横内三旺",
-                                        "blue":  "斎藤健心",
-                                        "outcome":  {
-                                                        "winner":  "横内三旺",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "3:03",
-                                                        "result_note":  "リアネイキッドチョーク（RIZIN甲子園 決勝）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-01",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "大雅",
-                                        "blue":  "梅野源治",
-                                        "outcome":  {
-                                                        "winner":  "梅野源治",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-02",
-                                        "division":  "120.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "貴賢神",
-                                        "blue":  "エドポロキング",
-                                        "outcome":  {
-                                                        "winner":  "エドポロキング",
-                                                        "method":  "KO",
-                                                        "round":  1,
-                                                        "time":  "3:22",
-                                                        "result_note":  "スタンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-03",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "武田光司",
-                                        "blue":  "新居すぐる",
-                                        "outcome":  {
-                                                        "winner":  "武田光司",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  "4:09",
-                                                        "result_note":  "テクニカル判定3-0"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-04",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "矢地祐介",
-                                        "blue":  "桜庭大世",
-                                        "outcome":  {
-                                                        "winner":  "桜庭大世",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "0:26",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-05",
-                                        "division":  "59.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "神龍誠",
-                                        "blue":  "ホセ・トーレス",
-                                        "outcome":  {
-                                                        "winner":  "ホセ・トーレス",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定1-2"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-06",
-                                        "division":  "120.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "上田幹雄",
-                                        "blue":  "キム・テイン",
-                                        "outcome":  {
-                                                        "winner":  "上田幹雄",
-                                                        "method":  "KO",
-                                                        "round":  2,
-                                                        "time":  "2:31",
-                                                        "result_note":  "スタンドでの膝攻撃"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-07",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "福田龍彌",
-                                        "blue":  "芦澤竜誠",
-                                        "outcome":  {
-                                                        "winner":  "福田龍彌",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "0:54",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-08",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "YA-MAN",
-                                        "blue":  "カルシャガ・ダウトベック",
-                                        "outcome":  {
-                                                        "winner":  "カルシャガ・ダウトベック",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-09",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "久保優太",
-                                        "blue":  "ラジャブアリ・シェイドゥラエフ",
-                                        "outcome":  {
-                                                        "winner":  "ラジャブアリ・シェイドゥラエフ",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "2:30",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-10",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "元谷友貴",
-                                        "blue":  "秋元強真",
-                                        "outcome":  {
-                                                        "winner":  "元谷友貴",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0（バンタム級王座次期挑戦者決定戦）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-11",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "伊澤星花",
-                                        "blue":  "ルシア・アプデルガリム",
-                                        "outcome":  {
-                                                        "winner":  "伊澤星花",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "2:21",
-                                                        "result_note":  "アームバー（女子スーパーアトム級）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-12",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "ホベルト・サトシ・ソウザ",
-                                        "blue":  "ヴガール・ケラモフ",
-                                        "outcome":  {
-                                                        "winner":  "ホベルト・サトシ・ソウザ",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "4:45",
-                                                        "result_note":  "三角絞め（ライト級タイトルマッチ）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-13",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "堀口恭司",
-                                        "blue":  "エンカジムーロ・ズールー",
-                                        "outcome":  {
-                                                        "winner":  "堀口恭司",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0（フライ級タイトルマッチ）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin49-14",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "鈴木千裕",
-                                        "blue":  "クレベル・コイケ",
-                                        "outcome":  {
-                                                        "winner":  "クレベル・コイケ",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0（フェザー級タイトルマッチ）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-rizin-49-001",
-                           "statement_date":  "2024-12-25",
-                           "speaker":  {
-                                           "name":  "朝倉海",
-                                           "role":  "fighter",
-                                           "affiliation":  "元RIZIN王者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "クレベル選手が一本取るんじゃないかなと思います",
-                                           "normalized_text":  "クレベルが一本勝ちすると予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=F7mN8x7F6-M",
-                                          "timestamp":  "12:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "朝倉海",
-                                              "source_url":  "https://www.youtube.com/watch?v=F7mN8x7F6-M",
-                                              "source_ref":  "statement_id=stmt-rizin-49-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。公式YouTube勝敗予想動画。",
-                                              "expected_winner":  "クレベル・コイケ",
-                                              "expected_method":  "SUB",
-                                              "target":  "鈴木千裕 vs クレベル・コイケ",
-                                              "expected_outcome":  "クレベルが一本勝ち",
-                                              "deadline":  "2024-12-31"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-12-31",
-                                                "winner":  "クレベル・コイケ",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "クレベル・コイケが判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-49-002",
-                           "statement_date":  "2024-12-28",
-                           "speaker":  {
-                                           "name":  "石渡伸太郎",
-                                           "role":  "coach",
-                                           "affiliation":  "CAVE"
-                                       },
-                           "content":  {
-                                           "raw_text":  "久保選手が打撃で完封して判定、もしくはKOで勝つ",
-                                           "normalized_text":  "久保が打撃で圧倒し勝利すると予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=Pq_Zf_A2W6Y",
-                                          "timestamp":  "08:12"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "石渡伸太郎",
-                                              "source_url":  "https://www.youtube.com/watch?v=Pq_Zf_A2W6Y",
-                                              "source_ref":  "statement_id=stmt-rizin-49-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。石渡伸太郎公式チャンネル。",
-                                              "expected_winner":  "久保優太",
-                                              "expected_method":  "不明",
-                                              "target":  "久保優太 vs ラジャブアリ・シェイドゥラエフ",
-                                              "expected_outcome":  "久保が判定またはKO勝利",
-                                              "deadline":  "2024-12-31"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-12-31",
-                                                "winner":  "ラジャブアリ・シェイドゥラエフ",
-                                                "method":  "TKO",
-                                                "actual_outcome":  "ラジャブアリ・シェイドゥラエフがTKO勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-49-003",
-                           "statement_date":  "2024-12-24",
-                           "speaker":  {
-                                           "name":  "川尻達也",
-                                           "role":  "commentator",
-                                           "affiliation":  "解説者"
-                                       },
-                           "content":  {
-                                           "raw_text":  "サトシ選手がグラウンドで仕留める展開になる",
-                                           "normalized_text":  "サトシが寝技で一本勝ちと予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=3X_VfL7K9E8",
-                                          "timestamp":  "15:30"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "川尻達也",
-                                              "source_url":  "https://www.youtube.com/watch?v=3X_VfL7K9E8",
-                                              "source_ref":  "statement_id=stmt-rizin-49-003",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。RIZIN公式番組内発言。",
-                                              "expected_winner":  "ホベルト・サトシ・ソウザ",
-                                              "expected_method":  "SUB",
-                                              "target":  "ホベルト・サトシ・ソウザ vs ヴガール・ケラモフ",
-                                              "expected_outcome":  "サトシが一本勝ち",
-                                              "deadline":  "2024-12-31"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-12-31",
-                                                "winner":  "ホベルト・サトシ・ソウザ",
-                                                "method":  "Submission",
-                                                "actual_outcome":  "ホベルト・サトシ・ソウザが一本勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-49",
+    "event_meta": {
+        "event_name": "RIZIN DECADE / Yogibo presents RIZIN.49",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2024-12-31",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "さいたまスーパーアリーナ",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "RIZIN.49 メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin49-10",
+                    "division": "61.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "元谷友貴",
+                    "blue": "秋元強真",
+                    "outcome": {
+                        "winner": "元谷友貴",
+                        "method": "Decision",
+                        "round": null,
+                        "time": null,
+                        "result_note": "判定3-0（バンタム級王座次期挑戦者決定戦）"
+                    },
+                    "discipline": "MMA"
+                },
+                {
+                    "bout_id": "rizin49-12",
+                    "division": "71.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "ホベルト・サトシ・ソウザ",
+                    "blue": "ヴガール・ケラモフ",
+                    "outcome": {
+                        "winner": "ホベルト・サトシ・ソウザ",
+                        "method": "Submission",
+                        "round": 1,
+                        "time": "4:45",
+                        "result_note": "三角絞め（ライト級タイトルマッチ）"
+                    },
+                    "discipline": "MMA"
+                },
+                {
+                    "bout_id": "rizin49-14",
+                    "division": "66.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "鈴木千裕",
+                    "blue": "クレベル・コイケ",
+                    "outcome": {
+                        "winner": "クレベル・コイケ",
+                        "method": "Decision",
+                        "round": null,
+                        "time": null,
+                        "result_note": "判定3-0（フェザー級タイトルマッチ）"
+                    },
+                    "discipline": "MMA"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-49-new-001",
+            "statement_date": "2024-12-25",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "youtuber",
+                "affiliation": "格闘技YouTuber・元DEEPフェザー級王者"
+            },
+            "content": {
+                "raw_text": "ケラモフが3ラウンドでフィニッシュするな",
+                "normalized_text": "ケラモフが3ラウンドでフィニッシュ勝利すると予想"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=as_ot9pNXIs",
+                "timestamp": "20:19"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=as_ot9pNXIs",
+                "source_ref": "stmt-rizin-49-new-001",
+                "source_note": "YouTube勝敗予想動画から抽出",
+                "expected_winner": "ヴガール・ケラモフ",
+                "expected_method": "Finish",
+                "target": "ホベルト・サトシ・ソウザ vs ヴガール・ケラモフ",
+                "expected_outcome": "ケラモフが3Rにフィニッシュ勝利",
+                "deadline": "2024-12-31"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-01-01",
+                "winner": "ホベルト・サトシ・ソウザ",
+                "method": "Submission",
+                "actual_outcome": "サトシが1R 4:45で三角絞めで一本勝ち",
+                "notes": "予想外れ。サトシが1Rで一本勝ち。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-49-new-002",
+            "statement_date": "2024-12-25",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "youtuber",
+                "affiliation": "格闘技YouTuber・元DEEPフェザー級王者"
+            },
+            "content": {
+                "raw_text": "ここズバリ、鈴木千裕のKO勝ち予想で",
+                "normalized_text": "鈴木千裕のKO勝ちを予想"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=as_ot9pNXIs",
+                "timestamp": "28:10"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=as_ot9pNXIs",
+                "source_ref": "stmt-rizin-49-new-002",
+                "source_note": "YouTube勝敗予想動画から抽出",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "KO",
+                "target": "鈴木千裕 vs クレベル・コイケ",
+                "expected_outcome": "鈴木千裕がKO勝利",
+                "deadline": "2024-12-31"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-01-01",
+                "winner": "クレベル・コイケ",
+                "method": "Decision",
+                "actual_outcome": "クレベルが判定3-0で勝利",
+                "notes": "予想外れ。クレベルが判定勝利。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-49-new-003",
+            "statement_date": "2024-12-28",
+            "speaker": {
+                "name": "石渡伸太郎",
+                "role": "coach",
+                "affiliation": "CAVE"
+            },
+            "content": {
+                "raw_text": "僕はサトシ選手と思います。1本取ります",
+                "normalized_text": "サトシが一本勝ちすると予想"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=dDDq7hGWscE",
+                "timestamp": "07:45"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "石渡伸太郎",
+                "source_url": "https://www.youtube.com/watch?v=dDDq7hGWscE",
+                "source_ref": "stmt-rizin-49-new-003",
+                "source_note": "YouTube勝敗予想動画から抽出",
+                "expected_winner": "ホベルト・サトシ・ソウザ",
+                "expected_method": "Submission",
+                "target": "ホベルト・サトシ・ソウザ vs ヴガール・ケラモフ",
+                "expected_outcome": "サトシが一本勝ち",
+                "deadline": "2024-12-31"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-01-01",
+                "winner": "ホベルト・サトシ・ソウザ",
+                "method": "Submission",
+                "actual_outcome": "サトシが1R 4:45で三角絞めで一本勝ち",
+                "notes": "予想的中。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-49-new-004",
+            "statement_date": "2024-12-28",
+            "speaker": {
+                "name": "石渡伸太郎",
+                "role": "coach",
+                "affiliation": "CAVE"
+            },
+            "content": {
+                "raw_text": "せーの！（全員一致で）元谷選手",
+                "normalized_text": "元谷友貴の勝利を予想"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=qKHHCjT2Oac",
+                "timestamp": "02:10"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "石渡伸太郎",
+                "source_url": "https://www.youtube.com/watch?v=qKHHCjT2Oac",
+                "source_ref": "stmt-rizin-49-new-004",
+                "source_note": "YouTube勝敗予想動画から抽出",
+                "expected_winner": "元谷友貴",
+                "expected_method": null,
+                "target": "元谷友貴 vs 秋元強真",
+                "expected_outcome": "元谷友貴が勝利",
+                "deadline": "2024-12-31"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-01-01",
+                "winner": "元谷友貴",
+                "method": "Decision",
+                "actual_outcome": "元谷が判定3-0で勝利",
+                "notes": "予想的中。"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

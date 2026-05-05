@@ -1,52 +1,167 @@
 {
-  "schema_version": "standard-log-v1.2-json",
-  "event_meta": {
-    "event_id": "rizin-landmark-13-fukuoka",
-    "event_name": "RIZIN LANDMARK 13 in FUKUOKA",
-    "organization": "RIZIN",
-    "sport": "MMA",
-    "discipline": "MMA",
-    "date": "2026-04-12",
-    "venue": "マリンメッセ福岡 A館",
-    "country": "JP",
-    "timezone": "Asia/Tokyo",
-    "attendance": null,
-    "note": "メインはRIZINフェザー級タイトルマッチ（ラジャブアリ・シェイドゥラエフ vs 久保優太）。福岡県福岡市。12:30開始（ABEMA TIMES・大会案内より）。データ登録時点では未開催（確認日：2026-04-08）。"
-  },
-  "cards": [
-    {
-      "card_name": "メインカード",
-      "bouts": [
+    "schema_version": "standard-log-v1.2-json",
+    "event_meta": {
+        "event_id": "rizin-landmark-13-fukuoka",
+        "event_name": "RIZIN LANDMARK 13 in FUKUOKA",
+        "organization": "RIZIN",
+        "sport": "MMA",
+        "discipline": "MMA",
+        "date": "2026-04-12",
+        "venue": "マリンメッセ福岡 A館",
+        "country": "JP",
+        "timezone": "Asia/Tokyo",
+        "attendance": null,
+        "note": "メインはRIZINフェザー級タイトルマッチ（ラジャブアリ・シェイドゥラエフ vs 久保優太）。福岡県福岡市。12:30開始（ABEMA TIMES・大会案内より）。データ登録時点では未開催（確認日：2026-04-08）。"
+    },
+    "cards": [
         {
-          "bout_id": "rizin-landmark-13-main-feather-title",
-          "bout_order": 1,
-          "division": "フェザー級タイトルマッチ",
-          "rules": "RIZIN MMAルール 5分3R",
-          "weight_kg": 66.0,
-          "discipline": "MMA",
-          "red": {
-            "name": "ラジャブアリ・シェイドゥラエフ",
-            "nickname": null,
-            "nationality": "Russia",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "久保優太",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": null,
-            "method": null,
-            "method_detail": null,
-            "round": null,
-            "time": null,
-            "result_note": "未開催（予定）"
-          }
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin-landmark-13-main-feather-title",
+                    "bout_order": 1,
+                    "division": "フェザー級タイトルマッチ",
+                    "rules": "RIZIN MMAルール 5分3R",
+                    "weight_kg": 66.0,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "ラジャブアリ・シェイドゥラエフ",
+                        "nickname": null,
+                        "nationality": "Russia",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "久保優太",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": null,
+                        "method": null,
+                        "method_detail": null,
+                        "round": null,
+                        "time": null,
+                        "result_note": "未開催（予定）"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "statements": []
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-lm13-horiguchi",
+            "statement_date": "2026-04-06",
+            "speaker": {
+                "name": "堀口恭司",
+                "role": "fighter",
+                "affiliation": "ATT"
+            },
+            "content": {
+                "raw_text": "シェイドゥラエフが2RでKO勝ちかな。久保は今回は策略があるから受けた試合だと思う。何かしらの罠を張っているんじゃないかなと思う。でも俺はそれも通用せずシェイドゥラエフが勝つと思う。",
+                "normalized_text": "シェイドゥラエフが2R KO勝ちすると予想。久保が罠を張っていると分析しつつも、実力でシェイドゥラエフがそれを上回ると評価。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=GdkEG0nNq9U",
+                "timestamp": "0:30"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "堀口恭司",
+                "source_url": "https://www.youtube.com/watch?v=GdkEG0nNq9U",
+                "source_ref": "stmt-lm13-horiguchi",
+                "source_note": "YouTube動画より抽出（確認日：2026-05-05）。",
+                "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+                "expected_method": "KO",
+                "target": "ラジャブアリ・シェイドゥラエフ vs 久保優太",
+                "expected_outcome": "シェイドゥラエフが2R KO勝ち",
+                "deadline": "2026-04-12"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": "未開催（予定）",
+                "notes": null
+            }
+        },
+        {
+            "statement_id": "stmt-lm13-ougikubo",
+            "statement_date": "2026-04-05",
+            "speaker": {
+                "name": "扇久保博正",
+                "role": "fighter",
+                "affiliation": "パラエストラ松戸"
+            },
+            "content": {
+                "raw_text": "これまあでもシェイドゥラエフ有利ですよね。もう勝てる気しない、その久保優太に限らず。どう考えたってやっぱシェイドゥラエフが勝つ。",
+                "normalized_text": "シェイドゥラエフの圧倒的有利と予想。久保に限らず現在のシェイドゥラエフに勝てる選手はいないと高く評価。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=yaSKtzqyJ9U",
+                "timestamp": "0:15"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "扇久保博正",
+                "source_url": "https://www.youtube.com/watch?v=yaSKtzqyJ9U",
+                "source_ref": "stmt-lm13-jobin",
+                "source_note": "YouTube自動字幕より抽出（確認日：2026-05-05）。",
+                "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+                "expected_method": null,
+                "target": "ラジャブアリ・シェイドゥラエフ vs 久保優太",
+                "expected_outcome": "シェイドゥラエフが勝利（圧倒的有利）",
+                "deadline": "2026-04-12"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": "未開催（予定）",
+                "notes": null
+            }
+        },
+        {
+            "statement_id": "stmt-lm13-asakura",
+            "statement_date": "2026-03-05",
+            "speaker": {
+                "name": "朝倉未来",
+                "role": "promoter",
+                "affiliation": "JTT / 元格闘家"
+            },
+            "content": {
+                "raw_text": "まあ、シェイドゥラエフに勝てるやつはいないと思いますね。その下で争うんじゃないですか",
+                "normalized_text": "シェイドゥラエフに勝てる選手はいないと高く評価し、圧倒的勝利を予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sanspo.com/article/20260305-FHKPAJTRSRGBFBLNXSXHBCEYHA/",
+                "timestamp": "2026-03-05"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "朝倉未来",
+                "source_url": "https://www.sanspo.com/article/20260305-FHKPAJTRSRGBFBLNXSXHBCEYHA/",
+                "source_ref": "stmt-lm13-asakura",
+                "source_note": "サンスポ記事より抽出（確認日：2026-05-05）。",
+                "expected_winner": "ラジャブアリ・シェイドゥラエフ",
+                "expected_method": null,
+                "target": "ラジャブアリ・シェイドゥラエフ vs 久保優太",
+                "expected_outcome": "シェイドゥラエフが勝利",
+                "deadline": "2026-04-12"
+            },
+            "verification": {
+                "status": "pending",
+                "verification_date": null,
+                "winner": null,
+                "method": null,
+                "actual_outcome": "未開催（予定）",
+                "notes": null
+            }
+        }
+    ]
 }

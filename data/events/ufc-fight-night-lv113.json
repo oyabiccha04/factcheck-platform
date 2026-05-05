@@ -1,205 +1,243 @@
 {
-  "schema_version": "standard-log-v1.2-json",
-  "event_meta": {
-    "event_id": "ufc-fight-night-lv113",
-    "event_name": "UFC Fight Night: Bautista vs. Oliveira（UFCファイトナイト・ラスベガス113）",
-    "organization": "UFC",
-    "sport": "MMA",
-    "discipline": "MMA",
-    "date": "2026-02-07",
-    "venue": "UFC APEX",
-    "country": "USA",
-    "timezone": "America/Los_Angeles",
-    "attendance": null,
-    "note": "UFCファイトナイト・ラスベガス113。堀口恭司がフライ級6位のアミル・アルバジに判定3-0で勝利。UFC復帰後2連勝。初回に右手を傷めながらも2R以降に打撃で巻き返し。王座挑戦への意欲を表明。"
-  },
-  "cards": [
-    {
-      "card_name": "Main Card",
-      "bouts": [
+    "schema_version": "standard-log-v1.2-json",
+    "event_meta": {
+        "event_id": "ufc-fight-night-lv113",
+        "event_name": "UFC Fight Night: Bautista vs. Oliveira（UFCファイトナイト・ラスベガス113）",
+        "organization": "UFC",
+        "sport": "MMA",
+        "discipline": "MMA",
+        "date": "2026-02-07",
+        "venue": "UFC APEX",
+        "country": "USA",
+        "timezone": "America/Los_Angeles",
+        "attendance": null,
+        "note": "UFCファイトナイト・ラスベガス113。堀口恭司がフライ級6位のアミル・アルバジに判定3-0で勝利。UFC復帰後2連勝。初回に右手を傷めながらも2R以降に打撃で巻き返し。王座挑戦への意欲を表明。"
+    },
+    "cards": [
         {
-          "bout_id": "ufc-fight-night-lv113-001",
-          "bout_order": 4,
-          "division": "フライ級",
-          "rules": "UFC MMAルール 3R×5分",
-          "weight_kg": 56.7,
-          "discipline": "MMA",
-          "red": {
-            "name": "アミル・アルバジ",
-            "nickname": null,
-            "nationality": "Algeria",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "堀口恭司",
-            "nickname": "Ryujin",
-            "nationality": "Japan",
-            "affiliation": "American Top Team"
-          },
-          "outcome": {
-            "winner": "堀口恭司",
-            "method": "Decision",
-            "method_detail": "全会一致判定 (30-27, 30-27, 29-28)",
-            "round": 3,
-            "time": "5:00",
-            "result_note": "堀口がUFC復帰2連勝。初回右手負傷も続行。2R以降打撃でアルバジの顔面を傷つけ圧勝。「もちろん王座戦を」と宣言。"
-          }
+            "card_name": "Main Card",
+            "bouts": [
+                {
+                    "bout_id": "ufc-fight-night-lv113-001",
+                    "bout_order": 4,
+                    "division": "フライ級",
+                    "rules": "UFC MMAルール 3R×5分",
+                    "weight_kg": 56.7,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "アミル・アルバジ",
+                        "nickname": null,
+                        "nationality": "Algeria",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "堀口恭司",
+                        "nickname": "Ryujin",
+                        "nationality": "Japan",
+                        "affiliation": "American Top Team"
+                    },
+                    "outcome": {
+                        "winner": "堀口恭司",
+                        "method": "Decision",
+                        "method_detail": "全会一致判定 (30-27, 30-27, 29-28)",
+                        "round": 3,
+                        "time": "5:00",
+                        "result_note": "堀口がUFC復帰2連勝。初回右手負傷も続行。2R以降打撃でアルバジの顔面を傷つけ圧勝。「もちろん王座戦を」と宣言。"
+                    }
+                }
+            ]
         }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-ufc-lv113-001",
-      "statement_date": "2026-02-05",
-      "speaker": {
-        "name": "Garrett Kerman",
-        "role": "analyst",
-        "affiliation": "ClutchPoints（UFC担当アソシエイトエディター）"
-      },
-      "content": {
-        "raw_text": "Kyoji Horiguchi gets the win via a competitive decision, built on superior speed, movement, and clean, visible damage while largely denying Albazi sustained grappling opportunities at UFC Vegas 113. Final Pick: Kyoji Horiguchi (-375), Over 2.5 Rounds (-260)",
-        "normalized_text": "堀口の速さ・フットワーク・クリーンなダメージが決定打と分析。アルバジのグラップリング機会を封じつつ3Rを通じて優位に立ち、判定勝ちと予想。「コンペティティブな内容ながら堀口が明確な判定勝ち」と結論付けた。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://clutchpoints.com/betting/amir-albazi-vs-kyoji-horiguchi-prediction-odds-pick-for-ufc-vegas-113",
-        "timestamp": "2026-02-05"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Garrett Kerman",
-        "source_url": "https://clutchpoints.com/betting/amir-albazi-vs-kyoji-horiguchi-prediction-odds-pick-for-ufc-vegas-113",
-        "source_ref": "stmt-ufc-lv113-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ClutchPoints、UFC Vegas 113開催2日前公開。Garrett KermanはClutchPoints UFCベッティング担当アソシエイトエディター。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "Decision",
-        "target": "堀口恭司 vs アミル・アルバジ",
-        "expected_outcome": "堀口恭司が判定勝ち（速さとフットワークで優位）",
-        "deadline": "2026-02-07"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2026-02-08",
-        "winner": "堀口恭司",
-        "method": "Decision",
-        "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。初回右手負傷も続行し圧勝。",
-        "notes": "予想的中（勝者・方法ともに正確）。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-lv113-002",
-      "statement_date": "2026-02-07",
-      "speaker": {
-        "name": "Danny Howard",
-        "role": "analyst",
-        "affiliation": "Covers（ベッティングアナリスト）"
-      },
-      "content": {
-        "raw_text": "My fight prediction: Horiguchi moneyline. My best bet: Horiguchi by decision. Horiguchi holds advantages everywhere. He's the cleaner striker, the better defensive wrestler, and the more adaptable fighter overall. With Horiguchi likely prioritizing control and efficiency over risk, a finish feels unlikely. My best bet is Horiguchi to win by dominant decision.",
-        "normalized_text": "「堀口はあらゆる面で優位」と評価。打撃・テイクダウン防御・適応力すべてで上回ると分析。フィニッシュより効率重視スタイルから判定勝ちをベストベットに選定。アルバジの長期欠場と前戦での精彩のなさも考慮。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.covers.com/ufc/fight-night-albazi-vs-horiguchi-predictions-picks-odds",
-        "timestamp": "2026-02-07"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Danny Howard",
-        "source_url": "https://www.covers.com/ufc/fight-night-albazi-vs-horiguchi-predictions-picks-odds",
-        "source_ref": "stmt-ufc-lv113-002",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Covers、UFC Vegas 113当日公開。Danny HowardはCoversのベッティングアナリスト（格闘技専門21年以上）。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "Decision",
-        "target": "堀口恭司 vs アミル・アルバジ",
-        "expected_outcome": "堀口恭司が支配的な判定勝ち",
-        "deadline": "2026-02-07"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2026-02-08",
-        "winner": "堀口恭司",
-        "method": "Decision",
-        "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。",
-        "notes": "予想的中（勝者・方法ともに正確）。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-lv113-003",
-      "statement_date": "2026-02-06",
-      "speaker": {
-        "name": "Andrew Richardson",
-        "role": "analyst",
-        "affiliation": "MMA Mania（ライター・Team Alpha Male所属ファイター）"
-      },
-      "content": {
-        "raw_text": "Albazi ends up stranded at distance and rendered defensive for three rounds. Prediction: Horiguchi via decision",
-        "normalized_text": "「アルバジは3ラウンド通じて距離を詰められず守勢に回る」と予想。堀口のスピードと流動性が足の止まりやすいアルバジのスタイルと激しくミスマッチすると分析。堀口の判定勝ちを予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.mmamania.com/ufc-events-ppv/420170/kyoji-horiguchi-vs-amir-albazi-odds-full-fight-preview-and-prediction-ufc-vegas-113",
-        "timestamp": "2026-02-06"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Andrew Richardson",
-        "source_url": "https://www.mmamania.com/ufc-events-ppv/420170/kyoji-horiguchi-vs-amir-albazi-odds-full-fight-preview-and-prediction-ufc-vegas-113",
-        "source_ref": "stmt-ufc-lv113-003",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Mania、UFC Vegas 113前日公開のプレビュー記事。Andrew RichardsonはMMA ManiaライターかつTeam Alpha Maleのプロファイター。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "Decision",
-        "target": "堀口恭司 vs アミル・アルバジ",
-        "expected_outcome": "堀口恭司が判定勝ち（アルバジを距離で封じる）",
-        "deadline": "2026-02-07"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2026-02-08",
-        "winner": "堀口恭司",
-        "method": "Decision",
-        "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。初回ダウンも一時のみ。",
-        "notes": "予想的中（勝者・方法ともに正確）。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-lv113-004",
-      "statement_date": "2026-02-07",
-      "speaker": {
-        "name": "Alexander K. Lee",
-        "role": "analyst",
-        "affiliation": "MMA Fighting（ライター）"
-      },
-      "content": {
-        "raw_text": "It's been 15 months since Amir Albazi's most recent fight, two and a half years since his last win, and over three years since he won convincingly. It's under those circumstances that he takes on Horiguchi, one of the 125-pound division's all time greats. Horiguchi by decision.",
-        "normalized_text": "アルバジの長期ブランク（15ヶ月）、2年半勝利なし、3年以上「圧倒的勝利」なしという状況を強調。対する堀口を「フライ級史上屈指の偉大な選手」と評価し、明確な判定勝ちを予想。スピード差が支配的要因。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.mmafighting.com/ufc/470569/ufc-vegas-113-predictions",
-        "timestamp": "2026-02-07"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Alexander K. Lee",
-        "source_url": "https://www.mmafighting.com/ufc/470569/ufc-vegas-113-predictions",
-        "source_ref": "stmt-ufc-lv113-004",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Fighting、UFC Vegas 113当日公開のスタッフ予想記事。Alexander K. LeeはMMA Fightingのシニアライター。",
-        "expected_winner": "堀口恭司",
-        "expected_method": "Decision",
-        "target": "堀口恭司 vs アミル・アルバジ",
-        "expected_outcome": "堀口恭司が判定勝ち",
-        "deadline": "2026-02-07"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2026-02-08",
-        "winner": "堀口恭司",
-        "method": "Decision",
-        "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。",
-        "notes": "予想的中（勝者・方法ともに正確）。"
-      }
-    }
-  ]
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-ufc-lv113-001",
+            "statement_date": "2026-02-05",
+            "speaker": {
+                "name": "Garrett Kerman",
+                "role": "analyst",
+                "affiliation": "ClutchPoints（UFC担当アソシエイトエディター）"
+            },
+            "content": {
+                "raw_text": "Kyoji Horiguchi gets the win via a competitive decision, built on superior speed, movement, and clean, visible damage while largely denying Albazi sustained grappling opportunities at UFC Vegas 113. Final Pick: Kyoji Horiguchi (-375), Over 2.5 Rounds (-260)",
+                "normalized_text": "堀口の速さ・フットワーク・クリーンなダメージが決定打と分析。アルバジのグラップリング機会を封じつつ3Rを通じて優位に立ち、判定勝ちと予想。「コンペティティブな内容ながら堀口が明確な判定勝ち」と結論付けた。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://clutchpoints.com/betting/amir-albazi-vs-kyoji-horiguchi-prediction-odds-pick-for-ufc-vegas-113",
+                "timestamp": "2026-02-05"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Garrett Kerman",
+                "source_url": "https://clutchpoints.com/betting/amir-albazi-vs-kyoji-horiguchi-prediction-odds-pick-for-ufc-vegas-113",
+                "source_ref": "stmt-ufc-lv113-001",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。ClutchPoints、UFC Vegas 113開催2日前公開。Garrett KermanはClutchPoints UFCベッティング担当アソシエイトエディター。",
+                "expected_winner": "堀口恭司",
+                "expected_method": "Decision",
+                "target": "堀口恭司 vs アミル・アルバジ",
+                "expected_outcome": "堀口恭司が判定勝ち（速さとフットワークで優位）",
+                "deadline": "2026-02-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-02-08",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。初回右手負傷も続行し圧勝。",
+                "notes": "予想的中（勝者・方法ともに正確）。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-lv113-002",
+            "statement_date": "2026-02-07",
+            "speaker": {
+                "name": "Danny Howard",
+                "role": "analyst",
+                "affiliation": "Covers（ベッティングアナリスト）"
+            },
+            "content": {
+                "raw_text": "My fight prediction: Horiguchi moneyline. My best bet: Horiguchi by decision. Horiguchi holds advantages everywhere. He's the cleaner striker, the better defensive wrestler, and the more adaptable fighter overall. With Horiguchi likely prioritizing control and efficiency over risk, a finish feels unlikely. My best bet is Horiguchi to win by dominant decision.",
+                "normalized_text": "「堀口はあらゆる面で優位」と評価。打撃・テイクダウン防御・適応力すべてで上回ると分析。フィニッシュより効率重視スタイルから判定勝ちをベストベットに選定。アルバジの長期欠場と前戦での精彩のなさも考慮。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.covers.com/ufc/fight-night-albazi-vs-horiguchi-predictions-picks-odds",
+                "timestamp": "2026-02-07"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Danny Howard",
+                "source_url": "https://www.covers.com/ufc/fight-night-albazi-vs-horiguchi-predictions-picks-odds",
+                "source_ref": "stmt-ufc-lv113-002",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Covers、UFC Vegas 113当日公開。Danny HowardはCoversのベッティングアナリスト（格闘技専門21年以上）。",
+                "expected_winner": "堀口恭司",
+                "expected_method": "Decision",
+                "target": "堀口恭司 vs アミル・アルバジ",
+                "expected_outcome": "堀口恭司が支配的な判定勝ち",
+                "deadline": "2026-02-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-02-08",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。",
+                "notes": "予想的中（勝者・方法ともに正確）。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-lv113-003",
+            "statement_date": "2026-02-06",
+            "speaker": {
+                "name": "Andrew Richardson",
+                "role": "analyst",
+                "affiliation": "MMA Mania（ライター・Team Alpha Male所属ファイター）"
+            },
+            "content": {
+                "raw_text": "Albazi ends up stranded at distance and rendered defensive for three rounds. Prediction: Horiguchi via decision",
+                "normalized_text": "「アルバジは3ラウンド通じて距離を詰められず守勢に回る」と予想。堀口のスピードと流動性が足の止まりやすいアルバジのスタイルと激しくミスマッチすると分析。堀口の判定勝ちを予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.mmamania.com/ufc-events-ppv/420170/kyoji-horiguchi-vs-amir-albazi-odds-full-fight-preview-and-prediction-ufc-vegas-113",
+                "timestamp": "2026-02-06"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Andrew Richardson",
+                "source_url": "https://www.mmamania.com/ufc-events-ppv/420170/kyoji-horiguchi-vs-amir-albazi-odds-full-fight-preview-and-prediction-ufc-vegas-113",
+                "source_ref": "stmt-ufc-lv113-003",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Mania、UFC Vegas 113前日公開のプレビュー記事。Andrew RichardsonはMMA ManiaライターかつTeam Alpha Maleのプロファイター。",
+                "expected_winner": "堀口恭司",
+                "expected_method": "Decision",
+                "target": "堀口恭司 vs アミル・アルバジ",
+                "expected_outcome": "堀口恭司が判定勝ち（アルバジを距離で封じる）",
+                "deadline": "2026-02-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-02-08",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。初回ダウンも一時のみ。",
+                "notes": "予想的中（勝者・方法ともに正確）。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-lv113-004",
+            "statement_date": "2026-02-07",
+            "speaker": {
+                "name": "Alexander K. Lee",
+                "role": "analyst",
+                "affiliation": "MMA Fighting（ライター）"
+            },
+            "content": {
+                "raw_text": "It's been 15 months since Amir Albazi's most recent fight, two and a half years since his last win, and over three years since he won convincingly. It's under those circumstances that he takes on Horiguchi, one of the 125-pound division's all time greats. Horiguchi by decision.",
+                "normalized_text": "アルバジの長期ブランク（15ヶ月）、2年半勝利なし、3年以上「圧倒的勝利」なしという状況を強調。対する堀口を「フライ級史上屈指の偉大な選手」と評価し、明確な判定勝ちを予想。スピード差が支配的要因。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.mmafighting.com/ufc/470569/ufc-vegas-113-predictions",
+                "timestamp": "2026-02-07"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Alexander K. Lee",
+                "source_url": "https://www.mmafighting.com/ufc/470569/ufc-vegas-113-predictions",
+                "source_ref": "stmt-ufc-lv113-004",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Fighting、UFC Vegas 113当日公開のスタッフ予想記事。Alexander K. LeeはMMA Fightingのシニアライター。",
+                "expected_winner": "堀口恭司",
+                "expected_method": "Decision",
+                "target": "堀口恭司 vs アミル・アルバジ",
+                "expected_outcome": "堀口恭司が判定勝ち",
+                "deadline": "2026-02-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-02-08",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口が全会一致判定（30-27, 30-27, 29-28）で勝利。",
+                "notes": "予想的中（勝者・方法ともに正確）。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-lv113-jobin-001",
+            "statement_date": "2026-02-05",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "analyst",
+                "affiliation": "YouTuber・元総合格闘家"
+            },
+            "content": {
+                "raw_text": "アルバジもうカーフ効かしフィニッシュも全然あり得ると思うな。ここは堀口勝ってほしい。ま、勝つと思うし勝ったらマジ面白くなる。",
+                "normalized_text": "堀口恭司が勝利すると予想。アルバジの強さを認めつつも、堀口のカーフキックからのフィニッシュもあり得ると分析。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=3fpw7fOYXpU",
+                "timestamp": "0:45"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=3fpw7fOYXpU",
+                "source_ref": "stmt-ufc-lv113-jobin-001",
+                "source_note": "YouTube自動字幕より抽出（確認日：2026-05-05）。",
+                "expected_winner": "堀口恭司",
+                "expected_method": null,
+                "target": "堀口恭司 vs アミル・アルバジ",
+                "expected_outcome": "堀口恭司が勝利",
+                "deadline": "2026-02-07"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-02-08",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口が全会一致判定で勝利。",
+                "notes": "予想的中。"
+            }
+        }
+    ]
 }

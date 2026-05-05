@@ -1,0 +1,7 @@
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=rFcrXlSnrmg" -o "rFcrXlSnrmg.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=cD423PeaXow" -o "cD423PeaXow.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=acUsEF8pOTo" -o "acUsEF8pOTo.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=DmUyv_FlDpE" -o "DmUyv_FlDpE.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=WgaHYE0VrxQ" -o "WgaHYE0VrxQ.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=j9H1Brwm9j4" -o "j9H1Brwm9j4.%(ext)s"
+python -m yt_dlp --write-auto-sub --sub-lang ja --skip-download "https://www.youtube.com/watch?v=W45XBrygwhs" -o "W45XBrygwhs.%(ext)s"

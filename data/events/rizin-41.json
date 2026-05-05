@@ -1,184 +1,86 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-41",
-    "event_meta":  {
-                       "event_name":  "RIZIN.41",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2023-04-01",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "丸善インテックアリーナ大阪（大阪市中央体育館）",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin41-01",
-                                        "division":  "66.5kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "進撃の祐基",
-                                        "blue":  "木村\"ケルベロス\"颯太",
-                                        "outcome":  {
-                                                        "winner":  "木村\"ケルベロス\"颯太",
-                                                        "method":  "TKO",
-                                                        "round":  3,
-                                                        "time":  "1:32",
-                                                        "result_note":  "レフェリーストップ"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-02",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "駿",
-                                        "blue":  "元氣",
-                                        "outcome":  {
-                                                        "winner":  "駿",
-                                                        "method":  "KO",
-                                                        "round":  1,
-                                                        "time":  "1:37",
-                                                        "result_note":  "スタンドパンチ"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-03",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "中村優作",
-                                        "blue":  "メイマン・マメドフ",
-                                        "outcome":  {
-                                                        "winner":  "メイマン・マメドフ",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "0:23",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-04",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "宇佐美正パトリック",
-                                        "blue":  "キム・ギョンピョ",
-                                        "outcome":  {
-                                                        "winner":  "キム・ギョンピョ",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "3:33",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-05",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "金太郎",
-                                        "blue":  "石司晃一",
-                                        "outcome":  {
-                                                        "winner":  "石司晃一",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定1-2"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-06",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "カイル・アグォン",
-                                        "blue":  "萩原京平",
-                                        "outcome":  {
-                                                        "winner":  "萩原京平",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-07",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "神龍誠",
-                                        "blue":  "北方大地",
-                                        "outcome":  {
-                                                        "winner":  "神龍誠",
-                                                        "method":  "Submission",
-                                                        "round":  2,
-                                                        "time":  "1:17",
-                                                        "result_note":  "肩固め"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-08",
-                                        "division":  "77.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "ストラッサー起一",
-                                        "blue":  "中村K太郎",
-                                        "outcome":  {
-                                                        "winner":  "中村K太郎",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "0:49",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-09",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "ヴガール・ケラモフ",
-                                        "blue":  "堀江圭功",
-                                        "outcome":  {
-                                                        "winner":  "ヴガール・ケラモフ",
-                                                        "method":  "Submission",
-                                                        "round":  2,
-                                                        "time":  "3:21",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin41-10",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "皇治",
-                                        "blue":  "芦澤竜誠",
-                                        "outcome":  {
-                                                        "winner":  "芦澤竜誠",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定1-2"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-41",
+    "event_meta": {
+        "event_name": "RIZIN.41",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2023-04-01",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "丸善インテックアリーナ大阪（大阪市中央体育館）",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin41-10",
+                    "division": "61.0kg",
+                    "rules": "RIZIN キックボクシング 3分3R",
+                    "red": "皇治",
+                    "blue": "芦澤竜誠",
+                    "outcome": {
+                        "winner": "芦澤竜誠",
+                        "method": "Decision",
+                        "round": null,
+                        "time": null,
+                        "result_note": "判定1-2"
+                    },
+                    "discipline": "KICKBOXING"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-41-001",
+            "statement_date": "2023-03-30",
+            "speaker": {
+                "name": "石渡伸太郎",
+                "role": "retired fighter",
+                "affiliation": "CAVE"
+            },
+            "content": {
+                "raw_text": "これは僕も皇治選手予想です。芦澤選手が打ち合う展開になって飲み込まれちゃうんじゃないかなと思う",
+                "normalized_text": "皇治の勝利を予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=FmZZU2y4AM8",
+                "timestamp": "18:12"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "石渡伸太郎",
+                "source_url": "https://www.youtube.com/watch?v=FmZZU2y4AM8",
+                "source_ref": "statement_id=stmt-rizin-41-001",
+                "source_note": "石渡伸太郎公式YouTubeより抽出",
+                "expected_winner": "皇治",
+                "expected_method": "不明",
+                "target": "皇治 vs 芦澤竜誠",
+                "expected_outcome": "皇治が勝利",
+                "deadline": "2023-04-01"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-04-01",
+                "winner": "芦澤竜誠",
+                "method": "Decision",
+                "actual_outcome": "芦澤竜誠が判定勝ち",
+                "notes": "予想は外れ。芦澤が判定勝ち。"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

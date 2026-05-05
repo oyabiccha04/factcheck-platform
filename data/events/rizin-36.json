@@ -1,380 +1,86 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-36",
-    "event_meta":  {
-                       "event_name":  "RIZIN.36",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2022-07-02",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "沖縄アリーナ",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin36-01",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "タナー・ロレンツォ",
-                                        "blue":  "Orihey",
-                                        "outcome":  {
-                                                        "winner":  "タナー・ロレンツォ",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "1:05",
-                                                        "result_note":  "レフェリーストップ：グラウンドでの肘打撃"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-02",
-                                        "division":  "72.5kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "宮城寛克",
-                                        "blue":  "吉野友規",
-                                        "outcome":  {
-                                                        "winner":  "宮城寛克",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-03",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "にっせー",
-                                        "blue":  "須田萌里",
-                                        "outcome":  {
-                                                        "winner":  "須田萌里",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "2:12",
-                                                        "result_note":  "アームバー"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-04",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "伊藤裕樹",
-                                        "blue":  "宮城友一",
-                                        "outcome":  {
-                                                        "winner":  "伊藤裕樹",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "4:57",
-                                                        "result_note":  "レフェリーストップ：グラウンドでの膝打撃"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-05",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "村元友太郎",
-                                        "blue":  "BJ",
-                                        "outcome":  {
-                                                        "winner":  "村元友太郎",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "2:23",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-06",
-                                        "division":  "57.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "藤田大和",
-                                        "blue":  "曹竜也",
-                                        "outcome":  {
-                                                        "winner":  "藤田大和",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-07",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "大雅",
-                                        "blue":  "新田宗一朗",
-                                        "outcome":  {
-                                                        "winner":  "大雅",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-08",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "渡慶次幸平",
-                                        "blue":  "岸本篤史",
-                                        "outcome":  {
-                                                        "winner":  "岸本篤史",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "2:05",
-                                                        "result_note":  "レフェリーストップ：スタンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-09",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "昇侍",
-                                        "blue":  "ヤン・ジヨン",
-                                        "outcome":  {
-                                                        "winner":  "ヤン・ジヨン",
-                                                        "method":  "Submission",
-                                                        "round":  3,
-                                                        "time":  "1:46",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-10",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "カイル・アグォン",
-                                        "blue":  "山本空良",
-                                        "outcome":  {
-                                                        "winner":  "山本空良",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-11",
-                                        "division":  "54.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "砂辺光久",
-                                        "blue":  "中務修良",
-                                        "outcome":  {
-                                                        "winner":  "中務修良",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "1:40",
-                                                        "result_note":  "レフェリーストップ：スタンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-12",
-                                        "division":  "49.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "山本美憂",
-                                        "blue":  "大島沙緒里",
-                                        "outcome":  {
-                                                        "winner":  "大島沙緒里",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定1-2"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin36-13",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "鈴木博昭",
-                                        "blue":  "平本蓮",
-                                        "outcome":  {
-                                                        "winner":  "平本蓮",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定1-2"
-                                                    },
-                                        "discipline":  "MMA"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-rizin-36-001",
-                           "statement_date":  "2022-06-30",
-                           "speaker":  {
-                                           "name":  "朝倉未来",
-                                           "role":  "fighter",
-                                           "affiliation":  "トライフォース赤坂"
-                                       },
-                           "content":  {
-                                           "raw_text":  "怪物くん（鈴木）が勝つんじゃないかなと思いますね。平本蓮はまだMMAの組み技に対応しきれていない。壁レスとかの展開で削られて、後半失速する展開になると思う。",
-                                           "normalized_text":  "鈴木博昭が有利。平本のMMA適応不足とスタミナ消耗を指摘。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=0kAn-7mH76o",
-                                          "timestamp":  "04:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "朝倉未来",
-                                              "source_url":  "https://www.youtube.com/watch?v=0kAn-7mH76o",
-                                              "source_ref":  "statement_id=stmt-rizin-36-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。",
-                                              "expected_winner":  "鈴木博昭",
-                                              "expected_method":  "不明",
-                                              "target":  "鈴木博昭 vs 平本蓮",
-                                              "expected_outcome":  "鈴木博昭が勝利",
-                                              "deadline":  "2022-07-02"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-07-02",
-                                                "winner":  "平本蓮",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "平本蓮が判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-36-002",
-                           "statement_date":  "2022-06-29",
-                           "speaker":  {
-                                           "name":  "矢地祐介",
-                                           "role":  "fighter",
-                                           "affiliation":  "フリー"
-                                       },
-                           "content":  {
-                                           "raw_text":  "僕は平本選手が勝つと予想します。アメリカ修行でテイクダウンディフェンスが相当上がっているはず。打撃の技術差で平本選手が圧倒するシーンが見れるんじゃないか。",
-                                           "normalized_text":  "平本蓮が有利。米国修行による防御力向上と打撃技術の差を根拠とする。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=A_0_q_hV_60",
-                                          "timestamp":  "08:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "矢地祐介",
-                                              "source_url":  "https://www.youtube.com/watch?v=A_0_q_hV_60",
-                                              "source_ref":  "statement_id=stmt-rizin-36-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。",
-                                              "expected_winner":  "平本蓮",
-                                              "expected_method":  "不明",
-                                              "target":  "鈴木博昭 vs 平本蓮",
-                                              "expected_outcome":  "平本蓮が勝利",
-                                              "deadline":  "2022-07-02"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-07-02",
-                                                "winner":  "平本蓮",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "平本蓮が判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-36-003",
-                           "statement_date":  "2022-06-30",
-                           "speaker":  {
-                                           "name":  "石渡伸太郎",
-                                           "role":  "coach/retired fighter",
-                                           "affiliation":  "CAVE"
-                                       },
-                           "content":  {
-                                           "raw_text":  "これ難しいですけど、鈴木選手の判定勝ちかな。平本選手は光るものはあるけど、まだMMAの組みの中での削り合いになると鈴木選手の方が一枚上手な気がします。",
-                                           "normalized_text":  "鈴木博昭が有利。MMAの近接攻防における経験値の差で判定決着と予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=O9vYF_6v8Xg",
-                                          "timestamp":  "12:20"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "石渡伸太郎",
-                                              "source_url":  "https://www.youtube.com/watch?v=O9vYF_6v8Xg",
-                                              "source_ref":  "statement_id=stmt-rizin-36-003",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。",
-                                              "expected_winner":  "鈴木博昭",
-                                              "expected_method":  "判定",
-                                              "target":  "鈴木博昭 vs 平本蓮",
-                                              "expected_outcome":  "鈴木博昭が判定で勝利",
-                                              "deadline":  "2022-07-02"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-07-02",
-                                                "winner":  "平本蓮",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "平本蓮が判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-36-004",
-                           "statement_date":  "2022-06-30",
-                           "speaker":  {
-                                           "name":  "川尻達也",
-                                           "role":  "fighter",
-                                           "affiliation":  "元RIZIN選手/解説"
-                                       },
-                           "content":  {
-                                           "raw_text":  "平本選手が打撃で圧倒して勝つんじゃないか",
-                                           "normalized_text":  "平本蓮が打撃で勝利すると予想"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=FOf68n3-v6I",
-                                          "timestamp":  "08:15"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "川尻達也",
-                                              "source_url":  "https://www.youtube.com/watch?v=FOf68n3-v6I",
-                                              "source_ref":  "statement_id=stmt-rizin-36-004",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。YouTubeチャンネル「川尻達也公式」。",
-                                              "expected_winner":  "平本蓮",
-                                              "expected_method":  "不明",
-                                              "target":  "鈴木博昭 vs 平本蓮",
-                                              "expected_outcome":  "平本蓮が勝利",
-                                              "deadline":  "2022-07-02"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2022-07-02",
-                                                "winner":  "平本蓮",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "平本蓮が判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-36",
+    "event_meta": {
+        "event_name": "RIZIN.36",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2022-07-02",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "沖縄アリーナ",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin36-13",
+                    "division": "66.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "鈴木博昭",
+                    "blue": "平本蓮",
+                    "outcome": {
+                        "winner": "平本蓮",
+                        "method": "Decision",
+                        "round": null,
+                        "time": null,
+                        "result_note": "判定1-2"
+                    },
+                    "discipline": "MMA"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-36-001",
+            "statement_date": "2022-06-25",
+            "speaker": {
+                "name": "朝倉未来",
+                "role": "fighter",
+                "affiliation": "トライフォース赤坂"
+            },
+            "content": {
+                "raw_text": "鈴木選手はテイクダウン出来ずに苦しんで消耗するのでは",
+                "normalized_text": "鈴木博昭がテイクダウンできずに消耗すると予想（平本蓮の優位）"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://gonkaku.jp/articles/10862",
+                "timestamp": null
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "朝倉未来",
+                "source_url": "https://gonkaku.jp/articles/10862",
+                "source_ref": "statement_id=stmt-rizin-36-001",
+                "source_note": "ゴング格闘技の記事（鈴木博昭のインタビュー内での朝倉未来の予想への言及）から抽出",
+                "expected_winner": "平本蓮",
+                "expected_method": "不明",
+                "target": "鈴木博昭 vs 平本蓮",
+                "expected_outcome": "平本蓮の優位（鈴木の消耗）",
+                "deadline": "2022-07-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2022-07-02",
+                "winner": "平本蓮",
+                "method": "Decision",
+                "actual_outcome": "平本蓮が判定勝ち",
+                "notes": "判定2-1で平本蓮の勝利。朝倉の予想（鈴木が苦戦する展開）と結果が一致した。"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

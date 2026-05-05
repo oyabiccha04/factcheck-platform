@@ -1,244 +1,162 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-47",
-    "event_meta":  {
-                       "event_name":  "Yogibo presents RIZIN.47",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2024-06-09",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "国立代々木競技場 第一体育館",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin47-01",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "徳留一樹",
-                                        "blue":  "宇佐美正パトリック",
-                                        "outcome":  {
-                                                        "winner":  "宇佐美正パトリック",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "2:29",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-02",
-                                        "division":  "62.0kg",
-                                        "rules":  "RIZIN オープンフィンガーグローブ キックボクシング 3分3R",
-                                        "red":  "梅野源治",
-                                        "blue":  "魚井フルスイング",
-                                        "outcome":  {
-                                                        "winner":  "梅野源治",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-03",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "ジョニー・ケース",
-                                        "blue":  "\"ブラックパンサー\"ベイノア",
-                                        "outcome":  {
-                                                        "winner":  "\"ブラックパンサー\"ベイノア",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定0-3"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-04",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "カルシャガ・ダウトベック",
-                                        "blue":  "関鉄矢",
-                                        "outcome":  {
-                                                        "winner":  "カルシャガ・ダウトベック",
-                                                        "method":  "KO",
-                                                        "round":  1,
-                                                        "time":  "3:11",
-                                                        "result_note":  "スタンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-05",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "スパイク・カーライル",
-                                        "blue":  "キム・ギョンピョ",
-                                        "outcome":  {
-                                                        "winner":  "スパイク・カーライル",
-                                                        "method":  "Submission",
-                                                        "round":  3,
-                                                        "time":  "1:11",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-06",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "武田光司",
-                                        "blue":  "ラジャブアリ・シェイドゥラエフ",
-                                        "outcome":  {
-                                                        "winner":  "ラジャブアリ・シェイドゥラエフ",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "4:43",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-07",
-                                        "division":  "120.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "上田幹雄",
-                                        "blue":  "シェミスラブ・コバルチェク",
-                                        "outcome":  {
-                                                        "winner":  "シェミスラブ・コバルチェク",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "2:08",
-                                                        "result_note":  "アームバー"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-08",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "クレベル・コイケ",
-                                        "blue":  "フアン・アーチュレッタ",
-                                        "outcome":  {
-                                                        "winner":  "クレベル・コイケ",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "2:25",
-                                                        "result_note":  "ヒールフック"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin47-09",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "堀口恭司",
-                                        "blue":  "セルジオ・ペティス",
-                                        "outcome":  {
-                                                        "winner":  "堀口恭司",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0"
-                                                    },
-                                        "discipline":  "MMA"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-rizin-47-001",
-                           "statement_date":  "2024-06-05",
-                           "speaker":  {
-                                           "name":  "大沢ケンジ",
-                                           "role":  "commentator",
-                                           "affiliation":  "HEARTS"
-                                       },
-                           "content":  {
-                                           "raw_text":  "堀口選手が今回は完封すると思います。",
-                                           "normalized_text":  "堀口恭司が試合を支配して勝利すると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=vV9o9W_Yl7k",
-                                          "timestamp":  "04:45"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "大沢ケンジ",
-                                              "source_url":  "https://www.youtube.com/watch?v=vV9o9W_Yl7k",
-                                              "source_ref":  "statement_id=stmt-rizin-47-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。解説者視点での予想。",
-                                              "expected_winner":  "堀口恭司",
-                                              "expected_method":  "判定",
-                                              "target":  "堀口恭司 vs セルジオ・ペティス",
-                                              "expected_outcome":  "堀口恭司が判定勝ち",
-                                              "deadline":  "2024-06-09"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-06-09",
-                                                "winner":  "堀口恭司",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "堀口恭司が判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       },
-                       {
-                           "statement_id":  "stmt-rizin-47-002",
-                           "statement_date":  "2024-06-01",
-                           "speaker":  {
-                                           "name":  "扇久保博正",
-                                           "role":  "fighter",
-                                           "affiliation":  "パラエストラ松戸"
-                                       },
-                           "content":  {
-                                           "raw_text":  "堀口選手がリベンジする",
-                                           "normalized_text":  "堀口恭司が勝利すると予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=7uV8GZ4fV9M",
-                                          "timestamp":  "12:40"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "扇久保博正",
-                                              "source_url":  "https://www.youtube.com/watch?v=7uV8GZ4fV9M",
-                                              "source_ref":  "statement_id=stmt-rizin-47-002",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。扇久保博正のYouTubeチャンネルでの勝敗予想。",
-                                              "expected_winner":  "堀口恭司",
-                                              "expected_method":  "判定",
-                                              "target":  "堀口恭司 vs セルジオ・ペティス",
-                                              "expected_outcome":  "堀口恭司が判定勝ち",
-                                              "deadline":  "2024-06-09"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2024-06-09",
-                                                "winner":  "堀口恭司",
-                                                "method":  "Decision",
-                                                "actual_outcome":  "堀口恭司が判定勝ち",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome）に基づく"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-47",
+    "event_meta": {
+        "event_name": "Yogibo presents RIZIN.47",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2024-06-09",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "国立代々木競技場 第一体育館",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin47-09",
+                    "division": "61.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "堀口恭司",
+                    "blue": "セルジオ・ペティス",
+                    "outcome": {
+                        "winner": "堀口恭司",
+                        "method": "Decision",
+                        "round": null,
+                        "time": null,
+                        "result_note": "判定3-0"
+                    },
+                    "discipline": "MMA"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-47-001",
+            "statement_date": "2024-06-01",
+            "speaker": {
+                "name": "ジョビン",
+                "role": "youtuber",
+                "affiliation": "フリー"
+            },
+            "content": {
+                "raw_text": "セルジオペティスが要所で上回ってギリギリ判定で勝つ",
+                "normalized_text": "セルジオ・ペティスの判定勝ちを予想。"
+            },
+            "source": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=1EP1EOLHwFI",
+                "timestamp": "00:43:01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ジョビン",
+                "source_url": "https://www.youtube.com/watch?v=1EP1EOLHwFI",
+                "source_ref": "statement_id=stmt-rizin-47-001",
+                "source_note": "YouTube動画より抽出",
+                "expected_winner": "セルジオ・ペティス",
+                "expected_method": "DEC",
+                "target": "堀口恭司 vs セルジオ・ペティス",
+                "expected_outcome": "セルジオ・ペティスが判定勝ち",
+                "deadline": "2024-06-09"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2024-06-09",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口恭司が判定勝ち",
+                "notes": "予想は外れ。堀口恭司が勝利。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-47-002",
+            "statement_date": "2024-06-05",
+            "speaker": {
+                "name": "大沢ケンジ",
+                "role": "retired fighter",
+                "affiliation": "和術慧舟會HEARTS"
+            },
+            "content": {
+                "raw_text": "堀口君の勝利",
+                "normalized_text": "堀口恭司の勝利を予想。"
+            },
+            "source": {
+                "type": "youtube",
+                "url": "https://www.youtube.com/watch?v=N2-yzbRX824",
+                "timestamp": "00:06:08"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "大沢ケンジ",
+                "source_url": "https://www.youtube.com/watch?v=N2-yzbRX824",
+                "source_ref": "statement_id=stmt-rizin-47-002",
+                "source_note": "YouTube動画より抽出",
+                "expected_winner": "堀口恭司",
+                "expected_method": "不明",
+                "target": "堀口恭司 vs セルジオ・ペティス",
+                "expected_outcome": "堀口恭司が勝利",
+                "deadline": "2024-06-09"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2024-06-09",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口恭司が判定勝ち",
+                "notes": "予想的中。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-47-003",
+            "statement_date": "2024-06-07",
+            "speaker": {
+                "name": "スポーティングニュース",
+                "role": "media",
+                "affiliation": "Sporting News"
+            },
+            "content": {
+                "raw_text": "堀口の判定勝ちを予想",
+                "normalized_text": "堀口恭司の判定勝ちを予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sportingnews.com/jp/mma/news/2024-june-9-rizin-47-horiguchi-vs-pettis-prediction-card/e2d1d7fa231b62453065344d",
+                "timestamp": null
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "スポーティングニュース",
+                "source_url": "https://www.sportingnews.com/jp/mma/news/2024-june-9-rizin-47-horiguchi-vs-pettis-prediction-card/e2d1d7fa231b62453065344d",
+                "source_ref": "statement_id=stmt-rizin-47-003",
+                "source_note": "Sporting News記事より抽出",
+                "expected_winner": "堀口恭司",
+                "expected_method": "DEC",
+                "target": "堀口恭司 vs セルジオ・ペティス",
+                "expected_outcome": "堀口恭司が判定勝ち",
+                "deadline": "2024-06-09"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2024-06-09",
+                "winner": "堀口恭司",
+                "method": "Decision",
+                "actual_outcome": "堀口恭司が判定勝ち",
+                "notes": "予想的中。"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }

@@ -1,129 +1,129 @@
 {
-  "schema_version": "standard-log-v1.2-json",
-  "event_meta": {
-    "event_id": "ufc-311",
-    "event_name": "UFC 311: Makhachev vs. Moicano",
-    "organization": "UFC",
-    "sport": "MMA",
-    "discipline": "MMA",
-    "date": "2025-01-18",
-    "venue": "Intuit Dome",
-    "country": "USA",
-    "timezone": "America/Los_Angeles",
-    "attendance": null,
-    "note": "UFC 311。メインイベントはイスラム・マカチェフ vs ヘナト・モイカノ（ライト級タイトル）。中村倫也がムイン・ガフロフとのバンタム級マッチに出場。9連勝のプロ無敗記録が途絶えキャリア初黒星。約11カ月ぶりの復帰戦。"
-  },
-  "cards": [
-    {
-      "card_name": "Main Card",
-      "bouts": [
-        {
-          "bout_id": "ufc-311-001",
-          "bout_order": 3,
-          "division": "バンタム級",
-          "rules": "UFC MMAルール 3R×5分",
-          "weight_kg": 61.2,
-          "discipline": "MMA",
-          "red": {
-            "name": "ムイン・ガフロフ",
-            "nickname": "Tajikistan Terror",
-            "nationality": "Tajikistan",
-            "affiliation": null
-          },
-          "blue": {
-            "name": "中村倫也",
-            "nickname": "Hybird",
-            "nationality": "Japan",
-            "affiliation": "American Top Team"
-          },
-          "outcome": {
-            "winner": "ムイン・ガフロフ",
-            "method": "Decision",
-            "method_detail": "全会一致判定 (30-27×3)",
-            "round": 3,
-            "time": "5:00",
-            "result_note": "中村倫也のキャリア初黒星。ガフロフの右オーバーハンドを複数回被弾しダウン。打撃印象で完敗。"
-          }
-        }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-ufc-311-001",
-      "statement_date": "2025-01-18",
-      "speaker": {
-        "name": "Sean Zerillo",
-        "role": "analyst",
-        "affiliation": "Action Network（シニアベッティングアナリスト）"
-      },
-      "content": {
-        "raw_text": "Nakamura should get to dominant positions on the mat and potentially finish a tiring opponent — after drowning him with wrestling — in the second half of the fight.",
-        "normalized_text": "中村倫也はグラップリングでガフロフを圧倒し、レスリングで消耗させた後半にフィニッシュすると予想。バンタム級屈指の技術的なフリースタイルレスラーとして支配力を発揮すると分析。サブミッションまたは後半ラウンドでの勝利を予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.actionnetwork.com/mma/rinya-nakamura-vs-muin-gafurov-prediction-picks-odds-for-ufc-311",
-        "timestamp": "2025-01-18"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Sean Zerillo",
-        "source_url": "https://www.actionnetwork.com/mma/rinya-nakamura-vs-muin-gafurov-prediction-picks-odds-for-ufc-311",
-        "source_ref": "stmt-ufc-311-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Action Network、UFC 311前日公開。Sean ZerilloはAction NetworkのシニアベッティングアナリストでMMA予測専門家。",
-        "expected_winner": "中村倫也",
-        "expected_method": "Submission",
-        "target": "中村倫也 vs ムイン・ガフロフ",
-        "expected_outcome": "中村倫也がレスリング支配から後半にサブミッション勝ち",
-        "deadline": "2025-01-18"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-01-19",
-        "winner": "ムイン・ガフロフ",
-        "method": "Decision",
-        "actual_outcome": "ガフロフが全会一致判定 (30-27×3) 勝ち。中村のキャリア初黒星。",
-        "notes": "予想外れ。中村の打撃面の脆さが露呈し、ガフロフの右オーバーハンドを被弾して複数回ダウン。グラップリング支配ではなく打撃の展開になった。"
-      }
+    "schema_version": "standard-log-v1.2-json",
+    "event_meta": {
+        "event_id": "ufc-311",
+        "event_name": "UFC 311: Makhachev vs. Moicano",
+        "organization": "UFC",
+        "sport": "MMA",
+        "discipline": "MMA",
+        "date": "2025-01-18",
+        "venue": "Intuit Dome",
+        "country": "USA",
+        "timezone": "America/Los_Angeles",
+        "attendance": null,
+        "note": "UFC 311。メインイベントはイスラム・マカチェフ vs ヘナト・モイカノ（ライト級タイトル）。中村倫也がムイン・ガフロフとのバンタム級マッチに出場。9連勝のプロ無敗記録が途絶えキャリア初黒星。約11カ月ぶりの復帰戦。"
     },
-    {
-      "statement_id": "stmt-ufc-311-002",
-      "statement_date": "2025-01-18",
-      "speaker": {
-        "name": "井熊知也",
-        "role": "analyst",
-        "affiliation": "Sporting News日本版（アシスタントエディター・元プロキックボクサー）"
-      },
-      "content": {
-        "raw_text": "中村倫也が序盤の危機を乗り越え、レスリング力をベースに試合を支配して判定勝利を収めると予想する。",
-        "normalized_text": "1Rの危機を凌いだのち、ATTで強化されたレスリングと総合力でガフロフを消耗させ判定勝ちすると予想。ガフロフの1R決定率の高さを唯一の懸念材料として挙げた。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.sportingnews.com/jp/mma/news/rinya-nakamura-vs-muin-gafurov-prediction-odds/3a38f12f017b754516977463",
-        "timestamp": "2025-01-18"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "井熊知也",
-        "source_url": "https://www.sportingnews.com/jp/mma/news/rinya-nakamura-vs-muin-gafurov-prediction-odds/3a38f12f017b754516977463",
-        "source_ref": "stmt-ufc-311-002",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Sporting News日本版、UFC 311前日公開。井熊知也はSporting News日本版アシスタントエディターで元プロキックボクサー兼格闘技ライター。",
-        "expected_winner": "中村倫也",
-        "expected_method": "Decision",
-        "target": "中村倫也 vs ムイン・ガフロフ",
-        "expected_outcome": "中村倫也が判定勝ち",
-        "deadline": "2025-01-18"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-01-19",
-        "winner": "ムイン・ガフロフ",
-        "method": "Decision",
-        "actual_outcome": "ガフロフが全会一致判定 (30-27×3) 勝ち。",
-        "notes": "予想外れ。序盤に中村がダウンを奪われ、リカバリーできなかった。"
-      }
-    }
-  ]
+    "cards": [
+        {
+            "card_name": "Main Card",
+            "bouts": [
+                {
+                    "bout_id": "ufc-311-001",
+                    "bout_order": 3,
+                    "division": "バンタム級",
+                    "rules": "UFC MMAルール 3R×5分",
+                    "weight_kg": 61.2,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "ムイン・ガフロフ",
+                        "nickname": "Tajikistan Terror",
+                        "nationality": "Tajikistan",
+                        "affiliation": null
+                    },
+                    "blue": {
+                        "name": "中村倫也",
+                        "nickname": "Hybird",
+                        "nationality": "Japan",
+                        "affiliation": "American Top Team"
+                    },
+                    "outcome": {
+                        "winner": "ムイン・ガフロフ",
+                        "method": "Decision",
+                        "method_detail": "全会一致判定 (30-27×3)",
+                        "round": 3,
+                        "time": "5:00",
+                        "result_note": "中村倫也のキャリア初黒星。ガフロフの右オーバーハンドを複数回被弾しダウン。打撃印象で完敗。"
+                    }
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-ufc-311-001",
+            "statement_date": "2025-01-18",
+            "speaker": {
+                "name": "Sean Zerillo",
+                "role": "analyst",
+                "affiliation": "Action Network（シニアベッティングアナリスト）"
+            },
+            "content": {
+                "raw_text": "Nakamura should get to dominant positions on the mat and potentially finish a tiring opponent — after drowning him with wrestling — in the second half of the fight.",
+                "normalized_text": "中村倫也はグラップリングでガフロフを圧倒し、レスリングで消耗させた後半にフィニッシュすると予想。バンタム級屈指の技術的なフリースタイルレスラーとして支配力を発揮すると分析。サブミッションまたは後半ラウンドでの勝利を予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.actionnetwork.com/mma/rinya-nakamura-vs-muin-gafurov-prediction-picks-odds-for-ufc-311",
+                "timestamp": "2025-01-18"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Sean Zerillo",
+                "source_url": "https://www.actionnetwork.com/mma/rinya-nakamura-vs-muin-gafurov-prediction-picks-odds-for-ufc-311",
+                "source_ref": "stmt-ufc-311-001",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Action Network、UFC 311前日公開。Sean ZerilloはAction NetworkのシニアベッティングアナリストでMMA予測専門家。",
+                "expected_winner": "中村倫也",
+                "expected_method": "Submission",
+                "target": "中村倫也 vs ムイン・ガフロフ",
+                "expected_outcome": "中村倫也がレスリング支配から後半にサブミッション勝ち",
+                "deadline": "2025-01-18"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-01-19",
+                "winner": "ムイン・ガフロフ",
+                "method": "Decision",
+                "actual_outcome": "ガフロフが全会一致判定 (30-27×3) 勝ち。中村のキャリア初黒星。",
+                "notes": "予想外れ。中村の打撃面の脆さが露呈し、ガフロフの右オーバーハンドを被弾して複数回ダウン。グラップリング支配ではなく打撃の展開になった。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-311-002",
+            "statement_date": "2025-01-18",
+            "speaker": {
+                "name": "井熊知也",
+                "role": "analyst",
+                "affiliation": "Sporting News日本版（アシスタントエディター・元プロキックボクサー）"
+            },
+            "content": {
+                "raw_text": "中村倫也が序盤の危機を乗り越え、レスリング力をベースに試合を支配して判定勝利を収めると予想する。",
+                "normalized_text": "1Rの危機を凌いだのち、ATTで強化されたレスリングと総合力でガフロフを消耗させ判定勝ちすると予想。ガフロフの1R決定率の高さを唯一の懸念材料として挙げた。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.sportingnews.com/jp/mma/news/rinya-nakamura-vs-muin-gafurov-prediction-odds/3a38f12f017b754516977463",
+                "timestamp": "2025-01-18"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "井熊知也",
+                "source_url": "https://www.sportingnews.com/jp/mma/news/rinya-nakamura-vs-muin-gafurov-prediction-odds/3a38f12f017b754516977463",
+                "source_ref": "stmt-ufc-311-002",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。Sporting News日本版、UFC 311前日公開。井熊知也はSporting News日本版アシスタントエディターで元プロキックボクサー兼格闘技ライター。",
+                "expected_winner": "中村倫也",
+                "expected_method": "Decision",
+                "target": "中村倫也 vs ムイン・ガフロフ",
+                "expected_outcome": "中村倫也が判定勝ち",
+                "deadline": "2025-01-18"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-01-19",
+                "winner": "ムイン・ガフロフ",
+                "method": "Decision",
+                "actual_outcome": "ガフロフが全会一致判定 (30-27×3) 勝ち。",
+                "notes": "予想外れ。序盤に中村がダウンを奪われ、リカバリーできなかった。"
+            }
+        }
+    ]
 }

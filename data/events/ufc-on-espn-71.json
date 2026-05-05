@@ -1,271 +1,271 @@
 {
-  "schema_version": "standard-log-v1.2-json",
-  "event_meta": {
-    "event_id": "ufc-on-espn-71",
-    "event_name": "UFC on ESPN 71: Taira vs. Park（UFCファイトナイト・ラスベガス108）",
-    "organization": "UFC",
-    "sport": "MMA",
-    "discipline": "MMA",
-    "date": "2025-08-02",
-    "venue": "UFC APEX",
-    "country": "USA",
-    "timezone": "America/Los_Angeles",
-    "attendance": null,
-    "note": "UFC on ESPN 71。平良達郎がメインイベントでパク・ヒュンソンをネッククランクで仕留め再起。中村倫也も左三日月蹴りからのKOで復活。日本人2人が同大会で勝利。平良は当初アルバジと対戦予定だったが直前で変更。"
-  },
-  "cards": [
-    {
-      "card_name": "Main Card",
-      "bouts": [
+    "schema_version": "standard-log-v1.2-json",
+    "event_meta": {
+        "event_id": "ufc-on-espn-71",
+        "event_name": "UFC on ESPN 71: Taira vs. Park（UFCファイトナイト・ラスベガス108）",
+        "organization": "UFC",
+        "sport": "MMA",
+        "discipline": "MMA",
+        "date": "2025-08-02",
+        "venue": "UFC APEX",
+        "country": "USA",
+        "timezone": "America/Los_Angeles",
+        "attendance": null,
+        "note": "UFC on ESPN 71。平良達郎がメインイベントでパク・ヒュンソンをネッククランクで仕留め再起。中村倫也も左三日月蹴りからのKOで復活。日本人2人が同大会で勝利。平良は当初アルバジと対戦予定だったが直前で変更。"
+    },
+    "cards": [
         {
-          "bout_id": "ufc-on-espn-71-001",
-          "bout_order": 5,
-          "division": "フライ級",
-          "rules": "UFC MMAルール 5R×5分",
-          "weight_kg": 56.7,
-          "discipline": "MMA",
-          "red": {
-            "name": "平良達郎",
-            "nickname": null,
-            "nationality": "Japan",
-            "affiliation": "THE BLACKBELT JAPAN"
-          },
-          "blue": {
-            "name": "パク・ヒュンソン",
-            "nickname": null,
-            "nationality": "South Korea",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "平良達郎",
-            "method": "Submission",
-            "method_detail": "ネッククランク（フェイスクランク）",
-            "round": 2,
-            "time": "1:06",
-            "result_note": "平良がロイバル戦での初黒星後の再起戦。ビザ遅延・高熱・目の負傷などアクシデントを乗り越え2RでSubmission勝ち。"
-          }
+            "card_name": "Main Card",
+            "bouts": [
+                {
+                    "bout_id": "ufc-on-espn-71-001",
+                    "bout_order": 5,
+                    "division": "フライ級",
+                    "rules": "UFC MMAルール 5R×5分",
+                    "weight_kg": 56.7,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "平良達郎",
+                        "nickname": null,
+                        "nationality": "Japan",
+                        "affiliation": "THE BLACKBELT JAPAN"
+                    },
+                    "blue": {
+                        "name": "パク・ヒュンソン",
+                        "nickname": null,
+                        "nationality": "South Korea",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "平良達郎",
+                        "method": "Submission",
+                        "method_detail": "ネッククランク（フェイスクランク）",
+                        "round": 2,
+                        "time": "1:06",
+                        "result_note": "平良がロイバル戦での初黒星後の再起戦。ビザ遅延・高熱・目の負傷などアクシデントを乗り越え2RでSubmission勝ち。"
+                    }
+                },
+                {
+                    "bout_id": "ufc-on-espn-71-002",
+                    "bout_order": 6,
+                    "division": "バンタム級",
+                    "rules": "UFC MMAルール 3R×5分",
+                    "weight_kg": 61.2,
+                    "discipline": "MMA",
+                    "red": {
+                        "name": "中村倫也",
+                        "nickname": "Hybird",
+                        "nationality": "Japan",
+                        "affiliation": "American Top Team"
+                    },
+                    "blue": {
+                        "name": "ネイサン・フレッチャー",
+                        "nickname": null,
+                        "nationality": "UK",
+                        "affiliation": null
+                    },
+                    "outcome": {
+                        "winner": "中村倫也",
+                        "method": "TKO",
+                        "method_detail": "左三日月蹴り→パウンドTKO",
+                        "round": 1,
+                        "time": "1:02",
+                        "result_note": "中村がガフロフ戦の初黒星から再起。左三日月蹴りでフレッチャーの肝臓部に直撃させ、倒れた相手にパウンドでTKO勝ち。"
+                    }
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-ufc-on-espn-71-001",
+            "statement_date": "2025-08-02",
+            "speaker": {
+                "name": "Shakiel Mahjouri",
+                "role": "analyst",
+                "affiliation": "CBS Sports（MMAライター）"
+            },
+            "content": {
+                "raw_text": "Park might struggle with Taira's grappling, but the unknown fighter hasn't relinquished a takedown in the UFC. If Park can fend off Taira's grappling, I think he can find the finish within three rounds. Park via KO3",
+                "normalized_text": "パクはタイラのグラップリングに苦しむかもしれないが、UFCではテイクダウンを許していない。グラップリングを凌げれば3Rまでにフィニッシュできると予想。アップセット予想でパクのKO勝利を選択。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.cbssports.com/mma/news/ufc-fight-night-prediction-tatsuro-taira-vs-hyungsung-park-fight-card-odds-start-time-live-stream/",
+                "timestamp": "2025-08-02"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Shakiel Mahjouri",
+                "source_url": "https://www.cbssports.com/mma/news/ufc-fight-night-prediction-tatsuro-taira-vs-hyungsung-park-fight-card-odds-start-time-live-stream/",
+                "source_ref": "stmt-ufc-on-espn-71-001",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。CBS Sports、UFC ESPN71当日公開の試合予想記事。Shakiel MahjouriはCBS SportsのMMAライター。",
+                "expected_winner": "パク・ヒュンソン",
+                "expected_method": "KO",
+                "target": "平良達郎 vs パク・ヒュンソン",
+                "expected_outcome": "パクがグラップリングを凌いで3RまでにKO勝ち",
+                "deadline": "2025-08-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-08-03",
+                "winner": "平良達郎",
+                "method": "Submission",
+                "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。パクはグラップリングを凌ぐことができず。",
+                "notes": "予想外れ。少数派のアップセット予想だった。"
+            }
         },
         {
-          "bout_id": "ufc-on-espn-71-002",
-          "bout_order": 6,
-          "division": "バンタム級",
-          "rules": "UFC MMAルール 3R×5分",
-          "weight_kg": 61.2,
-          "discipline": "MMA",
-          "red": {
-            "name": "中村倫也",
-            "nickname": "Hybird",
-            "nationality": "Japan",
-            "affiliation": "American Top Team"
-          },
-          "blue": {
-            "name": "ネイサン・フレッチャー",
-            "nickname": null,
-            "nationality": "UK",
-            "affiliation": null
-          },
-          "outcome": {
-            "winner": "中村倫也",
-            "method": "TKO",
-            "method_detail": "左三日月蹴り→パウンドTKO",
-            "round": 1,
-            "time": "1:02",
-            "result_note": "中村がガフロフ戦の初黒星から再起。左三日月蹴りでフレッチャーの肝臓部に直撃させ、倒れた相手にパウンドでTKO勝ち。"
-          }
+            "statement_id": "stmt-ufc-on-espn-71-002",
+            "statement_date": "2025-08-02",
+            "speaker": {
+                "name": "Ryan Wohl",
+                "role": "analyst",
+                "affiliation": "DraftKings Network（ベッティングアナリスト）"
+            },
+            "content": {
+                "raw_text": "Taira is the all-around better fighter. Taira averages more takedowns per 15 minutes while being more efficient on the feet. The better value is to get him to win by KO/TKO/DQ or submission at -110. In his career, 12 of Taira's 16 wins have been by finish, with four of his last five coming via KO/TKO or submission.",
+                "normalized_text": "平良は総合的に優れたファイターで、テイクダウン数・打撃精度ともに上回る。16勝中12勝がフィニッシュ（直近5戦で4勝フィニッシュ）という実績から、フィニッシュ勝利（KO/TKO/サブミッション）をベストベットとして推奨。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://dknetwork.draftkings.com/2025/08/02/prediction-pick-for-tatsuro-taira-vs-hyunsung-park/",
+                "timestamp": "2025-08-02"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Ryan Wohl",
+                "source_url": "https://dknetwork.draftkings.com/2025/08/02/prediction-pick-for-tatsuro-taira-vs-hyunsung-park/",
+                "source_ref": "stmt-ufc-on-espn-71-002",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。DraftKings Network、UFC ESPN71当日公開。Ryan WohlはDraftKings NetworkのMMA担当ベッティングアナリスト。",
+                "expected_winner": "平良達郎",
+                "expected_method": "Submission or KO/TKO",
+                "target": "平良達郎 vs パク・ヒュンソン",
+                "expected_outcome": "平良がKO/TKO/一本でフィニッシュ勝ち",
+                "deadline": "2025-08-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-08-03",
+                "winner": "平良達郎",
+                "method": "Submission",
+                "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。フィニッシュ勝利を的中。",
+                "notes": "予想的中（勝者・決着方法ともに正確）。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-on-espn-71-003",
+            "statement_date": "2025-08-02",
+            "speaker": {
+                "name": "Matt Erickson",
+                "role": "analyst",
+                "affiliation": "MMA Junkie（シニアライター）"
+            },
+            "content": {
+                "raw_text": "Matt Erickson pick: Park",
+                "normalized_text": "MMA Junkie 11人スタッフ中唯一のアップセット予想。パク・ヒュンソンの勝利を選択。他のスタッフ10人は全員平良を選択した中での逆張り予想。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
+                "timestamp": "2025-08-02"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Matt Erickson",
+                "source_url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
+                "source_ref": "stmt-ufc-on-espn-71-003",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Junkie、UFC ESPN71当日公開のスタッフ予想記事。Matt EricksonはMMA Junkieのシニアライター。11人スタッフ中唯一パクを選択。",
+                "expected_winner": "パク・ヒュンソン",
+                "expected_method": null,
+                "target": "平良達郎 vs パク・ヒュンソン",
+                "expected_outcome": "パク・ヒュンソンの勝利",
+                "deadline": "2025-08-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-08-03",
+                "winner": "平良達郎",
+                "method": "Submission",
+                "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。",
+                "notes": "予想外れ。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-on-espn-71-004",
+            "statement_date": "2025-08-02",
+            "speaker": {
+                "name": "Mike Bohn",
+                "role": "analyst",
+                "affiliation": "MMA Junkie（ライター）"
+            },
+            "content": {
+                "raw_text": "Mike Bohn pick: Taira",
+                "normalized_text": "平良達郎の勝利を予想。MMA Junkie 11人スタッフの多数派（10人）の一人として平良を選択。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
+                "timestamp": "2025-08-02"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Mike Bohn",
+                "source_url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
+                "source_ref": "stmt-ufc-on-espn-71-004",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Junkie、UFC ESPN71当日公開のスタッフ予想記事。Mike BohnはMMA Junkieのライター。",
+                "expected_winner": "平良達郎",
+                "expected_method": null,
+                "target": "平良達郎 vs パク・ヒュンソン",
+                "expected_outcome": "平良達郎の勝利",
+                "deadline": "2025-08-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-08-03",
+                "winner": "平良達郎",
+                "method": "Submission",
+                "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。",
+                "notes": "予想的中。"
+            }
+        },
+        {
+            "statement_id": "stmt-ufc-on-espn-71-005",
+            "statement_date": "2025-08-01",
+            "speaker": {
+                "name": "Gabriel Sheehan",
+                "role": "analyst",
+                "affiliation": "The Stats Zone（MMAライター）"
+            },
+            "content": {
+                "raw_text": "Nakamura's wrestling still remains the safe bet here. Unless 'Hybrid' dives into a submission attempting to ground his opponent or chooses to solely rely on his limited striking, look for the Japanese fighter to lean on his freestyle roots to grind out a convincing, if uninspiring, decision victory. Prediction: Rinya Nakamura to win",
+                "normalized_text": "中村倫也のレスリングが安全な賭け。フリースタイルレスラーとしての強みを活かして判定勝ちすると予想。フレッチャーのグラップリングを上回る実力と評価。前戦でのガフロフ戦のスランプは状況的なものと判断。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://www.thestatszone.com/ufc-on-espn-71-rinya-nakamura-vs-nathan-fletcher-preview-prediction-136753",
+                "timestamp": "2025-08-01"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "Gabriel Sheehan",
+                "source_url": "https://www.thestatszone.com/ufc-on-espn-71-rinya-nakamura-vs-nathan-fletcher-preview-prediction-136753",
+                "source_ref": "stmt-ufc-on-espn-71-005",
+                "source_note": "Web検索で直接抽出（確認日：2026-03-22）。The Stats Zone、UFC ESPN71開催前日公開の試合分析記事。Gabriel SheehanはThe Stats ZoneのMMA担当ライター。",
+                "expected_winner": "中村倫也",
+                "expected_method": "Decision",
+                "target": "中村倫也 vs ネイサン・フレッチャー",
+                "expected_outcome": "中村倫也がレスリングで支配し判定勝ち",
+                "deadline": "2025-08-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2025-08-03",
+                "winner": "中村倫也",
+                "method": "TKO",
+                "actual_outcome": "中村が1R1分2秒、左三日月蹴り→パウンドでTKO勝ち。勝者は的中、決着方法は相違（予想判定→実際TKO）。",
+                "notes": "勝者予想的中。想定外の早期KO決着だったが、中村の優位性の分析は正しかった。"
+            }
         }
-      ]
-    }
-  ],
-  "statements": [
-    {
-      "statement_id": "stmt-ufc-on-espn-71-001",
-      "statement_date": "2025-08-02",
-      "speaker": {
-        "name": "Shakiel Mahjouri",
-        "role": "analyst",
-        "affiliation": "CBS Sports（MMAライター）"
-      },
-      "content": {
-        "raw_text": "Park might struggle with Taira's grappling, but the unknown fighter hasn't relinquished a takedown in the UFC. If Park can fend off Taira's grappling, I think he can find the finish within three rounds. Park via KO3",
-        "normalized_text": "パクはタイラのグラップリングに苦しむかもしれないが、UFCではテイクダウンを許していない。グラップリングを凌げれば3Rまでにフィニッシュできると予想。アップセット予想でパクのKO勝利を選択。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.cbssports.com/mma/news/ufc-fight-night-prediction-tatsuro-taira-vs-hyungsung-park-fight-card-odds-start-time-live-stream/",
-        "timestamp": "2025-08-02"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Shakiel Mahjouri",
-        "source_url": "https://www.cbssports.com/mma/news/ufc-fight-night-prediction-tatsuro-taira-vs-hyungsung-park-fight-card-odds-start-time-live-stream/",
-        "source_ref": "stmt-ufc-on-espn-71-001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。CBS Sports、UFC ESPN71当日公開の試合予想記事。Shakiel MahjouriはCBS SportsのMMAライター。",
-        "expected_winner": "パク・ヒュンソン",
-        "expected_method": "KO",
-        "target": "平良達郎 vs パク・ヒュンソン",
-        "expected_outcome": "パクがグラップリングを凌いで3RまでにKO勝ち",
-        "deadline": "2025-08-02"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-08-03",
-        "winner": "平良達郎",
-        "method": "Submission",
-        "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。パクはグラップリングを凌ぐことができず。",
-        "notes": "予想外れ。少数派のアップセット予想だった。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-on-espn-71-002",
-      "statement_date": "2025-08-02",
-      "speaker": {
-        "name": "Ryan Wohl",
-        "role": "analyst",
-        "affiliation": "DraftKings Network（ベッティングアナリスト）"
-      },
-      "content": {
-        "raw_text": "Taira is the all-around better fighter. Taira averages more takedowns per 15 minutes while being more efficient on the feet. The better value is to get him to win by KO/TKO/DQ or submission at -110. In his career, 12 of Taira's 16 wins have been by finish, with four of his last five coming via KO/TKO or submission.",
-        "normalized_text": "平良は総合的に優れたファイターで、テイクダウン数・打撃精度ともに上回る。16勝中12勝がフィニッシュ（直近5戦で4勝フィニッシュ）という実績から、フィニッシュ勝利（KO/TKO/サブミッション）をベストベットとして推奨。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://dknetwork.draftkings.com/2025/08/02/prediction-pick-for-tatsuro-taira-vs-hyunsung-park/",
-        "timestamp": "2025-08-02"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Ryan Wohl",
-        "source_url": "https://dknetwork.draftkings.com/2025/08/02/prediction-pick-for-tatsuro-taira-vs-hyunsung-park/",
-        "source_ref": "stmt-ufc-on-espn-71-002",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。DraftKings Network、UFC ESPN71当日公開。Ryan WohlはDraftKings NetworkのMMA担当ベッティングアナリスト。",
-        "expected_winner": "平良達郎",
-        "expected_method": "Submission or KO/TKO",
-        "target": "平良達郎 vs パク・ヒュンソン",
-        "expected_outcome": "平良がKO/TKO/一本でフィニッシュ勝ち",
-        "deadline": "2025-08-02"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-08-03",
-        "winner": "平良達郎",
-        "method": "Submission",
-        "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。フィニッシュ勝利を的中。",
-        "notes": "予想的中（勝者・決着方法ともに正確）。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-on-espn-71-003",
-      "statement_date": "2025-08-02",
-      "speaker": {
-        "name": "Matt Erickson",
-        "role": "analyst",
-        "affiliation": "MMA Junkie（シニアライター）"
-      },
-      "content": {
-        "raw_text": "Matt Erickson pick: Park",
-        "normalized_text": "MMA Junkie 11人スタッフ中唯一のアップセット予想。パク・ヒュンソンの勝利を選択。他のスタッフ10人は全員平良を選択した中での逆張り予想。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
-        "timestamp": "2025-08-02"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Matt Erickson",
-        "source_url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
-        "source_ref": "stmt-ufc-on-espn-71-003",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Junkie、UFC ESPN71当日公開のスタッフ予想記事。Matt EricksonはMMA Junkieのシニアライター。11人スタッフ中唯一パクを選択。",
-        "expected_winner": "パク・ヒュンソン",
-        "expected_method": null,
-        "target": "平良達郎 vs パク・ヒュンソン",
-        "expected_outcome": "パク・ヒュンソンの勝利",
-        "deadline": "2025-08-02"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-08-03",
-        "winner": "平良達郎",
-        "method": "Submission",
-        "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。",
-        "notes": "予想外れ。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-on-espn-71-004",
-      "statement_date": "2025-08-02",
-      "speaker": {
-        "name": "Mike Bohn",
-        "role": "analyst",
-        "affiliation": "MMA Junkie（ライター）"
-      },
-      "content": {
-        "raw_text": "Mike Bohn pick: Taira",
-        "normalized_text": "平良達郎の勝利を予想。MMA Junkie 11人スタッフの多数派（10人）の一人として平良を選択。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
-        "timestamp": "2025-08-02"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Mike Bohn",
-        "source_url": "https://mmajunkie.usatoday.com/story/sports/ufc/2025/08/02/ufc-espn-71-tatsuro-taira-vs-hyunsung-park-predictions-picks-mma-betting/85488769007/",
-        "source_ref": "stmt-ufc-on-espn-71-004",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。MMA Junkie、UFC ESPN71当日公開のスタッフ予想記事。Mike BohnはMMA Junkieのライター。",
-        "expected_winner": "平良達郎",
-        "expected_method": null,
-        "target": "平良達郎 vs パク・ヒュンソン",
-        "expected_outcome": "平良達郎の勝利",
-        "deadline": "2025-08-02"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-08-03",
-        "winner": "平良達郎",
-        "method": "Submission",
-        "actual_outcome": "平良が2R1分6秒フェイスクランクで一本勝ち。",
-        "notes": "予想的中。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-on-espn-71-005",
-      "statement_date": "2025-08-01",
-      "speaker": {
-        "name": "Gabriel Sheehan",
-        "role": "analyst",
-        "affiliation": "The Stats Zone（MMAライター）"
-      },
-      "content": {
-        "raw_text": "Nakamura's wrestling still remains the safe bet here. Unless 'Hybrid' dives into a submission attempting to ground his opponent or chooses to solely rely on his limited striking, look for the Japanese fighter to lean on his freestyle roots to grind out a convincing, if uninspiring, decision victory. Prediction: Rinya Nakamura to win",
-        "normalized_text": "中村倫也のレスリングが安全な賭け。フリースタイルレスラーとしての強みを活かして判定勝ちすると予想。フレッチャーのグラップリングを上回る実力と評価。前戦でのガフロフ戦のスランプは状況的なものと判断。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://www.thestatszone.com/ufc-on-espn-71-rinya-nakamura-vs-nathan-fletcher-preview-prediction-136753",
-        "timestamp": "2025-08-01"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "Gabriel Sheehan",
-        "source_url": "https://www.thestatszone.com/ufc-on-espn-71-rinya-nakamura-vs-nathan-fletcher-preview-prediction-136753",
-        "source_ref": "stmt-ufc-on-espn-71-005",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。The Stats Zone、UFC ESPN71開催前日公開の試合分析記事。Gabriel SheehanはThe Stats ZoneのMMA担当ライター。",
-        "expected_winner": "中村倫也",
-        "expected_method": "Decision",
-        "target": "中村倫也 vs ネイサン・フレッチャー",
-        "expected_outcome": "中村倫也がレスリングで支配し判定勝ち",
-        "deadline": "2025-08-02"
-      },
-      "verification": {
-        "status": "resolved",
-        "verification_date": "2025-08-03",
-        "winner": "中村倫也",
-        "method": "TKO",
-        "actual_outcome": "中村が1R1分2秒、左三日月蹴り→パウンドでTKO勝ち。勝者は的中、決着方法は相違（予想判定→実際TKO）。",
-        "notes": "勝者予想的中。想定外の早期KO決着だったが、中村の優位性の分析は正しかった。"
-      }
-    }
-  ]
+    ]
 }

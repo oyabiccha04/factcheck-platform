@@ -1,0 +1,5 @@
+yt-dlp --write-auto-sub --sub-lang ja,en --skip-download "https://www.youtube.com/watch?v=rP21QrDOFNs"
+yt-dlp --write-auto-sub --sub-lang ja,en --skip-download "https://www.youtube.com/watch?v=9kAwMKE-Ddg"
+yt-dlp --write-auto-sub --sub-lang ja,en --skip-download "https://www.youtube.com/watch?v=GdkEG0nNq9U"
+yt-dlp --write-auto-sub --sub-lang ja,en --skip-download "https://www.youtube.com/watch?v=yaSKtzqyJ9U"
+yt-dlp --write-auto-sub --sub-lang ja,en --skip-download "https://www.youtube.com/watch?v=DJuvEBQ-9ME"

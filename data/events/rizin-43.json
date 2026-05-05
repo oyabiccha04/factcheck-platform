@@ -1,266 +1,124 @@
 {
-    "schema":  "standard-log-v1.2-json",
-    "schema_version":  "1.2.1",
-    "event_id":  "rizin-43",
-    "event_meta":  {
-                       "event_name":  "RIZIN.43",
-                       "organization":  "RIZIN",
-                       "sport":  "martial_arts",
-                       "discipline":  "mma",
-                       "event_tier":  "arena",
-                       "date":  "2023-06-24",
-                       "timezone":  "Asia/Tokyo",
-                       "country":  "JP",
-                       "venue":  "真駒内セキスイハイムアイスアリーナ（札幌）",
-                       "is_dome_class":  false
-                   },
-    "cards":  [
-                  {
-                      "card_id":  "main",
-                      "card_name":  "メインカード",
-                      "bouts":  [
-                                    {
-                                        "bout_id":  "rizin43-01",
-                                        "division":  "57.5kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "山川賢誠",
-                                        "blue":  "平野凌我",
-                                        "outcome":  {
-                                                        "winner":  "山川賢誠",
-                                                        "method":  "TKO",
-                                                        "round":  2,
-                                                        "time":  "1:22",
-                                                        "result_note":  "3ノックダウン"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-02",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "熊谷麻理奈",
-                                        "blue":  "栗山葵",
-                                        "outcome":  {
-                                                        "winner":  "栗山葵",
-                                                        "method":  "KO",
-                                                        "round":  1,
-                                                        "time":  "2:48",
-                                                        "result_note":  "スタンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-03",
-                                        "division":  "61.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "トレント・ガーダム",
-                                        "blue":  "後藤丈治",
-                                        "outcome":  {
-                                                        "winner":  "後藤丈治",
-                                                        "method":  "Submission",
-                                                        "round":  2,
-                                                        "time":  "2:34",
-                                                        "result_note":  "ツイスター"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-04",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "関鉄矢",
-                                        "blue":  "遠藤来生",
-                                        "outcome":  {
-                                                        "winner":  "関鉄矢",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定3-0"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-05",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "新居すぐる",
-                                        "blue":  "飯田健夫",
-                                        "outcome":  {
-                                                        "winner":  "新居すぐる",
-                                                        "method":  "KO",
-                                                        "round":  1,
-                                                        "time":  "2:32",
-                                                        "result_note":  "スタンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-06",
-                                        "division":  "52.5kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "大島沙緒里",
-                                        "blue":  "ソルト",
-                                        "outcome":  {
-                                                        "winner":  "大島沙緒里",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "1:16",
-                                                        "result_note":  "Vクロスアームロック"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-07",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "久保優太",
-                                        "blue":  "木下カラテ",
-                                        "outcome":  {
-                                                        "winner":  "久保優太",
-                                                        "method":  "Decision",
-                                                        "round":  null,
-                                                        "time":  null,
-                                                        "result_note":  "判定2-1"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-08",
-                                        "division":  "73.0kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "木村\"フィリップ\"ミノル",
-                                        "blue":  "ロクク・ダリ",
-                                        "outcome":  {
-                                                        "winner":  null,
-                                                        "method":  null,
-                                                        "round":  1,
-                                                        "time":  "1:08",
-                                                        "result_note":  "ノーコンテスト（木村のドーピング検査陽性により無効試合）"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-09",
-                                        "division":  "62.5kg",
-                                        "rules":  "RIZIN キックボクシング 3分3R",
-                                        "red":  "梅野源治",
-                                        "blue":  "鈴木宙樹",
-                                        "outcome":  {
-                                                        "winner":  "鈴木宙樹",
-                                                        "method":  "KO",
-                                                        "round":  2,
-                                                        "time":  "2:34",
-                                                        "result_note":  "スタンドでの膝蹴り"
-                                                    },
-                                        "discipline":  "KICKBOXING"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-10",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "鈴木博昭",
-                                        "blue":  "西谷大成",
-                                        "outcome":  {
-                                                        "winner":  "鈴木博昭",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "0:56",
-                                                        "result_note":  "レフェリーストップ：グラウンドパンチ"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-11",
-                                        "division":  "120.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "関根\"シュレック\"秀樹",
-                                        "blue":  "上田幹雄",
-                                        "outcome":  {
-                                                        "winner":  "上田幹雄",
-                                                        "method":  "TKO",
-                                                        "round":  1,
-                                                        "time":  "0:22",
-                                                        "result_note":  "スタンドでのキック"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-12",
-                                        "division":  "71.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "矢地祐介",
-                                        "blue":  "ザック・ゼイン",
-                                        "outcome":  {
-                                                        "winner":  "矢地祐介",
-                                                        "method":  "Submission",
-                                                        "round":  1,
-                                                        "time":  "2:50",
-                                                        "result_note":  "リアネイキッドチョーク"
-                                                    },
-                                        "discipline":  "MMA"
-                                    },
-                                    {
-                                        "bout_id":  "rizin43-13",
-                                        "division":  "66.0kg",
-                                        "rules":  "RIZIN MMA 5分3R",
-                                        "red":  "クレベル・コイケ",
-                                        "blue":  "鈴木千裕",
-                                        "outcome":  {
-                                                        "winner":  null,
-                                                        "method":  null,
-                                                        "round":  1,
-                                                        "time":  "2:59",
-                                                        "result_note":  "ノーコンテスト（クレベルの体重超過によるイエロカード提示のため）（フェザー級タイトルマッチ）"
-                                                    },
-                                        "discipline":  "MMA"
-                                    }
-                                ]
-                  }
-              ],
-    "statements":  [
-                       {
-                           "statement_id":  "stmt-rizin-43-001",
-                           "statement_date":  "2023-06-23",
-                           "speaker":  {
-                                           "name":  "矢地祐介",
-                                           "role":  "fighter",
-                                           "affiliation":  "フリー"
-                                       },
-                           "content":  {
-                                           "raw_text":  "クレベル選手がサブミッションで勝つと思う。",
-                                           "normalized_text":  "クレベル・コイケの一本勝ちを予想。"
-                                       },
-                           "source":  {
-                                          "type":  "video",
-                                          "url":  "https://www.youtube.com/watch?v=hWFzpHc2rVk",
-                                          "timestamp":  "08:30"
-                                      },
-                           "prediction":  {
-                                              "exists":  true,
-                                              "predictor_name":  "矢地祐介",
-                                              "source_url":  "https://www.youtube.com/watch?v=hWFzpHc2rVk",
-                                              "source_ref":  "statement_id=stmt-rizin-43-001",
-                                              "source_note":  "Gemini補助で抽出（確認日：2026-03-18）。矢地祐介公式YouTube。",
-                                              "expected_winner":  "クレベル・コイケ",
-                                              "expected_method":  "SUB",
-                                              "target":  "クレベル・コイケ vs 鈴木千裕",
-                                              "expected_outcome":  "クレベル・コイケが一本勝ち",
-                                              "deadline":  "2023-06-24"
-                                          },
-                           "verification":  {
-                                                "status":  "resolved",
-                                                "verification_date":  "2023-06-24",
-                                                "winner":  null,
-                                                "method":  null,
-                                                "actual_outcome":  "ノーコンテスト",
-                                                "notes":  "興行クローズ後の試合結果（cards[].bouts[].outcome.result_note=ノーコンテスト）に基づく"
-                                            }
-                       }
-                   ],
-    "content_policy":  {
-                           "facts_only":  true,
-                           "no_opinion":  true,
-                           "no_analysis":  true,
-                           "no_ranking":  true
-                       }
+    "schema": "standard-log-v1.2-json",
+    "schema_version": "1.2.1",
+    "event_id": "rizin-43",
+    "event_meta": {
+        "event_name": "RIZIN.43",
+        "organization": "RIZIN",
+        "sport": "martial_arts",
+        "discipline": "mma",
+        "event_tier": "arena",
+        "date": "2023-06-24",
+        "timezone": "Asia/Tokyo",
+        "country": "JP",
+        "venue": "真駒内セキスイハイムアイスアリーナ（札幌）",
+        "is_dome_class": false
+    },
+    "cards": [
+        {
+            "card_id": "main",
+            "card_name": "メインカード",
+            "bouts": [
+                {
+                    "bout_id": "rizin43-13",
+                    "division": "66.0kg",
+                    "rules": "RIZIN MMA 5分3R",
+                    "red": "クレベル・コイケ",
+                    "blue": "鈴木千裕",
+                    "outcome": {
+                        "winner": null,
+                        "method": null,
+                        "round": 1,
+                        "time": "2:59",
+                        "result_note": "ノーコンテスト（クレベルの体重超過によるイエロカード提示のため）（フェザー級タイトルマッチ）"
+                    },
+                    "discipline": "MMA"
+                }
+            ]
+        }
+    ],
+    "statements": [
+        {
+            "statement_id": "stmt-rizin-43-001",
+            "statement_date": "2023-06-23",
+            "speaker": {
+                "name": "矢地祐介",
+                "role": "fighter",
+                "affiliation": "フリー"
+            },
+            "content": {
+                "raw_text": "鈴木選手が勝つんじゃないかな。1ラウンドKO勝ち予想します。",
+                "normalized_text": "鈴木千裕の1R KO勝ちを予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=hWFzpHc2rVk",
+                "timestamp": "07:54"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "矢地祐介",
+                "source_url": "https://www.youtube.com/watch?v=hWFzpHc2rVk",
+                "source_ref": "statement_id=stmt-rizin-43-001",
+                "source_note": "矢地祐介公式YouTubeより抽出",
+                "expected_winner": "鈴木千裕",
+                "expected_method": "KO/TKO",
+                "target": "クレベル・コイケ vs 鈴木千裕",
+                "expected_outcome": "鈴木千裕が1R KO勝ち",
+                "deadline": "2023-06-24"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-06-24",
+                "winner": "ノーコンテスト",
+                "method": "NC",
+                "actual_outcome": "ノーコンテスト",
+                "notes": "クレベルの体重超過により、試合結果はノーコンテストとなった（試合自体はクレベルの一本勝ち）。"
+            }
+        },
+        {
+            "statement_id": "stmt-rizin-43-002",
+            "statement_date": "2023-06-22",
+            "speaker": {
+                "name": "ホベルト・サトシ・ソウザ",
+                "role": "fighter",
+                "affiliation": "ボンサイ柔術"
+            },
+            "content": {
+                "raw_text": "ここはじゃあクレベル選手が勝ちます。グランドで極めもできるし。",
+                "normalized_text": "クレベル・コイケの勝利（極め）を予想。"
+            },
+            "source": {
+                "type": "video",
+                "url": "https://www.youtube.com/watch?v=hh7Z3FH31lk",
+                "timestamp": "09:30"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "ホベルト・サトシ・ソウザ",
+                "source_url": "https://www.youtube.com/watch?v=hh7Z3FH31lk",
+                "source_ref": "statement_id=stmt-rizin-43-002",
+                "source_note": "ホベルト・サトシ・ソウザ公式YouTubeより抽出",
+                "expected_winner": "クレベル・コイケ",
+                "expected_method": "SUB",
+                "target": "クレベル・コイケ vs 鈴木千裕",
+                "expected_outcome": "クレベル・コイケが勝利",
+                "deadline": "2023-06-24"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2023-06-24",
+                "winner": "ノーコンテスト",
+                "method": "NC",
+                "actual_outcome": "ノーコンテスト",
+                "notes": "試合結果はノーコンテスト。"
+            }
+        }
+    ],
+    "content_policy": {
+        "facts_only": true,
+        "no_opinion": true,
+        "no_analysis": true,
+        "no_ranking": true
+    }
 }
