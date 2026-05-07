@@ -514,9 +514,9 @@
             "statement_id": "stmt-boxing-2026-05-02-014",
             "statement_date": "2026-03-14",
             "speaker": {
-                "name": "和氣慎吾",
-                "role": "commentator",
-                "affiliation": "Wake Riseボクシングジム"
+                "name": "赤井祥彦",
+                "role": "promoter",
+                "affiliation": "ボクシングプロモーター / マッチメイカー"
             },
             "content": {
                 "raw_text": "俺は唯一無二（井岡）の勝ち。井岡選手のボクシングは円熟の極み。田中恒成戦のように、相手がスピードで来ても気がつけば井岡選手のペースになっている。ボディを軸にした攻めもすごい。ものすごい技術戦になると思う。",
@@ -529,10 +529,10 @@
             },
             "prediction": {
                 "exists": true,
-                "predictor_name": "和氣慎吾",
+                "predictor_name": "赤井祥彦",
                 "source_url": "https://www.youtube.com/watch?v=gvJGLSjw_V4",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-014",
-                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。要約・発言内容をユーザー提供の原典確認情報に基づき更新（2026-05-01）。同一動画内の共演者（赤井祥彦）は「ファントム（拓真）の勝ち」と発言。Tier B（元日本・OPBFスーパーバンタム級王者）。",
+                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。和氣慎吾と同一動画内で井岡一翔の判定勝利を予想。発言内容を原典確認情報に基づき更新（2026-05-07）。",
                 "expected_winner": "井岡一翔",
                 "expected_method": "判定",
                 "target": "井上拓真 vs 井岡一翔",
@@ -856,9 +856,9 @@
             "statement_id": "stmt-boxing-2026-05-02-023",
             "statement_date": "2026-03-14",
             "speaker": {
-                "name": "赤井祥彦",
-                "role": "promoter",
-                "affiliation": "ボクシングプロモーター / マッチメイカー"
+                "name": "和氣慎吾",
+                "role": "commentator",
+                "affiliation": "Wake Riseボクシングジム"
             },
             "content": {
                 "raw_text": "俺はファントム（拓真）の勝ち。那須川天心戦で見せた、劣勢から自分のペースに変えていく適応力がものすごい評価されている。階級の壁も感じるし、拓真はディフェンスが鬼。マジでもらわないから。",
@@ -871,10 +871,10 @@
             },
             "prediction": {
                 "exists": true,
-                "predictor_name": "赤井祥彦",
+                "predictor_name": "和氣慎吾",
                 "source_url": "https://www.youtube.com/watch?v=gvJGLSjw_V4",
                 "source_ref": "statement_id=stmt-boxing-2026-05-02-023",
-                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。和氣慎吾と同一動画内で「ファントム（拓真）の勝ち」と発言。発言内容をユーザー提供の原典確認情報に基づき記録（2026-05-01）。",
+                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」。要約・発言内容を原典確認情報に基づき更新（2026-05-07）。同一動画内の共演者（赤井祥彦）は「井岡の勝ち」と発言。Tier B（元日本・OPBFスーパーバンタム級王者）。",
                 "expected_winner": "井上拓真",
                 "expected_method": "不明",
                 "target": "井上拓真 vs 井岡一翔",
