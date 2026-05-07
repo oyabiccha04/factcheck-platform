@@ -383,13 +383,13 @@
             "statement_id": "stmt-boxing-2026-04-11-event-20-010",
             "statement_date": "2026-04-09",
             "speaker": {
-                "name": "赤井祥彦",
-                "role": "promoter",
-                "affiliation": "フレアボクシングジム（会長）"
+                "name": "和氣慎吾",
+                "role": "commentator",
+                "affiliation": "Wake Riseボクシングジム"
             },
             "content": {
                 "raw_text": "「勝敗予想をするなら」「天心」「変えずに行きます」「予想をするなら俺は天心判定勝ちではあるけども、新たなニュー天心を見せてくれて勝利してくれるんじゃないかな」。10cmの爆弾・接近戦での手の出し方など展開観も述べる。",
-                "normalized_text": "勝敗予想として那須川天心の勝利を表明。判定勝ち寄りだが「新しい天心」が勝つイメージ。同一動画では和氣慎吾が別途エストラーダ判定を主張。"
+                "normalized_text": "勝敗予想として那須川天心の勝利を表明。判定勝ち寄りだが「新しい天心」が勝つイメージ。同一動画では赤井祥彦が別途エストラーダ判定を主張。"
             },
             "source": {
                 "type": "video",
@@ -398,10 +398,10 @@
             },
             "prediction": {
                 "exists": true,
-                "predictor_name": "赤井祥彦",
+                "predictor_name": "和氣慎吾",
                 "source_url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
                 "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-010",
-                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」【直前予想！4.11那須川天心vsエストラーダ！】要約は自動文字起こしに基づく（確認日：2026-04-08）。発言者帰属を修正（天心予想=赤井祥彦、エストラーダ予想=和氣慎吾）。",
+                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」【直前予想！4.11那須川天心vsエストラーダ！】要約は自動文字起こしに基づく（確認日：2026-04-08）。発言者帰属を修正（天心予想=和氣慎吾、エストラーダ予想=赤井祥彦）。",
                 "expected_winner": "那須川天心",
                 "expected_method": "判定",
                 "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
@@ -421,13 +421,13 @@
             "statement_id": "stmt-boxing-2026-04-11-event-20-011",
             "statement_date": "2026-04-09",
             "speaker": {
-                "name": "和氣慎吾",
-                "role": "commentator",
-                "affiliation": "Wake Riseボクシングジム"
+                "name": "赤井祥彦",
+                "role": "promoter",
+                "affiliation": "フレアボクシングジム（会長）"
             },
             "content": {
                 "raw_text": "「俺はエストラーダ判定かな？」「エストラーダ判定。ま、それで行きますか。当初の予定通りね。」葛西トレーナーのミットなどを踏まえつつエストラーダ側の見立てを述べる。",
-                "normalized_text": "和氣慎吾として、勝敗予想でファン・フランシスコ・エストラーダの判定勝利を表明。赤井祥彦の天心予想と同一動画内で対立する予想。"
+                "normalized_text": "赤井祥彦として、勝敗予想でファン・フランシスコ・エストラーダの判定勝利を表明。和氣慎吾の天心予想と同一動画内で対立する予想。"
             },
             "source": {
                 "type": "video",
@@ -436,10 +436,10 @@
             },
             "prediction": {
                 "exists": true,
-                "predictor_name": "和氣慎吾",
+                "predictor_name": "赤井祥彦",
                 "source_url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
                 "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-011",
-                "source_note": "同一動画の文字起こしで「エストラーダ判定」と明言する声。発言者帰属を修正（エストラーダ予想=和氣慎吾）。",
+                "source_note": "同一動画の文字起こしで「エストラーダ判定」と明言する声。発言者帰属を修正（エストラーダ予想=赤井祥彦）。",
                 "expected_winner": "ファン・フランシスコ・エストラーダ",
                 "expected_method": "判定",
                 "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
