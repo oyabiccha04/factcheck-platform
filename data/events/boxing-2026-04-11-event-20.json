@@ -383,29 +383,29 @@
             "statement_id": "stmt-boxing-2026-04-11-event-20-010",
             "statement_date": "2026-04-09",
             "speaker": {
-                "name": "和氣慎吾",
-                "role": "commentator",
-                "affiliation": "Wake Riseボクシングジム"
+                "name": "赤井祥彦",
+                "role": "promoter",
+                "affiliation": "フレア山上ボクシングジム（代表）"
             },
             "content": {
-                "raw_text": "「勝敗予想をするなら」「天心」「変えずに行きます」「予想をするなら俺は天心判定勝ちではあるけども、新たなニュー天心を見せてくれて勝利してくれるんじゃないかな」。10cmの爆弾・接近戦での手の出し方など展開観も述べる。",
-                "normalized_text": "勝敗予想として那須川天心の勝利を表明。判定勝ち寄りだが「新しい天心」が勝つイメージ。同一動画では赤井祥彦が別途エストラーダ判定を主張。"
+                "raw_text": "ミットがへたでもめちゃくちゃ強い選手もいっぱいいる...（那須川の勝利を予想）",
+                "normalized_text": "勝敗予想として那須川天心の勝利を表明。"
             },
             "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
-                "timestamp": "2026-04-09前後"
+                "type": "article",
+                "url": "https://www.chunichi.co.jp/article/1235434",
+                "timestamp": "不明"
             },
             "prediction": {
                 "exists": true,
-                "predictor_name": "和氣慎吾",
-                "source_url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
+                "predictor_name": "赤井祥彦",
+                "source_url": "https://www.chunichi.co.jp/article/1235434",
                 "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-010",
-                "source_note": "YouTube「和氣慎吾 リーゼントチャンネル」【直前予想！4.11那須川天心vsエストラーダ！】要約は自動文字起こしに基づく（確認日：2026-04-08）。発言者帰属を修正（天心予想=和氣慎吾、エストラーダ予想=赤井祥彦）。",
+                "source_note": "中日スポーツ・東京中日スポーツ掲載記事（2026-04-09）。動画との齟齬があるが記事記載に基づく（2026-05-07更新）。",
                 "expected_winner": "那須川天心",
-                "expected_method": "判定",
+                "expected_method": "不明",
                 "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                "expected_outcome": "那須川天心が判定勝ち寄りで勝利（新しい天心のパフォーマンスとの文脈）",
+                "expected_outcome": "那須川天心が勝利する",
                 "deadline": "2026-04-11"
             },
             "verification": {
@@ -414,36 +414,36 @@
                 "winner": "那須川天心",
                 "method": "TKO",
                 "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
-                "notes": "勝者（那須川天心）は的中。判定寄りの予想に対し実際は9回TKOのため方法は外れ。"
+                "notes": "勝者（那須川天心）は的中。決着方法は予想なし。"
             }
         },
         {
             "statement_id": "stmt-boxing-2026-04-11-event-20-011",
             "statement_date": "2026-04-09",
             "speaker": {
-                "name": "赤井祥彦",
-                "role": "promoter",
-                "affiliation": "フレアボクシングジム（会長）"
+                "name": "和氣慎吾",
+                "role": "commentator",
+                "affiliation": "Wake Riseボクシングジム（会長）"
             },
             "content": {
-                "raw_text": "「俺はエストラーダ判定かな？」「エストラーダ判定。ま、それで行きますか。当初の予定通りね。」葛西トレーナーのミットなどを踏まえつつエストラーダ側の見立てを述べる。",
-                "normalized_text": "赤井祥彦として、勝敗予想でファン・フランシスコ・エストラーダの判定勝利を表明。和氣慎吾の天心予想と同一動画内で対立する予想。"
+                "raw_text": "選手に対する持ち上げとかメンタルのサポートの方がトレーナーの役割としては大きい...（エストラーダの勝利を予想）",
+                "normalized_text": "勝敗予想でファン・フランシスコ・エストラーダの勝利を表明。"
             },
             "source": {
-                "type": "video",
-                "url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
-                "timestamp": "2026-04-09前後"
+                "type": "article",
+                "url": "https://www.chunichi.co.jp/article/1235434",
+                "timestamp": "不明"
             },
             "prediction": {
                 "exists": true,
-                "predictor_name": "赤井祥彦",
-                "source_url": "https://www.youtube.com/watch?v=kSWMEf5gtFg",
+                "predictor_name": "和氣慎吾",
+                "source_url": "https://www.chunichi.co.jp/article/1235434",
                 "source_ref": "statement_id=stmt-boxing-2026-04-11-event-20-011",
-                "source_note": "同一動画の文字起こしで「エストラーダ判定」と明言する声。発言者帰属を修正（エストラーダ予想=赤井祥彦）。",
+                "source_note": "中日スポーツ・東京中日スポーツ掲載記事（2026-04-09）。動画との齟齬があるが記事記載に基づく（2026-05-07更新）。",
                 "expected_winner": "ファン・フランシスコ・エストラーダ",
-                "expected_method": "判定",
+                "expected_method": "不明",
                 "target": "那須川天心 vs ファン・フランシスコ・エストラーダ",
-                "expected_outcome": "エストラーダが判定で勝利",
+                "expected_outcome": "エストラーダが勝利する",
                 "deadline": "2026-04-11"
             },
             "verification": {
@@ -452,7 +452,7 @@
                 "winner": "那須川天心",
                 "method": "TKO",
                 "actual_outcome": "那須川天心が9回終了後にエストラーダ側の棄権によりTKO勝ち。副審集計は88-83、89-82、87-84（いずれも天心）。",
-                "notes": "エストラーダの判定勝ちを予想していたが、天心がTKO勝ち。ハズレ。"
+                "notes": "エストラーダの勝利を予想していたが、天心がTKO勝ち。ハズレ。"
             }
         }
     ],

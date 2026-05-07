@@ -1231,6 +1231,82 @@
                 "actual_outcome": "井上尚弥が3-0判定勝ち。",
                 "notes": "勝者は的中、決着方法は相違。"
             }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-032",
+            "statement_date": "2026-04-27",
+            "speaker": {
+                "name": "和氣慎吾",
+                "role": "commentator",
+                "affiliation": "Wake Riseボクシングジム"
+            },
+            "content": {
+                "raw_text": "やっぱりそこは井上チャンピオンの今の実力に僕はかけたい",
+                "normalized_text": "井上尚弥の判定勝ちを予想。井上の現在の実力を評価。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://news.yahoo.co.jp/articles/854cb4118a6cb9e06babfb05f5f232af3ef79907",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "和氣慎吾",
+                "source_url": "https://news.yahoo.co.jp/articles/854cb4118a6cb9e06babfb05f5f232af3ef79907",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-032",
+                "source_note": "東スポWEB掲載記事（2026-04-27）。Tier B（元日本・OPBFスーパーバンタム級王者）。",
+                "expected_winner": "井上尚弥",
+                "expected_method": "判定",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "井上尚弥が判定勝ち。現在の実力を評価しての予想。",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上尚弥",
+                "method": "判定",
+                "actual_outcome": "井上尚弥が3-0判定勝ち。",
+                "notes": "予想的中（勝者・決着方法ともに正確）。"
+            }
+        },
+        {
+            "statement_id": "stmt-boxing-2026-05-02-033",
+            "statement_date": "2026-04-27",
+            "speaker": {
+                "name": "赤井祥彦",
+                "role": "promoter",
+                "affiliation": "フレアボクシングジム（代表）"
+            },
+            "content": {
+                "raw_text": "俺はやっぱり世代交代、あるんじゃないかと思ってます。勝つならKO。僕の中で6―4。60％、中谷潤人選手が今回は勝つんじゃなかろうかと。",
+                "normalized_text": "中谷潤人のKO勝利を予想（勝率60%）。世代交代が起きるとの見立て。"
+            },
+            "source": {
+                "type": "article",
+                "url": "https://news.yahoo.co.jp/articles/854cb4118a6cb9e06babfb05f5f232af3ef79907",
+                "timestamp": "不明"
+            },
+            "prediction": {
+                "exists": true,
+                "predictor_name": "赤井祥彦",
+                "source_url": "https://news.yahoo.co.jp/articles/854cb4118a6cb9e06babfb05f5f232af3ef79907",
+                "source_ref": "statement_id=stmt-boxing-2026-05-02-033",
+                "source_note": "東スポWEB掲載記事（2026-04-27）。",
+                "expected_winner": "中谷潤人",
+                "expected_method": "KO",
+                "target": "井上尚弥 vs 中谷潤人",
+                "expected_outcome": "中谷潤人がKOで勝利（60%の確率で世代交代と予想）。",
+                "deadline": "2026-05-02"
+            },
+            "verification": {
+                "status": "resolved",
+                "verification_date": "2026-05-02",
+                "winner": "井上尚弥",
+                "method": "判定",
+                "actual_outcome": "井上尚弥が3-0判定勝ち。",
+                "notes": "ハズレ。"
+            }
         }
     ],
     "content_policy": {
