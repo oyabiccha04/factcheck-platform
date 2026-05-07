@@ -89,44 +89,6 @@
     },
     {
       "statement_id": "stmt-ufc-328-j001",
-      "statement_date": "2025-11-23",
-      "speaker": {
-        "name": "青木真也",
-        "role": "fighter",
-        "affiliation": "格闘家・元ONE世界ライト級王者"
-      },
-      "content": {
-        "raw_text": "日本人で勝つとしたら、平良が一番だと思う。練習したら堀口さんのほうが強いと思うが、フレッシュさと勢いを含めて、平良のほうが一枚上手なんじゃないか",
-        "normalized_text": "堀口恭司のUFC復帰直後（2025年11月）にコメント。現時点でフライ級タイトルに最も近い日本人は平良と評価。経験・練習量では堀口が上だが、フレッシュさと勢いで平良が一枚上手と分析。平良のタイトル挑戦を最有力視。※当初のUFC327対戦発表前のコメントだが、平良優位の見解として記録。"
-      },
-      "source": {
-        "type": "article",
-        "url": "https://spread-sports.jp/archives/369011",
-        "timestamp": "2025-11-23"
-      },
-      "prediction": {
-        "exists": true,
-        "predictor_name": "青木真也",
-        "source_url": "https://spread-sports.jp/archives/369011",
-        "source_ref": "stmt-ufc-328-j001",
-        "source_note": "Web検索で直接抽出（確認日：2026-03-22）。SPREAD、2025年11月23日公開。青木真也のYouTubeチャンネル発言をSPREADが記事化。UFCでのヴァン対平良の正式発表前のコメントだが、平良がフライ級タイトルを獲得できる最有力の日本人選手との見解。",
-        "expected_winner": "平良達郎",
-        "expected_method": null,
-        "target": "ジョシュア・ヴァン vs 平良達郎",
-        "expected_outcome": "平良達郎がフライ級タイトル戦で勝利（日本人で勝てるとしたら平良が一番）",
-        "deadline": "2026-05-09"
-      },
-      "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。※コメントは対戦発表前（2025年11月）のもので、当時の対戦相手はヴァンでなくパントージャを想定していた可能性あり。"
-      }
-    },
-    {
-      "statement_id": "stmt-ufc-328-aoki-note",
       "statement_date": "2026-04-06",
       "speaker": {
         "name": "青木真也",
@@ -134,8 +96,8 @@
         "affiliation": "格闘家・元ONE世界ライト級王者"
       },
       "content": {
-        "raw_text": "青木真也の見立てとしては平良達郎さんの圧勝なのですが、圧勝と言われても理屈が伝わらないことにはアテンション稼ぎの騒ぎと思われてしまうところで、今回は平良達郎が圧勝する理由を丁寧に説明してまいります。（有料エリア前の公開テキストより）",
-        "normalized_text": "平良達郎の圧勝との見立てを表明。詳細は記事内で展開とする。"
+        "raw_text": "（2025-11）日本人で勝つとしたら、平良が一番だと思う。練習したら堀口さんのほうが強いと思うが、フレッシュさと勢いを含めて、平良のほうが一枚上手なんじゃないか／（2026-04 note公開部）青木真也の見立てとしては平良達郎さんの圧勝なのですが…今回は平良達郎が圧勝する理由を丁寧に説明してまいります。",
+        "normalized_text": "2025年11月時点では日本人でフライ級王座に最も近いのは平良（堀口恭司よりフレッシュさ・勢いで一枚上手）と評価。2026年4月のnoteでは対ヴァン戦として平良の圧勝との見立てを表明（公開部のみ。有料部分の理屈は未反映）。"
       },
       "source": {
         "type": "article",
@@ -146,12 +108,12 @@
         "exists": true,
         "predictor_name": "青木真也",
         "source_url": "https://note.com/a_ok_i/n/ne3a18a296250",
-        "source_ref": "stmt-ufc-328-aoki-note",
-        "source_note": "note「月刊青木真也」掲載（2026-04-06）。有料部分の要約は未入力。公開箇所の「圧勝」表明に基づく（確認日：2026-05-07）。",
+        "source_ref": "stmt-ufc-328-j001",
+        "source_note": "代表ソースは note「月刊青木真也」（2026-04-06・UFC327→328延期に言及）。併せて SPREAD掲載のYouTube発言（https://spread-sports.jp/archives/369011、2025-11-23）を同一予測者の連続見解として統合（確認日：2026-05-07）。ヴァン対平良の正式発表前の11月コメントは対戦相手が異なる可能性あり。",
         "expected_winner": "平良達郎",
         "expected_method": "不明",
         "target": "ジョシュア・ヴァン vs 平良達郎",
-        "expected_outcome": "平良達郎の圧勝（公開テキスト）。決着方法の明示は公開部になし。",
+        "expected_outcome": "平良達郎の勝利（11月は「日本人で勝てるなら平良」、4月公開部は「圧勝」表明）。決着方法の明示はnote公開部になし。",
         "deadline": "2026-05-09"
       },
       "verification": {
@@ -160,7 +122,7 @@
         "winner": null,
         "method": null,
         "actual_outcome": null,
-        "notes": "試合未実施のため未検証。"
+        "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。"
       }
     },
     {
