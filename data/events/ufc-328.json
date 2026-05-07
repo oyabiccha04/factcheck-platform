@@ -124,6 +124,272 @@
         "actual_outcome": null,
         "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。※コメントは対戦発表前（2025年11月）のもので、当時の対戦相手はヴァンでなくパントージャを想定していた可能性あり。"
       }
+    },
+    {
+      "statement_id": "stmt-ufc-328-aoki-note",
+      "statement_date": "2026-04-06",
+      "speaker": {
+        "name": "青木真也",
+        "role": "fighter",
+        "affiliation": "格闘家・元ONE世界ライト級王者"
+      },
+      "content": {
+        "raw_text": "青木真也の見立てとしては平良達郎さんの圧勝なのですが、圧勝と言われても理屈が伝わらないことにはアテンション稼ぎの騒ぎと思われてしまうところで、今回は平良達郎が圧勝する理由を丁寧に説明してまいります。（有料エリア前の公開テキストより）",
+        "normalized_text": "平良達郎の圧勝との見立てを表明。詳細は記事内で展開とする。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://note.com/a_ok_i/n/ne3a18a296250",
+        "timestamp": "2026-04-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "青木真也",
+        "source_url": "https://note.com/a_ok_i/n/ne3a18a296250",
+        "source_ref": "stmt-ufc-328-aoki-note",
+        "source_note": "note「月刊青木真也」掲載（2026-04-06）。有料部分の要約は未入力。公開箇所の「圧勝」表明に基づく（確認日：2026-05-07）。",
+        "expected_winner": "平良達郎",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎の圧勝（公開テキスト）。決着方法の明示は公開部になし。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-328-belal",
+      "statement_date": "2026-05-06",
+      "speaker": {
+        "name": "ベラル・ムハマッド",
+        "role": "fighter",
+        "affiliation": "UFC（元ウェルター級王者）"
+      },
+      "content": {
+        "raw_text": "そして勝敗予想として「俺は平良を選ぶ。体も大きく、グラウンド技術があまりにも優れている。彼が新王者になるよ」とした。",
+        "normalized_text": "平良達郎を選び、体格と寝技の優位から新王者になると勝敗予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "timestamp": "2026-05-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "ベラル・ムハマッド",
+        "source_url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "source_ref": "stmt-ufc-328-belal",
+        "source_note": "Yahoo!ニュース（イーファイト記事、2026-05-06配信）。YouTubeでの発言を記事化（確認日：2026-05-07）。",
+        "expected_winner": "平良達郎",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎が新王者になる（グラウンドの優位を根拠に）。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-328-pantoja",
+      "statement_date": "2026-05-06",
+      "speaker": {
+        "name": "アレッシャンドリ・パントージャ",
+        "role": "fighter",
+        "affiliation": "UFC（元フライ級王者）"
+      },
+      "content": {
+        "raw_text": "平良はグラップリングが強く、有利。元王者ブランドン・モレノをフィニッシュしている。良い勝負になるが、平良が少し有利だと思っている",
+        "normalized_text": "平良のグラップリングを評価し、良い試合になるが平良がやや有利とUFC公式動画で予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "timestamp": "2026-05-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "アレッシャンドリ・パントージャ",
+        "source_url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "source_ref": "stmt-ufc-328-pantoja",
+        "source_note": "Yahoo!ニュース（イーファイト、2026-05-06）。UFC公式動画発言の紹介（確認日：2026-05-07）。",
+        "expected_winner": "平良達郎",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎がやや有利で勝利寄りと見る。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-328-rountree",
+      "statement_date": "2026-05-06",
+      "speaker": {
+        "name": "カリル・ラウントリー",
+        "role": "fighter",
+        "affiliation": "UFC（ライトヘビー級）"
+      },
+      "content": {
+        "raw_text": "平良は試合中にコーナーの指示を聞き、修正できる選手。それに、周囲から練習への姿勢やメンタリティも良いと聞いている。最終的に平良が勝つと思う",
+        "normalized_text": "平良のコーナー反映力と姿勢を評価し、最終的に平良の勝利を予想。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "timestamp": "2026-05-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "カリル・ラウントリー",
+        "source_url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "source_ref": "stmt-ufc-328-rountree",
+        "source_note": "Yahoo!ニュース（イーファイト、2026-05-06）。YouTube番組での発言と記載（確認日：2026-05-07）。",
+        "expected_winner": "平良達郎",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎が勝つと予想。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-328-strickland",
+      "statement_date": "2026-05-06",
+      "speaker": {
+        "name": "ショーン・ストリックランド",
+        "role": "fighter",
+        "affiliation": "UFC（元ミドル級王者）"
+      },
+      "content": {
+        "raw_text": "おお、レジェンドじゃん！ 彼はすごいんだ。最高の一人だ。そして世界王者になる",
+        "normalized_text": "平良への称賛と「世界王者になる」旨の発言（UFC公式動画）。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "timestamp": "2026-05-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "ショーン・ストリックランド",
+        "source_url": "https://news.yahoo.co.jp/articles/da9f2287ef4788a8dd59226945e1b3016b92adbf",
+        "source_ref": "stmt-ufc-328-strickland",
+        "source_note": "Yahoo!ニュース（イーファイト、2026-05-06）。握手シーンの発言として紹介。勝者・方法の明言ではなく応援・確信に近い（確認日：2026-05-07）。",
+        "expected_winner": "平良達郎",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎が世界王者になる（発言要約）。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。厳密な勝敗予想記事ではなくコメント掲載。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-328-tsuruya",
+      "statement_date": "2026-05-06",
+      "speaker": {
+        "name": "鶴屋怜",
+        "role": "fighter",
+        "affiliation": "UFC（フライ級）"
+      },
+      "content": {
+        "raw_text": "ヴァンが勝つなら、判定勝ち。5R、テイクダウンを切って打撃を当て続けることができるなら。達郎君が勝つなら、4R以降にバックとかがハマって極める。それと距離感を掴むのが達郎君は上手いから、右ストレートを当ててそのまま寝技で勝つことも全然ありそうです",
+        "normalized_text": "ヴァンの勝ち筋は打ち切りの判定寄り、平良の勝ち筋は4R以降のバック系の極めや右ストレートからの寝技などと展開予想。単独の勝者断定はせず両者あり得ると前置き。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://mmaplanet.jp/227411",
+        "timestamp": "2026-05-06"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "鶴屋怜",
+        "source_url": "https://mmaplanet.jp/227411",
+        "source_ref": "stmt-ufc-328-tsuruya",
+        "source_note": "MMAPLANETインタビュー（2026-05-06公開）（確認日：2026-05-07）。",
+        "expected_winner": "条件付き",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "ヴァンなら判定（テイクダウン防御と打撃の継続が続く場合）。平良なら4R以降の極め、または右ストレートから寝技の可能性。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。勝者の一方に断定せず条件分岐。"
+      }
+    },
+    {
+      "statement_id": "stmt-ufc-328-usami",
+      "statement_date": "2026-05-07",
+      "speaker": {
+        "name": "宇佐美正パトリック",
+        "role": "fighter",
+        "affiliation": "ハイブリッドアカデミー"
+      },
+      "content": {
+        "raw_text": "平良が新王者になる確率については「50％」としながらも、「組んだら平良選手が余裕で一本で決められると思う」。「今の安定感なら平良選手が一本を取る可能性もある」と平良優位を予想。「組めば一本を取れる力は間違いない」",
+        "normalized_text": "戴冠確率50％としつつ、組めば平良が一本を取れる力は確実と評価。安定感から平良優位・一本の可能性に言及。"
+      },
+      "source": {
+        "type": "article",
+        "url": "https://www.sponichi.co.jp/battle/news/2026/05/07/kiji/20260507s00003000120000c.html",
+        "timestamp": "2026-05-07"
+      },
+      "prediction": {
+        "exists": true,
+        "predictor_name": "宇佐美正パトリック",
+        "source_url": "https://www.sponichi.co.jp/battle/news/2026/05/07/kiji/20260507s00003000120000c.html",
+        "source_ref": "stmt-ufc-328-usami",
+        "source_note": "スポニチアネックス独占インタビュー（2026-05-07）（確認日：2026-05-07）。",
+        "expected_winner": "平良達郎",
+        "expected_method": "不明",
+        "target": "ジョシュア・ヴァン vs 平良達郎",
+        "expected_outcome": "平良達郎優位。組めば一本を取れる力は確実という見立て（決着方法は記事上サブミッション示唆に留まる）。",
+        "deadline": "2026-05-09"
+      },
+      "verification": {
+        "status": "pending",
+        "verification_date": null,
+        "winner": null,
+        "method": null,
+        "actual_outcome": null,
+        "notes": "試合未実施のため未検証。"
+      }
     }
   ]
 }
