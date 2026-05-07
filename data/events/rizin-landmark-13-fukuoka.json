@@ -11,7 +11,7 @@
         "country": "JP",
         "timezone": "Asia/Tokyo",
         "attendance": null,
-        "note": "メインはRIZINフェザー級タイトルマッチ（ラジャブアリ・シェイドゥラエフ vs 久保優太）。福岡県福岡市。12:30開始（ABEMA TIMES・大会案内より）。データ登録時点では未開催（確認日：2026-04-08）。"
+        "note": "メインはRIZINフェザー級タイトルマッチ（ラジャブアリ・シェイドゥラエフ vs 久保優太）。福岡県福岡市。2026-04-12開催。メインはシェイドゥラエフが1R 4:13 TKO（パンチ）で王座防衛（Sherdog Fight Finder・確認日：2026-05-07）。"
     },
     "cards": [
         {
@@ -37,12 +37,12 @@
                         "affiliation": null
                     },
                     "outcome": {
-                        "winner": null,
-                        "method": null,
-                        "method_detail": null,
-                        "round": null,
-                        "time": null,
-                        "result_note": "未開催（予定）"
+                        "winner": "ラジャブアリ・シェイドゥラエフ",
+                        "method": "TKO",
+                        "method_detail": "パンチ",
+                        "round": 1,
+                        "time": "4:13",
+                        "result_note": "フェザー級王座戦。詳細はSherdog Fight Finder（TKO・パンチ・1R 4:13、審判 Masato Fukuda）。"
                     }
                 }
             ]
@@ -79,12 +79,12 @@
                 "deadline": "2026-04-12"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": "未開催（予定）",
-                "notes": null
+                "status": "resolved",
+                "verification_date": "2026-04-12",
+                "winner": "ラジャブアリ・シェイドゥラエフ",
+                "method": "TKO",
+                "actual_outcome": "ラジャブアリ・シェイドゥラエフが1R 4:13 TKO（パンチ）で勝利。フェザー級王座防衛。",
+                "notes": "予想的中（勝者は的中。KO系・打撃終了は的中。2R予想に対し1R終了のためラウンドは相違）。"
             }
         },
         {
@@ -108,7 +108,7 @@
                 "exists": true,
                 "predictor_name": "扇久保博正",
                 "source_url": "https://www.youtube.com/watch?v=yaSKtzqyJ9U",
-                "source_ref": "stmt-lm13-jobin",
+                "source_ref": "stmt-lm13-ougikubo",
                 "source_note": "YouTube自動字幕より抽出（確認日：2026-05-05）。",
                 "expected_winner": "ラジャブアリ・シェイドゥラエフ",
                 "expected_method": null,
@@ -117,12 +117,12 @@
                 "deadline": "2026-04-12"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": "未開催（予定）",
-                "notes": null
+                "status": "resolved",
+                "verification_date": "2026-04-12",
+                "winner": "ラジャブアリ・シェイドゥラエフ",
+                "method": "TKO",
+                "actual_outcome": "ラジャブアリ・シェイドゥラエフが1R 4:13 TKO（パンチ）で勝利。フェザー級王座防衛。",
+                "notes": "予想的中（勝者的中。決着方法は予想なし）。"
             }
         },
         {
@@ -155,12 +155,12 @@
                 "deadline": "2026-04-12"
             },
             "verification": {
-                "status": "pending",
-                "verification_date": null,
-                "winner": null,
-                "method": null,
-                "actual_outcome": "未開催（予定）",
-                "notes": null
+                "status": "resolved",
+                "verification_date": "2026-04-12",
+                "winner": "ラジャブアリ・シェイドゥラエフ",
+                "method": "TKO",
+                "actual_outcome": "ラジャブアリ・シェイドゥラエフが1R 4:13 TKO（パンチ）で勝利。フェザー級王座防衛。",
+                "notes": "予想的中（勝者的中。決着方法は予想なし）。"
             }
         }
     ]
