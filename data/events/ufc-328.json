@@ -11,7 +11,7 @@
     "country": "USA",
     "timezone": "America/New_York",
     "attendance": null,
-    "note": "UFC 328。本戦はヴァンの負傷により、当初UFC 327（2026年4月12日・マイアミ）で予定されていたフライ級タイトルマッチ（ジョシュア・ヴァン vs 平良達郎）がこちらへ移行。会場はPrudential Center。米国現地は2026年5月9日（土）開催予定で、日本の暦日では5月10日前後。UFCフライ級タイトルマッチ（ヴァンの初防衛戦）。ヴァンは2025年12月のUFC323でパントージャを26秒TKOで下し戴冠。平良は同大会でブランドン・モレノを2R TKO撃破しタイトル挑戦権獲得。"
+    "note": "UFC 328。本戦はヴァンの負傷により、当初UFC 327（2026年4月12日・マイアミ）で予定されていたフライ級タイトルマッチ（ジョシュア・ヴァン vs 平良達郎）がこちらへ移行。会場はPrudential Center。米国現地2026年5月9日（土）／日本時間5月10日開催。UFCフライ級タイトルマッチ（ヴァンの初防衛戦）は、ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎を下し王座防衛。"
   },
   "cards": [
     {
@@ -37,12 +37,12 @@
             "affiliation": "THE BLACKBELT JAPAN"
           },
           "outcome": {
-            "winner": null,
-            "method": null,
-            "method_detail": null,
-            "round": null,
-            "time": null,
-            "result_note": "未開催（予定）"
+            "winner": "ジョシュア・ヴァン",
+            "method": "TKO",
+            "method_detail": "パンチ",
+            "round": 5,
+            "time": "1:32",
+            "result_note": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎を下し、UFCフライ級王座を防衛。"
           }
         }
       ]
@@ -79,12 +79,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。"
+        "status": "resolved",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "予想的中（勝者・KO/TKO）。ただし『チャンピオンシップラウンド前』ではなく5Rでの決着。"
       }
     },
     {
@@ -117,12 +117,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合はUFC328として2026年5月9日（米・現地）／日本時間5月10日前後開催予定。未検証。"
+        "status": "resolved",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "予想外れ。平良の圧勝・戴冠予想に対し、実際はヴァンが終盤にTKO勝ち。"
       }
     },
     {
@@ -155,12 +155,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合未実施のため未検証。"
+        "status": "resolved",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "予想外れ。平良の新王者予想に対し、ヴァンが王座を防衛。"
       }
     },
     {
@@ -193,12 +193,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合未実施のため未検証。"
+        "status": "resolved",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "予想外れ。平良やや有利の見立てに対し、実際はヴァンがTKOで防衛。"
       }
     },
     {
@@ -231,12 +231,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合未実施のため未検証。"
+        "status": "resolved",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "予想外れ。平良勝利予想に対し、実際はヴァンが終盤にTKO勝ち。"
       }
     },
     {
@@ -269,12 +269,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合未実施のため未検証。厳密な勝敗予想記事ではなくコメント掲載。"
+        "status": "resolved",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "予想外れ。平良が世界王者になる趣旨の発言として記録していたが、実際はヴァンが防衛。厳密な勝敗予想記事ではなくコメント掲載。"
       }
     },
     {
@@ -307,12 +307,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合未実施のため未検証。勝者の一方に断定せず条件分岐。"
+        "status": "excluded_from_stats",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "勝者の一方に断定せず条件分岐のため、的中率集計から除外。実際はヴァンの5R TKO勝ちで、ヴァン勝ち筋として挙げたテイクダウン防御と打撃継続には近いが、判定決着ではなかった。"
       }
     },
     {
@@ -345,12 +345,12 @@
         "deadline": "2026-05-09"
       },
       "verification": {
-        "status": "pending",
-        "verification_date": null,
-        "winner": null,
-        "method": null,
-        "actual_outcome": null,
-        "notes": "試合未実施のため未検証。勝者を明示していないため主予測（勝者方向）の的中判定の対象外。"
+        "status": "excluded_from_stats",
+        "verification_date": "2026-05-10",
+        "winner": "ジョシュア・ヴァン",
+        "method": "TKO",
+        "actual_outcome": "ジョシュア・ヴァンが5R 1:32 TKO（パンチ）で平良達郎に勝利し、UFCフライ級王座を防衛。",
+        "notes": "勝者を明示していないため、主予測（勝者方向）の的中判定の対象外。実際はヴァンが5R TKOで防衛。"
       }
     }
   ]
